@@ -1,0 +1,2 @@
+trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff
+Nordleden,Gjesteloftet på Stiklestad middelaldergård.,Overnatting,63.7960021,11.5622009,matched,node/14086452092,https://www.openstreetmap.org/node/14086452092,13.2,tourism=information; information=office; pilgrimage=stamp_office; checkpoint:type=stamp

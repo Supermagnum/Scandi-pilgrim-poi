@@ -1,0 +1,17 @@
+# Ignore local Geofabrik extracts (multi-hundred MB / GB)
+data/geofabrik/*.osm.pbf
+data/geofabrik/*.pbf
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Optional local Playwright / browser caches
+.playwright/

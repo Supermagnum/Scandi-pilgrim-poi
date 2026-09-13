@@ -1,0 +1,1716 @@
+[
+  {
+    "url": "https://map-embed.naturkartan.se/embed.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/?iframe-id=naturkartan-jV9ewEAEkpDdcCJMN83Pp&parent-base=stolavsleden.com&parent-url=https%3A%2F%2Fstolavsleden.com%2Fhiking%2F&strict=guide&guide=154&query=guide%3D154%26category%3D33&quick-categories=55%2C54%2C31%2C34%2C63%2C72%2C19%2C86%2C60%2C53%2C73%2C97&scroll-zoom=false&importance-control=false&a11y-control=false&client=stolavsleden&language=en",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/index.b847d8cc86.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/lib-mapbox.42ed703cc0.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/images/logo-animated.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-react.283f295593.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/index.0a4281576e.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/907.30cbfbf80a.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-mapbox.2006365b41.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/svg/outdoormap-logo-white.7abc7c6949.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/5c6b5a22-e55a-4de0-8d90-490d8dd12de9",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/5c6b5a22-e55a-4de0-8d90-490d8dd12de9",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/5c6b5a22-e55a-4de0-8d90-490d8dd12de9",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/5c6b5a22-e55a-4de0-8d90-490d8dd12de9",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/5c6b5a22-e55a-4de0-8d90-490d8dd12de9",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/5c6b5a22-e55a-4de0-8d90-490d8dd12de9",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/categories",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 89423,
+    "json_preview": "{\"data\":[{\"attributes\":{\"aliases\":{\"fi\":[],\"nb\":[],\"pl\":[],\"sv\":[]},\"icon\":\"culture\",\"legacy_type\":\"activity_type\",\"name\":{\"nl\":\"Cultureel park\",\"da\":\"Kulturreservat\",\"de\":\"Kulturpark\",\"en\":\"Cultural park\",\"fi\":\"Kulttuurikohde\",\"nb\":\"Kulturreservat\",\"pl\":\"Rezerwat kultury\",\"sv\":\"Kulturreservat\"},\"priority\":1,\"slug\":\"cultural-park\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/categories/1\"},\"relationships\":{\"category_group\":{\"data\":{\"id\":\"2\",\"type\":\"category_groups\"}}},\"type\":\"categories\"},{\"attributes\":{\"alia"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/guides",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 86878,
+    "json_preview": "{\"data\":[{\"attributes\":{\"created_at\":\"2014-08-22T12:14:15\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Botkyrka kommun\"},\"slug\":\"botkyrka\",\"updated_at\":\"2026-09-12T01:31:23\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/guides/1\"},\"type\":\"guides\"},{\"attributes\":{\"created_at\":\"2014-08-22T12:14:16\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby kommun\"},\"slug\":\"upplands-vasby\",\"updated_at\":\""
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.1/counties",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 148703,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"description\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Stockholms län är mycket mer än stadens puls och myllrande gator. Här finns en fantastisk och varierad natur med skärgårdens vidsträckta öar, djupa skogar, vilda kustlandskap och orörda insjöar. Med sina många nationalparker, naturreservat och skärgårdsöar är länet en perfekt plats för både korta och längre naturupplevelser. Oavs"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 174993,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.520738,\"lon\":17.909281,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby\"},\"published\":true},\"id\":\"1\",\"links\":{\"self\":\"/v3/municipalities/1\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"1\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.53466,\"lon\":18.078017,\"name\":{\"nl\":null,\"da\":null,\"de\":null"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D33+%7C%7C+main_icon_id:%3D33)&page=1&limit=0&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 206,
+    "json_preview": "{\"facet_counts\":[],\"found\":30,\"hits\":[],\"out_of\":82371,\"page\":1,\"request_params\":{\"collection_name\":\"site:production-1788177827\",\"first_q\":\"*\",\"per_page\":0,\"q\":\"*\"},\"search_cutoff\":false,\"search_time_ms\":2}"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&limit=250&page=1&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D33+%7C%7C+main_icon_id:%3D33)&sort_by=importance:asc&include_fields=id,type,name_sv,name_en,path,published,importance,average_rating,length,popularity,difficulty,time,wheelchair_tested,trail_status_reported_at,imgix_url,guide_ids,county_id,municipality_id,organization_id,trip_ids,category_ids,main_category_icon,main_icon_id,marker_point,show_elevations,show_on_naturkartan&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 19724,
+    "json_preview": "{\"facet_counts\":[],\"found\":30,\"hits\":[{\"document\":{\"category_ids\":[31,33,34,116],\"county_id\":31,\"guide_ids\":[154],\"id\":\"22339\",\"imgix_url\":\"https://uploads.naturkartan-cdn.se/af7c6e79fe15d6a6c216d197e8aad851.jpg\",\"importance\":2,\"length\":19.0,\"main_category_icon\":\"pilgrim-trail\",\"main_icon_id\":116,\"marker_point\":[63.36665066194944,10.76785306488572],\"municipality_id\":566,\"name_en\":\"Lånke / Vaernes - Mostadmark / Nyhus\",\"name_sv\":\"Værnes - Nyhus\",\"organization_id\":139,\"path\":\"/trondelag/lanke-va"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities?page[after]=g3QAAAABdwJpZGIAAAH0",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 84667,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Flå\"},\"published\":true},\"id\":\"501\",\"links\":{\"self\":\"/v3/municipalities/501\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"26\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\""
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22341",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 6837,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.76342226,63.368080652],[10.762317189,63.36802294],[10.761507162,63.36770793]],[[10.761485705,63.36770793],[10.761174568,63.367814938],[10.76060594,63.368306687],[10.75931848,63.368693828],[10.758653292,63.369319014],[10.758309969,63.369549848],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22338",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 7124,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.065143795,63.537212959],[11.063555927,63.533454888],[11.063234062,63.533225372],[11.061152668,63.532345541],[11.059457512,63.531800415],[11.058427543,63.531561321]],[[11.058453435,63.53156859],[11.056178922,63.531071269],[11.052659864,63.529827"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22332",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 23141,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.268135235,63.580532351],[12.267646194,63.580700196],[12.266301317,63.581204535],[12.266065031,63.581256838],[12.265436724,63.58144124],[12.264976976,63.581545427],[12.264540531,63.581605358],[12.264305586,63.581653554],[12.263635285,63.58173502"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21177",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 11169,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.639172966,62.635115615],[15.639449234,62.634788897]],[[15.639172966,62.635115615],[15.639465327,62.635349864],[15.63944387,62.635404111]],[[15.63944378,62.635404062],[15.639221157,62.635667897],[15.639357949,62.635936662],[15.639138008,62.63615"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21250",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 6721,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.40162191,63.524421112],[12.400849434,63.525023775],[12.399626347,63.526076013],[12.39591417,63.527749948],[12.394412132,63.528572532],[12.393854233,63.52897425],[12.392995926,63.529701155]],[[12.392959938,63.529706408],[12.391693935,63.53112190"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22336",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 24639,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.38297353,63.724300912],[11.382349162,63.724180904],[11.382196862,63.724022898],[11.382753714,63.723896398],[11.38318182,63.723703403],[11.383007214,63.72336661],[11.382768236,63.723067812],[11.382590686,63.722384707],[11.382665526,63.721989712]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22335",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 17423,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.561837727,63.795945457],[11.561799171,63.795894244],[11.56162072,63.795935902],[11.561286282,63.796241003],[11.561076902,63.796312166],[11.560608102,63.796281656],[11.560381791,63.796292803],[11.559923468,63.796241842],[11.559448885,63.79617101"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21170",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 7744,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.019487253,62.347438491],[17.018285623,62.347757167],[17.017384401,62.347976255],[17.015667787,62.348872508],[17.011504999,62.349828482],[17.0103892,62.349908145],[17.005239359,62.349728903],[17.000861994,62.350007724],[16.993695131,62.34988823]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21195",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 12672,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.412349574,63.246329985],[14.411918744,63.246369883],[14.41200952,63.246559398],[14.411999369,63.247152055],[14.412142847,63.2471987],[14.412214586,63.247245345],[14.412971831,63.247489333],[14.413713134,63.247690263],[14.414255161,63.247833784]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21169",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 8901,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.208059062,62.405533865],[17.209212412,62.405762471],[17.208973695,62.406165011],[17.209207047,62.406368764],[17.20816635,62.407760212],[17.2078874,62.407511744],[17.207458247,62.407998739],[17.207179297,62.407968923],[17.205891837,62.408137879]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21249",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 18861,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.026514012,62.960290985],[15.02663671,62.960310499],[15.026627323,62.960431315],[15.026723966,62.960666343],[15.026730923,62.960894499],[15.02665909,62.96099659],[15.026540486,62.961095748],[15.026103035,62.961342595],[15.025720149,62.961501348]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21178",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 15082,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.420076641,62.750394679],[15.418756994,62.752277292],[15.417625102,62.753690094],[15.41701624,62.75370882],[15.416407379,62.753766841]],[[15.41636108,62.753828072],[15.415481315,62.754992149]],[[15.41547802,62.754994713],[15.415241985,62.7553090"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21196",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 14110,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.175617388,63.345877574],[14.176493435,63.345909295],[14.176890568,63.345886652],[14.177654339,63.34579844],[14.178015386,63.345650911],[14.1784427,63.345404024],[14.178859236,63.345256812],[14.180247218,63.345005671],[14.180935873,63.344730867]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21241",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 7859,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.17148572,62.497799536],[16.171678839,62.497423],[16.171528635,62.496451912],[16.171550093,62.49570871],[16.171356974,62.4952826],[16.171378432,62.494370901],[16.170906363,62.49375648],[16.168953715,62.494142972],[16.167966662,62.494400631],[16."
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21198",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 24619,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.946832838,63.383460371],[13.946420448,63.384839639],[13.94642883,63.385077447],[13.946948005,63.385302091],[13.947338434,63.38558441]],[[13.947338434,63.38558441],[13.94754488,63.385761939],[13.94738772,63.386039631],[13.947304823,63.386122863]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22342",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 8857,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.395674111,63.427072397],[10.39692705,63.427207983],[10.396598836,63.427663717],[10.39992775,63.427903044],[10.399934874,63.428022569],[10.400013916,63.428246199],[10.400201503,63.428322893],[10.400464359,63.428308392],[10.400685055,63.428332113"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22339",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 32281,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.922519966,63.443576701],[10.922377389,63.443422558],[10.922254092,63.443208987],[10.922091902,63.442853092],[10.921640872,63.442025882],[10.920927404,63.440999518],[10.920831096,63.44090497],[10.920470758,63.440632809],[10.920192311,63.44049576"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22333",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 25056,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.989926416,63.672358402],[11.989412857,63.672444904],[11.989097782,63.672471558],[11.988841211,63.672371981],[11.988613224,63.672227561],[11.988388086,63.67222446],[11.987985838,63.672352032],[11.987468842,63.672558898],[11.987076988,63.67266140"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22337",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 8657,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.274210568,63.637104107],[11.274181539,63.637012503],[11.273802929,63.636443875],[11.27346145,63.635979769],[11.273438232,63.635800396],[11.273482489,63.635699478],[11.273574438,63.635589675],[11.273680888,63.635508873],[11.273958748,63.63536294"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22125",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 13803,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.0805841,63.397725857],[13.080183738,63.397433219],[13.07965463,63.397082925],[13.079017187,63.39739032],[13.078777045,63.397543709],[13.078479655,63.39767212],[13.078213278,63.397837663],[13.078008005,63.398035056],[13.077880265,63.398216022],["
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21186",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 15602,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.232489906,62.914202122],[15.224682725,62.915983588],[15.223149355,62.915349393],[15.222345545,62.914734725],[15.221664691,62.913919335],[15.22043377,62.91359468],[15.217550609,62.913338414],[15.215504297,62.913331296],[15.213844222,62.913050602"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22334",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 5462,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.750306,63.774285618],[11.74910437,63.774285618],[11.743954529,63.774778694],[11.740006317,63.77521487],[11.736444344,63.775632076]],[[11.736459399,63.775618969],[11.735043193,63.775837051],[11.72972169,63.776481807],[11.725043918,63.777107585]]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21188",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 8945,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.81973446,63.090527337],[14.819592051,63.090571677],[14.819491552,63.090657591],[14.819171112,63.090806705],[14.818720501,63.091211635],[14.818583708,63.091299058],[14.818241308,63.091456554],[14.8178,63.091753274],[14.817012353,63.092217883],[1"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21239",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 7943,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.578696854,62.415745248],[16.579168923,62.416361275],[16.576100476,62.41681832],[16.574169285,62.41681832],[16.571830399,62.416619606],[16.5701567,62.416450698],[16.569491513,62.416311596],[16.567689068,62.41630166],[16.567410118,62.416212238],["
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21244",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 18652,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.920848915,62.537032855],[15.920703392,62.537077227],[15.92050164,62.537068761],[15.919993445,62.536874134],[15.919578793,62.536738347],[15.91914,62.536837421],[15.918624094,62.536901878],[15.917922109,62.536896932],[15.916694747,62.536912942],["
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21189",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 17521,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.630418867,63.179022214],[14.630301075,63.17912897],[14.629700373,63.17925012],[14.629164044,63.179400314],[14.628622463,63.179599044],[14.628536857,63.17977841],[14.624584182,63.179660837],[14.624026733,63.179828962],[14.622879649,63.18023782],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21208",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 21951,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.645357075,63.310775366],[13.643310629,63.310526479],[13.641695352,63.31028969],[13.641136866,63.310239398],[13.64060889,63.310157088],[13.639869941,63.310080561],[13.637958197,63.309738915],[13.63633655,63.309548394],[13.636111412,63.309510592]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21212",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 23033,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.360203719,63.320818121],[13.359987884,63.320618068],[13.360327896,63.320416879],[13.360651815,63.320283131],[13.360605442,63.320223208],[13.360280119,63.320076573],[13.360105001,63.320026284],[13.359994255,63.319908553],[13.359186491,63.3192641"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/26608",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 57821,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.197359,63.616651],[12.19722,63.61673],[12.19657,63.61725],[12.19627,63.61741],[12.19611,63.61747],[12.1955,63.61761],[12.19366,63.6181],[12.19328,63.61823],[12.19286,63.61845],[12.19226,63.61884],[12.19205,63.61893],[12.1918,63.61899],[12.19089"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/19771",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/hiking/",
+    "bytes": 125810,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.315430391,62.386808961],[17.314775486,62.386991221],[17.315003471,62.38763433],[17.313585762,62.387962768],[17.314094628,62.388887019],[17.314503907,62.390341258],[17.302741,62.391671],[17.299031,62.391857],[17.298948,62.391954],[17.290699,62.3"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/hiking/"
+  },
+  {
+    "url": "https://map-embed.naturkartan.se/embed.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/?iframe-id=naturkartan-qBK-kzRwFHWiG3H8Q2V8i&parent-base=stolavsleden.com&parent-url=https%3A%2F%2Fstolavsleden.com%2Fbiking%2F&strict=guide&guide=154&query=guide%3D154%26category%3D31&quick-categories=55%2C54&scroll-zoom=false&importance-control=false&a11y-control=false&client=stolavsleden&language=en",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-mapbox.2006365b41.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-react.283f295593.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/907.30cbfbf80a.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/index.0a4281576e.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/lib-mapbox.42ed703cc0.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/index.b847d8cc86.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/images/logo-animated.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/svg/outdoormap-logo-white.7abc7c6949.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/f985f678-d1fd-4193-9448-bc713ed66a27",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/f985f678-d1fd-4193-9448-bc713ed66a27",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/f985f678-d1fd-4193-9448-bc713ed66a27",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/f985f678-d1fd-4193-9448-bc713ed66a27",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/f985f678-d1fd-4193-9448-bc713ed66a27",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/f985f678-d1fd-4193-9448-bc713ed66a27",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/categories",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 89423,
+    "json_preview": "{\"data\":[{\"attributes\":{\"aliases\":{\"fi\":[],\"nb\":[],\"pl\":[],\"sv\":[]},\"icon\":\"culture\",\"legacy_type\":\"activity_type\",\"name\":{\"nl\":\"Cultureel park\",\"da\":\"Kulturreservat\",\"de\":\"Kulturpark\",\"en\":\"Cultural park\",\"fi\":\"Kulttuurikohde\",\"nb\":\"Kulturreservat\",\"pl\":\"Rezerwat kultury\",\"sv\":\"Kulturreservat\"},\"priority\":1,\"slug\":\"cultural-park\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/categories/1\"},\"relationships\":{\"category_group\":{\"data\":{\"id\":\"2\",\"type\":\"category_groups\"}}},\"type\":\"categories\"},{\"attributes\":{\"alia"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D31+%7C%7C+main_icon_id:%3D31)&page=1&limit=0&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 206,
+    "json_preview": "{\"facet_counts\":[],\"found\":30,\"hits\":[],\"out_of\":82371,\"page\":1,\"request_params\":{\"collection_name\":\"site:production-1788177827\",\"first_q\":\"*\",\"per_page\":0,\"q\":\"*\"},\"search_cutoff\":false,\"search_time_ms\":2}"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.1/counties",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 148703,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"description\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Stockholms län är mycket mer än stadens puls och myllrande gator. Här finns en fantastisk och varierad natur med skärgårdens vidsträckta öar, djupa skogar, vilda kustlandskap och orörda insjöar. Med sina många nationalparker, naturreservat och skärgårdsöar är länet en perfekt plats för både korta och längre naturupplevelser. Oavs"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/guides",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 86878,
+    "json_preview": "{\"data\":[{\"attributes\":{\"created_at\":\"2014-08-22T12:14:15\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Botkyrka kommun\"},\"slug\":\"botkyrka\",\"updated_at\":\"2026-09-12T01:31:23\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/guides/1\"},\"type\":\"guides\"},{\"attributes\":{\"created_at\":\"2014-08-22T12:14:16\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby kommun\"},\"slug\":\"upplands-vasby\",\"updated_at\":\""
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 174993,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.520738,\"lon\":17.909281,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby\"},\"published\":true},\"id\":\"1\",\"links\":{\"self\":\"/v3/municipalities/1\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"1\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.53466,\"lon\":18.078017,\"name\":{\"nl\":null,\"da\":null,\"de\":null"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&limit=250&page=1&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D31+%7C%7C+main_icon_id:%3D31)&sort_by=importance:asc&include_fields=id,type,name_sv,name_en,path,published,importance,average_rating,length,popularity,difficulty,time,wheelchair_tested,trail_status_reported_at,imgix_url,guide_ids,county_id,municipality_id,organization_id,trip_ids,category_ids,main_category_icon,main_icon_id,marker_point,show_elevations,show_on_naturkartan&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 19777,
+    "json_preview": "{\"facet_counts\":[],\"found\":30,\"hits\":[{\"document\":{\"category_ids\":[31,33,34,116],\"county_id\":31,\"guide_ids\":[154],\"id\":\"22339\",\"imgix_url\":\"https://uploads.naturkartan-cdn.se/af7c6e79fe15d6a6c216d197e8aad851.jpg\",\"importance\":2,\"length\":19.0,\"main_category_icon\":\"pilgrim-trail\",\"main_icon_id\":116,\"marker_point\":[63.36665066194944,10.76785306488572],\"municipality_id\":566,\"name_en\":\"Lånke / Vaernes - Mostadmark / Nyhus\",\"name_sv\":\"Værnes - Nyhus\",\"organization_id\":139,\"path\":\"/trondelag/lanke-va"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities?page[after]=g3QAAAABdwJpZGIAAAH0",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 84667,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Flå\"},\"published\":true},\"id\":\"501\",\"links\":{\"self\":\"/v3/municipalities/501\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"26\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\""
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22339",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 32281,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.922519966,63.443576701],[10.922377389,63.443422558],[10.922254092,63.443208987],[10.922091902,63.442853092],[10.921640872,63.442025882],[10.920927404,63.440999518],[10.920831096,63.44090497],[10.920470758,63.440632809],[10.920192311,63.44049576"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22337",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 8657,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.274210568,63.637104107],[11.274181539,63.637012503],[11.273802929,63.636443875],[11.27346145,63.635979769],[11.273438232,63.635800396],[11.273482489,63.635699478],[11.273574438,63.635589675],[11.273680888,63.635508873],[11.273958748,63.63536294"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22334",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 5462,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.750306,63.774285618],[11.74910437,63.774285618],[11.743954529,63.774778694],[11.740006317,63.77521487],[11.736444344,63.775632076]],[[11.736459399,63.775618969],[11.735043193,63.775837051],[11.72972169,63.776481807],[11.725043918,63.777107585]]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22342",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 8857,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.395674111,63.427072397],[10.39692705,63.427207983],[10.396598836,63.427663717],[10.39992775,63.427903044],[10.399934874,63.428022569],[10.400013916,63.428246199],[10.400201503,63.428322893],[10.400464359,63.428308392],[10.400685055,63.428332113"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22338",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 7124,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.065143795,63.537212959],[11.063555927,63.533454888],[11.063234062,63.533225372],[11.061152668,63.532345541],[11.059457512,63.531800415],[11.058427543,63.531561321]],[[11.058453435,63.53156859],[11.056178922,63.531071269],[11.052659864,63.529827"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21551",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 5349,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.401605332,63.524390515],[12.400274956,63.525500172],[12.399717057,63.52599759],[12.398043358,63.526820224],[12.395704472,63.527853266],[12.394266808,63.528647152]],[[12.394250802,63.528645695],[12.392834595,63.529831701],[12.391740254,63.531055"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21533",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 11677,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.171714654,62.497819326],[16.170655557,62.497772115],[16.169548476,62.497831269],[16.169523031,62.496767074],[16.169429449,62.496016932],[16.170379082,62.495857041],[16.171581223,62.495690541],[16.171372801,62.495097784],[16.171415566,62.4943755"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21545",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 17508,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.961043684,63.384431395],[13.959121176,63.384347769],[13.956910529,63.384288896],[13.95402835,63.384063585],[13.943442955,63.38314499],[13.942364941,63.383094265],[13.941390148,63.383115542],[13.939975801,63.38328554],[13.938420861,63.383535223]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21547",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 9629,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.281660725,63.314555564],[13.278727985,63.314843216],[13.275202903,63.315142645],[13.273085971,63.315212027],[13.270665481,63.315410709],[13.267909437,63.31556727]],[[13.267909437,63.31556727],[13.267255516,63.315198284],[13.266172517,63.3149380"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21546",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 14295,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.645357075,63.310775366],[13.643310629,63.310526479],[13.641695352,63.31028969],[13.641136866,63.310239398],[13.64060889,63.310157088],[13.639869941,63.310080561],[13.637958197,63.309738915],[13.63633655,63.309548394],[13.636111412,63.309510592]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21541",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 15177,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.630644172,63.179041577],[14.630776051,63.179213942],[14.630596794,63.179797773],[14.630433404,63.179839781],[14.629637013,63.179847904],[14.628537758,63.179796379],[14.624542168,63.179654603],[14.622890828,63.180241359],[14.622561252,63.1802585"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21539",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 14091,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.930939998,63.012328217],[14.930937253,63.012346895],[14.93096193,63.012325845],[14.931042446,63.012395594],[14.931721464,63.012577062],[14.931936292,63.012659121],[14.932490755,63.013151809],[14.932854194,63.013420282],[14.93326298,63.013777434"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21542",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 10983,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.412349574,63.246329985],[14.411918744,63.246369883],[14.41200952,63.246559398],[14.411990636,63.247139688],[14.412215274,63.247244418],[14.41275588,63.247425871],[14.41433182,63.247871878],[14.415432378,63.247851449],[14.416759856,63.247672697]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21261",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 18867,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.019347101,62.347460262],[17.017412307,62.348024457],[17.015649173,62.348907306],[17.011438818,62.3498339],[17.008950356,62.349887536],[17.006995361,62.349837413],[17.005888866,62.349774967],[17.00526081,62.349761975],[17.004173342,62.349815536]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22341",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 6837,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.76342226,63.368080652],[10.762317189,63.36802294],[10.761507162,63.36770793]],[[10.761485705,63.36770793],[10.761174568,63.367814938],[10.76060594,63.368306687],[10.75931848,63.368693828],[10.758653292,63.369319014],[10.758309969,63.369549848],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22333",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 25056,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.989926416,63.672358402],[11.989412857,63.672444904],[11.989097782,63.672471558],[11.988841211,63.672371981],[11.988613224,63.672227561],[11.988388086,63.67222446],[11.987985838,63.672352032],[11.987468842,63.672558898],[11.987076988,63.67266140"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22332",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 23141,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.268135235,63.580532351],[12.267646194,63.580700196],[12.266301317,63.581204535],[12.266065031,63.581256838],[12.265436724,63.58144124],[12.264976976,63.581545427],[12.264540531,63.581605358],[12.264305586,63.581653554],[12.263635285,63.58173502"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22336",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 24639,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.38297353,63.724300912],[11.382349162,63.724180904],[11.382196862,63.724022898],[11.382753714,63.723896398],[11.38318182,63.723703403],[11.383007214,63.72336661],[11.382768236,63.723067812],[11.382590686,63.722384707],[11.382665526,63.721989712]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22335",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 17423,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.561837727,63.795945457],[11.561799171,63.795894244],[11.56162072,63.795935902],[11.561286282,63.796241003],[11.561076902,63.796312166],[11.560608102,63.796281656],[11.560381791,63.796292803],[11.559923468,63.796241842],[11.559448885,63.79617101"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/26608",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 57821,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.197359,63.616651],[12.19722,63.61673],[12.19657,63.61725],[12.19627,63.61741],[12.19611,63.61747],[12.1955,63.61761],[12.19366,63.6181],[12.19328,63.61823],[12.19286,63.61845],[12.19226,63.61884],[12.19205,63.61893],[12.1918,63.61899],[12.19089"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21550",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 6219,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.732035768,63.432003697],[12.729460847,63.432637102],[12.728216302,63.433193719],[12.726542604,63.434690773],[12.72418226,63.435919066],[12.721349847,63.437627075],[12.720191133,63.438030073],[12.717744958,63.438413875],[12.705857408,63.43966119"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21538",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 10652,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.232339702,62.914241203],[15.224655748,62.915990879],[15.223120998,62.915343852],[15.222289249,62.914727234],[15.222295889,62.914446066],[15.221787545,62.914008572],[15.220599194,62.913602547],[15.217519492,62.913326748],[15.214327399,62.9131497"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21548",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 10675,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.079639962,63.397120507],[13.079461511,63.397179013],[13.079157667,63.397317733],[13.078777045,63.397543709],[13.07833205,63.397752586],[13.078213278,63.397837663],[13.078008005,63.398035056],[13.077880265,63.398216022],[13.077790579,63.39852154"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21543",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 10895,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.175617388,63.345877574],[14.176493435,63.345909295],[14.176890568,63.345886652],[14.177654339,63.34579844],[14.178015386,63.345650911],[14.1784427,63.345404024],[14.178859236,63.345256812],[14.180247218,63.345005671],[14.180935873,63.344730867]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21535",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 6105,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.640350492,62.633055282],[15.639327125,62.634481648]],[[15.639327125,62.634481648],[15.637197373,62.637598641],[15.635828845,62.639471545],[15.634310018,62.640839257],[15.631648363,62.643074202],[15.628502205,62.645846099],[15.62573516,62.649734"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21540",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 8803,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.81973446,63.090527337],[14.819592051,63.090571677],[14.819491552,63.090657591],[14.819171112,63.090806705],[14.818720501,63.091211635],[14.818583708,63.091299058],[14.818241308,63.091456554],[14.8178,63.091753274],[14.817012353,63.092217883],[1"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21536",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 16059,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.420150417,62.750361655],[15.417751529,62.753628984],[15.417065976,62.753704081],[15.416380424,62.753661294],[15.415009318,62.755599337],[15.413930077,62.756734645],[15.413387278,62.756592983],[15.412828038,62.756903367],[15.412605414,62.7569214"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21262",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 18734,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.57872688,62.415625546],[16.579123931,62.416251171],[16.579045979,62.416357286],[16.578872977,62.416421659],[16.578126987,62.416515788],[16.577731445,62.416606228],[16.57710012,62.416723324],[16.576440716,62.41679742],[16.57553413,62.416842263],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21260",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 14183,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.208075374,62.405537997],[17.209190157,62.405751808],[17.208963835,62.406149493],[17.209197837,62.40641808],[17.208206719,62.40775035],[17.207865994,62.407552491],[17.207709504,62.40770054],[17.207616298,62.40783113],[17.207483444,62.407945292],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21185",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 171399,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.315221997,62.387215002],[17.315045977,62.387332013],[17.31501597,62.387465034],[17.315283939,62.387583973],[17.317851735,62.387113078],[17.318442911,62.387648094],[17.318639969,62.388130808],[17.316049961,62.388417888],[17.3166693,62.390048755]"
+  },
+  {
+    "url": "https://map.naturkartan.se/sprite/sprite.png",
+    "status": 200,
+    "content_type": "image/png",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/sprite/sprite.json",
+    "status": 200,
+    "content_type": "application/json",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 45225,
+    "json_preview": "{\"none\":{\"width\":63,\"height\":82,\"x\":0,\"y\":0,\"pixelRatio\":1},\"none-active\":{\"width\":63,\"height\":82,\"x\":63,\"y\":0,\"pixelRatio\":1},\"activity-active\":{\"width\":75,\"height\":81,\"x\":0,\"y\":82,\"pixelRatio\":1},\"activity-area\":{\"width\":75,\"height\":81,\"x\":75,\"y\":82,\"pixelRatio\":1},\"activity-place\":{\"width\":75,\"height\":81,\"x\":150,\"y\":82,\"pixelRatio\":1},\"activity-trail\":{\"width\":75,\"height\":81,\"x\":126,\"y\":0,\"pixelRatio\":1},\"archaeological-active\":{\"width\":75,\"height\":81,\"x\":0,\"y\":163,\"pixelRatio\":1},\"archaeolog"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)&facet_by=category_ids&max_facet_values=9999&limit=0&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 2866,
+    "json_preview": "{\"facet_counts\":[{\"counts\":[{\"count\":166,\"highlighted\":\"55\",\"value\":\"55\"},{\"count\":87,\"highlighted\":\"60\",\"value\":\"60\"},{\"count\":70,\"highlighted\":\"19\",\"value\":\"19\"},{\"count\":67,\"highlighted\":\"116\",\"value\":\"116\"},{\"count\":56,\"highlighted\":\"54\",\"value\":\"54\"},{\"count\":39,\"highlighted\":\"72\",\"value\":\"72\"},{\"count\":36,\"highlighted\":\"73\",\"value\":\"73\"},{\"count\":34,\"highlighted\":\"65\",\"value\":\"65\"},{\"count\":33,\"highlighted\":\"69\",\"value\":\"69\"},{\"count\":31,\"highlighted\":\"34\",\"value\":\"34\"},{\"count\":30,\"highli"
+  },
+  {
+    "url": "https://www.naturkartan.se/assets/categories/54/main.svg",
+    "status": 200,
+    "content_type": "image/svg+xml; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://www.naturkartan.se/assets/categories/55/main.svg",
+    "status": 200,
+    "content_type": "image/svg+xml; charset=utf-8",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/glyphs/Open%20Sans%20Bold/0-255.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/styles/lantmateriet.json",
+    "status": 200,
+    "content_type": "application/json",
+    "page": "https://stolavsleden.com/biking/",
+    "bytes": 129165,
+    "json_preview": "{\n  \"version\": 8,\n  \"name\": \"Lantmäteriet\",\n  \"metadata\": {\n    \"outdoormap:icon-url\": \"https://tiles.outdoormap.dev/previews/icons/lantmateriet/{name}.svg\"\n  },\n  \"sources\": {\n    \"osm\": {\n      \"type\": \"vector\",\n      \"url\": \"https://tiles.outdoormap.dev/tiles/europe\",\n      \"attribution\": \"© OpenStreetMap contributors\"\n    },\n    \"osm-details\": {\n      \"type\": \"vector\",\n      \"url\": \"https://tiles.outdoormap.dev/tiles/osm-details\",\n      \"attribution\": \"© OpenStreetMap contributors\"\n    },"
+  },
+  {
+    "url": "https://map.naturkartan.se/glyphs/Open%20Sans%20Regular/0-255.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/glyphs/Open%20Sans%20Regular/256-511.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map.naturkartan.se/glyphs/Open%20Sans%20Italic/0-255.pbf",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "page": "https://stolavsleden.com/biking/"
+  },
+  {
+    "url": "https://map-embed.naturkartan.se/embed.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/?iframe-id=naturkartan-dBRaCS_MbgDeu-HepCOHB&parent-base=stolavsleden.com&parent-url=https%3A%2F%2Fstolavsleden.com%2Fhorse-back-riding%2F&strict=guide&guide=154&query=guide%3D154%26category%3D34&quick-categories=55%2C54%2C33%2C31%2C63%2C72%2C19%2C86%2C60%2C53%2C73%2C97&scroll-zoom=false&importance-control=false&a11y-control=false&client=stolavsleden&language=en",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/lib-mapbox.42ed703cc0.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/index.b847d8cc86.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/images/logo-animated.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-react.283f295593.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/index.0a4281576e.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-mapbox.2006365b41.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/907.30cbfbf80a.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/svg/outdoormap-logo-white.7abc7c6949.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/e4eb4928-dba1-4a9a-82f1-b0a60993ccc6",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/e4eb4928-dba1-4a9a-82f1-b0a60993ccc6",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/e4eb4928-dba1-4a9a-82f1-b0a60993ccc6",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/e4eb4928-dba1-4a9a-82f1-b0a60993ccc6",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/e4eb4928-dba1-4a9a-82f1-b0a60993ccc6",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/e4eb4928-dba1-4a9a-82f1-b0a60993ccc6",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/categories",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 89423,
+    "json_preview": "{\"data\":[{\"attributes\":{\"aliases\":{\"fi\":[],\"nb\":[],\"pl\":[],\"sv\":[]},\"icon\":\"culture\",\"legacy_type\":\"activity_type\",\"name\":{\"nl\":\"Cultureel park\",\"da\":\"Kulturreservat\",\"de\":\"Kulturpark\",\"en\":\"Cultural park\",\"fi\":\"Kulttuurikohde\",\"nb\":\"Kulturreservat\",\"pl\":\"Rezerwat kultury\",\"sv\":\"Kulturreservat\"},\"priority\":1,\"slug\":\"cultural-park\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/categories/1\"},\"relationships\":{\"category_group\":{\"data\":{\"id\":\"2\",\"type\":\"category_groups\"}}},\"type\":\"categories\"},{\"attributes\":{\"alia"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.1/counties",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 148703,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"description\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Stockholms län är mycket mer än stadens puls och myllrande gator. Här finns en fantastisk och varierad natur med skärgårdens vidsträckta öar, djupa skogar, vilda kustlandskap och orörda insjöar. Med sina många nationalparker, naturreservat och skärgårdsöar är länet en perfekt plats för både korta och längre naturupplevelser. Oavs"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D34+%7C%7C+main_icon_id:%3D34)&page=1&limit=0&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 206,
+    "json_preview": "{\"facet_counts\":[],\"found\":31,\"hits\":[],\"out_of\":82371,\"page\":1,\"request_params\":{\"collection_name\":\"site:production-1788177827\",\"first_q\":\"*\",\"per_page\":0,\"q\":\"*\"},\"search_cutoff\":false,\"search_time_ms\":2}"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/guides",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 86878,
+    "json_preview": "{\"data\":[{\"attributes\":{\"created_at\":\"2014-08-22T12:14:15\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Botkyrka kommun\"},\"slug\":\"botkyrka\",\"updated_at\":\"2026-09-12T01:31:23\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/guides/1\"},\"type\":\"guides\"},{\"attributes\":{\"created_at\":\"2014-08-22T12:14:16\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby kommun\"},\"slug\":\"upplands-vasby\",\"updated_at\":\""
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 174993,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.520738,\"lon\":17.909281,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby\"},\"published\":true},\"id\":\"1\",\"links\":{\"self\":\"/v3/municipalities/1\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"1\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.53466,\"lon\":18.078017,\"name\":{\"nl\":null,\"da\":null,\"de\":null"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities?page[after]=g3QAAAABdwJpZGIAAAH0",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 84667,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Flå\"},\"published\":true},\"id\":\"501\",\"links\":{\"self\":\"/v3/municipalities/501\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"26\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\""
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&limit=250&page=1&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D34+%7C%7C+main_icon_id:%3D34)&sort_by=importance:asc&include_fields=id,type,name_sv,name_en,path,published,importance,average_rating,length,popularity,difficulty,time,wheelchair_tested,trail_status_reported_at,imgix_url,guide_ids,county_id,municipality_id,organization_id,trip_ids,category_ids,main_category_icon,main_icon_id,marker_point,show_elevations,show_on_naturkartan&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 20679,
+    "json_preview": "{\"facet_counts\":[],\"found\":31,\"hits\":[{\"document\":{\"category_ids\":[31,33,34,116],\"county_id\":31,\"guide_ids\":[154],\"id\":\"22339\",\"imgix_url\":\"https://uploads.naturkartan-cdn.se/af7c6e79fe15d6a6c216d197e8aad851.jpg\",\"importance\":2,\"length\":19.0,\"main_category_icon\":\"pilgrim-trail\",\"main_icon_id\":116,\"marker_point\":[63.36665066194944,10.76785306488572],\"municipality_id\":566,\"name_en\":\"Lånke / Vaernes - Mostadmark / Nyhus\",\"name_sv\":\"Værnes - Nyhus\",\"organization_id\":139,\"path\":\"/trondelag/lanke-va"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22341",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 6837,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.76342226,63.368080652],[10.762317189,63.36802294],[10.761507162,63.36770793]],[[10.761485705,63.36770793],[10.761174568,63.367814938],[10.76060594,63.368306687],[10.75931848,63.368693828],[10.758653292,63.369319014],[10.758309969,63.369549848],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22338",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 7124,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.065143795,63.537212959],[11.063555927,63.533454888],[11.063234062,63.533225372],[11.061152668,63.532345541],[11.059457512,63.531800415],[11.058427543,63.531561321]],[[11.058453435,63.53156859],[11.056178922,63.531071269],[11.052659864,63.529827"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22334",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 5462,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.750306,63.774285618],[11.74910437,63.774285618],[11.743954529,63.774778694],[11.740006317,63.77521487],[11.736444344,63.775632076]],[[11.736459399,63.775618969],[11.735043193,63.775837051],[11.72972169,63.776481807],[11.725043918,63.777107585]]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22337",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 8657,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.274210568,63.637104107],[11.274181539,63.637012503],[11.273802929,63.636443875],[11.27346145,63.635979769],[11.273438232,63.635800396],[11.273482489,63.635699478],[11.273574438,63.635589675],[11.273680888,63.635508873],[11.273958748,63.63536294"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22333",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 25056,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.989926416,63.672358402],[11.989412857,63.672444904],[11.989097782,63.672471558],[11.988841211,63.672371981],[11.988613224,63.672227561],[11.988388086,63.67222446],[11.987985838,63.672352032],[11.987468842,63.672558898],[11.987076988,63.67266140"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21569",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 10446,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.36517469,63.325186427],[13.363529141,63.323458785],[13.361664212,63.322435041],[13.360277373,63.322110325],[13.357779695,63.321810808],[13.35472194,63.320773227],[13.353682338,63.320476204],[13.352504387,63.320381841],[13.351502953,63.320341763"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21566",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 16169,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.175617388,63.345877574],[14.176493435,63.345909295],[14.176890568,63.345886652],[14.177654339,63.34579844],[14.178015386,63.345650911],[14.1784427,63.345404024],[14.178859236,63.345256812],[14.180247218,63.345005671],[14.180935873,63.344730867]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21573",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 5068,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.401765829,63.524347403],[12.399941927,63.525820561]],[[12.399912944,63.5258296],[12.399548163,63.526097438],[12.394462695,63.528546131],[12.393110861,63.529540853],[12.391244044,63.531472809],[12.388561835,63.533165555]],[[12.388540755,63.53317"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21563",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 8513,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.81973446,63.090527337],[14.819592051,63.090571677],[14.819491552,63.090657591],[14.819171112,63.090806705],[14.818720501,63.091211635],[14.818583708,63.091299058],[14.818241308,63.091456554],[14.8178,63.091753274],[14.817012353,63.092217883],[1"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21568",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 16286,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.645357075,63.310775366],[13.643310629,63.310526479],[13.641695352,63.31028969],[13.641136866,63.310239398],[13.64060889,63.310157088],[13.639869941,63.310080561],[13.637958197,63.309738915],[13.63633655,63.309548394],[13.636111412,63.309510592]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21556",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 18244,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.57872688,62.415625546],[16.579123931,62.416251171],[16.579045979,62.416357286],[16.578872977,62.416421659],[16.578126987,62.416515788],[16.577731445,62.416606228],[16.57710012,62.416723324],[16.576440716,62.41679742],[16.57553413,62.416842263],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21562",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 11712,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.253956355,62.916847514],[15.253349254,62.916972152],[15.25215718,62.917283959],[15.251546809,62.917422847],[15.250882711,62.917547905],[15.249706646,62.917709928],[15.24847459,62.917824341],[15.247513186,62.917883098],[15.244877245,62.918009748"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21559",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 15966,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.640350492,62.633055282],[15.639327125,62.634481648]],[[15.639348049,62.63448433],[15.63942053,62.634692106]],[[15.63942053,62.634692106],[15.63916021,62.63509294],[15.639164234,62.635189499],[15.639228355,62.63528564],[15.639484758,62.63537365]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21554",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 14586,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.208171934,62.405562845],[17.209145492,62.405767517],[17.208981793,62.406161034],[17.209216256,62.40641671],[17.208742616,62.406990431],[17.208215331,62.407752976],[17.207870437,62.407531582],[17.207616298,62.40783113],[17.207483444,62.407945292"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21555",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 18763,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.009540945,62.349959788],[17.009362075,62.349893152],[17.006995361,62.349837413],[17.005888866,62.349774967],[17.00526081,62.349761975],[17.004173342,62.349815536],[17.002755124,62.349913939],[17.002062192,62.349992897],[17.001349814,62.35005601"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22342",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 8857,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.395674111,63.427072397],[10.39692705,63.427207983],[10.396598836,63.427663717],[10.39992775,63.427903044],[10.399934874,63.428022569],[10.400013916,63.428246199],[10.400201503,63.428322893],[10.400464359,63.428308392],[10.400685055,63.428332113"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22339",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 32281,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.922519966,63.443576701],[10.922377389,63.443422558],[10.922254092,63.443208987],[10.922091902,63.442853092],[10.921640872,63.442025882],[10.920927404,63.440999518],[10.920831096,63.44090497],[10.920470758,63.440632809],[10.920192311,63.44049576"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22336",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 24639,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.38297353,63.724300912],[11.382349162,63.724180904],[11.382196862,63.724022898],[11.382753714,63.723896398],[11.38318182,63.723703403],[11.383007214,63.72336661],[11.382768236,63.723067812],[11.382590686,63.722384707],[11.382665526,63.721989712]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22335",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 17423,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.561837727,63.795945457],[11.561799171,63.795894244],[11.56162072,63.795935902],[11.561286282,63.796241003],[11.561076902,63.796312166],[11.560608102,63.796281656],[11.560381791,63.796292803],[11.559923468,63.796241842],[11.559448885,63.79617101"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22332",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 23141,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.268135235,63.580532351],[12.267646194,63.580700196],[12.266301317,63.581204535],[12.266065031,63.581256838],[12.265436724,63.58144124],[12.264976976,63.581545427],[12.264540531,63.581605358],[12.264305586,63.581653554],[12.263635285,63.58173502"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/26608",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 57821,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.197359,63.616651],[12.19722,63.61673],[12.19657,63.61725],[12.19627,63.61741],[12.19611,63.61747],[12.1955,63.61761],[12.19366,63.6181],[12.19328,63.61823],[12.19286,63.61845],[12.19226,63.61884],[12.19205,63.61893],[12.1918,63.61899],[12.19089"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21572",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 6263,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.732080813,63.432006798],[12.729377147,63.43267859],[12.728433009,63.433062465],[12.726587649,63.434578718],[12.725943919,63.434981759],[12.72362649,63.43621004],[12.721738215,63.437438269],[12.720622416,63.437918031],[12.718991633,63.438263455]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21565",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 11083,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.412349574,63.246329985],[14.411918744,63.246369883],[14.41200952,63.246559398],[14.411997522,63.247149911],[14.412209043,63.247243362],[14.412541992,63.247356208],[14.414304789,63.247868648],[14.415409397,63.247851016],[14.41673336,63.247678223"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21570",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 11668,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.079639962,63.397120507],[13.079461511,63.397179013],[13.079157667,63.397317733],[13.078777045,63.397543709],[13.07833205,63.397752586],[13.078213278,63.397837663],[13.078008005,63.398035056],[13.077880265,63.398216022],[13.077790579,63.39852154"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21560",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 14845,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.413884776,62.756717608],[15.413322905,62.756597894],[15.412828038,62.756903367],[15.412605414,62.756921472],[15.412418582,62.756980396],[15.41200242,62.75720193],[15.411885493,62.757287174],[15.411669156,62.757495297],[15.411183843,62.758068116"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21564",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 15439,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.630696811,63.179006623],[14.630787587,63.179081976],[14.630831005,63.179192114],[14.630748946,63.179707266],[14.630620284,63.179808268],[14.630435212,63.179845986],[14.629290327,63.179838191],[14.627762139,63.179781865],[14.627549413,63.1797425"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21561",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 14000,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.026514012,62.960290985],[15.02663671,62.960320254],[15.026627323,62.960431315],[15.026723966,62.960666343],[15.026730923,62.960894499],[15.02665909,62.96099659],[15.026540486,62.961095748],[15.026103035,62.961342595],[15.025720149,62.961501348]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21557",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 13773,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.171707,62.497820157],[16.170672491,62.497782989],[16.169552152,62.497825091],[16.169517695,62.496934522],[16.169397408,62.496024107],[16.170457292,62.495842017],[16.171560092,62.495719382],[16.171343797,62.495259676],[16.171384994,62.49434411],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21567",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 17607,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.961043684,63.384431395],[13.959121176,63.384347769],[13.956910529,63.384288896],[13.95402835,63.384063585],[13.943442955,63.38314499],[13.942364941,63.383094265],[13.941390148,63.383115542],[13.939975801,63.38328554],[13.938420861,63.383535223]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21558",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 14311,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.904495474,62.541315369],[15.904534366,62.541410168],[15.905160578,62.542155655],[15.905230902,62.542279958],[15.905251522,62.542398814],[15.90533006,62.542510544],[15.905752592,62.54289628],[15.906072194,62.543125106],[15.906213764,62.543369438"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21183",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/horse-back-riding/",
+    "bytes": 113671,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.395743848,63.427079598],[10.396927049,63.427207985],[10.396598835,63.427663718],[10.399927749,63.427903045],[10.400013915,63.4282462],[10.400201502,63.428322894],[10.407642938,63.427819685],[10.408430721,63.428206665],[10.409559309,63.429118501"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/horse-back-riding/"
+  },
+  {
+    "url": "https://map-embed.naturkartan.se/embed.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/?iframe-id=naturkartan-67HFG3Ca2AOGtW5dxJ5SO&parent-base=stolavsleden.com&parent-url=https%3A%2F%2Fstolavsleden.com%2Faccommodation%2F&strict=guide&guide=154&query=guide%3D154%26category%3D55%26category%3D33&quick-categories=55%2C33&importance-control=false&a11y-control=false&client=stolavsleden&language=en",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-mapbox.2006365b41.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/lib-react.283f295593.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/907.30cbfbf80a.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/js/index.0a4281576e.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/lib-mapbox.42ed703cc0.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/css/index.b847d8cc86.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+    "status": 200,
+    "content_type": "font/woff2",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/images/logo-animated.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://map.naturkartan.se/static/svg/outdoormap-logo-white.7abc7c6949.svg",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/785e4fe2-e294-4e9b-bee0-ce2005ff7a28",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/785e4fe2-e294-4e9b-bee0-ce2005ff7a28",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/785e4fe2-e294-4e9b-bee0-ce2005ff7a28",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/785e4fe2-e294-4e9b-bee0-ce2005ff7a28",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/785e4fe2-e294-4e9b-bee0-ce2005ff7a28",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "blob:https://map.naturkartan.se/785e4fe2-e294-4e9b-bee0-ce2005ff7a28",
+    "status": 200,
+    "content_type": "text/javascript",
+    "page": "https://stolavsleden.com/accommodation/"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/categories",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 89423,
+    "json_preview": "{\"data\":[{\"attributes\":{\"aliases\":{\"fi\":[],\"nb\":[],\"pl\":[],\"sv\":[]},\"icon\":\"culture\",\"legacy_type\":\"activity_type\",\"name\":{\"nl\":\"Cultureel park\",\"da\":\"Kulturreservat\",\"de\":\"Kulturpark\",\"en\":\"Cultural park\",\"fi\":\"Kulttuurikohde\",\"nb\":\"Kulturreservat\",\"pl\":\"Rezerwat kultury\",\"sv\":\"Kulturreservat\"},\"priority\":1,\"slug\":\"cultural-park\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/categories/1\"},\"relationships\":{\"category_group\":{\"data\":{\"id\":\"2\",\"type\":\"category_groups\"}}},\"type\":\"categories\"},{\"attributes\":{\"alia"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.1/counties",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 148703,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"description\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Stockholms län är mycket mer än stadens puls och myllrande gator. Här finns en fantastisk och varierad natur med skärgårdens vidsträckta öar, djupa skogar, vilda kustlandskap och orörda insjöar. Med sina många nationalparker, naturreservat och skärgårdsöar är länet en perfekt plats för både korta och längre naturupplevelser. Oavs"
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D55+%7C%7C+main_icon_id:%3D55+%7C%7C+category_ids:%3D33+%7C%7C+main_icon_id:%3D33)&page=1&limit=0&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 207,
+    "json_preview": "{\"facet_counts\":[],\"found\":196,\"hits\":[],\"out_of\":82371,\"page\":1,\"request_params\":{\"collection_name\":\"site:production-1788177827\",\"first_q\":\"*\",\"per_page\":0,\"q\":\"*\"},\"search_cutoff\":false,\"search_time_ms\":3}"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/guides",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 86878,
+    "json_preview": "{\"data\":[{\"attributes\":{\"created_at\":\"2014-08-22T12:14:15\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Botkyrka kommun\"},\"slug\":\"botkyrka\",\"updated_at\":\"2026-09-12T01:31:23\"},\"id\":\"1\",\"links\":{\"self\":\"/v3/guides/1\"},\"type\":\"guides\"},{\"attributes\":{\"created_at\":\"2014-08-22T12:14:16\",\"hidden\":false,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby kommun\"},\"slug\":\"upplands-vasby\",\"updated_at\":\""
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 174993,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.520738,\"lon\":17.909281,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Upplands Väsby\"},\"published\":true},\"id\":\"1\",\"links\":{\"self\":\"/v3/municipalities/1\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"1\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":59.53466,\"lon\":18.078017,\"name\":{\"nl\":null,\"da\":null,\"de\":null"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3/municipalities?page[after]=g3QAAAABdwJpZGIAAAH0",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 84667,
+    "json_preview": "{\"data\":[{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\":null,\"pl\":null,\"sv\":\"Flå\"},\"published\":true},\"id\":\"501\",\"links\":{\"self\":\"/v3/municipalities/501\"},\"relationships\":{\"county\":{\"data\":{\"id\":\"26\",\"type\":\"counties\"}}},\"type\":\"municipalities\"},{\"attributes\":{\"boundary_code\":null,\"bounds\":null,\"geometry\":null,\"lat\":null,\"lon\":null,\"name\":{\"nl\":null,\"da\":null,\"de\":null,\"en\":null,\"fi\":null,\"nb\""
+  },
+  {
+    "url": "https://ts.naturkartan.se/collections/site%3Aproduction/documents/search?q=*&limit=250&page=1&filter_by=(guide_ids:%3D154)+%26%26+(published:%3Dtrue)+%26%26+(category_ids:%3D55+%7C%7C+main_icon_id:%3D55+%7C%7C+category_ids:%3D33+%7C%7C+main_icon_id:%3D33)&sort_by=importance:asc&include_fields=id,type,name_sv,name_en,path,published,importance,average_rating,length,popularity,difficulty,time,wheelchair_tested,trail_status_reported_at,imgix_url,guide_ids,county_id,municipality_id,organization_id,trip_ids,category_ids,main_category_icon,main_icon_id,marker_point,show_elevations,show_on_naturkartan&x-typesense-api-key=zD4qweZ97XrEwYgV1gXIhDNTlKe1uIuL",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 118096,
+    "json_preview": "{\"facet_counts\":[],\"found\":196,\"hits\":[{\"document\":{\"category_ids\":[55],\"county_id\":18,\"guide_ids\":[154],\"id\":\"142728\",\"imgix_url\":\"https://uploads.naturkartan-cdn.se/6767542d01659be1c42bdcd3329d8fe0.jpg\",\"importance\":2,\"main_category_icon\":\"hostel\",\"main_icon_id\":55,\"marker_point\":[62.35855602018398,17.3699920964103],\"municipality_id\":250,\"name_en\":\"Liz Motell, Sundsvall\",\"name_sv\":\"Liz Motell, Sundsvall\",\"organization_id\":139,\"path\":\"/vasternorrlands-lan/liz-motell-sundsvall\",\"popularity\":0,\"p"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22339",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 32281,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.922519966,63.443576701],[10.922377389,63.443422558],[10.922254092,63.443208987],[10.922091902,63.442853092],[10.921640872,63.442025882],[10.920927404,63.440999518],[10.920831096,63.44090497],[10.920470758,63.440632809],[10.920192311,63.44049576"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22342",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 8857,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.395674111,63.427072397],[10.39692705,63.427207983],[10.396598836,63.427663717],[10.39992775,63.427903044],[10.399934874,63.428022569],[10.400013916,63.428246199],[10.400201503,63.428322893],[10.400464359,63.428308392],[10.400685055,63.428332113"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21188",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 8945,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.81973446,63.090527337],[14.819592051,63.090571677],[14.819491552,63.090657591],[14.819171112,63.090806705],[14.818720501,63.091211635],[14.818583708,63.091299058],[14.818241308,63.091456554],[14.8178,63.091753274],[14.817012353,63.092217883],[1"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22337",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 8657,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.274210568,63.637104107],[11.274181539,63.637012503],[11.273802929,63.636443875],[11.27346145,63.635979769],[11.273438232,63.635800396],[11.273482489,63.635699478],[11.273574438,63.635589675],[11.273680888,63.635508873],[11.273958748,63.63536294"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21250",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 6721,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.40162191,63.524421112],[12.400849434,63.525023775],[12.399626347,63.526076013],[12.39591417,63.527749948],[12.394412132,63.528572532],[12.393854233,63.52897425],[12.392995926,63.529701155]],[[12.392959938,63.529706408],[12.391693935,63.53112190"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21195",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 12672,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.412349574,63.246329985],[14.411918744,63.246369883],[14.41200952,63.246559398],[14.411999369,63.247152055],[14.412142847,63.2471987],[14.412214586,63.247245345],[14.412971831,63.247489333],[14.413713134,63.247690263],[14.414255161,63.247833784]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21239",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 7943,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.578696854,62.415745248],[16.579168923,62.416361275],[16.576100476,62.41681832],[16.574169285,62.41681832],[16.571830399,62.416619606],[16.5701567,62.416450698],[16.569491513,62.416311596],[16.567689068,62.41630166],[16.567410118,62.416212238],["
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22125",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 13803,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.0805841,63.397725857],[13.080183738,63.397433219],[13.07965463,63.397082925],[13.079017187,63.39739032],[13.078777045,63.397543709],[13.078479655,63.39767212],[13.078213278,63.397837663],[13.078008005,63.398035056],[13.077880265,63.398216022],["
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21177",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 11169,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.639172966,62.635115615],[15.639449234,62.634788897]],[[15.639172966,62.635115615],[15.639465327,62.635349864],[15.63944387,62.635404111]],[[15.63944378,62.635404062],[15.639221157,62.635667897],[15.639357949,62.635936662],[15.639138008,62.63615"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21196",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 14110,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.175617388,63.345877574],[14.176493435,63.345909295],[14.176890568,63.345886652],[14.177654339,63.34579844],[14.178015386,63.345650911],[14.1784427,63.345404024],[14.178859236,63.345256812],[14.180247218,63.345005671],[14.180935873,63.344730867]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22335",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 17423,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.561837727,63.795945457],[11.561799171,63.795894244],[11.56162072,63.795935902],[11.561286282,63.796241003],[11.561076902,63.796312166],[11.560608102,63.796281656],[11.560381791,63.796292803],[11.559923468,63.796241842],[11.559448885,63.79617101"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21178",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 15082,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.420076641,62.750394679],[15.418756994,62.752277292],[15.417625102,62.753690094],[15.41701624,62.75370882],[15.416407379,62.753766841]],[[15.41636108,62.753828072],[15.415481315,62.754992149]],[[15.41547802,62.754994713],[15.415241985,62.7553090"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21208",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 21951,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.645357075,63.310775366],[13.643310629,63.310526479],[13.641695352,63.31028969],[13.641136866,63.310239398],[13.64060889,63.310157088],[13.639869941,63.310080561],[13.637958197,63.309738915],[13.63633655,63.309548394],[13.636111412,63.309510592]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22333",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 25056,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.989926416,63.672358402],[11.989412857,63.672444904],[11.989097782,63.672471558],[11.988841211,63.672371981],[11.988613224,63.672227561],[11.988388086,63.67222446],[11.987985838,63.672352032],[11.987468842,63.672558898],[11.987076988,63.67266140"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/26608",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 57821,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.197359,63.616651],[12.19722,63.61673],[12.19657,63.61725],[12.19627,63.61741],[12.19611,63.61747],[12.1955,63.61761],[12.19366,63.6181],[12.19328,63.61823],[12.19286,63.61845],[12.19226,63.61884],[12.19205,63.61893],[12.1918,63.61899],[12.19089"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22341",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 6837,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[10.76342226,63.368080652],[10.762317189,63.36802294],[10.761507162,63.36770793]],[[10.761485705,63.36770793],[10.761174568,63.367814938],[10.76060594,63.368306687],[10.75931848,63.368693828],[10.758653292,63.369319014],[10.758309969,63.369549848],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22338",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 7124,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.065143795,63.537212959],[11.063555927,63.533454888],[11.063234062,63.533225372],[11.061152668,63.532345541],[11.059457512,63.531800415],[11.058427543,63.531561321]],[[11.058453435,63.53156859],[11.056178922,63.531071269],[11.052659864,63.529827"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21170",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 7744,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.019487253,62.347438491],[17.018285623,62.347757167],[17.017384401,62.347976255],[17.015667787,62.348872508],[17.011504999,62.349828482],[17.0103892,62.349908145],[17.005239359,62.349728903],[17.000861994,62.350007724],[16.993695131,62.34988823]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21241",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 7859,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[16.17148572,62.497799536],[16.171678839,62.497423],[16.171528635,62.496451912],[16.171550093,62.49570871],[16.171356974,62.4952826],[16.171378432,62.494370901],[16.170906363,62.49375648],[16.168953715,62.494142972],[16.167966662,62.494400631],[16."
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21169",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 8901,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.208059062,62.405533865],[17.209212412,62.405762471],[17.208973695,62.406165011],[17.209207047,62.406368764],[17.20816635,62.407760212],[17.2078874,62.407511744],[17.207458247,62.407998739],[17.207179297,62.407968923],[17.205891837,62.408137879]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22332",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 23141,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[12.268135235,63.580532351],[12.267646194,63.580700196],[12.266301317,63.581204535],[12.266065031,63.581256838],[12.265436724,63.58144124],[12.264976976,63.581545427],[12.264540531,63.581605358],[12.264305586,63.581653554],[12.263635285,63.58173502"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22334",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 5462,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.750306,63.774285618],[11.74910437,63.774285618],[11.743954529,63.774778694],[11.740006317,63.77521487],[11.736444344,63.775632076]],[[11.736459399,63.775618969],[11.735043193,63.775837051],[11.72972169,63.776481807],[11.725043918,63.777107585]]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21186",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 15602,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.232489906,62.914202122],[15.224682725,62.915983588],[15.223149355,62.915349393],[15.222345545,62.914734725],[15.221664691,62.913919335],[15.22043377,62.91359468],[15.217550609,62.913338414],[15.215504297,62.913331296],[15.213844222,62.913050602"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21244",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 18652,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.920848915,62.537032855],[15.920703392,62.537077227],[15.92050164,62.537068761],[15.919993445,62.536874134],[15.919578793,62.536738347],[15.91914,62.536837421],[15.918624094,62.536901878],[15.917922109,62.536896932],[15.916694747,62.536912942],["
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/22336",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 24639,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[11.38297353,63.724300912],[11.382349162,63.724180904],[11.382196862,63.724022898],[11.382753714,63.723896398],[11.38318182,63.723703403],[11.383007214,63.72336661],[11.382768236,63.723067812],[11.382590686,63.722384707],[11.382665526,63.721989712]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21249",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 18861,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[15.026514012,62.960290985],[15.02663671,62.960310499],[15.026627323,62.960431315],[15.026723966,62.960666343],[15.026730923,62.960894499],[15.02665909,62.96099659],[15.026540486,62.961095748],[15.026103035,62.961342595],[15.025720149,62.961501348]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21189",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 17521,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[14.630418867,63.179022214],[14.630301075,63.17912897],[14.629700373,63.17925012],[14.629164044,63.179400314],[14.628622463,63.179599044],[14.628536857,63.17977841],[14.624584182,63.179660837],[14.624026733,63.179828962],[14.622879649,63.18023782],"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21212",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 23033,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.360203719,63.320818121],[13.359987884,63.320618068],[13.360327896,63.320416879],[13.360651815,63.320283131],[13.360605442,63.320223208],[13.360280119,63.320076573],[13.360105001,63.320026284],[13.359994255,63.319908553],[13.359186491,63.3192641"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/21198",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 24619,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":2,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[13.946832838,63.383460371],[13.946420448,63.384839639],[13.94642883,63.385077447],[13.946948005,63.385302091],[13.947338434,63.38558441]],[[13.947338434,63.38558441],[13.94754488,63.385761939],[13.94738772,63.386039631],[13.947304823,63.386122863]"
+  },
+  {
+    "url": "https://api.naturkartan.se/v3.2/sites/19771",
+    "status": 200,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "page": "https://stolavsleden.com/accommodation/",
+    "bytes": 125810,
+    "json_preview": "{\"data\":{\"attributes\":{\"hills\":null,\"trail_status_report_enabled\":false,\"regulations\":{},\"postal_code\":null,\"tagline\":{},\"importance\":3,\"communications\":{},\"show_elevations\":true,\"time\":null,\"trail_status_report_comment\":null,\"shapes\":{\"coordinates\":[[[17.315430391,62.386808961],[17.314775486,62.386991221],[17.315003471,62.38763433],[17.313585762,62.387962768],[17.314094628,62.388887019],[17.314503907,62.390341258],[17.302741,62.391671],[17.299031,62.391857],[17.298948,62.391954],[17.290699,62.3"
+  }
+]

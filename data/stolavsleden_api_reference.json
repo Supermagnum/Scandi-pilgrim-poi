@@ -1,0 +1,217 @@
+{
+  "discovered_at": "2026-09-13T17:36:20.547058+00:00",
+  "cms": "WordPress (stolavsleden.com) + Naturkartan map embed",
+  "user_agent": "pilegrimsleden-osm-extractor/1.0 (OSM mapping research; St. Olavsleden Sweden + horseback POIs; +https://www.openstreetmap.org/)",
+  "wordpress": {
+    "evidence": "Link: <https://stolavsleden.com/wp-json/>; rel=https://api.w.org/",
+    "wp_json": "https://stolavsleden.com/wp-json/",
+    "note": "WP REST has no public POI custom post type; map POIs come from Naturkartan."
+  },
+  "naturkartan": {
+    "embed_script": "https://map-embed.naturkartan.se/embed.js",
+    "api_base": "https://api.naturkartan.se/v2",
+    "guide_id": 154,
+    "organization_id": 139,
+    "endpoints": {
+      "guide": "https://api.naturkartan.se/v2/guides/154",
+      "sites_by_guide": "https://api.naturkartan.se/v2/sites.json?guide_ids=154",
+      "sites_by_ids": "https://api.naturkartan.se/v2/sites.json?site_ids={comma_separated}",
+      "categories": "https://api.naturkartan.se/v2/categories",
+      "trip": "https://api.naturkartan.se/v2/trips/{id}"
+    },
+    "path_category_ids": {
+      "hiking": 33,
+      "biking": 31,
+      "horseback": 34
+    },
+    "quick_category_ids_hiking": [
+      55,
+      54,
+      31,
+      34,
+      63,
+      72,
+      19,
+      86,
+      60,
+      53,
+      73,
+      97
+    ],
+    "sample_site_keys": [
+      "administrative_area_level_1",
+      "administrative_area_level_2",
+      "categories",
+      "city_id",
+      "country_id",
+      "county_id",
+      "description",
+      "directions",
+      "facts",
+      "guide_ids",
+      "hypermedia",
+      "id",
+      "importance",
+      "latitude",
+      "list_ids",
+      "list_visits_users",
+      "longitude",
+      "main_category",
+      "main_image",
+      "municipality_id",
+      "name",
+      "neighbour_ids",
+      "organization_id",
+      "organization_name",
+      "properties",
+      "reports_enabled",
+      "short_description",
+      "show_footer",
+      "show_in_brand_site",
+      "slug",
+      "tagline",
+      "tags",
+      "trail_hierarchy",
+      "trail_status_reported_at",
+      "trip_ids",
+      "trip_visits_users",
+      "type",
+      "type_icon",
+      "updated_at",
+      "wheelchair_tested"
+    ],
+    "sample_site": {
+      "guide_ids": [
+        154
+      ],
+      "hypermedia": {
+        "guides": "https://www.naturkartan.se/api/v2/guides.json?guide_ids=154",
+        "lists": "https://www.naturkartan.se/api/v2/lists.json?list_ids=",
+        "neighbours": "https://www.naturkartan.se/api/v2/sites.json?site_ids=21550%2C21572%2C21223%2C22159"
+      },
+      "city_id": 1928,
+      "tagline": "",
+      "importance": 2,
+      "municipality_id": 258,
+      "latitude": 63.44610975320782,
+      "properties": {
+        "address": null,
+        "communications": null,
+        "current": null,
+        "custom_color": null,
+        "difficulty": null,
+        "hills": null,
+        "length": null,
+        "parking": null,
+        "surface": null,
+        "time": null,
+        "vegetation": null
+      },
+      "short_description": "",
+      "main_image": null,
+      "updated_at": "2024-02-24T01:58:21.344",
+      "county_id": 19,
+      "type_icon": "culture",
+      "directions": null,
+      "slug": "engelska-villan",
+      "list_visits_users": [],
+      "description": null,
+      "trip_ids": [],
+      "tags": [],
+      "list_ids": [],
+      "name": "Engelska villan",
+      "type": "Place",
+      "show_in_brand_site": true,
+      "wheelchair_tested": false,
+      "trip_visits_users": [],
+      "categories": [
+        {
+          "color": "#1f4675",
+          "id": 19,
+          "label": "Kulturmiljö",
+          "name": "culture",
+          "slug": "culture",
+          "type": "ActivityType"
+        }
+      ],
+      "longitude": 12.68372607059161,
+      "neighbour_ids": [
+        21550,
+        21572,
+        21223,
+        22159
+      ],
+      "reports_enabled": false,
+      "trail_status_reported_at": null,
+      "country_id": 1,
+      "administrative_area_level_2": "Åre",
+      "main_category": {
+        "color": "#1f4675",
+        "id": 19,
+        "label": "Kulturmiljö",
+        "name": "culture",
+        "slug": "culture",
+        "type": "ActivityType"
+      },
+      "id": 22378,
+      "administrative_area_level_1": "Jämtlands län",
+      "show_footer": false,
+      "facts": null,
+      "organization_name": "S:t Olavsleden",
+      "trail_hierarchy": {},
+      "organization_id": 139
+    },
+    "sites_returned": 595
+  },
+  "pages": {
+    "hiking": {
+      "url": "https://stolavsleden.com/hiking/",
+      "embed": {
+        "data-naturkartan-client": "stolavsleden",
+        "data-naturkartan-guide": "154",
+        "data-naturkartan-query": "guide=154&category=33",
+        "data-naturkartan-quick-categories": "55,54,31,34,63,72,19,86,60,53,73,97",
+        "data-naturkartan-strict": "guide"
+      },
+      "gpx_links": [
+        "https://stolavsleden.com/wp-content/uploads/2022/06/st-olavsleden-hiking-2022.gpx"
+      ]
+    },
+    "biking": {
+      "url": "https://stolavsleden.com/biking/",
+      "embed": {
+        "data-naturkartan-client": "stolavsleden",
+        "data-naturkartan-guide": "154",
+        "data-naturkartan-query": "guide=154&category=31",
+        "data-naturkartan-quick-categories": "55,54",
+        "data-naturkartan-strict": "guide"
+      },
+      "gpx_links": [
+        "https://stolavsleden.com/wp-content/uploads/2021/06/StOlavsleden_Sundsvall_Trondheim_bike.gpx"
+      ]
+    },
+    "horseback": {
+      "url": "https://stolavsleden.com/horse-back-riding/",
+      "embed": {
+        "data-naturkartan-client": "stolavsleden",
+        "data-naturkartan-guide": "154",
+        "data-naturkartan-query": "guide=154&category=34",
+        "data-naturkartan-quick-categories": "55,54,33,31,63,72,19,86,60,53,73,97",
+        "data-naturkartan-strict": "guide"
+      },
+      "gpx_links": [
+        "https://stolavsleden.com/wp-content/uploads/2020/04/s-t-olavsleden-ridning.gpx"
+      ]
+    }
+  },
+  "gpx_urls": {
+    "hiking": "https://stolavsleden.com/wp-content/uploads/2022/06/st-olavsleden-hiking-2022.gpx",
+    "biking": "https://stolavsleden.com/wp-content/uploads/2021/06/StOlavsleden_Sundsvall_Trondheim_bike.gpx",
+    "horseback": "https://stolavsleden.com/wp-content/uploads/2020/04/s-t-olavsleden-ridning.gpx"
+  },
+  "osm_tag_notes": {
+    "horse_route": "Taginfo: route=horse is used on thousands of relations; horse=designated is common on ways. horseback_path.osm uses both.",
+    "veterinary": "amenity=veterinary (~65k uses).",
+    "farrier": "craft=farrier is rare (~7 uses); shop=farrier unused. No farrier POIs were present in Naturkartan guide 154 at extraction time."
+  }
+}

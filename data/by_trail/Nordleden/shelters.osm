@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='63.7959568' lon='11.5625599'>
+    <tag k='name' v='Scandic Stiklestad Hotell'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='url' v='https://www.pilegrimsleden.no/interessepunkter/stiklestad-nasjonale-kultursenter-stiklestad-hotel'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Nordleden'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:id' v='9981'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-2' version='0' action='modify' visible='true' lat='63.7739444' lon='11.5785734'>
+    <tag k='name' v='Stiklestad Camping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='url' v='https://www.pilegrimsleden.no/interessepunkter/stiklestad-camping'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Nordleden'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter;Teltplass'/>
+    <tag k='pilegrimsleden:id' v='262559'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+</osm>

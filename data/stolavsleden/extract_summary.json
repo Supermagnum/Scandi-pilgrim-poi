@@ -1,0 +1,3853 @@
+{
+  "extracted_at": "2026-09-13T17:46:38.784801+00:00",
+  "overnight_count": 187,
+  "swedish_overnight_count": 147,
+  "swedish_added_after_dedupe": 125,
+  "horse_services": [
+    {
+      "id": 21377,
+      "title": "Stöde Camping",
+      "slug": "stode-camping",
+      "url": "",
+      "description": "Vi erbjuder stugor med självhushåll. Kokplattor, kylskåp, bord och stolar. Det f",
+      "category": "Veterinarian",
+      "lat": 62.416261,
+      "lon": 16.569535,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende",
+        "Dricksvatten",
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/808435179",
+      "matched_osm_url": "https://www.openstreetmap.org/way/808435179",
+      "distance_m": 65.8,
+      "tag_diff": "tourism=camp_site; name=Stöde Camping"
+    },
+    {
+      "id": 21787,
+      "title": "Åre Djurklinik",
+      "slug": "are-djurklinik",
+      "url": "",
+      "description": "",
+      "category": "Veterinarian",
+      "lat": 63.34988598855482,
+      "lon": 13.18998770298795,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21748,
+      "title": "Djursjukhuset Östersund",
+      "slug": "veterinar-hejkomochhjalpmig",
+      "url": "",
+      "description": "",
+      "category": "Veterinarian",
+      "lat": 63.17571707256043,
+      "lon": 14.68763626833419,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/2004327957",
+      "matched_osm_url": "https://www.openstreetmap.org/node/2004327957",
+      "distance_m": 3.8,
+      "tag_diff": "amenity=veterinary; name=Östersunds Djursjukhus"
+    },
+    {
+      "id": 21783,
+      "title": "Veterinären på Söder",
+      "slug": "veterinaren-pa-soder",
+      "url": "",
+      "description": "Veterinären på Söder är en liten veterinärklinik som ligger centralt och lättill",
+      "category": "Veterinarian",
+      "lat": 63.16318515963877,
+      "lon": 14.65903915389991,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/2549551944",
+      "matched_osm_url": "https://www.openstreetmap.org/node/2549551944",
+      "distance_m": 154.5,
+      "tag_diff": "tourism=hostel"
+    },
+    {
+      "id": 21847,
+      "title": "Snövit Veterinär",
+      "slug": "snovit-veterinar",
+      "url": "",
+      "description": "",
+      "category": "Veterinarian",
+      "lat": 63.31570220793721,
+      "lon": 13.27234192309901,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "way/1309939669",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1309939669",
+      "distance_m": 126.3,
+      "tag_diff": "tourism=hostel; name=STF Södergården Vandrarhem Åre"
+    },
+    {
+      "id": 21856,
+      "title": "Distriktsveterinärerna Sundsvall",
+      "slug": "distriktsveterinarerna-sundsvall",
+      "url": "",
+      "description": "Distriktsveterinärerna Sundsvall har mottagningen i Matfors och har öppet för sm",
+      "category": "Veterinarian",
+      "lat": 62.35429908683807,
+      "lon": 17.01335943251282,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21786,
+      "title": "Ejra Djurklinik",
+      "slug": "ejra-djurklinik",
+      "url": "",
+      "description": "**Alltid med omtanke! På Ejra trivs både djur och djurägare. Här finns samma med",
+      "category": "Veterinarian",
+      "lat": 63.19055602820638,
+      "lon": 14.64788170128529,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/6960155785",
+      "matched_osm_url": "https://www.openstreetmap.org/node/6960155785",
+      "distance_m": 4.2,
+      "tag_diff": "amenity=veterinary; name=Ejra Djurklinik"
+    },
+    {
+      "id": 21784,
+      "title": "Distriktsveterinärerna Jämtland",
+      "slug": "distriktsveterinarerna-jamtland",
+      "url": "",
+      "description": "Distriktsveterinärerna i Brunflo. Öppet dygnet runt, året om. Här jobbar de med ",
+      "category": "Veterinarian",
+      "lat": 63.06366105610437,
+      "lon": 14.83709541638191,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21858,
+      "title": "Distriktsveterinärerna Fränsta",
+      "slug": "distriktsveterinarerna-fransta",
+      "url": "",
+      "description": "Open weekdays 09-15. Possible to by food and some medicin. If you animal is urge",
+      "category": "Veterinarian",
+      "lat": 62.49822171348396,
+      "lon": 16.16784680479972,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21950,
+      "title": "VetZervice",
+      "slug": "vetzervice-2",
+      "url": "",
+      "description": "Vetzervice utgår från Nälden och är en ambulerande veterinär vilket gör att de i",
+      "category": "Veterinarian",
+      "lat": 63.34744884175821,
+      "lon": 14.2411093064031,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21848,
+      "title": "Veterinärkliniken Åredalen",
+      "slug": "veterinarkliniken-aredalen",
+      "url": "",
+      "description": "",
+      "category": "Veterinarian",
+      "lat": 63.39241821023099,
+      "lon": 12.9202496208206,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/13255987511",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13255987511",
+      "distance_m": 80.3,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 21785,
+      "title": "Djursjukhuset Sundsvall",
+      "slug": "djursjukhuset-sundsvall",
+      "url": "",
+      "description": "Erbjuder avancerad djursjukvård dygnet runt.\n\n",
+      "category": "Veterinarian",
+      "lat": 62.37395900190545,
+      "lon": 17.34790032086943,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Service"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    }
+  ],
+  "swedish_overnight": [
+    {
+      "id": 21409,
+      "title": "Gällö, Långnäsudden",
+      "slug": "gallo-langnasudden",
+      "url": "",
+      "description": "2 exklusiva stugor med 8 bäddar i vardera.\nTelefon: 0693-202 06\n\n",
+      "category": "Boende",
+      "lat": 62.896795,
+      "lon": 15.256757,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21419,
+      "title": "Uppland, Måbragård, Mörsil",
+      "slug": "uppland-mabragard",
+      "url": "",
+      "description": "Boende med 8 bäddar som kan erbjuda frukost.\n\nFör mer information eller för att ",
+      "category": "Boende",
+      "lat": 63.315332,
+      "lon": 13.588426,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21417,
+      "title": "Helleberg, Stuga",
+      "slug": "helleberg-stuga",
+      "url": "",
+      "description": "I denna stuga finns totalt 6 bäddar samt bäddsoffa med plats för två. Det går äv",
+      "category": "Boende",
+      "lat": 63.407985,
+      "lon": 13.849707,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21415,
+      "title": "Glösa",
+      "slug": "glosa",
+      "url": "",
+      "description": "Boende med 4 bäddar.\nTelefon: 070-372 99 00\n\n",
+      "category": "Boende",
+      "lat": 63.383753,
+      "lon": 13.99626,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21418,
+      "title": "Andersböle, Fäbodvall",
+      "slug": "andersbole-fabodvall",
+      "url": "",
+      "description": "20 bäddar och uthus. Vedvärmd bastu och utomhusdusch. Kylskåp, spis och kaffebry",
+      "category": "Boende",
+      "lat": 63.34964014011112,
+      "lon": 13.71805413986205,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21411,
+      "title": "Rödösundet Acc. Rödön",
+      "slug": "rodosundet-b-b",
+      "url": "",
+      "description": "Boende där du kan bo i stuga, i en del av hus eller tälta på gården om du har me",
+      "category": "Boende",
+      "lat": 63.22981693780056,
+      "lon": 14.46677618862523,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21432,
+      "title": "Ristafallets camping",
+      "slug": "halland-ristafallet",
+      "url": "",
+      "description": "På Ristafallets Camping har du möjlighet att campa, bo i stugor, tälta eller bo ",
+      "category": "Boende",
+      "lat": 63.312374,
+      "lon": 13.34753,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/783370464",
+      "matched_osm_url": "https://www.openstreetmap.org/way/783370464",
+      "distance_m": 45.9,
+      "tag_diff": "tourism=camp_site; name=Ristafallet Camping"
+    },
+    {
+      "id": 21408,
+      "title": "Mellgård, Grimnäsvägen",
+      "slug": "mellgard-grimnasvagen",
+      "url": "",
+      "description": "Uppvärmt förrådshus med 2 + 4 bäddar, kök, toalett, dusch, brygga och båtuthyrni",
+      "category": "Boende",
+      "lat": 62.869067,
+      "lon": 15.27244,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21394,
+      "title": "Pilgrimstad Vandrarhem",
+      "slug": "pilgrimstad-vandrarhem",
+      "url": "",
+      "description": "Vandrarhem med tre rum som är öppet året. Ligger i närhet till en pilgrimskälla.",
+      "category": "Boende",
+      "lat": 62.956463,
+      "lon": 15.041758,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21444,
+      "title": "Boende Tännforsen",
+      "slug": "tannforsen-2",
+      "url": "",
+      "description": "Boende precis intill Sveriges största vattenfall. Här finns 8 bäddar. Frukost oc",
+      "category": "Boende",
+      "lat": 63.442431,
+      "lon": 12.740063,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21407,
+      "title": "Röde 301",
+      "slug": "rode",
+      "url": "",
+      "description": "Stugor vid Alsensjön. Frukost och middag vid föranmälan.\n\nRing för mer informati",
+      "category": "Boende",
+      "lat": 63.35581,
+      "lon": 14.08293,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 20175,
+      "title": "STF Södergården Vandrarhem Åre",
+      "slug": "stf-are-sodergarden-vandrarhem",
+      "url": "",
+      "description": "Södergården Åre är ett personligt och prisvärt boende i hjärtat av svenska fjäll",
+      "category": "Boende",
+      "lat": 63.3161257744278,
+      "lon": 13.274684839615,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/1309939669",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1309939669",
+      "distance_m": 17.5,
+      "tag_diff": "tourism=hostel; name=STF Södergården Vandrarhem Åre"
+    },
+    {
+      "id": 3116,
+      "title": "Ristafallet",
+      "slug": "ristafallet",
+      "url": "",
+      "description": "Ristafallet är ett vackert och spektakulärt utflyktsmål under alla årstider. Und",
+      "category": "Campingplass",
+      "lat": 63.3123358428825,
+      "lon": 13.3481097221375,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Kulturmiljö",
+        "Barnvagnstillgängligt",
+        "Nära parkering",
+        "Nära toalett",
+        "Utsiktsplats",
+        "Cafe/Restaurang",
+        "Camping",
+        "Rastplats",
+        "Entré",
+        "Toalett",
+        "Parkeringsplats"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/783370464",
+      "matched_osm_url": "https://www.openstreetmap.org/way/783370464",
+      "distance_m": 16.9,
+      "tag_diff": "tourism=camp_site; name=Ristafallet Camping"
+    },
+    {
+      "id": 21400,
+      "title": "Frösövallens Vandrarhem",
+      "slug": "frosovallens-vandrarhem",
+      "url": "",
+      "description": "EFS sommarcafé och vandrarhem med utsikt över fjällen.\nTelefon: 063-430 58\n\n",
+      "category": "Boende",
+      "lat": 63.172968,
+      "lon": 14.528522,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21395,
+      "title": "Sörbygården Bed & Breakfast, Brunflo",
+      "slug": "sorbygarden-bed-breakfast",
+      "url": "",
+      "description": "Sörbygården är ett Bed & Breakfast som erbjuder ett lugnt och hemtrevligt boende",
+      "category": "Boende",
+      "lat": 63.096741,
+      "lon": 14.791396,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/3815442185",
+      "matched_osm_url": "https://www.openstreetmap.org/node/3815442185",
+      "distance_m": 1.6,
+      "tag_diff": "tourism=guest_house; name=Sörbygården"
+    },
+    {
+      "id": 21436,
+      "title": "Undersåker, Åre Fjällsätra Hotell",
+      "slug": "undersaker-are-fjallsatra",
+      "url": "",
+      "description": "**Ett personligt hotell med naturen i fokus.**\n\nÅre Fjällsätra är ett hotell med",
+      "category": "Boende",
+      "lat": 63.317222,
+      "lon": 13.237021,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/566346522",
+      "matched_osm_url": "https://www.openstreetmap.org/way/566346522",
+      "distance_m": 2.2,
+      "tag_diff": "tourism=hotel; name=Åre Fjällsätra"
+    },
+    {
+      "id": 21396,
+      "title": "Östersunds Stugby & Camping",
+      "slug": "ostersunds-stugby-camping",
+      "url": "",
+      "description": "Välkommen till Östersund och en av Sveriges största stugbyar. Här bor du bredvid",
+      "category": "Boende",
+      "lat": 63.160069,
+      "lon": 14.672756,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/3161063564",
+      "matched_osm_url": "https://www.openstreetmap.org/node/3161063564",
+      "distance_m": 141.0,
+      "tag_diff": "amenity=shelter; name=Svartsjöstugan"
+    },
+    {
+      "id": 21442,
+      "title": "Duvedsbyn, Millestgården",
+      "slug": "duvedsbyn-millestgarden",
+      "url": "",
+      "description": "Gård med rum för pilgrimer, ekologisk mat, bastu, tvättstuga, yogastudio och gym",
+      "category": "Boende",
+      "lat": 63.392482,
+      "lon": 12.874462,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/605741152",
+      "matched_osm_url": "https://www.openstreetmap.org/way/605741152",
+      "distance_m": 6.0,
+      "tag_diff": "tourism=hotel; name=Millestgården"
+    },
+    {
+      "id": 21389,
+      "title": "Camp Viking, Gällö",
+      "slug": "camp-viking",
+      "url": "",
+      "description": "Camp Viking har 20 stugor och totalt 96 sängar. I de större stugorna har man til",
+      "category": "Boende",
+      "lat": 62.91747,
+      "lon": 15.253083,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/290482991",
+      "matched_osm_url": "https://www.openstreetmap.org/node/290482991",
+      "distance_m": 139.7,
+      "tag_diff": "tourism=camp_site; name=Camp Viking"
+    },
+    {
+      "id": 21399,
+      "title": "Frösö Stugby & Camping",
+      "slug": "froso-stugby-camping",
+      "url": "",
+      "description": "Camping med husvagnsplatser, campingstugor och fullt utrustade stugor med självh",
+      "category": "Boende",
+      "lat": 63.17213,
+      "lon": 14.54021,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "way/99409175",
+      "matched_osm_url": "https://www.openstreetmap.org/way/99409175",
+      "distance_m": 126.7,
+      "tag_diff": "tourism=camp_site; name=Frösö Camping"
+    },
+    {
+      "id": 21431,
+      "title": "Hållandsgården",
+      "slug": "hallandsgarden",
+      "url": "",
+      "description": "Hotell Hållandsgården är vackert beläget i Hålland, Åredalen\ninvid Indalsälven o",
+      "category": "Boende",
+      "lat": 63.321485,
+      "lon": 13.361022,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/4236193150",
+      "matched_osm_url": "https://www.openstreetmap.org/node/4236193150",
+      "distance_m": 7.8,
+      "tag_diff": "tourism=hotel; name=Hållandsgården"
+    },
+    {
+      "id": 21383,
+      "title": "Hussborg Herrgård, Ljungaverk",
+      "slug": "hussborg-herrgard",
+      "url": "",
+      "description": "Hussborg Herrgård erbjuder boende både på hotell, vandrarhem och lägenheter med ",
+      "category": "Boende",
+      "lat": 62.497311,
+      "lon": 16.0176,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/3523833707",
+      "matched_osm_url": "https://www.openstreetmap.org/node/3523833707",
+      "distance_m": 0.4,
+      "tag_diff": "tourism=hotel; name=Hussborgs herrgård"
+    },
+    {
+      "id": 21380,
+      "title": "Boda borg",
+      "slug": "boda-borg",
+      "url": "",
+      "description": "Vandrarhem med 18 rum och 70 bäddar.  Köket delas med andra gäster. Toalett och ",
+      "category": "Boende",
+      "lat": 62.458972,
+      "lon": 16.375122,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21386,
+      "title": "Tälje lantgårdshotell, Erikslund",
+      "slug": "talje-lantgardshotell",
+      "url": "",
+      "description": "I Täljegårdens lantgårshotell så erbjuds boende i stuga med bastu, stuga för 4 p",
+      "category": "Boende",
+      "lat": 62.556061,
+      "lon": 15.858167,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21434,
+      "title": "Hedmans fjällby, Undersåker",
+      "slug": "halland-hedmans-stugby",
+      "url": "",
+      "description": "Stugor med 6 bäddar, kök, dusch, tvättmaskin och bastu. Sängkläder och handdukar",
+      "category": "Boende",
+      "lat": 63.31241,
+      "lon": 13.3198,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21272,
+      "title": "Lindberga gård, Stöde",
+      "slug": "lindberga-gard",
+      "url": "",
+      "description": "Boende i stugor på hästgård. Delat kök, toalett, dusch och tvättmaskin. Wi-Fi fi",
+      "category": "Boende",
+      "lat": 62.425922,
+      "lon": 16.461094,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21269,
+      "title": "Sweden4u - Usland, Stöde",
+      "slug": "sweden4u-usland",
+      "url": "",
+      "description": "Nyrenoverad stuga med 6 bäddar i 3 rum. Det finns fullt utrustat kök och badrum ",
+      "category": "Boende",
+      "lat": 62.4022,
+      "lon": 16.629925,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21420,
+      "title": "Strandbergs Bed and Breakfast",
+      "slug": "strand-strandgarden",
+      "url": "",
+      "description": "Pensionat i närheten av Indalsälven. Sängkläder finns att hyra.\nFör mer informat",
+      "category": "Boende",
+      "lat": 63.32528709834936,
+      "lon": 13.53671123550416,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21414,
+      "title": "Vaplan, Vaplansgård",
+      "slug": "vaplan-vaplansgard",
+      "url": "",
+      "description": "Vaplansgård är ett säsongsöppet Bed & Breakfast där ni kan bo i lägenhet med ege",
+      "category": "Boende",
+      "lat": 63.335487,
+      "lon": 14.212631,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21439,
+      "title": "Åre B&B",
+      "slug": "are-b-b",
+      "url": "",
+      "description": "Åre B&B har 15 rum med 2-4 bäddar, alla med delade wc/badrum, två sällskapsrum m",
+      "category": "Boende",
+      "lat": 63.397378,
+      "lon": 13.091252,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/13156999342",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13156999342",
+      "distance_m": 8.1,
+      "tag_diff": "tourism=guest_house; name=Åre Bed & Breakfast"
+    },
+    {
+      "id": 21387,
+      "title": "Hotell Jämtkrogen, Bräcke",
+      "slug": "hotell-jamtkrogen",
+      "url": "",
+      "description": "**Bekvämt hotell längs väg E14, i Bräcke. 36 enkel-, dubbel- och familjerum till",
+      "category": "Boende",
+      "lat": 62.75437194211838,
+      "lon": 15.41722476323741,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/142795115",
+      "matched_osm_url": "https://www.openstreetmap.org/way/142795115",
+      "distance_m": 6.4,
+      "tag_diff": "tourism=hotel; name=Jämtkrogen"
+    },
+    {
+      "id": 21384,
+      "title": "Borgsjö Strand - Restaurang & Camping",
+      "slug": "traporten",
+      "url": "",
+      "description": "Här erbjuds rum i Bed & Breakfast, stugor med/utan dusch och toalett, camping dä",
+      "category": "Campingplass",
+      "lat": 62.536643,
+      "lon": 15.919364,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Cafe/Restaurang",
+        "Boende",
+        "Camping",
+        "Rastplats"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/1238807100",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1238807100",
+      "distance_m": 54.8,
+      "tag_diff": "tourism=camp_site; name=Borgsjö Strand Restaurang & Camping"
+    },
+    {
+      "id": 21392,
+      "title": "Bakgården, Revsund",
+      "slug": "bakgarden",
+      "url": "",
+      "description": "Bakgården är ett Bed and Breakfast och stuga med 2 rum och 8 sängar. Kök, toalet",
+      "category": "Boende",
+      "lat": 62.89457,
+      "lon": 15.106671,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21355,
+      "title": "Skalstugan pensionat",
+      "slug": "skalstugan-pensionat",
+      "url": "",
+      "description": "Skalstugans Stiftelse driver fjällpensionatet Skalstugan, läs mer om pensionatet",
+      "category": "Boende",
+      "lat": 63.57459694973292,
+      "lon": 12.27528688798992,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21438,
+      "title": "Åre Camping och stugor",
+      "slug": "are-camping-och-stugor",
+      "url": "",
+      "description": "Åre Camping med plats för husvagn och tält. Det finns även stugor för 2 och 4 pe",
+      "category": "Boende",
+      "lat": 63.351852,
+      "lon": 13.186115,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21403,
+      "title": "Nälden, Ishallen",
+      "slug": "nalden-ishallen",
+      "url": "",
+      "description": "Boende\ni logement eller dubbelrum. \n\nVåra\nkontaktvägar bemannas deltid.\n\nTelefon",
+      "category": "Boende",
+      "lat": 63.347213,
+      "lon": 14.251545,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21397,
+      "title": "STF Östersund Ledkrysset",
+      "slug": "stf-ostersund-ledkrysset",
+      "url": "",
+      "description": "Vandrarhem i centrala Östersund med hög standard som har 24 rum och 57 bäddar. T",
+      "category": "Boende",
+      "lat": 63.178188,
+      "lon": 14.64568,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/2585557211",
+      "matched_osm_url": "https://www.openstreetmap.org/node/2585557211",
+      "distance_m": 1.4,
+      "tag_diff": "tourism=hostel; name=STF Östersund Ledkrysset Vandrarhem"
+    },
+    {
+      "id": 21388,
+      "title": "Gården Eriksberg, Mordviken",
+      "slug": "garden-eriksberg",
+      "url": "",
+      "description": "\"Allt från Höskulle till Dukat bord \"\n\nEn stor gammal 1800-tals gård med flera h",
+      "category": "Boende",
+      "lat": 62.794798,
+      "lon": 15.368462,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Nära parkering",
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21401,
+      "title": "Frösö Park Hotel",
+      "slug": "quality-hotel-froso-park",
+      "url": "",
+      "description": "Hotell med rum och sviter. Spa och fullt utrustat gym finns.\nTelefon: 063-16 50 ",
+      "category": "Boende",
+      "lat": 63.192364,
+      "lon": 14.486965,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/107975375",
+      "matched_osm_url": "https://www.openstreetmap.org/way/107975375",
+      "distance_m": 28.2,
+      "tag_diff": "tourism=hotel; name=Quality Hotel Frösö Park"
+    },
+    {
+      "id": 21441,
+      "title": "Åre, Gästhuset",
+      "slug": "are-gasthuset",
+      "url": "",
+      "description": "Familjärt lägenhetshotell i Åre by med självservice.\nTelefon: 070-601 10 00\n\n",
+      "category": "Boende",
+      "lat": 63.400239,
+      "lon": 13.076737,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/6343703458",
+      "matched_osm_url": "https://www.openstreetmap.org/node/6343703458",
+      "distance_m": 63.4,
+      "tag_diff": "tourism=hotel; name=Parkvillan"
+    },
+    {
+      "id": 21381,
+      "title": "Camp Midadventure, Torpshammar",
+      "slug": "camp-midadventure",
+      "url": "",
+      "description": "Äventyrspark med stugor, tält och husvagnsplatser.\n\nFör mer information, se hems",
+      "category": "Boende",
+      "lat": 62.48056358289004,
+      "lon": 16.29608515344238,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/503277851",
+      "matched_osm_url": "https://www.openstreetmap.org/node/503277851",
+      "distance_m": 40.6,
+      "tag_diff": "tourism=camp_site; name=Camp Midadventure"
+    },
+    {
+      "id": 21462,
+      "title": "Solbacken, Fränsta",
+      "slug": "solbacken",
+      "url": "",
+      "description": "Lägenhet med 2 rum, 5 bäddar, kök och tvättmaskin. Finns uteplats med grill för ",
+      "category": "Boende",
+      "lat": 62.493668,
+      "lon": 16.209356,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21526,
+      "title": "Rombäck 611, Fränsta",
+      "slug": "romback-611",
+      "url": "",
+      "description": "Fullt utrustad stuga med toalett och dusch.\n\nMaila för bokning eller för mer inf",
+      "category": "Boende",
+      "lat": 62.48948,
+      "lon": 16.2624,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21527,
+      "title": "Röde 585",
+      "slug": "rode-585",
+      "url": "",
+      "description": "Hus med vacker utsikt som är öppet året runt med två rum och tre sängar. Kök, to",
+      "category": "Boende",
+      "lat": 63.35461660076242,
+      "lon": 14.09315881874084,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21521,
+      "title": "Bromyra Camping, Bräcke",
+      "slug": "bromyra-camping",
+      "url": "",
+      "description": "Camping med stugor (2 och 4 bäddar) och tältplats. Litet kök och uthus.\n\nTelefon",
+      "category": "Boende",
+      "lat": 62.75463,
+      "lon": 15.43489,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/1642118079",
+      "matched_osm_url": "https://www.openstreetmap.org/node/1642118079",
+      "distance_m": 106.6,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 21487,
+      "title": "Alsen, Stuga",
+      "slug": "alsen-stuga",
+      "url": "",
+      "description": "Timmerstuga med 1 rum och 2 sängar. Det finns ett litet pentry med kaffekokare, ",
+      "category": "Boende",
+      "lat": 63.386022,
+      "lon": 13.926642,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21530,
+      "title": "Grimnäsvägen 101, Grimnäs",
+      "slug": "grimnasvagen-101",
+      "url": "",
+      "description": "Ett B&B/del av hus som är öppet året runt. Huset har två sovrum som vardera har ",
+      "category": "Boende",
+      "lat": 62.874688,
+      "lon": 15.273062,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21458,
+      "title": "Gålvikens pilgrimsboende, Stöde",
+      "slug": "galviken",
+      "url": "",
+      "description": "Charmigt boende i egen stuga med sjöutsikt på södra sida av Stödesjön. Från Selå",
+      "category": "Boende",
+      "lat": 62.38911,
+      "lon": 16.6658,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21519,
+      "title": "Flottarstugan Nederede",
+      "slug": "flottarstugan-nederede",
+      "url": "",
+      "description": "Stuga med 4 bäddar, öppen spis, vedspis och uthus (WC inte i stuga). Det finns m",
+      "category": "Boende",
+      "lat": 62.42068,
+      "lon": 16.48879,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21484,
+      "title": "Jamtli Vandrarhem, Östersund",
+      "slug": "jamtli-vandrarhem",
+      "url": "",
+      "description": "Jamtli Vandrarhem är beläget ca 1 km utanför Östersunds stadskärna och mitt i et",
+      "category": "Boende",
+      "lat": 63.187501,
+      "lon": 14.636643,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/12646509409",
+      "matched_osm_url": "https://www.openstreetmap.org/node/12646509409",
+      "distance_m": 74.2,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 21477,
+      "title": "Kapellet i Byn, Fränsta",
+      "slug": "kapellet-i-byn",
+      "url": "",
+      "description": "Boende i tidigare kapell. Bottenvåningen har 5 bäddar med toalett och kök. På öv",
+      "category": "Boende",
+      "lat": 62.496165,
+      "lon": 16.11783,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21445,
+      "title": "Medstugans Pilgrimsboende",
+      "slug": "medstugan-vandrarhemmet-mejeriet",
+      "url": "",
+      "description": "I Medstugans pilgrimsboende erbjuds ett antal bäddar i sovsalar i form av våning",
+      "category": "Boende",
+      "lat": 63.519698,
+      "lon": 12.407919,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21523,
+      "title": "Ritas brygga, Pilgrimstad",
+      "slug": "kvarnvagen-26",
+      "url": "",
+      "description": "Övernattning i min atelje på madrasser med Revsundssjön 4 meter utanför, inkl. m",
+      "category": "Boende",
+      "lat": 62.95729,
+      "lon": 15.03417,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21501,
+      "title": "Harrsjöstugan",
+      "slug": "harrsjostugan",
+      "url": "",
+      "description": "Välkommen till vindskyddet och övernattningsstugan!\nMellan Stora och Lilla Harrs",
+      "category": "Boende",
+      "lat": 62.683559,
+      "lon": 15.609512,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Nära toalett",
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/12760157391",
+      "matched_osm_url": "https://www.openstreetmap.org/node/12760157391",
+      "distance_m": 131.9,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 21506,
+      "title": "Lilla Äppelgården, Selånger",
+      "slug": "lilla-appelgarden",
+      "url": "",
+      "description": "Pilgrimsboende i närheten av ledens startpunkt i Kungsnäs, Selånger. Vi hyr ut e",
+      "category": "Boende",
+      "lat": 62.410626,
+      "lon": 17.209648,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21483,
+      "title": "Borgsjö Hembygdsgård Vandrarhem",
+      "slug": "borgsjo-hembygdsgard",
+      "url": "",
+      "description": "Vandrarhemmet är öppet för säsongen mellan 1 juni och 15 september. Vi har total",
+      "category": "Boende",
+      "lat": 62.5413,
+      "lon": 15.9069,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21510,
+      "title": "Sara's Bed & Breakfast, Erikslund",
+      "slug": "sara-s-bed-breakfast",
+      "url": "",
+      "description": "Bed & Breakfast som också erbjuder spa-behandlingar. Gratis spa-bad för pilgrime",
+      "category": "Boende",
+      "lat": 62.530278,
+      "lon": 15.889825,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21529,
+      "title": "Sidsjö Hotell & Konferens",
+      "slug": "sidsjo-hotell-konferens-2",
+      "url": "",
+      "description": "Sidsjö Hotell & Konferens är både hotell och vandrarhem. Hotellrummen har egna b",
+      "category": "Boende",
+      "lat": 62.378158,
+      "lon": 17.28753,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/1255767098",
+      "matched_osm_url": "https://www.openstreetmap.org/node/1255767098",
+      "distance_m": 12.1,
+      "tag_diff": "tourism=hotel; name=Sidsjö Hotell & Konferens"
+    },
+    {
+      "id": 21507,
+      "title": "Lombäcksstugorna",
+      "slug": "lombacksstugorna",
+      "url": "",
+      "description": "Lombäcksstugorna är enkla stugor\nsom är utrustad med endast det nödvändiga såsom",
+      "category": "Boende",
+      "lat": 62.59329756909376,
+      "lon": 15.6786851620407,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21486,
+      "title": "Wångens Wärdshus, Alsen",
+      "slug": "alsen-wangen",
+      "url": "",
+      "description": "Wångens Wärdshus erbjuder boende på hotell, vandrarhem och i stugor. Toalett, du",
+      "category": "Boende",
+      "lat": 63.386584,
+      "lon": 13.952214,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21480,
+      "title": "Sundsvalls ridklubb",
+      "slug": "sundsvalls-ridklubb",
+      "url": "",
+      "description": "5 stycken dubbelrum. Stall och hästhage finns.\nFör mer information eller för att",
+      "category": "Boende",
+      "lat": 62.412787,
+      "lon": 17.198077,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22160,
+      "title": "Syster Ruths Hus, Alsen",
+      "slug": "syster-ruths-hus",
+      "url": "",
+      "description": "I Syster Ruths Hus finns 2 rum med 2 bäddar i varje rum. \n\nWc, dusch, sängkläder",
+      "category": "Boende",
+      "lat": 63.38788322330664,
+      "lon": 13.91313738635991,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22403,
+      "title": "Rastplats och badplats i Alsen",
+      "slug": "badplats-i-alsen",
+      "url": "",
+      "description": "Rastplats med vindskydd, eldstad, bord, bänkar, grillplats, ved och dass. Fin ba",
+      "category": "Vindskydd",
+      "lat": 63.38356975398196,
+      "lon": 13.96129774547109,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Grillplats/Eldplats",
+        "Toalett",
+        "Badplats",
+        "Sittbänk",
+        "Bänkbord",
+        "Vedlår",
+        "Brygga"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22159,
+      "title": "Härbre, Bodsjöbränna",
+      "slug": "bodsjobranna",
+      "url": "",
+      "description": "Bodsjöbränna är ett härbre med två bäddar samt en bäddsoffa.\n\nBoendet har ett to",
+      "category": "Boende",
+      "lat": 63.46383757026995,
+      "lon": 12.6261450727695,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22108,
+      "title": "Stalltjärnstugan",
+      "slug": "stalltjarnstugan",
+      "url": "",
+      "description": "I Stalltjärnstugan finns ett boende i en friggebod med två sängplatser, och bred",
+      "category": "Boende",
+      "lat": 63.4695748458193,
+      "lon": 12.5782989995218,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22161,
+      "title": "Bo i ro, Gällö",
+      "slug": "bo-i-ro",
+      "url": "",
+      "description": "Unikt arkitektdesignat hus med högsta standard innehållandes 6 bäddar + bäddsoff",
+      "category": "Boende",
+      "lat": 62.93727059261372,
+      "lon": 15.25478212448199,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22162,
+      "title": "Mitt Musteri i Borgsjö",
+      "slug": "mitt-musteri-i-borgsjo",
+      "url": "",
+      "description": "Mitt Musteri är ett Bed & Breakfast med 4 rum och 8 sängar. Nedervåningen är til",
+      "category": "Boende",
+      "lat": 62.5489495562166,
+      "lon": 15.8348592369626,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22135,
+      "title": "Öyegården Treat & Retreat, Erikslund",
+      "slug": "oyegarden",
+      "url": "",
+      "description": "Öyegården är ett pensionat som har öppet året runt. Det finns 5 rum med totalt 8",
+      "category": "Boende",
+      "lat": 62.54364368880553,
+      "lon": 15.85954244515705,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/1233653937",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1233653937",
+      "distance_m": 26.5,
+      "tag_diff": "tourism=guest_house; name=Öyegården"
+    },
+    {
+      "id": 23781,
+      "title": "Revsunds Prästgård",
+      "slug": "revsunds-prastgard-2",
+      "url": "",
+      "description": "#### Kontakt\n\nEmail: [info@revsundsprastgard.se](mailto:info@revsundsprastgard.s",
+      "category": "Boende",
+      "lat": 62.89933893548735,
+      "lon": 15.12867351985643,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 25635,
+      "title": "Hotell Emma, Östersund",
+      "slug": "hotell-emma",
+      "url": "",
+      "description": "Hotellet ligger mitt i Östersunds centrum, nära till butiker, restauranger & nöj",
+      "category": "Boende",
+      "lat": 63.17814610284959,
+      "lon": 14.63691406759785,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/470641814",
+      "matched_osm_url": "https://www.openstreetmap.org/node/470641814",
+      "distance_m": 8.1,
+      "tag_diff": "tourism=hotel; name=Hotel Emma"
+    },
+    {
+      "id": 26844,
+      "title": "Rastplats Tegeforsen",
+      "slug": "rastplats-tegeforsen",
+      "url": "",
+      "description": "Vid Tegeforsens vattenfall finns en naturskön rastplats med dass, vindskydd, sop",
+      "category": "Vindskydd",
+      "lat": 63.39479610074206,
+      "lon": 12.96653506118925,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Grillplats/Eldplats",
+        "Toalett",
+        "Parkeringsplats",
+        "Sopkärl",
+        "Sittbänk"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/5055487629",
+      "matched_osm_url": "https://www.openstreetmap.org/node/5055487629",
+      "distance_m": 102.0,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 25902,
+      "title": "Dass och rastplats Glösa",
+      "slug": "dass-och-rastplats-glosa",
+      "url": "",
+      "description": "I närheten av varandra kan du hitta både en rastplats med lägereldsplats med bän",
+      "category": "Vindskydd",
+      "lat": 63.38157408685954,
+      "lon": 14.02807133890104,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Grillplats/Eldplats",
+        "Toalett"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26771,
+      "title": "Dass och rastplats vid Revsundssjön",
+      "slug": "dass-och-rastplats-vid-revsundssjon",
+      "url": "",
+      "description": "Rastplats med vindskydd, dass, ved, grillplats och soptunna.\n\n",
+      "category": "Vindskydd",
+      "lat": 62.85790205342564,
+      "lon": 15.28064407293117,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Grillplats/Eldplats",
+        "Toalett",
+        "Vedlår"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26662,
+      "title": "Stugor vid kyrkan i Revsund",
+      "slug": "attefallsstugan-i-revsund",
+      "url": "",
+      "description": "Stuga 1: Stuga med tre bäddar, toalett, matplats, vattenkokare och Wifi.\n\nStuga ",
+      "category": "Boende",
+      "lat": 62.8991599777113,
+      "lon": 15.13020052538058,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26669,
+      "title": "Stuga i Sösjö",
+      "slug": "stuga-i-sosjo",
+      "url": "",
+      "description": "Stuga vid Sösjö med stor tomt. Stugan har tre rum, två sängar och två bäddsoffor",
+      "category": "Boende",
+      "lat": 62.75281327364713,
+      "lon": 15.50265008839603,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26927,
+      "title": "Rastplats Kvilbekken",
+      "slug": "rastplats-kvilbekken",
+      "url": "",
+      "description": "Rastplats med vindskydd, picknickbord, grillplats och dass.\n\n",
+      "category": "Vindskydd",
+      "lat": 63.64203351167724,
+      "lon": 12.15488200247166,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Toalett",
+        "Bänkbord"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26772,
+      "title": "Rastplats och dass i Slåttviken",
+      "slug": "rastplats-och-dass-i-slattviken",
+      "url": "",
+      "description": "Rastplats med vindskydd, badstrand, grillplats och dass.\n\n",
+      "category": "Vindskydd",
+      "lat": 62.88724724335334,
+      "lon": 15.2727925123749,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Grillplats/Eldplats",
+        "Toalett",
+        "Badplats"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26667,
+      "title": "Pilgrimskullen, Vaplan",
+      "slug": "pilgrimskullen",
+      "url": "",
+      "description": "LOGI. Här du bor i huset tillsammans med mig och katten Nala. Vi erbjuder 1 enke",
+      "category": "Boende",
+      "lat": 63.34038364119905,
+      "lon": 14.22510693394076,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26710,
+      "title": "Huberget. Café och vandrarhem, Stöde",
+      "slug": "stode-hembygdsforening-huberget",
+      "url": "",
+      "description": "Vandrahemmet har två rum med två och tre sängar, kök. Toalett och dusch finns i ",
+      "category": "Boende",
+      "lat": 62.4157215450783,
+      "lon": 16.5641863569503,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Kulturmiljö",
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "way/808435179",
+      "matched_osm_url": "https://www.openstreetmap.org/way/808435179",
+      "distance_m": 244.1,
+      "tag_diff": "tourism=camp_site; name=Stöde Camping"
+    },
+    {
+      "id": 26702,
+      "title": "Tuna Hembygdsgård",
+      "slug": "tuna-hembygdsgard",
+      "url": "",
+      "description": "Här går det bra att tälta, hämta dricksvatten eller använda vårt utedass.\n\n",
+      "category": "Teltplass",
+      "lat": 62.35969679352957,
+      "lon": 17.03698829593714,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Kulturmiljö",
+        "Dricksvatten",
+        "Toalett",
+        "Tältplats"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 48308,
+      "title": "Mogården, Gimdalen",
+      "slug": "mogaarden",
+      "url": "",
+      "description": "4 rum, 8 bäddar, dusch och wc, kök, internet, vedeldad bastu, badtunna, grill.\n\n",
+      "category": "Boende",
+      "lat": 62.8381958687592,
+      "lon": 15.6792893041146,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 52581,
+      "title": "Åredalens Fjällgård",
+      "slug": "aaredalens-fjallgaard",
+      "url": "",
+      "description": "Åredalens fjällgård är ett trivsamt vandrarhem i Åredalen,Gården har stora ytor ",
+      "category": "Boende",
+      "lat": 63.32390170546171,
+      "lon": 13.36351248536113,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 70730,
+      "title": "Stuga Österböle 212, Balsta",
+      "slug": "osterbole-212",
+      "url": "",
+      "description": "Unna dig!\n\nFristående stuga belägen 10 meter från Bölesjön med fantastisk utsikt",
+      "category": "Boende",
+      "lat": 63.02412691743908,
+      "lon": 14.93991642304633,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 73517,
+      "title": "Liljedalen, Stöde",
+      "slug": "liljedalen",
+      "url": "",
+      "description": "Fyrbäddsstuga med pentry. Dusch och toa inne hos oss. Med frukost tar jag 450 kr",
+      "category": "Boende",
+      "lat": 62.37223321155341,
+      "lon": 16.8508607479942,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 100370,
+      "title": "Pizzaros, Mörsil",
+      "slug": "pizzaros",
+      "url": "",
+      "description": "Vindslägenhet med 2 rum och kök. Boendet har 2 sängar.\n\nI lägenheten finns kök, ",
+      "category": "Boende",
+      "lat": 63.30178059750318,
+      "lon": 13.65205623560081,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 100812,
+      "title": "Stugor, Rödön",
+      "slug": "stugor-rodon",
+      "url": "",
+      "description": "4 st stugor på Rödön med vacker utsikt mot fjällen och Storsjön. Stugorna har 2 ",
+      "category": "Boende",
+      "lat": 63.24461494972553,
+      "lon": 14.42667864718558,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 55878,
+      "title": "Friggebod i Lunne",
+      "slug": "friggebod-i-lunne",
+      "url": "",
+      "description": "Friggebod om 10 kvm med el och värmeelement. Beläget direkt längs leden på gård ",
+      "category": "Teltplass",
+      "lat": 63.07943647123594,
+      "lon": 14.87661198143186,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende",
+        "Tältplats"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 70283,
+      "title": "Tältplats Bräcke Båthamn",
+      "slug": "taltplats-bracke-bathamn",
+      "url": "",
+      "description": "Gratis tältplatser i Bräcke båthamn.\n\nDet finns ett nybyggt servicehus i anslutn",
+      "category": "Boende",
+      "lat": 62.74742519689624,
+      "lon": 15.41845609245397,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/9879338570",
+      "matched_osm_url": "https://www.openstreetmap.org/node/9879338570",
+      "distance_m": 81.1,
+      "tag_diff": "tourism=camp_site; name=Bräcke Strand Tältplats"
+    },
+    {
+      "id": 127170,
+      "title": "Stuga, Storharrsjön",
+      "slug": "stuga-storharrsjon",
+      "url": "",
+      "description": "Enklare jaktstuga vid Storharrsjön. Vid stugan finns tillgång till vattenkälla s",
+      "category": "Boende",
+      "lat": 62.68010659335891,
+      "lon": 15.60791561137867,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 73514,
+      "title": "Multi Challenge Hostel, Östersund",
+      "slug": "multi-challenge-hostel",
+      "url": "",
+      "description": "Fräscht, prisvärt, vandrarhem. Gemensamt kök (med kylskåp, frys, spis, micro, ug",
+      "category": "Boende",
+      "lat": 63.16200003795274,
+      "lon": 14.65725882274265,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Cafe/Restaurang",
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/2549551944",
+      "matched_osm_url": "https://www.openstreetmap.org/node/2549551944",
+      "distance_m": 4.8,
+      "tag_diff": "tourism=hostel"
+    },
+    {
+      "id": 72202,
+      "title": "Camp Östbacken, Kluk",
+      "slug": "camp-ostbacken",
+      "url": "",
+      "description": "Camp Östbacken erbjuder två stycken lägenheter med tre rum och kök vardera, sex ",
+      "category": "Boende",
+      "lat": 63.40696856021972,
+      "lon": 13.81225966507662,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/11818550599",
+      "matched_osm_url": "https://www.openstreetmap.org/node/11818550599",
+      "distance_m": 5.1,
+      "tag_diff": "tourism=camp_site; name=Camp Östbacken"
+    },
+    {
+      "id": 70284,
+      "title": "Gården Bräcke",
+      "slug": "garden-bracke",
+      "url": "",
+      "description": "Naturnära boende på Gården Bräcke i vackra Alsenbygden.\n\nRummen finns på övervån",
+      "category": "Boende",
+      "lat": 63.38404749419786,
+      "lon": 13.99986170024533,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 103097,
+      "title": "Lornsgården, Nälden",
+      "slug": "lornsgarden-nalden",
+      "url": "",
+      "description": "Välkommen att hyra vår stuga på Lornsgården!\n\nGården har anor från 1750 och här ",
+      "category": "Boende",
+      "lat": 63.35348620782412,
+      "lon": 14.25279713328078,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/939349186",
+      "matched_osm_url": "https://www.openstreetmap.org/node/939349186",
+      "distance_m": 237.1,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 127259,
+      "title": "Hällsluten 167",
+      "slug": "hallsluten",
+      "url": "",
+      "description": "Här får du bo lite spartanskt och enkelt, i gammelstugan från tidigt 1800-tal. I",
+      "category": "Boende",
+      "lat": 62.70575041684532,
+      "lon": 15.5975705881396,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 27311,
+      "title": "Rastplats med vindskydd",
+      "slug": "vindskydd-18",
+      "url": "",
+      "description": "",
+      "category": "Vindskydd",
+      "lat": 63.60315240671199,
+      "lon": 12.22847884462812,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 99673,
+      "title": "Stuga, Undersåker",
+      "slug": "stuga-undersaker",
+      "url": "",
+      "description": "",
+      "category": "Boende",
+      "lat": 63.30991915331072,
+      "lon": 13.3004199794949,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 73477,
+      "title": "Pilgrimsvila - Båthuset på Rödön",
+      "slug": "bathuset-pa-rodon",
+      "url": "",
+      "description": "Båthuset på Rödön ligger naturskönt vid Storsjöns strand ca 500 meter från St Ol",
+      "category": "Boende",
+      "lat": 63.2336691270003,
+      "lon": 14.41778600244629,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 99226,
+      "title": "Åsans pilgrimsboende, Mörsil",
+      "slug": "asans-pilgrimsboende",
+      "url": "",
+      "description": "Välkommen att\növernatta hos oss på din väg mot Trondheim! Precis invid leden hit",
+      "category": "Boende",
+      "lat": 63.31496674255251,
+      "lon": 13.68508605488881,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 93642,
+      "title": "Revsunds Brewery & Distillery",
+      "slug": "revsunds-brewery-distillery",
+      "url": "",
+      "description": "#### Välkommen till Revsunds Bryggeri – Stanna, Smaka & Njut\n\nUpplev det bästa a",
+      "category": "Campingplass",
+      "lat": 62.9015191634436,
+      "lon": 15.12396619728838,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rullstolsvänligt",
+        "Barnvagnstillgängligt",
+        "Nära parkering",
+        "Nära kollektivtrafik",
+        "Cafe/Restaurang",
+        "Boende",
+        "Camping",
+        "Dricksvatten",
+        "Raststuga",
+        "Ställplats för husbil",
+        "Sevärdhet",
+        "Pilgrimsservice",
+        "Pilgrim's Welcome"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 94776,
+      "title": "Mörsils Gamla Prästgård",
+      "slug": "gamla-prastgarden",
+      "url": "",
+      "description": "Warmly welcome to Mörsil old parsonage.  Serving from the heart is our mantra ❣️",
+      "category": "Boende",
+      "lat": 63.30960181687809,
+      "lon": 13.65099865634784,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 122750,
+      "title": "St Olavs Cabin, Hållsta, Brunflo",
+      "slug": "stolavscabin-hallsta-brunflo",
+      "url": "",
+      "description": "Including warm water, bed linen, towel and soap.\n\n1-2 people: 750 SEK\n\n3 people:",
+      "category": "Boende",
+      "lat": 63.00463013800373,
+      "lon": 14.94941588195644,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 100142,
+      "title": "Bellmangårdens Pilgrimsboende, Matfors",
+      "slug": "pilgrimsboende-matfors",
+      "url": "",
+      "description": "Varmt välkomna till Bellmangårdens Pilgrimsboende i\nvackra Sköle by i Matfors. B",
+      "category": "Boende",
+      "lat": 62.34952073849581,
+      "lon": 17.00627891343643,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 52579,
+      "title": "Gårdshuset Vandrarhem, Undersåker",
+      "slug": "bykyrkans-logi",
+      "url": "",
+      "description": "Välkommen till Gårdshuset Vandrarhem mitt i Undersåker,\nlängs med St.Olavsledenl",
+      "category": "Boende",
+      "lat": 63.31622524991289,
+      "lon": 13.23652663846005,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/13590708417",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13590708417",
+      "distance_m": 4.2,
+      "tag_diff": "tourism=hostel; name=Gårdhuset Vandrarhem"
+    },
+    {
+      "id": 73480,
+      "title": "Svedje, Brunflo",
+      "slug": "svedje",
+      "url": "",
+      "description": "Boende i gästrum i något av boningshusen. Kök, toalett, dusch, tvättmaskin, inte",
+      "category": "Boende",
+      "lat": 62.98772243514608,
+      "lon": 15.00426129344055,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 73516,
+      "title": "Södra Gullgård, Fränsta",
+      "slug": "sodra-gullgard",
+      "url": "",
+      "description": "Bagarstuga med dubbelsäng beläget 1 km från Byforsen. Tvättrum med mulltoa. Kök,",
+      "category": "Boende",
+      "lat": 62.484041585808,
+      "lon": 16.10529967110895,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 68123,
+      "title": "Lilla Bogården, Kälsta",
+      "slug": "kalsta",
+      "url": "",
+      "description": "Welcomme to Lilla Bogården i Kälsta.\n\nA house in Stöde next to pilgrimsleden wit",
+      "category": "Boende",
+      "lat": 62.41724747760057,
+      "lon": 16.55675298869011,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende",
+        "Dricksvatten"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 48295,
+      "title": "Knut & Ruts, Undersåker kyrka",
+      "slug": "knut-ruts",
+      "url": "",
+      "description": "Knut & Ruts är ett hus med kafé i unik miljö, frisör, enkelt loppis och porsline",
+      "category": "Boende",
+      "lat": 63.3270877878393,
+      "lon": 13.384620384837,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Cafe/Restaurang",
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 73513,
+      "title": "Sörnedansjö 149",
+      "slug": "sornedansjo-149",
+      "url": "",
+      "description": "Accommodation in Sörnedansjö. The house has 3 rooms\nand 6 beds, there is also th",
+      "category": "Boende",
+      "lat": 62.37292666469969,
+      "lon": 16.8513231132186,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 70657,
+      "title": "Duvhökens Bed & Breakfast, Alsen",
+      "slug": "duvhokens-bed-breakfast",
+      "url": "",
+      "description": "På Duvhökens BnB bor du likt Ronja Rövardotter med utsikt över islandshästarna s",
+      "category": "Boende",
+      "lat": 63.386289177441,
+      "lon": 13.96290633663364,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 72671,
+      "title": "Stuga i Brunflo",
+      "slug": "stuga-i-brunflo",
+      "url": "",
+      "description": "Liten stuga med 2 bäddar (en dubbelsäng). I huvudbyggaden finns även ett rum med",
+      "category": "Boende",
+      "lat": 63.0798590343571,
+      "lon": 14.82788640530114,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/4557813792",
+      "matched_osm_url": "https://www.openstreetmap.org/node/4557813792",
+      "distance_m": 88.5,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 127545,
+      "title": "Frösö pilgrimscenter",
+      "slug": "froso-pilgrimscenter",
+      "url": "",
+      "description": "Frösö pilgrimscenter är öppet under sommaren från 7 juni till 30 augusti, tisdag",
+      "category": "Boende",
+      "lat": 63.17827381893716,
+      "lon": 14.52057580546182,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/4558612412",
+      "matched_osm_url": "https://www.openstreetmap.org/node/4558612412",
+      "distance_m": 67.6,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 73307,
+      "title": "Folkan Matfors",
+      "slug": "folkan-matfors",
+      "url": "",
+      "description": "Välkommen till oss,\n\nFolkan Matfors erbjuder\nett enkelt flerbädds boende med sjä",
+      "category": "Boende",
+      "lat": 62.3473451574375,
+      "lon": 17.02088847369296,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Att göra",
+        "Boende",
+        "Wifi"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 55443,
+      "title": "Leopold Boutique Hotel, Östersund",
+      "slug": "leopold-bed-breakfast",
+      "url": "",
+      "description": "Varmt välkommen till Leopold Boutique Hotel mitt i hjärtat av Östersund! Här hit",
+      "category": "Boende",
+      "lat": 63.17835596734091,
+      "lon": 14.63667046273022,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/470641814",
+      "matched_osm_url": "https://www.openstreetmap.org/node/470641814",
+      "distance_m": 29.5,
+      "tag_diff": "tourism=hotel; name=Hotel Emma"
+    },
+    {
+      "id": 101400,
+      "title": "Hovs Uppgård, Alsen",
+      "slug": "boende-alsen",
+      "url": "",
+      "description": "**Stuga med fjällutsikt på Hovs Uppgård i Alsen.**\n\nEn mysig och fräsch stuga so",
+      "category": "Boende",
+      "lat": 63.39015730297999,
+      "lon": 13.92353003238841,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 103054,
+      "title": "Lindqvist Tjänst & Gästgiveri i Fränsta",
+      "slug": "cinas-bnb-fransta",
+      "url": "",
+      "description": "Trivsam\nlägenhet på 45 kvm. Du hyr hela lägenheten för dig själv. \n\n(Max antal b",
+      "category": "Boende",
+      "lat": 62.49809109157277,
+      "lon": 16.17579354684614,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 74998,
+      "title": "Brinkeboda, Mörsil",
+      "slug": "brinkeboda",
+      "url": "",
+      "description": "Boende i hotellrum med flera olika alternativ:\n\n- Enkelrum med gemensam dusch oc",
+      "category": "Boende",
+      "lat": 63.31015374678091,
+      "lon": 13.64749751968344,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/6341216814",
+      "matched_osm_url": "https://www.openstreetmap.org/node/6341216814",
+      "distance_m": 79.9,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 94726,
+      "title": "Ådalsvollen Pilegrims Lodge ",
+      "slug": "adalsvollen-overnattning",
+      "url": "",
+      "description": "**Ådalsvollen Pilegrims Lodge**\n\nÅdalsvollen Pilegrims Lodge\n\nNydelig sted med r",
+      "category": "Boende",
+      "lat": 63.6645291935792,
+      "lon": 12.05516670525927,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Kulturmiljö",
+        "Fiske",
+        "Naturvärde",
+        "Boende",
+        "Toalett",
+        "Bastu",
+        "Wifi",
+        "Dusch",
+        "Vandrarvänligt boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 52580,
+      "title": "Stuga i Grytan",
+      "slug": "stuga-i-grytan",
+      "url": "",
+      "description": "Stuga på gården i längs Sankt Olavsleden. Nedanför hembygdsgården i Grytan, enda",
+      "category": "Boende",
+      "lat": 63.09292763484842,
+      "lon": 14.79280106907675,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 128545,
+      "title": "Vindskydd, grillplats, bänkar",
+      "slug": "vindskydd-grillplats-bankar",
+      "url": "",
+      "description": "",
+      "category": "Vindskydd",
+      "lat": 62.49548642194603,
+      "lon": 16.04922030051864,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Vindskydd"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 131609,
+      "title": "Furulund, Stavre",
+      "slug": "lagenhet-furulund-stavre",
+      "url": "",
+      "description": "Nära S:t Olavsleden ligger boendet Furulund i Stavre, Gällö. Vid boendet finns t",
+      "category": "Boende",
+      "lat": 62.83096570083666,
+      "lon": 15.31096540370498,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 140529,
+      "title": "Stuga, Frösön",
+      "slug": "stuga-froson",
+      "url": "",
+      "description": "På vackra Frösön finns detta boende på en före detta prästgård i egen stuga. Stu",
+      "category": "Boende",
+      "lat": 63.17992585671931,
+      "lon": 14.51900079131548,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/4558612423",
+      "matched_osm_url": "https://www.openstreetmap.org/node/4558612423",
+      "distance_m": 120.3,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 138008,
+      "title": "Pils gård, Alsen",
+      "slug": "pils-gard-alsen",
+      "url": "",
+      "description": "Välkommen till Pils, gården med den vackraste\nutsikten över Alsensjön och Oviken",
+      "category": "Boende",
+      "lat": 63.38497635637836,
+      "lon": 14.00844960467609,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 136167,
+      "title": "Boende på gård, Kvällsjön, Matfors",
+      "slug": "boende-pa-gard-kvallsjon-matfors",
+      "url": "",
+      "description": "Välkomna\ntill oss på gården i Kvällsjön! \n\nHär\nhar vi en levande gård med lekand",
+      "category": "Boende",
+      "lat": 62.35325152606049,
+      "lon": 16.97600455411347,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 138009,
+      "title": "Gäststudio, Vattjom",
+      "slug": "gaststudio-matfors",
+      "url": "",
+      "description": "Ett lugnt boende i Vattjom (strax innan Matfors) nära S:t Olavsleden, med natur ",
+      "category": "Boende",
+      "lat": 62.36550083697907,
+      "lon": 17.06723466763813,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 138521,
+      "title": "Attefallshus, Undersåker",
+      "slug": "attefallshus-undersaker",
+      "url": "",
+      "description": "Välkommen att boka detta mysiga Attefallshus i Undersåker, 5 minuters gångavstån",
+      "category": "Boende",
+      "lat": 63.31395731389594,
+      "lon": 13.22935149619519,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 148431,
+      "title": "Björnidet Mörsil",
+      "slug": "bjornidet-morsil",
+      "url": "",
+      "description": "Koppla av med hela familjen i detta fridfulla boende. Nyrenoverad stuga med gång",
+      "category": "Boende",
+      "lat": 63.31174653510638,
+      "lon": 13.650686861168763,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 134294,
+      "title": "Enkelt boende på Bondgård, Svedje",
+      "slug": "enkelt-boende-pa-bondgard-svedje",
+      "url": "",
+      "description": "#### Enkelt boende i stuga på Bondgården – alldeles intill S:T Olavsleden.\n\n**Al",
+      "category": "Boende",
+      "lat": 62.9856775234544,
+      "lon": 15.00075871539238,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 26764,
+      "title": "Badplats vid hamn",
+      "slug": "badplats-21",
+      "url": "",
+      "description": "Vindskydd, grillplats, bänk, gräsmatta och badbrygga i anslutning till hamnen.\n\n",
+      "category": "Vindskydd",
+      "lat": 62.4930528425475,
+      "lon": 16.16948492972579,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Vindskydd",
+        "Grillplats/Eldplats",
+        "Badplats"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/12568786545",
+      "matched_osm_url": "https://www.openstreetmap.org/node/12568786545",
+      "distance_m": 28.1,
+      "tag_diff": "amenity=shelter; name=Torpsjön lägerplats"
+    },
+    {
+      "id": 126464,
+      "title": "Viskansparken, Torpshammar",
+      "slug": "viskansparken-torpshammar",
+      "url": "",
+      "description": "Lilla Villan är en liten mysig stuga med fin utsikt över Ljungan och den anrika ",
+      "category": "Boende",
+      "lat": 62.45167233322863,
+      "lon": 16.41635170507988,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 126468,
+      "title": "Lägenhet, Bodsjöbränna",
+      "slug": "lagenhet-bodsjobranna",
+      "url": "",
+      "description": "Lägenhet\npå hundgård i Bodsjöbränna vid Bodsjöns strand.\n\n2\nsovrum med en våning",
+      "category": "Boende",
+      "lat": 63.463952980941,
+      "lon": 12.62859539518783,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 105690,
+      "title": "Fin Attefallstuga med underbar utsikt i Vik, Åre",
+      "slug": "boende-i-vik-are",
+      "url": "",
+      "description": "Attefallstuga byggd 2023. Sängkläder och handdukar ingår. Sovloft med 140 cm mad",
+      "category": "Boende",
+      "lat": 63.38856089506976,
+      "lon": 13.12988937146707,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 128390,
+      "title": "Rödebuan Wilderness Camp",
+      "slug": "rodebuan",
+      "url": "",
+      "description": "Välkommen till Rödebuan Wilderness camp!\n\nBoendet har 5 rum och totalt 18 bäddar",
+      "category": "Boende",
+      "lat": 63.38905020830109,
+      "lon": 14.08689668066353,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 121602,
+      "title": "Boende på gård, Kluk",
+      "slug": "boende-kluk",
+      "url": "",
+      "description": "Boende på gård i Kluk. \n\nPå gårdens huvudbyggnad finns två separata små rum med ",
+      "category": "Boende",
+      "lat": 63.39634067527714,
+      "lon": 13.81306181333315,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 142728,
+      "title": "Liz Motell, Sundsvall",
+      "slug": "liz-motell-sundsvall",
+      "url": "",
+      "description": "Liz Motell ligger i Sundsvall, 6 minuters promenad från Bredsandsbadet, och erbj",
+      "category": "Boende",
+      "lat": 62.35855602018398,
+      "lon": 17.3699920964103,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "way/297511988",
+      "matched_osm_url": "https://www.openstreetmap.org/way/297511988",
+      "distance_m": 106.2,
+      "tag_diff": "tourism=camp_site; name=First Camp Fläsian"
+    },
+    {
+      "id": 100362,
+      "title": "Stuga, Lövåsen, Sörnedansjö",
+      "slug": "boende-nedansjo",
+      "url": "",
+      "description": "Boende på södra sidan stödesjön. Stugan ligger ca 500 m från\nvägen, upp i skogen",
+      "category": "Boende",
+      "lat": 62.36766677241087,
+      "lon": 16.80776643450861,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21478,
+      "title": "Elite Hotel Knaust, Sundsvall",
+      "slug": "elite-hotel-knaust",
+      "url": "",
+      "description": "Hotell i centrala Sundsvall\n\nTelefonnummer: 0660-608 00 00\n\n",
+      "category": "Boende",
+      "lat": 62.390587,
+      "lon": 17.311072,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "way/84947237",
+      "matched_osm_url": "https://www.openstreetmap.org/way/84947237",
+      "distance_m": 8.1,
+      "tag_diff": "tourism=hotel; name=Hotel Knaust"
+    },
+    {
+      "id": 21505,
+      "title": "Quality Hotel Sundsvall",
+      "slug": "quality-hotel-sundsvall",
+      "url": "",
+      "description": "Hotell med enkelrum och dubbelrum. Gym och relax finns.\nDjur är välkommet.\n\nTele",
+      "category": "Boende",
+      "lat": 62.3863,
+      "lon": 17.30669,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/560417202",
+      "matched_osm_url": "https://www.openstreetmap.org/node/560417202",
+      "distance_m": 17.4,
+      "tag_diff": "tourism=hotel; name=Quality Hotel Sundsvall"
+    },
+    {
+      "id": 21479,
+      "title": "Sundsvall City Hotel",
+      "slug": "sundsvall-city-hostel",
+      "url": "",
+      "description": "Ett trevligt litet hotell mitt i Sundsvall. Varje rum har egen toalett och dusch",
+      "category": "Boende",
+      "lat": 62.391339,
+      "lon": 17.310736,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Nära parkering",
+        "Nära kollektivtrafik",
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/922674322",
+      "matched_osm_url": "https://www.openstreetmap.org/node/922674322",
+      "distance_m": 7.4,
+      "tag_diff": "tourism=hotel; name=Sundsvall City Hotel"
+    },
+    {
+      "id": 122705,
+      "title": "Hållandsgårdens Pilgrimsstuga",
+      "slug": "hallandsgardens-pilgrimsstuga-9cf7b329-46b7-4074-aa0c-305039964e6a",
+      "url": "",
+      "description": "Hållandsgårdens Pilgrimsstuga ligger fint vid övre Nylandsforsen nära Ristafalle",
+      "category": "Raststuga",
+      "lat": 63.31644865580202,
+      "lon": 13.35267673308962,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Rastplats",
+        "Raststuga",
+        "Pilgrimsservice"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/13267585089",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13267585089",
+      "distance_m": 3.6,
+      "tag_diff": "tourism=wilderness_hut; name=Hållandsgårdens Pilgrimsstuga"
+    },
+    {
+      "id": 25742,
+      "title": "Frendo Borgsjö - Närlivs",
+      "slug": "frendo-borgsjo",
+      "url": "",
+      "description": "På Frendo Borgsjö kan du fika, äta, proviantera och uträtta diverse andra ärende",
+      "category": "Boende",
+      "lat": 62.53723991691832,
+      "lon": 15.91972613196669,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Nära parkering",
+        "Nära toalett",
+        "Cafe/Restaurang",
+        "Dricksvatten",
+        "Information",
+        "Toalett",
+        "Service",
+        "Butik/Gårdsbutik",
+        "Bränsle",
+        "Fiskekort",
+        "Glasskiosk",
+        "Bänkbord",
+        "Vedlår",
+        "Paket",
+        "Pilgrim's Welcome",
+        "Laddningsstation"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "way/1238807100",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1238807100",
+      "distance_m": 123.1,
+      "tag_diff": "tourism=camp_site; name=Borgsjö Strand Restaurang & Camping"
+    },
+    {
+      "id": 149270,
+      "title": "Vindskydd",
+      "slug": "vindskydd-93bf9cbd-ad0e-4afa-852f-2ca19a5374d7",
+      "url": "",
+      "description": "Frösö pilgrimscenter har ett fint vindskydd med eldplats som finns tillgängligt ",
+      "category": "Vindskydd",
+      "lat": 63.17811309881259,
+      "lon": 14.520488130001524,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Vindskydd"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/4558612412",
+      "matched_osm_url": "https://www.openstreetmap.org/node/4558612412",
+      "distance_m": 82.5,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 148873,
+      "title": "Norrgården: boende i Fränsta ",
+      "slug": "norrgarden-fransta",
+      "url": "",
+      "description": "Boende med enkel standard. 2 rum, 4 sängar och 3 extra sängar. Sängkläder finns ",
+      "category": "Boende",
+      "lat": 62.497629140418695,
+      "lon": 16.189335236736156,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 149063,
+      "title": "Hållsta 325",
+      "slug": "hallsta-325",
+      "url": "",
+      "description": "Välkommen att hyra en liten stuga\n\nPrivat stuga för 1-2 personer vid sjön. Ny du",
+      "category": "Boende",
+      "lat": 62.98855686115647,
+      "lon": 14.973530241715224,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 122958,
+      "title": "Rum i Bräcke  +46734843566",
+      "slug": "rum-bracke",
+      "url": "",
+      "description": "Ta med hela familjen till detta fantastiska ställe med massor av plats för skojs",
+      "category": "Boende",
+      "lat": 62.73780492934199,
+      "lon": 15.4301921631627,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 22194,
+      "title": "Röjsmons vandrarhem, Järpen",
+      "slug": "rojsmons-vandrarhem",
+      "url": "",
+      "description": "Vandrarhem med 9 rum och 31 bäddar som erbjuder gemensamt kök, matsal, toalett, ",
+      "category": "Boende",
+      "lat": 63.34670857738822,
+      "lon": 13.47038473403111,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "possible",
+      "matched_osm_id": "node/13943561855",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13943561855",
+      "distance_m": 228.8,
+      "tag_diff": "amenity=shelter"
+    },
+    {
+      "id": 103051,
+      "title": "Stuga, Staa",
+      "slug": "stuga-staa",
+      "url": "",
+      "description": "Our guest-cabin is a 3 bed accommodation (1 double bed + 1\nbed sofa) with a smal",
+      "category": "Boende",
+      "lat": 63.4016794599039,
+      "lon": 12.82800911230345,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "distance_m": "",
+      "tag_diff": ""
+    },
+    {
+      "id": 21508,
+      "title": "Torpshammars Herrgård",
+      "slug": "torpshammars-herrgard",
+      "url": "",
+      "description": "Historiskt hotell och bed and breakfast med utsikt över Ljungan. Det finns olika",
+      "category": "Boende",
+      "lat": 62.471989,
+      "lon": 16.331386,
+      "country": "Sweden",
+      "path_types": [
+        "all"
+      ],
+      "categories": [
+        "Boende"
+      ],
+      "source": "stolavsleden.com",
+      "match_status": "matched",
+      "matched_osm_id": "node/1751673706",
+      "matched_osm_url": "https://www.openstreetmap.org/node/1751673706",
+      "distance_m": 38.8,
+      "tag_diff": "tourism=guest_house; name=Torpshammars herrgård"
+    }
+  ],
+  "gpx_deviation": {
+    "threshold_m": 150.0,
+    "compared": 201,
+    "deviating": 126,
+    "max_m": 4265.6,
+    "samples": [
+      {
+        "lat": 63.4035753499226,
+        "lon": 14.0799457059989,
+        "distance_to_hiking_m": 4265.6
+      },
+      {
+        "lat": 63.3896410379499,
+        "lon": 14.1591136548788,
+        "distance_to_hiking_m": 3741.6
+      },
+      {
+        "lat": 62.9148283266757,
+        "lon": 15.071728871312,
+        "distance_to_hiking_m": 2289.3
+      },
+      {
+        "lat": 63.3915564189869,
+        "lon": 13.8828541366913,
+        "distance_to_hiking_m": 2087.7
+      },
+      {
+        "lat": 63.3705065895487,
+        "lon": 14.158285187058,
+        "distance_to_hiking_m": 1789.8
+      },
+      {
+        "lat": 63.3858409575732,
+        "lon": 14.04300795087,
+        "distance_to_hiking_m": 1609.3
+      },
+      {
+        "lat": 63.0274745256125,
+        "lon": 14.9013743060625,
+        "distance_to_hiking_m": 1597.7
+      },
+      {
+        "lat": 63.7104931281306,
+        "lon": 11.4129471313871,
+        "distance_to_hiking_m": 1367.8
+      },
+      {
+        "lat": 63.0405523578611,
+        "lon": 14.8952153448246,
+        "distance_to_hiking_m": 1326.8
+      },
+      {
+        "lat": 63.1476650941568,
+        "lon": 14.6963361650705,
+        "distance_to_hiking_m": 1246.5
+      },
+      {
+        "lat": 62.9472246123606,
+        "lon": 15.024452244191,
+        "distance_to_hiking_m": 1220.7
+      },
+      {
+        "lat": 62.5612020208819,
+        "lon": 15.829123640433,
+        "distance_to_hiking_m": 1176.9
+      },
+      {
+        "lat": 62.9015695671675,
+        "lon": 15.2827445883,
+        "distance_to_hiking_m": 1142.9
+      },
+      {
+        "lat": 62.4112481129104,
+        "lon": 17.2275168195884,
+        "distance_to_hiking_m": 1130.7
+      },
+      {
+        "lat": 63.1726598425086,
+        "lon": 14.5415120649483,
+        "distance_to_hiking_m": 1105.9
+      }
+    ]
+  },
+  "path_segment_counts": {
+    "hiking": 69,
+    "horseback": 28,
+    "biking": 26
+  }
+}

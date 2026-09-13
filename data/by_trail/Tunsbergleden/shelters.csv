@@ -1,0 +1,34 @@
+trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff
+Tunsbergleden,Berger Gård,Pilegrimsherberge,59.8645815,10.4729558,gap,,,,
+Tunsbergleden,Brannåsen,Rom og hytter | Teltplass,59.5329700,10.2393100,gap,,,,
+Tunsbergleden,Engøy gjestegård,Pilegrimsherberge | Teltplass,59.1458796,10.3125662,gap,,,,
+Tunsbergleden,Fuglesang herberge,Pilegrimsherberge,59.9238617,10.6365279,gap,,,,
+Tunsbergleden,Gapahuk ved Stordammen,Gapahuk,59.7649537,10.3759217,gap,,,,
+Tunsbergleden,Gardlaus Markastue og pilegrimsherberge,Rom og hytter,59.9338221,10.5539131,gap,,,,
+Tunsbergleden,Kaupang gård,Pilegrimsherberge | Teltplass,59.4545863,10.2478324,gap,,,,
+Tunsbergleden,Kirkebakken Borre - midlertidig stengt,Pilegrimsherberge,59.3830525,10.4599826,gap,,,,
+Tunsbergleden,Kjølholmen på Veierland,Teltplass,59.1647995,10.3601503,gap,,,,
+Tunsbergleden,Lavvoen Biggen,Rasteplass,59.8094600,10.3752500,gap,,,,
+Tunsbergleden,Orrfuglstua pilegrimsherberge,Pilegrimsherberge,59.4289637,10.4461367,gap,,,,
+Tunsbergleden,Poppel pilegrimsherberge,Pilegrimsherberge,59.2778261,10.4416313,gap,,,,
+Tunsbergleden,Preståsen pilegrimsherberge,Pilegrimsherberge,59.1341390,10.2393160,gap,,,,
+Tunsbergleden,Røyken Menighetshus,Pilegrimsherberge,59.7465420,10.3882478,gap,,,,
+Tunsbergleden,Sande overnatting,Pilegrimsherberge,59.5907643,10.2088204,gap,,,,
+Tunsbergleden,Tyristua,Rom og hytter | Teltplass,59.5351110,10.2255638,gap,,,,
+Tunsbergleden,Veierland skole,Rom og hytter,59.1574859,10.3536489,gap,,,,
+Tunsbergleden,Østre Aker pilegrimsherberge,Pilegrimsherberge,59.9221295,10.8198166,gap,,,,
+Tunsbergleden,Borre Familie Camping,Campingplass | Teltplass,59.3783077,10.4655385,matched,way/561884725,https://www.openstreetmap.org/way/561884725,92.5,name:Borre Familie Camping->Borre Familiecamping; osm:tents=yes
+Tunsbergleden,Bunks at Rode,Pilegrimsherberge | Vandrerhjem,59.9273939,10.7668296,matched,node/2790244101,https://www.openstreetmap.org/node/2790244101,8.7,+hostel:type=pilgrim
+Tunsbergleden,Gapahuk ved Solgården,Gapahuk,59.8486197,10.4462707,matched,way/960805989,https://www.openstreetmap.org/way/960805989,88.8,+name=Gapahuk ved Solgården; shelter_type:lean_to->public_transport
+Tunsbergleden,Gon Camping,Campingplass | Teltplass,59.0214358,10.0719031,matched,node/3663315018,https://www.openstreetmap.org/node/3663315018,43.2,osm:tents=no
+Tunsbergleden,Grillhytta på Labakken,Gapahuk | Rasteplass,59.2378550,10.3995218,matched,node/12204728472,https://www.openstreetmap.org/node/12204728472,19.4,+name=Grillhytta på Labakken
+Tunsbergleden,Hamborgstrømpaviljongen,Rom og hytter | Teltplass,59.7542118,10.1912597,matched,node/9797299419,https://www.openstreetmap.org/node/9797299419,2.3,tourism:chalet->wilderness_hut
+Tunsbergleden,Knutserød ved Borrevannet,Gapahuk | Rasteplass,59.4189000,10.4392000,matched,node/4341903601,https://www.openstreetmap.org/node/4341903601,32.7,+amenity=shelter; +name=Knutserød ved Borrevannet; +shelter_type=lean_to; osm:tourism=picnic_site
+Tunsbergleden,Kystledhytta Løvøysund,Rom og hytter,59.4454720,10.4550560,matched,node/1356458508,https://www.openstreetmap.org/node/1356458508,0.8,name:Kystledhytta Løvøysund->Løvøysund
+Tunsbergleden,Kystledhytta på Langgrunn,Rom og hytter,59.3891670,10.4767220,matched,node/9833704334,https://www.openstreetmap.org/node/9833704334,2.9,name:Kystledhytta på Langgrunn->Langgrunn
+Tunsbergleden,Kystledhytta Søndre Tenvik,Rom og hytter,59.1733211,10.3677163,matched,node/1356459151,https://www.openstreetmap.org/node/1356459151,6.9,name:Kystledhytta Søndre Tenvik->Søndre Tenvik
+Tunsbergleden,Orebergvannet lavvo ved Veseterstulen,Rasteplass,59.5465987,10.2130151,matched,way/896193087,https://www.openstreetmap.org/way/896193087,60.9,+name=Orebergvannet lavvo ved Veseterstulen; shelter_type:lean_to->basic_hut
+Tunsbergleden,Småvannsbu,Rom og hytter | Teltplass,59.7862200,10.3764400,matched,node/343508885,https://www.openstreetmap.org/node/343508885,7.1,tourism:chalet->wilderness_hut
+Tunsbergleden,Wentzelhytta,Rom og hytter,59.8094466,10.4196783,matched,node/9810716523,https://www.openstreetmap.org/node/9810716523,6.4,
+Tunsbergleden,Kystledhytta Gon,Rom og hytter,59.0200560,10.0705830,possible,node/3663315018,https://www.openstreetmap.org/node/3663315018,204.4,compatible_tag_beyond_100m; name:Kystledhytta Gon->Gon Camping; osm:tents=no; tourism:chalet->camp_site
+Tunsbergleden,Langøyene camping,Teltplass,59.8712779,10.7156181,possible,way/1547711866,https://www.openstreetmap.org/way/1547711866,156.5,compatible_tag_beyond_100m; name:Langøyene camping->Langøyene Teltplass

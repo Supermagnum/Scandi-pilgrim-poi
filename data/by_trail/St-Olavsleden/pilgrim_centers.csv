@@ -1,0 +1,6 @@
+trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff,country,source,path_types,naturkartan_id
+St. Olavsleden,Frösö pilgrimscenter,Pilegrimssenter | Overnatting | Pilegrimsherberge,63.1782637,14.5206025,gap,,,,,Norway,pilegrimsleden.no,,
+St. Olavsleden,Naturum Ånge & Turistbyrå - Borgsjö Pilgrimscenter,Pilegrimssenter | Rasteplass | Handel og service | Turistinformasjon,62.5367378,15.9190751,gap,,,,,Norway,pilegrimsleden.no,,
+St. Olavsleden,Selånger Pilegrimssenter,Pilegrimssenter,62.4065825,17.2097649,gap,,,,,Norway,pilegrimsleden.no,,
+St. Olavsleden,Gjesteloftet på Stiklestad middelaldergård.,Overnatting,63.7960021,11.5622009,matched,node/14086452092,https://www.openstreetmap.org/node/14086452092,13.2,tourism=information; information=office; pilgrimage=stamp_office; checkpoint:type=stamp,Norway,pilegrimsleden.no,,
+St. Olavsleden,Pilegrimsmottak,Turistinformasjon | Aktivitet | Sted,63.4265962,10.3999933,matched,way/167823309,https://www.openstreetmap.org/way/167823309,4.3,tourism=guest_house; pilgrimage=stamp_office; building=retail; checkpoint:type=stamp,Norway,pilegrimsleden.no,,

@@ -1,0 +1,5 @@
+trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff
+Tunsbergleden,Løkken - filial for Pilegrimssenter Oslo,Pilegrimssenter,59.2744282,10.4052044,gap,,,,
+Tunsbergleden,Milesteinen i Oslo – startpunkt,Pilegrimssenter,59.9059365,10.7680888,matched,node/2785465804,https://www.openstreetmap.org/node/2785465804,94.7,tourism=information; information=office; pilgrimage=stamp_office; checkpoint:type=stamp
+Tunsbergleden,Oslo Bispegård,Kulturminne,59.9063410,10.7694500,matched,node/2785465804,https://www.openstreetmap.org/node/2785465804,8.2,tourism=information; information=office; pilgrimage=stamp_office; checkpoint:type=stamp
+Tunsbergleden,Pilegrimssenter Oslo,Pilegrimssenter | Turistinformasjon,59.9062231,10.7698344,matched,node/2785465804,https://www.openstreetmap.org/node/2785465804,17.9,tourism=information; information=office; pilgrimage=stamp_office; checkpoint:type=stamp

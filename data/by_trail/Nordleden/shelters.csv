@@ -1,0 +1,3 @@
+trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff
+Nordleden,Stiklestad Camping,Rom og hytter | Teltplass,63.7739444,11.5785734,matched,node/3663316782,https://www.openstreetmap.org/node/3663316782,86.8,osm:tents=yes; tourism:chalet->camp_site
+Nordleden,Scandic Stiklestad Hotell,Pilegrimsherberge,63.7959568,11.5625599,possible,node/14086452092,https://www.openstreetmap.org/node/14086452092,30.1,incompatible_or_weak_tags; +hostel:type=pilgrim; name:Scandic Stiklestad Hotell->Stiklestad pilegrimssenter; tourism:hostel->information

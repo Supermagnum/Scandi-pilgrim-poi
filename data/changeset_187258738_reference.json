@@ -1,0 +1,314 @@
+{
+  "changeset_id": 187258738,
+  "downloaded_at": "2026-09-13T15:02:22.306671+00:00",
+  "metadata_url": "https://www.openstreetmap.org/api/0.6/changeset/187258738",
+  "download_url": "https://www.openstreetmap.org/api/0.6/changeset/187258738/download",
+  "metadata": {
+    "id": 187258738,
+    "user": "Visaman",
+    "uid": "237638",
+    "created_at": "2026-08-11T00:36:40Z",
+    "closed_at": "2026-08-11T00:36:40Z",
+    "changes_count": 15,
+    "min_lat": 59.354781,
+    "min_lon": 5.2921724,
+    "max_lat": 63.286405,
+    "max_lon": 11.043119,
+    "tags": {
+      "comment": "Joined, fixed opening hours , note: https://community.openstreetmap.org/t/inconsistent-tagging-for-pilgrim-centers/146312",
+      "created_by": "JOSM/1.5 (18969 Debian nb)",
+      "review_requested": "yes",
+      "source": "https://www.pilegrimsleden.no"
+    },
+    "comment": "Joined, fixed opening hours , note: https://community.openstreetmap.org/t/inconsistent-tagging-for-pilgrim-centers/146312",
+    "source": "https://www.pilegrimsleden.no"
+  },
+  "tag_scheme_used": {
+    "description": "Named pilgrim centers in changeset 187258738 are tagged as tourism=information + information=office + pilgrimage=stamp_office. That combination is the reference scheme. Nodes that only received opening_hours in this changeset are not the pilgrim-center objects.",
+    "required_combination": {
+      "tourism": "information",
+      "information": "office",
+      "pilgrimage": "stamp_office"
+    },
+    "overpass_filters": [
+      "nwr[\"pilgrimage\"=\"stamp_office\"]",
+      "nwr[\"tourism\"=\"information\"][\"information\"=\"office\"][\"pilgrimage\"=\"stamp_office\"]"
+    ],
+    "tag_frequency": [
+      {
+        "key": "information",
+        "typical_value": "office",
+        "values": {
+          "office": 6
+        },
+        "present_on": 6
+      },
+      {
+        "key": "name",
+        "typical_value": "Dovrefjell Pilgrim Center",
+        "values": {
+          "Dovrefjell Pilgrim Center": 1,
+          "Regional Pilgrim Center Avaldsnes": 1,
+          "Regional pilgrim center Smøla": 1,
+          "Granavollen Pilgrim Center": 1,
+          "Dale-Gudbrand Pilgrim Center": 1,
+          "Pilegrimssenter Hamar": 1
+        },
+        "present_on": 6
+      },
+      {
+        "key": "pilgrimage",
+        "typical_value": "stamp_office",
+        "values": {
+          "stamp_office": 7
+        },
+        "present_on": 7
+      },
+      {
+        "key": "tourism",
+        "typical_value": "information",
+        "values": {
+          "information": 6
+        },
+        "present_on": 6
+      }
+    ],
+    "pilgrim_center_element_count": 7,
+    "changeset_comment": "Joined, fixed opening hours , note: https://community.openstreetmap.org/t/inconsistent-tagging-for-pilgrim-centers/146312",
+    "changeset_source": "https://www.pilegrimsleden.no"
+  },
+  "element_ids": [
+    "node/9174883503",
+    "node/9174883504",
+    "node/9174883505",
+    "node/9174883506",
+    "node/9174883507",
+    "node/9174883508",
+    "node/14086486197",
+    "node/14086531584",
+    "node/6652754859",
+    "node/6652754860",
+    "node/11039992018",
+    "node/2785465804",
+    "way/475158600",
+    "way/708003068",
+    "way/98811698"
+  ],
+  "bounding_box": {
+    "min_lat": 59.354781,
+    "min_lon": 5.2921724,
+    "max_lat": 63.286405,
+    "max_lon": 11.043119
+  },
+  "elements": [
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 9174883503,
+      "version": 2,
+      "lat": 61.5488918,
+      "lon": 9.9662827,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 9174883504,
+      "version": 2,
+      "lat": 61.5488982,
+      "lon": 9.966433,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 9174883505,
+      "version": 2,
+      "lat": 61.5487197,
+      "lon": 9.9663176,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 9174883506,
+      "version": 2,
+      "lat": 61.5487183,
+      "lon": 9.966286,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 9174883507,
+      "version": 2,
+      "lat": 61.5487559,
+      "lon": 9.9662789,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 9174883508,
+      "version": 2,
+      "lat": 61.5487571,
+      "lon": 9.9663083,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 14086486197,
+      "version": 2,
+      "lat": 62.2223493,
+      "lon": 9.568336,
+      "tags": {
+        "contact:phone": "(+47) 91143651 or (+ 47) 909 40 440",
+        "information": "office",
+        "name": "Dovrefjell Pilgrim Center",
+        "opening_hours": "Jun 14-Sep 13 open",
+        "pilgrimage": "stamp_office",
+        "tourism": "information"
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 14086531584,
+      "version": 2,
+      "lat": 59.354781,
+      "lon": 5.2921724,
+      "tags": {
+        "name": "Regional Pilgrim Center Avaldsnes",
+        "opening_hours": "May 06-Aug 31 11:00-15:30",
+        "pilgrimage": "stamp_office"
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 6652754859,
+      "version": 3,
+      "lat": 61.5486672,
+      "lon": 9.9664768,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 6652754860,
+      "version": 3,
+      "lat": 61.5486608,
+      "lon": 9.9663287,
+      "tags": {
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\""
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 11039992018,
+      "version": 3,
+      "lat": 63.286405,
+      "lon": 8.1343854,
+      "tags": {
+        "contact:phone": "+47 715 87 000",
+        "information": "office",
+        "name": "Regional pilgrim center Smøla",
+        "operator": "Pilegrimsleden",
+        "pilgrimage": "stamp_office",
+        "tourism": "information",
+        "url": "https://www.pilegrimsleden.no/en/interest-points/regionalt-pilegrimssenter-smola"
+      }
+    },
+    {
+      "action": "modify",
+      "type": "node",
+      "id": 2785465804,
+      "version": 4,
+      "lat": 59.90633,
+      "lon": 10.769595,
+      "tags": {
+        "addr:city": "Oslo",
+        "addr:housenumber": "3",
+        "addr:postcode": "0192",
+        "addr:street": "St. Halvards plass",
+        "information": "office",
+        "opening_hours": "Jun 01-Aug 15 09:00-15:30; Aug 18-29 Mo-Fr 09:00-15:30",
+        "operator": "pilegrimssenter.no",
+        "pilgrimage": "stamp_office",
+        "tourism": "information"
+      }
+    },
+    {
+      "action": "modify",
+      "type": "way",
+      "id": 475158600,
+      "version": 4,
+      "lat": null,
+      "lon": null,
+      "tags": {
+        "building": "office",
+        "information": "office",
+        "name": "Granavollen Pilgrim Center",
+        "opening_hours": "Jun-Aug 10:00-16:00",
+        "pilgrimage": "stamp_office",
+        "ref:bygningsnr": "157509519",
+        "tourism": "information",
+        "url": "http://granavollen.pilegrimsleden.no/"
+      }
+    },
+    {
+      "action": "modify",
+      "type": "way",
+      "id": 708003068,
+      "version": 6,
+      "lat": null,
+      "lon": null,
+      "tags": {
+        "building": "civic",
+        "check_date": "2024-07-26",
+        "information": "office",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dale-Gudbrand Pilgrim Center",
+        "opening_hours": "Jun 01-Sep 01 08:00-09:00,12:00-18:00; Sep 01-Jun 09 Mo-Fr 09:00-16:00 || \"on call\"",
+        "pilgrimage": "stamp_office",
+        "ref:bygningsnr": "140226696",
+        "tourism": "information",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "action": "modify",
+      "type": "way",
+      "id": 98811698,
+      "version": 8,
+      "lat": null,
+      "lon": null,
+      "tags": {
+        "building": "office",
+        "information": "office",
+        "name": "Pilegrimssenter Hamar",
+        "pilgrimage": "stamp_office",
+        "ref:bygningsnr": "13780382",
+        "tourism": "information"
+      }
+    }
+  ],
+  "note": "osmChange modify payloads contain the tags on each element after this changeset. Pilgrim-center objects use tourism=information, information=office, pilgrimage=stamp_office. Some nearby nodes in the same changeset only have opening_hours and are not the center objects."
+}
