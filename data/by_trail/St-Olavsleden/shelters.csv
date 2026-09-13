@@ -102,7 +102,6 @@ St. Olavsleden,Sweden,Pilgrimstad Vandrarhem,Boende,62.9564630,15.0417580,gap,,,
 St. Olavsleden,Sweden,Pilgrimsvila - Båthuset på Rödön,Boende,63.2336691,14.4177860,gap,,,,,stolavsleden.com,all,73477
 St. Olavsleden,Sweden,"Pils gård, Alsen",Boende,63.3849764,14.0084496,gap,,,,,stolavsleden.com,all,138008
 St. Olavsleden,Sweden,"Pizzaros, Mörsil",Boende,63.3017806,13.6520562,gap,,,,,stolavsleden.com,all,100370
-St. Olavsleden,Sweden,Rastplats med vindskydd,Vindskydd,63.6031524,12.2284788,gap,,,,,stolavsleden.com,all,27311
 St. Olavsleden,Sweden,Rastplats och badplats i Alsen,Vindskydd,63.3835698,13.9612977,gap,,,,,stolavsleden.com,all,22403
 St. Olavsleden,Sweden,Rastplats och dass i Slåttviken,Vindskydd,62.8872472,15.2727925,gap,,,,,stolavsleden.com,all,26772
 St. Olavsleden,Sweden,Revsunds Brewery & Distillery,Campingplass,62.9015192,15.1239662,gap,,,,,stolavsleden.com,all,93642
@@ -146,9 +145,9 @@ St. Olavsleden,Sweden,Badplats vid hamn,Vindskydd,62.4930528,16.1694849,matched,
 St. Olavsleden,Sweden,"Brinkeboda, Mörsil",Boende,63.3101537,13.6474975,matched,node/6341216814,https://www.openstreetmap.org/node/6341216814,79.9,amenity=shelter,stolavsleden.com,all,74998
 St. Olavsleden,Sweden,"Camp Midadventure, Torpshammar",Boende,62.4805636,16.2960852,matched,node/503277851,https://www.openstreetmap.org/node/503277851,40.6,tourism=camp_site; name=Camp Midadventure,stolavsleden.com,all,21381
 St. Olavsleden,Sweden,"Camp Östbacken, Kluk",Boende,63.4069686,13.8122597,matched,node/11818550599,https://www.openstreetmap.org/node/11818550599,5.1,tourism=camp_site; name=Camp Östbacken,stolavsleden.com,all,72202
-St. Olavsleden,Sweden,"Duvedsbyn, Millestgården",Boende,63.3924820,12.8744620,matched,way/605741152,https://www.openstreetmap.org/way/605741152,6.0,tourism=hotel; name=Millestgården,stolavsleden.com,all,21442
-St. Olavsleden,Sweden,"Elite Hotel Knaust, Sundsvall",Boende,62.3905870,17.3110720,matched,way/84947237,https://www.openstreetmap.org/way/84947237,8.1,tourism=hotel; name=Hotel Knaust,stolavsleden.com,all,21478
-St. Olavsleden,Sweden,Frösö Park Hotel,Boende,63.1923640,14.4869650,matched,way/107975375,https://www.openstreetmap.org/way/107975375,28.2,tourism=hotel; name=Quality Hotel Frösö Park,stolavsleden.com,all,21401
+St. Olavsleden,Sweden,"Duvedsbyn, Millestgården",Boende,63.3924820,12.8744620,matched,way/605741152,https://www.openstreetmap.org/way/605741152,6.0,tourism=hotel; building=yes; name=Millestgården,stolavsleden.com,all,21442
+St. Olavsleden,Sweden,"Elite Hotel Knaust, Sundsvall",Boende,62.3905870,17.3110720,matched,way/84947237,https://www.openstreetmap.org/way/84947237,8.1,tourism=hotel; building=yes; name=Hotel Knaust,stolavsleden.com,all,21478
+St. Olavsleden,Sweden,Frösö Park Hotel,Boende,63.1923640,14.4869650,matched,way/107975375,https://www.openstreetmap.org/way/107975375,28.2,tourism=hotel; building=hotel; name=Quality Hotel Frösö Park,stolavsleden.com,all,21401
 St. Olavsleden,Sweden,"Gårdshuset Vandrarhem, Undersåker",Boende,63.3162252,13.2365266,matched,node/13590708417,https://www.openstreetmap.org/node/13590708417,4.2,tourism=hostel; name=Gårdhuset Vandrarhem,stolavsleden.com,all,52579
 St. Olavsleden,Sweden,"Hotell Emma, Östersund",Boende,63.1781461,14.6369141,matched,node/470641814,https://www.openstreetmap.org/node/470641814,8.1,tourism=hotel; name=Hotel Emma,stolavsleden.com,all,25635
 St. Olavsleden,Sweden,Hållandsgården,Boende,63.3214850,13.3610220,matched,node/4236193150,https://www.openstreetmap.org/node/4236193150,7.8,tourism=hotel; name=Hållandsgården,stolavsleden.com,all,21431
@@ -156,7 +155,7 @@ St. Olavsleden,Sweden,Hållandsgårdens Pilgrimsstuga,Raststuga,63.3164487,13.35
 St. Olavsleden,Sweden,"Jamtli Vandrarhem, Östersund",Boende,63.1875010,14.6366430,matched,node/12646509409,https://www.openstreetmap.org/node/12646509409,74.2,amenity=shelter,stolavsleden.com,all,21484
 St. Olavsleden,Sweden,"Multi Challenge Hostel, Östersund",Boende,63.1620000,14.6572588,matched,node/2549551944,https://www.openstreetmap.org/node/2549551944,4.8,tourism=hostel,stolavsleden.com,all,73514
 St. Olavsleden,Sweden,Quality Hotel Sundsvall,Boende,62.3863000,17.3066900,matched,node/560417202,https://www.openstreetmap.org/node/560417202,17.4,tourism=hotel; name=Quality Hotel Sundsvall,stolavsleden.com,all,21505
-St. Olavsleden,Sweden,STF Södergården Vandrarhem Åre,Boende,63.3161258,13.2746848,matched,way/1309939669,https://www.openstreetmap.org/way/1309939669,17.5,tourism=hostel; name=STF Södergården Vandrarhem Åre,stolavsleden.com,all,20175
+St. Olavsleden,Sweden,STF Södergården Vandrarhem Åre,Boende,63.3161258,13.2746848,matched,way/1309939669,https://www.openstreetmap.org/way/1309939669,17.5,tourism=hostel; building=yes; name=STF Södergården Vandrarhem Åre,stolavsleden.com,all,20175
 St. Olavsleden,Sweden,STF Östersund Ledkrysset,Boende,63.1781880,14.6456800,matched,node/2585557211,https://www.openstreetmap.org/node/2585557211,1.4,tourism=hostel; name=STF Östersund Ledkrysset Vandrarhem,stolavsleden.com,all,21397
 St. Olavsleden,Sweden,Stuga i Brunflo,Boende,63.0798590,14.8278864,matched,node/4557813792,https://www.openstreetmap.org/node/4557813792,88.5,amenity=shelter,stolavsleden.com,all,72671
 St. Olavsleden,Sweden,Sundsvall City Hotel,Boende,62.3913390,17.3107360,matched,node/922674322,https://www.openstreetmap.org/node/922674322,7.4,tourism=hotel; name=Sundsvall City Hotel,stolavsleden.com,all,21479
@@ -165,12 +164,13 @@ St. Olavsleden,Sweden,Torpshammars Herrgård,Boende,62.4719890,16.3313860,matche
 St. Olavsleden,Sweden,Tältplats Bräcke Båthamn,Boende,62.7474252,15.4184561,matched,node/9879338570,https://www.openstreetmap.org/node/9879338570,81.1,tourism=camp_site; name=Bräcke Strand Tältplats,stolavsleden.com,all,70283
 St. Olavsleden,Sweden,Åre B&B,Boende,63.3973780,13.0912520,matched,node/13156999342,https://www.openstreetmap.org/node/13156999342,8.1,tourism=guest_house; name=Åre Bed & Breakfast,stolavsleden.com,all,21439
 St. Olavsleden,Sweden,"Åre, Gästhuset",Boende,63.4002390,13.0767370,matched,node/6343703458,https://www.openstreetmap.org/node/6343703458,63.4,tourism=hotel; name=Parkvillan,stolavsleden.com,all,21441
-St. Olavsleden,Sweden,"Öyegården Treat & Retreat, Erikslund",Boende,62.5436437,15.8595424,matched,way/1233653937,https://www.openstreetmap.org/way/1233653937,26.5,tourism=guest_house; name=Öyegården,stolavsleden.com,all,22135
+St. Olavsleden,Sweden,"Öyegården Treat & Retreat, Erikslund",Boende,62.5436437,15.8595424,matched,way/1233653937,https://www.openstreetmap.org/way/1233653937,26.5,tourism=guest_house; building=yes; name=Öyegården,stolavsleden.com,all,22135
 St. Olavsleden,Sweden,Frösö Stugby & Camping,Boende,63.1721300,14.5402100,possible,way/99409175,https://www.openstreetmap.org/way/99409175,126.7,tourism=camp_site; name=Frösö Camping,stolavsleden.com,all,21399
 St. Olavsleden,Sweden,Harrsjöstugan,Boende,62.6835590,15.6095120,possible,node/12760157391,https://www.openstreetmap.org/node/12760157391,131.9,amenity=shelter,stolavsleden.com,all,21501
 St. Olavsleden,Sweden,"Huberget. Café och vandrarhem, Stöde",Boende,62.4157215,16.5641864,possible,way/808435179,https://www.openstreetmap.org/way/808435179,244.1,tourism=camp_site; name=Stöde Camping,stolavsleden.com,all,26710
 St. Olavsleden,Sweden,"Liz Motell, Sundsvall",Boende,62.3585560,17.3699921,possible,way/297511988,https://www.openstreetmap.org/way/297511988,106.2,tourism=camp_site; name=First Camp Fläsian,stolavsleden.com,all,142728
 St. Olavsleden,Sweden,"Lornsgården, Nälden",Boende,63.3534862,14.2527971,possible,node/939349186,https://www.openstreetmap.org/node/939349186,237.1,amenity=shelter,stolavsleden.com,all,103097
+St. Olavsleden,Sweden,Rastplats med vindskydd,Vindskydd,63.6031524,12.2284788,possible,way/1305200399,https://www.openstreetmap.org/way/1305200399,19.6,building=hut,stolavsleden.com,all,27311
 St. Olavsleden,Sweden,Rastplats Tegeforsen,Vindskydd,63.3947961,12.9665351,possible,node/5055487629,https://www.openstreetmap.org/node/5055487629,102.0,amenity=shelter,stolavsleden.com,all,26844
 St. Olavsleden,Sweden,"Röjsmons vandrarhem, Järpen",Boende,63.3467086,13.4703847,possible,node/13943561855,https://www.openstreetmap.org/node/13943561855,228.8,amenity=shelter,stolavsleden.com,all,22194
 St. Olavsleden,Sweden,"Stuga, Frösön",Boende,63.1799259,14.5190008,possible,node/4558612423,https://www.openstreetmap.org/node/4558612423,120.3,amenity=shelter,stolavsleden.com,all,140529

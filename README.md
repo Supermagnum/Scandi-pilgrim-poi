@@ -16,7 +16,12 @@ Foundation.
   Tunsbergleden, Østerdalsleden, Valldalsleden, Romboleden, Nordleden.
 - **stolavsleden.com** (WordPress site + Naturkartan embed, guide id 154):
   St. Olavsleden in Sweden, including hiking / biking / horseback path variants
-  and horseback-oriented service points (veterinarians in the current extract).
+  and horseback-oriented service points (veterinarians in the current extract;
+  Naturkartan listed 0 farriers — that is a coverage gap in Naturkartan, not
+  proof that no farriers exist on the route).
+  The horseback GPX diverges from the hiking line by up to ~4.3 km in places
+  (126/201 sampled points ≥150 m apart); riders should not rely on hiking-line
+  POIs alone when planning.
 - **OSM reference tagging**: changeset
   [187258738](https://www.openstreetmap.org/changeset/187258738) for pilgrim
   stamp-office conventions.

@@ -19,13 +19,21 @@ St. Olavsleden merges Norwegian POIs from pilegrimsleden.no with Swedish
 POIs from stolavsleden.com (Naturkartan guide 154). Rows include a
 `country` column. Horseback-specific files live only under
 `St-Olavsleden/`: `horseback_path.osm` / `.gpx` and
-`horseback_service_points.csv` (veterinarians; no farriers were present
-in the Naturkartan extract).
+`horseback_service_points.csv` (veterinarians from the Naturkartan extract).
+
+Riders should not assume hiking-line POIs sit on the horse path: the official
+horseback GPX diverges from the hiking line by up to about 4.3 km at some
+points (126 of 201 sampled horseback points were ≥150 m from the hiking
+geometry). Plan stops against the horseback track, not only the hiking line.
+
+Naturkartan currently lists 0 farriers along the route. That reflects
+Naturkartan's coverage, not a confirmed absence of farriers on
+St. Olavsleden.
 
 | folder | trail | shelters | pilgrim centers | shelter gaps | pilgrim gaps | horseback services |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Gudbrandsdalsleden | Gudbrandsdalsleden | 169 | 10 | 88 | 1 | - |
-| St-Olavsleden | St. Olavsleden | 176 | 5 | 119 | 3 | 12 |
+| St-Olavsleden | St. Olavsleden | 176 | 5 | 118 | 3 | 12 |
 | Borgleden | Borgleden | 16 | 4 | 8 | 1 | - |
 | Kystpilegrimsleia | Kystpilegrimsleia | 49 | 10 | 29 | 2 | - |
 | Tunsbergleden | Tunsbergleden | 33 | 4 | 18 | 1 | - |

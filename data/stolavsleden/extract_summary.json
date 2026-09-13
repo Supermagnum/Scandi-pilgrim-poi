@@ -558,7 +558,7 @@
       "matched_osm_id": "way/1309939669",
       "matched_osm_url": "https://www.openstreetmap.org/way/1309939669",
       "distance_m": 17.5,
-      "tag_diff": "tourism=hostel; name=STF Södergården Vandrarhem Åre"
+      "tag_diff": "tourism=hostel; building=yes; name=STF Södergården Vandrarhem Åre"
     },
     {
       "id": 3116,
@@ -660,7 +660,7 @@
       "matched_osm_id": "way/566346522",
       "matched_osm_url": "https://www.openstreetmap.org/way/566346522",
       "distance_m": 2.2,
-      "tag_diff": "tourism=hotel; name=Åre Fjällsätra"
+      "tag_diff": "tourism=hotel; building=yes; name=Åre Fjällsätra"
     },
     {
       "id": 21396,
@@ -706,7 +706,7 @@
       "matched_osm_id": "way/605741152",
       "matched_osm_url": "https://www.openstreetmap.org/way/605741152",
       "distance_m": 6.0,
-      "tag_diff": "tourism=hotel; name=Millestgården"
+      "tag_diff": "tourism=hotel; building=yes; name=Millestgården"
     },
     {
       "id": 21389,
@@ -1005,7 +1005,7 @@
       "matched_osm_id": "way/142795115",
       "matched_osm_url": "https://www.openstreetmap.org/way/142795115",
       "distance_m": 6.4,
-      "tag_diff": "tourism=hotel; name=Jämtkrogen"
+      "tag_diff": "tourism=hotel; building=yes; name=Jämtkrogen"
     },
     {
       "id": 21384,
@@ -1193,7 +1193,7 @@
       "matched_osm_id": "way/107975375",
       "matched_osm_url": "https://www.openstreetmap.org/way/107975375",
       "distance_m": 28.2,
-      "tag_diff": "tourism=hotel; name=Quality Hotel Frösö Park"
+      "tag_diff": "tourism=hotel; building=hotel; name=Quality Hotel Frösö Park"
     },
     {
       "id": 21441,
@@ -1869,7 +1869,7 @@
       "matched_osm_id": "way/1233653937",
       "matched_osm_url": "https://www.openstreetmap.org/way/1233653937",
       "distance_m": 26.5,
-      "tag_diff": "tourism=guest_house; name=Öyegården"
+      "tag_diff": "tourism=guest_house; building=yes; name=Öyegården"
     },
     {
       "id": 23781,
@@ -2513,11 +2513,11 @@
         "Vindskydd"
       ],
       "source": "stolavsleden.com",
-      "match_status": "gap",
-      "matched_osm_id": "",
-      "matched_osm_url": "",
-      "distance_m": "",
-      "tag_diff": ""
+      "match_status": "possible",
+      "matched_osm_id": "way/1305200399",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1305200399",
+      "distance_m": 19.6,
+      "tag_diff": "building=hut"
     },
     {
       "id": 99673,
@@ -3487,7 +3487,7 @@
       "matched_osm_id": "way/84947237",
       "matched_osm_url": "https://www.openstreetmap.org/way/84947237",
       "distance_m": 8.1,
-      "tag_diff": "tourism=hotel; name=Hotel Knaust"
+      "tag_diff": "tourism=hotel; building=yes; name=Hotel Knaust"
     },
     {
       "id": 21505,

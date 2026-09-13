@@ -531,19 +531,32 @@ def compare_to_osm(
         "hotel",
     }
 
+    def is_strong_lodging(tags: dict[str, str]) -> bool:
+        if tags.get("amenity") in {"shelter", "veterinary"}:
+            return True
+        if tags.get("tourism") in keep_tourism:
+            return True
+        if tags.get("craft") == "farrier" or tags.get("shop") == "farrier":
+            return True
+        return False
+
+    def is_hut_only(tags: dict[str, str]) -> bool:
+        """building=hut with no supporting tourism/amenity lodging tag."""
+        if tags.get("building") != "hut":
+            return False
+        if tags.get("tourism") or tags.get("amenity"):
+            return False
+        return True
+
     class Handler(osmium.SimpleHandler):
         def __init__(self) -> None:
             super().__init__()
             self.elements: list[dict[str, Any]] = []
 
         def _wanted(self, tags: Any) -> bool:
-            if tags.get("amenity") in {"shelter", "veterinary"}:
+            if is_strong_lodging({tag.k: tag.v for tag in tags}):
                 return True
-            if tags.get("tourism") in keep_tourism:
-                return True
-            if tags.get("craft") == "farrier":
-                return True
-            if tags.get("shop") == "farrier":
+            if tags.get("building") == "hut":
                 return True
             return False
 
@@ -581,31 +594,47 @@ def compare_to_osm(
 
     if not pois:
         return []
-    log(f"Scanning {pbf_path.name} for shelter/vet/farrier tags")
+    log(f"Scanning {pbf_path.name} for shelter/vet/farrier/hut tags")
     handler = Handler()
     handler.apply_file(str(pbf_path), locations=True, idx="flex_mem")
     log(f"  kept {len(handler.elements)} OSM elements")
 
     results = []
     for poi in pois:
-        best: tuple[float, dict[str, Any]] | None = None
+        nearby: list[tuple[float, dict[str, Any]]] = []
         for el in handler.elements:
             dist = haversine_m(poi["lat"], poi["lon"], el["lat"], el["lon"])
-            if best is None or dist < best[0]:
-                best = (dist, el)
-        if best and best[0] <= MATCH_RADIUS_M:
-            status = "matched"
-        elif best and best[0] <= POSSIBLE_RADIUS_M:
-            status = "possible"
-        else:
+            if dist <= POSSIBLE_RADIUS_M:
+                nearby.append((dist, el))
+        nearby.sort(
+            key=lambda item: (
+                0 if is_strong_lodging(item[1].get("tags") or {}) else 1,
+                item[0],
+                item[1]["type"],
+                int(item[1]["id"]),
+            )
+        )
+        best = nearby[0] if nearby else None
+        if best is None:
             status = "gap"
-        matched = best[1] if best and best[0] <= POSSIBLE_RADIUS_M else None
+            matched = None
+        else:
+            dist, el = best
+            tags = el.get("tags") or {}
+            if is_hut_only(tags):
+                # Ambiguous without tourism/amenity; never "matched".
+                status = "possible"
+            elif dist <= MATCH_RADIUS_M:
+                status = "matched"
+            else:
+                status = "possible"
+            matched = el
         tags = (matched or {}).get("tags") or {}
         tag_diff = ""
         if matched:
             tag_diff = "; ".join(
                 f"{key}={tags[key]}"
-                for key in ("tourism", "amenity", "craft", "shop", "name")
+                for key in ("tourism", "amenity", "building", "craft", "shop", "name")
                 if tags.get(key)
             )
         results.append(

@@ -938,18 +938,7 @@
     <tag k='stolavsleden:id' v='100370'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-104' version='0' action='modify' visible='true' lat='63.6031524' lon='12.2284788'>
-    <tag k='name' v='Rastplats med vindskydd'/>
-    <tag k='source' v='stolavsleden.com'/>
-    <tag k='network' v='St. Olavsleden'/>
-    <tag k='note:trail' v='St. Olavsleden'/>
-    <tag k='note:country' v='Sweden'/>
-    <tag k='pilegrimsleden:poi_type' v='Vindskydd'/>
-    <tag k='stolavsleden:id' v='27311'/>
-    <tag k='amenity' v='shelter'/>
-    <tag k='shelter_type' v='lean_to'/>
-  </node>
-  <node id='-105' version='0' action='modify' visible='true' lat='63.3835698' lon='13.9612977'>
+  <node id='-104' version='0' action='modify' visible='true' lat='63.3835698' lon='13.9612977'>
     <tag k='name' v='Rastplats och badplats i Alsen'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -960,7 +949,7 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-106' version='0' action='modify' visible='true' lat='62.8872472' lon='15.2727925'>
+  <node id='-105' version='0' action='modify' visible='true' lat='62.8872472' lon='15.2727925'>
     <tag k='name' v='Rastplats och dass i Slåttviken'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -971,7 +960,7 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-107' version='0' action='modify' visible='true' lat='62.9015192' lon='15.1239662'>
+  <node id='-106' version='0' action='modify' visible='true' lat='62.9015192' lon='15.1239662'>
     <tag k='name' v='Revsunds Brewery &amp; Distillery'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -981,7 +970,7 @@
     <tag k='stolavsleden:id' v='93642'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-108' version='0' action='modify' visible='true' lat='62.8993389' lon='15.1286735'>
+  <node id='-107' version='0' action='modify' visible='true' lat='62.8993389' lon='15.1286735'>
     <tag k='name' v='Revsunds Prästgård'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -991,7 +980,7 @@
     <tag k='stolavsleden:id' v='23781'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-109' version='0' action='modify' visible='true' lat='62.9572900' lon='15.0341700'>
+  <node id='-108' version='0' action='modify' visible='true' lat='62.9572900' lon='15.0341700'>
     <tag k='name' v='Ritas brygga, Pilgrimstad'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1001,7 +990,7 @@
     <tag k='stolavsleden:id' v='21523'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-110' version='0' action='modify' visible='true' lat='62.4894800' lon='16.2624000'>
+  <node id='-109' version='0' action='modify' visible='true' lat='62.4894800' lon='16.2624000'>
     <tag k='name' v='Rombäck 611, Fränsta'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1011,7 +1000,7 @@
     <tag k='stolavsleden:id' v='21526'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-111' version='0' action='modify' visible='true' lat='62.7378049' lon='15.4301922'>
+  <node id='-110' version='0' action='modify' visible='true' lat='62.7378049' lon='15.4301922'>
     <tag k='name' v='Rum i Bräcke  +46734843566'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1021,7 +1010,7 @@
     <tag k='stolavsleden:id' v='122958'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-112' version='0' action='modify' visible='true' lat='63.3558100' lon='14.0829300'>
+  <node id='-111' version='0' action='modify' visible='true' lat='63.3558100' lon='14.0829300'>
     <tag k='name' v='Röde 301'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1031,7 +1020,7 @@
     <tag k='stolavsleden:id' v='21407'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-113' version='0' action='modify' visible='true' lat='63.3546166' lon='14.0931588'>
+  <node id='-112' version='0' action='modify' visible='true' lat='63.3546166' lon='14.0931588'>
     <tag k='name' v='Röde 585'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1041,7 +1030,7 @@
     <tag k='stolavsleden:id' v='21527'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-114' version='0' action='modify' visible='true' lat='63.3890502' lon='14.0868967'>
+  <node id='-113' version='0' action='modify' visible='true' lat='63.3890502' lon='14.0868967'>
     <tag k='name' v='Rödebuan Wilderness Camp'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1051,7 +1040,7 @@
     <tag k='stolavsleden:id' v='128390'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-115' version='0' action='modify' visible='true' lat='63.2298169' lon='14.4667762'>
+  <node id='-114' version='0' action='modify' visible='true' lat='63.2298169' lon='14.4667762'>
     <tag k='name' v='Rödösundet Acc. Rödön'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1061,7 +1050,7 @@
     <tag k='stolavsleden:id' v='21411'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-116' version='0' action='modify' visible='true' lat='62.5302780' lon='15.8898250'>
+  <node id='-115' version='0' action='modify' visible='true' lat='62.5302780' lon='15.8898250'>
     <tag k='name' v='Sara&apos;s Bed &amp; Breakfast, Erikslund'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1071,7 +1060,7 @@
     <tag k='stolavsleden:id' v='21510'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-117' version='0' action='modify' visible='true' lat='63.5745969' lon='12.2752869'>
+  <node id='-116' version='0' action='modify' visible='true' lat='63.5745969' lon='12.2752869'>
     <tag k='name' v='Skalstugan pensionat'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1081,7 +1070,7 @@
     <tag k='stolavsleden:id' v='21355'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-118' version='0' action='modify' visible='true' lat='62.4936680' lon='16.2093560'>
+  <node id='-117' version='0' action='modify' visible='true' lat='62.4936680' lon='16.2093560'>
     <tag k='name' v='Solbacken, Fränsta'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1091,7 +1080,7 @@
     <tag k='stolavsleden:id' v='21462'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-119' version='0' action='modify' visible='true' lat='63.0046301' lon='14.9494159'>
+  <node id='-118' version='0' action='modify' visible='true' lat='63.0046301' lon='14.9494159'>
     <tag k='name' v='St Olavs Cabin, Hållsta, Brunflo'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1101,7 +1090,7 @@
     <tag k='stolavsleden:id' v='122750'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-120' version='0' action='modify' visible='true' lat='63.4695748' lon='12.5782990'>
+  <node id='-119' version='0' action='modify' visible='true' lat='63.4695748' lon='12.5782990'>
     <tag k='name' v='Stalltjärnstugan'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1111,7 +1100,7 @@
     <tag k='stolavsleden:id' v='22108'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-121' version='0' action='modify' visible='true' lat='63.3252871' lon='13.5367112'>
+  <node id='-120' version='0' action='modify' visible='true' lat='63.3252871' lon='13.5367112'>
     <tag k='name' v='Strandbergs Bed and Breakfast'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1121,7 +1110,7 @@
     <tag k='stolavsleden:id' v='21420'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-122' version='0' action='modify' visible='true' lat='63.0929276' lon='14.7928011'>
+  <node id='-121' version='0' action='modify' visible='true' lat='63.0929276' lon='14.7928011'>
     <tag k='name' v='Stuga i Grytan'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1131,7 +1120,7 @@
     <tag k='stolavsleden:id' v='52580'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-123' version='0' action='modify' visible='true' lat='62.7528133' lon='15.5026501'>
+  <node id='-122' version='0' action='modify' visible='true' lat='62.7528133' lon='15.5026501'>
     <tag k='name' v='Stuga i Sösjö'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1141,7 +1130,7 @@
     <tag k='stolavsleden:id' v='26669'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-124' version='0' action='modify' visible='true' lat='63.0241269' lon='14.9399164'>
+  <node id='-123' version='0' action='modify' visible='true' lat='63.0241269' lon='14.9399164'>
     <tag k='name' v='Stuga Österböle 212, Balsta'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1151,7 +1140,7 @@
     <tag k='stolavsleden:id' v='70730'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-125' version='0' action='modify' visible='true' lat='62.3676668' lon='16.8077664'>
+  <node id='-124' version='0' action='modify' visible='true' lat='62.3676668' lon='16.8077664'>
     <tag k='name' v='Stuga, Lövåsen, Sörnedansjö'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1161,7 +1150,7 @@
     <tag k='stolavsleden:id' v='100362'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-126' version='0' action='modify' visible='true' lat='63.4016795' lon='12.8280091'>
+  <node id='-125' version='0' action='modify' visible='true' lat='63.4016795' lon='12.8280091'>
     <tag k='name' v='Stuga, Staa'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1171,7 +1160,7 @@
     <tag k='stolavsleden:id' v='103051'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-127' version='0' action='modify' visible='true' lat='63.3099192' lon='13.3004200'>
+  <node id='-126' version='0' action='modify' visible='true' lat='63.3099192' lon='13.3004200'>
     <tag k='name' v='Stuga, Undersåker'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1181,7 +1170,7 @@
     <tag k='stolavsleden:id' v='99673'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-128' version='0' action='modify' visible='true' lat='63.2446149' lon='14.4266786'>
+  <node id='-127' version='0' action='modify' visible='true' lat='63.2446149' lon='14.4266786'>
     <tag k='name' v='Stugor, Rödön'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1191,7 +1180,7 @@
     <tag k='stolavsleden:id' v='100812'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-129' version='0' action='modify' visible='true' lat='62.9877224' lon='15.0042613'>
+  <node id='-128' version='0' action='modify' visible='true' lat='62.9877224' lon='15.0042613'>
     <tag k='name' v='Svedje, Brunflo'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1201,7 +1190,7 @@
     <tag k='stolavsleden:id' v='73480'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-130' version='0' action='modify' visible='true' lat='62.4022000' lon='16.6299250'>
+  <node id='-129' version='0' action='modify' visible='true' lat='62.4022000' lon='16.6299250'>
     <tag k='name' v='Sweden4u - Usland, Stöde'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1211,7 +1200,7 @@
     <tag k='stolavsleden:id' v='21269'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-131' version='0' action='modify' visible='true' lat='63.3878832' lon='13.9131374'>
+  <node id='-130' version='0' action='modify' visible='true' lat='63.3878832' lon='13.9131374'>
     <tag k='name' v='Syster Ruths Hus, Alsen'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1221,7 +1210,7 @@
     <tag k='stolavsleden:id' v='22160'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-132' version='0' action='modify' visible='true' lat='62.4840416' lon='16.1052997'>
+  <node id='-131' version='0' action='modify' visible='true' lat='62.4840416' lon='16.1052997'>
     <tag k='name' v='Södra Gullgård, Fränsta'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1231,7 +1220,7 @@
     <tag k='stolavsleden:id' v='73516'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-133' version='0' action='modify' visible='true' lat='62.3729267' lon='16.8513231'>
+  <node id='-132' version='0' action='modify' visible='true' lat='62.3729267' lon='16.8513231'>
     <tag k='name' v='Sörnedansjö 149'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1241,7 +1230,7 @@
     <tag k='stolavsleden:id' v='73513'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-134' version='0' action='modify' visible='true' lat='62.3596968' lon='17.0369883'>
+  <node id='-133' version='0' action='modify' visible='true' lat='62.3596968' lon='17.0369883'>
     <tag k='name' v='Tuna Hembygdsgård'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1252,7 +1241,7 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
   </node>
-  <node id='-135' version='0' action='modify' visible='true' lat='62.5560610' lon='15.8581670'>
+  <node id='-134' version='0' action='modify' visible='true' lat='62.5560610' lon='15.8581670'>
     <tag k='name' v='Tälje lantgårdshotell, Erikslund'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1262,7 +1251,7 @@
     <tag k='stolavsleden:id' v='21386'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-136' version='0' action='modify' visible='true' lat='63.3153320' lon='13.5884260'>
+  <node id='-135' version='0' action='modify' visible='true' lat='63.3153320' lon='13.5884260'>
     <tag k='name' v='Uppland, Måbragård, Mörsil'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1272,7 +1261,7 @@
     <tag k='stolavsleden:id' v='21419'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-137' version='0' action='modify' visible='true' lat='63.3354870' lon='14.2126310'>
+  <node id='-136' version='0' action='modify' visible='true' lat='63.3354870' lon='14.2126310'>
     <tag k='name' v='Vaplan, Vaplansgård'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1282,7 +1271,7 @@
     <tag k='stolavsleden:id' v='21414'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-138' version='0' action='modify' visible='true' lat='62.4954864' lon='16.0492203'>
+  <node id='-137' version='0' action='modify' visible='true' lat='62.4954864' lon='16.0492203'>
     <tag k='name' v='Vindskydd, grillplats, bänkar'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1293,7 +1282,7 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-139' version='0' action='modify' visible='true' lat='62.4516723' lon='16.4163517'>
+  <node id='-138' version='0' action='modify' visible='true' lat='62.4516723' lon='16.4163517'>
     <tag k='name' v='Viskansparken, Torpshammar'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1303,7 +1292,7 @@
     <tag k='stolavsleden:id' v='126464'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-140' version='0' action='modify' visible='true' lat='63.3865840' lon='13.9522140'>
+  <node id='-139' version='0' action='modify' visible='true' lat='63.3865840' lon='13.9522140'>
     <tag k='name' v='Wångens Wärdshus, Alsen'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1313,7 +1302,7 @@
     <tag k='stolavsleden:id' v='21486'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-141' version='0' action='modify' visible='true' lat='63.3518520' lon='13.1861150'>
+  <node id='-140' version='0' action='modify' visible='true' lat='63.3518520' lon='13.1861150'>
     <tag k='name' v='Åre Camping och stugor'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1323,7 +1312,7 @@
     <tag k='stolavsleden:id' v='21438'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-142' version='0' action='modify' visible='true' lat='63.3239017' lon='13.3635125'>
+  <node id='-141' version='0' action='modify' visible='true' lat='63.3239017' lon='13.3635125'>
     <tag k='name' v='Åredalens Fjällgård'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1333,7 +1322,7 @@
     <tag k='stolavsleden:id' v='52581'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-143' version='0' action='modify' visible='true' lat='63.3149667' lon='13.6850861'>
+  <node id='-142' version='0' action='modify' visible='true' lat='63.3149667' lon='13.6850861'>
     <tag k='name' v='Åsans pilgrimsboende, Mörsil'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1343,7 +1332,7 @@
     <tag k='stolavsleden:id' v='99226'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-144' version='0' action='modify' visible='true' lat='62.4930528' lon='16.1694849'>
+  <node id='-143' version='0' action='modify' visible='true' lat='62.4930528' lon='16.1694849'>
     <tag k='name' v='Badplats vid hamn'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1354,7 +1343,7 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-145' version='0' action='modify' visible='true' lat='63.3101537' lon='13.6474975'>
+  <node id='-144' version='0' action='modify' visible='true' lat='63.3101537' lon='13.6474975'>
     <tag k='name' v='Brinkeboda, Mörsil'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1364,7 +1353,7 @@
     <tag k='stolavsleden:id' v='74998'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-146' version='0' action='modify' visible='true' lat='62.4805636' lon='16.2960852'>
+  <node id='-145' version='0' action='modify' visible='true' lat='62.4805636' lon='16.2960852'>
     <tag k='name' v='Camp Midadventure, Torpshammar'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1374,7 +1363,7 @@
     <tag k='stolavsleden:id' v='21381'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-147' version='0' action='modify' visible='true' lat='63.4069686' lon='13.8122597'>
+  <node id='-146' version='0' action='modify' visible='true' lat='63.4069686' lon='13.8122597'>
     <tag k='name' v='Camp Östbacken, Kluk'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1384,7 +1373,7 @@
     <tag k='stolavsleden:id' v='72202'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-148' version='0' action='modify' visible='true' lat='63.3924820' lon='12.8744620'>
+  <node id='-147' version='0' action='modify' visible='true' lat='63.3924820' lon='12.8744620'>
     <tag k='name' v='Duvedsbyn, Millestgården'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1394,7 +1383,7 @@
     <tag k='stolavsleden:id' v='21442'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-149' version='0' action='modify' visible='true' lat='62.3905870' lon='17.3110720'>
+  <node id='-148' version='0' action='modify' visible='true' lat='62.3905870' lon='17.3110720'>
     <tag k='name' v='Elite Hotel Knaust, Sundsvall'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1404,7 +1393,7 @@
     <tag k='stolavsleden:id' v='21478'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-150' version='0' action='modify' visible='true' lat='63.1923640' lon='14.4869650'>
+  <node id='-149' version='0' action='modify' visible='true' lat='63.1923640' lon='14.4869650'>
     <tag k='name' v='Frösö Park Hotel'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1414,7 +1403,7 @@
     <tag k='stolavsleden:id' v='21401'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-151' version='0' action='modify' visible='true' lat='63.3162252' lon='13.2365266'>
+  <node id='-150' version='0' action='modify' visible='true' lat='63.3162252' lon='13.2365266'>
     <tag k='name' v='Gårdshuset Vandrarhem, Undersåker'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1424,7 +1413,7 @@
     <tag k='stolavsleden:id' v='52579'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-152' version='0' action='modify' visible='true' lat='63.1781461' lon='14.6369141'>
+  <node id='-151' version='0' action='modify' visible='true' lat='63.1781461' lon='14.6369141'>
     <tag k='name' v='Hotell Emma, Östersund'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1434,7 +1423,7 @@
     <tag k='stolavsleden:id' v='25635'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-153' version='0' action='modify' visible='true' lat='63.3214850' lon='13.3610220'>
+  <node id='-152' version='0' action='modify' visible='true' lat='63.3214850' lon='13.3610220'>
     <tag k='name' v='Hållandsgården'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1444,7 +1433,7 @@
     <tag k='stolavsleden:id' v='21431'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-154' version='0' action='modify' visible='true' lat='63.3164487' lon='13.3526767'>
+  <node id='-153' version='0' action='modify' visible='true' lat='63.3164487' lon='13.3526767'>
     <tag k='name' v='Hållandsgårdens Pilgrimsstuga'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1454,7 +1443,7 @@
     <tag k='stolavsleden:id' v='122705'/>
     <tag k='tourism' v='wilderness_hut'/>
   </node>
-  <node id='-155' version='0' action='modify' visible='true' lat='63.1875010' lon='14.6366430'>
+  <node id='-154' version='0' action='modify' visible='true' lat='63.1875010' lon='14.6366430'>
     <tag k='name' v='Jamtli Vandrarhem, Östersund'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1464,7 +1453,7 @@
     <tag k='stolavsleden:id' v='21484'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-156' version='0' action='modify' visible='true' lat='63.1620000' lon='14.6572588'>
+  <node id='-155' version='0' action='modify' visible='true' lat='63.1620000' lon='14.6572588'>
     <tag k='name' v='Multi Challenge Hostel, Östersund'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1474,7 +1463,7 @@
     <tag k='stolavsleden:id' v='73514'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-157' version='0' action='modify' visible='true' lat='62.3863000' lon='17.3066900'>
+  <node id='-156' version='0' action='modify' visible='true' lat='62.3863000' lon='17.3066900'>
     <tag k='name' v='Quality Hotel Sundsvall'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1484,7 +1473,7 @@
     <tag k='stolavsleden:id' v='21505'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-158' version='0' action='modify' visible='true' lat='63.3161258' lon='13.2746848'>
+  <node id='-157' version='0' action='modify' visible='true' lat='63.3161258' lon='13.2746848'>
     <tag k='name' v='STF Södergården Vandrarhem Åre'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1494,7 +1483,7 @@
     <tag k='stolavsleden:id' v='20175'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-159' version='0' action='modify' visible='true' lat='63.1781880' lon='14.6456800'>
+  <node id='-158' version='0' action='modify' visible='true' lat='63.1781880' lon='14.6456800'>
     <tag k='name' v='STF Östersund Ledkrysset'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1504,7 +1493,7 @@
     <tag k='stolavsleden:id' v='21397'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-160' version='0' action='modify' visible='true' lat='63.0798590' lon='14.8278864'>
+  <node id='-159' version='0' action='modify' visible='true' lat='63.0798590' lon='14.8278864'>
     <tag k='name' v='Stuga i Brunflo'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1514,7 +1503,7 @@
     <tag k='stolavsleden:id' v='72671'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-161' version='0' action='modify' visible='true' lat='62.3913390' lon='17.3107360'>
+  <node id='-160' version='0' action='modify' visible='true' lat='62.3913390' lon='17.3107360'>
     <tag k='name' v='Sundsvall City Hotel'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1524,7 +1513,7 @@
     <tag k='stolavsleden:id' v='21479'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-162' version='0' action='modify' visible='true' lat='63.0967410' lon='14.7913960'>
+  <node id='-161' version='0' action='modify' visible='true' lat='63.0967410' lon='14.7913960'>
     <tag k='name' v='Sörbygården Bed &amp; Breakfast, Brunflo'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1534,7 +1523,7 @@
     <tag k='stolavsleden:id' v='21395'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-163' version='0' action='modify' visible='true' lat='62.4719890' lon='16.3313860'>
+  <node id='-162' version='0' action='modify' visible='true' lat='62.4719890' lon='16.3313860'>
     <tag k='name' v='Torpshammars Herrgård'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1544,7 +1533,7 @@
     <tag k='stolavsleden:id' v='21508'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-164' version='0' action='modify' visible='true' lat='62.7474252' lon='15.4184561'>
+  <node id='-163' version='0' action='modify' visible='true' lat='62.7474252' lon='15.4184561'>
     <tag k='name' v='Tältplats Bräcke Båthamn'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1554,7 +1543,7 @@
     <tag k='stolavsleden:id' v='70283'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-165' version='0' action='modify' visible='true' lat='63.3973780' lon='13.0912520'>
+  <node id='-164' version='0' action='modify' visible='true' lat='63.3973780' lon='13.0912520'>
     <tag k='name' v='Åre B&amp;B'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1564,7 +1553,7 @@
     <tag k='stolavsleden:id' v='21439'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-166' version='0' action='modify' visible='true' lat='63.4002390' lon='13.0767370'>
+  <node id='-165' version='0' action='modify' visible='true' lat='63.4002390' lon='13.0767370'>
     <tag k='name' v='Åre, Gästhuset'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1574,7 +1563,7 @@
     <tag k='stolavsleden:id' v='21441'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-167' version='0' action='modify' visible='true' lat='62.5436437' lon='15.8595424'>
+  <node id='-166' version='0' action='modify' visible='true' lat='62.5436437' lon='15.8595424'>
     <tag k='name' v='Öyegården Treat &amp; Retreat, Erikslund'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1584,7 +1573,7 @@
     <tag k='stolavsleden:id' v='22135'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-168' version='0' action='modify' visible='true' lat='63.1721300' lon='14.5402100'>
+  <node id='-167' version='0' action='modify' visible='true' lat='63.1721300' lon='14.5402100'>
     <tag k='name' v='Frösö Stugby &amp; Camping'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1594,7 +1583,7 @@
     <tag k='stolavsleden:id' v='21399'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-169' version='0' action='modify' visible='true' lat='62.6835590' lon='15.6095120'>
+  <node id='-168' version='0' action='modify' visible='true' lat='62.6835590' lon='15.6095120'>
     <tag k='name' v='Harrsjöstugan'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1604,7 +1593,7 @@
     <tag k='stolavsleden:id' v='21501'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-170' version='0' action='modify' visible='true' lat='62.4157215' lon='16.5641864'>
+  <node id='-169' version='0' action='modify' visible='true' lat='62.4157215' lon='16.5641864'>
     <tag k='name' v='Huberget. Café och vandrarhem, Stöde'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1614,7 +1603,7 @@
     <tag k='stolavsleden:id' v='26710'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-171' version='0' action='modify' visible='true' lat='62.3585560' lon='17.3699921'>
+  <node id='-170' version='0' action='modify' visible='true' lat='62.3585560' lon='17.3699921'>
     <tag k='name' v='Liz Motell, Sundsvall'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1624,7 +1613,7 @@
     <tag k='stolavsleden:id' v='142728'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-172' version='0' action='modify' visible='true' lat='63.3534862' lon='14.2527971'>
+  <node id='-171' version='0' action='modify' visible='true' lat='63.3534862' lon='14.2527971'>
     <tag k='name' v='Lornsgården, Nälden'/>
     <tag k='source' v='stolavsleden.com'/>
     <tag k='network' v='St. Olavsleden'/>
@@ -1633,6 +1622,17 @@
     <tag k='pilegrimsleden:poi_type' v='Boende'/>
     <tag k='stolavsleden:id' v='103097'/>
     <tag k='tourism' v='hostel'/>
+  </node>
+  <node id='-172' version='0' action='modify' visible='true' lat='63.6031524' lon='12.2284788'>
+    <tag k='name' v='Rastplats med vindskydd'/>
+    <tag k='source' v='stolavsleden.com'/>
+    <tag k='network' v='St. Olavsleden'/>
+    <tag k='note:trail' v='St. Olavsleden'/>
+    <tag k='note:country' v='Sweden'/>
+    <tag k='pilegrimsleden:poi_type' v='Vindskydd'/>
+    <tag k='stolavsleden:id' v='27311'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
   </node>
   <node id='-173' version='0' action='modify' visible='true' lat='63.3947961' lon='12.9665351'>
     <tag k='name' v='Rastplats Tegeforsen'/>
