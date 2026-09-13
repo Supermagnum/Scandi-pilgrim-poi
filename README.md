@@ -89,16 +89,15 @@ Do not bulk-upload these nodes.
 
 ## License
 
-**Decision needed from the repository owner before treating this as final:**
-derived POI comparison tables are intended to be published under a license
-compatible with reuse alongside OSM (for example **ODbL** or **CC0**). Until
-that choice is confirmed in writing, treat the files as all-rights-reserved
-research notes belonging to the repository owner, while remembering that:
+This dataset uses the **same license as OpenStreetMap data**:
+[Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1.0/),
+with individual contents under the
+[Database Contents License (DbCL) v1.0](https://opendatacommons.org/licenses/dbcl/1.0/).
+See [LICENSE](LICENSE).
 
-- OpenStreetMap data remains under ODbL;
-- pilegrimsleden.no / stolavsleden.com / Naturkartan content remains under their
-  respective terms — this project only stores derived comparison fields needed
-  for mapping research.
+Upstream sources keep their own terms (OSM under ODbL; pilegrimsleden.no,
+stolavsleden.com, and Naturkartan under theirs). This project only publishes
+derived comparison fields needed for mapping research.
 
 Credit: pilegrimsleden.no, stolavsleden.com, Naturkartan, OpenStreetMap
 contributors, and Geofabrik extracts.
