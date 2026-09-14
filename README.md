@@ -14,6 +14,12 @@ Foundation.
 - **pilegrimsleden.no** (Craft CMS GraphQL / map APIs): Norwegian trail network
   Gudbrandsdalsleden, St. Olavsleden (NO), Borgleden, Kystpilegrimsleia,
   Tunsbergleden, Østerdalsleden, Valldalsleden, Romboleden, Nordleden.
+- **OSM relation
+  [1200009](https://www.openstreetmap.org/relation/1200009)** (Romeriksleden /
+  Gudbrandsdalsleden east): not a separate CMS trail entry; folder
+  `data/by_trail/Romeriksleden/` holds the OSM route geometry, corridor overnight
+  POIs (with `related_trails` Gudbrandsdalsleden + Romeriksleden), and
+  `romeriksleden.osm` linking path + POIs in a local JOSM relation.
 - **stolavsleden.com** (WordPress site + Naturkartan embed, guide id 154):
   St. Olavsleden in Sweden, including hiking / biking / horseback path variants
   and horseback-oriented service points (veterinarians in the current extract;
@@ -40,7 +46,9 @@ data/
     horseback_path.osm        # St. Olavsleden only: horse route geometry
     horseback_path.gpx        # St. Olavsleden only: source horseback GPX
     horseback_service_points.csv  # St. Olavsleden only: farrier/vet POIs
-    hiking_path.gpx           # St. Olavsleden only: hiking GPX
+    hiking_path.gpx           # St. Olavsleden / Romeriksleden route GPX
+    hiking_path.osm           # Romeriksleden (from OSM rel 1200009); St. Olavsleden has GPX only
+    romeriksleden.osm         # Romeriksleden only: path + POIs + local JOSM relation
   osm_comparison_results.csv
   pilegrimsleden_shelters.osm
   changeset_187258738_reference.json
@@ -49,8 +57,11 @@ scripts (repo root):
   extract_pilegrimsleden_shelters.py
   compare_osm_shelters.py
   extract_stolavsleden.py
+  extract_romeriksleden.py
   discover_map_api.py
 ```
+
+Each trail `shelters.osm` includes a local JOSM `type=site` relation grouping overnight POI nodes (research aid; not for upload).
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
 `St-Olavsleden`. The original trail name remains in CSV `trail` / OSM
@@ -111,6 +122,9 @@ python3 compare_osm_shelters.py --pilgrim-centers-only --split-by-trail
 
 # Swedish St. Olavsleden + horseback layers
 python3 extract_stolavsleden.py
+
+# Romeriksleden corridor from OSM relation 1200009
+python3 extract_romeriksleden.py
 ```
 
 Do not commit `data/geofabrik/*.osm.pbf` (see `.gitignore`).

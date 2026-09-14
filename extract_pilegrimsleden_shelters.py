@@ -408,8 +408,11 @@ def write_osm(path: Path, records: list[dict[str, Any]]) -> None:
         "<?xml version='1.0' encoding='UTF-8'?>",
         "<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>",
     ]
+    node_ids: list[int] = []
+    trail_names: list[str] = []
     for index, record in enumerate(records, start=1):
         node_id = -index
+        node_ids.append(node_id)
         lat = f"{record['lat']:.7f}"
         lon = f"{record['lon']:.7f}"
         lines.append(
@@ -425,7 +428,9 @@ def write_osm(path: Path, records: list[dict[str, Any]]) -> None:
             ("network", "Pilegrimsleden"),
         ]
         if record["trails"]:
-            tags.append(("note:trail", "; ".join(record["trails"])))
+            trail_note = "; ".join(record["trails"])
+            tags.append(("note:trail", trail_note))
+            trail_names.extend(record["trails"])
         else:
             tags.append(("note:trail", "unassigned"))
         tags.append(
@@ -453,6 +458,34 @@ def write_osm(path: Path, records: list[dict[str, Any]]) -> None:
                 continue
             lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
         lines.append("  </node>")
+    if node_ids:
+        # Local JOSM research relation grouping this file's overnight POIs.
+        from collections import Counter
+
+        rel_id = min(node_ids) - 1
+        dominant = ""
+        if trail_names:
+            dominant = Counter(trail_names).most_common(1)[0][0]
+        lines.append(
+            f"  <relation id='{rel_id}' version='0' action='modify' visible='true'>"
+        )
+        for node_id in node_ids:
+            lines.append(f"    <member type='node' ref='{node_id}' role='shelter'/>")
+        rel_tags = [
+            ("type", "site"),
+            ("name", f"{dominant or 'Pilegrimsleden'} overnight POIs"),
+            ("network", "Pilegrimsleden"),
+            (
+                "note",
+                "Local JOSM research relation grouping overnight POIs for this trail; "
+                "not an OSM import",
+            ),
+        ]
+        if dominant:
+            rel_tags.append(("note:trail", dominant))
+        for key, value in rel_tags:
+            lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
+        lines.append("  </relation>")
     lines.append("</osm>")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

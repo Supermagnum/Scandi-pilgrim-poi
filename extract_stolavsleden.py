@@ -461,8 +461,10 @@ def write_shelters_osm(path: Path, records: list[dict[str, Any]]) -> None:
         "<?xml version='1.0' encoding='UTF-8'?>",
         "<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>",
     ]
+    node_ids: list[int] = []
     for index, record in enumerate(records, start=1):
         node_id = -index
+        node_ids.append(node_id)
         lines.append(
             f"  <node id='{node_id}' version='0' action='modify' visible='true' "
             f"lat='{record['lat']:.7f}' lon='{record['lon']:.7f}'>"
@@ -473,6 +475,7 @@ def write_shelters_osm(path: Path, records: list[dict[str, Any]]) -> None:
             ("network", "St. Olavsleden"),
             ("note:trail", "St. Olavsleden"),
             ("note:country", record.get("country") or ""),
+            ("note:osm_route_relation", "10524322"),
             ("pilegrimsleden:poi_type", record.get("category") or ""),
         ]
         if record.get("url"):
@@ -485,6 +488,28 @@ def write_shelters_osm(path: Path, records: list[dict[str, Any]]) -> None:
                 continue
             lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
         lines.append("  </node>")
+    if node_ids:
+        rel_id = min(node_ids) - 1
+        lines.append(
+            f"  <relation id='{rel_id}' version='0' action='modify' visible='true'>"
+        )
+        for node_id in node_ids:
+            lines.append(f"    <member type='node' ref='{node_id}' role='shelter'/>")
+        for key, value in [
+            ("type", "site"),
+            ("name", "St. Olavsleden overnight POIs"),
+            ("network", "Pilegrimsleden"),
+            ("note:trail", "St. Olavsleden"),
+            ("note:osm_route_relation", "10524322"),
+            ("source", "openstreetmap.org/relation/10524322"),
+            (
+                "note",
+                "Local JOSM research relation grouping overnight POIs for this trail; "
+                "not an OSM import",
+            ),
+        ]:
+            lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
+        lines.append("  </relation>")
     lines.append("</osm>")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

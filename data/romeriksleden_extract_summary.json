@@ -1,0 +1,31 @@
+{
+  "trail": "Romeriksleden",
+  "osm_relation": 1200009,
+  "osm_url": "https://www.openstreetmap.org/relation/1200009",
+  "buffer_m": 2000.0,
+  "related_trails": [
+    "Gudbrandsdalsleden",
+    "Romeriksleden"
+  ],
+  "source_trail_pois": "Gudbrandsdalsleden",
+  "track_points": 12521,
+  "member_ways": 981,
+  "shelters": 61,
+  "shelter_gaps": 46,
+  "pilgrim_centers": 4,
+  "pilgrim_gaps": 0,
+  "gudbrandsdalsleden_note_trail_patched": 36,
+  "relation_tags": {
+    "alt_name": "Pilegrimsleden over Romerike",
+    "description:no": "Følg den østlige veien ut av Oslo langs Oldtidsveien over Gjelleråsen, forbi Raknehaugen og Stangeskogene til Hamarbispens sete på Domkirkeodden",
+    "from": "Oslo",
+    "name": "Romeriksleden",
+    "network": "nwn",
+    "pilgrimage": "yes",
+    "religion": "christian",
+    "route": "hiking",
+    "to": "Lillehammer",
+    "type": "route",
+    "website": "https://pilegrimsleden.no/no/map/romeriksleden/"
+  }
+}

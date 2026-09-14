@@ -543,4 +543,60 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
+  <relation id='-50' version='0' action='modify' visible='true'>
+    <member type='node' ref='-1' role='shelter'/>
+    <member type='node' ref='-2' role='shelter'/>
+    <member type='node' ref='-3' role='shelter'/>
+    <member type='node' ref='-4' role='shelter'/>
+    <member type='node' ref='-5' role='shelter'/>
+    <member type='node' ref='-6' role='shelter'/>
+    <member type='node' ref='-7' role='shelter'/>
+    <member type='node' ref='-8' role='shelter'/>
+    <member type='node' ref='-9' role='shelter'/>
+    <member type='node' ref='-10' role='shelter'/>
+    <member type='node' ref='-11' role='shelter'/>
+    <member type='node' ref='-12' role='shelter'/>
+    <member type='node' ref='-13' role='shelter'/>
+    <member type='node' ref='-14' role='shelter'/>
+    <member type='node' ref='-15' role='shelter'/>
+    <member type='node' ref='-16' role='shelter'/>
+    <member type='node' ref='-17' role='shelter'/>
+    <member type='node' ref='-18' role='shelter'/>
+    <member type='node' ref='-19' role='shelter'/>
+    <member type='node' ref='-20' role='shelter'/>
+    <member type='node' ref='-21' role='shelter'/>
+    <member type='node' ref='-22' role='shelter'/>
+    <member type='node' ref='-23' role='shelter'/>
+    <member type='node' ref='-24' role='shelter'/>
+    <member type='node' ref='-25' role='shelter'/>
+    <member type='node' ref='-26' role='shelter'/>
+    <member type='node' ref='-27' role='shelter'/>
+    <member type='node' ref='-28' role='shelter'/>
+    <member type='node' ref='-29' role='shelter'/>
+    <member type='node' ref='-30' role='shelter'/>
+    <member type='node' ref='-31' role='shelter'/>
+    <member type='node' ref='-32' role='shelter'/>
+    <member type='node' ref='-33' role='shelter'/>
+    <member type='node' ref='-34' role='shelter'/>
+    <member type='node' ref='-35' role='shelter'/>
+    <member type='node' ref='-36' role='shelter'/>
+    <member type='node' ref='-37' role='shelter'/>
+    <member type='node' ref='-38' role='shelter'/>
+    <member type='node' ref='-39' role='shelter'/>
+    <member type='node' ref='-40' role='shelter'/>
+    <member type='node' ref='-41' role='shelter'/>
+    <member type='node' ref='-42' role='shelter'/>
+    <member type='node' ref='-43' role='shelter'/>
+    <member type='node' ref='-44' role='shelter'/>
+    <member type='node' ref='-45' role='shelter'/>
+    <member type='node' ref='-46' role='shelter'/>
+    <member type='node' ref='-47' role='shelter'/>
+    <member type='node' ref='-48' role='shelter'/>
+    <member type='node' ref='-49' role='shelter'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Kystpilegrimsleia overnight POIs'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note' v='Local JOSM research relation grouping overnight POIs for this trail; not an OSM import'/>
+  </relation>
 </osm>

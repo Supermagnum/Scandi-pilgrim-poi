@@ -11,6 +11,7 @@
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-2' version='0' action='modify' visible='true' lat='63.1916389' lon='11.1540869'>
     <tag k='name' v='Bekken Pilegrimsherberge'/>
@@ -23,6 +24,7 @@
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-3' version='0' action='modify' visible='true' lat='63.3817267' lon='10.7357765'>
     <tag k='name' v='Erikbu'/>
@@ -34,6 +36,7 @@
     <tag k='pilegrimsleden:id' v='48932'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-4' version='0' action='modify' visible='true' lat='63.0617141' lon='11.4537382'>
     <tag k='name' v='Jensgarden'/>
@@ -44,6 +47,7 @@
     <tag k='pilegrimsleden:poi_type' v='Vandrerhjem'/>
     <tag k='pilegrimsleden:id' v='9713'/>
     <tag k='tourism' v='hostel'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-5' version='0' action='modify' visible='true' lat='62.9148442' lon='11.8905660'>
     <tag k='name' v='Moheim camping'/>
@@ -54,6 +58,7 @@
     <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
     <tag k='pilegrimsleden:id' v='506995'/>
     <tag k='tourism' v='chalet'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-6' version='0' action='modify' visible='true' lat='63.0314758' lon='11.6767263'>
     <tag k='name' v='Neatun'/>
@@ -64,6 +69,7 @@
     <tag k='pilegrimsleden:poi_type' v='Vandrerhjem'/>
     <tag k='pilegrimsleden:id' v='9736'/>
     <tag k='tourism' v='hostel'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-7' version='0' action='modify' visible='true' lat='63.4337714' lon='10.4245614'>
     <tag k='name' v='Rumi Hostel - Trondheim Vandrerhjem'/>
@@ -76,6 +82,7 @@
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-8' version='0' action='modify' visible='true' lat='63.4322046' lon='10.7085925'>
     <tag k='name' v='Storsand Gård Camping'/>
@@ -87,6 +94,7 @@
     <tag k='pilegrimsleden:id' v='455596'/>
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
   <node id='-9' version='0' action='modify' visible='true' lat='63.0551441' lon='11.5631962'>
     <tag k='name' v='Trøen gård'/>
@@ -99,5 +107,24 @@
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+      <tag k='note:osm_route_relation' v='1151161'/>
   </node>
+  <relation id='-10' version='0' action='modify' visible='true'>
+    <member type='node' ref='-1' role='shelter'/>
+    <member type='node' ref='-2' role='shelter'/>
+    <member type='node' ref='-3' role='shelter'/>
+    <member type='node' ref='-4' role='shelter'/>
+    <member type='node' ref='-5' role='shelter'/>
+    <member type='node' ref='-6' role='shelter'/>
+    <member type='node' ref='-7' role='shelter'/>
+    <member type='node' ref='-8' role='shelter'/>
+    <member type='node' ref='-9' role='shelter'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Romboleden overnight POIs'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Romboleden'/>
+    <tag k='note' v='Local JOSM research relation grouping overnight POIs for this trail; not an OSM import'/>
+    <tag k='note:osm_route_relation' v='1151161'/>
+    <tag k='source' v='openstreetmap.org/relation/1151161'/>
+  </relation>
 </osm>
