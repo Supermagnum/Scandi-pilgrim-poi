@@ -10,6 +10,8 @@
     <tag k='pilegrimsleden:id' v='9007'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: way/304849086.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: way/304849086.'/>
   </node>
   <node id='-2' version='0' action='modify' visible='true' lat='62.2533484' lon='8.2164860'>
     <tag k='name' v='Bjorliheimen hotell'/>
@@ -23,6 +25,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: way/306894609.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: way/306894609.'/>
   </node>
   <node id='-3' version='0' action='modify' visible='true' lat='62.0726800' lon='9.1202563'>
     <tag k='name' v='Dombås gard'/>
@@ -34,6 +38,8 @@
     <tag k='pilegrimsleden:id' v='8974'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663314565.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663314565.'/>
   </node>
   <node id='-4' version='0' action='modify' visible='true' lat='62.3025138' lon='7.2558082'>
     <tag k='name' v='Elvebakken Camping'/>
@@ -45,6 +51,8 @@
     <tag k='pilegrimsleden:id' v='545854'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-5' version='0' action='modify' visible='true' lat='62.2350940' lon='8.3063111'>
     <tag k='name' v='Gammelstuggu'/>
@@ -56,6 +64,8 @@
     <tag k='pilegrimsleden:id' v='9016'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-6' version='0' action='modify' visible='true' lat='62.3288582' lon='7.4704021'>
     <tag k='name' v='Gudbrandsjuvet camping'/>
@@ -67,6 +77,8 @@
     <tag k='pilegrimsleden:id' v='9037'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663315238.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663315238.'/>
   </node>
   <node id='-7' version='0' action='modify' visible='true' lat='62.2998853' lon='7.2951452'>
     <tag k='name' v='Klosteret av Den Hellige Olav'/>
@@ -80,6 +92,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-8' version='0' action='modify' visible='true' lat='62.2695601' lon='8.0741358'>
     <tag k='name' v='Koia - Hytte i Verma'/>
@@ -91,6 +105,8 @@
     <tag k='pilegrimsleden:id' v='313272'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-9' version='0' action='modify' visible='true' lat='62.1145350' lon='8.8378280'>
     <tag k='name' v='Kolstad gård'/>
@@ -102,6 +118,8 @@
     <tag k='pilegrimsleden:id' v='8995'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/6808271301.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/6808271301.'/>
   </node>
   <node id='-10' version='0' action='modify' visible='true' lat='62.1923994' lon='8.5405803'>
     <tag k='name' v='Kvennbekkhytta (stengt)'/>
@@ -113,6 +131,8 @@
     <tag k='pilegrimsleden:id' v='9004'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-11' version='0' action='modify' visible='true' lat='62.1182020' lon='8.8533729'>
     <tag k='name' v='Lesja Gjestgiveri'/>
@@ -124,6 +144,8 @@
     <tag k='pilegrimsleden:id' v='8989'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-12' version='0' action='modify' visible='true' lat='62.2303184' lon='8.4064592'>
     <tag k='name' v='Lesjaskogsvatnet camping'/>
@@ -135,6 +157,8 @@
     <tag k='pilegrimsleden:id' v='9010'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: way/305044838.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: way/305044838.'/>
   </node>
   <node id='-13' version='0' action='modify' visible='true' lat='62.0707621' lon='9.1316986'>
     <tag k='name' v='Ljoshaugen camping'/>
@@ -146,6 +170,8 @@
     <tag k='pilegrimsleden:id' v='223720'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/12115211607.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/12115211607.'/>
   </node>
   <node id='-14' version='0' action='modify' visible='true' lat='62.1200643' lon='8.6512083'>
     <tag k='name' v='Lorkverna'/>
@@ -157,6 +183,8 @@
     <tag k='pilegrimsleden:id' v='9001'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-15' version='0' action='modify' visible='true' lat='62.3138027' lon='7.2913170'>
     <tag k='name' v='Meretes Garden'/>
@@ -168,6 +196,8 @@
     <tag k='pilegrimsleden:id' v='9043'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663317727.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663317727.'/>
   </node>
   <node id='-16' version='0' action='modify' visible='true' lat='62.0798430' lon='9.1229175'>
     <tag k='name' v='Midtskog camping'/>
@@ -179,6 +209,8 @@
     <tag k='pilegrimsleden:id' v='8980'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663315937.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/3663315937.'/>
   </node>
   <node id='-17' version='0' action='modify' visible='true' lat='62.2991634' lon='7.2549677'>
     <tag k='name' v='Muri hytteutleige'/>
@@ -190,6 +222,8 @@
     <tag k='pilegrimsleden:id' v='9046'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-18' version='0' action='modify' visible='true' lat='62.2390944' lon='8.3011685'>
     <tag k='name' v='Sør-Einbu'/>
@@ -201,6 +235,8 @@
     <tag k='pilegrimsleden:id' v='9019'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only.'/>
   </node>
   <node id='-19' version='0' action='modify' visible='true' lat='62.3211459' lon='7.6662683'>
     <tag k='name' v='Tjønnebu'/>
@@ -212,6 +248,8 @@
     <tag k='pilegrimsleden:id' v='9034'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/1356403693.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/1356403693.'/>
   </node>
   <node id='-20' version='0' action='modify' visible='true' lat='62.0775638' lon='9.1442798'>
     <tag k='name' v='Trolltun Hotell og Hytter'/>
@@ -223,6 +261,8 @@
     <tag k='pilegrimsleden:id' v='8971'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/14049320618.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/14049320618.'/>
   </node>
   <node id='-21' version='0' action='modify' visible='true' lat='62.1194271' lon='8.8028384'>
     <tag k='name' v='Tynnøl Backpackers Lodge'/>
@@ -234,6 +274,8 @@
     <tag k='pilegrimsleden:id' v='8998'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/6808271313.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/6808271313.'/>
   </node>
   <node id='-22' version='0' action='modify' visible='true' lat='62.2696151' lon='7.8359985'>
     <tag k='name' v='Vakkerstøylen'/>
@@ -245,6 +287,8 @@
     <tag k='pilegrimsleden:id' v='9031'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='11218584'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/837453934.'/>
+    <tag k='note' v='Proposed: add as member of relation 11218584 (Valldalsleden). Do not modify existing members of relation 11218584 (Valldalsleden). Research aid only. Existing OSM object: node/837453934.'/>
   </node>
   <relation id='-23' version='0' action='modify' visible='true'>
     <member type='node' ref='-1' role='shelter'/>

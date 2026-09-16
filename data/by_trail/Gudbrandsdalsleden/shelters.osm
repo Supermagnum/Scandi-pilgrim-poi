@@ -12,6 +12,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-2' version='0' action='modify' visible='true' lat='59.9963896' lon='11.0843414'>
     <tag k='name' v='&quot;Rastebu&quot; ved Farseggen #2'/>
@@ -25,6 +27,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-3' version='0' action='modify' visible='true' lat='59.9893932' lon='10.9769382'>
     <tag k='name' v='Aaraas Pilegrimsherberge'/>
@@ -38,6 +42,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6812447357.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6812447357.'/>
   </node>
   <node id='-4' version='0' action='modify' visible='true' lat='60.0504832' lon='11.1530332'>
     <tag k='name' v='Arteid Vestre'/>
@@ -49,6 +55,8 @@
     <tag k='pilegrimsleden:id' v='10933'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-5' version='0' action='modify' visible='true' lat='60.8350473' lon='11.0091287'>
     <tag k='name' v='Atelier Lefstorvet'/>
@@ -62,6 +70,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-6' version='0' action='modify' visible='true' lat='61.0296336' lon='10.4403680'>
     <tag k='name' v='Audenhus - Pilegrimsherberge på Vingrom'/>
@@ -75,6 +85,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-7' version='0' action='modify' visible='true' lat='63.2256824' lon='10.0401410'>
     <tag k='name' v='Aunan Gård'/>
@@ -88,6 +100,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-8' version='0' action='modify' visible='true' lat='60.1900835' lon='10.3672265'>
     <tag k='name' v='Aurdal Gård'/>
@@ -101,6 +115,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-9' version='0' action='modify' visible='true' lat='62.2208301' lon='9.5441801'>
     <tag k='name' v='Basecamp Frich&apos;s Hjerkinn'/>
@@ -112,6 +128,8 @@
     <tag k='pilegrimsleden:id' v='10251'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-10' version='0' action='modify' visible='true' lat='63.1242870' lon='9.7045620'>
     <tag k='name' v='Bergmannshuset'/>
@@ -123,6 +141,8 @@
     <tag k='pilegrimsleden:id' v='11003'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6817588285.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6817588285.'/>
   </node>
   <node id='-11' version='0' action='modify' visible='true' lat='60.6127328' lon='10.7676959'>
     <tag k='name' v='Betania Kolbu'/>
@@ -136,6 +156,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-12' version='0' action='modify' visible='true' lat='61.5275291' lon='10.1347539'>
     <tag k='name' v='Bittes Gjestehus'/>
@@ -149,6 +171,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-13' version='0' action='modify' visible='true' lat='60.4083844' lon='10.5107736'>
     <tag k='name' v='Brurbakkvegen 79'/>
@@ -162,6 +186,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-14' version='0' action='modify' visible='true' lat='60.0823505' lon='10.2203343'>
     <tag k='name' v='Bryggerhuset Nordre Ullern'/>
@@ -175,6 +201,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-15' version='0' action='modify' visible='true' lat='60.3897231' lon='10.5109907'>
     <tag k='name' v='Bryggerhuset på Lander'/>
@@ -188,6 +216,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-16' version='0' action='modify' visible='true' lat='60.7286909' lon='11.2564445'>
     <tag k='name' v='Bryhni Søndre – Gjestegård'/>
@@ -201,6 +231,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-17' version='0' action='modify' visible='true' lat='61.0364407' lon='10.4874372'>
     <tag k='name' v='Brynn i Bergsengroa'/>
@@ -214,6 +246,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-18' version='0' action='modify' visible='true' lat='61.0245197' lon='10.5536841'>
     <tag k='name' v='Brøttum Camping'/>
@@ -225,6 +259,8 @@
     <tag k='pilegrimsleden:id' v='10894'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/751244262.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/751244262.'/>
   </node>
   <node id='-19' version='0' action='modify' visible='true' lat='62.0158705' lon='9.2236515'>
     <tag k='name' v='Budsjord historisk gard'/>
@@ -236,6 +272,8 @@
     <tag k='pilegrimsleden:id' v='10835'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271323.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271323.'/>
   </node>
   <node id='-20' version='0' action='modify' visible='true' lat='59.9273939' lon='10.7668296'>
     <tag k='name' v='Bunks at Rode'/>
@@ -249,6 +287,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/2790244101.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/2790244101.'/>
   </node>
   <node id='-21' version='0' action='modify' visible='true' lat='60.7365991' lon='10.8293661'>
     <tag k='name' v='Båkinn Gård'/>
@@ -261,6 +301,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-22' version='0' action='modify' visible='true' lat='59.9429920' lon='10.5565670'>
     <tag k='name' v='Bærum gapahuk'/>
@@ -273,6 +315,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/563386752.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/563386752.'/>
   </node>
   <node id='-23' version='0' action='modify' visible='true' lat='60.2529905' lon='10.4293258'>
     <tag k='name' v='Bøndernes Hus Jevnaker'/>
@@ -285,6 +329,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-24' version='0' action='modify' visible='true' lat='61.6805397' lon='9.5678257'>
     <tag k='name' v='Dalum herberge tilbyr enkel overnatting til pilegrimer'/>
@@ -298,6 +344,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-25' version='0' action='modify' visible='true' lat='62.1535067' lon='9.3706512'>
     <tag k='name' v='Dovrefjell Lodge (Furuhaugli)'/>
@@ -309,6 +357,8 @@
     <tag k='pilegrimsleden:id' v='10947'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663314978.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663314978.'/>
   </node>
   <node id='-26' version='0' action='modify' visible='true' lat='62.1746080' lon='9.4288660'>
     <tag k='name' v='Dovregubbens Hall'/>
@@ -320,6 +370,8 @@
     <tag k='pilegrimsleden:id' v='10944'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-27' version='0' action='modify' visible='true' lat='61.9286771' lon='9.3168783'>
     <tag k='name' v='Dovreskogen camping'/>
@@ -331,6 +383,8 @@
     <tag k='pilegrimsleden:id' v='9652'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/299738523.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/299738523.'/>
   </node>
   <node id='-28' version='0' action='modify' visible='true' lat='61.9118008' lon='9.3607324'>
     <tag k='name' v='Dovreskogen Gjestegård'/>
@@ -342,6 +396,8 @@
     <tag k='pilegrimsleden:id' v='10951'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/203142757.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/203142757.'/>
   </node>
   <node id='-29' version='0' action='modify' visible='true' lat='60.3197741' lon='11.2458617'>
     <tag k='name' v='Eidsvoll gamle prestegård - STENGT I 2026'/>
@@ -355,6 +411,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-30' version='0' action='modify' visible='true' lat='62.3790904' lon='9.7729082'>
     <tag k='name' v='Elgsjøhytta (for grupper)'/>
@@ -366,6 +424,8 @@
     <tag k='pilegrimsleden:id' v='550633'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/905422766.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/905422766.'/>
   </node>
   <node id='-31' version='0' action='modify' visible='true' lat='61.5015144' lon='10.1689251'>
     <tag k='name' v='Elstad Camping'/>
@@ -379,6 +439,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663314586.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663314586.'/>
   </node>
   <node id='-32' version='0' action='modify' visible='true' lat='61.5015145' lon='10.1688644'>
     <tag k='name' v='ELSTAD CAMPING - I VAKRE OMGIVELSER VED GUDBRANDSDALSLÅGEN'/>
@@ -392,6 +454,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663314586.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663314586.'/>
   </node>
   <node id='-33' version='0' action='modify' visible='true' lat='60.5895024' lon='10.7197376'>
     <tag k='name' v='Engen kloster i Kolbu'/>
@@ -405,6 +469,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-34' version='0' action='modify' visible='true' lat='60.3805850' lon='11.2759638'>
     <tag k='name' v='Enkel overnatting i gapahuk/hytte'/>
@@ -417,6 +483,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-35' version='0' action='modify' visible='true' lat='60.0378726' lon='11.1432213'>
     <tag k='name' v='Fjellheim gård'/>
@@ -430,6 +498,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-36' version='0' action='modify' visible='true' lat='60.7621526' lon='11.0896601'>
     <tag k='name' v='Fjetre gård - midelrtidig stengt'/>
@@ -443,6 +513,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6800398116.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6800398116.'/>
   </node>
   <node id='-37' version='0' action='modify' visible='true' lat='62.1140805' lon='9.2871092'>
     <tag k='name' v='Fokstugu Fjellstue'/>
@@ -454,6 +526,8 @@
     <tag k='pilegrimsleden:id' v='10855'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/298217058.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/298217058.'/>
   </node>
   <node id='-38' version='0' action='modify' visible='true' lat='59.9238617' lon='10.6365279'>
     <tag k='name' v='Fuglesang herberge'/>
@@ -467,6 +541,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-39' version='0' action='modify' visible='true' lat='61.0224513' lon='10.4576106'>
     <tag k='name' v='Furuodden Camping'/>
@@ -478,6 +554,8 @@
     <tag k='pilegrimsleden:id' v='10970'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1192395517.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1192395517.'/>
   </node>
   <node id='-40' version='0' action='modify' visible='true' lat='60.2153432' lon='10.3759525'>
     <tag k='name' v='Gamleveien 60'/>
@@ -489,6 +567,8 @@
     <tag k='pilegrimsleden:id' v='97770'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-41' version='0' action='modify' visible='true' lat='59.9662800' lon='10.9510000'>
     <tag k='name' v='Gapahuk &quot;Pilegrimshvile&quot;'/>
@@ -501,6 +581,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-42' version='0' action='modify' visible='true' lat='61.5511860' lon='10.0430918'>
     <tag k='name' v='Gapahuk Frya'/>
@@ -513,6 +595,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/9889573297.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/9889573297.'/>
   </node>
   <node id='-43' version='0' action='modify' visible='true' lat='60.8180334' lon='11.0204029'>
     <tag k='name' v='Gapahuk i Furuberget'/>
@@ -525,6 +609,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/315143760.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/315143760.'/>
   </node>
   <node id='-44' version='0' action='modify' visible='true' lat='60.3674225' lon='10.5375538'>
     <tag k='name' v='Gapahuk i Klokkerhavna'/>
@@ -537,6 +623,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-45' version='0' action='modify' visible='true' lat='61.5904745' lon='9.8321629'>
     <tag k='name' v='Gapahuk i Skar'/>
@@ -549,6 +637,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6131154231.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6131154231.'/>
   </node>
   <node id='-46' version='0' action='modify' visible='true' lat='60.0427147' lon='11.1536121'>
     <tag k='name' v='Gapahuk på Lindeberg etter Vilbergfjellet, før Arteid'/>
@@ -561,6 +651,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-47' version='0' action='modify' visible='true' lat='63.1879637' lon='9.8919895'>
     <tag k='name' v='Gapahuk på Snøton'/>
@@ -573,6 +665,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/484698873.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/484698873.'/>
   </node>
   <node id='-48' version='0' action='modify' visible='true' lat='62.2149902' lon='9.5783620'>
     <tag k='name' v='Gapahuk ved Hjerkindammen'/>
@@ -585,6 +679,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1538490680.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1538490680.'/>
   </node>
   <node id='-49' version='0' action='modify' visible='true' lat='60.1948610' lon='10.3523226'>
     <tag k='name' v='Gapahuk ved Honerud Gård'/>
@@ -597,6 +693,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/13946282701.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/13946282701.'/>
   </node>
   <node id='-50' version='0' action='modify' visible='true' lat='60.7691810' lon='11.0742694'>
     <tag k='name' v='Gapahuk ved Nordsveodden i Ottestad'/>
@@ -609,6 +707,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/10857479543.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/10857479543.'/>
   </node>
   <node id='-51' version='0' action='modify' visible='true' lat='59.9663388' lon='10.9423496'>
     <tag k='name' v='Gapahuken &quot;Gubbero&quot;'/>
@@ -621,6 +721,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1931260548.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1931260548.'/>
   </node>
   <node id='-52' version='0' action='modify' visible='true' lat='59.9590930' lon='10.9450000'>
     <tag k='name' v='Gapahuken &quot;Kjerringfred&quot;'/>
@@ -633,6 +735,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/937852318.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/937852318.'/>
   </node>
   <node id='-53' version='0' action='modify' visible='true' lat='59.9338221' lon='10.5539131'>
     <tag k='name' v='Gardlaus Markastue og pilegrimsherberge'/>
@@ -644,6 +748,8 @@
     <tag k='pilegrimsleden:id' v='8964'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-54' version='0' action='modify' visible='true' lat='61.5090688' lon='10.1698167'>
     <tag k='name' v='Gildesvollen Pilegrimsherberge - overnatting på en historisk plass'/>
@@ -657,6 +763,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/708001653.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/708001653.'/>
   </node>
   <node id='-55' version='0' action='modify' visible='true' lat='62.7641548' lon='9.9697226'>
     <tag k='name' v='Gjesteheim Havdal'/>
@@ -668,6 +776,8 @@
     <tag k='pilegrimsleden:id' v='10215'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/454068583.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/454068583.'/>
   </node>
   <node id='-56' version='0' action='modify' visible='true' lat='60.0736304' lon='10.2792994'>
     <tag k='name' v='Gjesvold Gård'/>
@@ -681,6 +791,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-57' version='0' action='modify' visible='true' lat='60.7976461' lon='10.6716295'>
     <tag k='name' v='Gjøvik Vandrerhjem Hovdetun'/>
@@ -694,6 +806,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1478834689.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1478834689.'/>
   </node>
   <node id='-58' version='0' action='modify' visible='true' lat='62.5478528' lon='9.6287959'>
     <tag k='name' v='Granmo Camping'/>
@@ -705,6 +819,8 @@
     <tag k='pilegrimsleden:id' v='11021'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/202582264.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/202582264.'/>
   </node>
   <node id='-59' version='0' action='modify' visible='true' lat='63.1764144' lon='9.7727062'>
     <tag k='name' v='Gumdal gård'/>
@@ -718,6 +834,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/12881707301.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/12881707301.'/>
   </node>
   <node id='-60' version='0' action='modify' visible='true' lat='62.6249186' lon='9.7557765'>
     <tag k='name' v='Guriberget'/>
@@ -730,6 +848,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/664773392.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/664773392.'/>
   </node>
   <node id='-61' version='0' action='modify' visible='true' lat='62.1957542' lon='9.5476985'>
     <tag k='name' v='Hageseter Turisthytte'/>
@@ -741,6 +861,8 @@
     <tag k='pilegrimsleden:id' v='10541'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1356457924.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1356457924.'/>
   </node>
   <node id='-62' version='0' action='modify' visible='true' lat='60.7469020' lon='10.7617495'>
     <tag k='name' v='Hagevandring Nordre Toten'/>
@@ -754,6 +876,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-63' version='0' action='modify' visible='true' lat='60.3406255' lon='11.2885350'>
     <tag k='name' v='Haug pilegrimsrast og herberge'/>
@@ -765,6 +889,8 @@
     <tag k='pilegrimsleden:id' v='9517'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-64' version='0' action='modify' visible='true' lat='61.5504400' lon='10.0484400'>
     <tag k='name' v='Heimtun Camping. Hytter og teltplass'/>
@@ -776,6 +902,8 @@
     <tag k='pilegrimsleden:id' v='9318'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663315296.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663315296.'/>
   </node>
   <node id='-65' version='0' action='modify' visible='true' lat='60.7225580' lon='10.8500830'>
     <tag k='name' v='Hekshusstranda Camping'/>
@@ -787,6 +915,8 @@
     <tag k='pilegrimsleden:id' v='10984'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/70034203.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/70034203.'/>
   </node>
   <node id='-66' version='0' action='modify' visible='true' lat='60.3791087' lon='10.5349635'>
     <tag k='name' v='Helgaker Gård'/>
@@ -798,6 +928,8 @@
     <tag k='pilegrimsleden:id' v='534014'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-67' version='0' action='modify' visible='true' lat='62.2221464' lon='9.5765378'>
     <tag k='name' v='Hjerkinn Fjellstue &amp; Fjellridning'/>
@@ -809,6 +941,8 @@
     <tag k='pilegrimsleden:id' v='10539'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1873483825.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/1873483825.'/>
   </node>
   <node id='-68' version='0' action='modify' visible='true' lat='60.6826990' lon='10.8429160'>
     <tag k='name' v='Hoff Gjestgiveri'/>
@@ -822,6 +956,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/928625231.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/928625231.'/>
   </node>
   <node id='-69' version='0' action='modify' visible='true' lat='60.6850324' lon='10.8435928'>
     <tag k='name' v='Hoffsvangen Bygdestue'/>
@@ -835,6 +971,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-70' version='0' action='modify' visible='true' lat='61.5413047' lon='10.1250091'>
     <tag k='name' v='Hos Margit'/>
@@ -848,6 +986,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-71' version='0' action='modify' visible='true' lat='60.4700223' lon='10.5752249'>
     <tag k='name' v='Huset i skogen'/>
@@ -859,6 +999,8 @@
     <tag k='pilegrimsleden:id' v='185401'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-72' version='0' action='modify' visible='true' lat='60.9517894' lon='10.6111379'>
     <tag k='name' v='Husmannsstuggua'/>
@@ -872,6 +1014,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1547668734.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1547668734.'/>
   </node>
   <node id='-73' version='0' action='modify' visible='true' lat='60.6638918' lon='11.1756588'>
     <tag k='name' v='Hytte på Gørdammen'/>
@@ -884,6 +1028,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-74' version='0' action='modify' visible='true' lat='62.7431515' lon='9.9542422'>
     <tag k='name' v='Hæverstølen'/>
@@ -897,6 +1043,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/945271281.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/945271281.'/>
   </node>
   <node id='-75' version='0' action='modify' visible='true' lat='62.6117061' lon='9.7374596'>
     <tag k='name' v='IMI Stølen'/>
@@ -908,6 +1056,8 @@
     <tag k='pilegrimsleden:id' v='11010'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6817570379.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6817570379.'/>
   </node>
   <node id='-76' version='0' action='modify' visible='true' lat='60.8807748' lon='10.6618528'>
     <tag k='name' v='Indal Forest Retreat'/>
@@ -919,6 +1069,8 @@
     <tag k='pilegrimsleden:id' v='102868'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-77' version='0' action='modify' visible='true' lat='60.6212118' lon='11.2524471'>
     <tag k='name' v='Ingeborg Refling Hagens kulturhus Fredheim'/>
@@ -932,6 +1084,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-78' version='0' action='modify' visible='true' lat='60.1469858' lon='11.1421577'>
     <tag k='name' v='InnomHaug pilegrimsherberge'/>
@@ -944,6 +1098,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-79' version='0' action='modify' visible='true' lat='60.3656170' lon='10.5367932'>
     <tag k='name' v='Jomfruburet &amp; Drengstua'/>
@@ -957,6 +1113,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-80' version='0' action='modify' visible='true' lat='61.5309200' lon='10.1388410'>
     <tag k='name' v='Jonsgård Seng &amp; Frokost'/>
@@ -970,6 +1128,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3051727920.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3051727920.'/>
   </node>
   <node id='-81' version='0' action='modify' visible='true' lat='61.8454800' lon='9.4346100'>
     <tag k='name' v='Jørundgard Viking- og Middelaldersenter'/>
@@ -981,6 +1141,8 @@
     <tag k='pilegrimsleden:id' v='11028'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-82' version='0' action='modify' visible='true' lat='61.2344600' lon='10.4614600'>
     <tag k='name' v='Kaldor Gård - overnatting og utsikt i Hafjell'/>
@@ -994,6 +1156,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-83' version='0' action='modify' visible='true' lat='61.7719774' lon='9.5249291'>
     <tag k='name' v='Killi Pensjonat tilbyr overnatting i Otta sentrum'/>
@@ -1007,6 +1171,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271319.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271319.'/>
   </node>
   <node id='-84' version='0' action='modify' visible='true' lat='61.6665700' lon='9.6938040'>
     <tag k='name' v='Kirketeigen Rom og Camping'/>
@@ -1020,6 +1186,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663315384.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663315384.'/>
   </node>
   <node id='-85' version='0' action='modify' visible='true' lat='60.0468680' lon='10.3221490'>
     <tag k='name' v='Kleivstua hotell'/>
@@ -1031,6 +1199,8 @@
     <tag k='pilegrimsleden:id' v='10919'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/743409558.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/743409558.'/>
   </node>
   <node id='-86' version='0' action='modify' visible='true' lat='61.5058856' lon='10.1774168'>
     <tag k='name' v='Klokkargården Halstad'/>
@@ -1044,6 +1214,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-87' version='0' action='modify' visible='true' lat='62.3034011' lon='9.6057522'>
     <tag k='name' v='Kongsvold Fjeldstue'/>
@@ -1057,6 +1229,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/833725123.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/833725123.'/>
   </node>
   <node id='-88' version='0' action='modify' visible='true' lat='63.2298010' lon='10.1265059'>
     <tag k='name' v='Konstadtunet'/>
@@ -1070,6 +1244,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-89' version='0' action='modify' visible='true' lat='60.0532534' lon='10.3231487'>
     <tag k='name' v='Kronprinsens utsikt'/>
@@ -1082,6 +1258,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-90' version='0' action='modify' visible='true' lat='60.4214572' lon='11.2844075'>
     <tag k='name' v='Kveldsro ved Fløyta'/>
@@ -1095,6 +1273,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-91' version='0' action='modify' visible='true' lat='62.7268177' lon='9.9358174'>
     <tag k='name' v='Langklopp Fjellgård'/>
@@ -1106,6 +1286,8 @@
     <tag k='pilegrimsleden:id' v='10217'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-92' version='0' action='modify' visible='true' lat='59.8712779' lon='10.7156181'>
     <tag k='name' v='Langøyene camping'/>
@@ -1118,6 +1300,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1547711866.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1547711866.'/>
   </node>
   <node id='-93' version='0' action='modify' visible='true' lat='63.2760723' lon='10.1065542'>
     <tag k='name' v='Lavo og utedo ved Stormyra'/>
@@ -1130,6 +1314,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1247018465.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1247018465.'/>
   </node>
   <node id='-94' version='0' action='modify' visible='true' lat='63.3451867' lon='10.2539145'>
     <tag k='name' v='Lerfald gård'/>
@@ -1143,6 +1329,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-95' version='0' action='modify' visible='true' lat='63.4026594' lon='10.3098965'>
     <tag k='name' v='Lian Gård Pilegrimsherberge'/>
@@ -1156,6 +1344,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1036117245.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/1036117245.'/>
   </node>
   <node id='-96' version='0' action='modify' visible='true' lat='61.1146500' lon='10.4614950'>
     <tag k='name' v='Lillehammer Vandrerhjem Stasjonen'/>
@@ -1167,6 +1357,8 @@
     <tag k='pilegrimsleden:id' v='11036'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271336.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271336.'/>
   </node>
   <node id='-97' version='0' action='modify' visible='true' lat='62.0707621' lon='9.1316986'>
     <tag k='name' v='Ljoshaugen camping'/>
@@ -1178,6 +1370,8 @@
     <tag k='pilegrimsleden:id' v='223720'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/12115211607.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/12115211607.'/>
   </node>
   <node id='-98' version='0' action='modify' visible='true' lat='60.4550924' lon='10.6444572'>
     <tag k='name' v='Lygnasæter'/>
@@ -1189,6 +1383,8 @@
     <tag k='pilegrimsleden:id' v='185420'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-99' version='0' action='modify' visible='true' lat='60.4573308' lon='11.2933901'>
     <tag k='name' v='Lysjøhimet'/>
@@ -1200,6 +1396,8 @@
     <tag k='pilegrimsleden:id' v='10381'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/849994019.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/849994019.'/>
   </node>
   <node id='-100' version='0' action='modify' visible='true' lat='61.3669040' lon='10.2833430'>
     <tag k='name' v='Mageli Camping og Hytter'/>
@@ -1211,6 +1409,8 @@
     <tag k='pilegrimsleden:id' v='10968'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663315613.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663315613.'/>
   </node>
   <node id='-101' version='0' action='modify' visible='true' lat='60.6609649' lon='10.8388936'>
     <tag k='name' v='Majer Gård'/>
@@ -1224,6 +1424,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-102' version='0' action='modify' visible='true' lat='60.3875078' lon='10.5189660'>
     <tag k='name' v='Majors-Alm Gård'/>
@@ -1237,6 +1439,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-103' version='0' action='modify' visible='true' lat='62.8476947' lon='9.8826163'>
     <tag k='name' v='Meslo Herberge'/>
@@ -1250,6 +1454,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-104' version='0' action='modify' visible='true' lat='62.8342780' lon='10.0009920'>
     <tag k='name' v='Mjuklia - overnatting på Berkåk'/>
@@ -1261,6 +1467,8 @@
     <tag k='pilegrimsleden:id' v='11015'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-105' version='0' action='modify' visible='true' lat='60.4977427' lon='11.2544911'>
     <tag k='name' v='Mjøsli - glamping eller hytter'/>
@@ -1272,6 +1480,8 @@
     <tag k='pilegrimsleden:id' v='449497'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-106' version='0' action='modify' visible='true' lat='60.0089063' lon='11.1136062'>
     <tag k='name' v='Myhrer gård'/>
@@ -1283,6 +1493,8 @@
     <tag k='pilegrimsleden:id' v='97143'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-107' version='0' action='modify' visible='true' lat='63.0465912' lon='9.7109163'>
     <tag k='name' v='Ner-Grefstad gard'/>
@@ -1296,6 +1508,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/7804528516.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/7804528516.'/>
   </node>
   <node id='-108' version='0' action='modify' visible='true' lat='61.2441965' lon='10.4577559'>
     <tag k='name' v='Nermo Herberge - idyllisk herberge tilknyttet Nermo Hotell i Øyer'/>
@@ -1309,6 +1523,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271293.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271293.'/>
   </node>
   <node id='-109' version='0' action='modify' visible='true' lat='60.3798709' lon='10.5356257'>
     <tag k='name' v='Nordre Helgaker Gård'/>
@@ -1322,6 +1538,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-110' version='0' action='modify' visible='true' lat='61.4540748' lon='10.2139943'>
     <tag k='name' v='Nordrum Gård'/>
@@ -1335,6 +1553,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-111' version='0' action='modify' visible='true' lat='62.8719012' lon='9.8428057'>
     <tag k='name' v='Nørgar Voll'/>
@@ -1348,6 +1568,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/748647214.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/748647214.'/>
   </node>
   <node id='-112' version='0' action='modify' visible='true' lat='60.0953436' lon='10.1838112'>
     <tag k='name' v='Odin Camping'/>
@@ -1359,6 +1581,8 @@
     <tag k='pilegrimsleden:id' v='9635'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663316129.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663316129.'/>
   </node>
   <node id='-113' version='0' action='modify' visible='true' lat='63.0779090' lon='9.6955974'>
     <tag k='name' v='Olskastet'/>
@@ -1372,6 +1596,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/4997601821.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/4997601821.'/>
   </node>
   <node id='-114' version='0' action='modify' visible='true' lat='60.0945694' lon='10.1806443'>
     <tag k='name' v='Onsakervika Camping'/>
@@ -1383,6 +1609,8 @@
     <tag k='pilegrimsleden:id' v='10671'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663316149.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663316149.'/>
   </node>
   <node id='-115' version='0' action='modify' visible='true' lat='62.6570070' lon='9.8811290'>
     <tag k='name' v='Oppdalsporten'/>
@@ -1396,6 +1624,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-116' version='0' action='modify' visible='true' lat='63.1247456' lon='9.7031509'>
     <tag k='name' v='Orkla Gjestebolig'/>
@@ -1409,6 +1639,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6817588286.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6817588286.'/>
   </node>
   <node id='-117' version='0' action='modify' visible='true' lat='59.9410840' lon='10.7888320'>
     <tag k='name' v='Oslo Vandrerhjem Haraldsheim'/>
@@ -1422,6 +1654,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/59750899.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/59750899.'/>
   </node>
   <node id='-118' version='0' action='modify' visible='true' lat='60.4832465' lon='11.3158076'>
     <tag k='name' v='Pilegrimsbua ved Granerud'/>
@@ -1434,6 +1668,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-119' version='0' action='modify' visible='true' lat='61.5485334' lon='9.9665523'>
     <tag k='name' v='Pilegrimssenter Dale-Gudbrand'/>
@@ -1447,6 +1683,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/708003068.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/708003068.'/>
   </node>
   <node id='-120' version='0' action='modify' visible='true' lat='60.3673312' lon='10.5283785'>
     <tag k='name' v='Pilegrimssenter Granavollen'/>
@@ -1459,6 +1697,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/475158600.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/475158600.'/>
   </node>
   <node id='-121' version='0' action='modify' visible='true' lat='62.5309052' lon='9.6283373'>
     <tag k='name' v='Plassastoggo'/>
@@ -1470,6 +1710,8 @@
     <tag k='pilegrimsleden:id' v='10247'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6131154206.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6131154206.'/>
   </node>
   <node id='-122' version='0' action='modify' visible='true' lat='60.3411174' lon='10.4593363'>
     <tag k='name' v='Rastebu Falang Bru'/>
@@ -1483,6 +1725,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-123' version='0' action='modify' visible='true' lat='60.3674628' lon='10.5286081'>
     <tag k='name' v='Rastebu Granavollen'/>
@@ -1496,6 +1740,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/475158600.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/475158600.'/>
   </node>
   <node id='-124' version='0' action='modify' visible='true' lat='60.4725788' lon='10.5811386'>
     <tag k='name' v='Rastebu Høgkorset'/>
@@ -1509,6 +1755,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-125' version='0' action='modify' visible='true' lat='60.4526130' lon='10.5490723'>
     <tag k='name' v='Rastebu Kjølvegen'/>
@@ -1522,6 +1770,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-126' version='0' action='modify' visible='true' lat='60.3067670' lon='10.4197383'>
     <tag k='name' v='Rastebu Sognstoppen'/>
@@ -1535,6 +1785,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-127' version='0' action='modify' visible='true' lat='60.2377458' lon='11.1701499'>
     <tag k='name' v='Risebru Pilegrimsherberge'/>
@@ -1548,6 +1800,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/4802937315.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/4802937315.'/>
   </node>
   <node id='-128' version='0' action='modify' visible='true' lat='60.3289852' lon='10.4560345'>
     <tag k='name' v='Rudsødegården'/>
@@ -1561,6 +1815,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-129' version='0' action='modify' visible='true' lat='62.9226962' lon='9.7901916'>
     <tag k='name' v='Ry Gjestegård'/>
@@ -1572,6 +1828,8 @@
     <tag k='pilegrimsleden:id' v='9407'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/9040020597.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/9040020597.'/>
   </node>
   <node id='-130' version='0' action='modify' visible='true' lat='62.4209662' lon='9.7025165'>
     <tag k='name' v='Ryphusan'/>
@@ -1585,6 +1843,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/4363452794.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/4363452794.'/>
   </node>
   <node id='-131' version='0' action='modify' visible='true' lat='61.8593370' lon='9.4064000'>
     <tag k='name' v='Sandbakken Camping - STENGT 2023'/>
@@ -1596,6 +1856,8 @@
     <tag k='pilegrimsleden:id' v='10956'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-132' version='0' action='modify' visible='true' lat='62.9913974' lon='9.7654720'>
     <tag k='name' v='Segard Hoel'/>
@@ -1609,6 +1871,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-133' version='0' action='modify' visible='true' lat='63.2505676' lon='10.0524452'>
     <tag k='name' v='Skaun menighetshus'/>
@@ -1622,6 +1886,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-134' version='0' action='modify' visible='true' lat='63.0880382' lon='9.6976233'>
     <tag k='name' v='Skogheim Pilegrimsherberge'/>
@@ -1633,6 +1899,8 @@
     <tag k='pilegrimsleden:id' v='9812'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-135' version='0' action='modify' visible='true' lat='60.0883732' lon='10.2026188'>
     <tag k='name' v='Skomakerstua'/>
@@ -1644,6 +1912,8 @@
     <tag k='pilegrimsleden:id' v='97738'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-136' version='0' action='modify' visible='true' lat='60.4947611' lon='10.5966909'>
     <tag k='name' v='Skysstasjonen Høgkorsplassen'/>
@@ -1657,6 +1927,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-137' version='0' action='modify' visible='true' lat='60.8765748' lon='10.6860048'>
     <tag k='name' v='Slettum Gård'/>
@@ -1670,6 +1942,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-138' version='0' action='modify' visible='true' lat='60.2844034' lon='10.4101311'>
     <tag k='name' v='Sløvika Camping'/>
@@ -1683,6 +1957,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/984255607.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/984255607.'/>
   </node>
   <node id='-139' version='0' action='modify' visible='true' lat='62.5342769' lon='9.6247091'>
     <tag k='name' v='Smegarden Camping'/>
@@ -1694,6 +1970,8 @@
     <tag k='pilegrimsleden:id' v='10881'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/202589748.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/202589748.'/>
   </node>
   <node id='-140' version='0' action='modify' visible='true' lat='62.2205812' lon='9.5494045'>
     <tag k='name' v='Snøhetta Camping'/>
@@ -1705,6 +1983,8 @@
     <tag k='pilegrimsleden:id' v='362187'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/202737478.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/202737478.'/>
   </node>
   <node id='-141' version='0' action='modify' visible='true' lat='60.3694601' lon='11.2789336'>
     <tag k='name' v='Solvang overnatting'/>
@@ -1718,6 +1998,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-142' version='0' action='modify' visible='true' lat='60.4954632' lon='11.3188569'>
     <tag k='name' v='Spitalen gamle skolehus - vertskap Sannfredstun'/>
@@ -1730,6 +2012,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-143' version='0' action='modify' visible='true' lat='63.3448022' lon='10.2859765'>
     <tag k='name' v='Stabburet på Skjefstad'/>
@@ -1743,6 +2027,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-144' version='0' action='modify' visible='true' lat='60.1481275' lon='10.2923870'>
     <tag k='name' v='Stall Lisletta'/>
@@ -1754,6 +2040,8 @@
     <tag k='pilegrimsleden:id' v='97752'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-145' version='0' action='modify' visible='true' lat='60.9158586' lon='10.7003821'>
     <tag k='name' v='Steinvik Camping'/>
@@ -1765,6 +2053,8 @@
     <tag k='pilegrimsleden:id' v='10897'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/370747016.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/370747016.'/>
   </node>
   <node id='-146' version='0' action='modify' visible='true' lat='60.7161903' lon='10.8607610'>
     <tag k='name' v='Stensveen'/>
@@ -1778,6 +2068,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-147' version='0' action='modify' visible='true' lat='60.8862349' lon='10.6767511'>
     <tag k='name' v='Stokke Nedre'/>
@@ -1789,6 +2081,8 @@
     <tag k='pilegrimsleden:id' v='102680'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-148' version='0' action='modify' visible='true' lat='63.3256020' lon='10.2143190'>
     <tag k='name' v='Strandheimen Gjestehus'/>
@@ -1802,6 +2096,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/529802395.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/529802395.'/>
   </node>
   <node id='-149' version='0' action='modify' visible='true' lat='62.6586943' lon='9.8846054'>
     <tag k='name' v='Stugguhaugen, Fagerhaug'/>
@@ -1815,6 +2111,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-150' version='0' action='modify' visible='true' lat='61.6179930' lon='9.7463869'>
     <tag k='name' v='Støslia - Outdoor shelter'/>
@@ -1827,6 +2125,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/13982366801.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/13982366801.'/>
   </node>
   <node id='-151' version='0' action='modify' visible='true' lat='60.8889320' lon='10.6756640'>
     <tag k='name' v='Sveastranda Camping'/>
@@ -1838,6 +2138,8 @@
     <tag k='pilegrimsleden:id' v='10975'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-152' version='0' action='modify' visible='true' lat='60.7615625' lon='11.0810623'>
     <tag k='name' v='Sveen gård (Airbnb)'/>
@@ -1851,6 +2153,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/10911645404.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/10911645404.'/>
   </node>
   <node id='-153' version='0' action='modify' visible='true' lat='60.9018402' lon='10.7357290'>
     <tag k='name' v='Sveinhaug gård'/>
@@ -1864,6 +2168,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-154' version='0' action='modify' visible='true' lat='63.1817883' lon='9.7981125'>
     <tag k='name' v='Svorkmo skytterhus'/>
@@ -1877,6 +2183,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-155' version='0' action='modify' visible='true' lat='61.5759382' lon='9.8924360'>
     <tag k='name' v='Sygard Grytting - middelalderloft'/>
@@ -1890,6 +2198,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-156' version='0' action='modify' visible='true' lat='59.9479400' lon='10.5621640'>
     <tag k='name' v='Sæteren Gård'/>
@@ -1901,6 +2211,8 @@
     <tag k='pilegrimsleden:id' v='10921'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/530783833.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/530783833.'/>
   </node>
   <node id='-157' version='0' action='modify' visible='true' lat='60.1602497' lon='10.2993469'>
     <tag k='name' v='Sætrangsgata 37'/>
@@ -1914,6 +2226,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-158' version='0' action='modify' visible='true' lat='60.6139315' lon='11.2608196'>
     <tag k='name' v='Tangenodden Camping'/>
@@ -1925,6 +2239,8 @@
     <tag k='pilegrimsleden:id' v='10363'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/153674479.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/153674479.'/>
   </node>
   <node id='-159' version='0' action='modify' visible='true' lat='61.4933252' lon='10.1810386'>
     <tag k='name' v='Tankeplass - &quot;Hovudet, Klokkeporten og Falkesteinen&quot;'/>
@@ -1937,6 +2253,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/708001651.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/708001651.'/>
   </node>
   <node id='-160' version='0' action='modify' visible='true' lat='60.4622570' lon='10.5738482'>
     <tag k='name' v='Teltplass'/>
@@ -1949,6 +2267,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-161' version='0' action='modify' visible='true' lat='61.9994920' lon='9.2209140'>
     <tag k='name' v='Toftemo Turiststasjon'/>
@@ -1960,6 +2280,8 @@
     <tag k='pilegrimsleden:id' v='10949'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/294787632.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/294787632.'/>
   </node>
   <node id='-162' version='0' action='modify' visible='true' lat='59.9992729' lon='11.0822464'>
     <tag k='name' v='Ullereng gård pilegrimsherberge'/>
@@ -1971,6 +2293,8 @@
     <tag k='pilegrimsleden:id' v='9520'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/8018787776.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/8018787776.'/>
   </node>
   <node id='-163' version='0' action='modify' visible='true' lat='61.7079031' lon='9.5521787'>
     <tag k='name' v='Varphaugen Gård'/>
@@ -1982,6 +2306,8 @@
     <tag k='pilegrimsleden:id' v='10960'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663316796.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/3663316796.'/>
   </node>
   <node id='-164' version='0' action='modify' visible='true' lat='62.5965253' lon='9.6900994'>
     <tag k='name' v='Vekve hyttetun'/>
@@ -1993,6 +2319,8 @@
     <tag k='pilegrimsleden:id' v='11018'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-165' version='0' action='modify' visible='true' lat='61.9186080' lon='9.3582674'>
     <tag k='name' v='Vollheim camping og hytter'/>
@@ -2004,6 +2332,8 @@
     <tag k='pilegrimsleden:id' v='10954'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/312329189.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/312329189.'/>
   </node>
   <node id='-166' version='0' action='modify' visible='true' lat='59.9221295' lon='10.8198166'>
     <tag k='name' v='Østre Aker pilegrimsherberge'/>
@@ -2017,6 +2347,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-167' version='0' action='modify' visible='true' lat='61.1159737' lon='10.4709911'>
     <tag k='name' v='Øvergaard i Lillehammer tilbyr overnatting i sentrum for pilegrimer'/>
@@ -2028,6 +2360,8 @@
     <tag k='pilegrimsleden:id' v='9316'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='1200009'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271314.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: node/6808271314.'/>
   </node>
   <node id='-168' version='0' action='modify' visible='true' lat='61.8393520' lon='9.4086146'>
     <tag k='name' v='ØYGARDEN PILEGRIMSHERBERGE'/>
@@ -2041,6 +2375,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only.'/>
   </node>
   <node id='-169' version='0' action='modify' visible='true' lat='63.3270960' lon='10.2133370'>
     <tag k='name' v='Øysand Camping'/>
@@ -2052,6 +2388,8 @@
     <tag k='pilegrimsleden:id' v='11034'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='1370273'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/529802395.'/>
+    <tag k='note' v='Proposed: add as member of relation 1370273 (Gudbrandsdalsleden). Do not modify existing members of relation 1370273 (Gudbrandsdalsleden). Research aid only. Existing OSM object: way/529802395.'/>
   </node>
   <relation id='-170' version='0' action='modify' visible='true'>
     <member type='node' ref='-1' role='shelter'/>

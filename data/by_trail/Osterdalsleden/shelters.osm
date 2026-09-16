@@ -10,6 +10,8 @@
     <tag k='pilegrimsleden:id' v='559808'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-2' version='0' action='modify' visible='true' lat='62.3843455' lon='10.8380014'>
     <tag k='name' v='Bjerkelihytten på Aasgårvollen'/>
@@ -21,6 +23,8 @@
     <tag k='pilegrimsleden:id' v='557454'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-3' version='0' action='modify' visible='true' lat='61.4391676' lon='12.1481109'>
     <tag k='name' v='Camp Fredbo Trysil'/>
@@ -32,6 +36,8 @@
     <tag k='pilegrimsleden:id' v='10497'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663317202.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663317202.'/>
   </node>
   <node id='-4' version='0' action='modify' visible='true' lat='61.0592235' lon='12.6021817'>
     <tag k='name' v='Dagfinnstua på Oddheim'/>
@@ -43,6 +49,8 @@
     <tag k='pilegrimsleden:id' v='8953'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-5' version='0' action='modify' visible='true' lat='61.1419977' lon='12.4857420'>
     <tag k='name' v='Elgstua | Gjerfloen Fluefiske'/>
@@ -54,6 +62,8 @@
     <tag k='pilegrimsleden:id' v='10596'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-6' version='0' action='modify' visible='true' lat='61.4805181' lon='11.9358556'>
     <tag k='name' v='Eltdalen Grendehus'/>
@@ -65,6 +75,8 @@
     <tag k='pilegrimsleden:id' v='10495'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-7' version='0' action='modify' visible='true' lat='62.2729759' lon='10.7722322'>
     <tag k='name' v='Fagertun'/>
@@ -76,6 +88,8 @@
     <tag k='pilegrimsleden:id' v='559078'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-8' version='0' action='modify' visible='true' lat='61.6531582' lon='11.1670376'>
     <tag k='name' v='Fiskvik Søndre - Jaktslottet.'/>
@@ -87,6 +101,8 @@
     <tag k='pilegrimsleden:id' v='419661'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-9' version='0' action='modify' visible='true' lat='61.6028500' lon='11.7454300'>
     <tag k='name' v='Fjellavvo ved Osdalssjøhøgda naturreservat'/>
@@ -98,6 +114,8 @@
     <tag k='pilegrimsleden:id' v='558983'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-10' version='0' action='modify' visible='true' lat='61.3294466' lon='12.2466511'>
     <tag k='name' v='Flenåsstua, Ol-Jons garden'/>
@@ -109,6 +127,8 @@
     <tag k='pilegrimsleden:id' v='558876'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-11' version='0' action='modify' visible='true' lat='61.1161923' lon='12.5383102'>
     <tag k='name' v='Fluesonen | Gjerfloen fluefiske'/>
@@ -120,6 +140,8 @@
     <tag k='pilegrimsleden:id' v='10508'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-12' version='0' action='modify' visible='true' lat='63.2035775' lon='10.4363251'>
     <tag k='name' v='Heimvollen'/>
@@ -131,6 +153,8 @@
     <tag k='pilegrimsleden:id' v='10007'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-13' version='0' action='modify' visible='true' lat='62.6899712' lon='10.7955641'>
     <tag k='name' v='Hognabua'/>
@@ -142,6 +166,8 @@
     <tag k='pilegrimsleden:id' v='9688'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/9833704253.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/9833704253.'/>
   </node>
   <node id='-14' version='0' action='modify' visible='true' lat='62.4805069' lon='11.1250201'>
     <tag k='name' v='Hytte på Osåsan'/>
@@ -153,6 +179,8 @@
     <tag k='pilegrimsleden:id' v='411531'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-15' version='0' action='modify' visible='true' lat='62.9639538' lon='10.6884527'>
     <tag k='name' v='Hytte ved Nordstu Digre'/>
@@ -164,6 +192,8 @@
     <tag k='pilegrimsleden:id' v='525448'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-16' version='0' action='modify' visible='true' lat='62.7963475' lon='10.6247878'>
     <tag k='name' v='Hytte | Storbekkøya museumssæter'/>
@@ -175,6 +205,8 @@
     <tag k='pilegrimsleden:id' v='10513'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-17' version='0' action='modify' visible='true' lat='62.9469167' lon='10.6347222'>
     <tag k='name' v='Kari Maries Sommerresidens'/>
@@ -186,6 +218,8 @@
     <tag k='pilegrimsleden:id' v='9338'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-18' version='0' action='modify' visible='true' lat='61.6545203' lon='11.1673021'>
     <tag k='name' v='Kneppstua - stengt'/>
@@ -197,6 +231,8 @@
     <tag k='pilegrimsleden:id' v='9343'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-19' version='0' action='modify' visible='true' lat='61.4701603' lon='11.2272756'>
     <tag k='name' v='Koie ved Netsjøen'/>
@@ -208,6 +244,8 @@
     <tag k='pilegrimsleden:id' v='9759'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-20' version='0' action='modify' visible='true' lat='61.4623386' lon='11.9730055'>
     <tag k='name' v='Koie ved Nysledammen'/>
@@ -219,6 +257,8 @@
     <tag k='pilegrimsleden:id' v='9694'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-21' version='0' action='modify' visible='true' lat='61.5560217' lon='11.1805445'>
     <tag k='name' v='Lia gård pilegrimshus'/>
@@ -232,6 +272,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/12222879551.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/12222879551.'/>
   </node>
   <node id='-22' version='0' action='modify' visible='true' lat='61.1711600' lon='11.4614230'>
     <tag k='name' v='Ljørkoia ved Løpsjøen'/>
@@ -243,6 +285,8 @@
     <tag k='pilegrimsleden:id' v='9350'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/1263073320.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/1263073320.'/>
   </node>
   <node id='-23' version='0' action='modify' visible='true' lat='61.1483690' lon='12.4675857'>
     <tag k='name' v='Mandfloen husmannsplass'/>
@@ -254,6 +298,8 @@
     <tag k='pilegrimsleden:id' v='9698'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-24' version='0' action='modify' visible='true' lat='61.8836523' lon='11.0902430'>
     <tag k='name' v='Negarn'/>
@@ -265,6 +311,8 @@
     <tag k='pilegrimsleden:id' v='562607'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-25' version='0' action='modify' visible='true' lat='61.6268001' lon='11.6570759'>
     <tag k='name' v='Osdalsjøhytta'/>
@@ -276,6 +324,8 @@
     <tag k='pilegrimsleden:id' v='10607'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3283570647.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3283570647.'/>
   </node>
   <node id='-26' version='0' action='modify' visible='true' lat='61.3374033' lon='11.3913948'>
     <tag k='name' v='Perskoia'/>
@@ -287,6 +337,8 @@
     <tag k='pilegrimsleden:id' v='9411'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-27' version='0' action='modify' visible='true' lat='62.8903674' lon='10.5875393'>
     <tag k='name' v='Pilegrimsbu Vardan'/>
@@ -298,6 +350,8 @@
     <tag k='pilegrimsleden:id' v='10396'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-28' version='0' action='modify' visible='true' lat='63.0502213' lon='10.6784213'>
     <tag k='name' v='Pilegrimsbu ved Okstjønna'/>
@@ -309,6 +363,8 @@
     <tag k='pilegrimsleden:id' v='10398'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-29' version='0' action='modify' visible='true' lat='61.6725951' lon='11.3719511'>
     <tag k='name' v='Pilegrimsbua Rensjøen'/>
@@ -320,6 +376,8 @@
     <tag k='pilegrimsleden:id' v='10604'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/438476292.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/438476292.'/>
   </node>
   <node id='-30' version='0' action='modify' visible='true' lat='62.1084714' lon='10.9356135'>
     <tag k='name' v='Pilegrimslavvo ved Søndre Kvanntjønna'/>
@@ -331,6 +389,8 @@
     <tag k='pilegrimsleden:id' v='8966'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-31' version='0' action='modify' visible='true' lat='61.1375625' lon='11.3801110'>
     <tag k='name' v='Rena Camping'/>
@@ -342,6 +402,8 @@
     <tag k='pilegrimsleden:id' v='559656'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663316187.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663316187.'/>
   </node>
   <node id='-32' version='0' action='modify' visible='true' lat='61.6921815' lon='11.2089691'>
     <tag k='name' v='Rendalen Camping'/>
@@ -353,6 +415,8 @@
     <tag k='pilegrimsleden:id' v='566880'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663316799.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663316799.'/>
   </node>
   <node id='-33' version='0' action='modify' visible='true' lat='61.9676364' lon='11.1071762'>
     <tag k='name' v='Romenstad Gård'/>
@@ -364,6 +428,8 @@
     <tag k='pilegrimsleden:id' v='10026'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-34' version='0' action='modify' visible='true' lat='63.1104949' lon='10.5960162'>
     <tag k='name' v='Samatun'/>
@@ -375,6 +441,8 @@
     <tag k='pilegrimsleden:id' v='8909'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-35' version='0' action='modify' visible='true' lat='63.0719798' lon='10.7109286'>
     <tag k='name' v='Samsjøbua'/>
@@ -386,6 +454,8 @@
     <tag k='pilegrimsleden:id' v='9684'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/9833704415.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/9833704415.'/>
   </node>
   <node id='-36' version='0' action='modify' visible='true' lat='62.4677224' lon='11.0710488'>
     <tag k='name' v='Simensvollen - trivelig seterstue'/>
@@ -397,6 +467,8 @@
     <tag k='pilegrimsleden:id' v='458027'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-37' version='0' action='modify' visible='true' lat='61.1066449' lon='12.5616132'>
     <tag k='name' v='Skinningskoia'/>
@@ -408,6 +480,8 @@
     <tag k='pilegrimsleden:id' v='8955'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/641052322.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/641052322.'/>
   </node>
   <node id='-38' version='0' action='modify' visible='true' lat='62.0186659' lon='10.9633912'>
     <tag k='name' v='Skårsåsbua'/>
@@ -419,6 +493,8 @@
     <tag k='pilegrimsleden:id' v='8968'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-39' version='0' action='modify' visible='true' lat='62.1770516' lon='10.8226490'>
     <tag k='name' v='Småvangan skihytte'/>
@@ -430,6 +506,8 @@
     <tag k='pilegrimsleden:id' v='9251'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-40' version='0' action='modify' visible='true' lat='62.6267163' lon='10.8482695'>
     <tag k='name' v='Spellmovollen'/>
@@ -441,6 +519,8 @@
     <tag k='pilegrimsleden:id' v='10515'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3343684186.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3343684186.'/>
   </node>
   <node id='-41' version='0' action='modify' visible='true' lat='61.7581462' lon='11.1794455'>
     <tag k='name' v='Stengt- Pilegrimshytta i Otnes'/>
@@ -452,6 +532,8 @@
     <tag k='pilegrimsleden:id' v='9212'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-42' version='0' action='modify' visible='true' lat='61.6921326' lon='11.2088763'>
     <tag k='name' v='Storsjøsenteret'/>
@@ -463,6 +545,8 @@
     <tag k='pilegrimsleden:id' v='10158'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663316799.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663316799.'/>
   </node>
   <node id='-43' version='0' action='modify' visible='true' lat='62.7352447' lon='10.7675833'>
     <tag k='name' v='Svarttjønnbua'/>
@@ -474,6 +558,8 @@
     <tag k='pilegrimsleden:id' v='9493'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-44' version='0' action='modify' visible='true' lat='61.2751008' lon='11.4490914'>
     <tag k='name' v='Tollefkoia'/>
@@ -485,6 +571,8 @@
     <tag k='pilegrimsleden:id' v='9413'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-45' version='0' action='modify' visible='true' lat='62.4178455' lon='10.8583664'>
     <tag k='name' v='Tollefsa Gjestegård'/>
@@ -496,6 +584,8 @@
     <tag k='pilegrimsleden:id' v='9220'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-46' version='0' action='modify' visible='true' lat='62.3423585' lon='10.8130088'>
     <tag k='name' v='Trollhaugen'/>
@@ -507,6 +597,8 @@
     <tag k='pilegrimsleden:id' v='353184'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-47' version='0' action='modify' visible='true' lat='61.4252775' lon='11.3018990'>
     <tag k='name' v='Trollhytta'/>
@@ -518,6 +610,8 @@
     <tag k='pilegrimsleden:id' v='9761'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <node id='-48' version='0' action='modify' visible='true' lat='61.2925837' lon='12.2834712'>
     <tag k='name' v='Trysil Hyttegrend &amp; Camping'/>
@@ -529,6 +623,8 @@
     <tag k='pilegrimsleden:id' v='9696'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663317203.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: node/3663317203.'/>
   </node>
   <node id='-49' version='0' action='modify' visible='true' lat='61.3041381' lon='12.2743678'>
     <tag k='name' v='Trysilelva Camping'/>
@@ -540,6 +636,8 @@
     <tag k='pilegrimsleden:id' v='10502'/>
     <tag k='tourism' v='hostel'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/614558427.'/>
+    <tag k='note' v='Proposed: add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only. Existing OSM object: way/614558427.'/>
   </node>
   <node id='-50' version='0' action='modify' visible='true' lat='63.2603695' lon='10.3340098'>
     <tag k='name' v='Øyvindtjønna sælehus'/>
@@ -552,6 +650,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='5129262'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5129262 (Østerdalsleden). Do not modify existing members of relation 5129262 (Østerdalsleden). Research aid only.'/>
   </node>
   <relation id='-51' version='0' action='modify' visible='true'>
     <member type='node' ref='-1' role='shelter'/>

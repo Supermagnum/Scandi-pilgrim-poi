@@ -1,10 +1,10 @@
-trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff
-Romboleden,Balstad pensjonat,Pilegrimsherberge | Vandrerhjem,63.2639573,10.9732818,gap,,,,
-Romboleden,Bekken Pilegrimsherberge,Pilegrimsherberge,63.1916389,11.1540869,gap,,,,
-Romboleden,Jensgarden,Vandrerhjem,63.0617141,11.4537382,gap,,,,
-Romboleden,Neatun,Vandrerhjem,63.0314758,11.6767263,gap,,,,
-Romboleden,Trøen gård,Pilegrimsherberge,63.0551441,11.5631962,gap,,,,
-Romboleden,Erikbu,Gapahuk,63.3817267,10.7357765,matched,node/8260089908,https://www.openstreetmap.org/node/8260089908,3.8,
-Romboleden,Moheim camping,Rom og hytter,62.9148442,11.8905660,matched,node/3663315954,https://www.openstreetmap.org/node/3663315954,61.2,name:Moheim camping->Moheim Camping; osm:tents=yes; tourism:chalet->camp_site
-Romboleden,Rumi Hostel - Trondheim Vandrerhjem,Pilegrimsherberge,63.4337714,10.4245614,matched,way/1039106465,https://www.openstreetmap.org/way/1039106465,11.0,+hostel:type=pilgrim; name:Rumi Hostel - Trondheim Vandrerhjem->RUMI Hostel
-Romboleden,Storsand Gård Camping,Teltplass,63.4322046,10.7085925,possible,way/175424875,https://www.openstreetmap.org/way/175424875,233.4,compatible_tag_beyond_100m
+trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff,proposal_note
+Romboleden,Balstad pensjonat,Pilegrimsherberge | Vandrerhjem,63.2639573,10.9732818,gap,,,,,Proposed: create OSM object and add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only.
+Romboleden,Bekken Pilegrimsherberge,Pilegrimsherberge,63.1916389,11.1540869,gap,,,,,Proposed: create OSM object and add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only.
+Romboleden,Jensgarden,Vandrerhjem,63.0617141,11.4537382,gap,,,,,Proposed: create OSM object and add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only.
+Romboleden,Neatun,Vandrerhjem,63.0314758,11.6767263,gap,,,,,Proposed: create OSM object and add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only.
+Romboleden,Trøen gård,Pilegrimsherberge,63.0551441,11.5631962,gap,,,,,Proposed: create OSM object and add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only.
+Romboleden,Erikbu,Gapahuk,63.3817267,10.7357765,matched,node/8260089908,https://www.openstreetmap.org/node/8260089908,3.8,,Proposed: add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only. Existing OSM object: node/8260089908.
+Romboleden,Moheim camping,Rom og hytter,62.9148442,11.8905660,matched,node/3663315954,https://www.openstreetmap.org/node/3663315954,61.2,name:Moheim camping->Moheim Camping; osm:tents=yes; tourism:chalet->camp_site,Proposed: add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only. Existing OSM object: node/3663315954.
+Romboleden,Rumi Hostel - Trondheim Vandrerhjem,Pilegrimsherberge,63.4337714,10.4245614,matched,way/1039106465,https://www.openstreetmap.org/way/1039106465,11.0,+hostel:type=pilgrim; name:Rumi Hostel - Trondheim Vandrerhjem->RUMI Hostel,Proposed: add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only. Existing OSM object: way/1039106465.
+Romboleden,Storsand Gård Camping,Teltplass,63.4322046,10.7085925,possible,way/175424875,https://www.openstreetmap.org/way/175424875,233.4,compatible_tag_beyond_100m,Proposed: add as member of relation 1151161 (Romboleden). Do not modify existing members of relation 1151161 (Romboleden). Research aid only. Existing OSM object: way/175424875.

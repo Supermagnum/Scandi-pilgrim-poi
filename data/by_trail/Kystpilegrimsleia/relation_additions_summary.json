@@ -1,0 +1,26 @@
+{
+  "folder": "Kystpilegrimsleia",
+  "trail": "Kystpilegrimsleia",
+  "osm_relation": 10508888,
+  "osm_url": "https://www.openstreetmap.org/relation/10508888",
+  "relation_tags": {
+    "name": "Kystpilegrimsleia",
+    "network": "nwn",
+    "pilgrimage": "yes",
+    "religion": "christian",
+    "route": "hiking",
+    "type": "route",
+    "website": "https://pilegrimsleden.no/no/map/kystpilegrimsleia"
+  },
+  "visited_relations": [
+    10508888
+  ],
+  "existing_osm_relation_members": 73,
+  "osm_along_route": 87,
+  "osm_already_related": 0,
+  "osm_missing_for_relation": 87,
+  "cms_shelters": 49,
+  "cms_gaps": 29,
+  "shelters_with_proposal_note": 49,
+  "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+}

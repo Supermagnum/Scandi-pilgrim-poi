@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """Build data/by_trail/Romeriksleden from OSM relation 1200009.
 
-Romeriksleden is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer).
-It is mapped as https://www.openstreetmap.org/relation/1200009 but is not a
-separate trail entry on pilegrimsleden.no. This script:
-
-- downloads the OSM route geometry;
-- writes hiking_path.gpx / hiking_path.osm for JOSM;
-- selects CMS overnight POIs on Gudbrandsdalsleden within BUFFER_M of the route
-  (including Overnatting-only lodgings such as Olasvehaugen that the national
-  shelter filter skips);
-- tags them with trail membership Gudbrandsdalsleden + Romeriksleden;
-- writes shelters.osm / romeriksleden.osm with a local JOSM relation that
-  members the path and the POI nodes (research aid, not for upload).
+Model (read-only w.r.t. OpenStreetMap):
+1. Load OSM route relation 1200009 as source of truth for the trail geometry
+   and for which objects are *already* members of that relation.
+2. Discover lodging/shelter OSM objects near the route (Geofabrik PBF).
+3. Partition them into:
+   - already related: already members of relation 1200009 → leave alone
+     (never modify existing OSM relations);
+   - missing: near the route but not members → propose as local research
+     additions only (negative-id relation + real OSM ids for visualization).
+4. CMS overnight POIs (Gudbrandsdalsleden trailpoints within BUFFER_M) are
+   matched for comparison; unmapped CMS gaps become proposed new nodes.
 
 Does not upload or modify OpenStreetMap.
 """
@@ -54,6 +53,28 @@ SOURCE_TRAIL = "Gudbrandsdalsleden"
 TRAIL_NAME = "Romeriksleden"
 TRAIL_MEMBERSHIP = [SOURCE_TRAIL, TRAIL_NAME]
 
+
+def proposal_note_for_existing_osm(osm_id: str = "") -> str:
+    """Per-POI proposal text for an OSM object missing from relation RELATION_ID."""
+    target = f"relation {RELATION_ID} ({TRAIL_NAME})"
+    base = (
+        f"Proposed: add as member of {target}. "
+        f"Do not modify existing members of {target}. Research aid only."
+    )
+    if osm_id:
+        return f"{base} Existing OSM object: {osm_id}."
+    return base
+
+
+def proposal_note_for_cms_gap() -> str:
+    """Per-POI proposal text for a CMS overnight POI with no OSM match."""
+    target = f"relation {RELATION_ID} ({TRAIL_NAME})"
+    return (
+        f"Proposed: create OSM object and add as member of {target}. "
+        f"Do not modify existing members of {target}. Research aid only."
+    )
+
+
 # Overnight / shelter categories on the CMS map (trailpoints `cs` list).
 OVERNIGHT_CATEGORIES = CORE_SHELTER_CATEGORIES | {
     "Overnatting",
@@ -67,8 +88,16 @@ def log(message: str) -> None:
     print(message, flush=True)
 
 
-def fetch_relation_geometry() -> tuple[dict[str, Any], list[list[tuple[float, float]]]]:
-    """Download relation+members from the OSM API and return tags + ordered way polylines."""
+def fetch_relation_geometry() -> tuple[
+    dict[str, Any],
+    list[list[tuple[float, float]]],
+    set[tuple[str, int]],
+]:
+    """Download relation+members; return tags, ordered way polylines, member set.
+
+    Member set is every (type, id) currently on OSM relation RELATION_ID.
+    Those objects are treated as already related — never modified.
+    """
     log(f"Downloading {OSM_FULL_URL}")
     req = urllib.request.Request(OSM_FULL_URL, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=180) as resp:
@@ -90,6 +119,14 @@ def fetch_relation_geometry() -> tuple[dict[str, Any], list[list[tuple[float, fl
     if rel_el is None:
         raise RuntimeError("relation element missing from OSM API response")
     tags = {tag.attrib["k"]: tag.attrib["v"] for tag in rel_el.findall("tag")}
+    members: set[tuple[str, int]] = set()
+    for member in rel_el.findall("member"):
+        mtype = member.attrib.get("type") or ""
+        try:
+            mid = int(member.attrib["ref"])
+        except (KeyError, ValueError):
+            continue
+        members.add((mtype, mid))
     segments: list[list[tuple[float, float]]] = []
     skipped_roles: dict[str, int] = {}
     for member in rel_el.findall("member"):
@@ -105,10 +142,16 @@ def fetch_relation_geometry() -> tuple[dict[str, Any], list[list[tuple[float, fl
                 pts = list(reversed(pts))
             segments.append(pts)
     if skipped_roles:
-        log(f"Skipped non-main member roles: {skipped_roles}")
+        log(f"Skipped non-main member roles for geometry stitch: {skipped_roles}")
     if not segments:
         raise RuntimeError("no member ways with resolvable geometry")
-    return {"id": RELATION_ID, "tags": tags}, segments
+    log(
+        f"OSM relation {RELATION_ID} existing members: {len(members)} "
+        f"(nodes={sum(1 for t,_ in members if t=='node')}, "
+        f"ways={sum(1 for t,_ in members if t=='way')}, "
+        f"relations={sum(1 for t,_ in members if t=='relation')})"
+    )
+    return {"id": RELATION_ID, "tags": tags}, segments, members
 
 
 def stitch_points(segments: list[list[tuple[float, float]]]) -> list[tuple[float, float]]:
@@ -423,6 +466,10 @@ def write_shelters_osm_with_trails(path: Path, records: list[dict[str, Any]]) ->
             ),
             ("pilegrimsleden:id", str(record.get("id") or "")),
         ]
+        proposal = (record.get("proposal_note") or "").strip()
+        if proposal:
+            tags.append(("note:proposed", proposal))
+            tags.append(("note", proposal))
         tags.extend(mapping)
         if uncertain:
             tags.append(
@@ -436,6 +483,29 @@ def write_shelters_osm_with_trails(path: Path, records: list[dict[str, Any]]) ->
                 continue
             lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
         lines.append("  </node>")
+    if records:
+        node_ids = list(range(-1, -len(records) - 1, -1))
+        rel_id = min(node_ids) - 1
+        lines.append(
+            f"  <relation id='{rel_id}' version='0' action='modify' visible='true'>"
+        )
+        for node_id in node_ids:
+            lines.append(f"    <member type='node' ref='{node_id}' role='shelter'/>")
+        for key, value in [
+            ("type", "site"),
+            ("name", f"{TRAIL_NAME} overnight POIs"),
+            ("network", "Pilegrimsleden"),
+            ("note:trail", TRAIL_NAME),
+            ("note:osm_route_relation", str(RELATION_ID)),
+            ("source", f"openstreetmap.org/relation/{RELATION_ID}"),
+            (
+                "note",
+                "Local JOSM research relation grouping overnight POIs for this trail; "
+                "not an OSM import. Per-POI proposals are in note:proposed on each node.",
+            ),
+        ]:
+            lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
+        lines.append("  </relation>")
     lines.append("</osm>")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -513,6 +583,10 @@ def write_bundle_osm(
                 or primary,
             ),
         ]
+        proposal = (record.get("proposal_note") or "").strip()
+        if proposal:
+            tags.append(("note:proposed", proposal))
+            tags.append(("note", proposal))
         tags.extend(mapping)
         if uncertain:
             tags.append(
@@ -550,6 +624,297 @@ def write_bundle_osm(
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def rematch_against_norway_pbf(
+    shelters: list[dict[str, str]],
+    route_index: list[tuple[float, float]],
+    data: Path,
+    *,
+    reuse_cache: bool = False,
+) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
+    """Rematch corridor CMS rows against Norway PBF (includes tourism=hotel)."""
+    from compare_osm_shelters import (
+        POSSIBLE_RADIUS_M,
+        buffer_bbox,
+        classify_poi,
+        extract_from_pbf,
+        haversine_m as cmp_haversine,
+        shelter_categories,
+    )
+
+    trail_dir = data / "by_trail" / TRAIL_NAME
+    cache_along = trail_dir / "osm_along_route.csv"
+    cache_shelters = trail_dir / "shelters.csv"
+    if reuse_cache and cache_along.exists() and cache_shelters.exists():
+        log(f"Reusing cached PBF results from {cache_along.name}")
+        along = list(csv.DictReader(cache_along.open(encoding="utf-8")))
+        # Drop stale status/note columns; repartition later.
+        for row in along:
+            row.pop("relation_status", None)
+            row.pop("proposal_note", None)
+        prev = {
+            (r.get("pilegrimsleden_id") or "", r.get("poi_name") or ""): r
+            for r in csv.DictReader(cache_shelters.open(encoding="utf-8"))
+        }
+        updated: list[dict[str, str]] = []
+        for row in shelters:
+            key = (row.get("pilegrimsleden_id") or "", row.get("poi_name") or "")
+            old = prev.get(key) or prev.get(("", row.get("poi_name") or ""))
+            copy = dict(row)
+            if old:
+                for field in (
+                    "match_status",
+                    "matched_osm_id",
+                    "matched_osm_url",
+                    "distance_m",
+                    "tag_diff",
+                ):
+                    if old.get(field) not in (None, ""):
+                        copy[field] = old[field]
+            updated.append(copy)
+        return updated, along
+
+    pbf = data / "geofabrik" / "norway-latest.osm.pbf"
+    if not pbf.exists():
+        log(f"Norway PBF missing at {pbf}; skipping rematch")
+        return shelters, []
+
+    lats = [float(r["lat"]) for r in shelters] + [p[0] for p in route_index[::50]]
+    lons = [float(r["lon"]) for r in shelters] + [p[1] for p in route_index[::50]]
+    bbox = buffer_bbox(min(lats), min(lons), max(lats), max(lons), POSSIBLE_RADIUS_M + 50.0)
+    log(f"Scanning {pbf.name} for lodging/shelter tags in Romeriksleden bbox")
+    elements = extract_from_pbf(pbf, bbox)
+    log(f"  kept {len(elements)} OSM elements in bbox")
+
+    # OSM inventory within route buffer (discovery independent of CMS).
+    along: list[dict[str, Any]] = []
+    for el in elements:
+        dist = min_dist_m(el["lat"], el["lon"], route_index)
+        if dist > BUFFER_M:
+            continue
+        tags = el.get("tags") or {}
+        along.append(
+            {
+                "osm_id": f"{el['type']}/{el['id']}",
+                "osm_url": f"https://www.openstreetmap.org/{el['type']}/{el['id']}",
+                "name": tags.get("name") or "",
+                "lat": f"{el['lat']:.7f}",
+                "lon": f"{el['lon']:.7f}",
+                "tourism": tags.get("tourism") or "",
+                "amenity": tags.get("amenity") or "",
+                "building": tags.get("building") or "",
+                "route_distance_m": f"{dist:.1f}",
+                "note:osm_route_relation": str(RELATION_ID),
+            }
+        )
+    along.sort(key=lambda r: (r["route_distance_m"], r["name"].lower()))
+
+    updated: list[dict[str, str]] = []
+    for row in shelters:
+        cats = [c.strip() for c in (row.get("category") or "").split("|") if c.strip()]
+        poi = {
+            "title": row["poi_name"],
+            "lat": float(row["lat"]),
+            "lon": float(row["lon"]),
+            "categories": cats,
+            "shelter_categories": shelter_categories(cats) or cats,
+            "our_tags": {},
+        }
+        nearby: list[tuple[float, dict[str, Any]]] = []
+        for el in elements:
+            dist = cmp_haversine(poi["lat"], poi["lon"], el["lat"], el["lon"])
+            if dist <= POSSIBLE_RADIUS_M:
+                nearby.append((dist, el))
+        result = classify_poi(poi, nearby)
+        copy = dict(row)
+        copy["match_status"] = result["match_status"]
+        copy["matched_osm_id"] = result["matched_osm_id"]
+        copy["matched_osm_url"] = result["matched_osm_url"]
+        copy["distance_m"] = (
+            "" if result["distance_m"] == "" else str(result["distance_m"])
+        )
+        copy["tag_diff"] = result["tag_diff"]
+        updated.append(copy)
+    return updated, along
+
+
+def write_along_route_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    fields = [
+        "osm_id",
+        "osm_url",
+        "name",
+        "lat",
+        "lon",
+        "tourism",
+        "amenity",
+        "building",
+        "route_distance_m",
+        "note:osm_route_relation",
+        "relation_status",
+        "proposal_note",
+    ]
+    write_csv(path, [{k: r.get(k, "") for k in fields} for r in rows], fields)
+
+
+def partition_by_relation_membership(
+    along_route: list[dict[str, Any]],
+    existing_members: set[tuple[str, int]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Split nearby OSM objects into already-on-relation vs missing candidates.
+
+    Already-related objects are never modified. Missing ones are proposed only
+    in local research output.
+    """
+    already: list[dict[str, Any]] = []
+    missing: list[dict[str, Any]] = []
+    for row in along_route:
+        osm_id = row.get("osm_id") or ""
+        try:
+            kind, oid_s = osm_id.split("/", 1)
+            key = (kind, int(oid_s))
+        except (ValueError, AttributeError):
+            missing.append({**row, "relation_status": "missing"})
+            continue
+        if key in existing_members:
+            already.append({**row, "relation_status": "already_member"})
+        else:
+            missing.append({**row, "relation_status": "missing"})
+    return already, missing
+
+
+def write_missing_additions_osm(
+    path: Path,
+    missing: list[dict[str, Any]],
+    cms_gap_records: list[dict[str, Any]],
+) -> None:
+    """Local research file: propose adding missing OSM objects + CMS gaps.
+
+    Uses a new negative-id relation that only lists proposed members.
+    Does not copy or alter OSM relation RELATION_ID.
+    """
+    lines = [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>",
+    ]
+    member_refs: list[tuple[str, int, str]] = []
+    next_neg = -1
+
+    for row in missing:
+        osm_id = row.get("osm_id") or ""
+        try:
+            kind, oid_s = osm_id.split("/", 1)
+            oid = int(oid_s)
+        except (ValueError, AttributeError):
+            continue
+        lat = float(row["lat"])
+        lon = float(row["lon"])
+        name = row.get("name") or ""
+        note = proposal_note_for_existing_osm(osm_id)
+        if kind == "node":
+            lines.append(
+                f"  <node id='{oid}' version='1' visible='true' "
+                f"lat='{lat:.7f}' lon='{lon:.7f}'>"
+            )
+            if name:
+                lines.append(f"    <tag k='name' v='{xml_escape(name)}'/>")
+            for key in ("tourism", "amenity", "building"):
+                val = row.get(key) or ""
+                if val:
+                    lines.append(
+                        f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>"
+                    )
+            lines.append(f"    <tag k='note:proposed' v='{xml_escape(note)}'/>")
+            lines.append(f"    <tag k='note' v='{xml_escape(note)}'/>")
+            lines.append(
+                f"    <tag k='note:osm_route_relation' v='{RELATION_ID}'/>"
+            )
+            lines.append("  </node>")
+            member_refs.append(("node", oid, "shelter"))
+        else:
+            lines.append(
+                f"  <node id='{next_neg}' version='0' action='modify' visible='true' "
+                f"lat='{lat:.7f}' lon='{lon:.7f}'>"
+            )
+            if name:
+                lines.append(f"    <tag k='name' v='{xml_escape(name)}'/>")
+            proxy_note = f"Centroid proxy for {osm_id}. {note}"
+            lines.append(f"    <tag k='note:proposed' v='{xml_escape(proxy_note)}'/>")
+            lines.append(f"    <tag k='note' v='{xml_escape(proxy_note)}'/>")
+            lines.append(f"    <tag k='note:osm_object' v='{xml_escape(osm_id)}'/>")
+            lines.append(
+                f"    <tag k='note:osm_route_relation' v='{RELATION_ID}'/>"
+            )
+            for key in ("tourism", "amenity", "building"):
+                val = row.get(key) or ""
+                if val:
+                    lines.append(
+                        f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>"
+                    )
+            lines.append("  </node>")
+            member_refs.append(("node", next_neg, "shelter"))
+            next_neg -= 1
+
+    for record in cms_gap_records:
+        lines.append(
+            f"  <node id='{next_neg}' version='0' action='modify' visible='true' "
+            f"lat='{record['lat']:.7f}' lon='{record['lon']:.7f}'>"
+        )
+        cats = record.get("categories") or []
+        primary = (
+            primary_category(cats)
+            if any(c in CATEGORY_PRIORITY for c in cats)
+            else ("Overnatting" if "Overnatting" in cats else (cats[0] if cats else ""))
+        )
+        if primary == "Overnatting":
+            mapping = [("tourism", "guest_house")]
+        else:
+            mapping, _u = osm_tags_for_category(primary)
+        gap_note = record.get("proposal_note") or proposal_note_for_cms_gap()
+        tags: list[tuple[str, str]] = [
+            ("name", record.get("title") or ""),
+            ("source", "pilegrimsleden.no"),
+            ("url", record.get("url") or ""),
+            ("network", "Pilegrimsleden"),
+            ("note:trail", "; ".join(TRAIL_MEMBERSHIP)),
+            ("note:osm_route_relation", str(RELATION_ID)),
+            ("note:proposed", gap_note),
+            ("note", gap_note),
+            ("pilegrimsleden:id", str(record.get("id") or "")),
+        ]
+        tags.extend(mapping)
+        for key, value in tags:
+            if not value:
+                continue
+            lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
+        lines.append("  </node>")
+        member_refs.append(("node", next_neg, "shelter"))
+        next_neg -= 1
+
+    rel_id = next_neg
+    lines.append(f"  <relation id='{rel_id}' version='0' action='modify' visible='true'>")
+    for mtype, mid, role in member_refs:
+        lines.append(
+            f"    <member type='{mtype}' ref='{mid}' role='{xml_escape(role)}'/>"
+        )
+    for key, value in [
+        ("type", "site"),
+        ("name", f"Proposed additions to {TRAIL_NAME}"),
+        ("network", "Pilegrimsleden"),
+        ("note:trail", TRAIL_NAME),
+        ("note:target_osm_relation", str(RELATION_ID)),
+        ("source", f"openstreetmap.org/relation/{RELATION_ID}"),
+        (
+            "note",
+            f"LOCAL research relation listing objects missing from OSM relation "
+            f"{RELATION_ID}. Does not modify the existing OSM relation. "
+            "Each proposed POI carries note:proposed. Not an import.",
+        ),
+    ]:
+        lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
+    lines.append("  </relation>")
+    lines.append("</osm>")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def patch_gudbrandsdalsleden_trail_notes(
     data: Path, corridor_names: set[str]
 ) -> int:
@@ -566,7 +931,6 @@ def patch_gudbrandsdalsleden_trail_notes(
         name_m = re.search(r"<tag k='name' v='([^']*)'/>", block)
         if not name_m:
             return block
-        # XML entities in name
         name = (
             name_m.group(1)
             .replace("&quot;", '"')
@@ -613,7 +977,7 @@ def main() -> int:
     trail_dir = data / "by_trail" / TRAIL_NAME
     trail_dir.mkdir(parents=True, exist_ok=True)
 
-    rel, segments = fetch_relation_geometry()
+    rel, segments, existing_members = fetch_relation_geometry()
     track = stitch_points(segments)
     log(f"Relation members with geometry: {len(segments)}; track points: {len(track)}")
     if len(track) < 2:
@@ -628,6 +992,72 @@ def main() -> int:
     trailpoints = fetch_trailpoints()
     shelters, records = select_corridor_pois(trailpoints, index, data)
     log(f"Corridor overnight POIs: {len(shelters)}")
+    shelters, along_route = rematch_against_norway_pbf(
+        shelters, index, data, reuse_cache=("--reuse-pbf" in sys.argv)
+    )
+    gap_n = sum(1 for r in shelters if r.get("match_status") == "gap")
+    log(
+        f"After Norway PBF rematch: gaps={gap_n}; "
+        f"OSM objects within {int(BUFFER_M)} m of route={len(along_route)}"
+    )
+
+    already, missing = partition_by_relation_membership(along_route, existing_members)
+    along_tagged = already + missing
+    along_tagged.sort(
+        key=lambda r: (
+            r.get("relation_status") or "",
+            r.get("route_distance_m") or "",
+            (r.get("name") or "").lower(),
+        )
+    )
+    log(
+        f"Relation membership split vs OSM rel {RELATION_ID}: "
+        f"already_member={len(already)} (leave alone); "
+        f"missing={len(missing)} (propose local additions only)"
+    )
+
+    gap_by_coord = {
+        (round(float(r["lat"]), 7), round(float(r["lon"]), 7))
+        for r in shelters
+        if r.get("match_status") == "gap"
+    }
+    cms_gap_records = [
+        rec
+        for rec in records
+        if (round(float(rec["lat"]), 7), round(float(rec["lon"]), 7)) in gap_by_coord
+    ]
+    for rec in cms_gap_records:
+        rec["proposal_note"] = proposal_note_for_cms_gap()
+    log(f"CMS gap records proposed as new nodes: {len(cms_gap_records)}")
+
+    # Per-POI proposal notes on corridor CMS rows:
+    # - gap → propose new OSM object + relation membership
+    # - matched/possible to an OSM object not already on the relation → propose membership
+    # - matched to an already-related OSM object → no proposal (leave alone)
+    missing_ids = {r.get("osm_id") for r in missing}
+    for row, rec in zip(shelters, records):
+        mid = row.get("matched_osm_id") or ""
+        if row.get("match_status") == "gap" or not mid:
+            note = proposal_note_for_cms_gap()
+        elif mid in missing_ids:
+            note = proposal_note_for_existing_osm(mid)
+        else:
+            # already on relation, or unmatched id not in along-route set
+            try:
+                kind, oid_s = mid.split("/", 1)
+                if (kind, int(oid_s)) in existing_members:
+                    note = ""
+                else:
+                    note = proposal_note_for_existing_osm(mid)
+            except ValueError:
+                note = proposal_note_for_existing_osm(mid)
+        row["proposal_note"] = note
+        rec["proposal_note"] = note
+
+    for row in missing:
+        row["proposal_note"] = proposal_note_for_existing_osm(row.get("osm_id") or "")
+    for row in already:
+        row["proposal_note"] = ""
 
     with (data / "by_trail" / SOURCE_TRAIL / "pilgrim_centers.csv").open(
         encoding="utf-8"
@@ -647,13 +1077,54 @@ def main() -> int:
         "tag_diff",
         "related_trails",
         "pilegrimsleden_id",
+        "proposal_note",
     ]
-    # published CSV keeps related_trails; drop helper route_distance_m
     pub_shelters = []
     for row in shelters:
         pub = {k: row.get(k, "") for k in shelter_fields}
+        mid = pub.get("matched_osm_id") or ""
+        if mid:
+            try:
+                kind, oid_s = mid.split("/", 1)
+                if (kind, int(oid_s)) in existing_members:
+                    pub["tag_diff"] = (
+                        (pub["tag_diff"] + "; " if pub["tag_diff"] else "")
+                        + "already_member_of_osm_relation_"
+                        + str(RELATION_ID)
+                    )
+            except ValueError:
+                pass
         pub_shelters.append(pub)
     write_csv(trail_dir / "shelters.csv", pub_shelters, shelter_fields)
+
+    along_fields = [
+        "osm_id",
+        "osm_url",
+        "name",
+        "lat",
+        "lon",
+        "tourism",
+        "amenity",
+        "building",
+        "route_distance_m",
+        "note:osm_route_relation",
+        "relation_status",
+        "proposal_note",
+    ]
+    write_along_route_csv(trail_dir / "osm_along_route.csv", along_tagged)
+    write_csv(
+        trail_dir / "osm_already_related.csv",
+        [{k: r.get(k, "") for k in along_fields} for r in already],
+        along_fields,
+    )
+    write_csv(
+        trail_dir / "osm_missing_for_relation.csv",
+        [{k: r.get(k, "") for k in along_fields} for r in missing],
+        along_fields,
+    )
+    write_missing_additions_osm(
+        trail_dir / "missing_additions.osm", missing, cms_gap_records
+    )
 
     pilgrim_fields = [
         "trail",
@@ -679,7 +1150,6 @@ def main() -> int:
     )
     log(f"Patched Gudbrandsdalsleden note:trail on {patched} shelter nodes")
 
-    # Ensure examples present
     names = {r["poi_name"] for r in pub_shelters}
     for example in (
         "Velkommen til Olasvehaugen i Brøttum",
@@ -687,6 +1157,28 @@ def main() -> int:
         "Brynn i Bergsengroa",
     ):
         log(f"  example {'OK' if example in names else 'MISSING'}: {example}")
+    for osm_id in (
+        "node/1931260548",
+        "node/937852318",
+        "way/98520866",
+        "node/8018787776",
+        "way/136363816",
+    ):
+        hit = next((r for r in pub_shelters if r.get("matched_osm_id") == osm_id), None)
+        along_hit = next((r for r in along_tagged if r.get("osm_id") == osm_id), None)
+        status = (along_hit or {}).get("relation_status", "?")
+        if hit:
+            log(
+                f"  osm {osm_id}: CMS match={hit['match_status']} "
+                f"relation_status={status} ({hit['poi_name']})"
+            )
+        elif along_hit:
+            log(
+                f"  osm {osm_id}: along-route relation_status={status} "
+                f"({along_hit.get('name')})"
+            )
+        else:
+            log(f"  osm {osm_id}: NOT FOUND")
 
     summary = {
         "trail": TRAIL_NAME,
@@ -697,12 +1189,22 @@ def main() -> int:
         "source_trail_pois": SOURCE_TRAIL,
         "track_points": len(track),
         "member_ways": len(segments),
+        "existing_osm_relation_members": len(existing_members),
         "shelters": len(pub_shelters),
         "shelter_gaps": sum(1 for r in pub_shelters if r.get("match_status") == "gap"),
+        "osm_along_route": len(along_tagged),
+        "osm_already_related": len(already),
+        "osm_missing_for_relation": len(missing),
+        "cms_gap_proposed_nodes": len(cms_gap_records),
         "pilgrim_centers": len(pub_pilgrim),
         "pilgrim_gaps": sum(1 for r in pub_pilgrim if r.get("match_status") == "gap"),
         "gudbrandsdalsleden_note_trail_patched": patched,
         "relation_tags": rel.get("tags") or {},
+        "policy": (
+            "Never modify existing OSM relation members. Propose only missing "
+            "nearby lodging objects + CMS gaps in missing_additions.osm "
+            "(local research file)."
+        ),
     }
     (data / "romeriksleden_extract_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -710,8 +1212,8 @@ def main() -> int:
     log(
         f"Romeriksleden shelters={len(pub_shelters)} "
         f"(gaps={summary['shelter_gaps']}) "
-        f"pilgrim_centers={len(pub_pilgrim)} "
-        f"(gaps={summary['pilgrim_gaps']})"
+        f"already_related={len(already)} missing={len(missing)} "
+        f"pilgrim_centers={len(pub_pilgrim)}"
     )
 
     readme_path = data / "by_trail" / "README.md"
@@ -719,25 +1221,26 @@ def main() -> int:
     note = (
         f"{TRAIL_NAME} is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer), "
         f"mapped in OSM as relation {RELATION_ID} but not a separate pilegrimsleden.no "
-        f"trail entry. `Romeriksleden/` holds the OSM route as `hiking_path.osm` / "
-        f"`.gpx`, corridor overnight POIs (including CMS `Overnatting`-only lodgings) "
-        f"within {int(BUFFER_M)} m, and `romeriksleden.osm` with a local JOSM relation "
-        f"linking the path to those POIs. POI `note:trail` / `related_trails` list both "
-        f"{SOURCE_TRAIL} and {TRAIL_NAME}."
+        f"trail entry. Discovery treats existing members of relation {RELATION_ID} as "
+        f"already related (never modified). Nearby lodging/shelter OSM objects that are "
+        f"not members are listed in `osm_missing_for_relation.csv` / "
+        f"`missing_additions.osm` as local research proposals only. "
+        f"`osm_already_related.csv` lists objects already on the relation. "
+        f"CMS overnight POIs within {int(BUFFER_M)} m are in `shelters.*` with "
+        f"`related_trails` {SOURCE_TRAIL} + {TRAIL_NAME}."
     )
-    if "romeriksleden.osm" not in readme:
-        old_note_re = re.compile(
-            r"Romeriksleden is Gudbrandsdalsleden east.*?(?=\n\nCombined national)",
-            re.S,
+    old_note_re = re.compile(
+        r"Romeriksleden is Gudbrandsdalsleden east.*?(?=\n\nCombined national)",
+        re.S,
+    )
+    if old_note_re.search(readme):
+        readme = old_note_re.sub(note, readme, count=1)
+    elif "Combined national files under `data/` are unchanged." in readme and note[:40] not in readme:
+        readme = readme.replace(
+            "Combined national files under `data/` are unchanged.",
+            note + "\n\nCombined national files under `data/` are unchanged.",
+            1,
         )
-        if old_note_re.search(readme):
-            readme = old_note_re.sub(note, readme, count=1)
-        elif "Combined national files under `data/` are unchanged." in readme:
-            readme = readme.replace(
-                "Combined national files under `data/` are unchanged.",
-                note + "\n\nCombined national files under `data/` are unchanged.",
-                1,
-            )
     row = (
         f"| {TRAIL_NAME} | {TRAIL_NAME} | {len(pub_shelters)} | {len(pub_pilgrim)} | "
         f"{summary['shelter_gaps']} | {summary['pilgrim_gaps']} | - |"

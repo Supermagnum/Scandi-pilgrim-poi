@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='14086452092' version='1' visible='true' lat='63.7959636' lon='11.5619465'>
+    <tag k='name' v='Stiklestad pilegrimssenter'/>
+    <tag k='tourism' v='information'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/14086452092.'/>
+    <tag k='note' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/14086452092.'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='-1' version='0' action='modify' visible='true' lat='63.7958067' lon='11.5627671'>
+    <tag k='name' v='Scandic Stiklestad'/>
+    <tag k='note:proposed' v='Centroid proxy for way/236640561. Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: way/236640561.'/>
+    <tag k='note' v='Centroid proxy for way/236640561. Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: way/236640561.'/>
+    <tag k='note:osm_object' v='way/236640561'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='civic'/>
+  </node>
+  <node id='9352334634' version='1' visible='true' lat='63.9038600' lon='11.5992976'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/9352334634.'/>
+    <tag k='note' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/9352334634.'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='13009019152' version='1' visible='true' lat='63.7824591' lon='11.5708329'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/13009019152.'/>
+    <tag k='note' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/13009019152.'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='10073630986' version='1' visible='true' lat='63.8027966' lon='11.6870263'>
+    <tag k='name' v='Leirsjøhytta'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/10073630986.'/>
+    <tag k='note' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/10073630986.'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <relation id='-2' version='0' action='modify' visible='true'>
+    <member type='node' ref='14086452092' role='shelter'/>
+    <member type='node' ref='-1' role='shelter'/>
+    <member type='node' ref='9352334634' role='shelter'/>
+    <member type='node' ref='13009019152' role='shelter'/>
+    <member type='node' ref='10073630986' role='shelter'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Proposed additions to Nordleden'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Nordleden'/>
+    <tag k='note:target_osm_relation' v='1585449'/>
+    <tag k='source' v='openstreetmap.org/relation/1585449'/>
+    <tag k='note' v='LOCAL research relation listing objects missing from OSM relation 1585449. Does not modify the existing OSM relation. Each proposed POI carries note:proposed. Not an import.'/>
+  </relation>
+</osm>

@@ -156,6 +156,16 @@ CATEGORY_EXPECTED_TAGS = {
     "Glamping": {("tourism", "camp_site")},
     "Teltplass": {("tourism", "camp_site")},
     "Rasteplass": {("amenity", "shelter"), ("tourism", "picnic_site")},
+    # CMS parent / hotel labels used on corridor overnight POIs (e.g. Romeriksleden).
+    "Hotell": {("tourism", "hotel")},
+    "Overnatting": {
+        ("tourism", "hotel"),
+        ("tourism", "guest_house"),
+        ("tourism", "hostel"),
+        ("tourism", "chalet"),
+        ("tourism", "cabin"),
+        ("tourism", "apartment"),
+    },
 }
 
 
@@ -322,7 +332,7 @@ def trail_bboxes(pois: list[dict[str, Any]]) -> dict[str, tuple[float, float, fl
     return boxes
 
 
-KEEP_TOURISM = COMPATIBLE_TOURISM | {"picnic_site"}
+KEEP_TOURISM = COMPATIBLE_TOURISM | {"picnic_site", "hotel"}
 
 
 def overall_bbox(pois: list[dict[str, Any]]) -> tuple[float, float, float, float]:
@@ -593,7 +603,8 @@ def primary_category(categories: list[str]) -> str:
 
 
 def shelter_categories(categories: list[str]) -> list[str]:
-    return [title for title in categories if title in CORE_SHELTER_CATEGORIES]
+    allowed = CORE_SHELTER_CATEGORIES | {"Hotell", "Overnatting"}
+    return [title for title in categories if title in allowed]
 
 
 def load_pois(raw_path: Path, osm_path: Path) -> list[dict[str, Any]]:

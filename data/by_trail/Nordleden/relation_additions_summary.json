@@ -1,0 +1,26 @@
+{
+  "folder": "Nordleden",
+  "trail": "Nordleden",
+  "osm_relation": 1585449,
+  "osm_url": "https://www.openstreetmap.org/relation/1585449",
+  "relation_tags": {
+    "name": "Nordleden",
+    "network": "nwn",
+    "pilgrimage": "yes",
+    "religion": "christian",
+    "route": "hiking",
+    "type": "route",
+    "website": "http://www.pilegrim.info/"
+  },
+  "visited_relations": [
+    1585449
+  ],
+  "existing_osm_relation_members": 210,
+  "osm_along_route": 5,
+  "osm_already_related": 0,
+  "osm_missing_for_relation": 5,
+  "cms_shelters": 2,
+  "cms_gaps": 0,
+  "shelters_with_proposal_note": 2,
+  "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+}

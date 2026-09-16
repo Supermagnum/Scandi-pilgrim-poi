@@ -1,6 +1,7 @@
 # Ignore local Geofabrik extracts (multi-hundred MB / GB)
 data/geofabrik/*.osm.pbf
 data/geofabrik/*.pbf
+data/geofabrik/lodging_all_trails_cache.json
 
 # Python
 __pycache__/

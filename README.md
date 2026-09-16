@@ -14,12 +14,27 @@ Foundation.
 - **pilegrimsleden.no** (Craft CMS GraphQL / map APIs): Norwegian trail network
   Gudbrandsdalsleden, St. Olavsleden (NO), Borgleden, Kystpilegrimsleia,
   Tunsbergleden, Østerdalsleden, Valldalsleden, Romboleden, Nordleden.
-- **OSM relation
-  [1200009](https://www.openstreetmap.org/relation/1200009)** (Romeriksleden /
-  Gudbrandsdalsleden east): not a separate CMS trail entry; folder
-  `data/by_trail/Romeriksleden/` holds the OSM route geometry, corridor overnight
-  POIs (with `related_trails` Gudbrandsdalsleden + Romeriksleden), and
-  `romeriksleden.osm` linking path + POIs in a local JOSM relation.
+- **OSM route relations** (source of truth for trail geometry and existing
+  members; never modified by this project). Known IDs:
+
+  | trail | OSM relation |
+  | --- | ---: |
+  | Borgleden | [5672944](https://www.openstreetmap.org/relation/5672944) |
+  | Gudbrandsdalsleden | [1370273](https://www.openstreetmap.org/relation/1370273) |
+  | Kystpilegrimsleia | [10508888](https://www.openstreetmap.org/relation/10508888) |
+  | Nordleden | [1585449](https://www.openstreetmap.org/relation/1585449) |
+  | Østerdalsleden | [5129262](https://www.openstreetmap.org/relation/5129262) |
+  | Romboleden | [1151161](https://www.openstreetmap.org/relation/1151161) |
+  | Romeriksleden | [1200009](https://www.openstreetmap.org/relation/1200009) |
+  | St. Olavsleden | [10524322](https://www.openstreetmap.org/relation/10524322) (superroute) |
+  | Tunsbergleden (Vestfoldveien) | [5661086](https://www.openstreetmap.org/relation/5661086) |
+  | Valldalsleden | [11218584](https://www.openstreetmap.org/relation/11218584) |
+
+  Romeriksleden is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer) and
+  is not a separate CMS trail entry. Folder `data/by_trail/Romeriksleden/` holds
+  the OSM route geometry, corridor overnight POIs (`related_trails`
+  Gudbrandsdalsleden + Romeriksleden), and `romeriksleden.osm` linking path +
+  POIs in a local JOSM relation.
 - **stolavsleden.com** (WordPress site + Naturkartan embed, guide id 154):
   St. Olavsleden in Sweden, including hiking / biking / horseback path variants
   and horseback-oriented service points (veterinarians in the current extract;
@@ -35,20 +50,60 @@ Foundation.
   `sweden-latest.osm.pbf` (not stored in this repository — download from
   https://download.geofabrik.de/europe/ when re-running comparisons).
 
+## Trail-relation membership (research proposals)
+
+For each trail with a known OSM route relation, discovery:
+
+1. Treats existing members of that relation as already related and **never
+   modifies** them.
+2. Lists nearby lodging/shelter OSM objects that are **not** members in
+   `osm_missing_for_relation.csv` / `missing_additions.osm` (local research
+   only).
+3. Puts a per-POI `note:proposed` / `proposal_note` on every proposed addition
+   (existing OSM objects missing from the relation, and CMS overnight gaps).
+
+Most pilgrim route relations currently contain path ways only, so lodging
+`already_member` counts are typically zero; the missing lists are proposals to
+review, not an instruction to upload.
+
+Latest pass (`propose_relation_additions.py`, Romeriksleden via
+`extract_romeriksleden.py`):
+
+| folder | OSM relation | already | missing (propose) | CMS gaps |
+| --- | ---: | ---: | ---: | ---: |
+| Borgleden | 5672944 | 0 | 256 | 8 |
+| Gudbrandsdalsleden | 1370273 | 0 | 345 | 88 |
+| Kystpilegrimsleia | 10508888 | 0 | 87 | 29 |
+| Nordleden | 1585449 | 0 | 5 | 0 |
+| Osterdalsleden | 5129262 | 0 | 191 | 36 |
+| Romboleden | 1151161 | 0 | 441 | 5 |
+| Romeriksleden | 1200009 | 0 | 331 | 32 |
+| St-Olavsleden | 10524322 | 0 | 1208 | 118 |
+| Tunsbergleden | 5661086 | 0 | 178 | 18 |
+| Valldalsleden | 11218584 | 0 | 43 | 9 |
+
+See `data/by_trail/README.md` and `data/relation_additions_all_trails_summary.json`.
+
 ## Directory layout
 
 ```
 data/
   by_trail/<TrailName>/
-    shelters.csv              # overnight/shelter POIs + OSM match columns
-    shelters.osm              # JOSM-loadable nodes (negative ids, version 0)
-    pilgrim_centers.csv       # pilgrim-center / stamp-office comparison
-    horseback_path.osm        # St. Olavsleden only: horse route geometry
-    horseback_path.gpx        # St. Olavsleden only: source horseback GPX
-    horseback_service_points.csv  # St. Olavsleden only: farrier/vet POIs
-    hiking_path.gpx           # St. Olavsleden / Romeriksleden route GPX
-    hiking_path.osm           # Romeriksleden (from OSM rel 1200009); St. Olavsleden has GPX only
-    romeriksleden.osm         # Romeriksleden only: path + POIs + local JOSM relation
+    shelters.csv                 # overnight/shelter POIs + OSM match + proposal_note
+    shelters.osm                 # JOSM-loadable nodes (negative ids, version 0)
+    pilgrim_centers.csv          # pilgrim-center / stamp-office comparison
+    osm_along_route.csv          # lodging near route (membership status)
+    osm_already_related.csv      # already members of the OSM route relation
+    osm_missing_for_relation.csv # near route, not on relation (proposals)
+    missing_additions.osm        # local research file of proposals only
+    relation_additions_summary.json
+    horseback_path.osm           # St. Olavsleden only: horse route geometry
+    horseback_path.gpx           # St. Olavsleden only: source horseback GPX
+    horseback_service_points.csv # St. Olavsleden only: farrier/vet POIs
+    hiking_path.gpx              # St. Olavsleden / Romeriksleden route GPX
+    hiking_path.osm              # Romeriksleden (from OSM rel 1200009); St. Olavsleden has GPX only
+    romeriksleden.osm            # Romeriksleden only: path + POIs + local JOSM relation
+  relation_additions_all_trails_summary.json
   osm_comparison_results.csv
   pilegrimsleden_shelters.osm
   changeset_187258738_reference.json
@@ -58,10 +113,13 @@ scripts (repo root):
   compare_osm_shelters.py
   extract_stolavsleden.py
   extract_romeriksleden.py
+  propose_relation_additions.py
   discover_map_api.py
 ```
 
-Each trail `shelters.osm` includes a local JOSM `type=site` relation grouping overnight POI nodes (research aid; not for upload).
+Each trail `shelters.osm` includes a local JOSM `type=site` relation grouping
+overnight POI nodes (research aid; not for upload). Where known, nodes carry
+`note:osm_route_relation` pointing at the matching OSM hiking route relation.
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
 `St-Olavsleden`. The original trail name remains in CSV `trail` / OSM
@@ -70,10 +128,14 @@ filter.
 
 ## How to use in JOSM
 
-1. Open one trail folder’s `shelters.osm` (or `horseback_path.osm`) in JOSM.
+1. Open one trail folder’s `shelters.osm` (or `horseback_path.osm` /
+   `missing_additions.osm`) in JOSM.
 2. Download the surrounding OSM data and compare.
-3. Prefer rows with `match_status=gap` as candidates for new mapping — still
-   verify each object on the ground or with current local sources.
+3. Prefer rows with `match_status=gap` or objects in
+   `osm_missing_for_relation.csv` as candidates — still verify each object on
+   the ground or with current local sources.
+4. Do not edit or replace the real OSM trail relation from these files; they
+   only propose additions.
 
 ### match_status meanings
 
@@ -96,7 +158,8 @@ Anyone merging features into OpenStreetMap must:
   and the [Automated Edits code of conduct](https://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct);
 - discuss bulk work with the local community before uploading.
 
-Do not bulk-upload these nodes.
+Do not bulk-upload these nodes. Do not modify existing members of OSM trail
+relations based solely on these files.
 
 ## License
 
@@ -125,6 +188,9 @@ python3 extract_stolavsleden.py
 
 # Romeriksleden corridor from OSM relation 1200009
 python3 extract_romeriksleden.py
+
+# Membership proposals for all trails (optional --skip / --reuse-pbf / --only)
+python3 propose_relation_additions.py
 ```
 
-Do not commit `data/geofabrik/*.osm.pbf` (see `.gitignore`).
+Do not commit `data/geofabrik/*.osm.pbf` or lodging scan caches (see `.gitignore`).

@@ -1,0 +1,1101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='63.4359992' lon='10.4006727'>
+    <tag k='note:proposed' v='Centroid proxy for way/1273197042. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197042.'/>
+    <tag k='note' v='Centroid proxy for way/1273197042. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197042.'/>
+    <tag k='note:osm_object' v='way/1273197042'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='11373501344' version='1' visible='true' lat='63.4330281' lon='10.4023490'>
+    <tag k='name' v='Comfort Hotel Trondheim'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/11373501344.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/11373501344.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-2' version='0' action='modify' visible='true' lat='63.4340616' lon='10.4027324'>
+    <tag k='name' v='Bakeriet'/>
+    <tag k='note:proposed' v='Centroid proxy for way/89485660. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/89485660.'/>
+    <tag k='note' v='Centroid proxy for way/89485660. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/89485660.'/>
+    <tag k='note:osm_object' v='way/89485660'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='156719769' version='1' visible='true' lat='63.4341701' lon='10.4036210'>
+    <tag k='name' v='Home Hotel Grand Olav'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719769.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719769.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='9312886959' version='1' visible='true' lat='63.4310611' lon='10.3773874'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/9312886959.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/9312886959.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='7093860786' version='1' visible='true' lat='63.4309475' lon='10.3755851'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/7093860786.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/7093860786.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-3' version='0' action='modify' visible='true' lat='63.4358184' lon='10.4013944'>
+    <tag k='note:proposed' v='Centroid proxy for way/1273197052. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197052.'/>
+    <tag k='note' v='Centroid proxy for way/1273197052. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197052.'/>
+    <tag k='note:osm_object' v='way/1273197052'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='156719783' version='1' visible='true' lat='63.4341994' lon='10.3969041'>
+    <tag k='name' v='Astoria'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719783.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719783.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='956343591' version='1' visible='true' lat='63.4343610' lon='10.3999152'>
+    <tag k='name' v='Chesterfield Hotel'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/956343591.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/956343591.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='13009857691' version='1' visible='true' lat='63.4343219' lon='10.4020075'>
+    <tag k='name' v='Knirkenheimen'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/13009857691.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/13009857691.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-4' version='0' action='modify' visible='true' lat='63.4360318' lon='10.3987975'>
+    <tag k='note:proposed' v='Centroid proxy for way/500278221. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/500278221.'/>
+    <tag k='note' v='Centroid proxy for way/500278221. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/500278221.'/>
+    <tag k='note:osm_object' v='way/500278221'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-5' version='0' action='modify' visible='true' lat='63.4260886' lon='10.3936366'>
+    <tag k='note:proposed' v='Centroid proxy for way/1191208478. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1191208478.'/>
+    <tag k='note' v='Centroid proxy for way/1191208478. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1191208478.'/>
+    <tag k='note:osm_object' v='way/1191208478'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-6' version='0' action='modify' visible='true' lat='63.4367077' lon='10.4014107'>
+    <tag k='note:proposed' v='Centroid proxy for way/635967457. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/635967457.'/>
+    <tag k='note' v='Centroid proxy for way/635967457. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/635967457.'/>
+    <tag k='note:osm_object' v='way/635967457'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-7' version='0' action='modify' visible='true' lat='63.4360221' lon='10.4020844'>
+    <tag k='note:proposed' v='Centroid proxy for way/1273197041. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197041.'/>
+    <tag k='note' v='Centroid proxy for way/1273197041. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197041.'/>
+    <tag k='note:osm_object' v='way/1273197041'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-8' version='0' action='modify' visible='true' lat='63.4335993' lon='10.4052815'>
+    <tag k='name' v='Radisson Blu Royal Garden Hotel'/>
+    <tag k='note:proposed' v='Centroid proxy for way/89482684. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/89482684.'/>
+    <tag k='note' v='Centroid proxy for way/89482684. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/89482684.'/>
+    <tag k='note:osm_object' v='way/89482684'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='-9' version='0' action='modify' visible='true' lat='63.4368516' lon='10.4013552'>
+    <tag k='note:proposed' v='Centroid proxy for way/635967456. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/635967456.'/>
+    <tag k='note' v='Centroid proxy for way/635967456. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/635967456.'/>
+    <tag k='note:osm_object' v='way/635967456'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-10' version='0' action='modify' visible='true' lat='63.4360232' lon='10.4021799'>
+    <tag k='note:proposed' v='Centroid proxy for way/1273197040. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197040.'/>
+    <tag k='note' v='Centroid proxy for way/1273197040. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197040.'/>
+    <tag k='note:osm_object' v='way/1273197040'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-11' version='0' action='modify' visible='true' lat='63.4364446' lon='10.3979202'>
+    <tag k='name' v='Venterom spor 2-3'/>
+    <tag k='note:proposed' v='Centroid proxy for way/1456196846. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1456196846.'/>
+    <tag k='note' v='Centroid proxy for way/1456196846. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1456196846.'/>
+    <tag k='note:osm_object' v='way/1456196846'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='956343622' version='1' visible='true' lat='63.4337708' lon='10.3968930'>
+    <tag k='name' v='City Living Sentrum Hotel &amp; Apartments'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/956343622.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/956343622.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='2957446755' version='1' visible='true' lat='63.4339680' lon='10.3997770'>
+    <tag k='name' v='Thon Hotel Nidaros'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/2957446755.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/2957446755.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-12' version='0' action='modify' visible='true' lat='63.4365882' lon='10.3978636'>
+    <tag k='name' v='Venterom spor 4-5'/>
+    <tag k='note:proposed' v='Centroid proxy for way/1456196847. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1456196847.'/>
+    <tag k='note' v='Centroid proxy for way/1456196847. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1456196847.'/>
+    <tag k='note:osm_object' v='way/1456196847'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='4744954423' version='1' visible='true' lat='63.4317139' lon='10.3987305'>
+    <tag k='name' v='Britannia Hotel'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/4744954423.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/4744954423.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-13' version='0' action='modify' visible='true' lat='63.4258429' lon='10.3932923'>
+    <tag k='note:proposed' v='Centroid proxy for way/1064363102. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1064363102.'/>
+    <tag k='note' v='Centroid proxy for way/1064363102. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1064363102.'/>
+    <tag k='note:osm_object' v='way/1064363102'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-14' version='0' action='modify' visible='true' lat='63.4358249' lon='10.4029420'>
+    <tag k='note:proposed' v='Centroid proxy for way/1273197043. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197043.'/>
+    <tag k='note' v='Centroid proxy for way/1273197043. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197043.'/>
+    <tag k='note:osm_object' v='way/1273197043'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-15' version='0' action='modify' visible='true' lat='63.4358230' lon='10.4028504'>
+    <tag k='note:proposed' v='Centroid proxy for way/1273197044. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197044.'/>
+    <tag k='note' v='Centroid proxy for way/1273197044. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1273197044.'/>
+    <tag k='note:osm_object' v='way/1273197044'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-16' version='0' action='modify' visible='true' lat='63.4303989' lon='10.3850939'>
+    <tag k='note:proposed' v='Centroid proxy for way/727606082. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/727606082.'/>
+    <tag k='note' v='Centroid proxy for way/727606082. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/727606082.'/>
+    <tag k='note:osm_object' v='way/727606082'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+  </node>
+  <node id='-17' version='0' action='modify' visible='true' lat='63.4301104' lon='10.3735738'>
+    <tag k='note:proposed' v='Centroid proxy for way/727606081. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/727606081.'/>
+    <tag k='note' v='Centroid proxy for way/727606081. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/727606081.'/>
+    <tag k='note:osm_object' v='way/727606081'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-18' version='0' action='modify' visible='true' lat='63.4266307' lon='10.4000303'>
+    <tag k='name' v='Nidaros Pilgrimsgård'/>
+    <tag k='note:proposed' v='Centroid proxy for way/167823309. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/167823309.'/>
+    <tag k='note' v='Centroid proxy for way/167823309. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/167823309.'/>
+    <tag k='note:osm_object' v='way/167823309'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='building' v='retail'/>
+  </node>
+  <node id='-19' version='0' action='modify' visible='true' lat='63.4276607' lon='10.3924426'>
+    <tag k='name' v='Comfort Hotel Park'/>
+    <tag k='note:proposed' v='Centroid proxy for way/89943608. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/89943608.'/>
+    <tag k='note' v='Centroid proxy for way/89943608. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/89943608.'/>
+    <tag k='note:osm_object' v='way/89943608'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='-20' version='0' action='modify' visible='true' lat='63.4333310' lon='10.3979994'>
+    <tag k='note:proposed' v='Centroid proxy for way/1459090692. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1459090692.'/>
+    <tag k='note' v='Centroid proxy for way/1459090692. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1459090692.'/>
+    <tag k='note:osm_object' v='way/1459090692'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-21' version='0' action='modify' visible='true' lat='63.4333339' lon='10.3981347'>
+    <tag k='note:proposed' v='Centroid proxy for way/1459090691. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1459090691.'/>
+    <tag k='note' v='Centroid proxy for way/1459090691. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1459090691.'/>
+    <tag k='note:osm_object' v='way/1459090691'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-22' version='0' action='modify' visible='true' lat='63.4358958' lon='10.3955836'>
+    <tag k='name' v='P-Hotels Brattøra'/>
+    <tag k='note:proposed' v='Centroid proxy for way/315195450. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/315195450.'/>
+    <tag k='note' v='Centroid proxy for way/315195450. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/315195450.'/>
+    <tag k='note:osm_object' v='way/315195450'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='-23' version='0' action='modify' visible='true' lat='63.4358091' lon='10.4068045'>
+    <tag k='name' v='Scandic Nidelven'/>
+    <tag k='note:proposed' v='Centroid proxy for way/87312398. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/87312398.'/>
+    <tag k='note' v='Centroid proxy for way/87312398. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/87312398.'/>
+    <tag k='note:osm_object' v='way/87312398'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='-24' version='0' action='modify' visible='true' lat='63.4310260' lon='10.3903924'>
+    <tag k='note:proposed' v='Centroid proxy for way/727606084. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/727606084.'/>
+    <tag k='note' v='Centroid proxy for way/727606084. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/727606084.'/>
+    <tag k='note:osm_object' v='way/727606084'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+  </node>
+  <node id='9153258063' version='1' visible='true' lat='63.4306834' lon='10.3892014'>
+    <tag k='name' v='Pensjonat Jarlen'/>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/9153258063.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/9153258063.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='156719797' version='1' visible='true' lat='63.4308664' lon='10.3911954'>
+    <tag k='name' v='Quality Hotel Prinsen'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719797.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719797.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-25' version='0' action='modify' visible='true' lat='63.4296955' lon='10.3718592'>
+    <tag k='note:proposed' v='Centroid proxy for way/1254355963. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1254355963.'/>
+    <tag k='note' v='Centroid proxy for way/1254355963. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1254355963.'/>
+    <tag k='note:osm_object' v='way/1254355963'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='386579894' version='1' visible='true' lat='63.4320760' lon='10.3956480'>
+    <tag k='name' v='City Living Schøller hotel'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/386579894.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/386579894.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='1667274373' version='1' visible='true' lat='63.4321506' lon='10.4065282'>
+    <tag k='name' v='Scandic Bakklandet'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1667274373.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1667274373.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-26' version='0' action='modify' visible='true' lat='63.4324338' lon='10.4073009'>
+    <tag k='note:proposed' v='Centroid proxy for way/1459090694. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1459090694.'/>
+    <tag k='note' v='Centroid proxy for way/1459090694. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1459090694.'/>
+    <tag k='note:osm_object' v='way/1459090694'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='1769499181' version='1' visible='true' lat='63.4308030' lon='10.3925710'>
+    <tag k='name' v='Quality Hotel Augustin'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1769499181.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1769499181.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='156719791' version='1' visible='true' lat='63.4303457' lon='10.3929292'>
+    <tag k='name' v='Thon Hotel Trondheim'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719791.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/156719791.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-27' version='0' action='modify' visible='true' lat='63.4398377' lon='10.4017676'>
+    <tag k='name' v='Clarion Hotel Trondheim'/>
+    <tag k='note:proposed' v='Centroid proxy for way/179050462. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/179050462.'/>
+    <tag k='note' v='Centroid proxy for way/179050462. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/179050462.'/>
+    <tag k='note:osm_object' v='way/179050462'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='1513477025' version='1' visible='true' lat='63.4291503' lon='10.3690041'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1513477025.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1513477025.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-28' version='0' action='modify' visible='true' lat='63.4292570' lon='10.3683113'>
+    <tag k='note:proposed' v='Centroid proxy for way/1009280984. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1009280984.'/>
+    <tag k='note' v='Centroid proxy for way/1009280984. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1009280984.'/>
+    <tag k='note:osm_object' v='way/1009280984'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-29' version='0' action='modify' visible='true' lat='63.4228070' lon='10.3952454'>
+    <tag k='note:proposed' v='Centroid proxy for way/1458781122. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1458781122.'/>
+    <tag k='note' v='Centroid proxy for way/1458781122. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1458781122.'/>
+    <tag k='note:osm_object' v='way/1458781122'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-30' version='0' action='modify' visible='true' lat='63.4288547' lon='10.3681568'>
+    <tag k='note:proposed' v='Centroid proxy for way/138028509. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/138028509.'/>
+    <tag k='note' v='Centroid proxy for way/138028509. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/138028509.'/>
+    <tag k='note:osm_object' v='way/138028509'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+  </node>
+  <node id='-31' version='0' action='modify' visible='true' lat='63.4226679' lon='10.3951425'>
+    <tag k='note:proposed' v='Centroid proxy for way/887303068. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/887303068.'/>
+    <tag k='note' v='Centroid proxy for way/887303068. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/887303068.'/>
+    <tag k='note:osm_object' v='way/887303068'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-32' version='0' action='modify' visible='true' lat='63.4225847' lon='10.3947056'>
+    <tag k='note:proposed' v='Centroid proxy for way/952989537. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/952989537.'/>
+    <tag k='note' v='Centroid proxy for way/952989537. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/952989537.'/>
+    <tag k='note:osm_object' v='way/952989537'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-33' version='0' action='modify' visible='true' lat='63.4286009' lon='10.3671945'>
+    <tag k='name' v='Ila'/>
+    <tag k='note:proposed' v='Centroid proxy for way/1412833892. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1412833892.'/>
+    <tag k='note' v='Centroid proxy for way/1412833892. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1412833892.'/>
+    <tag k='note:osm_object' v='way/1412833892'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-34' version='0' action='modify' visible='true' lat='63.4287506' lon='10.3669477'>
+    <tag k='note:proposed' v='Centroid proxy for way/1414455656. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1414455656.'/>
+    <tag k='note' v='Centroid proxy for way/1414455656. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1414455656.'/>
+    <tag k='note:osm_object' v='way/1414455656'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-35' version='0' action='modify' visible='true' lat='63.4347430' lon='10.4143725'>
+    <tag k='name' v='Scandic Solsiden'/>
+    <tag k='note:proposed' v='Centroid proxy for way/80560179. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/80560179.'/>
+    <tag k='note' v='Centroid proxy for way/80560179. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/80560179.'/>
+    <tag k='note:osm_object' v='way/80560179'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+  </node>
+  <node id='-36' version='0' action='modify' visible='true' lat='63.4221832' lon='10.3943414'>
+    <tag k='note:proposed' v='Centroid proxy for way/887303067. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/887303067.'/>
+    <tag k='note' v='Centroid proxy for way/887303067. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/887303067.'/>
+    <tag k='note:osm_object' v='way/887303067'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-37' version='0' action='modify' visible='true' lat='63.4266673' lon='10.3779501'>
+    <tag k='note:proposed' v='Centroid proxy for way/1254323446. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1254323446.'/>
+    <tag k='note' v='Centroid proxy for way/1254323446. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1254323446.'/>
+    <tag k='note:osm_object' v='way/1254323446'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+  </node>
+  <node id='11901478606' version='1' visible='true' lat='63.4252184' lon='10.3840851'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/11901478606.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/11901478606.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-38' version='0' action='modify' visible='true' lat='63.4216488' lon='10.3911459'>
+    <tag k='name' v='Hotell St. Olav'/>
+    <tag k='note:proposed' v='Centroid proxy for way/60335614. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/60335614.'/>
+    <tag k='note' v='Centroid proxy for way/60335614. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/60335614.'/>
+    <tag k='note:osm_object' v='way/60335614'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hospital'/>
+  </node>
+  <node id='-39' version='0' action='modify' visible='true' lat='63.4372207' lon='10.4167581'>
+    <tag k='note:proposed' v='Centroid proxy for way/1467850110. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1467850110.'/>
+    <tag k='note' v='Centroid proxy for way/1467850110. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1467850110.'/>
+    <tag k='note:osm_object' v='way/1467850110'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='5370787854' version='1' visible='true' lat='63.4368772' lon='10.4182332'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5370787854.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5370787854.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-40' version='0' action='modify' visible='true' lat='63.4208727' lon='10.4042535'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034911378. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034911378.'/>
+    <tag k='note' v='Centroid proxy for way/1034911378. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034911378.'/>
+    <tag k='note:osm_object' v='way/1034911378'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-41' version='0' action='modify' visible='true' lat='63.4206762' lon='10.4042794'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034911377. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034911377.'/>
+    <tag k='note' v='Centroid proxy for way/1034911377. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034911377.'/>
+    <tag k='note:osm_object' v='way/1034911377'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='5103482149' version='1' visible='true' lat='63.4305921' lon='10.4186785'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5103482149.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5103482149.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='4951143059' version='1' visible='true' lat='63.4241200' lon='10.4128540'>
+    <tag k='name' v='Singsaker Sommerhotell'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/4951143059.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/4951143059.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='5064717702' version='1' visible='true' lat='63.4308901' lon='10.4195725'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5064717702.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5064717702.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-42' version='0' action='modify' visible='true' lat='63.4289045' lon='10.3560211'>
+    <tag k='note:proposed' v='Centroid proxy for way/956166760. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/956166760.'/>
+    <tag k='note' v='Centroid proxy for way/956166760. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/956166760.'/>
+    <tag k='note:osm_object' v='way/956166760'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-43' version='0' action='modify' visible='true' lat='63.4336748' lon='10.4245115'>
+    <tag k='name' v='RUMI Hostel'/>
+    <tag k='note:proposed' v='Centroid proxy for way/1039106465. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1039106465.'/>
+    <tag k='note' v='Centroid proxy for way/1039106465. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1039106465.'/>
+    <tag k='note:osm_object' v='way/1039106465'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='building' v='hostel'/>
+  </node>
+  <node id='-44' version='0' action='modify' visible='true' lat='63.4362450' lon='10.4248222'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034905063. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034905063.'/>
+    <tag k='note' v='Centroid proxy for way/1034905063. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034905063.'/>
+    <tag k='note:osm_object' v='way/1034905063'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-45' version='0' action='modify' visible='true' lat='63.4370882' lon='10.4267906'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034905064. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034905064.'/>
+    <tag k='note' v='Centroid proxy for way/1034905064. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034905064.'/>
+    <tag k='note:osm_object' v='way/1034905064'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-46' version='0' action='modify' visible='true' lat='63.4167917' lon='10.4076604'>
+    <tag k='note:proposed' v='Centroid proxy for way/953778907. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/953778907.'/>
+    <tag k='note' v='Centroid proxy for way/953778907. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/953778907.'/>
+    <tag k='note:osm_object' v='way/953778907'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-47' version='0' action='modify' visible='true' lat='63.4165824' lon='10.4075501'>
+    <tag k='note:proposed' v='Centroid proxy for way/953778908. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/953778908.'/>
+    <tag k='note' v='Centroid proxy for way/953778908. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/953778908.'/>
+    <tag k='note:osm_object' v='way/953778908'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-48' version='0' action='modify' visible='true' lat='63.4384593' lon='10.4296044'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034903456. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034903456.'/>
+    <tag k='note' v='Centroid proxy for way/1034903456. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034903456.'/>
+    <tag k='note:osm_object' v='way/1034903456'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-49' version='0' action='modify' visible='true' lat='63.4385915' lon='10.4302387'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034903455. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034903455.'/>
+    <tag k='note' v='Centroid proxy for way/1034903455. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034903455.'/>
+    <tag k='note:osm_object' v='way/1034903455'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-50' version='0' action='modify' visible='true' lat='63.4399112' lon='10.4324890'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034903713. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034903713.'/>
+    <tag k='note' v='Centroid proxy for way/1034903713. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034903713.'/>
+    <tag k='note:osm_object' v='way/1034903713'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='2276076662' version='1' visible='true' lat='63.4403475' lon='10.4329507'>
+    <tag k='name' v='Trondheim Leilighetshotell'/>
+    <tag k='tourism' v='apartment'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/2276076662.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/2276076662.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-51' version='0' action='modify' visible='true' lat='63.4138469' lon='10.4088535'>
+    <tag k='note:proposed' v='Centroid proxy for way/1128668066. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1128668066.'/>
+    <tag k='note' v='Centroid proxy for way/1128668066. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1128668066.'/>
+    <tag k='note:osm_object' v='way/1128668066'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+  </node>
+  <node id='-52' version='0' action='modify' visible='true' lat='63.4274514' lon='10.4326190'>
+    <tag k='note:proposed' v='Centroid proxy for way/1371308625. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1371308625.'/>
+    <tag k='note' v='Centroid proxy for way/1371308625. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1371308625.'/>
+    <tag k='note:osm_object' v='way/1371308625'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='5614808713' version='1' visible='true' lat='63.4225101' lon='10.3488581'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5614808713.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5614808713.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='5614808899' version='1' visible='true' lat='63.4281868' lon='10.3425088'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5614808899.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5614808899.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='12041334693' version='1' visible='true' lat='63.4118139' lon='10.3880592'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/12041334693.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/12041334693.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='5614808712' version='1' visible='true' lat='63.4217576' lon='10.3479091'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5614808712.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5614808712.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='5585891813' version='1' visible='true' lat='63.4115670' lon='10.4025440'>
+    <tag k='name' v='Scandic Lerkendal'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5585891813.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/5585891813.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='12041334694' version='1' visible='true' lat='63.4115771' lon='10.3865364'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/12041334694.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/12041334694.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='6166912050' version='1' visible='true' lat='63.4184119' lon='10.3545492'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/6166912050.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/6166912050.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-53' version='0' action='modify' visible='true' lat='63.4435038' lon='10.4349928'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034901652. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034901652.'/>
+    <tag k='note' v='Centroid proxy for way/1034901652. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034901652.'/>
+    <tag k='note:osm_object' v='way/1034901652'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-54' version='0' action='modify' visible='true' lat='63.4434848' lon='10.4353901'>
+    <tag k='note:proposed' v='Centroid proxy for way/1034901651. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034901651.'/>
+    <tag k='note' v='Centroid proxy for way/1034901651. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1034901651.'/>
+    <tag k='note:osm_object' v='way/1034901651'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+  </node>
+  <node id='-55' version='0' action='modify' visible='true' lat='63.4273933' lon='10.4387620'>
+    <tag k='name' v='Cecilie Thoresens veg'/>
+    <tag k='note:proposed' v='Centroid proxy for way/1382645333. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1382645333.'/>
+    <tag k='note' v='Centroid proxy for way/1382645333. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1382645333.'/>
+    <tag k='note:osm_object' v='way/1382645333'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='-56' version='0' action='modify' visible='true' lat='63.4315440' lon='10.4420910'>
+    <tag k='note:proposed' v='Centroid proxy for way/1370355785. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1370355785.'/>
+    <tag k='note' v='Centroid proxy for way/1370355785. Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: way/1370355785.'/>
+    <tag k='note:osm_object' v='way/1370355785'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+  </node>
+  <node id='1599437480' version='1' visible='true' lat='63.4206358' lon='10.3445882'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1599437480.'/>
+    <tag k='note' v='Proposed: add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only. Existing OSM object: node/1599437480.'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-57' version='0' action='modify' visible='true' lat='61.4978201' lon='5.1358545'>
+    <tag k='name' v='Badestranda Leiren'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-58' version='0' action='modify' visible='true' lat='63.0057637' lon='7.7235611'>
+    <tag k='name' v='Borgstua på Kvernes Prestegård'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-59' version='0' action='modify' visible='true' lat='62.2533151' lon='5.5850209'>
+    <tag k='name' v='Brekkegarden pilegrimsherberge'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-60' version='0' action='modify' visible='true' lat='60.9838664' lon='5.0666969'>
+    <tag k='name' v='Dagsturhytta Gulakvila'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-61' version='0' action='modify' visible='true' lat='62.1022702' lon='5.3383185'>
+    <tag k='name' v='Dagsturhytta Havglimt'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-62' version='0' action='modify' visible='true' lat='61.1843165' lon='5.3427748'>
+    <tag k='name' v='Dagsturhytta Sørefjordhytta'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-63' version='0' action='modify' visible='true' lat='62.6573691' lon='7.3728435'>
+    <tag k='name' v='Fjøsen Bed &amp; make your own breakfast'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-64' version='0' action='modify' visible='true' lat='58.5440423' lon='5.6816364'>
+    <tag k='name' v='Friluftsfyret Kvassheim'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-65' version='0' action='modify' visible='true' lat='62.1237318' lon='5.3131256'>
+    <tag k='name' v='Fru Ingas Apartments'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-66' version='0' action='modify' visible='true' lat='63.6131966' lon='9.8531485'>
+    <tag k='name' v='Gapahuk i Fagerdalen'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-67' version='0' action='modify' visible='true' lat='63.0080037' lon='7.7164520'>
+    <tag k='name' v='Gapahuk på Kvernes'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-68' version='0' action='modify' visible='true' lat='63.5804899' lon='9.9561704'>
+    <tag k='name' v='Gjertrudstua'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-69' version='0' action='modify' visible='true' lat='61.1501971' lon='5.1780851'>
+    <tag k='name' v='Hatlems Hytter'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-70' version='0' action='modify' visible='true' lat='58.6135920' lon='5.6175515'>
+    <tag k='name' v='Huset ved havet'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-71' version='0' action='modify' visible='true' lat='62.0389756' lon='5.5217335'>
+    <tag k='name' v='Jetmund Gjesteheim'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+  </node>
+  <node id='-72' version='0' action='modify' visible='true' lat='62.2723994' lon='5.8258360'>
+    <tag k='name' v='Kjeldsund leirstad og gjestegard'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-73' version='0' action='modify' visible='true' lat='62.2227180' lon='5.5412259'>
+    <tag k='name' v='Kråen Gard'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-74' version='0' action='modify' visible='true' lat='63.0054590' lon='7.7218786'>
+    <tag k='name' v='Kvernes på Averøy | Nøkkelsted'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-75' version='0' action='modify' visible='true' lat='62.2792839' lon='5.6271238'>
+    <tag k='name' v='Kvile- og lesebu i Moltudalen'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-76' version='0' action='modify' visible='true' lat='59.3805140' lon='5.2371622'>
+    <tag k='name' v='Overnatting i stabbur med fire sengeplasser på Karmøy'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-77' version='0' action='modify' visible='true' lat='62.0445246' lon='5.3455867'>
+    <tag k='name' v='Pilegrimsherberge i Selje prestegard'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-78' version='0' action='modify' visible='true' lat='58.7680291' lon='5.5125448'>
+    <tag k='name' v='Reveparken hytteutleige - overnatting direkte ved Jærstrendene'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-79' version='0' action='modify' visible='true' lat='62.0457947' lon='5.3430192'>
+    <tag k='name' v='Seljebuda'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-80' version='0' action='modify' visible='true' lat='62.0448474' lon='5.3566106'>
+    <tag k='name' v='Sjøglytt'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-81' version='0' action='modify' visible='true' lat='63.8429407' lon='8.4470407'>
+    <tag k='name' v='Sula havglamping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-82' version='0' action='modify' visible='true' lat='62.0440852' lon='5.3432702'>
+    <tag k='name' v='Sætren Rorbuer'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-83' version='0' action='modify' visible='true' lat='59.7020599' lon='5.3826386'>
+    <tag k='name' v='Telegrafen - Moster Amfi'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-84' version='0' action='modify' visible='true' lat='62.0843660' lon='5.5781138'>
+    <tag k='name' v='Tunheimsfjøra logde'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-85' version='0' action='modify' visible='true' lat='63.5948164' lon='9.9625289'>
+    <tag k='name' v='Årnseth Gapahuk'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 10508888 (Kystpilegrimsleia). Do not modify existing members of relation 10508888 (Kystpilegrimsleia). Research aid only.'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <relation id='-86' version='0' action='modify' visible='true'>
+    <member type='node' ref='-1' role='shelter'/>
+    <member type='node' ref='11373501344' role='shelter'/>
+    <member type='node' ref='-2' role='shelter'/>
+    <member type='node' ref='156719769' role='shelter'/>
+    <member type='node' ref='9312886959' role='shelter'/>
+    <member type='node' ref='7093860786' role='shelter'/>
+    <member type='node' ref='-3' role='shelter'/>
+    <member type='node' ref='156719783' role='shelter'/>
+    <member type='node' ref='956343591' role='shelter'/>
+    <member type='node' ref='13009857691' role='shelter'/>
+    <member type='node' ref='-4' role='shelter'/>
+    <member type='node' ref='-5' role='shelter'/>
+    <member type='node' ref='-6' role='shelter'/>
+    <member type='node' ref='-7' role='shelter'/>
+    <member type='node' ref='-8' role='shelter'/>
+    <member type='node' ref='-9' role='shelter'/>
+    <member type='node' ref='-10' role='shelter'/>
+    <member type='node' ref='-11' role='shelter'/>
+    <member type='node' ref='956343622' role='shelter'/>
+    <member type='node' ref='2957446755' role='shelter'/>
+    <member type='node' ref='-12' role='shelter'/>
+    <member type='node' ref='4744954423' role='shelter'/>
+    <member type='node' ref='-13' role='shelter'/>
+    <member type='node' ref='-14' role='shelter'/>
+    <member type='node' ref='-15' role='shelter'/>
+    <member type='node' ref='-16' role='shelter'/>
+    <member type='node' ref='-17' role='shelter'/>
+    <member type='node' ref='-18' role='shelter'/>
+    <member type='node' ref='-19' role='shelter'/>
+    <member type='node' ref='-20' role='shelter'/>
+    <member type='node' ref='-21' role='shelter'/>
+    <member type='node' ref='-22' role='shelter'/>
+    <member type='node' ref='-23' role='shelter'/>
+    <member type='node' ref='-24' role='shelter'/>
+    <member type='node' ref='9153258063' role='shelter'/>
+    <member type='node' ref='156719797' role='shelter'/>
+    <member type='node' ref='-25' role='shelter'/>
+    <member type='node' ref='386579894' role='shelter'/>
+    <member type='node' ref='1667274373' role='shelter'/>
+    <member type='node' ref='-26' role='shelter'/>
+    <member type='node' ref='1769499181' role='shelter'/>
+    <member type='node' ref='156719791' role='shelter'/>
+    <member type='node' ref='-27' role='shelter'/>
+    <member type='node' ref='1513477025' role='shelter'/>
+    <member type='node' ref='-28' role='shelter'/>
+    <member type='node' ref='-29' role='shelter'/>
+    <member type='node' ref='-30' role='shelter'/>
+    <member type='node' ref='-31' role='shelter'/>
+    <member type='node' ref='-32' role='shelter'/>
+    <member type='node' ref='-33' role='shelter'/>
+    <member type='node' ref='-34' role='shelter'/>
+    <member type='node' ref='-35' role='shelter'/>
+    <member type='node' ref='-36' role='shelter'/>
+    <member type='node' ref='-37' role='shelter'/>
+    <member type='node' ref='11901478606' role='shelter'/>
+    <member type='node' ref='-38' role='shelter'/>
+    <member type='node' ref='-39' role='shelter'/>
+    <member type='node' ref='5370787854' role='shelter'/>
+    <member type='node' ref='-40' role='shelter'/>
+    <member type='node' ref='-41' role='shelter'/>
+    <member type='node' ref='5103482149' role='shelter'/>
+    <member type='node' ref='4951143059' role='shelter'/>
+    <member type='node' ref='5064717702' role='shelter'/>
+    <member type='node' ref='-42' role='shelter'/>
+    <member type='node' ref='-43' role='shelter'/>
+    <member type='node' ref='-44' role='shelter'/>
+    <member type='node' ref='-45' role='shelter'/>
+    <member type='node' ref='-46' role='shelter'/>
+    <member type='node' ref='-47' role='shelter'/>
+    <member type='node' ref='-48' role='shelter'/>
+    <member type='node' ref='-49' role='shelter'/>
+    <member type='node' ref='-50' role='shelter'/>
+    <member type='node' ref='2276076662' role='shelter'/>
+    <member type='node' ref='-51' role='shelter'/>
+    <member type='node' ref='-52' role='shelter'/>
+    <member type='node' ref='5614808713' role='shelter'/>
+    <member type='node' ref='5614808899' role='shelter'/>
+    <member type='node' ref='12041334693' role='shelter'/>
+    <member type='node' ref='5614808712' role='shelter'/>
+    <member type='node' ref='5585891813' role='shelter'/>
+    <member type='node' ref='12041334694' role='shelter'/>
+    <member type='node' ref='6166912050' role='shelter'/>
+    <member type='node' ref='-53' role='shelter'/>
+    <member type='node' ref='-54' role='shelter'/>
+    <member type='node' ref='-55' role='shelter'/>
+    <member type='node' ref='-56' role='shelter'/>
+    <member type='node' ref='1599437480' role='shelter'/>
+    <member type='node' ref='-57' role='shelter'/>
+    <member type='node' ref='-58' role='shelter'/>
+    <member type='node' ref='-59' role='shelter'/>
+    <member type='node' ref='-60' role='shelter'/>
+    <member type='node' ref='-61' role='shelter'/>
+    <member type='node' ref='-62' role='shelter'/>
+    <member type='node' ref='-63' role='shelter'/>
+    <member type='node' ref='-64' role='shelter'/>
+    <member type='node' ref='-65' role='shelter'/>
+    <member type='node' ref='-66' role='shelter'/>
+    <member type='node' ref='-67' role='shelter'/>
+    <member type='node' ref='-68' role='shelter'/>
+    <member type='node' ref='-69' role='shelter'/>
+    <member type='node' ref='-70' role='shelter'/>
+    <member type='node' ref='-71' role='shelter'/>
+    <member type='node' ref='-72' role='shelter'/>
+    <member type='node' ref='-73' role='shelter'/>
+    <member type='node' ref='-74' role='shelter'/>
+    <member type='node' ref='-75' role='shelter'/>
+    <member type='node' ref='-76' role='shelter'/>
+    <member type='node' ref='-77' role='shelter'/>
+    <member type='node' ref='-78' role='shelter'/>
+    <member type='node' ref='-79' role='shelter'/>
+    <member type='node' ref='-80' role='shelter'/>
+    <member type='node' ref='-81' role='shelter'/>
+    <member type='node' ref='-82' role='shelter'/>
+    <member type='node' ref='-83' role='shelter'/>
+    <member type='node' ref='-84' role='shelter'/>
+    <member type='node' ref='-85' role='shelter'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Proposed additions to Kystpilegrimsleia'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:target_osm_relation' v='10508888'/>
+    <tag k='source' v='openstreetmap.org/relation/10508888'/>
+    <tag k='note' v='LOCAL research relation listing objects missing from OSM relation 10508888. Does not modify the existing OSM relation. Each proposed POI carries note:proposed. Not an import.'/>
+  </relation>
+</osm>

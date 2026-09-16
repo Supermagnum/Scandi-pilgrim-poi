@@ -1,0 +1,28 @@
+{
+  "folder": "Romboleden",
+  "trail": "Romboleden",
+  "osm_relation": 1151161,
+  "osm_url": "https://www.openstreetmap.org/relation/1151161",
+  "relation_tags": {
+    "colour": "#FF0000",
+    "description": "Romboleden är en pilgrimsled som sträcker sig från Köping till Trondheim. Rombo betyder ”vilda landet norr om Mälaren”.",
+    "name": "Romboleden",
+    "network": "rwn",
+    "route": "hiking",
+    "symbol": "White background with red St:Olofscross and grey St:Hanscross",
+    "type": "route",
+    "website": "https://www.svenskakyrkan.se/romboleden",
+    "wikidata": "Q116785357"
+  },
+  "visited_relations": [
+    1151161
+  ],
+  "existing_osm_relation_members": 1124,
+  "osm_along_route": 441,
+  "osm_already_related": 0,
+  "osm_missing_for_relation": 441,
+  "cms_shelters": 9,
+  "cms_gaps": 5,
+  "shelters_with_proposal_note": 9,
+  "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+}

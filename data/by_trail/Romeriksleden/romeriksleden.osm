@@ -6280,6 +6280,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9064'/>
     <tag k='pilegrimsleden:poi_type' v='Rasteplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
@@ -6293,6 +6295,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9061'/>
     <tag k='pilegrimsleden:poi_type' v='Rasteplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
@@ -6306,6 +6310,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10933'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Rom og hytter;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3136' version='0' action='modify' visible='true' lat='60.8350473' lon='11.0091287'>
@@ -6317,6 +6323,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='77660'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6330,6 +6338,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10928'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/3123089878.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/3123089878.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6342,6 +6352,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10891'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/1857875111.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/1857875111.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6354,6 +6366,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='290822'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6367,6 +6381,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9845'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6380,6 +6396,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9374'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6392,6 +6410,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='88695'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6405,6 +6425,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10915'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/3108302194.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/3108302194.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6417,6 +6439,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10903'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6429,6 +6453,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='560431'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6441,6 +6467,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9067'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6453,6 +6481,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='536962'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/935154764.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/935154764.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6465,6 +6495,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9517'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Rom og hytter;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3149' version='0' action='modify' visible='true' lat='60.8194663' lon='11.0447107'>
@@ -6476,6 +6508,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10910'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6488,6 +6522,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9502'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6500,6 +6536,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='8951'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Rom og hytter;Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6512,6 +6550,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='176573'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6525,6 +6565,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='88442'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
   </node>
@@ -6537,6 +6579,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='536836'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6549,6 +6593,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='311643'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6561,6 +6607,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='163050'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge;Rom og hytter'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6574,6 +6622,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='97143'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Campingplass;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='camp_site'/>
   </node>
   <node id='-3158' version='0' action='modify' visible='true' lat='60.7586363' lon='11.0800342'>
@@ -6585,6 +6635,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='505413'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6597,6 +6649,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='184805'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk;Pilegrimsbu'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6609,6 +6663,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='289841'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6621,6 +6677,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9769'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/98811698.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/98811698.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6633,6 +6691,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10899'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/707911531.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/707911531.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6645,6 +6705,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10935'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/98520866.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/98520866.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6657,6 +6719,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10369'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6669,6 +6733,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='456583'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/441003980.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/441003980.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6681,6 +6747,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9341'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/137055507.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/137055507.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6693,6 +6761,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10913'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6705,6 +6775,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='225901'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6718,6 +6790,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9572'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
   </node>
@@ -6730,6 +6804,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='553750'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6743,6 +6819,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10930'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/255177782.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/255177782.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6755,6 +6833,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9327'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/136363816.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/136363816.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6767,6 +6847,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='343118'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/1543158035.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/1543158035.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6779,6 +6861,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='509484'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6791,6 +6875,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='499764'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6803,6 +6889,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='11023'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/690696766.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/690696766.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6815,6 +6903,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='47499'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6763239301.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6763239301.'/>
     <tag k='tourism' v='guest_house'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Overnatting'/>
   </node>
@@ -6827,6 +6917,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='437879'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6840,6 +6932,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9291'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6812447357.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6812447357.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6853,6 +6947,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10894'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Campingplass;Rom og hytter;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/751244262.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/751244262.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3181' version='0' action='modify' visible='true' lat='60.7621526' lon='11.0896601'>
@@ -6864,6 +6960,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9541'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6800398116.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6800398116.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6877,6 +6975,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='289705'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/315143760.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/315143760.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6889,6 +6989,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='333076'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/10857479543.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/10857479543.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6901,6 +7003,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9070'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/937852318.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/937852318.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -6913,6 +7017,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='11036'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Vandrerhjem'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6808271336.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6808271336.'/>
     <tag k='tourism' v='hostel'/>
   </node>
   <node id='-3186' version='0' action='modify' visible='true' lat='60.4573308' lon='11.2933901'>
@@ -6924,6 +7030,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10381'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Rom og hytter'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/849994019.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/849994019.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3187' version='0' action='modify' visible='true' lat='60.9158586' lon='10.7003821'>
@@ -6935,6 +7043,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10897'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Rom og hytter;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/370747016.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/370747016.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3188' version='0' action='modify' visible='true' lat='60.7615625' lon='11.0810623'>
@@ -6946,6 +7056,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='338144'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/10911645404.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/10911645404.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
@@ -6959,6 +7071,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='10363'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Campingplass;Rom og hytter;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/153674479.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: way/153674479.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3190' version='0' action='modify' visible='true' lat='59.9992729' lon='11.0822464'>
@@ -6970,6 +7084,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9520'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Rom og hytter;Teltplass'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/8018787776.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/8018787776.'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-3191' version='0' action='modify' visible='true' lat='61.1159737' lon='10.4709911'>
@@ -6981,6 +7097,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9316'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Vandrerhjem'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6808271314.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/6808271314.'/>
     <tag k='tourism' v='hostel'/>
   </node>
   <node id='-3192' version='0' action='modify' visible='true' lat='59.9663388' lon='10.9423496'>
@@ -6992,6 +7110,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9073'/>
     <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/1931260548.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/1931260548.'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
@@ -7004,6 +7124,8 @@
     <tag k='note:osm_route_relation' v='1200009'/>
     <tag k='pilegrimsleden:id' v='9898'/>
     <tag k='pilegrimsleden:poi_type' v='Overnatting;Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/4802937315.'/>
+    <tag k='note' v='Proposed: add as member of relation 1200009 (Romeriksleden). Do not modify existing members of relation 1200009 (Romeriksleden). Research aid only. Existing OSM object: node/4802937315.'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>

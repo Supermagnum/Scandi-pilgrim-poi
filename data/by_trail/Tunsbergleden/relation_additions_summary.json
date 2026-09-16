@@ -1,0 +1,29 @@
+{
+  "folder": "Tunsbergleden",
+  "trail": "Tunsbergleden / Vestfoldveien",
+  "osm_relation": 5661086,
+  "osm_url": "https://www.openstreetmap.org/relation/5661086",
+  "relation_tags": {
+    "name": "Vestfoldveien",
+    "network": "nwn",
+    "note": "Pilgrimspath from Tunisberg (Tønsberg) to Oslo; mapped to Øverland; from here same route as Gudbrandsdalsleden to Oslo",
+    "osmc:symbol": "red:red_frame:red_cross",
+    "pilgrimage": "yes",
+    "religion": "christian",
+    "route": "hiking",
+    "symbol": "red_cross",
+    "type": "route",
+    "website": "http://www.pilegrim.no/page.php?id=1427368483"
+  },
+  "visited_relations": [
+    5661086
+  ],
+  "existing_osm_relation_members": 687,
+  "osm_along_route": 178,
+  "osm_already_related": 0,
+  "osm_missing_for_relation": 178,
+  "cms_shelters": 33,
+  "cms_gaps": 18,
+  "shelters_with_proposal_note": 33,
+  "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+}

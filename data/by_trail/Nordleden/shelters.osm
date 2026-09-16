@@ -12,6 +12,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='1585449'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/14086452092.'/>
+    <tag k='note' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/14086452092.'/>
   </node>
   <node id='-2' version='0' action='modify' visible='true' lat='63.7739444' lon='11.5785734'>
     <tag k='name' v='Stiklestad Camping'/>
@@ -23,6 +25,8 @@
     <tag k='pilegrimsleden:id' v='262559'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='1585449'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/3663316782.'/>
+    <tag k='note' v='Proposed: add as member of relation 1585449 (Nordleden). Do not modify existing members of relation 1585449 (Nordleden). Research aid only. Existing OSM object: node/3663316782.'/>
   </node>
   <relation id='-3' version='0' action='modify' visible='true'>
     <member type='node' ref='-1' role='shelter'/>

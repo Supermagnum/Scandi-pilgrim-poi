@@ -12,6 +12,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-2' version='0' action='modify' visible='true' lat='59.3783077' lon='10.4655385'>
     <tag k='name' v='Borre Familie Camping'/>
@@ -23,6 +25,8 @@
     <tag k='pilegrimsleden:id' v='450765'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/561884725.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/561884725.'/>
   </node>
   <node id='-3' version='0' action='modify' visible='true' lat='59.5329700' lon='10.2393100'>
     <tag k='name' v='Brannåsen'/>
@@ -34,6 +38,8 @@
     <tag k='pilegrimsleden:id' v='496948'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-4' version='0' action='modify' visible='true' lat='59.9273939' lon='10.7668296'>
     <tag k='name' v='Bunks at Rode'/>
@@ -47,6 +53,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/2790244101.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/2790244101.'/>
   </node>
   <node id='-5' version='0' action='modify' visible='true' lat='59.1458796' lon='10.3125662'>
     <tag k='name' v='Engøy gjestegård'/>
@@ -60,6 +68,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-6' version='0' action='modify' visible='true' lat='59.9238617' lon='10.6365279'>
     <tag k='name' v='Fuglesang herberge'/>
@@ -73,6 +83,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-7' version='0' action='modify' visible='true' lat='59.8486197' lon='10.4462707'>
     <tag k='name' v='Gapahuk ved Solgården'/>
@@ -85,6 +97,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/960805989.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/960805989.'/>
   </node>
   <node id='-8' version='0' action='modify' visible='true' lat='59.7649537' lon='10.3759217'>
     <tag k='name' v='Gapahuk ved Stordammen'/>
@@ -97,6 +111,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-9' version='0' action='modify' visible='true' lat='59.9338221' lon='10.5539131'>
     <tag k='name' v='Gardlaus Markastue og pilegrimsherberge'/>
@@ -108,6 +124,8 @@
     <tag k='pilegrimsleden:id' v='8964'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-10' version='0' action='modify' visible='true' lat='59.0214358' lon='10.0719031'>
     <tag k='name' v='Gon Camping'/>
@@ -119,6 +137,8 @@
     <tag k='pilegrimsleden:id' v='522174'/>
     <tag k='tourism' v='camp_site'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/3663315018.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/3663315018.'/>
   </node>
   <node id='-11' version='0' action='modify' visible='true' lat='59.2378550' lon='10.3995218'>
     <tag k='name' v='Grillhytta på Labakken'/>
@@ -131,6 +151,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/12204728472.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/12204728472.'/>
   </node>
   <node id='-12' version='0' action='modify' visible='true' lat='59.7542118' lon='10.1912597'>
     <tag k='name' v='Hamborgstrømpaviljongen'/>
@@ -142,6 +164,8 @@
     <tag k='pilegrimsleden:id' v='498084'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/9797299419.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/9797299419.'/>
   </node>
   <node id='-13' version='0' action='modify' visible='true' lat='59.4545863' lon='10.2478324'>
     <tag k='name' v='Kaupang gård'/>
@@ -155,6 +179,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-14' version='0' action='modify' visible='true' lat='59.3830525' lon='10.4599826'>
     <tag k='name' v='Kirkebakken Borre - midlertidig stengt'/>
@@ -168,6 +194,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-15' version='0' action='modify' visible='true' lat='59.1647995' lon='10.3601503'>
     <tag k='name' v='Kjølholmen på Veierland'/>
@@ -180,6 +208,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-16' version='0' action='modify' visible='true' lat='59.4189000' lon='10.4392000'>
     <tag k='name' v='Knutserød ved Borrevannet'/>
@@ -192,6 +222,8 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/4341903601.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/4341903601.'/>
   </node>
   <node id='-17' version='0' action='modify' visible='true' lat='59.0200560' lon='10.0705830'>
     <tag k='name' v='Kystledhytta Gon'/>
@@ -203,6 +235,8 @@
     <tag k='pilegrimsleden:id' v='527325'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/3663315018.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/3663315018.'/>
   </node>
   <node id='-18' version='0' action='modify' visible='true' lat='59.4454720' lon='10.4550560'>
     <tag k='name' v='Kystledhytta Løvøysund'/>
@@ -214,6 +248,8 @@
     <tag k='pilegrimsleden:id' v='527413'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/1356458508.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/1356458508.'/>
   </node>
   <node id='-19' version='0' action='modify' visible='true' lat='59.3891670' lon='10.4767220'>
     <tag k='name' v='Kystledhytta på Langgrunn'/>
@@ -225,6 +261,8 @@
     <tag k='pilegrimsleden:id' v='527491'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/9833704334.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/9833704334.'/>
   </node>
   <node id='-20' version='0' action='modify' visible='true' lat='59.1733211' lon='10.3677163'>
     <tag k='name' v='Kystledhytta Søndre Tenvik'/>
@@ -236,6 +274,8 @@
     <tag k='pilegrimsleden:id' v='527381'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/1356459151.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/1356459151.'/>
   </node>
   <node id='-21' version='0' action='modify' visible='true' lat='59.8712779' lon='10.7156181'>
     <tag k='name' v='Langøyene camping'/>
@@ -248,6 +288,8 @@
     <tag k='tourism' v='camp_site'/>
     <tag k='tents' v='yes'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/1547711866.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/1547711866.'/>
   </node>
   <node id='-22' version='0' action='modify' visible='true' lat='59.8094600' lon='10.3752500'>
     <tag k='name' v='Lavvoen Biggen'/>
@@ -261,6 +303,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-23' version='0' action='modify' visible='true' lat='59.5465987' lon='10.2130151'>
     <tag k='name' v='Orebergvannet lavvo ved Veseterstulen'/>
@@ -274,6 +318,8 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rasteplass'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/896193087.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: way/896193087.'/>
   </node>
   <node id='-24' version='0' action='modify' visible='true' lat='59.4289637' lon='10.4461367'>
     <tag k='name' v='Orrfuglstua pilegrimsherberge'/>
@@ -287,6 +333,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-25' version='0' action='modify' visible='true' lat='59.2778261' lon='10.4416313'>
     <tag k='name' v='Poppel pilegrimsherberge'/>
@@ -300,6 +348,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-26' version='0' action='modify' visible='true' lat='59.1341390' lon='10.2393160'>
     <tag k='name' v='Preståsen pilegrimsherberge'/>
@@ -313,6 +363,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-27' version='0' action='modify' visible='true' lat='59.7465420' lon='10.3882478'>
     <tag k='name' v='Røyken Menighetshus'/>
@@ -326,6 +378,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-28' version='0' action='modify' visible='true' lat='59.5907643' lon='10.2088204'>
     <tag k='name' v='Sande overnatting'/>
@@ -339,6 +393,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-29' version='0' action='modify' visible='true' lat='59.7862200' lon='10.3764400'>
     <tag k='name' v='Småvannsbu'/>
@@ -350,6 +406,8 @@
     <tag k='pilegrimsleden:id' v='365350'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/343508885.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/343508885.'/>
   </node>
   <node id='-30' version='0' action='modify' visible='true' lat='59.5351110' lon='10.2255638'>
     <tag k='name' v='Tyristua'/>
@@ -361,6 +419,8 @@
     <tag k='pilegrimsleden:id' v='496874'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-31' version='0' action='modify' visible='true' lat='59.1574859' lon='10.3536489'>
     <tag k='name' v='Veierland skole'/>
@@ -372,6 +432,8 @@
     <tag k='pilegrimsleden:id' v='527447'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <node id='-32' version='0' action='modify' visible='true' lat='59.8094466' lon='10.4196783'>
     <tag k='name' v='Wentzelhytta'/>
@@ -383,6 +445,8 @@
     <tag k='pilegrimsleden:id' v='382291'/>
     <tag k='tourism' v='chalet'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/9810716523.'/>
+    <tag k='note' v='Proposed: add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only. Existing OSM object: node/9810716523.'/>
   </node>
   <node id='-33' version='0' action='modify' visible='true' lat='59.9221295' lon='10.8198166'>
     <tag k='name' v='Østre Aker pilegrimsherberge'/>
@@ -396,6 +460,8 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
       <tag k='note:osm_route_relation' v='5661086'/>
+      <tag k='note:proposed' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
+    <tag k='note' v='Proposed: create OSM object and add as member of relation 5661086 (Tunsbergleden / Vestfoldveien). Do not modify existing members of relation 5661086 (Tunsbergleden / Vestfoldveien). Research aid only.'/>
   </node>
   <relation id='-34' version='0' action='modify' visible='true'>
     <member type='node' ref='-1' role='shelter'/>
