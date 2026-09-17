@@ -909,7 +909,7 @@
     <member type='node' ref='-272' role='proposed'/>
     <member type='node' ref='-273' role='proposed'/>
     <tag k='type' v='site'/>
-    <tag k='name' v='Kystpilegrimsleia (path + existing POIs + suggestions)'/>
+    <tag k='name' v='Kystpilegrimsleia'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='note' v='Single JOSM research file: path, existing overnight POIs, and new suggestions. Only role=proposed nodes have note:proposed=Proposed addition. Not an OSM import.'/>

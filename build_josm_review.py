@@ -253,13 +253,13 @@ def write_trail_osm(
         lines.append(f"    <member type='node' ref='{nid}' role='proposed'/>")
     for key, value in [
         ("type", "site"),
-        ("name", f"{trail_name} (path + existing POIs + suggestions)"),
+        ("name", trail_name),
         ("network", "Pilegrimsleden"),
         ("note:trail", trail_name),
         (
             "note",
-            "Single JOSM research file: path, existing overnight POIs, and new "
-            f"suggestions. Only role=proposed nodes have note:proposed={PROPOSED_ADDITION}. "
+            "Local research site relation grouping path, existing overnight POIs, "
+            f"and new suggestions. Only role=proposed nodes have note:proposed={PROPOSED_ADDITION}. "
             "Not an OSM import.",
         ),
     ]:

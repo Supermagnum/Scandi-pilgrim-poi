@@ -14496,7 +14496,7 @@
     <member type='node' ref='-7074' role='proposed'/>
     <member type='node' ref='-7075' role='proposed'/>
     <tag k='type' v='site'/>
-    <tag k='name' v='Østerdalsleden (path + existing POIs + suggestions)'/>
+    <tag k='name' v='Østerdalsleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
     <tag k='note' v='Single JOSM research file: path, existing overnight POIs, and new suggestions. Only role=proposed nodes have note:proposed=Proposed addition. Not an OSM import.'/>
