@@ -56,9 +56,11 @@ For each trail with a known OSM route relation, discovery:
 1. Treats existing members of that relation as already related and **never
    modifies** them.
 2. Lists nearby lodging/shelter OSM objects that are **not** members in
-   `osm_missing_for_relation.csv` (CSV research only; not a second OSM file).
+   national research outputs / summary JSON (not in the JOSM trail folder).
 3. CMS overnight **gaps** appear in `trail.osm` as new suggestions tagged
-   `note:proposed=Proposed addition`. Existing matched POIs have no that tag.
+   `note:proposed=Proposed addition`. Existing POIs have no that tag.
+   Research keys such as `pilegrimsleden:match_status` are never written to
+   `trail.osm`.
 
 Most pilgrim route relations currently contain path ways only, so lodging
 `already_member` counts are typically zero; the CSV missing lists are proposals
@@ -87,18 +89,14 @@ See `data/by_trail/README.md` and `data/relation_additions_all_trails_summary.js
 ```
 data/
   by_trail/<TrailName>/
-    trail.osm                    # ONLY OSM file: path + existing POIs + new suggestions
-    shelters.csv                 # overnight/shelter POIs + OSM match + proposal_note
-    pilgrim_centers.csv          # pilgrim-center / stamp-office comparison
-    osm_along_route.csv          # lodging near route (membership status)
-    osm_already_related.csv      # already members of the OSM route relation
-    osm_missing_for_relation.csv # near route, not on relation (CSV research)
-    relation_additions_summary.json
-    hiking_path.gpx              # optional path cache (not needed in JOSM)
-    horseback_path.gpx           # St. Olavsleden only: horseback GPX
-    horseback_service_points.csv # St. Olavsleden only: farrier/vet POIs
-  relation_additions_all_trails_summary.json
+    trail.osm           # ONLY OSM file: path + existing POIs + new suggestions
+    README.md           # short trail notes (replaces per-trail CSV dumps)
+    hiking_path.gpx     # optional path cache
+    horseback_path.gpx  # St. Olavsleden only
   osm_comparison_results.csv
+  pilegrimsleden_shelters_by_trail.csv
+  pilgrim_centers.csv
+  relation_additions_all_trails_summary.json
   pilegrimsleden_shelters.osm    # national combined extract (not per-trail)
   changeset_187258738_reference.json
   stolavsleden_api_reference.json
@@ -112,31 +110,28 @@ scripts (repo root):
   discover_map_api.py
 ```
 
-Each trail folder has **exactly one** `.osm` file: `trail.osm`. It includes a
-local JOSM `type=site` relation with roles `path`, `existing`, and `proposed`.
-Only suggested (gap) nodes carry `note:proposed=Proposed addition`.
+Each trail folder has **exactly one** `.osm` file: `trail.osm`, plus a short
+`README.md`. The OSM file must not carry research keys such as
+`pilegrimsleden:match_status`. Only suggested nodes use
+`note:proposed=Proposed addition`.
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
-`St-Olavsleden`. The original trail name remains in CSV `trail` / OSM
-`note:trail`. St. Olavsleden merges NO + SE POIs; use the `country` column to
-filter.
+`St-Olavsleden`. St. Olavsleden merges NO + SE POIs in `trail.osm`.
 
 ## How to use in JOSM
 
-Open this file for the trail you want to work on:
+Open:
 
 `data/by_trail/<TrailName>/trail.osm`
 
-It is the only OSM file in the folder. It contains:
+It contains:
 
-1. **Path** — research geometry from the OSM route relation (or official GPX).
-2. **Existing POIs** — CMS overnight stops already matched in OSM
-   (`match_status` matched/possible). **No** `note:proposed`.
-3. **New suggestions** — CMS overnight stops with no suitable OSM object
-   (`match_status=gap`). **Only these** have `note:proposed=Proposed addition`.
+1. **Path**
+2. **Existing POIs** (already in OSM) — no `note:proposed`
+3. **New suggestions** — only these have `note:proposed=Proposed addition`
 
-In JOSM, search `note:proposed=Proposed addition` to show only suggestions.
-Relation member roles are `path`, `existing`, and `proposed`.
+Search: `note:proposed=Proposed addition`. Relation roles: `path`, `existing`,
+`proposed`. See the trail folder `README.md` for counts and suggestion names.
 
 ### Workflow
 
@@ -147,16 +142,9 @@ Relation member roles are `path`, `existing`, and `proposed`.
    on the ground or with current local sources.
 4. Do not bulk-upload these nodes.
 
-### match_status meanings
-
-| status | meaning |
-| --- | --- |
-| matched | Compatible OSM object within 100 m (closest wins within 250 m) |
-| possible | Candidate within 100–250 m, or weak/incompatible tags |
-| gap | No suitable OSM object within 250 m — `note:proposed=Proposed addition` in `trail.osm` |
-
 Pilgrim-center matching uses any OSM node/way with `pilgrimage=*` (including way
 centroids), not only `tourism=information` + `information=office`.
+
 
 ## Important: not an OSM import
 

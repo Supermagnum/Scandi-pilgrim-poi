@@ -484,9 +484,37 @@ def patch_shelters_osm_notes(
 
 
 def load_shelters(trail_dir: Path) -> list[dict[str, str]]:
-    path = trail_dir / "shelters.csv"
-    with path.open(encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+    """Load shelter rows from research cache, trail folder, or national CSV."""
+    root = trail_dir.parent.parent  # data/
+    folder = trail_dir.name
+    candidates = [
+        root / "research_by_trail" / folder / "shelters.csv",
+        trail_dir / "shelters.csv",
+        root / "osm_comparison_results.csv",
+    ]
+    trail_name = TRAIL_RELATIONS.get(folder, (folder, 0))[0]
+    aliases = {folder, trail_name}
+    if folder == "Osterdalsleden":
+        aliases.add("Østerdalsleden")
+    if folder == "St-Olavsleden":
+        aliases.update({"St. Olavsleden", "St Olavsleden"})
+    for path in candidates:
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+        if path.name == "osm_comparison_results.csv":
+            rows = [r for r in rows if (r.get("trail") or "") in aliases]
+        if rows:
+            return rows
+    return []
+
+
+def research_dir_for(trail_dir: Path) -> Path:
+    """CSV research dumps live outside the JOSM trail folder."""
+    out = trail_dir.parent.parent / "research_by_trail" / trail_dir.name
+    out.mkdir(parents=True, exist_ok=True)
+    return out
 
 
 def process_trail(
@@ -600,19 +628,20 @@ def process_trail(
             (r.get("name") or "").lower(),
         )
     )
-    write_csv(trail_dir / "osm_along_route.csv", along_tagged, along_fields)
-    write_csv(trail_dir / "osm_already_related.csv", already, along_fields)
-    write_csv(trail_dir / "osm_missing_for_relation.csv", missing, along_fields)
+    research_dir = research_dir_for(trail_dir)
+    write_csv(research_dir / "osm_along_route.csv", along_tagged, along_fields)
+    write_csv(research_dir / "osm_already_related.csv", already, along_fields)
+    write_csv(research_dir / "osm_missing_for_relation.csv", missing, along_fields)
 
     shelter_fields = list(shelters[0].keys()) if shelters else []
     if "proposal_note" not in shelter_fields:
         shelter_fields.append("proposal_note")
-    write_csv(trail_dir / "shelters.csv", shelters, shelter_fields)
+    write_csv(research_dir / "shelters.csv", shelters, shelter_fields)
 
     cms_gaps = [r for r in shelters if r.get("match_status") == "gap"]
     log(
-        f"CSV membership outputs written; CMS gaps={len(cms_gaps)}. "
-        "Run build_josm_review.py to rebuild the single trail.osm per folder."
+        f"CSV research outputs written under {research_dir}; CMS gaps={len(cms_gaps)}. "
+        "Run build_josm_review.py to rebuild trail.osm + README (no CSVs in trail folder)."
     )
 
     summary = {
@@ -632,12 +661,12 @@ def process_trail(
             1 for r in shelters if (r.get("proposal_note") or "").strip()
         ),
         "policy": (
-            "Never modify existing OSM relation members. CSV lists missing nearby "
-            "lodging; rebuild trail.osm with build_josm_review.py (path + existing "
-            "POIs + gap suggestions only)."
+            "Never modify existing OSM relation members. CSV research lives under "
+            "data/research_by_trail/; trail folders only get trail.osm + README "
+            "from build_josm_review.py."
         ),
     }
-    (trail_dir / "relation_additions_summary.json").write_text(
+    (research_dir / "relation_additions_summary.json").write_text(
         json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
     return summary

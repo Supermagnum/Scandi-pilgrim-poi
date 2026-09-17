@@ -12143,7 +12143,6 @@
     <tag k='name' v='Valldalsleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
     <tag k='note' v='Research path from OSM route relation / official GPX; do not upload as a replacement of the real relation.'/>
   </way>
   <node id='-6071' version='0' action='modify' visible='true' lat='62.2276702' lon='8.4231037'>
@@ -12151,10 +12150,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='way/304849086'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/way/304849086'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6072' version='0' action='modify' visible='true' lat='62.2533484' lon='8.2164860'>
@@ -12162,23 +12157,14 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge;Vandrerhjem;Campingplass;Rom og hytter;Teltplass'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='way/306894609'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/way/306894609'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
-    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
   </node>
   <node id='-6073' version='0' action='modify' visible='true' lat='62.0726800' lon='9.1202563'>
     <tag k='name' v='Dombås gard'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='node/3663314565'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663314565'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6074' version='0' action='modify' visible='true' lat='62.3288582' lon='7.4704021'>
@@ -12186,10 +12172,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='node/3663315238'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663315238'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6075' version='0' action='modify' visible='true' lat='62.1145350' lon='8.8378280'>
@@ -12197,10 +12179,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='node/6808271301'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/6808271301'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6076' version='0' action='modify' visible='true' lat='62.2303184' lon='8.4064592'>
@@ -12208,10 +12186,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='way/305044838'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/way/305044838'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6077' version='0' action='modify' visible='true' lat='62.0798430' lon='9.1229175'>
@@ -12219,10 +12193,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Campingplass;Rom og hytter;Teltplass'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='node/3663315937'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663315937'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6078' version='0' action='modify' visible='true' lat='62.3211459' lon='7.6662683'>
@@ -12230,10 +12200,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='node/1356403693'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/1356403693'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6079' version='0' action='modify' visible='true' lat='62.1194271' lon='8.8028384'>
@@ -12241,10 +12207,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='matched'/>
-    <tag k='note:osm_object' v='node/6808271313'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/6808271313'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6080' version='0' action='modify' visible='true' lat='62.0707621' lon='9.1316986'>
@@ -12252,10 +12214,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
-    <tag k='pilegrimsleden:match_status' v='possible'/>
-    <tag k='note:osm_object' v='node/12115211607'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/12115211607'/>
     <tag k='tourism' v='camp_site'/>
   </node>
   <node id='-6081' version='0' action='modify' visible='true' lat='62.3138027' lon='7.2913170'>
@@ -12263,10 +12221,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Vandrerhjem'/>
-    <tag k='pilegrimsleden:match_status' v='possible'/>
-    <tag k='note:osm_object' v='node/3663317727'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663317727'/>
     <tag k='tourism' v='hostel'/>
   </node>
   <node id='-6082' version='0' action='modify' visible='true' lat='62.0775638' lon='9.1442798'>
@@ -12274,10 +12228,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='possible'/>
-    <tag k='note:osm_object' v='node/14049320618'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/14049320618'/>
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6083' version='0' action='modify' visible='true' lat='62.2696151' lon='7.8359985'>
@@ -12285,10 +12235,6 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Vandrerhjem;Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='possible'/>
-    <tag k='note:osm_object' v='node/837453934'/>
-    <tag k='url:osm' v='https://www.openstreetmap.org/node/837453934'/>
     <tag k='tourism' v='hostel'/>
   </node>
   <node id='-6084' version='0' action='modify' visible='true' lat='62.3025138' lon='7.2558082'>
@@ -12296,101 +12242,73 @@
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Campingplass;Teltplass'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='camp_site'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6085' version='0' action='modify' visible='true' lat='62.2350940' lon='8.3063111'>
     <tag k='name' v='Gammelstuggu'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6086' version='0' action='modify' visible='true' lat='62.2998853' lon='7.2951452'>
     <tag k='name' v='Klosteret av Den Hellige Olav'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
-    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6087' version='0' action='modify' visible='true' lat='62.2695601' lon='8.0741358'>
     <tag k='name' v='Koia - Hytte i Verma'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6088' version='0' action='modify' visible='true' lat='62.1923994' lon='8.5405803'>
     <tag k='name' v='Kvennbekkhytta (stengt)'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6089' version='0' action='modify' visible='true' lat='62.1182020' lon='8.8533729'>
     <tag k='name' v='Lesja Gjestgiveri'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6090' version='0' action='modify' visible='true' lat='62.1200643' lon='8.6512083'>
     <tag k='name' v='Lorkverna'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6091' version='0' action='modify' visible='true' lat='62.2991634' lon='7.2549677'>
     <tag k='name' v='Muri hytteutleige'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <node id='-6092' version='0' action='modify' visible='true' lat='62.2390944' lon='8.3011685'>
     <tag k='name' v='Sør-Einbu'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
-    <tag k='pilegrimsleden:match_status' v='gap'/>
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
   </node>
   <relation id='-6093' version='0' action='modify' visible='true'>
     <member type='way' ref='-6070' role='path'/>
@@ -12420,7 +12338,6 @@
     <tag k='name' v='Valldalsleden (path + existing POIs + suggestions)'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='note:osm_route_relation' v='11218584'/>
     <tag k='note' v='Single JOSM research file: path, existing overnight POIs, and new suggestions. Only role=proposed nodes have note:proposed=Proposed addition. Not an OSM import.'/>
   </relation>
 </osm>

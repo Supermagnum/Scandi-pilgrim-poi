@@ -1,2 +1,0 @@
-trail,poi_name,category,lat,lon,match_status,matched_osm_id,matched_osm_url,distance_m,tag_diff
-Romboleden,Pilegrimsmottak,Turistinformasjon | Aktivitet | Sted,63.4265962,10.3999933,matched,way/167823309,https://www.openstreetmap.org/way/167823309,4.3,tourism=guest_house; pilgrimage=stamp_office; building=retail; checkpoint:type=stamp

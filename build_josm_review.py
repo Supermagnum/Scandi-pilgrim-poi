@@ -3,10 +3,12 @@
 
 trail.osm contains:
   - trail path
-  - existing CMS overnight POIs (matched/possible) — no note:proposed
+  - existing CMS overnight POIs (already in OSM) — no note:proposed
   - new suggestions (CMS gaps) — note:proposed=Proposed addition
 
-Removes any other *.osm files in each trail folder.
+Does not write research tags such as pilegrimsleden:match_status into the OSM file.
+Replaces per-trail CSV/JSON research dumps with a short README.md, then removes
+those CSV/JSON files from the trail folder.
 """
 
 from __future__ import annotations
@@ -34,6 +36,12 @@ from propose_relation_additions import (
 
 PROPOSED_ADDITION = "Proposed addition"
 TRAIL_OSM_NAME = "trail.osm"
+
+# Research dumps replaced by README.md (removed after README is written).
+RESEARCH_GLOBS = (
+    "*.csv",
+    "relation_additions_summary.json",
+)
 
 
 def log(message: str) -> None:
@@ -92,7 +100,6 @@ def write_gpx(path: Path, points: list[tuple[float, float]], trail_name: str) ->
 def ensure_path_points(
     trail_dir: Path, trail_name: str, relation_id: int
 ) -> list[tuple[float, float]]:
-    # Prefer existing trail.osm path, then legacy hiking_path.*, then OSM API.
     for candidate in (
         trail_dir / TRAIL_OSM_NAME,
         trail_dir / "josm_review.osm",
@@ -138,6 +145,7 @@ def ensure_path_points(
 
 
 def shelter_tags_for_row(row: dict[str, str], *, proposed: bool) -> list[tuple[str, str]]:
+    """OSM tags suitable for JOSM — no research/match_status keys."""
     cats = [c.strip() for c in (row.get("category") or "").split("|") if c.strip()]
     primary = (
         primary_category(cats)
@@ -146,27 +154,15 @@ def shelter_tags_for_row(row: dict[str, str], *, proposed: bool) -> list[tuple[s
     )
     if primary == "Overnatting":
         mapping: list[tuple[str, str]] = [("tourism", "guest_house")]
-        uncertain = True
     else:
-        mapping, uncertain = osm_tags_for_category(primary)
+        mapping, _uncertain = osm_tags_for_category(primary)
     tags: list[tuple[str, str]] = [
         ("name", row.get("poi_name") or ""),
         ("source", "pilegrimsleden.no"),
         ("network", "Pilegrimsleden"),
         ("note:trail", row.get("trail") or ""),
-        ("pilegrimsleden:id", row.get("pilegrimsleden_id") or ""),
-        ("pilegrimsleden:poi_type", ";".join(cats) if cats else primary),
-        ("pilegrimsleden:match_status", row.get("match_status") or ""),
     ]
-    if row.get("matched_osm_id"):
-        tags.append(("note:osm_object", row["matched_osm_id"]))
-    if row.get("matched_osm_url"):
-        tags.append(("url:osm", row["matched_osm_url"]))
     tags.extend(mapping)
-    if uncertain and primary:
-        tags.append(
-            ("note:osm_mapping", f"uncertain OSM equivalent for category {primary}")
-        )
     if proposed:
         tags.append(("note:proposed", PROPOSED_ADDITION))
     return [(k, v) for k, v in tags if v]
@@ -178,7 +174,7 @@ def write_trail_osm(
     relation_id: int,
     rows: list[dict[str, str]],
     path_points: list[tuple[float, float]],
-) -> None:
+) -> tuple[int, int]:
     existing = [r for r in rows if r.get("match_status") in {"matched", "possible"}]
     gaps = [r for r in rows if (r.get("match_status") or "gap") == "gap"]
 
@@ -213,7 +209,6 @@ def write_trail_osm(
             ("name", trail_name),
             ("network", "Pilegrimsleden"),
             ("note:trail", trail_name),
-            ("note:osm_route_relation", str(relation_id)),
             (
                 "note",
                 "Research path from OSM route relation / official GPX; "
@@ -244,9 +239,6 @@ def write_trail_osm(
         )
         for key, value in shelter_tags_for_row(row, proposed=True):
             lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
-        lines.append(
-            f"    <tag k='note:osm_route_relation' v='{relation_id}'/>"
-        )
         lines.append("  </node>")
         gap_ids.append(next_id)
         next_id -= 1
@@ -264,7 +256,6 @@ def write_trail_osm(
         ("name", f"{trail_name} (path + existing POIs + suggestions)"),
         ("network", "Pilegrimsleden"),
         ("note:trail", trail_name),
-        ("note:osm_route_relation", str(relation_id)),
         (
             "note",
             "Single JOSM research file: path, existing overnight POIs, and new "
@@ -276,12 +267,142 @@ def write_trail_osm(
     lines.append("  </relation>")
     lines.append("</osm>")
 
-    out = trail_dir / TRAIL_OSM_NAME
-    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (trail_dir / TRAIL_OSM_NAME).write_text("\n".join(lines) + "\n", encoding="utf-8")
     log(
         f"  wrote {TRAIL_OSM_NAME}: path={'yes' if way_id else 'no'}, "
         f"existing={len(existing)}, suggestions={len(gaps)}"
     )
+    return len(existing), len(gaps)
+
+
+def load_csv_rows(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8") as handle:
+        return list(csv.DictReader(handle))
+
+
+def load_shelters_for_trail(root: Path, folder: str, trail_name: str) -> list[dict[str, str]]:
+    trail_dir = root / "data" / "by_trail" / folder
+    research_dir = root / "data" / "research_by_trail" / folder
+    for path in (
+        trail_dir / "shelters.csv",
+        research_dir / "shelters.csv",
+    ):
+        rows = load_csv_rows(path)
+        if rows:
+            return rows
+
+    national = root / "data" / "osm_comparison_results.csv"
+    if not national.exists():
+        return []
+    aliases = {trail_name, folder}
+    if folder == "Osterdalsleden":
+        aliases.add("Østerdalsleden")
+    if folder == "St-Olavsleden":
+        aliases.update({"St. Olavsleden", "St Olavsleden"})
+    return [r for r in load_csv_rows(national) if (r.get("trail") or "") in aliases]
+
+
+def write_trail_readme(
+    trail_dir: Path,
+    *,
+    folder: str,
+    trail_name: str,
+    relation_id: int,
+    shelters: list[dict[str, str]],
+    existing_n: int,
+    gaps_n: int,
+) -> None:
+    research_dir = trail_dir.parent.parent / "research_by_trail" / folder
+    missing = load_csv_rows(research_dir / "osm_missing_for_relation.csv")
+    if not missing:
+        missing = load_csv_rows(trail_dir / "osm_missing_for_relation.csv")
+    already = load_csv_rows(research_dir / "osm_already_related.csv")
+    if not already:
+        already = load_csv_rows(trail_dir / "osm_already_related.csv")
+    pilgrims = load_csv_rows(research_dir / "pilgrim_centers.csv")
+    if not pilgrims:
+        pilgrims = load_csv_rows(trail_dir / "pilgrim_centers.csv")
+    pilgrim_gaps = sum(1 for r in pilgrims if r.get("match_status") == "gap")
+    horse = load_csv_rows(research_dir / "horseback_service_points.csv")
+    if not horse:
+        horse = load_csv_rows(trail_dir / "horseback_service_points.csv")
+    gap_names = [
+        r.get("poi_name") or ""
+        for r in shelters
+        if (r.get("match_status") or "gap") == "gap" and r.get("poi_name")
+    ]
+    gap_names.sort(key=str.lower)
+
+    lines = [
+        f"# {trail_name}",
+        "",
+        f"Folder: `{folder}`",
+        "",
+        "## Open in JOSM",
+        "",
+        f"Open `{TRAIL_OSM_NAME}` in this folder (the only `.osm` file).",
+        "",
+        "It contains:",
+        "",
+        "1. Trail **path**",
+        "2. **Existing** overnight POIs (already present in OSM) — no `note:proposed`",
+        f"3. **New suggestions** — tagged `note:proposed={PROPOSED_ADDITION}`",
+        "",
+        "Search in JOSM: `note:proposed=Proposed addition`",
+        "",
+        "Do not expect research tags such as `pilegrimsleden:match_status` in this file.",
+        "",
+        "## OSM route relation",
+        "",
+        f"- Name: {trail_name}",
+        f"- Relation: https://www.openstreetmap.org/relation/{relation_id}",
+        "- Do not modify existing members of that relation from this research file.",
+        "",
+        "## Counts",
+        "",
+        f"| item | count |",
+        f"| --- | ---: |",
+        f"| Overnight POIs (CMS) | {len(shelters)} |",
+        f"| Existing in trail.osm | {existing_n} |",
+        f"| New suggestions in trail.osm | {gaps_n} |",
+        f"| Pilgrim centers (reference) | {len(pilgrims)} |",
+        f"| Pilgrim-center gaps (reference) | {pilgrim_gaps} |",
+        f"| Lodging already on OSM relation | {len(already)} |",
+        f"| Lodging near route not on relation (reference) | {len(missing)} |",
+    ]
+    if horse:
+        lines.append(f"| Horseback service points (reference) | {len(horse)} |")
+    lines.extend(["", "## New suggestions (names)", ""])
+    if gap_names:
+        for name in gap_names:
+            lines.append(f"- {name}")
+    else:
+        lines.append("- (none)")
+    lines.extend(
+        [
+            "",
+            "## Files in this folder",
+            "",
+            f"- `{TRAIL_OSM_NAME}` — open this in JOSM",
+            "- `README.md` — this file (replaces per-trail CSV dumps)",
+            "- `hiking_path.gpx` — optional path cache",
+        ]
+    )
+    if (trail_dir / "horseback_path.gpx").exists():
+        lines.append(
+            "- `horseback_path.gpx` — horseback alignment (St. Olavsleden); not in trail.osm"
+        )
+    lines.extend(
+        [
+            "",
+            "Per-trail CSV dumps are not kept in this folder.",
+            "",
+        ]
+    )
+    (trail_dir / "README.md").write_text("\n".join(lines), encoding="utf-8")
+    log("  wrote README.md")
 
 
 def remove_other_osm_files(trail_dir: Path) -> None:
@@ -292,34 +413,38 @@ def remove_other_osm_files(trail_dir: Path) -> None:
         log(f"  removed {path.name}")
 
 
-def update_shelters_csv(path: Path, rows: list[dict[str, str]]) -> None:
-    for row in rows:
-        if (row.get("match_status") or "") == "gap":
-            row["proposal_note"] = PROPOSED_ADDITION
-        else:
-            row["proposal_note"] = ""
-    fields = list(rows[0].keys()) if rows else []
-    if "proposal_note" not in fields and rows:
-        fields.append("proposal_note")
-    with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(rows)
+def remove_research_csvs(trail_dir: Path) -> None:
+    removed: list[str] = []
+    for pattern in RESEARCH_GLOBS:
+        for path in sorted(trail_dir.glob(pattern)):
+            path.unlink()
+            removed.append(path.name)
+    for name in removed:
+        log(f"  removed {name}")
 
 
 def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) -> None:
     trail_dir = root / "data" / "by_trail" / folder
-    csv_path = trail_dir / "shelters.csv"
-    if not csv_path.exists():
-        log(f"skip {folder}: no shelters.csv")
-        return
     log(f"=== {folder} ===")
-    with csv_path.open(encoding="utf-8") as handle:
-        rows = list(csv.DictReader(handle))
+    shelters = load_shelters_for_trail(root, folder, trail_name)
+    if not shelters:
+        log("  no shelter rows found — skip")
+        return
     path_points = ensure_path_points(trail_dir, trail_name, relation_id)
-    write_trail_osm(trail_dir, trail_name, relation_id, rows, path_points)
-    update_shelters_csv(csv_path, rows)
+    existing_n, gaps_n = write_trail_osm(
+        trail_dir, trail_name, relation_id, shelters, path_points
+    )
+    write_trail_readme(
+        trail_dir,
+        folder=folder,
+        trail_name=trail_name,
+        relation_id=relation_id,
+        shelters=shelters,
+        existing_n=existing_n,
+        gaps_n=gaps_n,
+    )
     remove_other_osm_files(trail_dir)
+    remove_research_csvs(trail_dir)
 
 
 def main() -> int:

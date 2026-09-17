@@ -3,6 +3,8 @@ data/geofabrik/*.osm.pbf
 data/geofabrik/*.pbf
 data/geofabrik/lodging_all_trails_cache.json
 
+# Optional regeneratable CSV research (not for JOSM trail folders)
+data/research_by_trail/
 # Python
 __pycache__/
 *.py[cod]
