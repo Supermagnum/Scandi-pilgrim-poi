@@ -6267,7 +6267,6 @@
     <tag k='name' v='Romeriksleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Romeriksleden'/>
-    <tag k='note' v='Research path from OSM route relation / official GPX; do not upload as a replacement of the real relation.'/>
   </way>
   <node id='-3133' version='0' action='modify' visible='true' lat='60.2500142' lon='11.1794512'>
     <tag k='name' v='Best Western Leto Arena Hotel'/>
@@ -6821,6 +6820,5 @@
     <tag k='name' v='Romeriksleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Romeriksleden'/>
-    <tag k='note' v='Single JOSM research file: path, existing overnight POIs, and new suggestions. Only role=proposed nodes have note:proposed=Proposed addition. Not an OSM import.'/>
   </relation>
 </osm>

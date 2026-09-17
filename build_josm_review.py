@@ -209,11 +209,6 @@ def write_trail_osm(
             ("name", trail_name),
             ("network", "Pilegrimsleden"),
             ("note:trail", trail_name),
-            (
-                "note",
-                "Research path from OSM route relation / official GPX; "
-                "do not upload as a replacement of the real relation.",
-            ),
         ]:
             lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
         lines.append("  </way>")
@@ -256,12 +251,6 @@ def write_trail_osm(
         ("name", trail_name),
         ("network", "Pilegrimsleden"),
         ("note:trail", trail_name),
-        (
-            "note",
-            "Local research site relation grouping path, existing overnight POIs, "
-            f"and new suggestions. Only role=proposed nodes have note:proposed={PROPOSED_ADDITION}. "
-            "Not an OSM import.",
-        ),
     ]:
         lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
     lines.append("  </relation>")

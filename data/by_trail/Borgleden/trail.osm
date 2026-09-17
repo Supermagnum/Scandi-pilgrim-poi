@@ -10789,7 +10789,6 @@
     <tag k='name' v='Borgleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Borgleden'/>
-    <tag k='note' v='Research path from OSM route relation / official GPX; do not upload as a replacement of the real relation.'/>
   </way>
   <node id='-5394' version='0' action='modify' visible='true' lat='59.0140034' lon='11.4509889'>
     <tag k='name' v='Bakke Camping'/>
@@ -10944,6 +10943,5 @@
     <tag k='name' v='Borgleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Borgleden'/>
-    <tag k='note' v='Single JOSM research file: path, existing overnight POIs, and new suggestions. Only role=proposed nodes have note:proposed=Proposed addition. Not an OSM import.'/>
   </relation>
 </osm>
