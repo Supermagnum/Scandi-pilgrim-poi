@@ -1,0 +1,1107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='63.4313480' lon='10.3748330'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='63.4315804' lon='10.3749154'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='63.4313480' lon='10.3748330'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='63.4312957' lon='10.3748144'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='63.4312711' lon='10.3748039'/>
+  <node id='-6' version='0' action='modify' visible='true' lat='63.4312538' lon='10.3747971'/>
+  <node id='-7' version='0' action='modify' visible='true' lat='63.4312214' lon='10.3747823'/>
+  <node id='-8' version='0' action='modify' visible='true' lat='63.4312127' lon='10.3747787'/>
+  <node id='-9' version='0' action='modify' visible='true' lat='63.4311906' lon='10.3747695'/>
+  <node id='-10' version='0' action='modify' visible='true' lat='63.4311955' lon='10.3751440'/>
+  <node id='-11' version='0' action='modify' visible='true' lat='63.4312003' lon='10.3760776'/>
+  <node id='-12' version='0' action='modify' visible='true' lat='63.4312027' lon='10.3764649'/>
+  <node id='-13' version='0' action='modify' visible='true' lat='63.4312173' lon='10.3767728'/>
+  <node id='-14' version='0' action='modify' visible='true' lat='63.4312531' lon='10.3770508'/>
+  <node id='-15' version='0' action='modify' visible='true' lat='63.4313132' lon='10.3773816'/>
+  <node id='-16' version='0' action='modify' visible='true' lat='63.4313735' lon='10.3777088'/>
+  <node id='-17' version='0' action='modify' visible='true' lat='63.4314159' lon='10.3779331'/>
+  <node id='-18' version='0' action='modify' visible='true' lat='63.4315738' lon='10.3787609'/>
+  <node id='-19' version='0' action='modify' visible='true' lat='63.4316005' lon='10.3788018'/>
+  <node id='-20' version='0' action='modify' visible='true' lat='63.4316283' lon='10.3788779'/>
+  <node id='-21' version='0' action='modify' visible='true' lat='63.4316948' lon='10.3791760'/>
+  <node id='-22' version='0' action='modify' visible='true' lat='63.4317285' lon='10.3793272'/>
+  <node id='-23' version='0' action='modify' visible='true' lat='63.4316740' lon='10.3793992'/>
+  <node id='-24' version='0' action='modify' visible='true' lat='63.4315893' lon='10.3795101'/>
+  <node id='-25' version='0' action='modify' visible='true' lat='63.4315198' lon='10.3795861'/>
+  <node id='-26' version='0' action='modify' visible='true' lat='63.4314160' lon='10.3796965'/>
+  <node id='-27' version='0' action='modify' visible='true' lat='63.4312962' lon='10.3798415'/>
+  <node id='-28' version='0' action='modify' visible='true' lat='63.4313017' lon='10.3801541'/>
+  <node id='-29' version='0' action='modify' visible='true' lat='63.4312502' lon='10.3801722'/>
+  <node id='-30' version='0' action='modify' visible='true' lat='63.4312912' lon='10.3813565'/>
+  <node id='-31' version='0' action='modify' visible='true' lat='63.4312971' lon='10.3815277'/>
+  <node id='-32' version='0' action='modify' visible='true' lat='63.4313509' lon='10.3821889'/>
+  <node id='-33' version='0' action='modify' visible='true' lat='63.4313605' lon='10.3823145'/>
+  <node id='-34' version='0' action='modify' visible='true' lat='63.4314174' lon='10.3830562'/>
+  <node id='-35' version='0' action='modify' visible='true' lat='63.4314748' lon='10.3839805'/>
+  <node id='-36' version='0' action='modify' visible='true' lat='63.4314931' lon='10.3842504'/>
+  <node id='-37' version='0' action='modify' visible='true' lat='63.4315161' lon='10.3844981'/>
+  <node id='-38' version='0' action='modify' visible='true' lat='63.4315467' lon='10.3848293'/>
+  <node id='-39' version='0' action='modify' visible='true' lat='63.4315839' lon='10.3851478'/>
+  <node id='-40' version='0' action='modify' visible='true' lat='63.4315984' lon='10.3852669'/>
+  <node id='-41' version='0' action='modify' visible='true' lat='63.4316578' lon='10.3857546'/>
+  <node id='-42' version='0' action='modify' visible='true' lat='63.4317334' lon='10.3862491'/>
+  <node id='-43' version='0' action='modify' visible='true' lat='63.4317922' lon='10.3865742'/>
+  <node id='-44' version='0' action='modify' visible='true' lat='63.4318094' lon='10.3866693'/>
+  <node id='-45' version='0' action='modify' visible='true' lat='63.4319122' lon='10.3871284'/>
+  <node id='-46' version='0' action='modify' visible='true' lat='63.4319180' lon='10.3871543'/>
+  <node id='-47' version='0' action='modify' visible='true' lat='63.4319424' lon='10.3872631'/>
+  <node id='-48' version='0' action='modify' visible='true' lat='63.4319691' lon='10.3873897'/>
+  <node id='-49' version='0' action='modify' visible='true' lat='63.4323723' lon='10.3890587'/>
+  <node id='-50' version='0' action='modify' visible='true' lat='63.4324137' lon='10.3892038'/>
+  <node id='-51' version='0' action='modify' visible='true' lat='63.4324407' lon='10.3892989'/>
+  <node id='-52' version='0' action='modify' visible='true' lat='63.4326478' lon='10.3891124'/>
+  <node id='-53' version='0' action='modify' visible='true' lat='63.4328394' lon='10.3889396'/>
+  <node id='-54' version='0' action='modify' visible='true' lat='63.4328886' lon='10.3890414'/>
+  <node id='-55' version='0' action='modify' visible='true' lat='63.4330268' lon='10.3894324'/>
+  <node id='-56' version='0' action='modify' visible='true' lat='63.4331600' lon='10.3898861'/>
+  <node id='-57' version='0' action='modify' visible='true' lat='63.4333681' lon='10.3905521'/>
+  <node id='-58' version='0' action='modify' visible='true' lat='63.4334603' lon='10.3908963'/>
+  <node id='-59' version='0' action='modify' visible='true' lat='63.4335182' lon='10.3908367'/>
+  <node id='-60' version='0' action='modify' visible='true' lat='63.4335991' lon='10.3911371'/>
+  <node id='-61' version='0' action='modify' visible='true' lat='63.4336328' lon='10.3912787'/>
+  <node id='-62' version='0' action='modify' visible='true' lat='63.4338674' lon='10.3918781'/>
+  <node id='-63' version='0' action='modify' visible='true' lat='63.4338755' lon='10.3919037'/>
+  <node id='-64' version='0' action='modify' visible='true' lat='63.4339918' lon='10.3922107'/>
+  <node id='-65' version='0' action='modify' visible='true' lat='63.4340780' lon='10.3924956'/>
+  <node id='-66' version='0' action='modify' visible='true' lat='63.4339539' lon='10.3926551'/>
+  <node id='-67' version='0' action='modify' visible='true' lat='63.4338742' lon='10.3926548'/>
+  <node id='-68' version='0' action='modify' visible='true' lat='63.4337939' lon='10.3927208'/>
+  <node id='-69' version='0' action='modify' visible='true' lat='63.4338782' lon='10.3930652'/>
+  <node id='-70' version='0' action='modify' visible='true' lat='63.4338895' lon='10.3933598'/>
+  <node id='-71' version='0' action='modify' visible='true' lat='63.4338835' lon='10.3934374'/>
+  <node id='-72' version='0' action='modify' visible='true' lat='63.4338829' lon='10.3934853'/>
+  <node id='-73' version='0' action='modify' visible='true' lat='63.4339341' lon='10.3936006'/>
+  <node id='-74' version='0' action='modify' visible='true' lat='63.4339833' lon='10.3935934'/>
+  <node id='-75' version='0' action='modify' visible='true' lat='63.4340215' lon='10.3936350'/>
+  <node id='-76' version='0' action='modify' visible='true' lat='63.4341750' lon='10.3941780'/>
+  <node id='-77' version='0' action='modify' visible='true' lat='63.4343266' lon='10.3947178'/>
+  <node id='-78' version='0' action='modify' visible='true' lat='63.4344427' lon='10.3952760'/>
+  <node id='-79' version='0' action='modify' visible='true' lat='63.4344833' lon='10.3955406'/>
+  <node id='-80' version='0' action='modify' visible='true' lat='63.4345076' lon='10.3957178'/>
+  <node id='-81' version='0' action='modify' visible='true' lat='63.4345302' lon='10.3959507'/>
+  <node id='-82' version='0' action='modify' visible='true' lat='63.4345700' lon='10.3965774'/>
+  <node id='-83' version='0' action='modify' visible='true' lat='63.4345936' lon='10.3968186'/>
+  <node id='-84' version='0' action='modify' visible='true' lat='63.4346161' lon='10.3970972'/>
+  <node id='-85' version='0' action='modify' visible='true' lat='63.4346244' lon='10.3972318'/>
+  <node id='-86' version='0' action='modify' visible='true' lat='63.4346963' lon='10.3984876'/>
+  <node id='-87' version='0' action='modify' visible='true' lat='63.4347283' lon='10.3990672'/>
+  <node id='-88' version='0' action='modify' visible='true' lat='63.4347704' lon='10.3994795'/>
+  <node id='-89' version='0' action='modify' visible='true' lat='63.4347982' lon='10.3998835'/>
+  <node id='-90' version='0' action='modify' visible='true' lat='63.4347973' lon='10.3999627'/>
+  <node id='-91' version='0' action='modify' visible='true' lat='63.4347965' lon='10.4000256'/>
+  <node id='-92' version='0' action='modify' visible='true' lat='63.4347993' lon='10.4001140'/>
+  <node id='-93' version='0' action='modify' visible='true' lat='63.4348014' lon='10.4001795'/>
+  <node id='-94' version='0' action='modify' visible='true' lat='63.4348033' lon='10.4002853'/>
+  <node id='-95' version='0' action='modify' visible='true' lat='63.4348297' lon='10.4003430'/>
+  <node id='-96' version='0' action='modify' visible='true' lat='63.4356834' lon='10.4000248'/>
+  <node id='-97' version='0' action='modify' visible='true' lat='63.4365370' lon='10.3997065'/>
+  <node id='-98' version='0' action='modify' visible='true' lat='63.4373907' lon='10.3993883'/>
+  <node id='-99' version='0' action='modify' visible='true' lat='63.4376137' lon='10.3988601'/>
+  <node id='-100' version='0' action='modify' visible='true' lat='63.4377235' lon='10.3987297'/>
+  <node id='-101' version='0' action='modify' visible='true' lat='63.4378563' lon='10.3983632'/>
+  <node id='-102' version='0' action='modify' visible='true' lat='63.4373907' lon='10.3993883'/>
+  <node id='-103' version='0' action='modify' visible='true' lat='63.4371591' lon='10.3994045'/>
+  <node id='-104' version='0' action='modify' visible='true' lat='63.4370504' lon='10.3994499'/>
+  <node id='-105' version='0' action='modify' visible='true' lat='63.4367182' lon='10.3996851'/>
+  <node id='-106' version='0' action='modify' visible='true' lat='63.4364587' lon='10.3999754'/>
+  <node id='-107' version='0' action='modify' visible='true' lat='63.4364029' lon='10.4000219'/>
+  <node id='-108' version='0' action='modify' visible='true' lat='63.4361871' lon='10.4001847'/>
+  <node id='-109' version='0' action='modify' visible='true' lat='63.4361467' lon='10.4002102'/>
+  <node id='-110' version='0' action='modify' visible='true' lat='63.4360619' lon='10.4002497'/>
+  <node id='-111' version='0' action='modify' visible='true' lat='63.4360158' lon='10.4002712'/>
+  <node id='-112' version='0' action='modify' visible='true' lat='63.4359733' lon='10.4002750'/>
+  <node id='-113' version='0' action='modify' visible='true' lat='63.4359417' lon='10.4002778'/>
+  <node id='-114' version='0' action='modify' visible='true' lat='63.4358798' lon='10.4002857'/>
+  <node id='-115' version='0' action='modify' visible='true' lat='63.4358321' lon='10.4002893'/>
+  <node id='-116' version='0' action='modify' visible='true' lat='63.4358158' lon='10.4002905'/>
+  <node id='-117' version='0' action='modify' visible='true' lat='63.4356998' lon='10.4002020'/>
+  <node id='-118' version='0' action='modify' visible='true' lat='63.4357753' lon='10.4002611'/>
+  <node id='-119' version='0' action='modify' visible='true' lat='63.4357681' lon='10.4006198'/>
+  <node id='-120' version='0' action='modify' visible='true' lat='63.4356998' lon='10.4002020'/>
+  <node id='-121' version='0' action='modify' visible='true' lat='63.4356183' lon='10.4001878'/>
+  <node id='-122' version='0' action='modify' visible='true' lat='63.4352119' lon='10.4002406'/>
+  <node id='-123' version='0' action='modify' visible='true' lat='63.4348570' lon='10.4002965'/>
+  <node id='-124' version='0' action='modify' visible='true' lat='63.4348297' lon='10.4003430'/>
+  <node id='-125' version='0' action='modify' visible='true' lat='63.4348319' lon='10.4004184'/>
+  <node id='-126' version='0' action='modify' visible='true' lat='63.4348497' lon='10.4012305'/>
+  <node id='-127' version='0' action='modify' visible='true' lat='63.4348678' lon='10.4032095'/>
+  <node id='-128' version='0' action='modify' visible='true' lat='63.4348511' lon='10.4035548'/>
+  <node id='-129' version='0' action='modify' visible='true' lat='63.4348368' lon='10.4037295'/>
+  <node id='-130' version='0' action='modify' visible='true' lat='63.4348194' lon='10.4039435'/>
+  <node id='-131' version='0' action='modify' visible='true' lat='63.4347496' lon='10.4040755'/>
+  <node id='-132' version='0' action='modify' visible='true' lat='63.4347436' lon='10.4041218'/>
+  <node id='-133' version='0' action='modify' visible='true' lat='63.4347514' lon='10.4041850'/>
+  <node id='-134' version='0' action='modify' visible='true' lat='63.4347340' lon='10.4044322'/>
+  <node id='-135' version='0' action='modify' visible='true' lat='63.4347394' lon='10.4045576'/>
+  <node id='-136' version='0' action='modify' visible='true' lat='63.4347325' lon='10.4047581'/>
+  <node id='-137' version='0' action='modify' visible='true' lat='63.4346656' lon='10.4047909'/>
+  <node id='-138' version='0' action='modify' visible='true' lat='63.4346431' lon='10.4047784'/>
+  <node id='-139' version='0' action='modify' visible='true' lat='63.4345957' lon='10.4047520'/>
+  <node id='-140' version='0' action='modify' visible='true' lat='63.4345472' lon='10.4047118'/>
+  <node id='-141' version='0' action='modify' visible='true' lat='63.4345382' lon='10.4047043'/>
+  <node id='-142' version='0' action='modify' visible='true' lat='63.4344851' lon='10.4047426'/>
+  <node id='-143' version='0' action='modify' visible='true' lat='63.4342390' lon='10.4045328'/>
+  <node id='-144' version='0' action='modify' visible='true' lat='63.4343468' lon='10.4033621'/>
+  <node id='-145' version='0' action='modify' visible='true' lat='63.4338948' lon='10.4030011'/>
+  <node id='-146' version='0' action='modify' visible='true' lat='63.4338680' lon='10.4029173'/>
+  <node id='-147' version='0' action='modify' visible='true' lat='63.4333990' lon='10.4025016'/>
+  <node id='-148' version='0' action='modify' visible='true' lat='63.4334059' lon='10.4024471'/>
+  <node id='-149' version='0' action='modify' visible='true' lat='63.4334089' lon='10.4024232'/>
+  <node id='-150' version='0' action='modify' visible='true' lat='63.4333915' lon='10.4023956'/>
+  <node id='-151' version='0' action='modify' visible='true' lat='63.4333982' lon='10.4020359'/>
+  <node id='-152' version='0' action='modify' visible='true' lat='63.4333836' lon='10.4020366'/>
+  <node id='-153' version='0' action='modify' visible='true' lat='63.4333277' lon='10.4020314'/>
+  <node id='-154' version='0' action='modify' visible='true' lat='63.4332725' lon='10.4020263'/>
+  <node id='-155' version='0' action='modify' visible='true' lat='63.4332589' lon='10.4020228'/>
+  <node id='-156' version='0' action='modify' visible='true' lat='63.4332346' lon='10.4021883'/>
+  <node id='-157' version='0' action='modify' visible='true' lat='63.4332297' lon='10.4022929'/>
+  <node id='-158' version='0' action='modify' visible='true' lat='63.4326678' lon='10.4016405'/>
+  <node id='-159' version='0' action='modify' visible='true' lat='63.4325825' lon='10.4015413'/>
+  <node id='-160' version='0' action='modify' visible='true' lat='63.4324475' lon='10.4014661'/>
+  <node id='-161' version='0' action='modify' visible='true' lat='63.4319797' lon='10.4013333'/>
+  <node id='-162' version='0' action='modify' visible='true' lat='63.4319037' lon='10.4012704'/>
+  <node id='-163' version='0' action='modify' visible='true' lat='63.4318582' lon='10.4012338'/>
+  <node id='-164' version='0' action='modify' visible='true' lat='63.4318262' lon='10.4012218'/>
+  <node id='-165' version='0' action='modify' visible='true' lat='63.4316782' lon='10.4012022'/>
+  <node id='-166' version='0' action='modify' visible='true' lat='63.4315604' lon='10.4011826'/>
+  <node id='-167' version='0' action='modify' visible='true' lat='63.4313166' lon='10.4012388'/>
+  <node id='-168' version='0' action='modify' visible='true' lat='63.4312320' lon='10.4011746'/>
+  <node id='-169' version='0' action='modify' visible='true' lat='63.4312011' lon='10.4011583'/>
+  <node id='-170' version='0' action='modify' visible='true' lat='63.4309824' lon='10.4010490'/>
+  <node id='-171' version='0' action='modify' visible='true' lat='63.4309759' lon='10.4008196'/>
+  <node id='-172' version='0' action='modify' visible='true' lat='63.4309531' lon='10.4006177'/>
+  <node id='-173' version='0' action='modify' visible='true' lat='63.4309626' lon='10.4002996'/>
+  <node id='-174' version='0' action='modify' visible='true' lat='63.4309636' lon='10.4002665'/>
+  <node id='-175' version='0' action='modify' visible='true' lat='63.4309672' lon='10.4001444'/>
+  <node id='-176' version='0' action='modify' visible='true' lat='63.4309677' lon='10.4000832'/>
+  <node id='-177' version='0' action='modify' visible='true' lat='63.4309686' lon='10.3999806'/>
+  <node id='-178' version='0' action='modify' visible='true' lat='63.4308784' lon='10.3999745'/>
+  <node id='-179' version='0' action='modify' visible='true' lat='63.4304795' lon='10.3999495'/>
+  <node id='-180' version='0' action='modify' visible='true' lat='63.4304340' lon='10.3999467'/>
+  <node id='-181' version='0' action='modify' visible='true' lat='63.4304375' lon='10.3998637'/>
+  <node id='-182' version='0' action='modify' visible='true' lat='63.4303654' lon='10.3998514'/>
+  <node id='-183' version='0' action='modify' visible='true' lat='63.4303229' lon='10.3998442'/>
+  <node id='-184' version='0' action='modify' visible='true' lat='63.4302844' lon='10.3998394'/>
+  <node id='-185' version='0' action='modify' visible='true' lat='63.4302666' lon='10.3998372'/>
+  <node id='-186' version='0' action='modify' visible='true' lat='63.4302722' lon='10.3996779'/>
+  <node id='-187' version='0' action='modify' visible='true' lat='63.4302961' lon='10.3990270'/>
+  <node id='-188' version='0' action='modify' visible='true' lat='63.4300888' lon='10.3989897'/>
+  <node id='-189' version='0' action='modify' visible='true' lat='63.4299950' lon='10.3989643'/>
+  <node id='-190' version='0' action='modify' visible='true' lat='63.4300033' lon='10.3986795'/>
+  <node id='-191' version='0' action='modify' visible='true' lat='63.4298541' lon='10.3986546'/>
+  <node id='-192' version='0' action='modify' visible='true' lat='63.4297601' lon='10.3980609'/>
+  <node id='-193' version='0' action='modify' visible='true' lat='63.4297296' lon='10.3980598'/>
+  <node id='-194' version='0' action='modify' visible='true' lat='63.4295369' lon='10.3980569'/>
+  <node id='-195' version='0' action='modify' visible='true' lat='63.4293235' lon='10.3980766'/>
+  <node id='-196' version='0' action='modify' visible='true' lat='63.4289075' lon='10.3980885'/>
+  <node id='-197' version='0' action='modify' visible='true' lat='63.4288606' lon='10.3981118'/>
+  <node id='-198' version='0' action='modify' visible='true' lat='63.4288126' lon='10.3981304'/>
+  <node id='-199' version='0' action='modify' visible='true' lat='63.4284151' lon='10.3982838'/>
+  <node id='-200' version='0' action='modify' visible='true' lat='63.4282597' lon='10.3983587'/>
+  <node id='-201' version='0' action='modify' visible='true' lat='63.4279002' lon='10.3985524'/>
+  <node id='-202' version='0' action='modify' visible='true' lat='63.4278955' lon='10.3984364'/>
+  <node id='-203' version='0' action='modify' visible='true' lat='63.4278650' lon='10.3984489'/>
+  <node id='-204' version='0' action='modify' visible='true' lat='63.4278372' lon='10.3984602'/>
+  <node id='-205' version='0' action='modify' visible='true' lat='63.4278063' lon='10.3984728'/>
+  <node id='-206' version='0' action='modify' visible='true' lat='63.4277799' lon='10.3984836'/>
+  <node id='-207' version='0' action='modify' visible='true' lat='63.4277893' lon='10.3986193'/>
+  <node id='-208' version='0' action='modify' visible='true' lat='63.4277736' lon='10.3986259'/>
+  <node id='-209' version='0' action='modify' visible='true' lat='63.4277041' lon='10.3985257'/>
+  <node id='-210' version='0' action='modify' visible='true' lat='63.4274712' lon='10.3980484'/>
+  <node id='-211' version='0' action='modify' visible='true' lat='63.4272224' lon='10.3971680'/>
+  <node id='-212' version='0' action='modify' visible='true' lat='63.4271760' lon='10.3968691'/>
+  <node id='-213' version='0' action='modify' visible='true' lat='63.4271642' lon='10.3967270'/>
+  <node id='-214' version='0' action='modify' visible='true' lat='63.4271388' lon='10.3964218'/>
+  <node id='-215' version='0' action='modify' visible='true' lat='63.4271224' lon='10.3961308'/>
+  <node id='-216' version='0' action='modify' visible='true' lat='63.4271163' lon='10.3960243'/>
+  <node id='-217' version='0' action='modify' visible='true' lat='63.4271080' lon='10.3958309'/>
+  <node id='-218' version='0' action='modify' visible='true' lat='63.4270756' lon='10.3951034'/>
+  <node id='-219' version='0' action='modify' visible='true' lat='63.4270577' lon='10.3949388'/>
+  <node id='-220' version='0' action='modify' visible='true' lat='63.4270370' lon='10.3949334'/>
+  <node id='-221' version='0' action='modify' visible='true' lat='63.4270127' lon='10.3949296'/>
+  <node id='-222' version='0' action='modify' visible='true' lat='63.4265880' lon='10.3948507'/>
+  <node id='-223' version='0' action='modify' visible='true' lat='63.4265029' lon='10.3948399'/>
+  <way id='-224' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <nd ref='-6'/>
+    <nd ref='-7'/>
+    <nd ref='-8'/>
+    <nd ref='-9'/>
+    <nd ref='-10'/>
+    <nd ref='-11'/>
+    <nd ref='-12'/>
+    <nd ref='-13'/>
+    <nd ref='-14'/>
+    <nd ref='-15'/>
+    <nd ref='-16'/>
+    <nd ref='-17'/>
+    <nd ref='-18'/>
+    <nd ref='-19'/>
+    <nd ref='-20'/>
+    <nd ref='-21'/>
+    <nd ref='-22'/>
+    <nd ref='-23'/>
+    <nd ref='-24'/>
+    <nd ref='-25'/>
+    <nd ref='-26'/>
+    <nd ref='-27'/>
+    <nd ref='-28'/>
+    <nd ref='-29'/>
+    <nd ref='-30'/>
+    <nd ref='-31'/>
+    <nd ref='-32'/>
+    <nd ref='-33'/>
+    <nd ref='-34'/>
+    <nd ref='-35'/>
+    <nd ref='-36'/>
+    <nd ref='-37'/>
+    <nd ref='-38'/>
+    <nd ref='-39'/>
+    <nd ref='-40'/>
+    <nd ref='-41'/>
+    <nd ref='-42'/>
+    <nd ref='-43'/>
+    <nd ref='-44'/>
+    <nd ref='-45'/>
+    <nd ref='-46'/>
+    <nd ref='-47'/>
+    <nd ref='-48'/>
+    <nd ref='-49'/>
+    <nd ref='-50'/>
+    <nd ref='-51'/>
+    <nd ref='-52'/>
+    <nd ref='-53'/>
+    <nd ref='-54'/>
+    <nd ref='-55'/>
+    <nd ref='-56'/>
+    <nd ref='-57'/>
+    <nd ref='-58'/>
+    <nd ref='-59'/>
+    <nd ref='-60'/>
+    <nd ref='-61'/>
+    <nd ref='-62'/>
+    <nd ref='-63'/>
+    <nd ref='-64'/>
+    <nd ref='-65'/>
+    <nd ref='-66'/>
+    <nd ref='-67'/>
+    <nd ref='-68'/>
+    <nd ref='-69'/>
+    <nd ref='-70'/>
+    <nd ref='-71'/>
+    <nd ref='-72'/>
+    <nd ref='-73'/>
+    <nd ref='-74'/>
+    <nd ref='-75'/>
+    <nd ref='-76'/>
+    <nd ref='-77'/>
+    <nd ref='-78'/>
+    <nd ref='-79'/>
+    <nd ref='-80'/>
+    <nd ref='-81'/>
+    <nd ref='-82'/>
+    <nd ref='-83'/>
+    <nd ref='-84'/>
+    <nd ref='-85'/>
+    <nd ref='-86'/>
+    <nd ref='-87'/>
+    <nd ref='-88'/>
+    <nd ref='-89'/>
+    <nd ref='-90'/>
+    <nd ref='-91'/>
+    <nd ref='-92'/>
+    <nd ref='-93'/>
+    <nd ref='-94'/>
+    <nd ref='-95'/>
+    <nd ref='-96'/>
+    <nd ref='-97'/>
+    <nd ref='-98'/>
+    <nd ref='-99'/>
+    <nd ref='-100'/>
+    <nd ref='-101'/>
+    <nd ref='-102'/>
+    <nd ref='-103'/>
+    <nd ref='-104'/>
+    <nd ref='-105'/>
+    <nd ref='-106'/>
+    <nd ref='-107'/>
+    <nd ref='-108'/>
+    <nd ref='-109'/>
+    <nd ref='-110'/>
+    <nd ref='-111'/>
+    <nd ref='-112'/>
+    <nd ref='-113'/>
+    <nd ref='-114'/>
+    <nd ref='-115'/>
+    <nd ref='-116'/>
+    <nd ref='-117'/>
+    <nd ref='-118'/>
+    <nd ref='-119'/>
+    <nd ref='-120'/>
+    <nd ref='-121'/>
+    <nd ref='-122'/>
+    <nd ref='-123'/>
+    <nd ref='-124'/>
+    <nd ref='-125'/>
+    <nd ref='-126'/>
+    <nd ref='-127'/>
+    <nd ref='-128'/>
+    <nd ref='-129'/>
+    <nd ref='-130'/>
+    <nd ref='-131'/>
+    <nd ref='-132'/>
+    <nd ref='-133'/>
+    <nd ref='-134'/>
+    <nd ref='-135'/>
+    <nd ref='-136'/>
+    <nd ref='-137'/>
+    <nd ref='-138'/>
+    <nd ref='-139'/>
+    <nd ref='-140'/>
+    <nd ref='-141'/>
+    <nd ref='-142'/>
+    <nd ref='-143'/>
+    <nd ref='-144'/>
+    <nd ref='-145'/>
+    <nd ref='-146'/>
+    <nd ref='-147'/>
+    <nd ref='-148'/>
+    <nd ref='-149'/>
+    <nd ref='-150'/>
+    <nd ref='-151'/>
+    <nd ref='-152'/>
+    <nd ref='-153'/>
+    <nd ref='-154'/>
+    <nd ref='-155'/>
+    <nd ref='-156'/>
+    <nd ref='-157'/>
+    <nd ref='-158'/>
+    <nd ref='-159'/>
+    <nd ref='-160'/>
+    <nd ref='-161'/>
+    <nd ref='-162'/>
+    <nd ref='-163'/>
+    <nd ref='-164'/>
+    <nd ref='-165'/>
+    <nd ref='-166'/>
+    <nd ref='-167'/>
+    <nd ref='-168'/>
+    <nd ref='-169'/>
+    <nd ref='-170'/>
+    <nd ref='-171'/>
+    <nd ref='-172'/>
+    <nd ref='-173'/>
+    <nd ref='-174'/>
+    <nd ref='-175'/>
+    <nd ref='-176'/>
+    <nd ref='-177'/>
+    <nd ref='-178'/>
+    <nd ref='-179'/>
+    <nd ref='-180'/>
+    <nd ref='-181'/>
+    <nd ref='-182'/>
+    <nd ref='-183'/>
+    <nd ref='-184'/>
+    <nd ref='-185'/>
+    <nd ref='-186'/>
+    <nd ref='-187'/>
+    <nd ref='-188'/>
+    <nd ref='-189'/>
+    <nd ref='-190'/>
+    <nd ref='-191'/>
+    <nd ref='-192'/>
+    <nd ref='-193'/>
+    <nd ref='-194'/>
+    <nd ref='-195'/>
+    <nd ref='-196'/>
+    <nd ref='-197'/>
+    <nd ref='-198'/>
+    <nd ref='-199'/>
+    <nd ref='-200'/>
+    <nd ref='-201'/>
+    <nd ref='-202'/>
+    <nd ref='-203'/>
+    <nd ref='-204'/>
+    <nd ref='-205'/>
+    <nd ref='-206'/>
+    <nd ref='-207'/>
+    <nd ref='-208'/>
+    <nd ref='-209'/>
+    <nd ref='-210'/>
+    <nd ref='-211'/>
+    <nd ref='-212'/>
+    <nd ref='-213'/>
+    <nd ref='-214'/>
+    <nd ref='-215'/>
+    <nd ref='-216'/>
+    <nd ref='-217'/>
+    <nd ref='-218'/>
+    <nd ref='-219'/>
+    <nd ref='-220'/>
+    <nd ref='-221'/>
+    <nd ref='-222'/>
+    <nd ref='-223'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='Kystpilegrimsleia'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note' v='Research path from OSM route relation / official GPX; do not upload as a replacement of the real relation.'/>
+  </way>
+  <node id='-225' version='0' action='modify' visible='true' lat='63.6994677' lon='9.7429580'>
+    <tag k='name' v='Austrått camping og motell'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter;Teltplass'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/477627449'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/477627449'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-226' version='0' action='modify' visible='true' lat='63.5971042' lon='9.8966217'>
+    <tag k='name' v='Blåheia'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/2123002752'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/2123002752'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-227' version='0' action='modify' visible='true' lat='62.4330215' lon='6.3935384'>
+    <tag k='name' v='Borg sommerhotell og camping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Vandrerhjem'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/6793650473'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/6793650473'/>
+    <tag k='tourism' v='hostel'/>
+  </node>
+  <node id='-228' version='0' action='modify' visible='true' lat='63.3276488' lon='8.0529468'>
+    <tag k='name' v='Eco Camp Norway på Smøla'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge;Vandrerhjem'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/953763637'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/953763637'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-229' version='0' action='modify' visible='true' lat='63.8480640' lon='8.4537920'>
+    <tag k='name' v='Fyrvokterboligen ved Sula Fyr'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/6817570372'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/6817570372'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-230' version='0' action='modify' visible='true' lat='62.4744002' lon='6.2064004'>
+    <tag k='name' v='Gapahuk Aksla'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/1272392602'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/1272392602'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-231' version='0' action='modify' visible='true' lat='63.3074055' lon='8.0120373'>
+    <tag k='name' v='Gapahuken på Rosvollhaugen'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/1189170979'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/1189170979'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+  </node>
+  <node id='-232' version='0' action='modify' visible='true' lat='59.7940744' lon='5.7095446'>
+    <tag k='name' v='Gjestegården Halsnøy'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/3729825285'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/3729825285'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-233' version='0' action='modify' visible='true' lat='62.1277389' lon='5.1629276'>
+    <tag k='name' v='Hoddevik strandcamping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/710545435'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/710545435'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-234' version='0' action='modify' visible='true' lat='61.5656813' lon='4.7674281'>
+    <tag k='name' v='Kinn Skulehus'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/9833704434'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/9833704434'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-235' version='0' action='modify' visible='true' lat='62.7424209' lon='7.2335036'>
+    <tag k='name' v='Kviltorp camping - Molde'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/683303436'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/683303436'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-236' version='0' action='modify' visible='true' lat='61.2722307' lon='4.9482290'>
+    <tag k='name' v='Lammetun ferie og fritid'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='way/866303888'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/way/866303888'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-237' version='0' action='modify' visible='true' lat='62.3136849' lon='5.7074205'>
+    <tag k='name' v='Lanternen hytte og bobilplass'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/3663315559'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663315559'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-238' version='0' action='modify' visible='true' lat='60.6927608' lon='5.1092212'>
+    <tag k='name' v='Magnusgarden'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/3137755470'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/3137755470'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-239' version='0' action='modify' visible='true' lat='63.5189518' lon='7.9531674'>
+    <tag k='name' v='Olsens Pensjonat &amp; Gjestehus'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/6793650468'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/6793650468'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-240' version='0' action='modify' visible='true' lat='61.4934509' lon='5.1319142'>
+    <tag k='name' v='Pilegrimsherberge på Svanøy hovedgård'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/10831504128'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/10831504128'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-241' version='0' action='modify' visible='true' lat='62.0410156' lon='5.3563981'>
+    <tag k='name' v='Selje camp og hyttesenter'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/3663316370'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663316370'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-242' version='0' action='modify' visible='true' lat='61.9174036' lon='5.1340528'>
+    <tag k='name' v='Steinvik camping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
+    <tag k='pilegrimsleden:match_status' v='matched'/>
+    <tag k='note:osm_object' v='node/3663316779'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663316779'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-243' version='0' action='modify' visible='true' lat='61.1717892' lon='5.3509159'>
+    <tag k='name' v='Birkeland Camping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Campingplass'/>
+    <tag k='pilegrimsleden:match_status' v='possible'/>
+    <tag k='note:osm_object' v='node/3663314274'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/3663314274'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-244' version='0' action='modify' visible='true' lat='61.5664609' lon='4.7650116'>
+    <tag k='name' v='Kinn Gjestehus'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='possible'/>
+    <tag k='note:osm_object' v='node/9833704434'/>
+    <tag k='url:osm' v='https://www.openstreetmap.org/node/9833704434'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+  </node>
+  <node id='-245' version='0' action='modify' visible='true' lat='61.4978201' lon='5.1358545'>
+    <tag k='name' v='Badestranda Leiren'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-246' version='0' action='modify' visible='true' lat='63.0057637' lon='7.7235611'>
+    <tag k='name' v='Borgstua på Kvernes Prestegård'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-247' version='0' action='modify' visible='true' lat='62.2533151' lon='5.5850209'>
+    <tag k='name' v='Brekkegarden pilegrimsherberge'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-248' version='0' action='modify' visible='true' lat='60.9838664' lon='5.0666969'>
+    <tag k='name' v='Dagsturhytta Gulakvila'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk;Dagsturhytte'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-249' version='0' action='modify' visible='true' lat='62.1022702' lon='5.3383185'>
+    <tag k='name' v='Dagsturhytta Havglimt'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk;Dagsturhytte'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-250' version='0' action='modify' visible='true' lat='61.1843165' lon='5.3427748'>
+    <tag k='name' v='Dagsturhytta Sørefjordhytta'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk;Dagsturhytte'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-251' version='0' action='modify' visible='true' lat='62.6573691' lon='7.3728435'>
+    <tag k='name' v='Fjøsen Bed &amp; make your own breakfast'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-252' version='0' action='modify' visible='true' lat='58.5440423' lon='5.6816364'>
+    <tag k='name' v='Friluftsfyret Kvassheim'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-253' version='0' action='modify' visible='true' lat='62.1237318' lon='5.3131256'>
+    <tag k='name' v='Fru Ingas Apartments'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rorbu'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rorbu'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-254' version='0' action='modify' visible='true' lat='63.6131966' lon='9.8531485'>
+    <tag k='name' v='Gapahuk i Fagerdalen'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-255' version='0' action='modify' visible='true' lat='63.0080037' lon='7.7164520'>
+    <tag k='name' v='Gapahuk på Kvernes'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-256' version='0' action='modify' visible='true' lat='63.5804899' lon='9.9561704'>
+    <tag k='name' v='Gjertrudstua'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-257' version='0' action='modify' visible='true' lat='61.1501971' lon='5.1780851'>
+    <tag k='name' v='Hatlems Hytter'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rom og hytter'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-258' version='0' action='modify' visible='true' lat='58.6135920' lon='5.6175515'>
+    <tag k='name' v='Huset ved havet'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-259' version='0' action='modify' visible='true' lat='62.0389756' lon='5.5217335'>
+    <tag k='name' v='Jetmund Gjesteheim'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Vandrerhjem'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-260' version='0' action='modify' visible='true' lat='62.2723994' lon='5.8258360'>
+    <tag k='name' v='Kjeldsund leirstad og gjestegard'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge;Rom og hytter;Gapahuk;Rasteplass'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-261' version='0' action='modify' visible='true' lat='62.2227180' lon='5.5412259'>
+    <tag k='name' v='Kråen Gard'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge;Glamping'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-262' version='0' action='modify' visible='true' lat='63.0054590' lon='7.7218786'>
+    <tag k='name' v='Kvernes på Averøy | Nøkkelsted'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-263' version='0' action='modify' visible='true' lat='62.2792839' lon='5.6271238'>
+    <tag k='name' v='Kvile- og lesebu i Moltudalen'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk;Dagsturhytte'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-264' version='0' action='modify' visible='true' lat='59.3805140' lon='5.2371622'>
+    <tag k='name' v='Overnatting i stabbur med fire sengeplasser på Karmøy'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-265' version='0' action='modify' visible='true' lat='62.0445246' lon='5.3455867'>
+    <tag k='name' v='Pilegrimsherberge i Selje prestegard'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-266' version='0' action='modify' visible='true' lat='58.7680291' lon='5.5125448'>
+    <tag k='name' v='Reveparken hytteutleige - overnatting direkte ved Jærstrendene'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-267' version='0' action='modify' visible='true' lat='62.0457947' lon='5.3430192'>
+    <tag k='name' v='Seljebuda'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-268' version='0' action='modify' visible='true' lat='62.0448474' lon='5.3566106'>
+    <tag k='name' v='Sjøglytt'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk;Dagsturhytte'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-269' version='0' action='modify' visible='true' lat='63.8429407' lon='8.4470407'>
+    <tag k='name' v='Sula havglamping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge;Glamping'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-270' version='0' action='modify' visible='true' lat='62.0440852' lon='5.3432702'>
+    <tag k='name' v='Sætren Rorbuer'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-271' version='0' action='modify' visible='true' lat='59.7020599' lon='5.3826386'>
+    <tag k='name' v='Telegrafen - Moster Amfi'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Pilegrimsherberge'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Pilegrimsherberge'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-272' version='0' action='modify' visible='true' lat='62.0843660' lon='5.5781138'>
+    <tag k='name' v='Tunheimsfjøra logde'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Rorbu'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:osm_mapping' v='uncertain OSM equivalent for category Rorbu'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <node id='-273' version='0' action='modify' visible='true' lat='63.5948164' lon='9.9625289'>
+    <tag k='name' v='Årnseth Gapahuk'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='pilegrimsleden:poi_type' v='Gapahuk'/>
+    <tag k='pilegrimsleden:match_status' v='gap'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='shelter_type' v='lean_to'/>
+    <tag k='note:proposed' v='Proposed addition'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+  </node>
+  <relation id='-274' version='0' action='modify' visible='true'>
+    <member type='way' ref='-224' role='path'/>
+    <member type='node' ref='-225' role='existing'/>
+    <member type='node' ref='-226' role='existing'/>
+    <member type='node' ref='-227' role='existing'/>
+    <member type='node' ref='-228' role='existing'/>
+    <member type='node' ref='-229' role='existing'/>
+    <member type='node' ref='-230' role='existing'/>
+    <member type='node' ref='-231' role='existing'/>
+    <member type='node' ref='-232' role='existing'/>
+    <member type='node' ref='-233' role='existing'/>
+    <member type='node' ref='-234' role='existing'/>
+    <member type='node' ref='-235' role='existing'/>
+    <member type='node' ref='-236' role='existing'/>
+    <member type='node' ref='-237' role='existing'/>
+    <member type='node' ref='-238' role='existing'/>
+    <member type='node' ref='-239' role='existing'/>
+    <member type='node' ref='-240' role='existing'/>
+    <member type='node' ref='-241' role='existing'/>
+    <member type='node' ref='-242' role='existing'/>
+    <member type='node' ref='-243' role='existing'/>
+    <member type='node' ref='-244' role='existing'/>
+    <member type='node' ref='-245' role='proposed'/>
+    <member type='node' ref='-246' role='proposed'/>
+    <member type='node' ref='-247' role='proposed'/>
+    <member type='node' ref='-248' role='proposed'/>
+    <member type='node' ref='-249' role='proposed'/>
+    <member type='node' ref='-250' role='proposed'/>
+    <member type='node' ref='-251' role='proposed'/>
+    <member type='node' ref='-252' role='proposed'/>
+    <member type='node' ref='-253' role='proposed'/>
+    <member type='node' ref='-254' role='proposed'/>
+    <member type='node' ref='-255' role='proposed'/>
+    <member type='node' ref='-256' role='proposed'/>
+    <member type='node' ref='-257' role='proposed'/>
+    <member type='node' ref='-258' role='proposed'/>
+    <member type='node' ref='-259' role='proposed'/>
+    <member type='node' ref='-260' role='proposed'/>
+    <member type='node' ref='-261' role='proposed'/>
+    <member type='node' ref='-262' role='proposed'/>
+    <member type='node' ref='-263' role='proposed'/>
+    <member type='node' ref='-264' role='proposed'/>
+    <member type='node' ref='-265' role='proposed'/>
+    <member type='node' ref='-266' role='proposed'/>
+    <member type='node' ref='-267' role='proposed'/>
+    <member type='node' ref='-268' role='proposed'/>
+    <member type='node' ref='-269' role='proposed'/>
+    <member type='node' ref='-270' role='proposed'/>
+    <member type='node' ref='-271' role='proposed'/>
+    <member type='node' ref='-272' role='proposed'/>
+    <member type='node' ref='-273' role='proposed'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Kystpilegrimsleia (path + existing POIs + suggestions)'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='note:osm_route_relation' v='10508888'/>
+    <tag k='note' v='Single JOSM research file: path, existing overnight POIs, and new suggestions. Only role=proposed nodes have note:proposed=Proposed addition. Not an OSM import.'/>
+  </relation>
+</osm>

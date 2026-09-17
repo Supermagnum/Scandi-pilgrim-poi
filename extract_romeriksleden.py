@@ -54,25 +54,17 @@ TRAIL_NAME = "Romeriksleden"
 TRAIL_MEMBERSHIP = [SOURCE_TRAIL, TRAIL_NAME]
 
 
+PROPOSED_ADDITION = "Proposed addition"
+
+
 def proposal_note_for_existing_osm(osm_id: str = "") -> str:
-    """Per-POI proposal text for an OSM object missing from relation RELATION_ID."""
-    target = f"relation {RELATION_ID} ({TRAIL_NAME})"
-    base = (
-        f"Proposed: add as member of {target}. "
-        f"Do not modify existing members of {target}. Research aid only."
-    )
-    if osm_id:
-        return f"{base} Existing OSM object: {osm_id}."
-    return base
+    """Existing OSM lodging is not a new POI; no note:proposed on CMS matched rows."""
+    return ""
 
 
 def proposal_note_for_cms_gap() -> str:
-    """Per-POI proposal text for a CMS overnight POI with no OSM match."""
-    target = f"relation {RELATION_ID} ({TRAIL_NAME})"
-    return (
-        f"Proposed: create OSM object and add as member of {target}. "
-        f"Do not modify existing members of {target}. Research aid only."
-    )
+    """Per-POI tag value for a CMS overnight POI with no OSM match."""
+    return PROPOSED_ADDITION
 
 
 # Overnight / shelter categories on the CMS map (trailpoints `cs` list).

@@ -62,25 +62,19 @@ def log(message: str) -> None:
     print(message, flush=True)
 
 
+PROPOSED_ADDITION = "Proposed addition"
+
+
 def proposal_note_for_existing_osm(
     relation_id: int, trail_name: str, osm_id: str = ""
 ) -> str:
-    target = f"relation {relation_id} ({trail_name})"
-    base = (
-        f"Proposed: add as member of {target}. "
-        f"Do not modify existing members of {target}. Research aid only."
-    )
-    if osm_id:
-        return f"{base} Existing OSM object: {osm_id}."
-    return base
+    # Existing OSM lodging is not a new POI addition; keep CSV empty.
+    # Membership candidates are listed in osm_missing_for_relation.csv only.
+    return ""
 
 
 def proposal_note_for_cms_gap(relation_id: int, trail_name: str) -> str:
-    target = f"relation {relation_id} ({trail_name})"
-    return (
-        f"Proposed: create OSM object and add as member of {target}. "
-        f"Do not modify existing members of {target}. Research aid only."
-    )
+    return PROPOSED_ADDITION
 
 
 def http_get(url: str, timeout: int = 300) -> bytes:
@@ -616,23 +610,10 @@ def process_trail(
     write_csv(trail_dir / "shelters.csv", shelters, shelter_fields)
 
     cms_gaps = [r for r in shelters if r.get("match_status") == "gap"]
-    write_missing_additions_osm(
-        trail_dir / "missing_additions.osm",
-        trail_name=trail_name,
-        relation_id=relation_id,
-        missing=missing,
-        cms_gap_rows=cms_gaps,
+    log(
+        f"CSV membership outputs written; CMS gaps={len(cms_gaps)}. "
+        "Run build_josm_review.py to rebuild the single trail.osm per folder."
     )
-
-    notes_by_name = {
-        r["poi_name"]: r.get("proposal_note") or ""
-        for r in shelters
-        if r.get("poi_name")
-    }
-    patched = patch_shelters_osm_notes(
-        trail_dir / "shelters.osm", notes_by_name, relation_id
-    )
-    log(f"Patched note:proposed on {patched} shelters.osm nodes")
 
     summary = {
         "folder": folder,
@@ -651,9 +632,9 @@ def process_trail(
             1 for r in shelters if (r.get("proposal_note") or "").strip()
         ),
         "policy": (
-            "Never modify existing OSM relation members. Propose only missing "
-            "nearby lodging objects + CMS gaps in missing_additions.osm "
-            "(local research file)."
+            "Never modify existing OSM relation members. CSV lists missing nearby "
+            "lodging; rebuild trail.osm with build_josm_review.py (path + existing "
+            "POIs + gap suggestions only)."
         ),
     }
     (trail_dir / "relation_additions_summary.json").write_text(

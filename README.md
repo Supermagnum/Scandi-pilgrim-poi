@@ -32,9 +32,8 @@ Foundation.
 
   Romeriksleden is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer) and
   is not a separate CMS trail entry. Folder `data/by_trail/Romeriksleden/` holds
-  the OSM route geometry, corridor overnight POIs (`related_trails`
-  Gudbrandsdalsleden + Romeriksleden), and `romeriksleden.osm` linking path +
-  POIs in a local JOSM relation.
+  corridor overnight POIs (`related_trails` Gudbrandsdalsleden + Romeriksleden)
+  in the same single `trail.osm` as every other trail.
 - **stolavsleden.com** (WordPress site + Naturkartan embed, guide id 154):
   St. Olavsleden in Sweden, including hiking / biking / horseback path variants
   and horseback-oriented service points (veterinarians in the current extract;
@@ -57,19 +56,18 @@ For each trail with a known OSM route relation, discovery:
 1. Treats existing members of that relation as already related and **never
    modifies** them.
 2. Lists nearby lodging/shelter OSM objects that are **not** members in
-   `osm_missing_for_relation.csv` / `missing_additions.osm` (local research
-   only).
-3. Puts a per-POI `note:proposed` / `proposal_note` on every proposed addition
-   (existing OSM objects missing from the relation, and CMS overnight gaps).
+   `osm_missing_for_relation.csv` (CSV research only; not a second OSM file).
+3. CMS overnight **gaps** appear in `trail.osm` as new suggestions tagged
+   `note:proposed=Proposed addition`. Existing matched POIs have no that tag.
 
 Most pilgrim route relations currently contain path ways only, so lodging
-`already_member` counts are typically zero; the missing lists are proposals to
-review, not an instruction to upload.
+`already_member` counts are typically zero; the CSV missing lists are proposals
+to review, not an instruction to upload.
 
 Latest pass (`propose_relation_additions.py`, Romeriksleden via
 `extract_romeriksleden.py`):
 
-| folder | OSM relation | already | missing (propose) | CMS gaps |
+| folder | OSM relation | already | missing (CSV) | CMS gaps in trail.osm |
 | --- | ---: | ---: | ---: | ---: |
 | Borgleden | 5672944 | 0 | 256 | 8 |
 | Gudbrandsdalsleden | 1370273 | 0 | 345 | 88 |
@@ -89,23 +87,19 @@ See `data/by_trail/README.md` and `data/relation_additions_all_trails_summary.js
 ```
 data/
   by_trail/<TrailName>/
+    trail.osm                    # ONLY OSM file: path + existing POIs + new suggestions
     shelters.csv                 # overnight/shelter POIs + OSM match + proposal_note
-    shelters.osm                 # JOSM-loadable nodes (negative ids, version 0)
     pilgrim_centers.csv          # pilgrim-center / stamp-office comparison
     osm_along_route.csv          # lodging near route (membership status)
     osm_already_related.csv      # already members of the OSM route relation
-    osm_missing_for_relation.csv # near route, not on relation (proposals)
-    missing_additions.osm        # local research file of proposals only
+    osm_missing_for_relation.csv # near route, not on relation (CSV research)
     relation_additions_summary.json
-    horseback_path.osm           # St. Olavsleden only: horse route geometry
-    horseback_path.gpx           # St. Olavsleden only: source horseback GPX
+    hiking_path.gpx              # optional path cache (not needed in JOSM)
+    horseback_path.gpx           # St. Olavsleden only: horseback GPX
     horseback_service_points.csv # St. Olavsleden only: farrier/vet POIs
-    hiking_path.gpx              # St. Olavsleden / Romeriksleden route GPX
-    hiking_path.osm              # Romeriksleden (from OSM rel 1200009); St. Olavsleden has GPX only
-    romeriksleden.osm            # Romeriksleden only: path + POIs + local JOSM relation
   relation_additions_all_trails_summary.json
   osm_comparison_results.csv
-  pilegrimsleden_shelters.osm
+  pilegrimsleden_shelters.osm    # national combined extract (not per-trail)
   changeset_187258738_reference.json
   stolavsleden_api_reference.json
 scripts (repo root):
@@ -114,12 +108,13 @@ scripts (repo root):
   extract_stolavsleden.py
   extract_romeriksleden.py
   propose_relation_additions.py
+  build_josm_review.py
   discover_map_api.py
 ```
 
-Each trail `shelters.osm` includes a local JOSM `type=site` relation grouping
-overnight POI nodes (research aid; not for upload). Where known, nodes carry
-`note:osm_route_relation` pointing at the matching OSM hiking route relation.
+Each trail folder has **exactly one** `.osm` file: `trail.osm`. It includes a
+local JOSM `type=site` relation with roles `path`, `existing`, and `proposed`.
+Only suggested (gap) nodes carry `note:proposed=Proposed addition`.
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
 `St-Olavsleden`. The original trail name remains in CSV `trail` / OSM
@@ -128,14 +123,29 @@ filter.
 
 ## How to use in JOSM
 
-1. Open one trail folder’s `shelters.osm` (or `horseback_path.osm` /
-   `missing_additions.osm`) in JOSM.
-2. Download the surrounding OSM data and compare.
-3. Prefer rows with `match_status=gap` or objects in
-   `osm_missing_for_relation.csv` as candidates — still verify each object on
-   the ground or with current local sources.
-4. Do not edit or replace the real OSM trail relation from these files; they
-   only propose additions.
+Open this file for the trail you want to work on:
+
+`data/by_trail/<TrailName>/trail.osm`
+
+It is the only OSM file in the folder. It contains:
+
+1. **Path** — research geometry from the OSM route relation (or official GPX).
+2. **Existing POIs** — CMS overnight stops already matched in OSM
+   (`match_status` matched/possible). **No** `note:proposed`.
+3. **New suggestions** — CMS overnight stops with no suitable OSM object
+   (`match_status=gap`). **Only these** have `note:proposed=Proposed addition`.
+
+In JOSM, search `note:proposed=Proposed addition` to show only suggestions.
+Relation member roles are `path`, `existing`, and `proposed`.
+
+### Workflow
+
+1. Open `trail.osm`.
+2. Optionally download the real OSM route relation (IDs above) for comparison —
+   do not replace it from this file.
+3. Map only nodes with `note:proposed=Proposed addition` after verifying each
+   on the ground or with current local sources.
+4. Do not bulk-upload these nodes.
 
 ### match_status meanings
 
@@ -143,7 +153,7 @@ filter.
 | --- | --- |
 | matched | Compatible OSM object within 100 m (closest wins within 250 m) |
 | possible | Candidate within 100–250 m, or weak/incompatible tags |
-| gap | No suitable OSM object within 250 m |
+| gap | No suitable OSM object within 250 m — `note:proposed=Proposed addition` in `trail.osm` |
 
 Pilgrim-center matching uses any OSM node/way with `pilgrimage=*` (including way
 centroids), not only `tourism=information` + `information=office`.
@@ -191,6 +201,9 @@ python3 extract_romeriksleden.py
 
 # Membership proposals for all trails (optional --skip / --reuse-pbf / --only)
 python3 propose_relation_additions.py
+
+# Rebuild the single per-trail OSM file (path + existing + suggestions)
+python3 build_josm_review.py
 ```
 
 Do not commit `data/geofabrik/*.osm.pbf` or lodging scan caches (see `.gitignore`).
