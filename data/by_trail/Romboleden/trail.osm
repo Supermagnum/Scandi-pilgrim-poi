@@ -15880,7 +15880,8 @@
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-7933' version='0' action='modify' visible='true' lat='63.4337714' lon='10.4245614'>
-    <tag k='name' v='Rumi Hostel - Trondheim Vandrerhjem'/>
+    <tag k='name' v='RUMI Hostel'/>
+    <tag k='alt_name' v='Rumi Hostel - Trondheim Vandrerhjem'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Romboleden'/>

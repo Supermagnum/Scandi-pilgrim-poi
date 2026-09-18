@@ -14055,7 +14055,8 @@
     <tag k='note:trail' v='Østerdalsleden'/>
   </way>
   <node id='-7026' version='0' action='modify' visible='true' lat='61.4391676' lon='12.1481109'>
-    <tag k='name' v='Camp Fredbo Trysil'/>
+    <tag k='name' v='Trysil Camp - Fredbo'/>
+    <tag k='alt_name' v='Camp Fredbo Trysil'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
@@ -14069,22 +14070,24 @@
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-7028' version='0' action='modify' visible='true' lat='61.5560217' lon='11.1805445'>
-    <tag k='name' v='Lia gård pilegrimshus'/>
+    <tag k='name' v='Lia Gård Pilegrimssenter'/>
+    <tag k='alt_name' v='Lia gård pilegrimshus'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
   </node>
-  <node id='-7029' version='0' action='modify' visible='true' lat='61.1711600' lon='11.4614230'>
-    <tag k='name' v='Ljørkoia ved Løpsjøen'/>
+  <node id='-7029' version='0' action='modify' visible='true' lat='61.6725951' lon='11.3719511'>
+    <tag k='name' v='Pilegrimsbua'/>
+    <tag k='alt_name' v='Pilegrimsbua Rensjøen'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-7030' version='0' action='modify' visible='true' lat='61.6725951' lon='11.3719511'>
-    <tag k='name' v='Pilegrimsbua Rensjøen'/>
+  <node id='-7030' version='0' action='modify' visible='true' lat='61.1375625' lon='11.3801110'>
+    <tag k='name' v='Rena Camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
@@ -14119,14 +14122,16 @@
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-7035' version='0' action='modify' visible='true' lat='61.6921326' lon='11.2088763'>
-    <tag k='name' v='Storsjøsenteret'/>
+    <tag k='name' v='Rendalen camping'/>
+    <tag k='alt_name' v='Storsjøsenteret'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
     <tag k='tourism' v='hostel'/>
   </node>
   <node id='-7036' version='0' action='modify' visible='true' lat='61.2925837' lon='12.2834712'>
-    <tag k='name' v='Trysil Hyttegrend &amp; Camping'/>
+    <tag k='name' v='Trysil Hyttegrend, Motell og Camping'/>
+    <tag k='alt_name' v='Trysil Hyttegrend &amp; Camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
@@ -14139,15 +14144,15 @@
     <tag k='note:trail' v='Østerdalsleden'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-7038' version='0' action='modify' visible='true' lat='61.6268001' lon='11.6570759'>
-    <tag k='name' v='Osdalsjøhytta'/>
+  <node id='-7038' version='0' action='modify' visible='true' lat='61.1711600' lon='11.4614230'>
+    <tag k='name' v='Ljørkoia ved Løpsjøen'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-7039' version='0' action='modify' visible='true' lat='61.1375625' lon='11.3801110'>
-    <tag k='name' v='Rena Camping'/>
+  <node id='-7039' version='0' action='modify' visible='true' lat='61.6268001' lon='11.6570759'>
+    <tag k='name' v='Osdalsjøhytta'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Østerdalsleden'/>

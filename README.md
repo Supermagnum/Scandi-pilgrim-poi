@@ -72,13 +72,13 @@ Latest pass (`propose_relation_additions.py`, Romeriksleden via
 | folder | OSM relation | already | missing (CSV) | CMS gaps in trail.osm |
 | --- | ---: | ---: | ---: | ---: |
 | Borgleden | 5672944 | 0 | 256 | 8 |
-| Gudbrandsdalsleden | 1370273 | 0 | 345 | 88 |
-| Kystpilegrimsleia | 10508888 | 0 | 87 | 29 |
+| Gudbrandsdalsleden | 1370273 | 0 | 345 | 79 |
+| Kystpilegrimsleia | 10508888 | 0 | 87 | 28 |
 | Nordleden | 1585449 | 0 | 5 | 0 |
 | Osterdalsleden | 5129262 | 0 | 191 | 36 |
 | Romboleden | 1151161 | 0 | 441 | 5 |
-| Romeriksleden | 1200009 | 0 | 331 | 32 |
-| St-Olavsleden | 10524322 | 0 | 1208 | 118 |
+| Romeriksleden | 1200009 | 0 | 345 | 29 |
+| St-Olavsleden | 10524322 | 0 | 1208 | 96 |
 | Tunsbergleden | 5661086 | 0 | 178 | 18 |
 | Valldalsleden | 11218584 | 0 | 43 | 9 |
 
@@ -115,6 +115,12 @@ Each trail folder has **exactly one** `.osm` file: `trail.osm`, plus a short
 `pilegrimsleden:match_status`. Only suggested nodes use
 `note:proposed=Proposed addition`.
 
+`trail.osm` is a local research `type=site` relation (negative IDs). It is not
+the live OSM route relation and does not carry that relation’s hundreds of path
+way members. Uploading it as written adds new objects only; it does not remove
+or rewrite membership of existing OSM route relations.
+
+
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
 `St-Olavsleden`. St. Olavsleden merges NO + SE POIs in `trail.osm`.
 
@@ -126,12 +132,28 @@ Open:
 
 It contains:
 
-1. **Path**
+1. **Path** — one densified research way derived from the OSM route geometry
 2. **Existing POIs** (already in OSM) — no `note:proposed`
 3. **New suggestions** — only these have `note:proposed=Proposed addition`
 
 Search: `note:proposed=Proposed addition`. Relation roles: `path`, `existing`,
 `proposed`. See the trail folder `README.md` for counts and suggestion names.
+
+### `trail.osm` is not the live OSM route relation
+
+Each trail folder’s `trail.osm` ships a **new local** `type=site` relation with
+**negative IDs** (new path way + lodging nodes). It is a JOSM review aid, not a
+copy of the live OSM hiking route (e.g. Romeriksleden
+[relation/1200009](https://www.openstreetmap.org/relation/1200009) with its ~988
+way members).
+
+That is why member counts differ: the OSM route holds hundreds of path ways;
+`trail.osm` holds one simplified path plus overnight POIs only.
+
+Uploading `trail.osm` **as written** creates *additional* new objects. It does
+**not** rewrite, replace, or remove members from any existing OSM relation
+(including other pilgrimage routes). Membership of live route relations is only
+changed if you deliberately edit those relations in JOSM/iD after review.
 
 ### Workflow
 
@@ -140,7 +162,9 @@ Search: `note:proposed=Proposed addition`. Relation roles: `path`, `existing`,
    do not replace it from this file.
 3. Map only nodes with `note:proposed=Proposed addition` after verifying each
    on the ground or with current local sources.
-4. Do not bulk-upload these nodes.
+4. Do not bulk-upload these nodes. Prefer uploading verified new POIs one by
+   one; leave the live route relation alone unless you intentionally add
+   specific lodging members after review.
 
 Pilgrim-center matching uses any OSM node/way with `pilgrimage=*` (including way
 centroids), not only `tourism=information` + `information=office`.
@@ -157,7 +181,9 @@ Anyone merging features into OpenStreetMap must:
 - discuss bulk work with the local community before uploading.
 
 Do not bulk-upload these nodes. Do not modify existing members of OSM trail
-relations based solely on these files.
+relations based solely on these files. Uploading the local `trail.osm` site
+relation does not by itself alter membership of live OSM route relations.
+
 
 ## License
 
@@ -174,12 +200,29 @@ derived comparison fields needed for mapping research.
 Credit: pilegrimsleden.no, stolavsleden.com, Naturkartan, OpenStreetMap
 contributors, and Geofabrik extracts.
 
+## Matching notes
+
+False “new” overnight nodes (hotels/camping already in OSM) came from three gaps:
+
+1. Matching used proximity only (100 m / 250 m) and ignored CMS interest-point
+   `address` fields (GraphQL / pages such as
+   [Hedmarktoppen](https://www.pilegrimsleden.no/en/interest-points/hedmarktoppen)).
+2. Some OSM lodging types were dropped from the Geofabrik filter (notably
+   `tourism=caravan_site`) or treated as weak (`hotel`), so nearby mapped
+   objects never entered the candidate set.
+3. CMS pins can be offset from the real site; without address/name fallback the
+   pipeline treated the CMS row as a gap and wrote a duplicate guest_house.
+
+The matcher now pulls CMS addresses, matches `addr:*` and names out to 2 km,
+keeps hotels/caravan sites as lodging, and when OSM already has a `name` the
+pilgrim CMS title is written as `alt_name`.
+
 ## Regenerating
 
 ```bash
 # Norwegian extract + national OSM comparison (requires Geofabrik PBFs under data/geofabrik/)
 python3 extract_pilegrimsleden_shelters.py
-python3 compare_osm_shelters.py --pilgrim-centers-only --split-by-trail
+python3 compare_osm_shelters.py --split-by-trail
 
 # Swedish St. Olavsleden + horseback layers
 python3 extract_stolavsleden.py

@@ -12160,7 +12160,8 @@
     <tag k='hostel:type' v='pilgrim'/>
   </node>
   <node id='-6073' version='0' action='modify' visible='true' lat='62.0726800' lon='9.1202563'>
-    <tag k='name' v='Dombås gard'/>
+    <tag k='name' v='Domaas Gård Hyttetun &amp; Caravancamp'/>
+    <tag k='alt_name' v='Dombås gard'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
@@ -12181,60 +12182,63 @@
     <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6076' version='0' action='modify' visible='true' lat='62.2303184' lon='8.4064592'>
-    <tag k='name' v='Lesjaskogsvatnet camping'/>
+    <tag k='name' v='Lesjaskogvatnet Camping'/>
+    <tag k='alt_name' v='Lesjaskogsvatnet camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-6077' version='0' action='modify' visible='true' lat='62.0798430' lon='9.1229175'>
-    <tag k='name' v='Midtskog camping'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='tourism' v='chalet'/>
-  </node>
-  <node id='-6078' version='0' action='modify' visible='true' lat='62.3211459' lon='7.6662683'>
-    <tag k='name' v='Tjønnebu'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='tourism' v='chalet'/>
-  </node>
-  <node id='-6079' version='0' action='modify' visible='true' lat='62.1194271' lon='8.8028384'>
-    <tag k='name' v='Tynnøl Backpackers Lodge'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='tourism' v='chalet'/>
-  </node>
-  <node id='-6080' version='0' action='modify' visible='true' lat='62.0707621' lon='9.1316986'>
+  <node id='-6077' version='0' action='modify' visible='true' lat='62.0707621' lon='9.1316986'>
     <tag k='name' v='Ljoshaugen camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-6081' version='0' action='modify' visible='true' lat='62.3138027' lon='7.2913170'>
-    <tag k='name' v='Meretes Garden'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Valldalsleden'/>
-    <tag k='tourism' v='hostel'/>
-  </node>
-  <node id='-6082' version='0' action='modify' visible='true' lat='62.0775638' lon='9.1442798'>
-    <tag k='name' v='Trolltun Hotell og Hytter'/>
+  <node id='-6078' version='0' action='modify' visible='true' lat='62.0798430' lon='9.1229175'>
+    <tag k='name' v='Midtskog camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-6083' version='0' action='modify' visible='true' lat='62.2696151' lon='7.8359985'>
+  <node id='-6079' version='0' action='modify' visible='true' lat='62.3211459' lon='7.6662683'>
+    <tag k='name' v='Tjønnebu'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Valldalsleden'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-6080' version='0' action='modify' visible='true' lat='62.1194271' lon='8.8028384'>
+    <tag k='name' v='Tynnøl Backpackers Lodge'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Valldalsleden'/>
+    <tag k='tourism' v='chalet'/>
+  </node>
+  <node id='-6081' version='0' action='modify' visible='true' lat='62.2696151' lon='7.8359985'>
     <tag k='name' v='Vakkerstøylen'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Valldalsleden'/>
     <tag k='tourism' v='hostel'/>
+  </node>
+  <node id='-6082' version='0' action='modify' visible='true' lat='62.3138027' lon='7.2913170'>
+    <tag k='name' v='Uritun Camping'/>
+    <tag k='alt_name' v='Meretes Garden'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Valldalsleden'/>
+    <tag k='tourism' v='hostel'/>
+  </node>
+  <node id='-6083' version='0' action='modify' visible='true' lat='62.0775638' lon='9.1442798'>
+    <tag k='name' v='Dombås vandrerhjem'/>
+    <tag k='alt_name' v='Trolltun Hotell og Hytter'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Valldalsleden'/>
+    <tag k='tourism' v='chalet'/>
   </node>
   <node id='-6084' version='0' action='modify' visible='true' lat='62.3025138' lon='7.2558082'>
     <tag k='name' v='Elvebakken Camping'/>

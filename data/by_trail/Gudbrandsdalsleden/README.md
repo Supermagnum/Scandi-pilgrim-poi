@@ -8,13 +8,17 @@ Open `trail.osm` in this folder (the only `.osm` file).
 
 It contains:
 
-1. Trail **path**
+1. Trail **path** (one densified research way — not every OSM route way member)
 2. **Existing** overnight POIs (already present in OSM) — no `note:proposed`
 3. **New suggestions** — tagged `note:proposed=Proposed addition`
 
 Search in JOSM: `note:proposed=Proposed addition`
 
-Research tags such as `pilegrimsleden:match_status` are not used in this file.
+Do not expect research tags such as `pilegrimsleden:match_status` in this file.
+
+This file is a local `type=site` research relation with negative IDs. It is
+not a dump of the live OSM route relation. Uploading it as written adds new
+objects only and does not rewrite membership of existing OSM route relations.
 
 ## OSM route relation
 
@@ -26,8 +30,13 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 
 | item | count |
 | --- | ---: |
-| Existing overnight POIs | 81 |
-| New suggestions | 88 |
+| Overnight POIs (CMS) | 169 |
+| Existing in trail.osm | 90 |
+| New suggestions in trail.osm | 79 |
+| Pilgrim centers (reference) | 0 |
+| Pilgrim-center gaps (reference) | 0 |
+| Lodging already on OSM relation | 0 |
+| Lodging near route not on relation (reference) | 0 |
 
 ## New suggestions (names)
 
@@ -49,15 +58,12 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Båkinn Gård
 - Bøndernes Hus Jevnaker
 - Dalum herberge tilbyr enkel overnatting til pilegrimer
-- Dovregubbens Hall
 - Eidsvoll gamle prestegård - STENGT I 2026
 - Engen kloster i Kolbu
-- Enkel overnatting i gapahuk/hytte
 - Fjellheim gård
 - Fuglesang herberge
 - Gamleveien 60
 - Gapahuk "Pilegrimshvile"
-- Gapahuk i Klokkerhavna
 - Gapahuk på Lindeberg etter Vilbergfjellet, før Arteid
 - Gardlaus Markastue og pilegrimsherberge
 - Gjesvold Gård
@@ -71,7 +77,6 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Indal Forest Retreat
 - Ingeborg Refling Hagens kulturhus Fredheim
 - InnomHaug pilegrimsherberge
-- Jomfruburet & Drengstua
 - Jørundgard Viking- og Middelaldersenter
 - Kaldor Gård - overnatting og utsikt i Hafjell
 - Klokkargården Halstad
@@ -80,7 +85,6 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Kveldsro ved Fløyta
 - Langklopp Fjellgård
 - Lerfald gård
-- Lygnasæter
 - Majer Gård
 - Majors-Alm Gård
 - Meslo Herberge
@@ -89,7 +93,6 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Myhrer gård
 - Nordre Helgaker Gård
 - Nordrum Gård
-- Oppdalsporten
 - Pilegrimsbua ved Granerud
 - Rastebu Falang Bru
 - Rastebu Høgkorset
@@ -106,14 +109,11 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Solvang overnatting
 - Spitalen gamle skolehus - vertskap Sannfredstun
 - Stabburet på Skjefstad
-- Stall Lisletta
 - Stensveen
 - Stokke Nedre
-- Stugguhaugen, Fagerhaug
 - Sveastranda Camping
 - Sveinhaug gård
 - Svorkmo skytterhus
-- Sygard Grytting - middelalderloft
 - Sætrangsgata 37
 - Teltplass
 - Vekve hyttetun

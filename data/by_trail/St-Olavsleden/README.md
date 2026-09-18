@@ -8,13 +8,17 @@ Open `trail.osm` in this folder (the only `.osm` file).
 
 It contains:
 
-1. Trail **path**
+1. Trail **path** (one densified research way — not every OSM route way member)
 2. **Existing** overnight POIs (already present in OSM) — no `note:proposed`
 3. **New suggestions** — tagged `note:proposed=Proposed addition`
 
 Search in JOSM: `note:proposed=Proposed addition`
 
-Research tags such as `pilegrimsleden:match_status` are not used in this file.
+Do not expect research tags such as `pilegrimsleden:match_status` in this file.
+
+This file is a local `type=site` research relation with negative IDs. It is
+not a dump of the live OSM route relation. Uploading it as written adds new
+objects only and does not rewrite membership of existing OSM route relations.
 
 ## OSM route relation
 
@@ -26,38 +30,17 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 
 | item | count |
 | --- | ---: |
-| Existing overnight POIs | 58 |
-| New suggestions | 118 |
+| Overnight POIs (CMS) | 142 |
+| Existing in trail.osm | 46 |
+| New suggestions in trail.osm | 96 |
+| Pilgrim centers (reference) | 0 |
+| Pilgrim-center gaps (reference) | 0 |
+| Lodging already on OSM relation | 0 |
+| Lodging near route not on relation (reference) | 0 |
+| Horseback service points (reference) | 12 |
 
 ## New suggestions (names)
 
-- Auskin Kreative Senter
-- Boda borg
-- Borgsjö Hembygdsgård
-- Borås gård
-- Ersgard Gårdshotell med pilegrimsovernatting
-- Frosta Strandhus
-- Gullesviken
-- Hedmans fjellby
-- Hotell Jämtkrogen
-- Hussborgs herrgård
-- Lilla Äppelgården
-- Lillelunden Gård
-- Liten hytte i Lunne
-- Markabygda kirkestue
-- Medstugan, Vandrarhemmet Mejeriet
-- Oldervik herberge, Frosta
-- Rombäck 611
-- Sidsjö Hotell & Konferens
-- Skogset
-- St. Olavs cabin, Hållsta
-- Stabbur i Stjørdal
-- Stalltjärnstugan
-- Stuga Storharrsjön
-- Sundsvalls ridklubb
-- Valberg Slektsgård
-- Valum Gård Pilegrimsovernatting
-- Øfsti Mellom
 - Alsen, Stuga
 - Andersböle, Fäbodvall
 - Attefallshus, Undersåker
@@ -65,6 +48,7 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Bellmangårdens Pilgrimsboende, Matfors
 - Björnidet Mörsil
 - Bo i ro, Gällö
+- Boda borg
 - Boende på gård, Kluk
 - Boende på gård, Kvällsjön, Matfors
 - Borgsjö Hembygdsgård Vandrarhem
@@ -95,10 +79,12 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Knut & Ruts, Undersåker kyrka
 - Liljedalen, Stöde
 - Lilla Bogården, Kälsta
+- Lilla Äppelgården, Selånger
 - Lindberga gård, Stöde
 - Lindqvist Tjänst & Gästgiveri i Fränsta
 - Lombäcksstugorna
 - Lägenhet, Bodsjöbränna
+- Medstugans Pilgrimsboende
 - Mellgård, Grimnäsvägen
 - Mitt Musteri i Borgsjö
 - Mogården, Gimdalen
@@ -110,6 +96,7 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Pilgrimsvila - Båthuset på Rödön
 - Pils gård, Alsen
 - Pizzaros, Mörsil
+- Rastplats med vindskydd
 - Rastplats och badplats i Alsen
 - Rastplats och dass i Slåttviken
 - Revsunds Brewery & Distillery
@@ -132,8 +119,10 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Stuga Österböle 212, Balsta
 - Stuga, Lövåsen, Sörnedansjö
 - Stuga, Staa
+- Stuga, Storharrsjön
 - Stuga, Undersåker
 - Stugor, Rödön
+- Sundsvalls ridklubb
 - Svedje, Brunflo
 - Sweden4u - Usland, Stöde
 - Syster Ruths Hus, Alsen
@@ -146,7 +135,6 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Vindskydd, grillplats, bänkar
 - Viskansparken, Torpshammar
 - Wångens Wärdshus, Alsen
-- Åre Camping och stugor
 - Åredalens Fjällgård
 - Åsans pilgrimsboende, Mörsil
 
@@ -155,6 +143,6 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - `trail.osm` — open this in JOSM
 - `README.md` — this file (replaces per-trail CSV dumps)
 - `hiking_path.gpx` — optional path cache
-- `horseback_path.gpx` — horseback alignment; not in trail.osm
+- `horseback_path.gpx` — horseback alignment (St. Olavsleden); not in trail.osm
 
 Per-trail CSV dumps are not kept in this folder.

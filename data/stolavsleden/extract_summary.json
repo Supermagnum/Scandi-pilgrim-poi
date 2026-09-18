@@ -1,8 +1,8 @@
 {
-  "extracted_at": "2026-09-13T17:46:38.784801+00:00",
+  "extracted_at": "2026-09-18T01:21:00.653439+00:00",
   "overnight_count": 187,
   "swedish_overnight_count": 147,
-  "swedish_added_after_dedupe": 125,
+  "swedish_added_after_dedupe": 142,
   "horse_services": [
     {
       "id": 21377,
@@ -26,8 +26,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/808435179",
       "matched_osm_url": "https://www.openstreetmap.org/way/808435179",
+      "matched_osm_name": "Stöde Camping",
       "distance_m": 65.8,
-      "tag_diff": "tourism=camp_site; name=Stöde Camping"
+      "tag_diff": "name_match; tourism=camp_site; name=Stöde Camping"
     },
     {
       "id": 21787,
@@ -49,6 +50,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -70,10 +72,11 @@
       ],
       "source": "stolavsleden.com",
       "match_status": "matched",
-      "matched_osm_id": "node/2004327957",
-      "matched_osm_url": "https://www.openstreetmap.org/node/2004327957",
-      "distance_m": 3.8,
-      "tag_diff": "amenity=veterinary; name=Östersunds Djursjukhus"
+      "matched_osm_id": "node/3167575134",
+      "matched_osm_url": "https://www.openstreetmap.org/node/3167575134",
+      "matched_osm_name": "",
+      "distance_m": 85.2,
+      "tag_diff": "amenity=shelter"
     },
     {
       "id": 21783,
@@ -95,8 +98,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/2549551944",
       "matched_osm_url": "https://www.openstreetmap.org/node/2549551944",
+      "matched_osm_name": "",
       "distance_m": 154.5,
-      "tag_diff": "tourism=hostel"
+      "tag_diff": "compatible_beyond_100m; tourism=hostel"
     },
     {
       "id": 21847,
@@ -118,8 +122,9 @@
       "match_status": "possible",
       "matched_osm_id": "way/1309939669",
       "matched_osm_url": "https://www.openstreetmap.org/way/1309939669",
+      "matched_osm_name": "STF Södergården Vandrarhem Åre",
       "distance_m": 126.3,
-      "tag_diff": "tourism=hostel; name=STF Södergården Vandrarhem Åre"
+      "tag_diff": "compatible_beyond_100m; tourism=hostel; building=yes; name=STF Södergården Vandrarhem Åre"
     },
     {
       "id": 21856,
@@ -141,6 +146,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -161,11 +167,12 @@
         "Service"
       ],
       "source": "stolavsleden.com",
-      "match_status": "matched",
-      "matched_osm_id": "node/6960155785",
-      "matched_osm_url": "https://www.openstreetmap.org/node/6960155785",
-      "distance_m": 4.2,
-      "tag_diff": "amenity=veterinary; name=Ejra Djurklinik"
+      "match_status": "possible",
+      "matched_osm_id": "node/3171238822",
+      "matched_osm_url": "https://www.openstreetmap.org/node/3171238822",
+      "matched_osm_name": "",
+      "distance_m": 240.5,
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 21784,
@@ -187,6 +194,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -210,6 +218,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -233,6 +242,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -256,6 +266,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/13255987511",
       "matched_osm_url": "https://www.openstreetmap.org/node/13255987511",
+      "matched_osm_name": "",
       "distance_m": 80.3,
       "tag_diff": "amenity=shelter"
     },
@@ -279,6 +290,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     }
@@ -304,6 +316,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -327,6 +340,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -350,6 +364,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -373,6 +388,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -396,6 +412,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -419,6 +436,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -442,6 +460,7 @@
       "match_status": "matched",
       "matched_osm_id": "way/783370464",
       "matched_osm_url": "https://www.openstreetmap.org/way/783370464",
+      "matched_osm_name": "Ristafallet Camping",
       "distance_m": 45.9,
       "tag_diff": "tourism=camp_site; name=Ristafallet Camping"
     },
@@ -465,6 +484,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -488,6 +508,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -508,11 +529,12 @@
         "Boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "gap",
-      "matched_osm_id": "",
-      "matched_osm_url": "",
-      "distance_m": "",
-      "tag_diff": ""
+      "match_status": "matched",
+      "matched_osm_id": "node/13266595311",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13266595311",
+      "matched_osm_name": "",
+      "distance_m": 75.5,
+      "tag_diff": "tourism=caravan_site"
     },
     {
       "id": 21407,
@@ -534,6 +556,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -557,8 +580,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/1309939669",
       "matched_osm_url": "https://www.openstreetmap.org/way/1309939669",
+      "matched_osm_name": "STF Södergården Vandrarhem Åre",
       "distance_m": 17.5,
-      "tag_diff": "tourism=hostel; building=yes; name=STF Södergården Vandrarhem Åre"
+      "tag_diff": "name_match; tourism=hostel; building=yes; name=STF Södergården Vandrarhem Åre"
     },
     {
       "id": 3116,
@@ -590,8 +614,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/783370464",
       "matched_osm_url": "https://www.openstreetmap.org/way/783370464",
+      "matched_osm_name": "Ristafallet Camping",
       "distance_m": 16.9,
-      "tag_diff": "tourism=camp_site; name=Ristafallet Camping"
+      "tag_diff": "name_match; tourism=camp_site; name=Ristafallet Camping"
     },
     {
       "id": 21400,
@@ -613,6 +638,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -636,8 +662,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/3815442185",
       "matched_osm_url": "https://www.openstreetmap.org/node/3815442185",
+      "matched_osm_name": "Sörbygården",
       "distance_m": 1.6,
-      "tag_diff": "tourism=guest_house; name=Sörbygården"
+      "tag_diff": "name_match; tourism=guest_house; name=Sörbygården"
     },
     {
       "id": 21436,
@@ -659,8 +686,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/566346522",
       "matched_osm_url": "https://www.openstreetmap.org/way/566346522",
+      "matched_osm_name": "Åre Fjällsätra",
       "distance_m": 2.2,
-      "tag_diff": "tourism=hotel; building=yes; name=Åre Fjällsätra"
+      "tag_diff": "name_match; tourism=hotel; building=yes; name=Åre Fjällsätra"
     },
     {
       "id": 21396,
@@ -679,11 +707,12 @@
         "Boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "possible",
-      "matched_osm_id": "node/3161063564",
-      "matched_osm_url": "https://www.openstreetmap.org/node/3161063564",
-      "distance_m": 141.0,
-      "tag_diff": "amenity=shelter; name=Svartsjöstugan"
+      "match_status": "matched",
+      "matched_osm_id": "way/108045820",
+      "matched_osm_url": "https://www.openstreetmap.org/way/108045820",
+      "matched_osm_name": "Östersunds camping",
+      "distance_m": 248.1,
+      "tag_diff": "name_match_beyond_100m; tourism=camp_site; name=Östersunds camping"
     },
     {
       "id": 21442,
@@ -705,8 +734,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/605741152",
       "matched_osm_url": "https://www.openstreetmap.org/way/605741152",
+      "matched_osm_name": "Millestgården",
       "distance_m": 6.0,
-      "tag_diff": "tourism=hotel; building=yes; name=Millestgården"
+      "tag_diff": "name_match; tourism=hotel; building=yes; name=Millestgården"
     },
     {
       "id": 21389,
@@ -725,11 +755,12 @@
         "Boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "possible",
-      "matched_osm_id": "node/290482991",
-      "matched_osm_url": "https://www.openstreetmap.org/node/290482991",
-      "distance_m": 139.7,
-      "tag_diff": "tourism=camp_site; name=Camp Viking"
+      "match_status": "matched",
+      "matched_osm_id": "node/2694353532",
+      "matched_osm_url": "https://www.openstreetmap.org/node/2694353532",
+      "matched_osm_name": "Camp Viking",
+      "distance_m": 23.2,
+      "tag_diff": "name_match; tourism=caravan_site; name=Camp Viking"
     },
     {
       "id": 21399,
@@ -748,11 +779,12 @@
         "Boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "possible",
+      "match_status": "matched",
       "matched_osm_id": "way/99409175",
       "matched_osm_url": "https://www.openstreetmap.org/way/99409175",
+      "matched_osm_name": "Frösö Camping",
       "distance_m": 126.7,
-      "tag_diff": "tourism=camp_site; name=Frösö Camping"
+      "tag_diff": "name_match_beyond_100m; tourism=camp_site; name=Frösö Camping"
     },
     {
       "id": 21431,
@@ -774,8 +806,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/4236193150",
       "matched_osm_url": "https://www.openstreetmap.org/node/4236193150",
+      "matched_osm_name": "Hållandsgården",
       "distance_m": 7.8,
-      "tag_diff": "tourism=hotel; name=Hållandsgården"
+      "tag_diff": "name_match; tourism=hotel; name=Hållandsgården"
     },
     {
       "id": 21383,
@@ -797,6 +830,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/3523833707",
       "matched_osm_url": "https://www.openstreetmap.org/node/3523833707",
+      "matched_osm_name": "Hussborgs herrgård",
       "distance_m": 0.4,
       "tag_diff": "tourism=hotel; name=Hussborgs herrgård"
     },
@@ -820,6 +854,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -843,6 +878,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -866,6 +902,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -889,6 +926,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -912,6 +950,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -935,6 +974,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -958,6 +998,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -981,6 +1022,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/13156999342",
       "matched_osm_url": "https://www.openstreetmap.org/node/13156999342",
+      "matched_osm_name": "Åre Bed & Breakfast",
       "distance_m": 8.1,
       "tag_diff": "tourism=guest_house; name=Åre Bed & Breakfast"
     },
@@ -1004,8 +1046,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/142795115",
       "matched_osm_url": "https://www.openstreetmap.org/way/142795115",
+      "matched_osm_name": "Jämtkrogen",
       "distance_m": 6.4,
-      "tag_diff": "tourism=hotel; building=yes; name=Jämtkrogen"
+      "tag_diff": "name_match; tourism=hotel; building=yes; name=Jämtkrogen"
     },
     {
       "id": 21384,
@@ -1030,8 +1073,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/1238807100",
       "matched_osm_url": "https://www.openstreetmap.org/way/1238807100",
+      "matched_osm_name": "Borgsjö Strand Restaurang & Camping",
       "distance_m": 54.8,
-      "tag_diff": "tourism=camp_site; name=Borgsjö Strand Restaurang & Camping"
+      "tag_diff": "name_match; tourism=camp_site; name=Borgsjö Strand Restaurang & Camping"
     },
     {
       "id": 21392,
@@ -1053,6 +1097,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1076,6 +1121,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1096,11 +1142,12 @@
         "Boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "gap",
-      "matched_osm_id": "",
-      "matched_osm_url": "",
-      "distance_m": "",
-      "tag_diff": ""
+      "match_status": "matched",
+      "matched_osm_id": "way/1359159488",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1359159488",
+      "matched_osm_name": "Åre Camping",
+      "distance_m": 38.6,
+      "tag_diff": "name_match; tourism=caravan_site; name=Åre Camping"
     },
     {
       "id": 21403,
@@ -1122,6 +1169,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1145,8 +1193,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/2585557211",
       "matched_osm_url": "https://www.openstreetmap.org/node/2585557211",
+      "matched_osm_name": "STF Östersund Ledkrysset Vandrarhem",
       "distance_m": 1.4,
-      "tag_diff": "tourism=hostel; name=STF Östersund Ledkrysset Vandrarhem"
+      "tag_diff": "name_match; tourism=hostel; name=STF Östersund Ledkrysset Vandrarhem"
     },
     {
       "id": 21388,
@@ -1169,6 +1218,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1192,8 +1242,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/107975375",
       "matched_osm_url": "https://www.openstreetmap.org/way/107975375",
+      "matched_osm_name": "Quality Hotel Frösö Park",
       "distance_m": 28.2,
-      "tag_diff": "tourism=hotel; building=hotel; name=Quality Hotel Frösö Park"
+      "tag_diff": "name_match; tourism=hotel; building=hotel; name=Quality Hotel Frösö Park"
     },
     {
       "id": 21441,
@@ -1215,6 +1266,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/6343703458",
       "matched_osm_url": "https://www.openstreetmap.org/node/6343703458",
+      "matched_osm_name": "Parkvillan",
       "distance_m": 63.4,
       "tag_diff": "tourism=hotel; name=Parkvillan"
     },
@@ -1238,8 +1290,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/503277851",
       "matched_osm_url": "https://www.openstreetmap.org/node/503277851",
+      "matched_osm_name": "Camp Midadventure",
       "distance_m": 40.6,
-      "tag_diff": "tourism=camp_site; name=Camp Midadventure"
+      "tag_diff": "name_match; tourism=camp_site; name=Camp Midadventure"
     },
     {
       "id": 21462,
@@ -1261,6 +1314,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1284,6 +1338,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1307,6 +1362,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1330,8 +1386,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/1642118079",
       "matched_osm_url": "https://www.openstreetmap.org/node/1642118079",
+      "matched_osm_name": "",
       "distance_m": 106.6,
-      "tag_diff": "amenity=shelter"
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 21487,
@@ -1353,6 +1410,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1376,6 +1434,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1399,6 +1458,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1422,6 +1482,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1443,10 +1504,11 @@
       ],
       "source": "stolavsleden.com",
       "match_status": "matched",
-      "matched_osm_id": "node/12646509409",
-      "matched_osm_url": "https://www.openstreetmap.org/node/12646509409",
-      "distance_m": 74.2,
-      "tag_diff": "amenity=shelter"
+      "matched_osm_id": "node/470641952",
+      "matched_osm_url": "https://www.openstreetmap.org/node/470641952",
+      "matched_osm_name": "Jamtli Vandrarhem",
+      "distance_m": 76.9,
+      "tag_diff": "name_match; tourism=hostel; name=Jamtli Vandrarhem"
     },
     {
       "id": 21477,
@@ -1468,6 +1530,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1491,6 +1554,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1514,6 +1578,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1538,8 +1603,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/12760157391",
       "matched_osm_url": "https://www.openstreetmap.org/node/12760157391",
+      "matched_osm_name": "",
       "distance_m": 131.9,
-      "tag_diff": "amenity=shelter"
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 21506,
@@ -1561,6 +1627,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1584,6 +1651,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1607,6 +1675,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1630,8 +1699,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/1255767098",
       "matched_osm_url": "https://www.openstreetmap.org/node/1255767098",
+      "matched_osm_name": "Sidsjö Hotell & Konferens",
       "distance_m": 12.1,
-      "tag_diff": "tourism=hotel; name=Sidsjö Hotell & Konferens"
+      "tag_diff": "name_match; tourism=hotel; name=Sidsjö Hotell & Konferens"
     },
     {
       "id": 21507,
@@ -1653,6 +1723,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1676,6 +1747,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1699,6 +1771,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1722,6 +1795,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1753,6 +1827,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1776,6 +1851,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1799,6 +1875,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1822,6 +1899,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1845,6 +1923,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1868,8 +1947,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/1233653937",
       "matched_osm_url": "https://www.openstreetmap.org/way/1233653937",
+      "matched_osm_name": "Öyegården",
       "distance_m": 26.5,
-      "tag_diff": "tourism=guest_house; building=yes; name=Öyegården"
+      "tag_diff": "name_match; tourism=guest_house; building=yes; name=Öyegården"
     },
     {
       "id": 23781,
@@ -1891,6 +1971,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1911,11 +1992,12 @@
         "Boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "matched",
-      "matched_osm_id": "node/470641814",
-      "matched_osm_url": "https://www.openstreetmap.org/node/470641814",
-      "distance_m": 8.1,
-      "tag_diff": "tourism=hotel; name=Hotel Emma"
+      "match_status": "possible",
+      "matched_osm_id": "node/476598944",
+      "matched_osm_url": "https://www.openstreetmap.org/node/476598944",
+      "matched_osm_name": "Hotell Östersund",
+      "distance_m": 350.5,
+      "tag_diff": "name_match_beyond_100m; tourism=hotel; name=Hotell Östersund"
     },
     {
       "id": 26844,
@@ -1943,8 +2025,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/5055487629",
       "matched_osm_url": "https://www.openstreetmap.org/node/5055487629",
+      "matched_osm_name": "",
       "distance_m": 102.0,
-      "tag_diff": "amenity=shelter"
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 25902,
@@ -1969,6 +2052,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -1996,6 +2080,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2019,6 +2104,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2042,6 +2128,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2065,11 +2152,12 @@
         "Bänkbord"
       ],
       "source": "stolavsleden.com",
-      "match_status": "gap",
-      "matched_osm_id": "",
-      "matched_osm_url": "",
-      "distance_m": "",
-      "tag_diff": ""
+      "match_status": "matched",
+      "matched_osm_id": "way/1060280800",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1060280800",
+      "matched_osm_name": "",
+      "distance_m": 29.5,
+      "tag_diff": "amenity=shelter; building=yes"
     },
     {
       "id": 26772,
@@ -2095,6 +2183,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2118,6 +2207,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2142,8 +2232,9 @@
       "match_status": "possible",
       "matched_osm_id": "way/808435179",
       "matched_osm_url": "https://www.openstreetmap.org/way/808435179",
+      "matched_osm_name": "Stöde Camping",
       "distance_m": 244.1,
-      "tag_diff": "tourism=camp_site; name=Stöde Camping"
+      "tag_diff": "compatible_beyond_100m; tourism=camp_site; name=Stöde Camping"
     },
     {
       "id": 26702,
@@ -2168,6 +2259,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2191,6 +2283,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2214,6 +2307,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2237,6 +2331,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2260,6 +2355,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2283,6 +2379,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2306,6 +2403,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2330,6 +2428,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2351,10 +2450,11 @@
       ],
       "source": "stolavsleden.com",
       "match_status": "matched",
-      "matched_osm_id": "node/9879338570",
-      "matched_osm_url": "https://www.openstreetmap.org/node/9879338570",
-      "distance_m": 81.1,
-      "tag_diff": "tourism=camp_site; name=Bräcke Strand Tältplats"
+      "matched_osm_id": "way/1450685675",
+      "matched_osm_url": "https://www.openstreetmap.org/way/1450685675",
+      "matched_osm_name": "Bräcke Strand Ställplats",
+      "distance_m": 34.8,
+      "tag_diff": "tourism=caravan_site; name=Bräcke Strand Ställplats"
     },
     {
       "id": 127170,
@@ -2376,6 +2476,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2400,6 +2501,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/2549551944",
       "matched_osm_url": "https://www.openstreetmap.org/node/2549551944",
+      "matched_osm_name": "",
       "distance_m": 4.8,
       "tag_diff": "tourism=hostel"
     },
@@ -2423,8 +2525,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/11818550599",
       "matched_osm_url": "https://www.openstreetmap.org/node/11818550599",
+      "matched_osm_name": "Camp Östbacken",
       "distance_m": 5.1,
-      "tag_diff": "tourism=camp_site; name=Camp Östbacken"
+      "tag_diff": "name_match; tourism=camp_site; name=Camp Östbacken"
     },
     {
       "id": 70284,
@@ -2446,6 +2549,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2469,8 +2573,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/939349186",
       "matched_osm_url": "https://www.openstreetmap.org/node/939349186",
+      "matched_osm_name": "",
       "distance_m": 237.1,
-      "tag_diff": "amenity=shelter"
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 127259,
@@ -2492,6 +2597,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2513,11 +2619,12 @@
         "Vindskydd"
       ],
       "source": "stolavsleden.com",
-      "match_status": "possible",
-      "matched_osm_id": "way/1305200399",
-      "matched_osm_url": "https://www.openstreetmap.org/way/1305200399",
-      "distance_m": 19.6,
-      "tag_diff": "building=hut"
+      "match_status": "gap",
+      "matched_osm_id": "",
+      "matched_osm_url": "",
+      "matched_osm_name": "",
+      "distance_m": "",
+      "tag_diff": ""
     },
     {
       "id": 99673,
@@ -2539,6 +2646,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2562,6 +2670,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2585,6 +2694,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2620,6 +2730,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2643,6 +2754,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2666,6 +2778,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2689,6 +2802,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2712,6 +2826,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/13590708417",
       "matched_osm_url": "https://www.openstreetmap.org/node/13590708417",
+      "matched_osm_name": "Gårdhuset Vandrarhem",
       "distance_m": 4.2,
       "tag_diff": "tourism=hostel; name=Gårdhuset Vandrarhem"
     },
@@ -2735,6 +2850,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2758,6 +2874,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2782,6 +2899,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2806,6 +2924,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2829,6 +2948,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2852,6 +2972,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2875,6 +2996,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/4557813792",
       "matched_osm_url": "https://www.openstreetmap.org/node/4557813792",
+      "matched_osm_name": "",
       "distance_m": 88.5,
       "tag_diff": "amenity=shelter"
     },
@@ -2898,6 +3020,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/4558612412",
       "matched_osm_url": "https://www.openstreetmap.org/node/4558612412",
+      "matched_osm_name": "",
       "distance_m": 67.6,
       "tag_diff": "amenity=shelter"
     },
@@ -2923,6 +3046,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2946,6 +3070,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/470641814",
       "matched_osm_url": "https://www.openstreetmap.org/node/470641814",
+      "matched_osm_name": "Hotel Emma",
       "distance_m": 29.5,
       "tag_diff": "tourism=hotel; name=Hotel Emma"
     },
@@ -2969,6 +3094,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -2992,6 +3118,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3015,6 +3142,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/6341216814",
       "matched_osm_url": "https://www.openstreetmap.org/node/6341216814",
+      "matched_osm_name": "",
       "distance_m": 79.9,
       "tag_diff": "amenity=shelter"
     },
@@ -3043,11 +3171,12 @@
         "Vandrarvänligt boende"
       ],
       "source": "stolavsleden.com",
-      "match_status": "gap",
-      "matched_osm_id": "",
-      "matched_osm_url": "",
-      "distance_m": "",
-      "tag_diff": ""
+      "match_status": "matched",
+      "matched_osm_id": "node/13960824038",
+      "matched_osm_url": "https://www.openstreetmap.org/node/13960824038",
+      "matched_osm_name": "Ådalsvollen Pilegrimlodge",
+      "distance_m": 20.4,
+      "tag_diff": "tourism=guest_house; name=Ådalsvollen Pilegrimlodge"
     },
     {
       "id": 52580,
@@ -3069,6 +3198,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3092,6 +3222,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3115,6 +3246,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3138,8 +3270,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/4558612423",
       "matched_osm_url": "https://www.openstreetmap.org/node/4558612423",
+      "matched_osm_name": "",
       "distance_m": 120.3,
-      "tag_diff": "amenity=shelter"
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 138008,
@@ -3161,6 +3294,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3184,6 +3318,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3207,6 +3342,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3230,6 +3366,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3253,6 +3390,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3276,6 +3414,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3302,6 +3441,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/12568786545",
       "matched_osm_url": "https://www.openstreetmap.org/node/12568786545",
+      "matched_osm_name": "Torpsjön lägerplats",
       "distance_m": 28.1,
       "tag_diff": "amenity=shelter; name=Torpsjön lägerplats"
     },
@@ -3325,6 +3465,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3348,6 +3489,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3371,6 +3513,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3394,6 +3537,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3417,6 +3561,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3440,8 +3585,9 @@
       "match_status": "possible",
       "matched_osm_id": "way/297511988",
       "matched_osm_url": "https://www.openstreetmap.org/way/297511988",
+      "matched_osm_name": "First Camp Fläsian",
       "distance_m": 106.2,
-      "tag_diff": "tourism=camp_site; name=First Camp Fläsian"
+      "tag_diff": "compatible_beyond_100m; tourism=camp_site; name=First Camp Fläsian"
     },
     {
       "id": 100362,
@@ -3463,6 +3609,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3486,8 +3633,9 @@
       "match_status": "matched",
       "matched_osm_id": "way/84947237",
       "matched_osm_url": "https://www.openstreetmap.org/way/84947237",
+      "matched_osm_name": "Hotel Knaust",
       "distance_m": 8.1,
-      "tag_diff": "tourism=hotel; building=yes; name=Hotel Knaust"
+      "tag_diff": "name_match; tourism=hotel; building=yes; name=Hotel Knaust"
     },
     {
       "id": 21505,
@@ -3509,8 +3657,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/560417202",
       "matched_osm_url": "https://www.openstreetmap.org/node/560417202",
+      "matched_osm_name": "Quality Hotel Sundsvall",
       "distance_m": 17.4,
-      "tag_diff": "tourism=hotel; name=Quality Hotel Sundsvall"
+      "tag_diff": "name_match; tourism=hotel; name=Quality Hotel Sundsvall"
     },
     {
       "id": 21479,
@@ -3534,8 +3683,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/922674322",
       "matched_osm_url": "https://www.openstreetmap.org/node/922674322",
+      "matched_osm_name": "Sundsvall City Hotel",
       "distance_m": 7.4,
-      "tag_diff": "tourism=hotel; name=Sundsvall City Hotel"
+      "tag_diff": "name_match; tourism=hotel; name=Sundsvall City Hotel"
     },
     {
       "id": 122705,
@@ -3559,8 +3709,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/13267585089",
       "matched_osm_url": "https://www.openstreetmap.org/node/13267585089",
+      "matched_osm_name": "Hållandsgårdens Pilgrimsstuga",
       "distance_m": 3.6,
-      "tag_diff": "tourism=wilderness_hut; name=Hållandsgårdens Pilgrimsstuga"
+      "tag_diff": "name_match; tourism=wilderness_hut; name=Hållandsgårdens Pilgrimsstuga"
     },
     {
       "id": 25742,
@@ -3597,8 +3748,9 @@
       "match_status": "possible",
       "matched_osm_id": "way/1238807100",
       "matched_osm_url": "https://www.openstreetmap.org/way/1238807100",
+      "matched_osm_name": "Borgsjö Strand Restaurang & Camping",
       "distance_m": 123.1,
-      "tag_diff": "tourism=camp_site; name=Borgsjö Strand Restaurang & Camping"
+      "tag_diff": "compatible_beyond_100m; tourism=camp_site; name=Borgsjö Strand Restaurang & Camping"
     },
     {
       "id": 149270,
@@ -3620,6 +3772,7 @@
       "match_status": "matched",
       "matched_osm_id": "node/4558612412",
       "matched_osm_url": "https://www.openstreetmap.org/node/4558612412",
+      "matched_osm_name": "",
       "distance_m": 82.5,
       "tag_diff": "amenity=shelter"
     },
@@ -3643,6 +3796,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3666,6 +3820,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3689,6 +3844,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3712,8 +3868,9 @@
       "match_status": "possible",
       "matched_osm_id": "node/13943561855",
       "matched_osm_url": "https://www.openstreetmap.org/node/13943561855",
+      "matched_osm_name": "",
       "distance_m": 228.8,
-      "tag_diff": "amenity=shelter"
+      "tag_diff": "compatible_beyond_100m; amenity=shelter"
     },
     {
       "id": 103051,
@@ -3735,6 +3892,7 @@
       "match_status": "gap",
       "matched_osm_id": "",
       "matched_osm_url": "",
+      "matched_osm_name": "",
       "distance_m": "",
       "tag_diff": ""
     },
@@ -3758,8 +3916,9 @@
       "match_status": "matched",
       "matched_osm_id": "node/1751673706",
       "matched_osm_url": "https://www.openstreetmap.org/node/1751673706",
+      "matched_osm_name": "Torpshammars herrgård",
       "distance_m": 38.8,
-      "tag_diff": "tourism=guest_house; name=Torpshammars herrgård"
+      "tag_diff": "name_match; tourism=guest_house; name=Torpshammars herrgård"
     }
   ],
   "gpx_deviation": {

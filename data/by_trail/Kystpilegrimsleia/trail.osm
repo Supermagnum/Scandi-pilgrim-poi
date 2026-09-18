@@ -453,13 +453,21 @@
     <tag k='note:trail' v='Kystpilegrimsleia'/>
   </way>
   <node id='-225' version='0' action='modify' visible='true' lat='63.6994677' lon='9.7429580'>
-    <tag k='name' v='Austrått camping og motell'/>
+    <tag k='name' v='Austrått Camping'/>
+    <tag k='alt_name' v='Austrått camping og motell'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-226' version='0' action='modify' visible='true' lat='63.5971042' lon='9.8966217'>
+  <node id='-226' version='0' action='modify' visible='true' lat='61.1717892' lon='5.3509159'>
+    <tag k='name' v='Birkeland Camping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='tourism' v='camp_site'/>
+  </node>
+  <node id='-227' version='0' action='modify' visible='true' lat='63.5971042' lon='9.8966217'>
     <tag k='name' v='Blåheia'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -467,30 +475,33 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-227' version='0' action='modify' visible='true' lat='62.4330215' lon='6.3935384'>
-    <tag k='name' v='Borg sommerhotell og camping'/>
+  <node id='-228' version='0' action='modify' visible='true' lat='62.4330215' lon='6.3935384'>
+    <tag k='name' v='Borg Sommerhotell'/>
+    <tag k='alt_name' v='Borg sommerhotell og camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='hostel'/>
   </node>
-  <node id='-228' version='0' action='modify' visible='true' lat='63.3276488' lon='8.0529468'>
-    <tag k='name' v='Eco Camp Norway på Smøla'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Kystpilegrimsleia'/>
-    <tag k='tourism' v='hostel'/>
-    <tag k='hostel:type' v='pilgrim'/>
-  </node>
-  <node id='-229' version='0' action='modify' visible='true' lat='63.8480640' lon='8.4537920'>
-    <tag k='name' v='Fyrvokterboligen ved Sula Fyr'/>
+  <node id='-229' version='0' action='modify' visible='true' lat='63.3276488' lon='8.0529468'>
+    <tag k='name' v='Eco Camp'/>
+    <tag k='alt_name' v='Eco Camp Norway på Smøla'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
   </node>
-  <node id='-230' version='0' action='modify' visible='true' lat='62.4744002' lon='6.2064004'>
+  <node id='-230' version='0' action='modify' visible='true' lat='63.8480640' lon='8.4537920'>
+    <tag k='name' v='Sula fyr'/>
+    <tag k='alt_name' v='Fyrvokterboligen ved Sula Fyr'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-231' version='0' action='modify' visible='true' lat='62.4744002' lon='6.2064004'>
     <tag k='name' v='Gapahuk Aksla'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -498,58 +509,72 @@
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-231' version='0' action='modify' visible='true' lat='63.3074055' lon='8.0120373'>
-    <tag k='name' v='Gapahuken på Rosvollhaugen'/>
+  <node id='-232' version='0' action='modify' visible='true' lat='63.3074055' lon='8.0120373'>
+    <tag k='name' v='Rosvollhaugen'/>
+    <tag k='alt_name' v='Gapahuken på Rosvollhaugen'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='amenity' v='shelter'/>
     <tag k='shelter_type' v='lean_to'/>
   </node>
-  <node id='-232' version='0' action='modify' visible='true' lat='59.7940744' lon='5.7095446'>
-    <tag k='name' v='Gjestegården Halsnøy'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Kystpilegrimsleia'/>
-    <tag k='tourism' v='chalet'/>
-  </node>
   <node id='-233' version='0' action='modify' visible='true' lat='62.1277389' lon='5.1629276'>
-    <tag k='name' v='Hoddevik strandcamping'/>
+    <tag k='name' v='Hoddevik Strandcamp'/>
+    <tag k='alt_name' v='Hoddevik strandcamping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-234' version='0' action='modify' visible='true' lat='61.5656813' lon='4.7674281'>
-    <tag k='name' v='Kinn Skulehus'/>
+  <node id='-234' version='0' action='modify' visible='true' lat='62.0389756' lon='5.5217335'>
+    <tag k='name' v='Jetmund Gjesteheim'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='tourism' v='hostel'/>
+  </node>
+  <node id='-235' version='0' action='modify' visible='true' lat='61.5664609' lon='4.7650116'>
+    <tag k='name' v='Kinn'/>
+    <tag k='alt_name' v='Kinn Gjestehus'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
   </node>
-  <node id='-235' version='0' action='modify' visible='true' lat='62.7424209' lon='7.2335036'>
-    <tag k='name' v='Kviltorp camping - Molde'/>
+  <node id='-236' version='0' action='modify' visible='true' lat='61.5656813' lon='4.7674281'>
+    <tag k='name' v='Kinn'/>
+    <tag k='alt_name' v='Kinn Skulehus'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Kystpilegrimsleia'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-237' version='0' action='modify' visible='true' lat='62.7424209' lon='7.2335036'>
+    <tag k='name' v='Kviltorp Camping'/>
+    <tag k='alt_name' v='Kviltorp camping - Molde'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-236' version='0' action='modify' visible='true' lat='61.2722307' lon='4.9482290'>
+  <node id='-238' version='0' action='modify' visible='true' lat='61.2722307' lon='4.9482290'>
     <tag k='name' v='Lammetun ferie og fritid'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-237' version='0' action='modify' visible='true' lat='62.3136849' lon='5.7074205'>
-    <tag k='name' v='Lanternen hytte og bobilplass'/>
+  <node id='-239' version='0' action='modify' visible='true' lat='62.3136849' lon='5.7074205'>
+    <tag k='name' v='Lanternen'/>
+    <tag k='alt_name' v='Lanternen hytte og bobilplass'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-238' version='0' action='modify' visible='true' lat='60.6927608' lon='5.1092212'>
+  <node id='-240' version='0' action='modify' visible='true' lat='60.6927608' lon='5.1092212'>
     <tag k='name' v='Magnusgarden'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -557,51 +582,45 @@
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
   </node>
-  <node id='-239' version='0' action='modify' visible='true' lat='63.5189518' lon='7.9531674'>
-    <tag k='name' v='Olsens Pensjonat &amp; Gjestehus'/>
+  <node id='-241' version='0' action='modify' visible='true' lat='63.5189518' lon='7.9531674'>
+    <tag k='name' v='Olsens pensjonat'/>
+    <tag k='alt_name' v='Olsens Pensjonat &amp; Gjestehus'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-240' version='0' action='modify' visible='true' lat='61.4934509' lon='5.1319142'>
-    <tag k='name' v='Pilegrimsherberge på Svanøy hovedgård'/>
+  <node id='-242' version='0' action='modify' visible='true' lat='61.4934509' lon='5.1319142'>
+    <tag k='name' v='Svanøy hovudgård'/>
+    <tag k='alt_name' v='Pilegrimsherberge på Svanøy hovedgård'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
   </node>
-  <node id='-241' version='0' action='modify' visible='true' lat='62.0410156' lon='5.3563981'>
+  <node id='-243' version='0' action='modify' visible='true' lat='62.0410156' lon='5.3563981'>
     <tag k='name' v='Selje camp og hyttesenter'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-242' version='0' action='modify' visible='true' lat='61.9174036' lon='5.1340528'>
+  <node id='-244' version='0' action='modify' visible='true' lat='61.9174036' lon='5.1340528'>
     <tag k='name' v='Steinvik camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='camp_site'/>
   </node>
-  <node id='-243' version='0' action='modify' visible='true' lat='61.1717892' lon='5.3509159'>
-    <tag k='name' v='Birkeland Camping'/>
+  <node id='-245' version='0' action='modify' visible='true' lat='59.7940744' lon='5.7095446'>
+    <tag k='name' v='Gjestegården Halsnøy'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
-    <tag k='tourism' v='camp_site'/>
+    <tag k='tourism' v='chalet'/>
   </node>
-  <node id='-244' version='0' action='modify' visible='true' lat='61.5664609' lon='4.7650116'>
-    <tag k='name' v='Kinn Gjestehus'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Kystpilegrimsleia'/>
-    <tag k='tourism' v='hostel'/>
-    <tag k='hostel:type' v='pilgrim'/>
-  </node>
-  <node id='-245' version='0' action='modify' visible='true' lat='61.4978201' lon='5.1358545'>
+  <node id='-246' version='0' action='modify' visible='true' lat='61.4978201' lon='5.1358545'>
     <tag k='name' v='Badestranda Leiren'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -610,7 +629,7 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-246' version='0' action='modify' visible='true' lat='63.0057637' lon='7.7235611'>
+  <node id='-247' version='0' action='modify' visible='true' lat='63.0057637' lon='7.7235611'>
     <tag k='name' v='Borgstua på Kvernes Prestegård'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -619,7 +638,7 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-247' version='0' action='modify' visible='true' lat='62.2533151' lon='5.5850209'>
+  <node id='-248' version='0' action='modify' visible='true' lat='62.2533151' lon='5.5850209'>
     <tag k='name' v='Brekkegarden pilegrimsherberge'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -628,7 +647,7 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-248' version='0' action='modify' visible='true' lat='60.9838664' lon='5.0666969'>
+  <node id='-249' version='0' action='modify' visible='true' lat='60.9838664' lon='5.0666969'>
     <tag k='name' v='Dagsturhytta Gulakvila'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -637,7 +656,7 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-249' version='0' action='modify' visible='true' lat='62.1022702' lon='5.3383185'>
+  <node id='-250' version='0' action='modify' visible='true' lat='62.1022702' lon='5.3383185'>
     <tag k='name' v='Dagsturhytta Havglimt'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -646,7 +665,7 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-250' version='0' action='modify' visible='true' lat='61.1843165' lon='5.3427748'>
+  <node id='-251' version='0' action='modify' visible='true' lat='61.1843165' lon='5.3427748'>
     <tag k='name' v='Dagsturhytta Sørefjordhytta'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -655,7 +674,7 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-251' version='0' action='modify' visible='true' lat='62.6573691' lon='7.3728435'>
+  <node id='-252' version='0' action='modify' visible='true' lat='62.6573691' lon='7.3728435'>
     <tag k='name' v='Fjøsen Bed &amp; make your own breakfast'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -663,7 +682,7 @@
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-252' version='0' action='modify' visible='true' lat='58.5440423' lon='5.6816364'>
+  <node id='-253' version='0' action='modify' visible='true' lat='58.5440423' lon='5.6816364'>
     <tag k='name' v='Friluftsfyret Kvassheim'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -672,7 +691,7 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-253' version='0' action='modify' visible='true' lat='62.1237318' lon='5.3131256'>
+  <node id='-254' version='0' action='modify' visible='true' lat='62.1237318' lon='5.3131256'>
     <tag k='name' v='Fru Ingas Apartments'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -680,7 +699,7 @@
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-254' version='0' action='modify' visible='true' lat='63.6131966' lon='9.8531485'>
+  <node id='-255' version='0' action='modify' visible='true' lat='63.6131966' lon='9.8531485'>
     <tag k='name' v='Gapahuk i Fagerdalen'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -689,7 +708,7 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-255' version='0' action='modify' visible='true' lat='63.0080037' lon='7.7164520'>
+  <node id='-256' version='0' action='modify' visible='true' lat='63.0080037' lon='7.7164520'>
     <tag k='name' v='Gapahuk på Kvernes'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -698,7 +717,7 @@
     <tag k='shelter_type' v='lean_to'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-256' version='0' action='modify' visible='true' lat='63.5804899' lon='9.9561704'>
+  <node id='-257' version='0' action='modify' visible='true' lat='63.5804899' lon='9.9561704'>
     <tag k='name' v='Gjertrudstua'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -706,7 +725,7 @@
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-257' version='0' action='modify' visible='true' lat='61.1501971' lon='5.1780851'>
+  <node id='-258' version='0' action='modify' visible='true' lat='61.1501971' lon='5.1780851'>
     <tag k='name' v='Hatlems Hytter'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
@@ -714,21 +733,13 @@
     <tag k='tourism' v='chalet'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <node id='-258' version='0' action='modify' visible='true' lat='58.6135920' lon='5.6175515'>
+  <node id='-259' version='0' action='modify' visible='true' lat='58.6135920' lon='5.6175515'>
     <tag k='name' v='Huset ved havet'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Kystpilegrimsleia'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
-    <tag k='note:proposed' v='Proposed addition'/>
-  </node>
-  <node id='-259' version='0' action='modify' visible='true' lat='62.0389756' lon='5.5217335'>
-    <tag k='name' v='Jetmund Gjesteheim'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Kystpilegrimsleia'/>
-    <tag k='tourism' v='hostel'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
   <node id='-260' version='0' action='modify' visible='true' lat='62.2723994' lon='5.8258360'>
@@ -878,7 +889,7 @@
     <member type='node' ref='-242' role='existing'/>
     <member type='node' ref='-243' role='existing'/>
     <member type='node' ref='-244' role='existing'/>
-    <member type='node' ref='-245' role='proposed'/>
+    <member type='node' ref='-245' role='existing'/>
     <member type='node' ref='-246' role='proposed'/>
     <member type='node' ref='-247' role='proposed'/>
     <member type='node' ref='-248' role='proposed'/>

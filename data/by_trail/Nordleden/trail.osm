@@ -14352,20 +14352,21 @@
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Nordleden'/>
   </way>
-  <node id='-7175' version='0' action='modify' visible='true' lat='63.7739444' lon='11.5785734'>
-    <tag k='name' v='Stiklestad Camping'/>
-    <tag k='source' v='pilegrimsleden.no'/>
-    <tag k='network' v='Pilegrimsleden'/>
-    <tag k='note:trail' v='Nordleden'/>
-    <tag k='tourism' v='chalet'/>
-  </node>
-  <node id='-7176' version='0' action='modify' visible='true' lat='63.7959568' lon='11.5625599'>
-    <tag k='name' v='Scandic Stiklestad Hotell'/>
+  <node id='-7175' version='0' action='modify' visible='true' lat='63.7959568' lon='11.5625599'>
+    <tag k='name' v='Scandic Stiklestad'/>
+    <tag k='alt_name' v='Scandic Stiklestad Hotell'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Nordleden'/>
     <tag k='tourism' v='hostel'/>
     <tag k='hostel:type' v='pilgrim'/>
+  </node>
+  <node id='-7176' version='0' action='modify' visible='true' lat='63.7739444' lon='11.5785734'>
+    <tag k='name' v='Stiklestad Camping'/>
+    <tag k='source' v='pilegrimsleden.no'/>
+    <tag k='network' v='Pilegrimsleden'/>
+    <tag k='note:trail' v='Nordleden'/>
+    <tag k='tourism' v='chalet'/>
   </node>
   <relation id='-7177' version='0' action='modify' visible='true'>
     <member type='way' ref='-7174' role='path'/>

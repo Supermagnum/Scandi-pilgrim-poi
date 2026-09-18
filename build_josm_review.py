@@ -26,6 +26,7 @@ from extract_pilegrimsleden_shelters import (
     primary_category,
 )
 from extract_stolavsleden import xml_escape
+from compare_osm_shelters import normalize_name
 from propose_relation_additions import (
     TRAIL_RELATIONS,
     densify_for_index,
@@ -36,6 +37,42 @@ from propose_relation_additions import (
 
 PROPOSED_ADDITION = "Proposed addition"
 TRAIL_OSM_NAME = "trail.osm"
+
+# CMS names that must not become local trail.osm nodes (already mapped in OSM).
+SKIP_POI_NAMES: dict[str, set[str]] = {
+    "Romeriksleden": {
+        "Scandic hotell Gardermoen",
+        "Scandic Hotel Gardermoen",
+        "Scandic Gardermoen",
+        "Thon Hotel Oslo Airport",
+        "Thon Hotel Gardermoen",
+        "Lysjøhimet",
+        "Tangenodden Camping",
+        "Fokhol Gård",
+        "Fjetre gård - midelrtidig stengt",
+        "Gapahuk ved Nordsveodden i Ottestad",
+        "Vikingskipet Hotell og Spiseri",
+        "Scandic Hotel Hamar",
+        "Thon Partner Hotel - Victoria Hamar",
+        "Pilegrimssenter Hamar - Pilegrimsherberge",
+        "Hedmarktoppen",
+        "Gapahuk i Furuberget",
+        "Brøttum Camping",
+        "Brynn i Bergsengroa",
+        "Lillehammer Vandrerhjem Stasjonen",
+        "Øvergaard i Lillehammer tilbyr overnatting i sentrum for pilegrimer",
+        "Birkebeineren Hotel & Apartments",
+    },
+}
+
+# Correct coordinates for CMS rows that exist but were misplaced in the extract.
+MOVE_POI_COORDS: dict[str, dict[str, tuple[float, float]]] = {
+    "Romeriksleden": {
+        "Pilegrimsherberget Millom": (60.5506874, 11.2707785),  # Kjeldsrudvegen 95
+        "Overnatting hos Atlungstad golf": (60.7586259, 11.0800532),  # Sandvikaveien 222
+        "Sveen gård (Airbnb)": (60.7615665, 11.0810131),  # Sandvikavegen 180
+    },
+}
 
 # Research dumps replaced by README.md (removed after README is written).
 RESEARCH_GLOBS = (
@@ -156,8 +193,15 @@ def shelter_tags_for_row(row: dict[str, str], *, proposed: bool) -> list[tuple[s
         mapping: list[tuple[str, str]] = [("tourism", "guest_house")]
     else:
         mapping, _uncertain = osm_tags_for_category(primary)
+    poi_name = (row.get("poi_name") or "").strip()
+    osm_name = (row.get("matched_osm_name") or "").strip()
+    # When OSM already has a name, keep it and store the pilgrim CMS title as alt_name.
+    if osm_name and poi_name and normalize_name(osm_name) != normalize_name(poi_name):
+        name_tags: list[tuple[str, str]] = [("name", osm_name), ("alt_name", poi_name)]
+    else:
+        name_tags = [("name", poi_name or osm_name)]
     tags: list[tuple[str, str]] = [
-        ("name", row.get("poi_name") or ""),
+        *name_tags,
         ("source", "pilegrimsleden.no"),
         ("network", "Pilegrimsleden"),
         ("note:trail", row.get("trail") or ""),
@@ -175,6 +219,24 @@ def write_trail_osm(
     rows: list[dict[str, str]],
     path_points: list[tuple[float, float]],
 ) -> tuple[int, int]:
+    skip_names = SKIP_POI_NAMES.get(trail_dir.name, set()) | SKIP_POI_NAMES.get(
+        trail_name, set()
+    )
+    move_coords = MOVE_POI_COORDS.get(trail_dir.name, {}) | MOVE_POI_COORDS.get(
+        trail_name, {}
+    )
+    filtered: list[dict[str, str]] = []
+    for r in rows:
+        name = (r.get("poi_name") or "").strip()
+        if name in skip_names:
+            continue
+        if name in move_coords:
+            lat, lon = move_coords[name]
+            r = dict(r)
+            r["lat"] = f"{lat:.7f}"
+            r["lon"] = f"{lon:.7f}"
+        filtered.append(r)
+    rows = filtered
     existing = [r for r in rows if r.get("match_status") in {"matched", "possible"}]
     gaps = [r for r in rows if (r.get("match_status") or "gap") == "gap"]
 
@@ -335,13 +397,17 @@ def write_trail_readme(
         "",
         "It contains:",
         "",
-        "1. Trail **path**",
+        "1. Trail **path** (one densified research way — not every OSM route way member)",
         "2. **Existing** overnight POIs (already present in OSM) — no `note:proposed`",
         f"3. **New suggestions** — tagged `note:proposed={PROPOSED_ADDITION}`",
         "",
         "Search in JOSM: `note:proposed=Proposed addition`",
         "",
         "Do not expect research tags such as `pilegrimsleden:match_status` in this file.",
+        "",
+        "This file is a local `type=site` research relation with negative IDs. It is",
+        "not a dump of the live OSM route relation. Uploading it as written adds new",
+        "objects only and does not rewrite membership of existing OSM route relations.",
         "",
         "## OSM route relation",
         "",

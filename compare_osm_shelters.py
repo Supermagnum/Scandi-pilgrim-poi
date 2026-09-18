@@ -46,6 +46,8 @@ MAPLIST_URL = "https://www.pilegrimsleden.no/actions/pilegrimsleden/poi/maplist"
 REQUEST_GAP_SEC = 2.0
 MATCH_RADIUS_M = 100.0
 POSSIBLE_RADIUS_M = 250.0
+# Wider search when CMS coords are offset but address/name still identify the OSM object.
+NAME_MATCH_RADIUS_M = 2000.0
 BBOX_BUFFER_M = 5000.0
 PILEGRIMSSENTER_TYPE_ID = 5048
 TRAIL_ENTRIES = [
@@ -90,9 +92,11 @@ SHELTER_CSV_FIELDS = [
     "category",
     "lat",
     "lon",
+    "address",
     "match_status",
     "matched_osm_id",
     "matched_osm_url",
+    "matched_osm_name",
     "distance_m",
     "tag_diff",
 ]
@@ -134,14 +138,16 @@ COMPATIBLE_TOURISM = {
     "wilderness_hut",
     "hostel",
     "camp_site",
+    "caravan_site",
     "chalet",
     "guest_house",
     "alpine_hut",
     "apartment",
     "cabin",
+    "hotel",
 }
 COMPATIBLE_AMENITY = {"shelter"}
-WEAK_TOURISM = {"picnic_site", "information", "hotel", "attraction", "viewpoint", "yes"}
+WEAK_TOURISM = {"picnic_site", "information", "attraction", "viewpoint", "yes"}
 WEAK_AMENITY = {"bbq", "bench", "toilets", "hunting_stand"}
 
 CATEGORY_EXPECTED_TAGS = {
@@ -152,8 +158,8 @@ CATEGORY_EXPECTED_TAGS = {
     "Rorbu": {("tourism", "chalet"), ("tourism", "guest_house")},
     "Pilegrimsbu": {("tourism", "wilderness_hut"), ("amenity", "shelter")},
     "Dagsturhytte": {("tourism", "wilderness_hut"), ("amenity", "shelter")},
-    "Campingplass": {("tourism", "camp_site")},
-    "Glamping": {("tourism", "camp_site")},
+    "Campingplass": {("tourism", "camp_site"), ("tourism", "caravan_site")},
+    "Glamping": {("tourism", "camp_site"), ("tourism", "caravan_site")},
     "Teltplass": {("tourism", "camp_site")},
     "Rasteplass": {("amenity", "shelter"), ("tourism", "picnic_site")},
     # CMS parent / hotel labels used on corridor overnight POIs (e.g. Romeriksleden).
@@ -165,6 +171,8 @@ CATEGORY_EXPECTED_TAGS = {
         ("tourism", "chalet"),
         ("tourism", "cabin"),
         ("tourism", "apartment"),
+        ("tourism", "camp_site"),
+        ("tourism", "caravan_site"),
     },
 }
 
@@ -332,7 +340,7 @@ def trail_bboxes(pois: list[dict[str, Any]]) -> dict[str, tuple[float, float, fl
     return boxes
 
 
-KEEP_TOURISM = COMPATIBLE_TOURISM | {"picnic_site", "hotel"}
+KEEP_TOURISM = COMPATIBLE_TOURISM | {"picnic_site"}
 
 
 def overall_bbox(pois: list[dict[str, Any]]) -> tuple[float, float, float, float]:
@@ -532,14 +540,21 @@ def collect_pilgrimage_values(elements: list[dict[str, Any]]) -> Counter[str]:
 def compatible_for_poi(poi: dict[str, Any], tags: dict[str, str]) -> bool:
     tourism = tags.get("tourism")
     amenity = tags.get("amenity")
-    if amenity in COMPATIBLE_AMENITY or tourism in COMPATIBLE_TOURISM:
-        return True
-    if tags.get("building") in {"cabin", "hut"}:
+    # Hotels/hostels/camps: tourism tags only. amenity=shelter is too common
+    # (bus stops, lean-tos) to treat as a universal overnight match.
+    if tourism in COMPATIBLE_TOURISM:
         return True
     expected: set[tuple[str, str]] = set()
     for category in poi.get("shelter_categories") or []:
         expected |= CATEGORY_EXPECTED_TAGS.get(category, set())
-    return any(tags.get(key) == value for key, value in expected)
+    if not expected:
+        for category in poi.get("categories") or []:
+            expected |= CATEGORY_EXPECTED_TAGS.get(category, set())
+    if expected:
+        return any(tags.get(key) == value for key, value in expected)
+    if amenity in COMPATIBLE_AMENITY or tags.get("building") in {"cabin", "hut"}:
+        return True
+    return False
 
 
 def is_weak_poi(tags: dict[str, str]) -> bool:
@@ -568,6 +583,74 @@ def names_similar(a: str, b: str) -> bool:
         return False
     overlap = len(sa & sb) / len(sa | sb)
     return overlap >= 0.6 and len(sa & sb) >= 2
+
+
+def normalize_street(value: str) -> str:
+    text = normalize_name(value)
+    # Norwegian street suffixes often glue to the stem: Limhusveien / Limhusvegen.
+    text = re.sub(r"(vei|veg)en$", "vegen", text)
+    text = re.sub(r"(gata|gaten|gt)$", "gata", text)
+    text = re.sub(r"\bv$", "vegen", text)
+    return text
+
+
+def normalize_housenumber(value: str) -> str:
+    return re.sub(r"\s+", "", (value or "").lower())
+
+
+def parse_norwegian_address(value: str) -> dict[str, str] | None:
+    """Parse CMS strings like 'Limhusveien 15, 2315 Hamar'."""
+    text = (value or "").strip()
+    if not text:
+        return None
+    # street + housenumber, optional postcode + city
+    match = re.match(
+        r"^\s*(.+?)\s+(\d+[a-zA-Z]?)\s*,\s*(\d{4})\s+(.+?)\s*$",
+        text,
+    )
+    if match:
+        return {
+            "street": match.group(1).strip(),
+            "housenumber": match.group(2).strip(),
+            "postcode": match.group(3).strip(),
+            "city": match.group(4).strip(),
+            "raw": text,
+        }
+    match = re.match(r"^\s*(.+?)\s+(\d+[a-zA-Z]?)\s*$", text)
+    if match:
+        return {
+            "street": match.group(1).strip(),
+            "housenumber": match.group(2).strip(),
+            "postcode": "",
+            "city": "",
+            "raw": text,
+        }
+    return None
+
+
+def osm_display_name(tags: dict[str, str]) -> str:
+    for key in ("name", "official_name", "alt_name", "loc_name", "short_name"):
+        value = (tags.get(key) or "").strip()
+        if value:
+            return value
+    return ""
+
+
+def address_matches_tags(parsed: dict[str, str] | None, tags: dict[str, str]) -> bool:
+    if not parsed:
+        return False
+    street = tags.get("addr:street") or ""
+    number = tags.get("addr:housenumber") or ""
+    if not street or not number:
+        return False
+    if normalize_street(street) != normalize_street(parsed["street"]):
+        return False
+    if normalize_housenumber(number) != normalize_housenumber(parsed["housenumber"]):
+        return False
+    postcode = tags.get("addr:postcode") or ""
+    if parsed.get("postcode") and postcode and postcode != parsed["postcode"]:
+        return False
+    return True
 
 
 def tag_diff(our_tags: dict[str, str], osm_tags: dict[str, str]) -> str:
@@ -624,6 +707,7 @@ def load_pois(raw_path: Path, osm_path: Path) -> list[dict[str, Any]]:
                 "id": str(poi["id"]),
                 "title": poi["title"],
                 "url": poi.get("url") or "",
+                "address": (poi.get("address") or "").strip(),
                 "lat": float(poi["lat"]),
                 "lon": float(poi["lon"]),
                 "trails": list(poi.get("trails") or []),
@@ -633,7 +717,42 @@ def load_pois(raw_path: Path, osm_path: Path) -> list[dict[str, Any]]:
                 "our_tags": osm_by_id.get(str(poi["id"]), {}),
             }
         )
+    missing_address = [poi["id"] for poi in pois if not poi["address"]]
+    if missing_address:
+        log(f"Fetching CMS addresses for {len(missing_address)} POIs")
+        addresses = fetch_cms_addresses(missing_address)
+        for poi in pois:
+            if not poi["address"] and poi["id"] in addresses:
+                poi["address"] = addresses[poi["id"]]
     return pois
+
+
+def fetch_cms_addresses(ids: list[str]) -> dict[str, str]:
+    """Fetch pilegrimsleden.no interest-point addresses via GraphQL."""
+    if not ids:
+        return {}
+    query = """
+    query Addresses($id: [QueryArgument], $limit: Int) {
+      poiEntries(id: $id, limit: $limit) {
+        ... on poi_Entry {
+          id
+          address
+        }
+      }
+    }
+    """
+    found: dict[str, str] = {}
+    chunk_size = 50
+    for start in range(0, len(ids), chunk_size):
+        chunk = ids[start : start + chunk_size]
+        data = graphql(query, {"id": [int(value) for value in chunk], "limit": len(chunk)})
+        for item in data.get("poiEntries") or []:
+            address = (item.get("address") or "").strip()
+            if address:
+                found[str(item["id"])] = address
+        if start + chunk_size < len(ids):
+            time.sleep(REQUEST_GAP_SEC)
+    return found
 
 
 def fetch_cms_pilgrim_centers() -> list[dict[str, Any]]:
@@ -794,6 +913,7 @@ def fetch_cms_titles(ids: list[str]) -> dict[str, dict[str, Any]]:
           id
           title
           url
+          address
           poiType { title }
         }
       }
@@ -813,6 +933,7 @@ def fetch_cms_titles(ids: list[str]) -> dict[str, dict[str, Any]]:
             found[str(item["id"])] = {
                 "title": item.get("title") or "",
                 "url": item.get("url") or "",
+                "address": (item.get("address") or "").strip(),
                 "categories": categories,
                 "category": " | ".join(categories),
             }
@@ -822,34 +943,95 @@ def fetch_cms_titles(ids: list[str]) -> dict[str, dict[str, Any]]:
 
 
 def classify_poi(poi: dict[str, Any], nearby: list[tuple[float, dict[str, Any]]]) -> dict[str, Any]:
+    """Match CMS overnight POI to OSM lodging.
+
+    Priority:
+      1. Compatible lodging within MATCH_RADIUS_M (prefer name hits)
+      2. Address match on lodging within NAME_MATCH_RADIUS_M
+      3. Strong name match on lodging within NAME_MATCH_RADIUS_M
+      4. Legacy possible match within POSSIBLE_RADIUS_M
+    """
+    title = poi.get("title") or ""
+    parsed_address = parse_norwegian_address(poi.get("address") or "")
+
+    def hit(status: str, dist: float, el: dict[str, Any], extra: str = "") -> dict[str, Any]:
+        tags = el.get("tags") or {}
+        tag_extra = tag_diff(poi.get("our_tags") or {}, tags)
+        if extra:
+            tag_extra = f"{extra}" + (f"; {tag_extra}" if tag_extra else "")
+        return {
+            "match_status": status,
+            "matched_osm_id": f"{el['type']}/{el['id']}",
+            "matched_osm_url": osm_url(el),
+            "distance_m": round(dist, 1),
+            "tag_diff": tag_extra,
+            "matched_osm_name": osm_display_name(tags),
+            "matched_osm_tags": tags,
+            "matched_osm_lat": el.get("_lat"),
+            "matched_osm_lon": el.get("_lon"),
+        }
+
     compatible = [
         (dist, el)
         for dist, el in nearby
         if dist <= MATCH_RADIUS_M and compatible_for_poi(poi, el.get("tags") or {})
     ]
     if compatible:
-        compatible.sort(key=lambda item: (0 if names_similar(poi["title"], (item[1].get("tags") or {}).get("name", "")) else 1, item[0]))
+        compatible.sort(
+            key=lambda item: (
+                0
+                if names_similar(title, osm_display_name(item[1].get("tags") or {}))
+                else 1,
+                0 if address_matches_tags(parsed_address, item[1].get("tags") or {}) else 1,
+                item[0],
+            )
+        )
         dist, el = compatible[0]
-        tags = el.get("tags") or {}
-        return {
-            "match_status": "matched",
-            "matched_osm_id": f"{el['type']}/{el['id']}",
-            "matched_osm_url": osm_url(el),
-            "distance_m": round(dist, 1),
-            "tag_diff": tag_diff(poi.get("our_tags") or {}, tags),
-            "matched_osm_name": tags.get("name", ""),
-            "matched_osm_tags": tags,
-        }
+        return hit("matched", dist, el)
+
+    address_hits = [
+        (dist, el)
+        for dist, el in nearby
+        if dist <= NAME_MATCH_RADIUS_M
+        and compatible_for_poi(poi, el.get("tags") or {})
+        and address_matches_tags(parsed_address, el.get("tags") or {})
+    ]
+    if address_hits:
+        address_hits.sort(key=lambda item: item[0])
+        dist, el = address_hits[0]
+        reason = "address_match"
+        if dist > MATCH_RADIUS_M:
+            reason = "address_match_beyond_100m"
+        return hit("matched", dist, el, reason)
+
+    name_hits = [
+        (dist, el)
+        for dist, el in nearby
+        if dist <= NAME_MATCH_RADIUS_M
+        and compatible_for_poi(poi, el.get("tags") or {})
+        and names_similar(title, osm_display_name(el.get("tags") or {}))
+    ]
+    if name_hits:
+        name_hits.sort(key=lambda item: item[0])
+        dist, el = name_hits[0]
+        reason = "name_match"
+        if dist > MATCH_RADIUS_M:
+            reason = "name_match_beyond_100m"
+        status = "matched" if dist <= POSSIBLE_RADIUS_M else "possible"
+        return hit(status, dist, el, reason)
 
     possible_candidates = [(dist, el) for dist, el in nearby if dist <= POSSIBLE_RADIUS_M]
     if possible_candidates:
         def score(item: tuple[float, dict[str, Any]]) -> tuple[int, float]:
             dist, el = item
             tags = el.get("tags") or {}
-            name_hit = names_similar(poi["title"], tags.get("name", ""))
+            name_hit = names_similar(title, osm_display_name(tags))
             compat = compatible_for_poi(poi, tags)
             weak = is_weak_poi(tags)
+            addr_hit = address_matches_tags(parsed_address, tags)
             if name_hit and compat:
+                rank = 0
+            elif addr_hit and compat:
                 rank = 0
             elif compat:
                 rank = 1
@@ -869,18 +1051,9 @@ def classify_poi(poi: dict[str, Any], nearby: list[tuple[float, dict[str, Any]]]
             reason_bits.append("compatible_tag_beyond_100m")
         elif not compatible_for_poi(poi, tags):
             reason_bits.append("incompatible_or_weak_tags")
-        extra = tag_diff(poi.get("our_tags") or {}, tags)
-        if reason_bits:
-            extra = f"{','.join(reason_bits)}" + (f"; {extra}" if extra else "")
-        return {
-            "match_status": "possible",
-            "matched_osm_id": f"{el['type']}/{el['id']}",
-            "matched_osm_url": osm_url(el),
-            "distance_m": round(dist, 1),
-            "tag_diff": extra,
-            "matched_osm_name": tags.get("name", ""),
-            "matched_osm_tags": tags,
-        }
+        if address_matches_tags(parsed_address, tags):
+            reason_bits.append("address_nearby")
+        return hit("possible", dist, el, ",".join(reason_bits))
 
     return {
         "match_status": "gap",
@@ -890,6 +1063,8 @@ def classify_poi(poi: dict[str, Any], nearby: list[tuple[float, dict[str, Any]]]
         "tag_diff": "",
         "matched_osm_name": "",
         "matched_osm_tags": {},
+        "matched_osm_lat": None,
+        "matched_osm_lon": None,
     }
 
 
@@ -1614,9 +1789,11 @@ def write_csv(path: Path, results: list[dict[str, Any]]) -> None:
                     "category": poi["category"],
                     "lat": f"{poi['lat']:.7f}",
                     "lon": f"{poi['lon']:.7f}",
+                    "address": poi.get("address") or "",
                     "match_status": poi["match_status"],
                     "matched_osm_id": poi["matched_osm_id"],
                     "matched_osm_url": poi["matched_osm_url"],
+                    "matched_osm_name": poi.get("matched_osm_name") or "",
                     "distance_m": poi["distance_m"],
                     "tag_diff": poi["tag_diff"],
                 }
@@ -1637,9 +1814,11 @@ def write_csv(path: Path, results: list[dict[str, Any]]) -> None:
                 "category",
                 "lat",
                 "lon",
+                "address",
                 "match_status",
                 "matched_osm_id",
                 "matched_osm_url",
+                "matched_osm_name",
                 "distance_m",
                 "tag_diff",
             ],
@@ -1932,7 +2111,7 @@ def main() -> int:
     grid = build_grid(osm_elements)
     results: list[dict[str, Any]] = []
     for poi in pois:
-        nearby = nearby_elements(poi["lat"], poi["lon"], grid, POSSIBLE_RADIUS_M)
+        nearby = nearby_elements(poi["lat"], poi["lon"], grid, NAME_MATCH_RADIUS_M)
         classified = classify_poi(poi, nearby)
         results.append({**poi, **classified})
 

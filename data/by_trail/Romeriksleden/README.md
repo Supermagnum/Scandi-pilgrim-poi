@@ -8,13 +8,17 @@ Open `trail.osm` in this folder (the only `.osm` file).
 
 It contains:
 
-1. Trail **path**
+1. Trail **path** (one densified research way — not every OSM route way member)
 2. **Existing** overnight POIs (already present in OSM) — no `note:proposed`
 3. **New suggestions** — tagged `note:proposed=Proposed addition`
 
 Search in JOSM: `note:proposed=Proposed addition`
 
-Research tags such as `pilegrimsleden:match_status` are not used in this file.
+Do not expect research tags such as `pilegrimsleden:match_status` in this file.
+
+This file is a local `type=site` research relation with negative IDs. It is
+not a dump of the live OSM route relation. Uploading it as written adds new
+objects only and does not rewrite membership of existing OSM route relations.
 
 ## OSM route relation
 
@@ -26,8 +30,13 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 
 | item | count |
 | --- | ---: |
-| Existing overnight POIs | 29 |
-| New suggestions | 32 |
+| Overnight POIs (CMS) | 61 |
+| Existing in trail.osm | 13 |
+| New suggestions in trail.osm | 29 |
+| Pilgrim centers (reference) | 10 |
+| Pilgrim-center gaps (reference) | 0 |
+| Lodging already on OSM relation | 0 |
+| Lodging near route not on relation (reference) | 345 |
 
 ## New suggestions (names)
 
@@ -37,13 +46,11 @@ Research tags such as `pilegrimsleden:match_status` are not used in this file.
 - Atelier Lefstorvet
 - Brynn i Bergsengroa
 - Eidsvoll gamle prestegård - STENGT I 2026
-- Enkel overnatting i gapahuk/hytte
 - Fjellheim gård
 - Frich`s Motell og Spiseri Rudshøgda
 - Gapahuk "Pilegrimshvile"
 - Gapahuk på Lindeberg etter Vilbergfjellet, før Arteid
 - Haug pilegrimsrast og herberge
-- Hedmarktoppen
 - Herkestad gård – overnatting og liten kafé
 - Hytte på Gørdammen
 - Ingeborg Refling Hagens kulturhus Fredheim

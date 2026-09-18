@@ -306,16 +306,30 @@ def load_match_index(data: Path) -> dict[str, dict[str, str]]:
     """Map pilegrimsleden id / rounded coords -> comparison row."""
     by_id: dict[str, dict[str, str]] = {}
     by_coord: dict[tuple[float, float], dict[str, str]] = {}
-    path = data / "by_trail" / SOURCE_TRAIL / "shelters.csv"
-    with path.open(encoding="utf-8") as handle:
-        for row in csv.DictReader(handle):
-            by_coord[(round(float(row["lat"]), 7), round(float(row["lon"]), 7))] = row
-    # ids from raw extract
-    raw = json.loads((data / "pilegrimsleden_shelters_raw.json").read_text(encoding="utf-8"))
-    for poi in raw.get("pois") or []:
-        key = (round(float(poi["lat"]), 7), round(float(poi["lon"]), 7))
-        if key in by_coord:
-            by_id[str(poi["id"])] = by_coord[key]
+    for path in (
+        data / "by_trail" / SOURCE_TRAIL / "shelters.csv",
+        data / "osm_comparison_results.csv",
+    ):
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                try:
+                    key = (round(float(row["lat"]), 7), round(float(row["lon"]), 7))
+                except (KeyError, TypeError, ValueError):
+                    continue
+                by_coord[key] = row
+        break
+    raw_path = data / "pilegrimsleden_shelters_raw.json"
+    if raw_path.exists():
+        raw = json.loads(raw_path.read_text(encoding="utf-8"))
+        for poi in raw.get("pois") or []:
+            try:
+                key = (round(float(poi["lat"]), 7), round(float(poi["lon"]), 7))
+            except (KeyError, TypeError, ValueError):
+                continue
+            if key in by_coord:
+                by_id[str(poi["id"])] = by_coord[key]
     return by_id
 
 
@@ -325,13 +339,27 @@ def select_corridor_pois(
     data: Path,
 ) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
     national_coords: set[tuple[float, float]] = set()
-    with (data / "by_trail" / SOURCE_TRAIL / "shelters.csv").open(encoding="utf-8") as handle:
-        for row in csv.DictReader(handle):
-            national_coords.add((round(float(row["lat"]), 7), round(float(row["lon"]), 7)))
+    for path in (
+        data / "by_trail" / SOURCE_TRAIL / "shelters.csv",
+        data / "osm_comparison_results.csv",
+        data / "pilegrimsleden_shelters_by_trail.csv",
+    ):
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                try:
+                    national_coords.add(
+                        (round(float(row["lat"]), 7), round(float(row["lon"]), 7))
+                    )
+                except (KeyError, TypeError, ValueError):
+                    continue
+        break
     match_by_id = load_match_index(data)
     match_by_coord = {
         (round(float(v["lat"]), 7), round(float(v["lon"]), 7)): v
         for v in match_by_id.values()
+        if v.get("lat") not in (None, "") and v.get("lon") not in (None, "")
     }
 
     csv_rows: list[dict[str, str]] = []
@@ -625,11 +653,14 @@ def rematch_against_norway_pbf(
 ) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
     """Rematch corridor CMS rows against Norway PBF (includes tourism=hotel)."""
     from compare_osm_shelters import (
-        POSSIBLE_RADIUS_M,
+        NAME_MATCH_RADIUS_M,
         buffer_bbox,
+        build_grid,
         classify_poi,
         extract_from_pbf,
-        haversine_m as cmp_haversine,
+        fetch_cms_addresses,
+        in_bbox,
+        nearby_elements,
         shelter_categories,
     )
 
@@ -654,28 +685,61 @@ def rematch_against_norway_pbf(
             copy = dict(row)
             if old:
                 for field in (
+                    "address",
                     "match_status",
                     "matched_osm_id",
                     "matched_osm_url",
+                    "matched_osm_name",
                     "distance_m",
                     "tag_diff",
+                    "lat",
+                    "lon",
                 ):
                     if old.get(field) not in (None, ""):
                         copy[field] = old[field]
             updated.append(copy)
         return updated, along
 
-    pbf = data / "geofabrik" / "norway-latest.osm.pbf"
-    if not pbf.exists():
-        log(f"Norway PBF missing at {pbf}; skipping rematch")
-        return shelters, []
-
     lats = [float(r["lat"]) for r in shelters] + [p[0] for p in route_index[::50]]
     lons = [float(r["lon"]) for r in shelters] + [p[1] for p in route_index[::50]]
-    bbox = buffer_bbox(min(lats), min(lons), max(lats), max(lons), POSSIBLE_RADIUS_M + 50.0)
-    log(f"Scanning {pbf.name} for lodging/shelter tags in Romeriksleden bbox")
-    elements = extract_from_pbf(pbf, bbox)
-    log(f"  kept {len(elements)} OSM elements in bbox")
+    bbox = buffer_bbox(min(lats), min(lons), max(lats), max(lons), NAME_MATCH_RADIUS_M + 50.0)
+
+    elements: list[dict[str, Any]] = []
+    national_cache = data / "osm_existing_shelters_raw.json"
+    if national_cache.exists():
+        payload = json.loads(national_cache.read_text(encoding="utf-8"))
+        for el in payload.get("elements") or []:
+            try:
+                lat = float(el["lat"])
+                lon = float(el["lon"])
+            except (KeyError, TypeError, ValueError):
+                continue
+            if not in_bbox(lat, lon, bbox):
+                continue
+            item = dict(el)
+            item["lat"] = lat
+            item["lon"] = lon
+            item["_lat"] = lat
+            item["_lon"] = lon
+            item["tags"] = el.get("tags") or {}
+            elements.append(item)
+        log(f"Reusing {national_cache.name}: {len(elements)} elements in Romeriksleden bbox")
+    else:
+        pbf = data / "geofabrik" / "norway-latest.osm.pbf"
+        if not pbf.exists():
+            log(f"Norway PBF missing at {pbf}; skipping rematch")
+            return shelters, []
+        log(f"Scanning {pbf.name} for lodging/shelter tags in Romeriksleden bbox")
+        elements = extract_from_pbf(pbf, bbox)
+        for el in elements:
+            el["_lat"] = el["lat"]
+            el["_lon"] = el["lon"]
+            el["tags"] = el.get("tags") or {}
+        log(f"  kept {len(elements)} OSM elements in bbox")
+
+    ids = [r.get("pilegrimsleden_id") or "" for r in shelters if r.get("pilegrimsleden_id")]
+    addresses = fetch_cms_addresses([pid for pid in ids if pid])
+    log(f"  CMS addresses fetched: {len(addresses)}")
 
     # OSM inventory within route buffer (discovery independent of CMS).
     along: list[dict[str, Any]] = []
@@ -700,31 +764,48 @@ def rematch_against_norway_pbf(
         )
     along.sort(key=lambda r: (r["route_distance_m"], r["name"].lower()))
 
+    grid = build_grid(elements)
     updated: list[dict[str, str]] = []
     for row in shelters:
         cats = [c.strip() for c in (row.get("category") or "").split("|") if c.strip()]
+        pid = row.get("pilegrimsleden_id") or ""
+        address = row.get("address") or addresses.get(pid, "")
         poi = {
             "title": row["poi_name"],
             "lat": float(row["lat"]),
             "lon": float(row["lon"]),
+            "address": address,
             "categories": cats,
             "shelter_categories": shelter_categories(cats) or cats,
             "our_tags": {},
         }
-        nearby: list[tuple[float, dict[str, Any]]] = []
-        for el in elements:
-            dist = cmp_haversine(poi["lat"], poi["lon"], el["lat"], el["lon"])
-            if dist <= POSSIBLE_RADIUS_M:
-                nearby.append((dist, el))
+        nearby = nearby_elements(poi["lat"], poi["lon"], grid, NAME_MATCH_RADIUS_M)
         result = classify_poi(poi, nearby)
         copy = dict(row)
+        copy["address"] = address
         copy["match_status"] = result["match_status"]
         copy["matched_osm_id"] = result["matched_osm_id"]
         copy["matched_osm_url"] = result["matched_osm_url"]
+        copy["matched_osm_name"] = result.get("matched_osm_name") or ""
         copy["distance_m"] = (
             "" if result["distance_m"] == "" else str(result["distance_m"])
         )
         copy["tag_diff"] = result["tag_diff"]
+        osm_lat = result.get("matched_osm_lat")
+        osm_lon = result.get("matched_osm_lon")
+        if (
+            result["match_status"] in {"matched", "possible"}
+            and osm_lat is not None
+            and osm_lon is not None
+            and isinstance(result["distance_m"], (int, float))
+            and float(result["distance_m"]) > 75.0
+        ):
+            copy["lat"] = f"{float(osm_lat):.7f}"
+            copy["lon"] = f"{float(osm_lon):.7f}"
+            note = "repositioned_to_matched_osm"
+            copy["tag_diff"] = (
+                f"{copy['tag_diff']}; {note}" if copy["tag_diff"] else note
+            )
         updated.append(copy)
     return updated, along
 
@@ -1051,10 +1132,14 @@ def main() -> int:
     for row in already:
         row["proposal_note"] = ""
 
-    with (data / "by_trail" / SOURCE_TRAIL / "pilgrim_centers.csv").open(
-        encoding="utf-8"
-    ) as handle:
-        pilgrim = filter_pilgrim_rows(list(csv.DictReader(handle)), index)
+    pilgrim_path = data / "by_trail" / SOURCE_TRAIL / "pilgrim_centers.csv"
+    if not pilgrim_path.exists():
+        pilgrim_path = data / "pilgrim_centers.csv"
+    if pilgrim_path.exists():
+        with pilgrim_path.open(encoding="utf-8") as handle:
+            pilgrim = filter_pilgrim_rows(list(csv.DictReader(handle)), index)
+    else:
+        pilgrim = []
 
     shelter_fields = [
         "trail",
@@ -1062,9 +1147,11 @@ def main() -> int:
         "category",
         "lat",
         "lon",
+        "address",
         "match_status",
         "matched_osm_id",
         "matched_osm_url",
+        "matched_osm_name",
         "distance_m",
         "tag_diff",
         "related_trails",

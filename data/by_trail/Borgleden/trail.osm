@@ -10799,7 +10799,8 @@
     <tag k='shelter_type' v='lean_to'/>
   </node>
   <node id='-5395' version='0' action='modify' visible='true' lat='58.9113625' lon='11.5237426'>
-    <tag k='name' v='Bråtorp Camping'/>
+    <tag k='name' v='Svingen Camping'/>
+    <tag k='alt_name' v='Bråtorp Camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Borgleden'/>
@@ -10836,7 +10837,8 @@
     <tag k='tourism' v='camp_site'/>
   </node>
   <node id='-5400' version='0' action='modify' visible='true' lat='59.8712779' lon='10.7156181'>
-    <tag k='name' v='Langøyene camping'/>
+    <tag k='name' v='Langøyene'/>
+    <tag k='alt_name' v='Langøyene camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Borgleden'/>
@@ -10844,7 +10846,8 @@
     <tag k='tents' v='yes'/>
   </node>
   <node id='-5401' version='0' action='modify' visible='true' lat='59.1907989' lon='11.1869016'>
-    <tag k='name' v='Skjeberg camping'/>
+    <tag k='name' v='Høysand camping'/>
+    <tag k='alt_name' v='Skjeberg camping'/>
     <tag k='source' v='pilegrimsleden.no'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Borgleden'/>

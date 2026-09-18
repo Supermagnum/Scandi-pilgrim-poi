@@ -76,6 +76,7 @@ PAGES = {
 SWEDEN_LON_MIN = 12.05
 MATCH_RADIUS_M = 100.0
 POSSIBLE_RADIUS_M = 250.0
+NAME_MATCH_RADIUS_M = 2000.0
 
 CSV_FIELDS = [
     "trail",
@@ -87,6 +88,7 @@ CSV_FIELDS = [
     "match_status",
     "matched_osm_id",
     "matched_osm_url",
+    "matched_osm_name",
     "distance_m",
     "tag_diff",
     "source",
@@ -537,41 +539,127 @@ def load_existing_st_olav(data_dir: Path) -> tuple[list[dict[str, str]], list[di
     return shelters, centers
 
 
-def compare_to_osm(
-    pois: list[dict[str, Any]],
-    pbf_path: Path,
-) -> list[dict[str, Any]]:
-    """Match POIs against Geofabrik Sweden extract (nodes/ways, closest within 250 m)."""
-    import osmium
+KEEP_TOURISM_SE = {
+    "wilderness_hut",
+    "hostel",
+    "camp_site",
+    "caravan_site",
+    "chalet",
+    "guest_house",
+    "alpine_hut",
+    "apartment",
+    "cabin",
+    "hotel",
+}
+OVERNIGHT_CATEGORIES_SE = {
+    "Gapahuk",
+    "Pilegrimsherberge",
+    "Vandrerhjem",
+    "Rom og hytter",
+    "Campingplass",
+    "Teltplass",
+    "Rasteplass",
+    "Overnatting",
+}
 
-    keep_tourism = {
-        "wilderness_hut",
-        "hostel",
-        "camp_site",
-        "chalet",
-        "guest_house",
-        "alpine_hut",
-        "apartment",
-        "cabin",
-        "hotel",
-    }
 
-    def is_strong_lodging(tags: dict[str, str]) -> bool:
-        if tags.get("amenity") in {"shelter", "veterinary"}:
-            return True
-        if tags.get("tourism") in keep_tourism:
-            return True
-        if tags.get("craft") == "farrier" or tags.get("shop") == "farrier":
-            return True
-        return False
-
-    def is_hut_only(tags: dict[str, str]) -> bool:
-        """building=hut with no supporting tourism/amenity lodging tag."""
-        if tags.get("building") != "hut":
-            return False
-        if tags.get("tourism") or tags.get("amenity"):
-            return False
+def _is_strong_lodging_se(tags: dict[str, str]) -> bool:
+    if tags.get("amenity") in {"shelter", "veterinary"}:
         return True
+    if tags.get("tourism") in KEEP_TOURISM_SE:
+        return True
+    if tags.get("craft") == "farrier" or tags.get("shop") == "farrier":
+        return True
+    return False
+
+
+def _is_hut_only(tags: dict[str, str]) -> bool:
+    if tags.get("building") != "hut":
+        return False
+    if tags.get("tourism") or tags.get("amenity"):
+        return False
+    return True
+
+
+def _lodging_ok_for_poi(poi: dict[str, Any], tags: dict[str, str]) -> bool:
+    if (poi.get("category") or "") not in OVERNIGHT_CATEGORIES_SE:
+        return _is_strong_lodging_se(tags)
+    if tags.get("tourism") in KEEP_TOURISM_SE:
+        return True
+    if tags.get("amenity") == "shelter":
+        return True
+    return False
+
+
+def load_lodging_elements_for_pois(
+    data_dir: Path,
+    pois: list[dict[str, Any]],
+    *,
+    pbf_path: Path | None = None,
+) -> list[dict[str, Any]]:
+    """Prefer national Geofabrik cache; fall back to a bbox-limited Sweden PBF scan."""
+    from compare_osm_shelters import buffer_bbox, in_bbox
+
+    cache = data_dir / "osm_existing_shelters_raw.json"
+    if cache.exists() and pois:
+        payload = json.loads(cache.read_text(encoding="utf-8"))
+        lats = [float(p["lat"]) for p in pois]
+        lons = [float(p["lon"]) for p in pois]
+        bbox = buffer_bbox(min(lats), min(lons), max(lats), max(lons), 5000.0)
+        elements: list[dict[str, Any]] = []
+        for el in payload.get("elements") or []:
+            try:
+                lat = float(el["lat"])
+                lon = float(el["lon"])
+            except (KeyError, TypeError, ValueError):
+                continue
+            if not in_bbox(lat, lon, bbox):
+                continue
+            tags = el.get("tags") or {}
+            if not (_is_strong_lodging_se(tags) or tags.get("building") == "hut"):
+                continue
+            item = dict(el)
+            item["tags"] = tags
+            item["_lat"] = lat
+            item["_lon"] = lon
+            elements.append(item)
+        log(
+            f"Reusing {cache.name}: {len(elements)} lodging elements in St. Olavsleden bbox"
+        )
+        return elements
+
+    if pbf_path is None or not pbf_path.exists():
+        raise RuntimeError(
+            f"Missing OSM lodging cache ({cache}) and Sweden PBF ({pbf_path})"
+        )
+    return load_sweden_lodging_elements(pbf_path, pois=pois)
+
+
+def load_sweden_lodging_elements(
+    pbf_path: Path,
+    *,
+    pois: list[dict[str, Any]] | None = None,
+    buffer_m: float = 5000.0,
+) -> list[dict[str, Any]]:
+    """One Geofabrik Sweden PBF pass for lodging / shelter / vet / farrier / hut.
+
+    When pois are given, only keep elements inside their bounding box (+ buffer)
+    so the scan stays tractable (full-Sweden amenity=shelter + flex_mem is too slow).
+    """
+    import osmium
+    from compare_osm_shelters import buffer_bbox, in_bbox
+
+    bbox: tuple[float, float, float, float] | None = None
+    if pois:
+        lats = [float(p["lat"]) for p in pois]
+        lons = [float(p["lon"]) for p in pois]
+        bbox = buffer_bbox(min(lats), min(lons), max(lats), max(lons), buffer_m)
+        log(
+            f"Scanning {pbf_path.name} for lodging in bbox "
+            f"{bbox[0]:.4f},{bbox[1]:.4f} {bbox[2]:.4f},{bbox[3]:.4f}"
+        )
+    else:
+        log(f"Scanning {pbf_path.name} for shelter/vet/farrier/hut tags (full file)")
 
     class Handler(osmium.SimpleHandler):
         def __init__(self) -> None:
@@ -579,19 +667,22 @@ def compare_to_osm(
             self.elements: list[dict[str, Any]] = []
 
         def _wanted(self, tags: Any) -> bool:
-            if is_strong_lodging({tag.k: tag.v for tag in tags}):
+            flat = {tag.k: tag.v for tag in tags}
+            if _is_strong_lodging_se(flat):
                 return True
-            if tags.get("building") == "hut":
-                return True
-            return False
+            return tags.get("building") == "hut"
 
         def _add(self, kind: str, obj: Any, lat: float, lon: float) -> None:
+            if bbox is not None and not in_bbox(lat, lon, bbox):
+                return
             self.elements.append(
                 {
                     "type": kind,
                     "id": int(obj.id),
                     "lat": lat,
                     "lon": lon,
+                    "_lat": lat,
+                    "_lon": lon,
                     "tags": {tag.k: tag.v for tag in obj.tags},
                 }
             )
@@ -617,51 +708,89 @@ def compare_to_osm(
                 return
             self._add("way", way, sum(lats) / len(lats), sum(lons) / len(lons))
 
-    if not pois:
-        return []
-    log(f"Scanning {pbf_path.name} for shelter/vet/farrier/hut tags")
     handler = Handler()
     handler.apply_file(str(pbf_path), locations=True, idx="flex_mem")
     log(f"  kept {len(handler.elements)} OSM elements")
+    return handler.elements
 
-    results = []
-    for poi in pois:
-        nearby: list[tuple[float, dict[str, Any]]] = []
-        for el in handler.elements:
-            dist = haversine_m(poi["lat"], poi["lon"], el["lat"], el["lon"])
-            if dist <= POSSIBLE_RADIUS_M:
-                nearby.append((dist, el))
-        nearby.sort(
-            key=lambda item: (
-                0 if is_strong_lodging(item[1].get("tags") or {}) else 1,
-                item[0],
-                item[1]["type"],
-                int(item[1]["id"]),
-            )
-        )
-        best = nearby[0] if nearby else None
+
+def match_pois_to_elements(
+    pois: list[dict[str, Any]],
+    elements: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Spatial-grid match (not O(n*m) over the full Sweden extract)."""
+    from compare_osm_shelters import (
+        build_grid,
+        names_similar,
+        nearby_elements,
+        osm_display_name,
+    )
+
+    if not pois:
+        return []
+    grid = build_grid(elements)
+    results: list[dict[str, Any]] = []
+    for index, poi in enumerate(pois, start=1):
+        if index == 1 or index % 25 == 0 or index == len(pois):
+            log(f"  matching POI {index}/{len(pois)}")
+        title = poi.get("title") or ""
+        nearby = nearby_elements(poi["lat"], poi["lon"], grid, NAME_MATCH_RADIUS_M)
+
+        def score(item: tuple[float, dict[str, Any]]) -> tuple[int, float]:
+            dist, el = item
+            tags = el.get("tags") or {}
+            name_hit = names_similar(title, osm_display_name(tags))
+            strong = _lodging_ok_for_poi(poi, tags)
+            hut = _is_hut_only(tags)
+            if name_hit and strong:
+                rank = 0
+            elif strong and dist <= MATCH_RADIUS_M:
+                rank = 1
+            elif strong and dist <= POSSIBLE_RADIUS_M:
+                rank = 2
+            elif hut and dist <= POSSIBLE_RADIUS_M:
+                rank = 3
+            else:
+                rank = 4
+            return rank, dist
+
+        nearby.sort(key=lambda item: (*score(item), item[1]["type"], int(item[1]["id"])))
+        best = nearby[0] if nearby and score(nearby[0])[0] < 4 else None
         if best is None:
             status = "gap"
             matched = None
+            dist_m: float | str = ""
+            reason = ""
         else:
             dist, el = best
             tags = el.get("tags") or {}
-            if is_hut_only(tags):
-                # Ambiguous without tourism/amenity; never "matched".
+            name_hit = names_similar(title, osm_display_name(tags))
+            if _is_hut_only(tags):
                 status = "possible"
-            elif dist <= MATCH_RADIUS_M:
+                reason = "building_hut_only"
+            elif dist <= MATCH_RADIUS_M and _lodging_ok_for_poi(poi, tags):
                 status = "matched"
+                reason = "name_match" if name_hit else ""
+            elif name_hit and _lodging_ok_for_poi(poi, tags):
+                status = "matched" if dist <= POSSIBLE_RADIUS_M else "possible"
+                reason = "name_match_beyond_100m"
+            elif _lodging_ok_for_poi(poi, tags) and dist <= POSSIBLE_RADIUS_M:
+                status = "possible"
+                reason = "compatible_beyond_100m"
             else:
                 status = "possible"
+                reason = "weak_nearby"
             matched = el
+            dist_m = round(dist, 1)
+
         tags = (matched or {}).get("tags") or {}
-        tag_diff = ""
-        if matched:
-            tag_diff = "; ".join(
-                f"{key}={tags[key]}"
-                for key in ("tourism", "amenity", "building", "craft", "shop", "name")
-                if tags.get(key)
-            )
+        bits = [
+            f"{key}={tags[key]}"
+            for key in ("tourism", "amenity", "building", "craft", "shop", "name")
+            if tags.get(key)
+        ]
+        if reason:
+            bits.insert(0, reason)
         results.append(
             {
                 **poi,
@@ -672,11 +801,26 @@ def compare_to_osm(
                     if matched
                     else ""
                 ),
-                "distance_m": round(best[0], 1) if matched and best else "",
-                "tag_diff": tag_diff,
+                "matched_osm_name": osm_display_name(tags) if matched else "",
+                "distance_m": dist_m,
+                "tag_diff": "; ".join(bits),
             }
         )
     return results
+
+
+def compare_to_osm(
+    pois: list[dict[str, Any]],
+    pbf_path: Path,
+    *,
+    elements: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    """Match POIs against Geofabrik Sweden extract (nodes/ways)."""
+    if not pois:
+        return []
+    if elements is None:
+        elements = load_sweden_lodging_elements(pbf_path)
+    return match_pois_to_elements(pois, elements)
 
 
 def merge_shelter_rows(
@@ -695,6 +839,7 @@ def merge_shelter_rows(
                 "match_status": row["match_status"],
                 "matched_osm_id": row.get("matched_osm_id") or "",
                 "matched_osm_url": row.get("matched_osm_url") or "",
+                "matched_osm_name": row.get("matched_osm_name") or "",
                 "distance_m": row.get("distance_m") or "",
                 "tag_diff": row.get("tag_diff") or "",
                 "source": row.get("source") or "pilegrimsleden.no",
@@ -728,6 +873,7 @@ def merge_shelter_rows(
                 "match_status": poi.get("match_status") or "",
                 "matched_osm_id": poi.get("matched_osm_id") or "",
                 "matched_osm_url": poi.get("matched_osm_url") or "",
+                "matched_osm_name": poi.get("matched_osm_name") or "",
                 "distance_m": poi.get("distance_m") or "",
                 "tag_diff": poi.get("tag_diff") or "",
                 "source": "stolavsleden.com",
@@ -811,10 +957,13 @@ def main() -> int:
 
     if not args.skip_osm_compare:
         pbf = data_dir / "geofabrik" / "sweden-latest.osm.pbf"
-        if not pbf.exists():
-            raise RuntimeError(f"Missing {pbf}")
-        swedish_overnight = compare_to_osm(swedish_overnight, pbf)
-        horse_services = compare_to_osm(horse_services, pbf)
+        elements = load_lodging_elements_for_pois(
+            data_dir,
+            swedish_overnight + horse_services,
+            pbf_path=pbf if pbf.exists() else None,
+        )
+        swedish_overnight = match_pois_to_elements(swedish_overnight, elements)
+        horse_services = match_pois_to_elements(horse_services, elements)
     else:
         for poi in swedish_overnight + horse_services:
             poi.update(

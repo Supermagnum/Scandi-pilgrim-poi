@@ -5,7 +5,7 @@
     "maplist": "https://www.pilegrimsleden.no/actions/pilegrimsleden/poi/maplist",
     "trailpoints": "https://www.pilegrimsleden.no/actions/pilegrimsleden/poi/trailpoints",
     "user_agent": "pilegrimsleden-osm-extractor/1.0 (OSM mapping research; shelter/cabin POIs along Pilegrimsleden; +https://www.openstreetmap.org/)",
-    "extracted_at": "2026-09-13T14:27:10.032331+00:00",
+    "extracted_at": "2026-09-17T23:08:56.815452+00:00",
     "poi_entry_trail_field": "trail",
     "trail_relation_note": "poi_Entry.trail is the Craft relation field handle, but the public GraphQL schema returns empty lists. Trail membership is resolved with relatedTo: [trailEntryId] (same relation the map uses via trailpoints).",
     "include_categories": [
@@ -77,6 +77,7 @@
       "slug": "gapahuk-1",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-1",
       "intro": "Gapahuk bygget som gammel melkerampe på vestre Farseggen. Bruk som rasteplass.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -100,6 +101,7 @@
       "slug": "gapahuk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk",
       "intro": "Gapahuk bygget som gammel melkerampe på Farseggen. Bruk som rasteplass.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -123,6 +125,7 @@
       "slug": "aaheim-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/aaheim-camping",
       "intro": "Hytter og teltplass",
+      "address": "Romsdalsvegen 4057, 2668 Lesjaskog",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -152,6 +155,7 @@
       "slug": "aaraas-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/aaraas-pilegrimsherberge",
       "intro": "Aaraas gård passer fint for overnatting etter den første dagsmarsjen ut av Oslo. NB: fra 2. juli er det kun mulig med overnatting i ukedagene. Kun forespørsler per e-post blir besvart.",
+      "address": "Årosvegen 307, 1480 Slattum (ved Hellerudsletta/Årosbrua)",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -187,6 +191,7 @@
       "slug": "andrum-for-pilgrim",
       "url": "https://www.pilegrimsleden.no/interessepunkter/andrum-for-pilgrim",
       "intro": "Fullt utstyrt leilighet i Åre sentrum for 1 person. (sommertid) Forhåndsbestilling nødvendig.",
+      "address": "Kabinbanevägen 12 837 52 Åre",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -216,6 +221,7 @@
       "slug": "arteid-vestre",
       "url": "https://www.pilegrimsleden.no/interessepunkter/arteid-vestre",
       "intro": "Rimelig overnatting i stabbur",
+      "address": "Arteidvegen 214, 2040 Kløfta",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -251,6 +257,7 @@
       "slug": "atelier-lefstorvet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/atelier-lefstorvet",
       "intro": "Hyggelig overnattingssted i nærheten av Furnes kirke.",
+      "address": "Jessnesvegen 325, 2320 Furnes",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -280,6 +287,7 @@
       "slug": "audenhus-pilegrimsherberge-pa-vingrom",
       "url": "https://www.pilegrimsleden.no/interessepunkter/audenhus-pilegrimsherberge-pa-vingrom",
       "intro": "Audenhus er en gammel gård som ligger idyllisk til mellom Biristrand og Vingrom rett ved leden på vestsiden av Mjøsa.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -309,6 +317,7 @@
       "slug": "aunan-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/aunan-gard",
       "intro": "Overnatt på levende Aunan Gård hos et imøtekommende vertskap i hyggelige omgivelser.",
+      "address": "Aunbygdveien 246, 7357 Skaun",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -338,6 +347,7 @@
       "slug": "aurdal-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/aurdal-gard",
       "intro": "Aurdal Gård ligger 650m fra Pilegrimsleden i vakre omgivelser med utsikt til Vikerfjell, Norefjell og Gaustatoppen.",
+      "address": "Hadelandsveien 621, Åsbygda.",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -379,6 +389,7 @@
       "slug": "auskin-kreative-senter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/auskin-kreative-senter",
       "intro": "Etter en lang etappe er det godt med en hviledag på Auskin. Her kan du hvile i hagen på ei solseng, bade i elva, gå på oppdagelsesferd i biblioteket, male et bilde, spikke en skje og prate med både medvandrere og vertskap om de store ting i livet. Hvis du har lyst.",
+      "address": "Vukuveien 971, 7660 Vuku",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -420,6 +431,7 @@
       "slug": "ostnes-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ostnes-gard",
       "intro": "Frisk luft og den svake susen fra elva, gir deg avslapping og du får god nattesøvn. Her kan leie deg hytte alene eller sammen med andre eller leie en teltplass. Autnes har tre hytter som er tilrettelagt for pilegrimer pilegrimer.",
+      "address": "Austnesbakkan 18A, 7660 Vuku, Norway",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -455,6 +467,7 @@
       "slug": "austratt-camping-og-motell",
       "url": "https://www.pilegrimsleden.no/interessepunkter/austratt-camping-og-motell",
       "intro": "Det perfekte overnattingstedet for båtpilegrimen på Ørlandet med Austrått havn like ved, og kort avstand til Austråttborgen.",
+      "address": "Borgveien 21, 7140 Opphaug",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -490,6 +503,7 @@
       "slug": "duvedsbyn-backs-semesterby",
       "url": "https://www.pilegrimsleden.no/interessepunkter/duvedsbyn-backs-semesterby",
       "intro": "Backs ferieby, Duved i Åre-fjellene. Godt utstyrte hytter.",
+      "address": "Duvedsbyn 308, 830 15 Duved, Sweden",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -519,6 +533,7 @@
       "slug": "badestranda-leiren",
       "url": "https://www.pilegrimsleden.no/interessepunkter/badestranda-leiren",
       "intro": "En kort spasertur fra Svanøybukt finner du badestranda Leiren. Her er det gapahuk og volleyballnett.",
+      "address": "6914 Svanøybukt",
       "categories": [
         "Gapahuk"
       ],
@@ -542,6 +557,7 @@
       "slug": "bakke-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bakke-camping",
       "intro": "Bakke Camping er et populært overnattingsted som ligger flott til ved Iddefjorden.",
+      "address": "Iddefjordsveien 907, 1765 Halden",
       "categories": [
         "Overnatting",
         "Rasteplass",
@@ -577,6 +593,7 @@
       "slug": "bakkelund-backpackers",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bakkelund-backpackers",
       "intro": "I ett med naturen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -612,6 +629,7 @@
       "slug": "balstad-pensjonat",
       "url": "https://www.pilegrimsleden.no/interessepunkter/balstad-pensjonat",
       "intro": "Balstad pensjonat er et familiedrevet overnattingssted som ligger i Selbu i Trøndelag. Her kan du våkne med utsikt over Selbusjøen, til hjemmelagde rundstykker og kjenne deg som hjemme.",
+      "address": "Strandvegen 585, 7584 Selbustrand",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -647,6 +665,7 @@
       "slug": "barmo-hus-til-leie",
       "url": "https://www.pilegrimsleden.no/interessepunkter/barmo-hus-til-leie",
       "intro": "Enebolig med 8 sengeplasser. Fullt utstyrt kjøkken. Bad og muligheter for å vaske og tørke klær. Bestilling via Airbnb.",
+      "address": "Gamle Kongevei 2466",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -676,6 +695,7 @@
       "slug": "hjerkinnhus-vandrerhjem",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hjerkinnhus-vandrerhjem",
       "intro": "Overnattingsted med flott beliggenhet, nær Hjerkinn stasjon",
+      "address": "Hjerkinnhusveien 35, 2661 Hjerkinn",
       "categories": [
         "Overnatting",
         "Vandrerhjem",
@@ -717,6 +737,7 @@
       "slug": "bekken-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bekken-pilegrimsherberge",
       "intro": "Sjarmerende Bekken Pilegrimsherberge byr på langt mer enn en enkel seng. Her får du også en historie, et minnerikt opphold og et vennlig vertskap.",
+      "address": "Hyttbakkvegen 305, 7580 Selbu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -746,6 +767,7 @@
       "slug": "berg-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/berg-pilegrimsherberge",
       "intro": "Velkommen til å overnatte i historiske omgivelser med Berg middelalderkirke fra 1100-tallet som nærmeste nabo.",
+      "address": "Lundestadveien 185, 1763 Halden.",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -775,6 +797,7 @@
       "slug": "berger-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/berger-gard",
       "intro": "Berger Gård tilbyr sjarmerende og komfortabel overnatting for pilegrimer!",
+      "address": "Halvard Torgersensvei 13, 1395 Hvalstad",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -804,6 +827,7 @@
       "slug": "sans-bergmannskroa",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sans-bergmannskroa",
       "intro": "Overnatting i gruvehistorisk atmosfære",
+      "address": "Torfinn Bjønaas plass 1, 7332 Løkken Verk",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -845,6 +869,7 @@
       "slug": "betania-kolbu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/betania-kolbu",
       "intro": "Tidligere var dette et aktivt bedehus på Kolbu, nå er det forsamlingslokale og overnattingssted.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -886,6 +911,7 @@
       "slug": "birkeland-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/birkeland-camping",
       "intro": "Nyt roa og stillheita ved flotte Aksevatnet, medan du ligg i stolen og ser opp på majestetiske Lifjellet!",
+      "address": "Birkeland, 6953 Leirvik i Sogn",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -915,6 +941,7 @@
       "slug": "bittes-gjestehus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bittes-gjestehus",
       "intro": "Bittes gjestehus tilbyr overnatting for pilegrimer. Overnattingsstedet ligger i nærheten av Ringebu sentrum.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -944,6 +971,7 @@
       "slug": "bjerkelihytten-pa-aasgarvollen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bjerkelihytten-pa-aasgarvollen",
       "intro": "Helårs, ny hytte i flott natur og fantastisk utsikt. Om sommeren kan du oppleve seterlivet med familien på gården og delta i fjøsstellet. Flotte turmuligheter og skiløyper. Jakt og fiske.",
+      "address": "Eggeliveien 513, 2542 Vingelen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -973,6 +1001,7 @@
       "slug": "bjorliheimen-hotell",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bjorliheimen-hotell",
       "intro": "Hotell og hytter, stor variasjon i standard og pris, samt teltplasser/camping.",
+      "address": "Romsdalsvegen, 2669 Bjorli, Norway",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -1032,6 +1061,7 @@
       "slug": "blaheia",
       "url": "https://www.pilegrimsleden.no/interessepunkter/blaheia",
       "intro": "Dagens høyeste punkt!",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -1055,6 +1085,7 @@
       "slug": "boda-borg",
       "url": "https://www.pilegrimsleden.no/interessepunkter/boda-borg",
       "intro": "18 rom, 70 senger. Wc og dusj i hallen.",
+      "address": "Bodaborg 100 Torpshammar 841 75 Sweden",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1084,6 +1115,7 @@
       "slug": "borg-sommerhotell",
       "url": "https://www.pilegrimsleden.no/interessepunkter/borg-sommerhotell",
       "intro": "Velkommen til Borg sommerhotell i Ålesund. Her er det både rom, teltplasser og oppstillingsplass for bobil.",
+      "address": "Løypevegen 3, entrance H, 6012 Ålesund",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -1113,6 +1145,7 @@
       "slug": "borgsjo-hembygdsgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/borgsjo-hembygdsgard",
       "intro": "Vandrerhjem med 23 sengeplasser fordelt på 9 rom.",
+      "address": "Borgsjöbyn 187, 841 97 Erikslund, Sweden",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -1148,6 +1181,7 @@
       "slug": "borgstua-pa-kvernes-prestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/borgstua-pa-kvernes-prestegard",
       "intro": "Velkommen til Kvernes Prestegård, en viktig del av kulturhistorien til dette gamle kirkestedet. Gården ligger nordøst for kirkene og her kan du overnatte i den nyoppussede Borgstua, ett av to verneverdige bygg på gården.",
+      "address": "Kvernesveien 888, 6531 Averøy",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1177,6 +1211,7 @@
       "slug": "borre-familie-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/borre-familie-camping",
       "intro": "Borre Familie Camping ligger idyllisk til ved sjøen rett ved Borre Kirke og Borreparken",
+      "address": "Steinbrygga 30 3184 Borre",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -1212,6 +1247,7 @@
       "slug": "boras-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/boras-gard",
       "intro": "Borås gård ligger fritt og fint til nord i Skjelstadmarka. Her ønsker Ola Frigård, og hans mor Solfrid, pilegrimer velkommen til enkel overnatting på gården.",
+      "address": "Langsteinvegen 1036, 7520 Hegra",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1241,6 +1277,7 @@
       "slug": "brannasen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/brannasen",
       "intro": "Hytta er egentlig et serveringssted som er oppe for servering hver søndag. Ellers i uka kan den leies for overnatting. Booking via nettsiden.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -1276,6 +1313,7 @@
       "slug": "brekkegarden-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/brekkegarden-pilegrimsherberge",
       "intro": "Brekkegarden er ein sjarmerande og fredeleg stad å vere. Her kan du finne ro både inne og ute. Våningshuset frå 1893 ligg i eit tilbaketrekt og naturskjønt område i Sande. Midt på sommaren kan du nyte blømande roser i den vakre hagen.",
+      "address": "Myrane 19, 6083 Gjerdsvika",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1305,6 +1343,7 @@
       "slug": "bromyra-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bromyra-camping",
       "intro": "Camping med hytter (2 og 4 senger) og teltplass. Lite kjøkken. Uthus.",
+      "address": "Bräcke Ö, 840 60 Bräcke, Sweden",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -1334,6 +1373,7 @@
       "slug": "brurbakkvegen-79",
       "url": "https://www.pilegrimsleden.no/interessepunkter/brurbakkvegen-79",
       "intro": "Leilighet i nærheten av Brandbu.",
+      "address": "Brurbakkvegen 79, 2760 Brandbu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -1375,6 +1415,7 @@
       "slug": "bryggerhuset-nordre-ullern",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bryggerhuset-nordre-ullern",
       "intro": "Velkommen til en liten, enkel og lun overnattingshytte i naturen, tett på leden.",
+      "address": "Bønsnesveien 79, 3530 Røyse",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -1422,6 +1463,7 @@
       "slug": "bryggerhuset-pa-lander",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bryggerhuset-pa-lander",
       "intro": "Bryggerhuset ligger rett ved Pilegrimsleden, på gården Lander. Her møter du et vakkert tun med hovedhus, stor garasje og stabbur. Lander ligger på Tingelstadhøgda, omgitt av vakker utsikt og natur.",
+      "address": "Kongevegen 66, 2770 Jaren",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1451,6 +1493,7 @@
       "slug": "bryhni-sondre-gjestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bryhni-sondre-gjestegard",
       "intro": "Bryhni Søndre ligger vakkert til i Stange og drives som gjestegård. Her tilbys overnatting og bespisning i landlige omgivelser. Et ideelt sted for hvile og rekreasjon langs pilegrimsleden.",
+      "address": "Brynivegen 53, 2335 Stange",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1480,6 +1523,7 @@
       "slug": "overnatting-pa-brynn-i-bergsengroa-i-brottum",
       "url": "https://www.pilegrimsleden.no/interessepunkter/overnatting-pa-brynn-i-bergsengroa-i-brottum",
       "intro": "I Bergsengroa i Brøttum ligger det tidligere hagebruket Brynn. Her kan du hvile i idylliske omgivelser, med flott utsikt utover Mjøsa.",
+      "address": "Bergsengvegen 134, 2372 Brøttum",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -1515,6 +1559,7 @@
       "slug": "bratorp-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bratorp-camping",
       "intro": "Bråtorp Camping - hytter, fiske, kano, bading og flotte turmuligheter.",
+      "address": "Skaugskrokveien 27, 1765 Halden",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -1556,6 +1601,7 @@
       "slug": "brottum-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/brottum-camping",
       "intro": "Overnatting i hytter eller i telt i vakkert kulturlandskap nær Pilegrimsleden",
+      "address": "Turistvegen 1270, 2372 Brøttum",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -1597,6 +1643,7 @@
       "slug": "budsjord-historisk-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/budsjord-historisk-gard",
       "intro": "Fredet middelaldergård drevet med tradisjonelt og variert husdyrhold fram til 1950-tallet",
+      "address": "Øverbygdsvegen 145, 2662 Dovre",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -1638,6 +1685,7 @@
       "slug": "bunks-at-rode",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bunks-at-rode",
       "intro": "Pilegrimshostel på flotte Rodeløkka i Oslo!",
+      "address": "Københavngata 10, 0566 Oslo",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -1675,6 +1723,7 @@
       "slug": "bakinn-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bakinn-gard",
       "intro": "Båkinn gård på Toten tilbyr overnatting til pilegrimer i en nyoppusset leilighet på gården.",
+      "address": "Mjøsvegen 135, 2849 Kapp",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -1722,6 +1771,7 @@
       "slug": "baerum-gapahuk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/baerum-gapahuk",
       "intro": "Overnatting i koselig og ubetjent gapahuk",
+      "address": "Gardlaushøgda, 1305 Haslum",
       "categories": [
         "Gapahuk"
       ],
@@ -1745,6 +1795,7 @@
       "slug": "bondernes-hus-jevnaker",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bondernes-hus-jevnaker",
       "intro": "Forsamlingslokale.",
+      "address": "Glassverkvegen 145, 3520 Jevnaker",
       "categories": [
         "Gapahuk",
         "Kulturminne"
@@ -1774,6 +1825,7 @@
       "slug": "trysil-camp-fredbo",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trysil-camp-fredbo",
       "intro": "Hyggelig camping like ved Trysilelva",
+      "address": "Fredbo, 2430 Jordet",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -1803,6 +1855,7 @@
       "slug": "camp-viking",
       "url": "https://www.pilegrimsleden.no/interessepunkter/camp-viking",
       "intro": "20 hytter og totalt 96 senger, teltplasser.",
+      "address": "Hannåsen 107 Gällö 843 95 Sweden",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -1832,6 +1885,7 @@
       "slug": "dagfinnstua-pa-oddheim-1",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dagfinnstua-pa-oddheim-1",
       "intro": "Velkommen til Lutnes, helt sør i Trysil. Oddheim tilbyr enkel innkvartering i Dagfinnstua, et sjarmerende tømmerhus som ligger ved Trysilelvas bredd.",
+      "address": "Vestigardsvegen 85, Lutnes, 2427 Plassen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -1861,6 +1915,7 @@
       "slug": "dagsturhytta-gulakvila",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dagsturhytta-gulakvila",
       "intro": "Dagsturhytta i Gulen ligger på Løypingåsen ovanfor Eivindvik sentrum. Dette er ein lett tur som passar for alle.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Dagsturhytte"
@@ -1890,6 +1945,7 @@
       "slug": "dagsturhytta-havglimt",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dagsturhytta-havglimt",
       "intro": "Dagsturhytta på Leikanger ligg ein kort spasertur frå Stadlandet skule, med flott utsikt over bygda og havet.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Dagsturhytte"
@@ -1919,6 +1975,7 @@
       "slug": "dagsturhytta-sorefjordhytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dagsturhytta-sorefjordhytta",
       "intro": "Dagsturhytta i Hyllestad er plassert ved Sørefjordvatnet og med utsikt mot Lihesten og ut over Åfjorden. Hytta har fått namnet etter vatnet ho ligg ved.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Dagsturhytte"
@@ -1948,6 +2005,7 @@
       "slug": "dalum-herberge-tilbyr-enkel-overnatting-til-pilegrimer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dalum-herberge-tilbyr-enkel-overnatting-til-pilegrimer",
       "intro": "Dalum herberge ligger idylisk til oppunder berget mellom Kvam og Sjoa.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -1977,6 +2035,7 @@
       "slug": "dombas-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dombas-gard",
       "intro": "Overnatting i stabbur",
+      "address": "Domaasgrendi 2, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2006,6 +2065,7 @@
       "slug": "furuhaugli-turisthytter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/furuhaugli-turisthytter",
       "intro": "Overnatting i naturskjønne omgivelser",
+      "address": "Furuhauglie 80, Dovrefjell, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -2065,6 +2125,7 @@
       "slug": "dovregubbens-hall",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dovregubbens-hall",
       "intro": "Dra 100 år tilbake til Dovregubbens Hall",
+      "address": "Trondheimsvegen 2100, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -2112,6 +2173,7 @@
       "slug": "dovreskogen-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dovreskogen-camping",
       "intro": "Pilegrimsovernatting i hytter",
+      "address": "Skogamoveien 19, 2663 Dovreskogen",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -2147,6 +2209,7 @@
       "slug": "dovreskogen-gjestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dovreskogen-gjestegard",
       "intro": "Dovreskogen gjestegård har åpnet for overnatting hele året.",
+      "address": "Gudbrandsdalsvegen 225, 2663 Dovreskogen",
       "categories": [
         "Overnatting",
         "Vandrerhjem",
@@ -2182,6 +2245,7 @@
       "slug": "pilegrimsherberge-pa-smola",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsherberge-pa-smola",
       "intro": "Eco Camp Norway på Smøla er pilegrimsherberge og vandrehjem. De har flotte rom og fasiliteter. Et sted å la seg inspirere av. Her er det innovative løsninger på bærekraft og resirkulering i det meste. Vertskapet er dedikerte ildsjeler for natur, miljø og menneske.",
+      "address": "Trettnesveien 10, 6570 Smøla",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2217,6 +2281,7 @@
       "slug": "eidsvoll-gamle-prestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/eidsvoll-gamle-prestegard",
       "intro": "Dessverre så har Eidsvoll gamle prestegård stengt i 2026. I Eidsvoll finnes flere overnattinger via Airbnb og Booking, som man kan sjekke.",
+      "address": "Camilla Colletts veg 27, 2080 Eidsvoll",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2252,6 +2317,7 @@
       "slug": "elgsjohytta-for-grupper",
       "url": "https://www.pilegrimsleden.no/interessepunkter/elgsjohytta-for-grupper",
       "intro": "Meget flott beliggende ved Elgsjøen, i nærheten av Ryphusan, i Oppdal kommune. Passer for grupper. Hytta bookes på inatur.no for kr 1400,-pr natt.",
+      "address": "Vinstradalsvegen 1772, 7345 Drivdalen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2281,6 +2347,7 @@
       "slug": "elgstua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/elgstua",
       "intro": "Godt utstyrt selvbetjeningshytte.",
+      "address": "2427 Plassen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2310,6 +2377,7 @@
       "slug": "elstad-camping-camping-site-on-the-riverbank-of-gudbrandsdalslagen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/elstad-camping-camping-site-on-the-riverbank-of-gudbrandsdalslagen",
       "intro": "Elstad Camping ligger rett ved Gudbrandsdalslågen i vakre omgivelser.",
+      "address": "Gudbrandsdalsvegen 1660, 2630 Ringebu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2345,6 +2413,7 @@
       "slug": "elstad-camping-i-vakre-omgivelser-ved-gudbrandsdalslagen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/elstad-camping-i-vakre-omgivelser-ved-gudbrandsdalslagen",
       "intro": "Elstad camping ligger rett ved Ringebu Stavkirke. Overnatting i vakre omgivelser midt i Gudbrandsdalen 800 m fra leden",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2380,6 +2449,7 @@
       "slug": "grendahus-i-eltdalen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/grendahus-i-eltdalen",
       "intro": "Grendehus med enkel overnatting. Kodelås. Kontakt Terje Stenseth +4745469193",
+      "address": "Eltdalsvegen 1392, 2430 Jordet",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2409,6 +2479,7 @@
       "slug": "elvebakken-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/elvebakken-camping",
       "intro": "På Elvebakken Camping tilbyr vi romslige og komfortable campingplasser og teltområder i vakre omgivelser.",
+      "address": "Olavsgata 70 6210 Sylte, Norge",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -2444,6 +2515,7 @@
       "slug": "engen-kloster-i-kolbu-overnatting",
       "url": "https://www.pilegrimsleden.no/interessepunkter/engen-kloster-i-kolbu-overnatting",
       "intro": "Lite diakonissekloster på Kolbu etablert 1985 under den franske protestantiske ordenen Communauté des Diaconesses de Reuilly. Adgang kun etter avtale; noe avstand fra leden.",
+      "address": "Kolbulinna 1118, 2847",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2485,6 +2557,7 @@
       "slug": "engoy-gjestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/engoy-gjestegard",
       "intro": "I skjærgården nord for Sandefjord finner du Engøy Gjestegård liggende i praktfulle omgivelser med flott utsikt til Veierland og Tønsbergfjorden.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2520,6 +2593,7 @@
       "slug": "enkel-overnatting-i-gapahuk-hytte",
       "url": "https://www.pilegrimsleden.no/interessepunkter/enkel-overnatting-i-gapahuk-hytte",
       "intro": "Gapahuk ved Ljødalstuvegen. NB at det kan være vanskelig å se gapahuken fra veien pga gras på taket.",
+      "address": "Ljødalstuvegen, Eidsvoll kommune",
       "categories": [
         "Overnatting",
         "Gapahuk"
@@ -2549,6 +2623,7 @@
       "slug": "eriksbu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/eriksbu",
       "intro": "Gapahuk med bålplass.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -2573,6 +2648,7 @@
       "slug": "ersgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ersgard",
       "intro": "Gårdshotellet er åpent hele året, og tilbyr god mat og gode senger for enkeltpilegrimer og grupper opp til 25 personer.",
+      "address": "Sørsideveien 450, 7514 Stjørdal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -2602,6 +2678,7 @@
       "slug": "fagertun",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fagertun",
       "intro": "Senger på 6 soverom – ikke sengetøy Full utstyrt kjøkken og felles stue. Pris kr. 500,-pr. pers pr. natt. Kontakt Mali Hauen",
+      "address": "Kongsveien 5",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2631,6 +2708,7 @@
       "slug": "fiksvik-sondre",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fiksvik-sondre",
       "intro": "Overnattingsmulighet i stort hus med mange rom.",
+      "address": "Moraveien 800, 2485 Rendalen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2660,6 +2738,7 @@
       "slug": "fjellavvo-ved-osdalssjohogda-naturreservat",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fjellavvo-ved-osdalssjohogda-naturreservat",
       "intro": "Fjellavvo 1,5 km vest for Munkebetseter. Det er vedovn, gulv og benker i lavvoen og plass til 4-5 personer. Ved i lavvoen. Vann ca 500 meter fra lavvoen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2689,6 +2768,7 @@
       "slug": "fjellheim-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fjellheim-gard",
       "intro": "Hjertelig velkommen til vår lille gård, midt i naturen på Lindeberg, 150 m fra Pilegrimsleden (se detaljer kart her under).",
+      "address": "Ulverudvegen 51, 2016 Frogner",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2724,6 +2804,7 @@
       "slug": "fjetre-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fjetre-gard",
       "intro": "Overnatt i naturskjønne og fredelige omgivelser på en levende gård i Stange Vestbygd.",
+      "address": "Sandvikavegen 185, 2312 Ottestad",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -2759,6 +2840,7 @@
       "slug": "sekken-bed-make-your-own-breakfast",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sekken-bed-make-your-own-breakfast",
       "intro": "På Veien til Veøya anbefaler vi en stopp og overnatting på vakre Sekken!",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2788,6 +2870,7 @@
       "slug": "flenasstua-ol-jons-garden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/flenasstua-ol-jons-garden",
       "intro": "Vakkert tømmerhus fra rundt 1850, skifer i gang med varmekabler. Eget bad m/toalett. Tilbaketrukket i rolige omgivelser. Turløyper i området.",
+      "address": "Flendalsvegen 172",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -2817,6 +2900,7 @@
       "slug": "fluesonen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fluesonen",
       "intro": "Godt utstyrt hytte med plass til 6 personer",
+      "address": "2427 Plassen",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -2846,6 +2930,7 @@
       "slug": "fokstugu-fjellstue",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fokstugu-fjellstue",
       "intro": "Fokstugu Fjellstue - Bemannet fra 19. juni – 30. august, og åpent for selvbetjening fra 31. august til 28 september etter avtale. Se under for mer info.",
+      "address": "Trondheimsvegen 1050, N-2660 Dombås",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -2875,6 +2960,7 @@
       "slug": "fredriksten-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fredriksten-camping",
       "intro": "Fredriksten Camping har en fantastisk beliggenhet i historiske omgivelser",
+      "address": "Generalveien, 1769 Halden",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -2916,6 +3002,7 @@
       "slug": "friluftsfyret-kvassheim",
       "url": "https://www.pilegrimsleden.no/interessepunkter/friluftsfyret-kvassheim",
       "intro": "En unik overnattingsopplevelse ved det imponerende Jærhavet, hvor naturen og historien møtes på en spektakulær måte",
+      "address": "Kvassheim 100, Brusand",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -2945,6 +3032,7 @@
       "slug": "frosta-strandhus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/frosta-strandhus",
       "intro": "Vakkert strandhus, perfekt beliggende ved bredden av fjorden i Småland på Frosta. Bare noen få skritt fra vannkanten tilbyr vi overnatting og måltider for enslige, grupper eller par. Vi har også annekset \"Knutstua\" tilgjengelig for flere hvor vi tilbyr en enklere overnatting.",
+      "address": "Breivikveien 20, 7633 Frosta",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -2974,6 +3062,7 @@
       "slug": "fru-ingas-apartments",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fru-ingas-apartments",
       "intro": "Fru Ingas Aartments tilbyr ferieleiligheiter i den nyrenoverte sjøbua i vasskanten på Stadlandet.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rorbu"
@@ -3003,6 +3092,7 @@
       "slug": "froso-pilgrimscenter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/froso-pilgrimscenter",
       "intro": "Frösö pilgrimscenter holder åpent hele sommeren fra 7. juni til 1. september, tirsdag–søndag (mandag stengt). Overnatting: Det finnes mange teltplasser. Senteret tilbyr et lite antall sengeplasser med tilgang til kjøkken, dusj/toalett og vaskemaskin.",
+      "address": "Stockevägen 17, Frösön",
       "categories": [
         "Pilegrimssenter",
         "Overnatting",
@@ -3038,6 +3128,7 @@
       "slug": "fuglesang-herberge-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fuglesang-herberge-2",
       "intro": "Velkommen til Fuglesang herberge!",
+      "address": "Ørakerveien 18B, 0284 Oslo",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -3068,6 +3159,7 @@
       "slug": "furuodden-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/furuodden-camping",
       "intro": "Nydelig lokalisert campingplass ved Mjøsa på Biristrand",
+      "address": "Biristrandvegen 855, 2837 Biristrand",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -3115,6 +3207,7 @@
       "slug": "fyrvokterboligen-pa-sula",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fyrvokterboligen-pa-sula",
       "intro": "En overnatting i fyrvokterboligen på Sula kan kalles spektakulær. Leilighetene ligger rett ved øyas høyeste punkt; fyrlykta. Det er fantastisk utsikt utover havet. På veg til boligen stiger du noen trappetrinn opp fra et pittoresk og kompakt, lite kystsamfunn. Her kan du finne roen og storheten på samme tid.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -3144,6 +3237,7 @@
       "slug": "gamleveien-60",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gamleveien-60",
       "intro": "Enkel overnatting langs Pilegrimsleden gjennom Åsbygda.",
+      "address": "Gamleveien 60, Åsbygda",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -3179,6 +3273,7 @@
       "slug": "gammelstuggu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gammelstuggu",
       "intro": "Hytte med 4 sengeplasser",
+      "address": "Romsdalsveien, 2668 Lesjaskog",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -3208,6 +3303,7 @@
       "slug": "gapahuk-pilegrimshvile",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-pilegrimshvile",
       "intro": "Velkommen til gapahuk \"Pilegrimshvile\"",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3231,6 +3327,7 @@
       "slug": "gapahuk-aksla",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-aksla",
       "intro": "Det er merket pilegrimssti fra Ålesund sentrum til Borgund kirke og middelaldersted.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3254,6 +3351,7 @@
       "slug": "gapahuk-frya",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-frya",
       "intro": "Gapahuk på Frya",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3277,6 +3375,7 @@
       "slug": "gapahuk-i-fagerdalen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-i-fagerdalen",
       "intro": "En hyggelig gapahuk i Fagerdalen",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3300,6 +3399,7 @@
       "slug": "gapahuk-i-furuberget",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-i-furuberget",
       "intro": "Gapahuken i Furuberget eies av KFUK/KFUM-speidere. Pilegrimer er hjertelig velkomne til å overnatte der. Husk å ta med søppel og etterlat stedet ryddig og fint. Merk: ingen toaletter i nærheten",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3323,6 +3423,7 @@
       "slug": "gapahuk-i-klokkerhavna",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-i-klokkerhavna",
       "intro": "Sanne skoles gapahuk i Klokkerhavna på Granavollen",
+      "address": "",
       "categories": [
         "Overnatting",
         "Teltplass",
@@ -3358,6 +3459,7 @@
       "slug": "gapahuk-i-skar",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-i-skar",
       "intro": "Gapahuk i Skar, høyt oppe i lia.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3381,6 +3483,7 @@
       "slug": "gapahuk-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-2",
       "intro": "Gapahuk i Kleivdalen.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3404,6 +3507,7 @@
       "slug": "gapahuk-med-grillplass-tobru-halden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-med-grillplass-tobru-halden",
       "intro": "Gapahuk med mulighet for overnatting og grillplass.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Gapahuk",
@@ -3439,6 +3543,7 @@
       "slug": "gapahuk-med-grillplass-skjeberg-guslundasen-heia-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-med-grillplass-skjeberg-guslundasen-heia-2",
       "intro": "Overnatting gapahuk.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Gapahuk",
@@ -3474,6 +3579,7 @@
       "slug": "gapahuk-pa-kvernes",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-pa-kvernes",
       "intro": "Kvernes kulturområde har en flott gapahuk som ligger nært sjøen og ved museumsområdet.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3497,6 +3603,7 @@
       "slug": "gapahuk-pa-kvilbekken",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-pa-kvilbekken",
       "intro": "Gapahuk med benker, ildsted og utedo. Flott plass for soveposepilegrimer.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3520,6 +3627,7 @@
       "slug": "gapahuk-pa-lindeberg-etter-vilbergfjellet-for-arteid",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-pa-lindeberg-etter-vilbergfjellet-for-arteid",
       "intro": "Overnatting i ubetjent gapahuk",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3543,6 +3651,7 @@
       "slug": "gapahuk-pa-snoton",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-pa-snoton",
       "intro": "Velkommen til en god rast før leden beveger seg ut i skogen mot Skaun.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3566,6 +3675,7 @@
       "slug": "gapahuk-ved-hjerkindammen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-ved-hjerkindammen",
       "intro": "Statsskog sin gapahuk ligger flott til ved dammen og er åpen for alle",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3589,6 +3699,7 @@
       "slug": "gapahuk-i-haug",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-i-haug",
       "intro": "Romslig gapahuk ved Honerud Gård i Åsbygda i Ringerike kommune.",
+      "address": "Honerud gård, 3520 Jevnaker",
       "categories": [
         "Overnatting",
         "Teltplass",
@@ -3624,6 +3735,7 @@
       "slug": "gapahuk-ved-nordsveodden-i-ottestad",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-ved-nordsveodden-i-ottestad",
       "intro": "På Nordsveodden ligger det en gapahuk ved Mjøsas bredder",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3647,6 +3759,7 @@
       "slug": "outdoor-shelter-by-solgarden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/outdoor-shelter-by-solgarden",
       "intro": "",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3670,6 +3783,7 @@
       "slug": "gapahuk-ved-stordammen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuk-ved-stordammen",
       "intro": "Gapahuk med bålplass, ca 1.5 km fra leden",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3693,6 +3807,7 @@
       "slug": "gapahuken-gubbero",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuken-gubbero",
       "intro": "Overnatting i koselig og ubetjent gapahuk med flott utsikt..",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3716,6 +3831,7 @@
       "slug": "gapahuken-kjerringfred",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuken-kjerringfred",
       "intro": "Overnatting i koselig og ubetjent gapahuk",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3739,6 +3855,7 @@
       "slug": "gapahuken-pa-rosvollhaugen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gapahuken-pa-rosvollhaugen",
       "intro": "Fantastisk utsikt! Her får du ly uansett vindretning og vær. Gapahuken har sitteplasser i tre himmelretninger.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -3762,6 +3879,7 @@
       "slug": "garlaus-markastue-og-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/garlaus-markastue-og-pilegrimsherberge",
       "intro": "Garlaus ligger i Bærum like ved Pilegrimsleden. Bestilling via e-post: naturjenten@gmail.com.",
+      "address": "Gamle Ringeriksveien 161 1357 Bekkestua",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -3792,6 +3910,7 @@
       "slug": "gildesvollen-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gildesvollen-pilegrimsherberge",
       "intro": "Gildesvollen ligger rett ved Ringebu Stavkirke. Her finner du hvile, ro og stillhet i historiske omgivelser. Åpent 1 mai - 30 september",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -3827,6 +3946,7 @@
       "slug": "gjertrudstua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gjertrudstua",
       "intro": "Kystpilegrimer ønskes hjertelig velkommen til overnatting i Gjertrudstua",
+      "address": "Krobakken 32, 7100 Rissa",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -3856,6 +3976,7 @@
       "slug": "gjestegarden-halsnoy",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gjestegarden-halsnoy",
       "intro": "Gjestegården Halsnøy ligg i Sæbøvik på øya Halsnøy og 200 meter frå fjorden.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -3885,6 +4006,7 @@
       "slug": "havdal-gjesteheim",
       "url": "https://www.pilegrimsleden.no/interessepunkter/havdal-gjesteheim",
       "intro": "En tidligere skole er omgjort til et pensjonat og tar imot pilegrimer og andre gjester",
+      "address": "Rennebuskogen 371, 7397 Rennebu",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -3914,6 +4036,7 @@
       "slug": "gjesvold-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gjesvold-gard",
       "intro": "Hyggelig pilegrimsovernatting på særegen gård på Vik, vertskap er Lars Harald og Ida Gjesvold.",
+      "address": "Fekjærveien 10, 3530 Røyse",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -3955,6 +4078,7 @@
       "slug": "gjovik-vandrerhjem-hovdetun",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gjovik-vandrerhjem-hovdetun",
       "intro": "Hostel ved enden av friluftsområdet Fastland",
+      "address": "Parkveien 8, 2819 Gjøvik",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -4008,6 +4132,7 @@
       "slug": "gon-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gon-camping",
       "intro": "Campingplass som tilbyr teltplasser og overnatting i hytter.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -4043,6 +4168,7 @@
       "slug": "granmo-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/granmo-camping",
       "intro": "Campingplass med en rekke hytter og leiligheter, samt mulighet for å sette opp telt.",
+      "address": "Granmo Camping, 7340 Oppdal",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -4084,6 +4210,7 @@
       "slug": "grillhytta-pa-labakken",
       "url": "https://www.pilegrimsleden.no/interessepunkter/grillhytta-pa-labakken",
       "intro": "Gapahuk med bålplass.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Rasteplass"
@@ -4113,6 +4240,7 @@
       "slug": "gudbrandsjuvet-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gudbrandsjuvet-camping",
       "intro": "Campingplass - hytter",
+      "address": "Valldalsvegen 1439, 6210 Valldal, Norway",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -4142,6 +4270,7 @@
       "slug": "gullesviken",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gullesviken",
       "intro": "Overnatting for pilegrimer med og uten hest.",
+      "address": "Loböle 110 864 95 Stöde, Sweden",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -4171,6 +4300,7 @@
       "slug": "gumdal",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gumdal",
       "intro": "Rimelig overnatting i stabbur og masstue",
+      "address": "Monsetjårvegen 174, 7327 Svorkmo",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -4200,6 +4330,7 @@
       "slug": "guriberget",
       "url": "https://www.pilegrimsleden.no/interessepunkter/guriberget",
       "intro": "En kjent og kjær rasteplass i Oppdal",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -4223,6 +4354,7 @@
       "slug": "hageseter-turisthytte",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hageseter-turisthytte",
       "intro": "Sov godt i frisk fjelluft. Moderne hytter med dusj og toalett, midt på vakre Dovrefjell.",
+      "address": "Gautåsetervegen 84, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -4282,6 +4414,7 @@
       "slug": "hagevandring-nordre-toten",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hagevandring-nordre-toten",
       "intro": "Velkommen til overnatting og hagevandringer på Breilibakken.",
+      "address": "Gjøvikvegen 909, 2820 Nordre Toten",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -4335,6 +4468,7 @@
       "slug": "overnatting-haldenhytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/overnatting-haldenhytta",
       "intro": "Haldenhytta har en sjarm du oppdager med én gang du ser stedet i toppen av brosteinsbakken.",
+      "address": "Festningsgata 3, 1767 Halden",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -4364,6 +4498,7 @@
       "slug": "hamborgstrompaviljongen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hamborgstrompaviljongen",
       "intro": "Hamborgstrømpaviljongen er en staselig hytte beliggende i Bragernesåsen, ovenfor Drammen sentrum. Hytta kan leies for overnatting.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -4399,6 +4534,7 @@
       "slug": "hatlems-hytter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hatlems-hytter",
       "intro": "Velkomen til Hatlems Hytter - eit utgangspunkt for unike opplevingar.",
+      "address": "Lifjordvegen 805, 6957 Hyllestad",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -4428,6 +4564,7 @@
       "slug": "haug-pilegrimsrast-og-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/haug-pilegrimsrast-og-herberge",
       "intro": "Kjære Pilegrimsvandrer! Trenger du en pause, et sted å sove, en matbit eller litt vann på veien, er du/dere velkomne til å ta en rast på Haug. Det er hyggelig for oss om du også tar deg tid til å skrive deg inn i turboka. På den måten får vi kjennskap til hvor mange som går forbi. Vi ønsker deg/dere en flott tur videre!",
+      "address": "Østsidavegen 82, 2080 EIDSVOLL",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -4463,6 +4600,7 @@
       "slug": "hedmans-stugby",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hedmans-stugby",
       "intro": "Rolig familievennlig anlegg med velutstyrte hytter 15 km øst for Åre.",
+      "address": "Hålland Undersåker 837 95 Sverige",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -4492,6 +4630,7 @@
       "slug": "heimtun-camping-hytter-og-teltplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/heimtun-camping-hytter-og-teltplass",
       "intro": "Heimtun Camping er en camping plass ca 7 km nord for Ringebu og 0,7 km fra leden, Frya. Tilbyr overnatting i hytter eller teltplass.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -4527,6 +4666,7 @@
       "slug": "heimvollen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/heimvollen",
       "intro": "Enkel og trivelig overnatting i seterbu",
+      "address": "Heimvollen, 7234 Ler",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -4556,6 +4696,7 @@
       "slug": "hekshusstranda-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hekshusstranda-camping",
       "intro": "Campingplass med teltplasser og hytter ved bredden av Mjøsa",
+      "address": "Brennerivegen 43, 2849 Kapp",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -4609,6 +4750,7 @@
       "slug": "helgaker-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/helgaker-gard",
       "intro": "Helgaker gård ligger ca 20 minutters gange fra Granavollen, ikke langs leden, men nært.",
+      "address": "Jorstadlinna 25, 2750 Gran, NORWAY",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -4644,6 +4786,7 @@
       "slug": "hellberg-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hellberg-herberge",
       "intro": "Hellberg herberge ligger fint til mellom frukt-og bærhagene på gården Hellberg ved Trondheimsfjorden. Her kan kveldssola skinne til 22-23 -tida på kvelden, og du får et flott vidsyn over Trondheimsfjorden. Her kan du overnatte i to ulike hus ; Pilegrimshuset eller den restaurerte Masstua, og du kan også bruke den nye Badstua/Saunaen nede ved sjøen.",
+      "address": "Fånesvegen 755, 7633 Frosta",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -4673,6 +4816,7 @@
       "slug": "hjerkinn-fjellstue-fjellridning",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hjerkinn-fjellstue-fjellridning",
       "intro": "Hjerkinn Fjellstue på Dovrefjell er Norges eldste familiebedrift. I dag er det 12, 13 og 14 generasjon som ønsker velkommen til skysstasjonen og fjellgården på 1000 m.o.h.",
+      "address": "Kvitdalsvegen 12, 2661 Hjerkinn",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -4726,6 +4870,7 @@
       "slug": "hoddevik-strandcamping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hoddevik-strandcamping",
       "intro": "Rett ved den kilometerlange Hoddeviksanden finn du ein liten, familiedriven campingplass for telt, campingvogner og bubilar. Her kan du bade, surfe, kite, sole deg, gå i fjellet eller berre slappe av til lyden av bølgjene som slår innover sanden. I Sauna Susanna kan du få varme i deg viss du treng det.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -4755,6 +4900,7 @@
       "slug": "hoff-gjestgiveri",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hoff-gjestgiveri",
       "intro": "Pilegrimsherberge. Hyggelig opphold i hjemmekoselige omgivelser",
+      "address": "Totenvegen 105, 2850 Lena",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -4784,6 +4930,7 @@
       "slug": "hoffsvangen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hoffsvangen",
       "intro": "Rimelig overnatting i pilegrimsherberget Bydgestua på Hoffsvangen",
+      "address": "Hoffsvangen Menighetshus, 2850 Lena",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -4831,6 +4978,7 @@
       "slug": "hognabua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hognabua",
       "intro": "Fjelloppsynet tilbyr overnatting i ny bu ved Forollsjøen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -4860,6 +5008,7 @@
       "slug": "hos-margit-herberge-ovenfor-ringebu-sentrum",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hos-margit-herberge-ovenfor-ringebu-sentrum",
       "intro": "Hos Margit byr på overnatting litt ovenfor Ringebu sentrum i et lite byggefelt. Her er det en rolig atmosfære og du kan nyte morgen- og ettermiddagssol på terrassen.",
+      "address": "Sperrehaugen 10 2630 Ringebu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -4889,6 +5038,7 @@
       "slug": "hotell-jamtkrogen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hotell-jamtkrogen",
       "intro": "Hotell med 36 rom langs E14 i hjertet av Bräcke i Jämtland",
+      "address": "Riksvägen 11, 843 31 BRÄCKE, SWEDEN",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -4930,6 +5080,7 @@
       "slug": "huset-i-skogen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/huset-i-skogen",
       "intro": "En liten sjarmerende hytte midt inne i Hadeland skoger.",
+      "address": "Kjølvegen, 2760 Brandbu",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -4959,6 +5110,7 @@
       "slug": "huset-ved-havet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/huset-ved-havet",
       "intro": "Kom og opplev storslått natur på Jæren. Her finnes det lange strender, flate marker og høye gressdekte heier. Flott turterreng, rike kulturminner, museer og samtidskunst.",
+      "address": "Ægrå, Sør Varhaug 39, 4360 Varhaug",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -5000,6 +5152,7 @@
       "slug": "husmannstugua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/husmannstugua",
       "intro": "Pilegrimsherberget på Biri er en liten, romantisk husmannstuggu fra 1780.",
+      "address": "Klomsteinrovegen 41, 2836 Biri",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -5041,6 +5194,7 @@
       "slug": "hussborgs-herrgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hussborgs-herrgard",
       "intro": "Hussborg Herrgård tilbyr innkvartering både på hotell, herberge og i leiligheter med nærhet til golfbane.",
+      "address": "Hussborgsvägen 432 Ljungaverk 841 98 Sweden",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -5076,6 +5230,7 @@
       "slug": "gordammen-hytte-og-gapahuk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gordammen-hytte-og-gapahuk",
       "intro": "Koselig overnatting i hytte på Gørdammen.",
+      "address": "Ekebergveien 360, 2335 Stange",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -5111,6 +5266,7 @@
       "slug": "hytte-pa-osasan",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hytte-pa-osasan",
       "intro": "Koselig, enkel hytte med 4-5 sengeplasser.",
+      "address": "Hørtdalen 50, 2550 Os I Østerdalen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -5140,6 +5296,7 @@
       "slug": "hytte-ved-nordstu-digre",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hytte-ved-nordstu-digre",
       "intro": "Hytte med flott utsikt over Gauldalen.",
+      "address": "Samsjøveien 229",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -5169,6 +5326,7 @@
       "slug": "hytte-ved-tannforsen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hytte-ved-tannforsen",
       "intro": "Hytte like ved Tännforsen med seks sengeplasser",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -5198,6 +5356,7 @@
       "slug": "hytte-pa-storbekkoya-museumssaeter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hytte-pa-storbekkoya-museumssaeter",
       "intro": "Enkel overnatting i en av museets bygninger",
+      "address": "Budalen, 4810 Budalen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -5227,6 +5386,7 @@
       "slug": "haeverstolen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/haeverstolen",
       "intro": "På Hæverstølen kan du oppleve en autentisk pilegrimsnatt.",
+      "address": "Gamle Kongevei 2494, 7397 Rennebu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -5268,6 +5428,7 @@
       "slug": "imi-stolen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/imi-stolen",
       "intro": "Rimelig overnatting i naturskjønne omgivelser",
+      "address": "Nedre Stølsvegen 36, 7340 Oppdal",
       "categories": [
         "Overnatting",
         "Vandrerhjem",
@@ -5315,6 +5476,7 @@
       "slug": "indal-forest-retreat",
       "url": "https://www.pilegrimsleden.no/interessepunkter/indal-forest-retreat",
       "intro": "Pust ut, slapp av og koble deg på deg selv og trærne. Finn tilbake til din sanne natur, gjennom naturen selv.",
+      "address": "Kollsvegen 649, 2825 Gjøvik",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -5350,6 +5512,7 @@
       "slug": "fredheim",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fredheim",
       "intro": "Overnatt i pilegrimsherberge på tunet til Ingeborg Refling Hagens Kulturhus - Fredheim.",
+      "address": "Vikslia 2, 2337 Tangen",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5379,6 +5542,7 @@
       "slug": "innomhaug",
       "url": "https://www.pilegrimsleden.no/interessepunkter/innomhaug",
       "intro": "Overnatting på gammel slektsgård med historiske omgivelser. Ligger rett ved Raknehaugen og Ljøgodt tjernet badevann. Overnatting i sovesal med inntil 4 personer. Mulig med overnatting i eget telt eller i vår hengekøye.",
+      "address": "Haug Allé 47, Jessheim",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -5408,6 +5572,7 @@
       "slug": "jensgarden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/jensgarden",
       "intro": "Overnattingsted for pilegrimer som åpner i 2014 i fjøset på Jensgarden. Jensgarden driver aktivt med Inn på tunet, og har ledig kapasitet om sommeren.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -5437,6 +5602,7 @@
       "slug": "jetmund-gjesteheim",
       "url": "https://www.pilegrimsleden.no/interessepunkter/jetmund-gjesteheim",
       "intro": "Jetmund Gjuesthouse ligger i Åheim, nær St. Jetmund kyrkje.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -5466,6 +5632,7 @@
       "slug": "jomfruburet-drengstua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/jomfruburet-drengstua",
       "intro": "Hyggelig overnatting i tilknytning til Sanner Hotell ved Søsterkirkene på Granavollen",
+      "address": "Granavollen 1, 2750 Gran",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -5507,6 +5674,7 @@
       "slug": "jonsgard-seng-frokost",
       "url": "https://www.pilegrimsleden.no/interessepunkter/jonsgard-seng-frokost",
       "intro": "Sveitserstil sentralt i Ringebu",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5536,6 +5704,7 @@
       "slug": "jorundgard-middelaldersenter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/jorundgard-middelaldersenter",
       "intro": "Jørundgard viking- og middelaldersenter tilbyr overnatting for pilegrimer i historiske omgivelser.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -5571,6 +5740,7 @@
       "slug": "kaldor-gard-overnatting-og-utsikt-i-hafjell",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kaldor-gard-overnatting-og-utsikt-i-hafjell",
       "intro": "Kaldor gård - pilegrimsovernatting med lang historie og utsikt.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5600,6 +5770,7 @@
       "slug": "kari-maries-sommerresidens",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kari-maries-sommerresidens",
       "intro": "Overnatting i to anneks med tilsammen 4 sengeplasser",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -5629,6 +5800,7 @@
       "slug": "kaupang-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kaupang-gard",
       "intro": "Merethe og Torbjørn Mertens er vertskapet og har drevet gården siden 14. februar 2020 og ser frem til å ønske pilegrimer hjertelig velkommen til Kaupang!",
+      "address": "Korsgårdsveien 70A, 3089 Holmestrand",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -5664,6 +5836,7 @@
       "slug": "killi-pensjonat-tilbyr-overnatting-i-otta-sentrum",
       "url": "https://www.pilegrimsleden.no/interessepunkter/killi-pensjonat-tilbyr-overnatting-i-otta-sentrum",
       "intro": "Killi Pensjonat tilbyr overnatting i Otta sentrum",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5693,6 +5866,7 @@
       "slug": "kinn-gjestehus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kinn-gjestehus",
       "intro": "Kinn Gjestehus ligg på sagaøya Kinn vest for Florø. Her finn du flott turterreng og lett tilkomst fra Florø. For dei som gjerne vil til Kinn og overnatte og vil ha adskilte rom med oppreidde senger og håndkle er dette ei flott løsning.",
+      "address": "St.Sunniva-vegen 26, 6912 Kinn",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5722,6 +5896,7 @@
       "slug": "kinn-skulehus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kinn-skulehus",
       "intro": "Vil du oppleve og bu på øya Kinn, lengst vest i havet ved Florø?",
+      "address": "St. Sunniva-vegen 18, 6912 Kinn",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5751,6 +5926,7 @@
       "slug": "kirkebakken-borre",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kirkebakken-borre",
       "intro": "Overnatting på gammel slektsgård medd historiske omgivelser. Ligger rett ved Borre Kirke og pilgrimsleden Tunsberg.",
+      "address": "Kirkebakken 7, 3184 Borre",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5780,6 +5956,7 @@
       "slug": "kirketeigen-rom-og-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kirketeigen-rom-og-camping",
       "intro": "Kirketeigen camping Overnatting i rolige omgivelser",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -5815,6 +5992,7 @@
       "slug": "kjeldsund-pilegrimsherberge-og-leirstad",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kjeldsund-pilegrimsherberge-og-leirstad",
       "intro": "Velkomen til vakre Kjeldsund som har historie tilbake til 1600-talet, som handelsstad og husmorskule. Sidan 1960-talet har Norsk Luthersk Misjonssamband drive staden som gjestegard og leirstad.",
+      "address": "Kjeldsundvegen 111, 6080 Gurksøy",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -5880,6 +6058,7 @@
       "slug": "kjolholmen-pa-veierland",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kjolholmen-pa-veierland",
       "intro": "Kjølholmen er et stort friområde med fine svaberg, hvor det er gode muligheter for telting ute på odden og på gressenga litt innenfor. Badeplass, grilling, utedo og mulighet til telting.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -5909,6 +6088,7 @@
       "slug": "kleivstua-hotell",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kleivstua-hotell",
       "intro": "Overnatting på tradisjonsrikt hotell med småhus liggende rundt et tun.",
+      "address": "Dronningveien 500, 3531 Krokkleiva",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -5956,6 +6136,7 @@
       "slug": "klokkargarden-halstad",
       "url": "https://www.pilegrimsleden.no/interessepunkter/klokkargarden-halstad",
       "intro": "Klokkargården Halstad er en gammel gård som ligger ved leden før Ringebu Stavkirke.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -5985,6 +6166,7 @@
       "slug": "monastery-of-saint-olav",
       "url": "https://www.pilegrimsleden.no/interessepunkter/monastery-of-saint-olav",
       "intro": "I vakre omgivelser øverst i bygda Fjørå, ligg Heilage Olav Kloster. Dette er et internasjonalt Ortodoks Kristen fellesskap. Her lever de i rytme etter den gamle klostertradisjonens ånd. Bønn, arbeid og gjestfrihet. English: In beautiful surroundings at the top of the village of Fjørå lies Saint Olav Monastery. It is an international Orthodox Christian community.",
+      "address": "Solbergsvegen 74, Fjørå, 6210, Valldal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -6026,6 +6208,7 @@
       "slug": "kneppstua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kneppstua",
       "intro": "",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6055,6 +6238,7 @@
       "slug": "knutserod-ved-borrevannet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/knutserod-ved-borrevannet",
       "intro": "Romslig gapahuk og rasteplass for en pause Kaféen i Knutserødhytta er åpen på søndager",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Rasteplass",
@@ -6090,6 +6274,7 @@
       "slug": "koia-hytte-i-verma",
       "url": "https://www.pilegrimsleden.no/interessepunkter/koia-hytte-i-verma",
       "intro": "Tømmerkoie tilknyttet gården Fremre Brøste",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6119,6 +6304,7 @@
       "slug": "koie-ved-netsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/koie-ved-netsjoen",
       "intro": "Laftet fiskekoie",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6148,6 +6334,7 @@
       "slug": "koie-ved-nosledammen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/koie-ved-nosledammen",
       "intro": "Sør for Nøsledammen er en åpen ljørkoie",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6177,6 +6364,7 @@
       "slug": "kolstad-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kolstad-gard",
       "intro": "Leilighet, eldhus",
+      "address": "Kyrkjevegen 71, 2665 Lesja",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6206,6 +6394,7 @@
       "slug": "kongsvold-fjeldstue",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kongsvold-fjeldstue",
       "intro": "Kongsvold Fjeldstue er et historisk hotell med tradisjon fra 1100 tallet. De eldste bygningene på stedet er fra 1720. Kongsvold har 32 gjesterom, flere møterom, hyggelige salonger og peisestue og en spisesal der det har vært servert mat hvert år siden 1720. Frokost, lunch og middag serveres i spisesalen på fjellstua.",
+      "address": "Dovrevegen 3663, Dovrefjell, 7340 Oppdal",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -6253,6 +6442,7 @@
       "slug": "konstadtunet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/konstadtunet",
       "intro": "Overnatting i autentisk gård i vakkert kulturlandskap. Vertskapet henter og bringer fra og til leden",
+      "address": "Hølondvegen 1119, 7350 Buvika",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -6282,6 +6472,7 @@
       "slug": "kronprinsens-utsikt",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kronprinsens-utsikt",
       "intro": "Kronprinsens utsikt - noen trappetrinn opp - og utsikten er helt fantastisk!",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Rasteplass"
@@ -6311,6 +6502,7 @@
       "slug": "kraen-gard-gardsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kraen-gard-gardsherberge",
       "intro": "Kråen Gard med sine aner tilbake til 1600-talet, ligg vakkert til i sydvendt skrått terreng med panoramautsikt til fjell, fjord og storhavet. Kulturlandskapet er frodig og vert pleia av flittige og folkekjære Boergeiter.",
+      "address": "Hallebygda 253, 6084 Larsnes",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -6352,6 +6544,7 @@
       "slug": "kveldsro-ved-floyta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kveldsro-ved-floyta",
       "intro": "Nærhet til naturen med fugleliv og dyreliv. Forhåndsbestilling: mali.sletner@svendby.no.",
+      "address": "Kvennhusvikvegen ved Fløyta",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -6387,6 +6580,7 @@
       "slug": "kvennbekkhytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kvennbekkhytta",
       "intro": "Hytte. NB. Hytta tilbyr ikke lenger pilegrimsovernatting.",
+      "address": "Kolbotn 204, 2667 Lesjaverk",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6416,6 +6610,7 @@
       "slug": "kvernes-pa-averoy",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kvernes-pa-averoy",
       "intro": "Kvernes på Averøy har opp i gjennom tidene en sentral betydning som religiøst og kulturelt senter for store deler av Møre. Kvernes sin beliggenhet og unike historie er vel verdt et besøk!",
+      "address": "",
       "categories": [
         "Nøkkelsted",
         "Overnatting",
@@ -6463,6 +6658,7 @@
       "slug": "kvile-og-lesebu-i-moltudalen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kvile-og-lesebu-i-moltudalen",
       "intro": "Det er ein flott vandretur frå Brekkegarden til nøkkelstaden Herøy Gard. På vandringa gjenom Moltudalen kan du søke ly i den flotte Kvile- og lesebua.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Dagsturhytte"
@@ -6492,6 +6688,7 @@
       "slug": "kviltorp-camping-molde",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kviltorp-camping-molde",
       "intro": "Kviltorp camping ligger lett tilgjengelig litt utenfor Molde sentrum. Her er mange valgmuligheter for overnatting.",
+      "address": "Fannestrandveien 140, 6419 Molde",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -6527,6 +6724,7 @@
       "slug": "kystledhytta-gon",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kystledhytta-gon",
       "intro": "Overnatting organisert av Oslofjordens Friluftsråd",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6556,6 +6754,7 @@
       "slug": "kystledhytta-lovoysund",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kystledhytta-lovoysund",
       "intro": "Overnatting organisert av Oslofjordens Friluftsråd",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6585,6 +6784,7 @@
       "slug": "kystledhytta-pa-langgrunn",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kystledhytta-pa-langgrunn",
       "intro": "Overnatting organisert av Oslofjordens Friluftsråd",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6614,6 +6814,7 @@
       "slug": "kystledhytta-sondre-tenvik",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kystledhytta-sondre-tenvik",
       "intro": "Overnatting organisert av Oslofjordens Friluftsråd",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6643,6 +6844,7 @@
       "slug": "laberget-leirsted-og-pilegrimshus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/laberget-leirsted-og-pilegrimshus",
       "intro": "Laberget leirsted ligger i landlige og rolige omgivelser med strandlinje mot Trondheimsfjorden, 12 km fra Levanger sentrum. Hos oss kan du vandre en rolig kveldstur langs sjøen eller nyte en nydelig solnedgang over fjorden.",
+      "address": "Sjøvegen 328, 7620 Skogn",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -6672,6 +6874,7 @@
       "slug": "lammetun-ferie-og-fritid",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lammetun-ferie-og-fritid",
       "intro": "Lammetun Ferie & Fritid ligg heilt vest i Fjaler kommune på ei landfast øy som heiter Lammetun. Utsikt frå campingplassen er rett i Vilnesfjorden. Om sommaren går sola ned i havet.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -6701,6 +6904,7 @@
       "slug": "langklopp-fjellgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/langklopp-fjellgard",
       "intro": "Langklopp Fjellgård ligger høyt og fritt på 600 moh. med Trollheimen som nabo. Langklopp driver gårdsbruk, er et ridesenter og tar imot pilegrimer. Det er ca 23 km fra Oppdal til Langklopp. Fra Langklopp til Meslo gård er det ca 20 km.",
+      "address": "Gamle Kongeveg 2264, 7397 Rennebu, Norge",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -6730,6 +6934,7 @@
       "slug": "langoyene-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/langoyene-camping",
       "intro": "På Langøyene i Oslofjorden finnes den eneste øya der det er lov til å telte. Fra Akersbrygge tar du båtrute B2 fra Rådhusbrygge ved Aker Brygge. Foto: Oslo byarkiv",
+      "address": "",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -6761,6 +6966,7 @@
       "slug": "lanternen-hytte-og-bobilplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lanternen-hytte-og-bobilplass",
       "intro": "Velkomen til Lanternen - ein sjønær plass langs leia.",
+      "address": "Jensholmen 1, 6070 Tjørvåg",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -6796,6 +7002,7 @@
       "slug": "lavo-og-utedo-ved-stormyra",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lavo-og-utedo-ved-stormyra",
       "intro": "Lavo gir ly for vær og vind. Tilhørende utedo like ved",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -6819,6 +7026,7 @@
       "slug": "lavvoen-biggen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lavvoen-biggen",
       "intro": "Fin rasteplass med Lavvo.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -6842,6 +7050,7 @@
       "slug": "lerfald-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lerfald-gard",
       "intro": "Nytt overnattingssted med båttransport 2026!",
+      "address": "Leinstrandvegen 536, 7083 Leinstrand",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -6877,6 +7086,7 @@
       "slug": "lesja-gjestgiveri",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lesja-gjestgiveri",
       "intro": "Rom og hytter",
+      "address": "Romsdalsvegen 1401, 2665 Lesja",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6906,6 +7116,7 @@
       "slug": "lesjaskogsvatnet-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lesjaskogsvatnet-camping",
       "intro": "Campinghytter og teltplass.",
+      "address": "Romsdalsvegen 4156, 2668 Lesjaskog",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -6935,6 +7146,7 @@
       "slug": "moan-camping-levanger",
       "url": "https://www.pilegrimsleden.no/interessepunkter/moan-camping-levanger",
       "intro": "Trivelige campinghytter nær (0,5 km) leden og ved sjøen. Fin utsikt, kafe og nærhet til Levanger by og Handlesenteret Alti Magneten.",
+      "address": "Moafjæra 2 A, 7606 Levanger",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -6964,6 +7176,7 @@
       "slug": "lia-gard-pilegrimssenter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lia-gard-pilegrimssenter",
       "intro": "Pilegrimshuset på Lia Gård er et møte- og overnattingssted for pilegrimer som følger leden gjennom Østerdalen. Det ligger vakkert til i høyden med en fantastisk utsikt utover Storsjøen. Der kan slitne pilegrimer slappe av, omgitt av skog og stillhet.",
+      "address": "Storsjøveien 258, 2485 Rendalen",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -6993,6 +7206,7 @@
       "slug": "lian-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lian-gard",
       "intro": "Lian Gård er Trondheims svar på \"Monte do Gozo Hostel\" i Santiago! Et godt hvilested med utsikt over byen du har vandret mot. Et sted for refleksjon, finne ro og \"stoppe litt opp\" like før målet.",
+      "address": "Lianvegen 37, 7024 Trondheim",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7022,6 +7236,7 @@
       "slug": "lilla-appelgarden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lilla-appelgarden",
       "intro": "Gjesterom for opptil 4 personer med tilgang til dusj og toalett. Wifi.",
+      "address": "KUNGSNÄS 115 855 90 Sundsvall Sweden",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7051,6 +7266,7 @@
       "slug": "lillehammer-vandrerhjem-stasjonen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lillehammer-vandrerhjem-stasjonen",
       "intro": "HI Lillehammer vandrehjem - Stasjonen. Vandrehjem midt i Lillehammer",
+      "address": "",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -7086,6 +7302,7 @@
       "slug": "lillelunden-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lillelunden-gard",
       "intro": "Lillelunden Gård ligger i Skjelstadmarka i Stjørdal, bare noen hundre meter fra leden, og tilbyr overnatting i en egen leilighet som ligger i enden av låven. Leiligheten har ett soverom med 4 enkelt senger, oppholdsrom med kjøkken, bad, toalett, vaskemaskin, skotørker og internett. Passer fint for små grupper. I tillegg finnes en tømmerhytta på gården med dobbeltseng, bad og toalett.",
+      "address": "Bangveien 623, 7514 Stjørdal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7115,6 +7332,7 @@
       "slug": "liten-hytte-i-lunne",
       "url": "https://www.pilegrimsleden.no/interessepunkter/liten-hytte-i-lunne",
       "intro": "Liten hytte på 10 m² med strøm og varmeovner. Hytta ligger rett langs stien på gården i Lunne grend, 3 km fra Brunflo. Sovesofa med plass til to personer, og det er mulig å legge til en ekstra madrass på gulvet. Puter og dyner er tilgjengelig. Sengetøy og håndklær kan leveres mot et tillegg i prisen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -7144,6 +7362,7 @@
       "slug": "ljoshaugen-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ljoshaugen-camping",
       "intro": "Hytter og rom til leie på Dombås",
+      "address": "Ljoshaugvegen 13, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -7174,6 +7393,7 @@
       "slug": "ljorkoia-ved-lopsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ljorkoia-ved-lopsjoen",
       "intro": "Ljørkoia ved Løpsjøen",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7203,6 +7423,7 @@
       "slug": "lorkverna",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lorkverna",
       "intro": "Selvbetjent hytte",
+      "address": "2666 Lora",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7232,6 +7453,7 @@
       "slug": "lygnasaeter-hotel",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lygnasaeter-hotel",
       "intro": "Lygnasæter ligger ikke direkte langs Pilegrimsleden, men du kan ta andre stier (Jotunheimenstien) opp og bort hit.",
+      "address": "Lygna, 2770 Jaren",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -7273,6 +7495,7 @@
       "slug": "lysjohimet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lysjohimet",
       "intro": "Overnatting i liten, ubetjent hytte.",
+      "address": "Lysjøen, 2080 Eidsvoll",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7302,6 +7525,7 @@
       "slug": "mageli-camping-og-hytter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/mageli-camping-og-hytter",
       "intro": "Overnatting i koselig hytte i flotte omgivelser",
+      "address": "Kongsvegen 2220, 2635 Tretten",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -7331,6 +7555,7 @@
       "slug": "magnusgarden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/magnusgarden",
       "intro": "Bu på Magnusgarden, Lyngheisenteret sin eigen gard!",
+      "address": "Lyngheisenteret, Lurevegen 1575, Ytre Lygra, 5912 Seim",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7360,6 +7585,7 @@
       "slug": "majer-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/majer-gard",
       "intro": "Pilegrimsherberge. Overnatting i stabbur på en av Totens eldste gårder.",
+      "address": "Majer gård, 2850 Lena",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -7395,6 +7621,7 @@
       "slug": "steinkjelleren",
       "url": "https://www.pilegrimsleden.no/interessepunkter/steinkjelleren",
       "intro": "Steinkjelleren på Majors-Alm har i tidligere tider vært grønnsakslager, nå har det blitt en hyggelig overnattingsplass.",
+      "address": "Kongevegen 56, 2770 Jaren",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -7430,6 +7657,7 @@
       "slug": "mandfloen-husmannsplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/mandfloen-husmannsplass",
       "intro": "Et gammelt småbruk med husmannsstue og våningshus fra 1850-tallet. Tilbyr overnatting til pilegrimer.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -7465,6 +7693,7 @@
       "slug": "markabygda-kirkestue",
       "url": "https://www.pilegrimsleden.no/interessepunkter/markabygda-kirkestue",
       "intro": "Pilegrimer ønskes velkommen til enkel overnatting i Markabygda kirkestue like ved Markabygda kirke fra 1887. Vi tar også gjerne drop-in pilegrimer - bare ta en telefon når dere kommer : +47 971 59 240 / +47 995 82 391",
+      "address": "Sørgrenda 5, 7622 Markabygd",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7494,6 +7723,7 @@
       "slug": "medstugan-vandrarhemmet-mejeriet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/medstugan-vandrarhemmet-mejeriet",
       "intro": "Medstugans pilegrimsherberge tilbyr overnatting med flere sengeplasser, ideelt for både fiskeren og pilgrimen som går St. Olavsleden.",
+      "address": "Medstugan Duved 830 15 Sverige",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -7523,6 +7753,7 @@
       "slug": "meretes-garden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/meretes-garden",
       "intro": "Hotellrom i telt",
+      "address": "Døvingssida 10, 6210 Valldal, Norway",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -7552,6 +7783,7 @@
       "slug": "meslo-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/meslo-herberge",
       "intro": "Bo på et levende gårdsherberge!",
+      "address": "Orkdalsveien 848, 7392 Rennebu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7581,6 +7813,7 @@
       "slug": "midtskog-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/midtskog-camping",
       "intro": "11 hytter til leie",
+      "address": "Romsdalsveien 2, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -7622,6 +7855,7 @@
       "slug": "mjuklia-overnatting-i-rennebu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/mjuklia-overnatting-i-rennebu",
       "intro": "Overnatting på gjestegård / leirsted",
+      "address": "Mjukliveien 15, 7391 Rennebu",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -7651,6 +7885,7 @@
       "slug": "mjosli-glamping-eller-hytter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/mjosli-glamping-eller-hytter",
       "intro": "Mjøsli tilbyr ulike typer overnatting med høy standard",
+      "address": "Budalsvegen 38, 2338 Espa",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7680,6 +7915,7 @@
       "slug": "moheim-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/moheim-camping",
       "intro": "Moheim camping ligger sentralt i Stugudalen, med gangavstand til både matbutikken Joker Stugudal og Stugudal grill.",
+      "address": "Stugudalsvegen 2030, 7590 Tydal",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7709,6 +7945,7 @@
       "slug": "monaplassen-gapahuk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/monaplassen-gapahuk",
       "intro": "Stor gapahuk med benker og bord, hvor det er god plass til mange. For å hvile, spise og overnatte i både sol og regn.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -7732,6 +7969,7 @@
       "slug": "munkeby-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/munkeby-herberge",
       "intro": "Få steder kjenner man historiens sus slik man gjør i Munkebygrenda og på Munkeby Herberge. Vi har overnatting med måltider eller selv-hushold, butikk og kafe.",
+      "address": "Munkebyvegen 245, 7608 Levanger",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -7767,6 +8005,7 @@
       "slug": "muri-hytteutleige",
       "url": "https://www.pilegrimsleden.no/interessepunkter/muri-hytteutleige",
       "intro": "Overnatting ved Valldalsledens start",
+      "address": "Grandegata 63, 6210 Valldal",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7796,6 +8035,7 @@
       "slug": "myhrer-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/myhrer-gard",
       "intro": "På et høydedrag øst for pilegrimsleden midt mellom Leirsund og Frogner, i Lillestrøm kommune, ligger Myhrer gård.",
+      "address": "Gauteidveien 130, 2016 Frogner",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -7831,6 +8071,7 @@
       "slug": "neatun",
       "url": "https://www.pilegrimsleden.no/interessepunkter/neatun",
       "intro": "Neatun er et senter for velvære, naturterapeutiske behandlinger, kurs, personlig vekst og overnatting. Tilbyr overnatting i 14 gjesterom med enkel, men koselig standard.",
+      "address": "Neatun Velværesenter, Neabyen 35, 7590 Tydal",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -7860,6 +8101,7 @@
       "slug": "negarn",
       "url": "https://www.pilegrimsleden.no/interessepunkter/negarn",
       "intro": "Velkommen til Negarn! Dette er et gammelt småbruk med mye historie ca 500m fra leden. Det har et fint åpent tun og ligger fint plassert i Østagrenda på solsiden av dalen med utsikt mot Bullmuseet. Stedet er i privat eie og brukes som fritidsbolig. \"Pilgrimsstua\" er tilgjengelig for pilegrimer. Dette er et gammelt bryggerhus. Det er strøm i huset, men ikke innlagt vann. En utekran på hovedhuset kan benyttes Det er ubetjent og døra har en kodelås. Vertskapet må kontaktes for å få tilgang. Yngvar Sønstegaard +4791735622 yngvarius@gmail.com",
+      "address": "Østagrenda 72, Rendalen, Norge",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -7889,6 +8131,7 @@
       "slug": "ner-grefstad-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ner-grefstad-gard",
       "intro": "Koselig bur på tunet, midt i Meldal sentrum, med Oasen Pilegrimsrom. 2 nye rom m/bad.",
+      "address": "Kvamsveien 616, 7336 Meldal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7918,6 +8161,7 @@
       "slug": "nermo-herberge-idyllisk-herberge-tilknyttet-nermo-hotell-i-oyer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/nermo-herberge-idyllisk-herberge-tilknyttet-nermo-hotell-i-oyer",
       "intro": "Nermo Herberge er det gamle hovedhuset på Nermo Gård, liggende på tunet rett ved Nermo Hotell — kun 150 meter fra Gudbrandsdalsleden.",
+      "address": "Nermosvingen 60 2636 Øyer",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -7947,6 +8191,7 @@
       "slug": "nordre-helgaker-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/nordre-helgaker-gard",
       "intro": "Nordre Helgaker gård ligger en kort spasertur fra Pilegrimsleden ved Granavollen. Her finner du et idyllisk tun med en liten leilighet i det gamle grisefjøset.",
+      "address": "Jorstadlinna 29, 2750 Gran",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -7988,6 +8233,7 @@
       "slug": "nordrum-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/nordrum-gard",
       "intro": "Overnatting på Nordrum Gård",
+      "address": "Nordrum Gård, Mjogdalsvegen 59 2634 Fåvang",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8017,6 +8263,7 @@
       "slug": "norgar-voll",
       "url": "https://www.pilegrimsleden.no/interessepunkter/norgar-voll",
       "intro": "Koselige rom i tradisjonsrikt tun",
+      "address": "Orkdalsveien 1341, Voll, 7393 Rennebu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8046,6 +8293,7 @@
       "slug": "camping-med-bademuligheter-ved-tyrifjorden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/camping-med-bademuligheter-ved-tyrifjorden",
       "intro": "Campingplass med bademuligheter ved Tyrifjorden",
+      "address": "Nedre Onsakerveien 49, 3530 Røyse",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -8099,6 +8347,7 @@
       "slug": "oldervik-herberge-frosta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/oldervik-herberge-frosta",
       "intro": "Vi tilbyr overnatting og mat i \"LAVENDELHUSET\" - et godt sted for hvile og avslapning etter vandringen.",
+      "address": "Breivikveien 50, Småland, 7633 Frosta",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8128,6 +8377,7 @@
       "slug": "olsens-pensjonat-gjestehus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/olsens-pensjonat-gjestehus",
       "intro": "I dette levende fiskeværet omkranset av hav, har vi i Olsens Pensjonat & Gjestehus 5 fine gjestehus, alle autentiske varianter av fiskerboliger og naust. I tillegg har vi en koselig og sjønær restaurant i det gamle OlsenNaustet fra 1700-tallet.",
+      "address": "Veiholmen, Smøla",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8157,6 +8407,7 @@
       "slug": "olskastet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/olskastet",
       "intro": "Olskastet sælehus, ubetjent hytte på pilegrimsleden.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -8192,6 +8443,7 @@
       "slug": "onsakervika-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/onsakervika-camping",
       "intro": "Campingplass med hytteutleie og teltplass ved Tyrifjorden",
+      "address": "Øvre Onsakerveien 64, 3530 Røyse",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -8245,6 +8497,7 @@
       "slug": "oppdalsporten",
       "url": "https://www.pilegrimsleden.no/interessepunkter/oppdalsporten",
       "intro": "Motell med åtte dobbeltrom og fire leiligheter for selvhushold.",
+      "address": "Trondheimsvegen 1220, 7347 Oppdal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -8286,6 +8539,7 @@
       "slug": "orebergvannet-lavvo-ved-veseterstulen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/orebergvannet-lavvo-ved-veseterstulen",
       "intro": "",
+      "address": "Hvittingveien 155, 3072 Sande i Vestfold, Norway",
       "categories": [
         "Rasteplass"
       ],
@@ -8309,6 +8563,7 @@
       "slug": "orkla-gjestebolig",
       "url": "https://www.pilegrimsleden.no/interessepunkter/orkla-gjestebolig",
       "intro": "Overnatting i herskapelig gjestebolig fra 1916",
+      "address": "Løkkenbakkan 2, 7332 Løkken Verk",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -8344,6 +8599,7 @@
       "slug": "orrfuglstua-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/orrfuglstua-pilegrimsherberge",
       "intro": "Orrfuglstua er et hyggelig privat herberge langs Tunsbergleden i Horten",
+      "address": "Orrfuglstien 42, 3189 Horten",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8373,6 +8629,7 @@
       "slug": "osdalsjohytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/osdalsjohytta",
       "intro": "Ubetjent hytte ved Osdalsjøen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8402,6 +8659,7 @@
       "slug": "oslo-vandrerhjem-haraldsheim",
       "url": "https://www.pilegrimsleden.no/interessepunkter/oslo-vandrerhjem-haraldsheim",
       "intro": "Haraldsheim ligger i trygge og pene omgivelser og med praktfull utsikt over byen og fjorden",
+      "address": "Haraldsheimveien 4, 0587 Oslo",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8431,6 +8689,7 @@
       "slug": "historisk-stabbur-pa-karmoy",
       "url": "https://www.pilegrimsleden.no/interessepunkter/historisk-stabbur-pa-karmoy",
       "intro": "",
+      "address": "Kyrkjevegen 26, 4260 Torvastad",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8460,6 +8719,7 @@
       "slug": "perskoia",
       "url": "https://www.pilegrimsleden.no/interessepunkter/perskoia",
       "intro": "Gammel skogskoie som nå brukes til enkel overnatting for pilegrimer",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8489,6 +8749,7 @@
       "slug": "pilegrimsbu-vardan",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbu-vardan",
       "intro": "Åpen pilegrimsbu vakkert beliggende på vannskillet i Budalen ved Vardan, mellom Vinterskaftet og Klumpen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8518,6 +8779,7 @@
       "slug": "pilegrimsbu-ved-okstjonna",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbu-ved-okstjonna",
       "intro": "Koselig og enkel hytte ved Okstjønna",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8547,6 +8809,7 @@
       "slug": "pilegrimsbua-rensjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbua-rensjoen",
       "intro": "Ubetjent hytte ved Nordre Rensjøen. Ljørbu med grue og åpent opp. Brisker å ligge på. Ingen kokekar. Ved tilgjengelig. Utedo. Du må ha med liggeunderlag, sovepose, kokekar.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8576,6 +8839,7 @@
       "slug": "pilegrimsbu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbu",
       "intro": "Velkommen til en hyggelig rasteplass i skogen (Det er skiltet til bua)",
+      "address": "Granerudvegen v/Granerudsjøen",
       "categories": [
         "Gapahuk",
         "Pilegrimsbu"
@@ -8605,6 +8869,7 @@
       "slug": "pilegrimsherberge-i-selje-prestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsherberge-i-selje-prestegard",
       "intro": "Selje prestegard er både pilegrimssenter og pilegrimsherberge med 12 sengeplassar. Herberget er tilgjengeleg heile året.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8634,6 +8899,7 @@
       "slug": "pilegrimsherberge-pa-svanoy-hovedgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsherberge-pa-svanoy-hovedgard",
       "intro": "På Svanøy hovedgård kan du bu i historiske og herskaplege omgivnader. I eldhuset er det no opna for pilegrimsovernatting.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8663,6 +8929,7 @@
       "slug": "pilegrimslavvo-ved-sondre-kvanntjonna",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimslavvo-ved-sondre-kvanntjonna",
       "intro": "Enkel overnatting ved leden",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -8692,6 +8959,7 @@
       "slug": "pilegrimsovernatting-i-moss",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsovernatting-i-moss",
       "intro": "Velkommen til Bjerkeveien 16 i Moss! Vertskapet er erfarne pilegrimer og åpner hjemmet sitt for vandrere langs Borgleden.",
+      "address": "Bjerkeveien 16, 1526 Moss",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8721,6 +8989,7 @@
       "slug": "pilegrimssenter-dale-gudbrands-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimssenter-dale-gudbrands-gard",
       "intro": "Informasjon og overnatting på historiske Dale-Gudbrands Gard",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -8762,6 +9031,7 @@
       "slug": "pilegrimssenter-granavollen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimssenter-granavollen",
       "intro": "Velkommen innom for en hyggelig pilegrimsprat!",
+      "address": "Granavollen 28, 2750 Gran",
       "categories": [
         "Pilegrimssenter",
         "Overnatting",
@@ -8821,6 +9091,7 @@
       "slug": "plasstoggo",
       "url": "https://www.pilegrimsleden.no/interessepunkter/plasstoggo",
       "intro": "Plassastoggo ligger på Buvollen der Kongeveien over Dovrefjell krysser elva Vinstra. En gammel stue fra en husmannsplass er restaurert. Den nydelige stuen er åpen for en rast eller overnatting. Følg skiltingen fra Pilgrimsleden. Etter Plassastoggo kan du fortsette videre og komme inn på leden ved Smegarden Camping.",
+      "address": "Driva, 7340 Oppdal",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -8856,6 +9127,7 @@
       "slug": "poppel-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/poppel-pilegrimsherberge",
       "intro": "Et hyggelig og personlig herberge langs Tunsbergleden, med sengetøy inkludert i prisen",
+      "address": "Poppelveien 10, 3118 Tønsberg",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8885,6 +9157,7 @@
       "slug": "sunny-place",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sunny-place",
       "intro": "Opp en bakke, bak et fjell, ligger Fjellheim tell – på Preståsen, kjent for sin naturpark og stell; med utsikt over grønne skoger og vakre jorder, hvor dyr og folk ferdes morgen til kveld» – driftet av en pilegrimsforsker bare et par gater (500 m) fra Tunsbergledens Gokstadvei.",
+      "address": "Fjellheimveien 36, 3216 Sandefjord",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -8914,6 +9187,7 @@
       "slug": "rastebu-falang-bru",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rastebu-falang-bru",
       "intro": "Rastebu og rasteplass ved Falang Bru",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -8937,6 +9211,7 @@
       "slug": "rastebu-granavollen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rastebu-granavollen",
       "intro": "Rastebu og rasteplass ved Pilegrimssenter Granavollen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -8960,6 +9235,7 @@
       "slug": "rastebu-hogkorset",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rastebu-hogkorset",
       "intro": "Rastebu ved Morderbekken mot Høgkorset",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -8983,6 +9259,7 @@
       "slug": "rastebu-kjolvegen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rastebu-kjolvegen",
       "intro": "Rastebu og benk langs Kjølvegen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -9006,6 +9283,7 @@
       "slug": "rastebu-sognstoppen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rastebu-sognstoppen",
       "intro": "Rastebu og rasteplass på Sognstoppen (busstopp)",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -9029,6 +9307,7 @@
       "slug": "rena-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rena-camping",
       "intro": "Hytter og teltplass. Noen hundre meter fra rena sentrum. Hyttene er utstyrt med kjøleskap, kokemuligheter og kjøkkenutstyr. Sengetrekk må medbringes. Dusj og toalett i servicebygg.",
+      "address": "Brugata 28, 2450 Rena",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -9064,6 +9343,7 @@
       "slug": "rendalen-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rendalen-camping",
       "intro": "",
+      "address": "Parkeveien 11, 2485 Åkrestrømmen",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -9105,6 +9385,7 @@
       "slug": "velkommen-til-overnatting-ved-jaerstrendene",
       "url": "https://www.pilegrimsleden.no/interessepunkter/velkommen-til-overnatting-ved-jaerstrendene",
       "intro": "Reveparken Hytteutleie tilbyr hytter med ulik pris og standard, kun få minutters gange til Norges lengste sandstrand på Jæren",
+      "address": "Nordsjøv 560, 4352 Kleppe",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9134,6 +9415,7 @@
       "slug": "risebru-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/risebru-pilegrimsherberge",
       "intro": "Pilegrimsherberge i laftehus på gård fra 1600-tallet",
+      "address": "Risebruvegen 6, 2054 Mogreina",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9163,6 +9445,7 @@
       "slug": "ristafallet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ristafallet",
       "intro": "Hytter og camping ved siden av den vakre fossen Ristafallet.",
+      "address": "Rista 321, 83794 Undersåker / Sweden",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -9192,6 +9475,7 @@
       "slug": "romback-611",
       "url": "https://www.pilegrimsleden.no/interessepunkter/romback-611",
       "intro": "Godt utstyrt hytte med wc og dusj.",
+      "address": "Rombäck 611 84013 Torpshammar, Sweden",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -9221,6 +9505,7 @@
       "slug": "romenstad-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/romenstad-gard",
       "intro": "Velkommen til hytteutleie eller gårdsferie - med jakt, fiske og kulturopplevelser i Rendalen.",
+      "address": "Romenstad Gård, 2585 Rendalen",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -9250,6 +9535,7 @@
       "slug": "rudsodegarden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rudsodegarden",
       "intro": "Hazelhytta på Rudsødegården er en koselig hytte fra 1950-tallet, fredelig beliggende i Gran på Hadeland.",
+      "address": "Vienlinna 551, 2750 Gran",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -9285,6 +9571,7 @@
       "slug": "rumi-hostel-trondheim-vandrerhjem",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rumi-hostel-trondheim-vandrerhjem",
       "intro": "Et hostel er mye mer enn et overnattingssted. En sosial møteplass for backpackere, studenter og andre reisende. Med en fantastisk utsikt over Trondheimsfjorden og sentral beliggenhet med gangavstand til sentrum, er RUMI det ideelle utgangspunktet for å utforske byen!",
+      "address": "Weidemanns veg 41 B 7043 Trondheim",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -9321,6 +9608,7 @@
       "slug": "ry-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ry-herberge",
       "intro": "Nasjonalromantikk og retro. Hyggelig overnatting med pilegrimskafé langs leden.",
+      "address": "Tverdalsveien 263, 7393 Rennebu",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -9362,6 +9650,7 @@
       "slug": "ryphusan",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ryphusan",
       "intro": "Forbregdsætra på Ryphusan er åpen for enkeltvandrere. Større grupper bes benytte seg av andre alternativer.",
+      "address": "Vinstradalsveien 1511, 7345 Drivdalen",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -9409,6 +9698,7 @@
       "slug": "royken-menighetshus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/royken-menighetshus",
       "intro": "Overnatting i Røyken Menighetshus",
+      "address": "Kjekstadveien 3, 3440 Røyken",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9438,6 +9728,7 @@
       "slug": "samatun",
       "url": "https://www.pilegrimsleden.no/interessepunkter/samatun",
       "intro": "Stor og flott hytte, passer for både grupper og enkeltvandrere, men ta alltid kontakt på forhånd.",
+      "address": "Lunddalsvegen 2180 (mellom innsjøene Håen og Samsjøen)",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -9467,6 +9758,7 @@
       "slug": "samsjobua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/samsjobua",
       "intro": "Bua ligger idyllisk til ved bilvei i sørenden av Samsjøen. \"Beste tomta i fjellet.\" Nyt kveldsol og solnedgangen over Samsjøen. Bua eies og drives av Singsås fjellstyre",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -9496,6 +9788,7 @@
       "slug": "sandbakken-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sandbakken-camping",
       "intro": "Sandbakken Camping tilbyr overnatting i hytter og telt.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -9525,6 +9818,7 @@
       "slug": "sande-overnatting",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sande-overnatting",
       "intro": "Overnatting i vakkert privat hus i Sande",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9554,6 +9848,7 @@
       "slug": "stiklestad-nasjonale-kultursenter-stiklestad-hotel",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stiklestad-nasjonale-kultursenter-stiklestad-hotel",
       "intro": "Alle pilegrimer ønskes velkommen til Stiklestad enten man ferdes til fots, på sykkel, hest eller i bil/buss. Scandic Stiklestad Hotell selger pilegrimspass og har pilegrimspriser på overnatting på hotellet og i gjesteloftet på Middelaldergården Stiklestadir. Om du ankommer Stiklestad midt på dagen etter vandring fra Vuku, er det en god unik opplevelse å ta en lunsj på Restaurant Skalden og deretter et besøk i Stiklestad Middelalderkirke og i Middelaldergården Stiklestadir på museet.",
+      "address": "Stiklestad alle 350, Verdal",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -9602,6 +9897,7 @@
       "slug": "segard-hoel",
       "url": "https://www.pilegrimsleden.no/interessepunkter/segard-hoel",
       "intro": "Rom til leie i tradisjonsrikt våningshus",
+      "address": "Holsveien 18, 7335 Jerpstad",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -9637,6 +9933,7 @@
       "slug": "selje-camp-og-hyttesenter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/selje-camp-og-hyttesenter",
       "intro": "Selje camp og hyttesenter ligg i familievenlege omgivelsar, 500m frå Selje sentrum.",
+      "address": "Seljetunvegen 14 , 6740 SELJE",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -9666,6 +9963,7 @@
       "slug": "seljebuda",
       "url": "https://www.pilegrimsleden.no/interessepunkter/seljebuda",
       "intro": "Seljebuda er ei rorbu langs sjøen i Selje sentrum.",
+      "address": "Nabben 75, Selje 6740",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9695,6 +9993,7 @@
       "slug": "sidsjo-hotell-konferens",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sidsjo-hotell-konferens",
       "intro": "Rimelige rom (1-4 senger), delt kjøkken, kjæledyrvennlig, rolig område, nær naturen.",
+      "address": "Paviljongvägen 9 B 852 40 Sundsvall",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -9730,6 +10029,7 @@
       "slug": "simensvollen-trivelig-seterstue",
       "url": "https://www.pilegrimsleden.no/interessepunkter/simensvollen-trivelig-seterstue",
       "intro": "Overnatt i Petrastuggu på Simensvollen",
+      "address": "Hørtdalen 409, 2550 Os I Østerdalen",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -9759,6 +10059,7 @@
       "slug": "sjoglytt",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sjoglytt",
       "intro": "Dagsturhytta Sjøglytt ligg på Risnakken, rett ovanfor Selje sentrum.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Dagsturhytte"
@@ -9788,6 +10089,7 @@
       "slug": "skaun-menighetshus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skaun-menighetshus",
       "intro": "Rimelig overnatting i sovesal like ved Skaun kirke.",
+      "address": "Melbyvegen 2, 7357 Skaun",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9817,6 +10119,7 @@
       "slug": "skinningskoia",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skinningskoia",
       "intro": "Koselig liten hytte for 4-5 personer ved elva Grøna",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -9846,6 +10149,7 @@
       "slug": "skjeberg-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skjeberg-camping",
       "intro": "Skjeberg Camping er en koselig familiecamping med god standard som ligger idyllisk til innerst i Skjebergkilen.",
+      "address": "Nancy Johannessens vei 5, 1747 Skjeberg",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -9875,6 +10179,7 @@
       "slug": "skogheim-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skogheim-pilegrimsherberge",
       "intro": "Overnattingsmulighet ved leden.",
+      "address": "Løkkenveien 747 7332 LØKKEN VERK",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -9904,6 +10209,7 @@
       "slug": "overnatting-for-pilegrimer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/overnatting-for-pilegrimer",
       "intro": "Kom og bo i vårt restaurerte gamle stabbur, opprinnelig fra tidlig på 1800-tallet. Her har vi to private soverom med dobbeltsenger, og et soverom med to køyesenger og en enkeltseng. Stabburet har også et bad med toalett, dusj og en vask.",
+      "address": "Jämtlandsvegen 3414, 7660 Vuku, Norway",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -9933,6 +10239,7 @@
       "slug": "skomakerstuen-1",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skomakerstuen-1",
       "intro": "Skomakerstua på Røyse ligger på leden nær Frøyshov i Hole.",
+      "address": "Skarpsnogata 64, 3530 Røyse",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -9974,6 +10281,7 @@
       "slug": "skysstasjonen-hogkorsplassen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skysstasjonen-hogkorsplassen",
       "intro": "Ubetjent pilegrimsherberge tilknyttet den gamle skysstasjonen Høgkorsplassen.",
+      "address": "Kjølvegen, 2760 Brandbu",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -10015,6 +10323,7 @@
       "slug": "lavvo-ved-skorsasetra",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lavvo-ved-skorsasetra",
       "intro": "Hytte ved Skorsåsetra oppført i 2019",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -10044,6 +10353,7 @@
       "slug": "slettum-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/slettum-gard",
       "intro": "Slettum Gård, ligger idyllisk til langs Pilegrimsleden i Gjøvik.",
+      "address": "Slettumvegen 160, 2825 Gjøvik",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -10073,6 +10383,7 @@
       "slug": "slovika-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/slovika-camping",
       "intro": "Pilegrimsherberge. Idyllisk camping ved Randsfjorden",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -10132,6 +10443,7 @@
       "slug": "smegarden-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/smegarden-camping",
       "intro": "Overnatting i hytte eller et sted å sette opp telt",
+      "address": "Losråket 12, 7345 Driva",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -10173,6 +10485,7 @@
       "slug": "smavangan-skihytte",
       "url": "https://www.pilegrimsleden.no/interessepunkter/smavangan-skihytte",
       "intro": "Overnattingsmulighet i Tylldalen",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -10202,6 +10515,7 @@
       "slug": "smavannsbu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/smavannsbu",
       "intro": "Sjarmerende ubetjent hytte i Kjekstadmarka som drives av DNT.",
+      "address": "DNT Småvannsbu, Asker, Norge",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -10237,6 +10551,7 @@
       "slug": "snohetta-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/snohetta-camping",
       "intro": "Familiedrevet campingplass med hytter, rom og teltplasser. Kun 10 minutter gange fra jernbanestasjon. Snøhetta camping er et flott utgangspunkt for tur til Snøhetta Viewpoint og ligger rett ved bussavgang til Snøheim.",
+      "address": "Hjerkinnhusvegen 14, 2661 Hjerkinn",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -10278,6 +10593,7 @@
       "slug": "solvang-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/solvang-herberge",
       "intro": "Solvang tilbyr enkelt selvbetjent overnatting i ett rom med to liggeplasser, og plass til 2-3 telt.",
+      "address": "Østsidavegen 407, 2080 Eidsvoll",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -10313,6 +10629,7 @@
       "slug": "solasen-pilegrimsgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/solasen-pilegrimsgard",
       "intro": "Pilegrimsherberge og retreat i naturskjønne omgivelser.",
+      "address": "Falkeveien 19, 1555 Son",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -10342,6 +10659,7 @@
       "slug": "spellmovollen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/spellmovollen",
       "intro": "Den vakkert restaurerte setra Spellmovollen ligger 900 moh. ved innfallsporten til nasjonalparken Forollhogna",
+      "address": "Vangrøftdalen, 2550 Os i Østerdalen",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -10383,6 +10701,7 @@
       "slug": "retreat-og-herberge-i-spitalen-sondre",
       "url": "https://www.pilegrimsleden.no/interessepunkter/retreat-og-herberge-i-spitalen-sondre",
       "intro": "Pilegrimsherberge i Spitalen søndre",
+      "address": "Spitalen Søndre. Erikstuvegen 38, 2338 Espa",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -10412,6 +10731,7 @@
       "slug": "st-olavs-cabin-hallsta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/st-olavs-cabin-hallsta",
       "intro": "Velkommen til å leie min hytte (maks 4 personer) på Hållsta 245. Her bor du fredelig med utsikt over innsjøen. Det er mulig å booke på kort varsel, men helst minst én dag i forveien slik at jeg kan sjekke tilgjengelighet og forberede hytta.",
+      "address": "Hållsta 245 Brunflo",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -10441,6 +10761,7 @@
       "slug": "stabbur-i-stjordal",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stabbur-i-stjordal",
       "intro": "Overnatting med 3 sengeplasser i stabbur sentralt i Stjørdal. Matbutikk like ved.",
+      "address": "Husbyvegen 33, Stjørdal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -10470,6 +10791,7 @@
       "slug": "stabburdet-pa-skjefstad",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stabburdet-pa-skjefstad",
       "intro": "Velkommen til vårt sjarmerende stabbur på Leinstrand! Gården ligger vakkert til og er kun en dagsetappe fra Trondheim!",
+      "address": "Skjefstadbakken 76, 7083 leinstrand",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -10499,6 +10821,7 @@
       "slug": "stall-lisletta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stall-lisletta",
       "intro": "Stall Lisletta på Ringerike, tilbyr overnatting i hytte, på flatseng eller teltplass.",
+      "address": "Hadelandsveien 122, 3511 Hønefoss",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -10534,6 +10857,7 @@
       "slug": "stalltjarnstugan",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stalltjarnstugan",
       "intro": "2-3 senger, kjøkken, uthus og utedusj. Booking via epost.",
+      "address": "Stalltjärnstugan 605 Duved 83772 Sverige",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -10563,6 +10887,7 @@
       "slug": "steinvik-camping-og-hyttegrend",
       "url": "https://www.pilegrimsleden.no/interessepunkter/steinvik-camping-og-hyttegrend",
       "intro": "Campingplass og hytter ved Mjøsa.",
+      "address": "Kastbakkveien 5, 2390 Moelv",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -10598,6 +10923,7 @@
       "slug": "steinvik-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/steinvik-camping",
       "intro": "Steinvik camping ligg i Deknepollen over brua frå Måløy sentrum, og har 10 hytter Det går an å leige sengetøy.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -10627,6 +10953,7 @@
       "slug": "pilegrimshytta-i-otnes",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimshytta-i-otnes",
       "intro": "Enkelt overnatting i laftet hytte",
+      "address": "Strandvn 16, Otnes",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -10656,6 +10983,7 @@
       "slug": "stensveen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stensveen",
       "intro": "Pilegrimsherberge med idyllisk overnatting i rolige omgivelser ved bredden av Mjøsa.",
+      "address": "Fabrikkvegen 26, 2849 Kapp",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -10697,6 +11025,7 @@
       "slug": "stiklestad-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stiklestad-camping",
       "intro": "Trivelig Campingplass sentralt plassert på Stiklestad, med både campinghytter og teltplass. Campingen har felles kjøkken/sanitærbygg og resepsjon med kiosk.",
+      "address": "Vukuveien 261, 7650 Verdal",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -10733,6 +11062,7 @@
       "slug": "stokke-nedre",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stokke-nedre",
       "intro": "Stokke Nedre har flotte muligheter for overnatting. Overnattingsgjester kan bestille frokostkurv eller komme til felles frokostbord i hovedbygningen.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -10768,6 +11098,7 @@
       "slug": "storsand-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/storsand-camping",
       "intro": "Storsand Gård Camping er en naturskjønn campingplass lokalisert 17 km nord for Trondheim, i vakre omgivelser med imponerende utsikt over Trondheimsfjorden. Storsand Gård Camping ligger omkring 4 km nord for Vikhammer, og omkring 6 km nord for Ranheim, hvor fra du vandre langs den merkede St. Olavsleden den siste biten inn til Trondheim og Nidarosdomen.",
+      "address": "Storsandveien 1, 7563 Malvik",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -10798,6 +11129,7 @@
       "slug": "storsjosenteret",
       "url": "https://www.pilegrimsleden.no/interessepunkter/storsjosenteret",
       "intro": "Ved idylliske Storsjøen og nær Åkrestrømmen",
+      "address": "Rendalen, 2485 Rendalen",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -10827,6 +11159,7 @@
       "slug": "strandheimen-pilegrimsovernatting",
       "url": "https://www.pilegrimsleden.no/interessepunkter/strandheimen-pilegrimsovernatting",
       "intro": "Nyt den siste kvelden på Gudbrandsdalsleden ved hyggelige Strandheimen Gjestehus. Et steinkast fra sjøen.",
+      "address": "Gamle Kongeveg 40A, 7224 Melhus",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -10856,6 +11189,7 @@
       "slug": "stuga-storharrsjon",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stuga-storharrsjon",
       "intro": "Enkel hytte ved Storharrsjön.",
+      "address": "Storharrsjön 120, Sverige",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -10885,6 +11219,7 @@
       "slug": "stabbur-i-oppdal-sentrum",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stabbur-i-oppdal-sentrum",
       "intro": "Enkel overnatting i stabbur fra 1780",
+      "address": "Trondheimsvegen 1251, 7340 Oppdal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -10920,6 +11255,7 @@
       "slug": "stoslia-outdoor-shelter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stoslia-outdoor-shelter",
       "intro": "Søslia - Outdoor shelter for a time to rest",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -10943,6 +11279,7 @@
       "slug": "sula-havglamping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sula-havglamping",
       "intro": "Hva med naturnær glamping i havgapet? Overnatt i luksuriøse glampinghytter på en holme ved navn Skjøttholmen på øya Sula. Flott natur og hav så langt øyet kan se.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -10978,6 +11315,7 @@
       "slug": "sundsvalls-ridklubb",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sundsvalls-ridklubb",
       "intro": "5 rom med 2 senger i hver. For mer informasjon eller booking ring eller send epost.",
+      "address": "Kungsnäs 122 855 90 SUNDSVALL, Sweden",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11007,6 +11345,7 @@
       "slug": "svarttjonnbua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/svarttjonnbua",
       "intro": "Åpen bu med 4 sengeplasser. Ta med egen sovepose, liggeunderlag og mat. Overnatting 200kr per person per natt. Kan vippses #529000 Budal fjellstyre. Informasjon om kontonummer ligger inne i Bua.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11036,6 +11375,7 @@
       "slug": "sveastranda-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sveastranda-camping",
       "intro": "Pilegrimsherberge. Rolig camping i idylliske omgivelser 12 km nord for Gjøvik",
+      "address": "Stokkevegen 147, 2825 Gjøvik",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -11083,6 +11423,7 @@
       "slug": "sveen-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sveen-gard",
       "intro": "Sveen gård er en fredelig oase for dere som vil koble helt av og sove godt",
+      "address": "Sandvikavegen 180, 2312 Ottestad",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11112,6 +11453,7 @@
       "slug": "sveinhaug-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sveinhaug-gard",
       "intro": "Sveinhaug gård ligger i hjertet av det gamle Ringsaker, vakkert plassert med utsikt over Mjøsa. Gården har mer enn tusen års historie, og dagens anlegg ble oppført som lystgård og sommerbolig på 1850-tallet. Her kan dere bo i restaurerte, historiske interiører i gårdens hovedbygning.",
+      "address": "Åshøgdvegen 606, 2360 Rudshøgda",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11141,6 +11483,7 @@
       "slug": "svorkmo-skytterhus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/svorkmo-skytterhus",
       "intro": "Orkla skytterlag åpner opp sitt klubbhus for vandrende pilegrimer",
+      "address": "Solåsveien 41, 7327 Svorkmo",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -11182,6 +11525,7 @@
       "slug": "sygard-grytting-middelalderloft",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sygard-grytting-middelalderloft",
       "intro": "Overnatt på pilegrimsloft fra 1300-tallet på denne flotte storgården",
+      "address": "",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -11217,6 +11561,7 @@
       "slug": "saeteren-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/saeteren-gard",
       "intro": "Overnatting på ubetjent hytte. Må bestilles i forkant og egen mat må medbringes.",
+      "address": "Murenveien 151, 1356 Bekkestua.",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11246,6 +11591,7 @@
       "slug": "saetrangsgata-37",
       "url": "https://www.pilegrimsleden.no/interessepunkter/saetrangsgata-37",
       "intro": "Landlig leilighet langs Pilegrimsleden gjennom Haug i Ringerike",
+      "address": "Sætrangsgata 37, 3514 Hønefoss",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11275,6 +11621,7 @@
       "slug": "saetren-rorbuer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/saetren-rorbuer",
       "intro": "Rorbua ligg i Selje sentrum, 300 meter frå kaia, på motsatt side av Seljevågen.",
+      "address": "Hovevegen 119, 6740 Selje",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11304,6 +11651,7 @@
       "slug": "sor-einbu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sor-einbu",
       "intro": "Hytte og gapahuker til overnatting",
+      "address": "Søreinbu nørdre, 2668 Lesjaskog",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11333,6 +11681,7 @@
       "slug": "tangenodden-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tangenodden-camping",
       "intro": "Fin campingplass ved Mjøsa med utleiehytter, uteservering og gode bademuligheter",
+      "address": "Refling Hagensvei 54, 2337 Tangen",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -11380,6 +11729,7 @@
       "slug": "tankeplass-room-for-reflection-hogkleiva",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tankeplass-room-for-reflection-hogkleiva",
       "intro": "Kunstprosjekt på Høgkleiva bestående av tre installasjoner laget av kunstneren Ånond Versto: Hovudet, Klokkeporten og Falkesteinen.",
+      "address": "",
       "categories": [
         "Gapahuk",
         "Kulturminne",
@@ -11415,6 +11765,7 @@
       "slug": "telegrafen-moster-amfi",
       "url": "https://www.pilegrimsleden.no/interessepunkter/telegrafen-moster-amfi",
       "intro": "\"Telegrafen\" ligg i historiske omgivelser i Mostraparken. Huset er i Moster Amfi sitt eige.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11444,6 +11795,7 @@
       "slug": "lavvoplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/lavvoplass",
       "intro": "Inngjerdet teltplass langs Kjølvegen ikke langt fra Blokhus.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Teltplass"
@@ -11473,6 +11825,7 @@
       "slug": "tjonnebu",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tjonnebu",
       "intro": "DNT-hytte",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11502,6 +11855,7 @@
       "slug": "toftemo-turiststasjon",
       "url": "https://www.pilegrimsleden.no/interessepunkter/toftemo-turiststasjon",
       "intro": "Spis og overnatt på ærverdig skysstasjon m/svømmebasseng",
+      "address": "Vestsidevegen 1, 2662 Dovre",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -11549,6 +11903,7 @@
       "slug": "tollefkoia",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tollefkoia",
       "intro": "Gammel tømmerkoie som nå brukes som enkel overnatting for pilegrimer.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11578,6 +11933,7 @@
       "slug": "tollefsa-gjestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tollefsa-gjestegard",
       "intro": "Overnatting i gammelt gårdsmiljø fra 1600-tallet.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -11607,6 +11963,7 @@
       "slug": "trollhaugen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trollhaugen",
       "intro": "Overnatting i to koselige hytter på hyggelig tun, mellom Tynset og Vingelen",
+      "address": "Ytre Åsan 335, 2500 Tynset",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11636,6 +11993,7 @@
       "slug": "trollhytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trollhytta",
       "intro": "Skogskoie ved Eriksbekken",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11665,6 +12023,7 @@
       "slug": "trolltun-gjestegard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trolltun-gjestegard",
       "intro": "Gjestegård med hotellstandard, hytter og vandrerhjem.",
+      "address": "Skitrekkveien 18, 2660 Dombås",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -11706,6 +12065,7 @@
       "slug": "troset-overnatting-for-pilegrimer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/troset-overnatting-for-pilegrimer",
       "intro": "På Troset Gård møtes fjell og skog, himmel og jord, og du får en fantastisk utsikt over Movannet, Markabygda og veien videre mot Nidaros.",
+      "address": "Trosetveien 111, 7622 Markabygd",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11735,6 +12095,7 @@
       "slug": "trysil-hyttegrend-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trysil-hyttegrend-camping",
       "intro": "Trysil Hyttegrend & Camping ligger like ved pilegrimsleden og tilbyr overnatting med pilegrimsrabatt.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Vandrerhjem",
@@ -11770,6 +12131,7 @@
       "slug": "trysilelva-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trysilelva-camping",
       "intro": "Camping like ved Trysil sentrum med flott utsikt til Trysilfjellet",
+      "address": "Trysilelva Camping, 2420 Trysil‎",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -11799,6 +12161,7 @@
       "slug": "traporten",
       "url": "https://www.pilegrimsleden.no/interessepunkter/traporten",
       "intro": "Hytter, B&B. Pilegrimshytte (herberge), camping og restaurant.",
+      "address": "Borgsjöbyn 139 841 97 Erikslund Sverige",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -11834,6 +12197,7 @@
       "slug": "troen-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/troen-gard",
       "intro": "Leilighet i Trønderlån fra 1850. Her er det 8 sengeplasser fordelt på 3 soverom.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -11863,6 +12227,7 @@
       "slug": "tunheimsfjora-logde",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tunheimsfjora-logde",
       "intro": "Heilt i sjøkanten i Syltefjorden finn du desse tre eksklusive hyttene som henge over vatnet. Her får du og direkte tilgang til eit bredt spekter av fjord- og fjellaktivitetar.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rorbu"
@@ -11892,6 +12257,7 @@
       "slug": "tynnol-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tynnol-gard",
       "intro": "Rimelig overnatting i tømmerhus på garden Tynnøl.",
+      "address": "Tynnølsvegen 50, 2665 Lesja",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -11921,6 +12287,7 @@
       "slug": "tyristua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tyristua",
       "intro": "Sjarmerende ubetjent hytte med 12 + 2 sengeplasser. Booking via nettside.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -11956,6 +12323,7 @@
       "slug": "ullereng-gard-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ullereng-gard-pilegrimsherberge",
       "intro": "På dette flotte pilegrimsherberget kan du bo enten i stabburet, hytten eller låven. Fra Milesteinen i Oslo til Ullereng er det 26 km. Fra Østre Aker herberg i Oslo til Ullereng er det 22 km. NB at siste butikken før herberget ligger i Skedsmokorset (REMA 1000).",
+      "address": "Bølerveien 123, 2015 Leirsund",
       "categories": [
         "Overnatting",
         "Rom og hytter",
@@ -11991,6 +12359,7 @@
       "slug": "urtegarden-rasteplass-og-overnatting",
       "url": "https://www.pilegrimsleden.no/interessepunkter/urtegarden-rasteplass-og-overnatting",
       "intro": "Urtegården er et overnattingsted og rasteplass langs Borgleden. Gården ligger fritt og landlig til i rolige omgivelser like ved Son.",
+      "address": "Nordre Mørk, Gjølstadveien 275, 1550 Hølen",
       "categories": [
         "Overnatting",
         "Rasteplass",
@@ -12026,6 +12395,7 @@
       "slug": "utne-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/utne-camping",
       "intro": "Utne Camping ligger stille, usjenert og sentralt i Østfold.",
+      "address": "Desiderias vei 41, 1719 Greåker",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -12055,6 +12425,7 @@
       "slug": "vakkerstoylen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/vakkerstoylen",
       "intro": "DNT hytte",
+      "address": "",
       "categories": [
         "Overnatting",
         "Vandrerhjem",
@@ -12090,6 +12461,7 @@
       "slug": "valberg-slektsgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/valberg-slektsgard",
       "intro": "Valberg Slektsgård er en historisk gård med overnatting i Gårdshotellet eller i flere hytter hvor det er mulig med selvhushold for to eller flere pilegrimer.",
+      "address": "Frostaveien 2302, 7633 Frosta",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge",
@@ -12131,6 +12503,7 @@
       "slug": "valum-gard-pilegrimsovernatting",
       "url": "https://www.pilegrimsleden.no/interessepunkter/valum-gard-pilegrimsovernatting",
       "intro": "Valum Gård Pilegrimsovernatting ligger høyt og fritt med god utsikt over fjorden mellom Skogn og Ekne i Levanger. Her kan du overnatte i hytter, på loftet over stallen og bruke sokkelen på hovedhuset, dersom du vandrer langs Ytreleden, eller langs den nye traseen til Ytreleden fra Markabygd på Indreleden.",
+      "address": "Brokstien 38, 7620 Skogn",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -12160,6 +12533,7 @@
       "slug": "varphaugen-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/varphaugen-gard",
       "intro": "Overnatting på historisk pilegrimssted",
+      "address": "",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -12189,6 +12563,7 @@
       "slug": "veierland-skole",
       "url": "https://www.pilegrimsleden.no/interessepunkter/veierland-skole",
       "intro": "Overnatting organisert av Oslofjordens Friluftsråd",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -12218,6 +12593,7 @@
       "slug": "vekve-hyttetun",
       "url": "https://www.pilegrimsleden.no/interessepunkter/vekve-hyttetun",
       "intro": "Overnatting i hytte, Oppdal sentrum",
+      "address": "Aunevegen 10, 7340 Oppdal.",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -12247,6 +12623,7 @@
       "slug": "vollheim-camping-og-hytter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/vollheim-camping-og-hytter",
       "intro": "Overnatting langs Gudbrandsdalslågens bredder. Koselig kiosk som selger is.",
+      "address": "Solsidevegen 19, 2623 Dovreskogen",
       "categories": [
         "Overnatting",
         "Campingplass",
@@ -12288,6 +12665,7 @@
       "slug": "wentzelhytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/wentzelhytta",
       "intro": "Sjarmerende DNT-hytte i Kjekstadmarka",
+      "address": "",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -12317,6 +12695,7 @@
       "slug": "adalsvollen-pilgrim-lodge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/adalsvollen-pilgrim-lodge",
       "intro": "Ådalsvollen Pilgrimslodge ligger fredfylt i naturen og er et ideelt sted å stoppe for pilgrimer og vandrere langs St. Olavsleden, men også for gjester som søker ro, kvalitet og komfort i vakre omgivelser. Lokalisert direkte langs pilgrimsleden og ved elva Inna, tilbys en overnatting med seks senger, spiseplass, stue og kjøkkenkrok med hjemmelaget middag og mat for frokost og lunsj. Gjestene har også tilgang til en koselig uteplass med bord og stoler.",
+      "address": "Jamtlandsveien 3551, 7660 Vuku",
       "categories": [
         "Overnatting",
         "Rom og hytter"
@@ -12346,6 +12725,7 @@
       "slug": "are-fjallsatra",
       "url": "https://www.pilegrimsleden.no/interessepunkter/are-fjallsatra",
       "intro": "Et personlig hotell med naturen i fokus. Rom med utsikt over Södra Årefjällen og/eller hagen. Tilbyr henting og bagasjetransport.",
+      "address": "Byvägen 86, 837 95 Undersåker, Sverige",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -12375,6 +12755,7 @@
       "slug": "arnseth-gapahuk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/arnseth-gapahuk",
       "intro": "En større gapahuk like før Rissa sentrum.",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -12398,6 +12779,7 @@
       "slug": "ofsti-mellom",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ofsti-mellom",
       "intro": "Buskap, landskap og lidenskap. Her kan pilegrimer overnatte i historiske omgivelser, i et gammelt gårdshus med sjarm og sjel. Mat kan bestilles eller lages selv.",
+      "address": "Øfsti Mellom, Sørsidevegen 699, 7514 Stjørdal",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -12427,6 +12809,7 @@
       "slug": "ostre-aker-herberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ostre-aker-herberge",
       "intro": "Velkommen til overnatting på Østre Aker pilegrimsherberge!",
+      "address": "Ulvenveien 104, 0665 Oslo",
       "categories": [
         "Overnatting",
         "Pilegrimsherberge"
@@ -12458,6 +12841,7 @@
       "slug": "overgaard-i-lillehammer-tilbyr-overnatting-i-sentrum-for-pilegrimer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/overgaard-i-lillehammer-tilbyr-overnatting-i-sentrum-for-pilegrimer",
       "intro": "Øvergaard - Bed and Breakfast i Lillehammer sentrum",
+      "address": "Jernbanegata 24 2609 Lillehammer",
       "categories": [
         "Overnatting",
         "Vandrerhjem"
@@ -12487,6 +12871,7 @@
       "slug": "oygarden-pilegrimsherberge",
       "url": "https://www.pilegrimsleden.no/interessepunkter/oygarden-pilegrimsherberge",
       "intro": "Ved foten av Rondane, i Kristin Lavransdatters rike, ligger gården Øygarden. Et historisk tun fra 1700-tallet.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -12522,6 +12907,7 @@
       "slug": "oysand-camping",
       "url": "https://www.pilegrimsleden.no/interessepunkter/oysand-camping",
       "intro": "Øysand camping er sted for overnatting og badeliv i et vakkert friluftsområde.",
+      "address": "Gamle Kongevei 56, 7224 Melhus.",
       "categories": [
         "Overnatting",
         "Campingplass"
@@ -12551,6 +12937,7 @@
       "slug": "oyvindtjonna-saelehus",
       "url": "https://www.pilegrimsleden.no/interessepunkter/oyvindtjonna-saelehus",
       "intro": "Ubetjent sælehus ved Øyvindstjønna",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -12576,6 +12963,7 @@
       "slug": "fredriksten-festning",
       "url": "https://www.pilegrimsleden.no/interessepunkter/fredriksten-festning",
       "intro": "Fra landets viktigste festningsverk til dagens kulturelle og historiske landemerke - Fredriksten troner majestetisk over Halden.",
+      "address": "Indre festning 21",
       "categories": [
         "Rasteplass",
         "Museum",
@@ -12623,6 +13011,7 @@
       "slug": "steinbratan-husmannsplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/steinbratan-husmannsplass",
       "intro": "Steinbråtan husmannsplass",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -12652,6 +13041,7 @@
       "slug": "romsaetra",
       "url": "https://www.pilegrimsleden.no/interessepunkter/romsaetra",
       "intro": "Romsetra",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -12675,6 +13065,7 @@
       "slug": "kunstnerbenken-ved-furua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kunstnerbenken-ved-furua",
       "intro": "Kunstnerbenken ved furua",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -12698,6 +13089,7 @@
       "slug": "klovstadhogda-naturreservat",
       "url": "https://www.pilegrimsleden.no/interessepunkter/klovstadhogda-naturreservat",
       "intro": "I den bratte lia nordøst for garden Havik ligger Kløvstadhøgda naturreservat. Her finner du også benk og bord dersom du trenger en hvil eller bare vil nyte utsikten ei lita stund.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Naturområde"
@@ -12727,6 +13119,7 @@
       "slug": "botanisk-hage-pa-toyen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/botanisk-hage-pa-toyen",
       "intro": "Norges eldste botaniske hage",
+      "address": "Sars gate 1, 0562 Oslo",
       "categories": [
         "Rasteplass"
       ],
@@ -12751,6 +13144,7 @@
       "slug": "koigen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/koigen",
       "intro": "Koigen er et populært rekreasjons- og aktivitetsområde ved Mjøsa rett utenfor Hamar sentrum.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -12774,6 +13168,7 @@
       "slug": "gravfelt-pa-rudstoppen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gravfelt-pa-rudstoppen",
       "intro": "Gravfeltet på Rudstoppen er blant distriktets større gravfelter, bestående av både gravrøyser og hauger. Ligger inntil leden på vestsiden",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -12803,6 +13198,7 @@
       "slug": "kjolvegen-og-hogkorsa",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kjolvegen-og-hogkorsa",
       "intro": "Fra Brandbu følger Pilegrimsleden Kjølvegen forbi Høgkorsa som er knyttet til kongesagaene til Sverre Sigurdsson og Håkon Håkonsson. Høgkorsa har trolig vært et hvilested⁄bønnested for pilegrimer.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -12832,6 +13228,7 @@
       "slug": "majors-alm",
       "url": "https://www.pilegrimsleden.no/interessepunkter/majors-alm",
       "intro": "Gården Øvre Alm kalles Majors-Alm og er en av de større gårdene på Tingelstadhøgda",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -12861,6 +13258,7 @@
       "slug": "middelaldersteinkirke-pa-historisk-grunn",
       "url": "https://www.pilegrimsleden.no/interessepunkter/middelaldersteinkirke-pa-historisk-grunn",
       "intro": "Middelaldersk steinkirke fra første halvdel av 1200-tallet.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kirke",
@@ -12902,6 +13300,7 @@
       "slug": "stavhella",
       "url": "https://www.pilegrimsleden.no/interessepunkter/stavhella",
       "intro": "Arkeologisk minne, gravfelt fra jernalder. Rastebenk for pilegrimer og nydelig utsikt.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -12931,6 +13330,7 @@
       "slug": "feginsbrekka",
       "url": "https://www.pilegrimsleden.no/interessepunkter/feginsbrekka",
       "intro": "\"Utsikten\" like bortenfor pilegrimsleden er det beste stedet å se byen i sin helhet.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -12954,6 +13354,7 @@
       "slug": "tolvsteinsringen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tolvsteinsringen",
       "intro": "Tolvsteinsringen",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -12983,6 +13384,7 @@
       "slug": "proysenhuset-museum",
       "url": "https://www.pilegrimsleden.no/interessepunkter/proysenhuset-museum",
       "intro": "Prøysenhuset",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne",
@@ -13018,6 +13420,7 @@
       "slug": "sundsvall-city-hostel",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sundsvall-city-hostel",
       "intro": "Velg mellom hotell eller vandrerhjem sentralt i Sundsvall.",
+      "address": "",
       "categories": [
         "Overnatting",
         "Hotell",
@@ -13053,6 +13456,7 @@
       "slug": "brumunddal-by",
       "url": "https://www.pilegrimsleden.no/interessepunkter/brumunddal-by",
       "intro": "Brumunddal by og kommunesenter i Ringsaker, ligger ved utløpet av elva Brumunda ved Mjøsa.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Sted"
@@ -13082,6 +13486,7 @@
       "slug": "skogsjale-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/skogsjale-rasteplass",
       "intro": "Rasteplass med stempel og gjestebok.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13105,6 +13510,7 @@
       "slug": "soraker-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/soraker-rasteplass",
       "intro": "Rasteplass for pilegrimer på Søraker gård.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13128,6 +13534,7 @@
       "slug": "rasteplass-ved-tomtvatnet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-tomtvatnet",
       "intro": "Benk med bord ved Tomtvatnet.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13151,6 +13558,7 @@
       "slug": "hegglivollen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hegglivollen",
       "intro": "Idyllisk Seterstøl før den siste nedstigningen til Markabygda",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13174,6 +13582,7 @@
       "slug": "rasteplass-ved-bulandsvatnet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-bulandsvatnet",
       "intro": "Benk med bord ved Bulandsvatnet.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13197,6 +13606,7 @@
       "slug": "rasteplass-ved-ausetvatnet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-ausetvatnet",
       "intro": "En flott rasteplass ved Ausetvatnet! Her er det også mulig å kjøpe seg fiskekort ved vannet.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13220,6 +13630,7 @@
       "slug": "rasteplass-i-skjelstadmarka",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-i-skjelstadmarka",
       "intro": "Her gikk Hovraset i 1962. Like ved rasteplassen finner dere informasjon om denne dramatiske hendelsen som preger terrenget i grenden selv i dag",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13243,6 +13654,7 @@
       "slug": "rasteplass-i-koksasen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-i-koksasen",
       "intro": "Rasteplass på nedstigningen fra Koksåsen. Herifra kan man se spiret på Værnes Kirke",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13266,6 +13678,7 @@
       "slug": "slakterskuret-i-slattmyrdalen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/slakterskuret-i-slattmyrdalen",
       "intro": "En benk er plassert i et gammels slakterskur og gir ly for noe vær. Dette er en kjærkommen rasteplass på toppen av en veldig lang og bratt bakke.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13289,6 +13702,7 @@
       "slug": "benk-i-hoybydalen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk-i-hoybydalen",
       "intro": "Enkel benk med rygg som tilbyr et godt hvilested før man påbegynner stigningen opp Slåttmyrdalen.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13312,6 +13726,7 @@
       "slug": "kvilstein-pa-skarpaskjolen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kvilstein-pa-skarpaskjolen",
       "intro": "Kvilsteiner er naturlige hvilesteder i landskapet. Reisende har benytte disse stedene i århundre.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13336,6 +13751,7 @@
       "slug": "rasteplass-ved-nyvatnet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-nyvatnet",
       "intro": "Her ligger en idyllisk rasteplass tilrettelagt spesielt for pilegrimer!",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13359,6 +13775,7 @@
       "slug": "kleiv-vollen-busskur",
       "url": "https://www.pilegrimsleden.no/interessepunkter/kleiv-vollen-busskur",
       "intro": "Et lite bruk busskur står ved veien, og kan være et godt sted å hvile før man går videre. Ta hensyn dersom barn som venter på skolebussen benytter skuret. Utenfor står det en benk som også kan benyttes.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13382,6 +13799,7 @@
       "slug": "feginsbrekka-1",
       "url": "https://www.pilegrimsleden.no/interessepunkter/feginsbrekka-1",
       "intro": "Feginsbrekka (gledens bakke) lå i middelalderen ved Ramset gård. I dag må du nærmere Stange vestbygd før du får samme opplevelsen.,",
+      "address": "2355 Stange",
       "categories": [
         "Rasteplass"
       ],
@@ -13405,6 +13823,7 @@
       "slug": "pilegrimsbenken-ved-froset-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenken-ved-froset-gard",
       "intro": "En hyggelig rasteplass i flott kulturlandskap med hyggelige husdyr i nærheten",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13428,6 +13847,7 @@
       "slug": "samarastn",
       "url": "https://www.pilegrimsleden.no/interessepunkter/samarastn",
       "intro": "Velkommen til en rast ved Samarast'n",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13451,6 +13871,7 @@
       "slug": "pilegrimsbenk-i-skardet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk-i-skardet",
       "intro": "Pilegrimsbenk i Skardet",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13474,6 +13895,7 @@
       "slug": "rasteplass-i-korsvika-ved-granerudsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-i-korsvika-ved-granerudsjoen",
       "intro": "Pilegrimsbenk med bord plassert ved idylliske Granerudsjøen.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13497,6 +13919,7 @@
       "slug": "badeplass-ved-granerudsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/badeplass-ved-granerudsjoen",
       "intro": "Ved vakre Granerudsjøen i Stange allmenning finner du en hyggelig badeplass med benker og bord.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13520,6 +13943,7 @@
       "slug": "pilegrimsbenken-ved-nilsberg",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenken-ved-nilsberg",
       "intro": "Ved Nilsbergvegen står det en pilegrimsbenk med bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13543,6 +13967,7 @@
       "slug": "benker-i-tangen-sentrum",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benker-i-tangen-sentrum",
       "intro": "På Tangen finner du en Spar-butikk. Utenfor står det benker dersom du trenger en hvil.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13566,6 +13991,7 @@
       "slug": "pilegrimsbenken-ved-stange-kirke",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenken-ved-stange-kirke",
       "intro": "Denne benken er gitt i gave fra en tysk pilegrim",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13589,6 +14015,7 @@
       "slug": "rasteplass-ved-meskogsvatnet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-meskogsvatnet",
       "intro": "Kun 200 meter fra leden ligger en rasteplass idyllisk plassert ved Meskogsvatnet. En kort avstikker fra leden.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13612,6 +14039,7 @@
       "slug": "utedo-og-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/utedo-og-rasteplass",
       "intro": "Enkel benk ved pilegrimsleden",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13635,6 +14063,7 @@
       "slug": "benk-ved-syrstadsaetra",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk-ved-syrstadsaetra",
       "intro": "Enkel benk ved Syrstadsætra, Like ved er det også et provisorisk skul for regn.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13658,6 +14087,7 @@
       "slug": "rasteplass-ved-buberg",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-buberg",
       "intro": "Rasteplass ved Buberg som gir ly for regn.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13681,6 +14111,7 @@
       "slug": "rasteplass-ved-djupdalen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-djupdalen",
       "intro": "Nyt utsikten i stille omgivelser",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13704,6 +14135,7 @@
       "slug": "rasteplass-og-rekreasjonsomrade-i-buvika",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-og-rekreasjonsomrade-i-buvika",
       "intro": "Ved fjorden er det mange benker og rasteplasser som kan benyttes",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13727,6 +14159,7 @@
       "slug": "hvilebenk-for-pilegrimer-i-sandvikaveien-37",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hvilebenk-for-pilegrimer-i-sandvikaveien-37",
       "intro": "Langs Sandvikaveien har privatpersoner satt i stand et lite område for slitne pilegrimer. Her finner du en benk og du er velkommen til å ta deg en hvil.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13750,6 +14183,7 @@
       "slug": "pilegrimsbenken-pa-domkirkeodden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenken-pa-domkirkeodden",
       "intro": "Når du har passert igjennom museumsområdet, så kommer du til en stor gressplen. Der har vi satt ut en pilegrimsbenk med bord. Her ved stranda kan du sitte og nyte utsikten utover Mjøsa.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13773,6 +14207,7 @@
       "slug": "pilegrimsbenken-i-furuberget",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenken-i-furuberget",
       "intro": "Langs leden oppe på Furuberget finner du en pilegrimsbenk med bord. Kanskje du har lyst på en stille stund i skogen? Da er det bare å slå seg ned.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13796,6 +14231,7 @@
       "slug": "pilegrimsleden-femtolv-terrasse",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsleden-femtolv-terrasse",
       "intro": "Her, på denne hyggelige terassen, er det lov å sette seg ned og ta en liten hvil. Du er hjertelig velkommen!",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13819,6 +14255,7 @@
       "slug": "velkommen-til-torget-i-brumunddal",
       "url": "https://www.pilegrimsleden.no/interessepunkter/velkommen-til-torget-i-brumunddal",
       "intro": "Leden gjennom Brumunddal sentrum passerer stedets torg. Her kan du oppleve småbyens sjarm med spisesteder, konditori og kafeer. Du har Matfatet med lokalmat, butikker og byens turistkontor i umidddelbar nærhet.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Matbutikk"
@@ -13848,6 +14285,7 @@
       "slug": "borkerud-pilegrimsgard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/borkerud-pilegrimsgard",
       "intro": "Borkerud Pilegrimsgård er et pilegrimssted som tilbyr rekreasjon, refleksjon og hvile",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Naturområde"
@@ -13877,6 +14315,7 @@
       "slug": "pilegrimsbenk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk",
       "intro": "Pilegrimsbenk for hvilepause og matpakke",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13900,6 +14339,7 @@
       "slug": "hogkleiva-shelter-for-pilgrims",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hogkleiva-shelter-for-pilgrims",
       "intro": "Høgkleiva - a place to rest - outdoor shelter",
+      "address": "",
       "categories": [
         "Gapahuk"
       ],
@@ -13923,6 +14363,7 @@
       "slug": "mjosparken-i-brumunddal",
       "url": "https://www.pilegrimsleden.no/interessepunkter/mjosparken-i-brumunddal",
       "intro": "Hvorfor ikke besøke Mjøsparken, et nydelig parkområde ved Mjøsas bredder?",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13946,6 +14387,7 @@
       "slug": "hvileplass-prestvaegen-storliskrysset",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hvileplass-prestvaegen-storliskrysset",
       "intro": "Benk og bord for pilegrimer. Her kan du ta deg en pust i bakken.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13969,6 +14411,7 @@
       "slug": "rasteplass-ved-prestvaegen-jonsrudsvea",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-prestvaegen-jonsrudsvea",
       "intro": "Hyggelig rasteplass ved husmannsplassen Nordhagenstua, drevet av 4H",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -13992,6 +14435,7 @@
       "slug": "rasteplass-ved-prestvaegen-jonsrudsvea-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-prestvaegen-jonsrudsvea-2",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14015,6 +14459,7 @@
       "slug": "hvilested-ved-tokstadfurua",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hvilested-ved-tokstadfurua",
       "intro": "Ved Tokstadfurua er det satt opp et koselig, lite meditasjonshus. Furustugua har sitteplass til to personer og er fin for deg som vil ha ei stille stund. Det lille huset har et vindu i taket slik at du kan sitte og se opp i furukrona. Utenfor er det en benk med bord.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14038,6 +14483,7 @@
       "slug": "bathavna-i-moelv",
       "url": "https://www.pilegrimsleden.no/interessepunkter/bathavna-i-moelv",
       "intro": "I båthavnen i Moelven er det satt ut benker og bord.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14061,6 +14507,7 @@
       "slug": "rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass",
       "intro": "Etter stigningen fra Vea og opp i høyden kan det være godt med en liten hvil. Ved forsamlingslokalet finner du benk og bord.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14084,6 +14531,7 @@
       "slug": "risdalsasen-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/risdalsasen-rasteplass",
       "intro": "Rasteplass ved Risdalsåsen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14107,6 +14555,7 @@
       "slug": "hellashytta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hellashytta",
       "intro": "Dette er en hytte som eies av Friidrett i Drammen.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14130,6 +14579,7 @@
       "slug": "rasteplass-svanoybukt",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-svanoybukt",
       "intro": "Ved rutebåtanløpet er det en rasteplass med bålpanne.",
+      "address": "Biskop Svanes veg 1, 6914 Svanøybukt",
       "categories": [
         "Rasteplass"
       ],
@@ -14153,6 +14603,7 @@
       "slug": "rasteplass-ved-kolabann",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-kolabann",
       "intro": "Rasteplass ved Kølabånn. Krakk laget av Gruver og Skjerp i Drammensområdet.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14176,6 +14627,7 @@
       "slug": "austad-naturminne",
       "url": "https://www.pilegrimsleden.no/interessepunkter/austad-naturminne",
       "intro": "Vernet park med flotte rasteplasser. Her er også tilrettelagt for Freesbeegolf.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14199,6 +14651,7 @@
       "slug": "gjellerbekk-skanse-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/gjellerbekk-skanse-rasteplass",
       "intro": "Rasteplass ved obelisk i Gjellerbekk Skanse.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14222,6 +14675,7 @@
       "slug": "rasteplass-ved-farseggen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-farseggen",
       "intro": "Enkel rasteplass med bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14245,6 +14699,7 @@
       "slug": "enkel-benk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/enkel-benk",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14268,6 +14723,7 @@
       "slug": "rasteplass-i-frogner",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-i-frogner",
       "intro": "Enkel rasteplass med bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14291,6 +14747,7 @@
       "slug": "enkel-benk-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/enkel-benk-2",
       "intro": "Enkel benk uten bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14314,6 +14771,7 @@
       "slug": "enkel-benk-3",
       "url": "https://www.pilegrimsleden.no/interessepunkter/enkel-benk-3",
       "intro": "Enkel benk uten bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14337,6 +14795,7 @@
       "slug": "rasteplass-ved-elv",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-elv",
       "intro": "Rasteplass med fiske- og bademuligheter i elven",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14360,6 +14819,7 @@
       "slug": "enkel-benk-ved-habberstad",
       "url": "https://www.pilegrimsleden.no/interessepunkter/enkel-benk-ved-habberstad",
       "intro": "Benk uten bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14383,6 +14843,7 @@
       "slug": "hvilested-med-stoler-langs-prestvaegen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hvilested-med-stoler-langs-prestvaegen",
       "intro": "En liten rasteplass ved Prestvægen. For deg.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14406,6 +14867,7 @@
       "slug": "rasteplass-ved-floyta",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-floyta",
       "intro": "Badeplass og rasteplass ved vakre Fløyta tilrettelagt av foreningen Minnesund vel. I løpet av sesongen er utedoen åpen.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14429,6 +14891,7 @@
       "slug": "drivstusaetra",
       "url": "https://www.pilegrimsleden.no/interessepunkter/drivstusaetra",
       "intro": "En flott rasteplass eller teltplass med tilgang på vann.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14452,6 +14915,7 @@
       "slug": "rasteplass-ved-borgen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-borgen",
       "intro": "Rasteplass med tak ved Borgen. Her er det mulig å grille.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14475,6 +14939,7 @@
       "slug": "camping-og-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/camping-og-rasteplass",
       "intro": "Camping og rasteplass. Uten mulighet for å fylle vann.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14498,6 +14963,7 @@
       "slug": "dikemark-asyl",
       "url": "https://www.pilegrimsleden.no/interessepunkter/dikemark-asyl",
       "intro": "Tidligere psykiatrisk sykehus. Fredet bygg.",
+      "address": "Dikemark sykehus, 1385 Asker",
       "categories": [
         "Rasteplass"
       ],
@@ -14521,6 +14987,7 @@
       "slug": "speiderhytte",
       "url": "https://www.pilegrimsleden.no/interessepunkter/speiderhytte",
       "intro": "Speiderhytte i Heggedal",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14544,6 +15011,7 @@
       "slug": "vessledammen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/vessledammen",
       "intro": "Rasteplass ved Vesledammen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14567,6 +15035,7 @@
       "slug": "rasteplass-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-2",
       "intro": "Rasteplass ved Spikkestad vel",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14590,6 +15059,7 @@
       "slug": "rasteplass-3",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-3",
       "intro": "Rasteplass med benk og bord utenfor Spikkestad.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14613,6 +15083,7 @@
       "slug": "nedre-leirfoss",
       "url": "https://www.pilegrimsleden.no/interessepunkter/nedre-leirfoss",
       "intro": "Ta en pause ved det gamle kraftverket i Nedre Leirfoss",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14636,6 +15107,7 @@
       "slug": "ulberget",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ulberget",
       "intro": "Ulberget er en nydelig gammel husmannsplass hvor man kan hvile og spise niste",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14659,6 +15131,7 @@
       "slug": "prestegardshagen-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/prestegardshagen-2",
       "intro": "Prestegårdshagen i Meldal, kanskje en av de vakreste rasteplassen langs leden",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14682,6 +15155,7 @@
       "slug": "damvokterboligen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/damvokterboligen",
       "intro": "Damvokterboligen er et fint sted å raste og ta en hvil. Det er benker, friluftstoalett som er oppe om sommeren og vannpumpe med drikkevann. Blektjern er også et fint badevann, om man har lyst til å ta en dukkert før man går videre.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14705,6 +15179,7 @@
       "slug": "rasteplass-ved-blaheia",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-blaheia",
       "intro": "Rasteplass ved to enorme gyngestoler. Husk å ta bilde!",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14728,6 +15203,7 @@
       "slug": "rasteplass-ved-naust-gard",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-naust-gard",
       "intro": "Nyt kulturlandskapet ved denne benken",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14751,6 +15227,7 @@
       "slug": "klokkarstolen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/klokkarstolen",
       "intro": "En gammel \"kvilstein\" som fikk navnet klokkarstolen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14774,6 +15251,7 @@
       "slug": "benk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk",
       "intro": "Enkel benk uten bord",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14797,6 +15275,7 @@
       "slug": "benk-med-utsikt",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk-med-utsikt",
       "intro": "Enkel benk med flott utsikt",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14820,6 +15299,7 @@
       "slug": "branntarnet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/branntarnet",
       "intro": "Rasteplass ved det gamle branntårnet på Grønliåsen.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14843,6 +15323,7 @@
       "slug": "rasteplass-gronliasen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-gronliasen",
       "intro": "Rasteplass med flott utsikt over Oslo.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14866,6 +15347,7 @@
       "slug": "rasteplass-pa-gronliasen-ved-pinsedal",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-pa-gronliasen-ved-pinsedal",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14889,6 +15371,7 @@
       "slug": "trolltoppen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/trolltoppen",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14912,6 +15395,7 @@
       "slug": "rasteplass-etter-ljabru-bakke",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-etter-ljabru-bakke",
       "intro": "En pustepause etter Ljabru bakke. På andre siden veien finnes Matkroken og mulighet for drikke og is.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14935,6 +15419,7 @@
       "slug": "pekeskiltet-ved-tunsbergleden-og-gudbrandsdalsleden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pekeskiltet-ved-tunsbergleden-og-gudbrandsdalsleden",
       "intro": "Hvor skal du gå: Tunsbergleden eller Gudbrandsdalsleden?",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14959,6 +15444,7 @@
       "slug": "benk-ved-minnestotten-pa-jar",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk-ved-minnestotten-pa-jar",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -14982,6 +15468,7 @@
       "slug": "benk-ved-haugboveien",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk-ved-haugboveien",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15005,6 +15492,7 @@
       "slug": "rest-stop-by-petrol-station-gullhaug",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rest-stop-by-petrol-station-gullhaug",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15028,6 +15516,7 @@
       "slug": "benker-ved-tanum-kirke-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benker-ved-tanum-kirke-2",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15051,6 +15540,7 @@
       "slug": "benker-ved-asker-kirke",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benker-ved-asker-kirke",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15074,6 +15564,7 @@
       "slug": "olskilda-st-olavs-kilde-i-sul",
       "url": "https://www.pilegrimsleden.no/interessepunkter/olskilda-st-olavs-kilde-i-sul",
       "intro": "Olavskilden i Sul - Ol's-kjelda - er et historisk sted nær en åker som i følge legenden om Olav den Hellige er et sted hvor han først skal ha drukket vann av kilden og etterpå ridd igjennom åkeren sammen med sine menn, som tråkket ned åkeren. I følge sagnet holdt Olav natterast på Gården Sul under sitt hærtog mot Norge i 2030, som seinere kulminerte i slaget på Stiklestad.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -15101,6 +15592,7 @@
       "slug": "ulvenhagen-ved-ostre-aker-kirke",
       "url": "https://www.pilegrimsleden.no/interessepunkter/ulvenhagen-ved-ostre-aker-kirke",
       "intro": "Bortenfor Østre Aker kirke, på leden ut av byen, vokser det fram en flott nærmiljøhage til glede for store og små.",
+      "address": "Ulvenveien 110, 0665 Oslo",
       "categories": [
         "Rasteplass",
         "Naturområde"
@@ -15130,6 +15622,7 @@
       "slug": "pilegrimsbenken-i-bakken-pa-jar",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenken-i-bakken-pa-jar",
       "intro": "Velkommen til en pustepause i bakken på Jar - 78 moh",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15154,6 +15647,7 @@
       "slug": "koselig-rasteplass-og-informasjonspunkt",
       "url": "https://www.pilegrimsleden.no/interessepunkter/koselig-rasteplass-og-informasjonspunkt",
       "intro": "Koselig rasteplass, ca 750 m fra Kongsvold Fjeldstue.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15177,6 +15671,7 @@
       "slug": "rasteplass-med-toalett",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-med-toalett",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15200,6 +15695,7 @@
       "slug": "alfaset-war-cementary",
       "url": "https://www.pilegrimsleden.no/interessepunkter/alfaset-war-cementary",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Kulturminne"
@@ -15229,6 +15725,7 @@
       "slug": "pilegrimsbenk-avsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk-avsjoen",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15252,6 +15749,7 @@
       "slug": "benk-ved-lysjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/benk-ved-lysjoen",
       "intro": "HHT Stange har satt ut denne benken ved dette nydelige utsiktspunktet ved Lysjøen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15275,6 +15773,7 @@
       "slug": "sogn-stabbur",
       "url": "https://www.pilegrimsleden.no/interessepunkter/sogn-stabbur",
       "intro": "Pilegrimsinformasjon i stabburet",
+      "address": "Sognsbakka 208",
       "categories": [
         "Rasteplass"
       ],
@@ -15298,6 +15797,7 @@
       "slug": "tankeplass-roten",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tankeplass-roten",
       "intro": "Kunstverket Roten er skapt av kunstnerduoen AiPotu (Anders Kjellesvik og Andreas Siqueland). Roten er plassert på en kolle mellom Blokkhus og Høgkorsplassen i Gran kommune.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Skulptur eller kunst"
@@ -15327,6 +15827,7 @@
       "slug": "tankeplass-enmannsstien",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tankeplass-enmannsstien",
       "intro": "Enmannsstien av kunstnerne Elin Melberg, Martina Andersson og Elin Viléus Henricson ligger ved Apelsvoll på Toten.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Skulptur eller kunst"
@@ -15356,6 +15857,7 @@
       "slug": "hvilebenk-ved-kittelsrud",
       "url": "https://www.pilegrimsleden.no/interessepunkter/hvilebenk-ved-kittelsrud",
       "intro": "Hvilebenk ved Kittelsrud gård",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15379,6 +15881,7 @@
       "slug": "snarvei-til-tunsbergleden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/snarvei-til-tunsbergleden",
       "intro": "Ved Haslum kirke kan du ta en snarvei til Tunsbergleden eller fortsette på din vandring til Nidaros i Trondheim på Gudbrandsdalsleden.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15403,6 +15906,7 @@
       "slug": "solsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/solsjoen",
       "intro": "Fin rasteplass ved Solsjøen. Fortsett til neste hvis du vil bade eller sette opp telt",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15426,6 +15930,7 @@
       "slug": "rasteplass-ved-solsjoen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-ved-solsjoen",
       "intro": "Nydelig rasteplass, hvor du også kan sette opp telt.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Naturområde"
@@ -15455,6 +15960,7 @@
       "slug": "smeltehytta-svorkmo-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/smeltehytta-svorkmo-rasteplass",
       "intro": "Ta en pust i baken og les om smeltehytta og historien om området",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15478,6 +15984,7 @@
       "slug": "rasteplass-krakhaugen-olskastet",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-krakhaugen-olskastet",
       "intro": "Enjoy !",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15501,6 +16008,7 @@
       "slug": "st-michaels-kapellet-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/st-michaels-kapellet-rasteplass",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15524,6 +16032,7 @@
       "slug": "joroskloppa-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/joroskloppa-rasteplass",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15547,6 +16056,7 @@
       "slug": "pilegrimsbenk-stavaa",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk-stavaa",
       "intro": "Du finner benken på venstre side, ved elva, på veg nordover",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15570,6 +16080,7 @@
       "slug": "nyhaug-fagerhaug-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/nyhaug-fagerhaug-rasteplass",
       "intro": "Du finner benken på høyre side av veien, på veg nordover!",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15593,6 +16104,7 @@
       "slug": "aasekjaer-rasteplass",
       "url": "https://www.pilegrimsleden.no/interessepunkter/aasekjaer-rasteplass",
       "intro": "Aasekjær - et sted for pause langs leden.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15616,6 +16128,7 @@
       "slug": "huseby-gard-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/huseby-gard-2",
       "intro": "Rasteplass i vakkert kulturlandskap",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15639,6 +16152,7 @@
       "slug": "alonsohuset",
       "url": "https://www.pilegrimsleden.no/interessepunkter/alonsohuset",
       "intro": "I landlige omgivelser, ca 4 km fra Sandefjord sentrum, finner du vår lille perle – ALONSOHUSET En inspirasjonshage, en hyggebutikk, en kulturarena. På tunet kan du slå deg ned med noe godt å drikke og kanskje møter du husets høner og katter.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Håndverk",
@@ -15680,6 +16194,7 @@
       "slug": "naturum-ange-turistbyra-borgsjo-pilgrimscenter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/naturum-ange-turistbyra-borgsjo-pilgrimscenter",
       "intro": "På borgsjö pilgrimcenter erbjuder vi service och information till pilgrimer. Här kan du få information om leden och köpa pilgrimspass. Du kan stämpla ditt pilgrimspass och även få bra information om området du befinner dig i. Pilgrimscenter är också gjort för andra besökare som vill lära sig mer och är nyfikna på leden. Välkommen!",
+      "address": "Borgsjöbyn 137 841 97 Erikslund",
       "categories": [
         "Pilegrimssenter",
         "Rasteplass",
@@ -15721,6 +16236,7 @@
       "slug": "rasteplass-for-skedsmo-kirke",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-for-skedsmo-kirke",
       "intro": "Flott rasteplass med utsikt over Skedsmo kirke",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15744,6 +16260,7 @@
       "slug": "rasteplass-4",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-4",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15767,6 +16284,7 @@
       "slug": "rasteplass-benk",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-benk",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15790,6 +16308,7 @@
       "slug": "rasteplass-5",
       "url": "https://www.pilegrimsleden.no/interessepunkter/rasteplass-5",
       "intro": "",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Matbutikk"
@@ -15819,6 +16338,7 @@
       "slug": "tankeplass-ritualer",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tankeplass-ritualer",
       "intro": "Kunstverket \"Ritualer\" er skapt av Haugen / Zohar Arkitekter (Marit Justine Haugen og Dan Zohar) og er plassert ved Einafjorden i Vestre Toten kommune.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Skulptur eller kunst"
@@ -15848,6 +16368,7 @@
       "slug": "tankeplass-reiser-og-ruiner-kunstverk-pa-pilegrimsleden",
       "url": "https://www.pilegrimsleden.no/interessepunkter/tankeplass-reiser-og-ruiner-kunstverk-pa-pilegrimsleden",
       "intro": "Tankeplass - kunstverk langs pilegrimsleden, et sted for hvile, refleksjon og kunst",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Skulptur eller kunst"
@@ -15877,6 +16398,7 @@
       "slug": "pilegrimsbenk-eggan-slipran",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk-eggan-slipran",
       "intro": "En velfortjent hvil etter en bratt oppstigning fra Skjepphaugen.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15900,6 +16422,7 @@
       "slug": "malvikstien",
       "url": "https://www.pilegrimsleden.no/interessepunkter/malvikstien",
       "intro": "Malvikstien er en 2,5 km universelt utformet turveg mellom Hommelvik og Muruvik i Malvik kommune. Turvegen går på et nedlagt jernbanespor (Nordlandsbanen). Turvegen er et statlig sikret friluftslivsområde i strandsonen. Den forbinder friområdene i Hommelvik med det statlig sikrede friluftslivsområdet Flatholman i Muruvik. Tilrettelagt med benker og grillplasser. Informasjonstavler med kultur- og naturhistorie er satt opp langs stien. Muligheter for geocaching. Flere fiskeplasser på svabergene ned mot sjøen. Rundtur og alternative stier er mulig å bruke dersom det er ønskelig.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15923,6 +16446,7 @@
       "slug": "solsjoen-rasteplass-i",
       "url": "https://www.pilegrimsleden.no/interessepunkter/solsjoen-rasteplass-i",
       "intro": "Langs Solsjøen har vi laget 3 rasteplasser. Dette er første mulighet. Vil du ha bord og mer plass eller er klar for et bad, fortsett videre.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -15946,6 +16470,7 @@
       "slug": "verdalsraset",
       "url": "https://www.pilegrimsleden.no/interessepunkter/verdalsraset",
       "intro": "I Leirådalen, på Jermstad, finner vi et utkikkspunkt med informasjonstavler som forteller om Verdalsraset. Her kan besøkende reflektere over tragedien og lære mer om denne skjebnesvangre dagen.",
+      "address": "",
       "categories": [
         "Rasteplass",
         "Turistinformasjon",
@@ -15981,6 +16506,7 @@
       "slug": "nordstuggu-fla",
       "url": "https://www.pilegrimsleden.no/interessepunkter/nordstuggu-fla",
       "intro": "Nordstuggu Flå – en ladeplass langs Pilegrimsleden",
+      "address": "Flågrenda 22, 7392 Rennebu",
       "categories": [
         "Rasteplass"
       ],
@@ -16004,6 +16530,7 @@
       "slug": "pilegrimsmuren",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsmuren",
       "intro": "Hvilested med benk.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -16027,6 +16554,7 @@
       "slug": "borgheim-menighetssenter",
       "url": "https://www.pilegrimsleden.no/interessepunkter/borgheim-menighetssenter",
       "intro": "Menighetssenter med mulighet for påfyll av vann og bruk av toalett.",
+      "address": "Rektorveien 2, 3140 Nøtterøy",
       "categories": [
         "Rasteplass"
       ],
@@ -16050,6 +16578,7 @@
       "slug": "utsiktspunkt-frodeasen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/utsiktspunkt-frodeasen",
       "intro": "Benk med utsikt.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -16073,6 +16602,7 @@
       "slug": "pilegrimsbenk-2",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk-2",
       "intro": "En hvil ved elva før stigning mot Ulberget",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -16096,6 +16626,7 @@
       "slug": "jutulstuggu-pa-stamnan",
       "url": "https://www.pilegrimsleden.no/interessepunkter/jutulstuggu-pa-stamnan",
       "intro": "Flott rasteplass med tilgang til wc og vann like ved.",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],
@@ -16119,6 +16650,7 @@
       "slug": "pilegrimsbenk-langs-tverrdalsvegen",
       "url": "https://www.pilegrimsleden.no/interessepunkter/pilegrimsbenk-langs-tverrdalsvegen",
       "intro": "En pust i bakken langs vegen",
+      "address": "",
       "categories": [
         "Rasteplass"
       ],

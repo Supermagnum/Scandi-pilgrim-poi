@@ -4,7 +4,7 @@
 Data source (discovered from https://www.pilegrimsleden.no/kart):
   GraphQL POST https://www.pilegrimsleden.no/actions/graphql/api
     query poiEntries / entryCount on section "poi" (poi_Entry)
-    fields: id, title, slug, url, intro, location { lat lng }, poiType { id title slug }
+    fields: id, title, slug, url, intro, address, location { lat lng }, poiType { id title slug }
     trail relation field handle on poi_Entry is "trail", but the public schema returns
     empty lists for that field. Inverse relations work via relatedTo: [trailEntryId].
 
@@ -126,6 +126,7 @@ query PoiPage($types: [QueryArgument], $limit: Int, $offset: Int) {
       slug
       url
       intro
+      address
       location { lat lng }
       poiType { id title slug }
     }
@@ -347,6 +348,7 @@ def build_records(
             "slug": poi.get("slug") or "",
             "url": poi.get("url") or "",
             "intro": compact_text(poi.get("intro")),
+            "address": compact_text(poi.get("address")),
             "categories": titles,
             "poi_type": poi.get("poiType") or [],
             "lat": point[0] if point else None,
