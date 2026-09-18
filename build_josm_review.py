@@ -6,8 +6,8 @@ trail.osm contains:
   - existing CMS overnight POIs already in OSM
   - new CMS suggestions (note:proposed=Proposed addition)
   - existing OSM lodging near the route that is NOT yet a member of the live
-    OSM route relation (positive OSM ids / way-centroid proxies) so they can
-    be selected in JOSM and added to that relation
+    OSM route relation (real OSM nodes / ways / relations with full geometry)
+    so they can be selected in JOSM and added to that relation
 
 Does not write research tags such as pilegrimsleden:match_status into the OSM file.
 Replaces per-trail CSV/JSON research dumps with a short README.md, then removes
@@ -78,6 +78,19 @@ MOVE_POI_COORDS: dict[str, dict[str, tuple[float, float]]] = {
     },
 }
 
+# Buildings / areas that must appear with real geometry in trail.osm (not proxies).
+REQUIRED_OSM_OBJECTS: dict[str, list[str]] = {
+    "Romeriksleden": [
+        "way/23439344",  # Thon Hotel Gardermoen building
+        "way/303953979",  # Vikingskipet Hotell og Spiseri
+        "way/633872773",  # correct building for misplaced node/6800398116
+        "way/98811698",  # Pilegrimssenter Hamar
+        "way/1004901845",  # Brynn i Bergsengroa
+        "way/315143760",  # Gapahuk i Furuberget
+        "relation/3836486",  # Thon Partner Hotel Victoria Hamar (multipolygon)
+    ],
+}
+
 # Research dumps replaced by README.md (removed after README is written).
 RESEARCH_GLOBS = (
     "*.csv",
@@ -100,6 +113,10 @@ def points_from_hiking_osm(path: Path) -> list[tuple[float, float]]:
     }
     points: list[tuple[float, float]] = []
     for way in root.findall("way"):
+        tags = {t.attrib["k"]: t.attrib["v"] for t in way.findall("tag")}
+        # Prefer the densified research path; ignore real OSM building ways.
+        if tags.get("highway") != "path" and "note:trail" not in tags:
+            continue
         for nd in way.findall("nd"):
             ref = nd.attrib.get("ref")
             if ref in nodes:
@@ -229,7 +246,399 @@ def load_relation_candidates(
         rows = load_csv_rows(path)
         if rows:
             return rows
-    return []
+    recovered = recover_candidates_from_trail_osm(trail_dir / TRAIL_OSM_NAME)
+    if recovered:
+        log(
+            f"  recovered {len(recovered)} relation candidates from existing "
+            f"{TRAIL_OSM_NAME}"
+        )
+    return recovered
+
+
+def recover_candidates_from_trail_osm(path: Path) -> list[dict[str, str]]:
+    """Rebuild route_add candidate rows from an existing trail.osm."""
+    if not path.exists():
+        return []
+    root = ET.fromstring(path.read_text(encoding="utf-8"))
+    rows: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for node in root.findall("node"):
+        tags = {t.attrib["k"]: t.attrib["v"] for t in node.findall("tag")}
+        if "note:relation_member" not in tags:
+            continue
+        lat = node.attrib.get("lat")
+        lon = node.attrib.get("lon")
+        if not lat or not lon:
+            continue
+        osm_object = (tags.get("note:osm_object") or "").strip()
+        if osm_object:
+            osm_id = osm_object
+        else:
+            try:
+                nid = int(node.attrib["id"])
+            except (KeyError, ValueError):
+                continue
+            if nid <= 0:
+                continue
+            osm_id = f"node/{nid}"
+        if osm_id in seen:
+            continue
+        seen.add(osm_id)
+        rows.append(
+            {
+                "osm_id": osm_id,
+                "lat": lat,
+                "lon": lon,
+                "name": tags.get("name") or "",
+                "tourism": tags.get("tourism") or "",
+                "amenity": tags.get("amenity") or "",
+                "building": tags.get("building") or "",
+            }
+        )
+    return rows
+
+
+def recover_cms_rows_from_trail_osm(path: Path, trail_name: str) -> list[dict[str, str]]:
+    """Rebuild CMS shelter rows from existing/proposed nodes in trail.osm."""
+    if not path.exists():
+        return []
+    root = ET.fromstring(path.read_text(encoding="utf-8"))
+    rows: list[dict[str, str]] = []
+    for node in root.findall("node"):
+        tags = {t.attrib["k"]: t.attrib["v"] for t in node.findall("tag")}
+        if tags.get("source") != "pilegrimsleden.no":
+            continue
+        if "note:relation_member" in tags or tags.get("note:osm_object"):
+            continue
+        lat = node.attrib.get("lat")
+        lon = node.attrib.get("lon")
+        if not lat or not lon:
+            continue
+        proposed = "note:proposed" in tags
+        rows.append(
+            {
+                "trail": tags.get("note:trail") or trail_name,
+                "poi_name": tags.get("name") or tags.get("alt_name") or "",
+                "category": "Overnatting",
+                "lat": lat,
+                "lon": lon,
+                "match_status": "gap" if proposed else "matched",
+                "matched_osm_name": tags.get("name") or "",
+            }
+        )
+    return rows
+
+
+def merge_required_osm_objects(
+    candidates: list[dict[str, str]], folder: str
+) -> list[dict[str, str]]:
+    """Ensure correction buildings/areas are present as route_add candidates."""
+    required = REQUIRED_OSM_OBJECTS.get(folder, [])
+    if not required:
+        return candidates
+    by_id = {
+        (row.get("osm_id") or "").strip(): row
+        for row in candidates
+        if (row.get("osm_id") or "").strip()
+    }
+    for osm_id in required:
+        if osm_id in by_id:
+            continue
+        try:
+            kind, oid_s = osm_id.split("/", 1)
+            oid = int(oid_s)
+        except ValueError:
+            continue
+        lat, lon, name, tourism, amenity, building = lookup_osm_object_meta(
+            kind, oid
+        )
+        if lat is None or lon is None:
+            log(f"  WARNING: could not resolve required {osm_id}")
+            continue
+        row = {
+            "osm_id": osm_id,
+            "lat": f"{lat:.7f}",
+            "lon": f"{lon:.7f}",
+            "name": name,
+            "tourism": tourism,
+            "amenity": amenity,
+            "building": building,
+        }
+        candidates.append(row)
+        by_id[osm_id] = row
+        log(f"  added required building/area {osm_id}")
+    return candidates
+
+
+def lookup_osm_object_meta(
+    kind: str, oid: int
+) -> tuple[float | None, float | None, str, str, str, str]:
+    """Return centroid + key tags for an OSM node/way/relation."""
+    url = f"https://www.openstreetmap.org/api/0.6/{kind}/{oid}/full"
+    root = ET.fromstring(http_get(url, timeout=120))
+    nodes = {
+        n.attrib["id"]: (float(n.attrib["lat"]), float(n.attrib["lon"]))
+        for n in root.findall("node")
+        if "lat" in n.attrib and "lon" in n.attrib
+    }
+    if kind == "node":
+        el = root.find("node")
+        if el is None or el.attrib.get("id") != str(oid):
+            return None, None, "", "", "", ""
+        tags = {t.attrib["k"]: t.attrib["v"] for t in el.findall("tag")}
+        return (
+            float(el.attrib["lat"]),
+            float(el.attrib["lon"]),
+            tags.get("name") or "",
+            tags.get("tourism") or "",
+            tags.get("amenity") or "",
+            tags.get("building") or "",
+        )
+    if kind == "way":
+        el = root.find(f"./way[@id='{oid}']")
+        if el is None:
+            for way in root.findall("way"):
+                if way.attrib.get("id") == str(oid):
+                    el = way
+                    break
+        if el is None:
+            return None, None, "", "", "", ""
+        tags = {t.attrib["k"]: t.attrib["v"] for t in el.findall("tag")}
+        pts = [
+            nodes[nd.attrib["ref"]]
+            for nd in el.findall("nd")
+            if nd.attrib.get("ref") in nodes
+        ]
+        if not pts:
+            return None, None, "", "", "", ""
+        lat = sum(p[0] for p in pts) / len(pts)
+        lon = sum(p[1] for p in pts) / len(pts)
+        return (
+            lat,
+            lon,
+            tags.get("name") or "",
+            tags.get("tourism") or "",
+            tags.get("amenity") or "",
+            tags.get("building") or "",
+        )
+    el = None
+    for rel in root.findall("relation"):
+        if rel.attrib.get("id") == str(oid):
+            el = rel
+            break
+    if el is None:
+        return None, None, "", "", "", ""
+    tags = {t.attrib["k"]: t.attrib["v"] for t in el.findall("tag")}
+    if nodes:
+        lat = sum(p[0] for p in nodes.values()) / len(nodes)
+        lon = sum(p[1] for p in nodes.values()) / len(nodes)
+    else:
+        return None, None, "", "", "", ""
+    return (
+        lat,
+        lon,
+        tags.get("name") or "",
+        tags.get("tourism") or "",
+        tags.get("amenity") or "",
+        tags.get("building") or "",
+    )
+
+
+def _attr_xml(attrs: dict[str, str], keys: list[str]) -> str:
+    parts: list[str] = []
+    for key in keys:
+        if key in attrs:
+            parts.append(f"{key}='{xml_escape(attrs[key])}'")
+    for key, value in attrs.items():
+        if key in keys:
+            continue
+        parts.append(f"{key}='{xml_escape(value)}'")
+    return " ".join(parts)
+
+
+def serialize_osm_element(
+    el: ET.Element,
+    *,
+    extra_tags: list[tuple[str, str]] | None = None,
+) -> list[str]:
+    """Serialize one OSM XML element using the trail.osm single-quote style."""
+    tag = el.tag
+    attrs = dict(el.attrib)
+    lines: list[str] = []
+    if tag == "node":
+        order = ["id", "version", "timestamp", "uid", "user", "changeset", "visible", "lat", "lon"]
+        children = list(el)
+        if not children and not extra_tags:
+            lines.append(f"  <node {_attr_xml(attrs, order)}/>")
+            return lines
+        lines.append(f"  <node {_attr_xml(attrs, order)}>")
+    elif tag == "way":
+        order = ["id", "version", "timestamp", "uid", "user", "changeset", "visible"]
+        lines.append(f"  <way {_attr_xml(attrs, order)}>")
+        for nd in el.findall("nd"):
+            lines.append(f"    <nd ref='{xml_escape(nd.attrib['ref'])}'/>")
+    elif tag == "relation":
+        order = ["id", "version", "timestamp", "uid", "user", "changeset", "visible"]
+        lines.append(f"  <relation {_attr_xml(attrs, order)}>")
+        for member in el.findall("member"):
+            mtype = member.attrib.get("type") or ""
+            ref = member.attrib.get("ref") or ""
+            role = member.attrib.get("role") or ""
+            lines.append(
+                f"    <member type='{xml_escape(mtype)}' ref='{xml_escape(ref)}' "
+                f"role='{xml_escape(role)}'/>"
+            )
+    else:
+        return []
+
+    existing = {t.attrib["k"] for t in el.findall("tag") if "k" in t.attrib}
+    for tag_el in el.findall("tag"):
+        key = tag_el.attrib.get("k")
+        val = tag_el.attrib.get("v")
+        if key is None or val is None:
+            continue
+        lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>")
+    for key, val in extra_tags or []:
+        if not val or key in existing:
+            continue
+        lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>")
+        existing.add(key)
+    lines.append(f"  </{tag}>")
+    return lines
+
+
+def append_full_osm_object(
+    lines: list[str],
+    *,
+    kind: str,
+    oid: int,
+    relation_id: int,
+    seen_elements: set[tuple[str, str]],
+    name_fallback: str = "",
+    pbf_cache: dict[tuple[str, int], dict] | None = None,
+) -> bool:
+    """Append real OSM geometry into trail.osm lines (PBF cache or API /full)."""
+    note = f"{RELATION_MEMBER_NOTE} {relation_id}"
+    extra = [
+        ("note:relation_member", note),
+        ("note:osm_route_relation", str(relation_id)),
+    ]
+    if name_fallback:
+        extra.append(("name", name_fallback))
+
+    cached = (pbf_cache or {}).get((kind, oid))
+    if cached and kind == "way":
+        primary_key = ("way", str(oid))
+        if primary_key in seen_elements:
+            return True
+        for nid, (lat, lon) in cached["nodes"].items():
+            nkey = ("node", str(nid))
+            if nkey in seen_elements:
+                continue
+            seen_elements.add(nkey)
+            lines.append(
+                f"  <node id='{nid}' version='1' visible='true' "
+                f"lat='{lat:.7f}' lon='{lon:.7f}'/>"
+            )
+        attrs = {"id": str(oid), "version": str(cached.get("version") or "1"), "visible": "true"}
+        lines.append(f"  <way {_attr_xml(attrs, ['id', 'version', 'visible'])}>")
+        for nid in cached["node_refs"]:
+            lines.append(f"    <nd ref='{nid}'/>")
+        existing = set(cached["tags"])
+        for key, val in cached["tags"].items():
+            lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>")
+        for key, val in extra:
+            if not val or key in existing:
+                continue
+            lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>")
+            existing.add(key)
+        lines.append("  </way>")
+        seen_elements.add(primary_key)
+        return True
+
+    url = f"https://www.openstreetmap.org/api/0.6/{kind}/{oid}/full"
+    root = ET.fromstring(http_get(url, timeout=120))
+    primary_found = False
+    for child_kind in ("node", "way", "relation"):
+        for el in root.findall(child_kind):
+            eid = el.attrib.get("id")
+            if not eid:
+                continue
+            key = (child_kind, eid)
+            is_primary = child_kind == kind and eid == str(oid)
+            if key in seen_elements:
+                if is_primary:
+                    primary_found = True
+                continue
+            seen_elements.add(key)
+            if is_primary:
+                primary_found = True
+                lines.extend(serialize_osm_element(el, extra_tags=extra))
+            else:
+                lines.extend(serialize_osm_element(el))
+    return primary_found
+
+
+def load_ways_from_pbf(
+    pbf_path: Path, way_ids: set[int]
+) -> dict[tuple[str, int], dict]:
+    """Load selected ways + node coordinates from a Geofabrik PBF."""
+    if not way_ids or not pbf_path.exists():
+        return {}
+    import osmium
+
+    class Handler(osmium.SimpleHandler):
+        def __init__(self) -> None:
+            super().__init__()
+            self.out: dict[tuple[str, int], dict] = {}
+
+        def way(self, way: object) -> None:
+            wid = int(way.id)  # type: ignore[attr-defined]
+            if wid not in way_ids:
+                return
+            nodes: dict[int, tuple[float, float]] = {}
+            refs: list[int] = []
+            try:
+                for node in way.nodes:  # type: ignore[attr-defined]
+                    if not node.location.valid():
+                        continue
+                    nid = int(node.ref)
+                    nodes[nid] = (float(node.location.lat), float(node.location.lon))
+                    refs.append(nid)
+            except osmium.InvalidLocationError:
+                return
+            if len(refs) < 2:
+                return
+            tags = {tag.k: tag.v for tag in way.tags}  # type: ignore[attr-defined]
+            self.out[("way", wid)] = {
+                "nodes": nodes,
+                "node_refs": refs,
+                "tags": tags,
+                "version": int(getattr(way, "version", 1) or 1),
+            }
+
+    log(f"  loading {len(way_ids)} ways from {pbf_path.name}")
+    handler = Handler()
+    handler.apply_file(str(pbf_path), locations=True, idx="flex_mem")
+    log(f"  loaded {len(handler.out)} ways from PBF")
+    return handler.out
+
+
+def load_ways_from_pbfs(
+    pbf_paths: list[Path], way_ids: set[int]
+) -> dict[tuple[str, int], dict]:
+    """Load selected ways from one or more Geofabrik PBFs (merge hits)."""
+    merged: dict[tuple[str, int], dict] = {}
+    remaining = set(way_ids)
+    for pbf_path in pbf_paths:
+        if not remaining:
+            break
+        if not pbf_path.exists():
+            continue
+        found = load_ways_from_pbf(pbf_path, remaining)
+        merged.update(found)
+        remaining -= {oid for (_kind, oid) in found}
+    return merged
 
 
 def append_relation_candidate_nodes(
@@ -238,15 +647,31 @@ def append_relation_candidate_nodes(
     candidates: list[dict[str, str]],
     relation_id: int,
     next_id: int,
+    pbf_paths: list[Path] | None = None,
 ) -> tuple[list[tuple[str, int]], int]:
     """Emit OSM lodging so JOSM can add them to the live route relation.
 
-    Nodes keep their real positive OSM ids. Ways are represented by a temporary
-    centroid proxy node (JOSM cannot edit a way with no nodes in-file); the
-    real osm id is in note:osm_object.
+    Nodes keep their real positive OSM ids. Ways and relations are embedded with
+    full geometry (building outlines / multipolygons), not centroids.
     """
     member_refs: list[tuple[str, int]] = []
     note = f"{RELATION_MEMBER_NOTE} {relation_id}"
+    seen_elements: set[tuple[str, str]] = set()
+
+    way_ids: set[int] = set()
+    for row in candidates:
+        osm_id = (row.get("osm_id") or "").strip()
+        try:
+            kind, oid_s = osm_id.split("/", 1)
+            oid = int(oid_s)
+        except ValueError:
+            continue
+        if kind == "way":
+            way_ids.add(oid)
+    pbf_cache: dict[tuple[str, int], dict] = {}
+    if pbf_paths and way_ids:
+        pbf_cache = load_ways_from_pbfs(pbf_paths, way_ids)
+
     for row in candidates:
         osm_id = (row.get("osm_id") or "").strip()
         try:
@@ -262,31 +687,37 @@ def append_relation_candidate_nodes(
                 f"  <node id='{oid}' version='1' visible='true' "
                 f"lat='{lat:.7f}' lon='{lon:.7f}'>"
             )
-            ref_kind, ref_id = "node", oid
-        else:
+            if name:
+                lines.append(f"    <tag k='name' v='{xml_escape(name)}'/>")
+            for key in ("tourism", "amenity", "building"):
+                val = (row.get(key) or "").strip()
+                if val:
+                    lines.append(
+                        f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>"
+                    )
+            lines.append(f"    <tag k='note:relation_member' v='{xml_escape(note)}'/>")
             lines.append(
-                f"  <node id='{next_id}' version='0' action='modify' visible='true' "
-                f"lat='{lat:.7f}' lon='{lon:.7f}'>"
+                f"    <tag k='note:osm_route_relation' v='{relation_id}'/>"
             )
-            ref_kind, ref_id = "node", next_id
-            next_id -= 1
-            lines.append(
-                f"    <tag k='note:osm_object' v='{xml_escape(osm_id)}'/>"
-            )
-        if name:
-            lines.append(f"    <tag k='name' v='{xml_escape(name)}'/>")
-        for key in ("tourism", "amenity", "building"):
-            val = (row.get(key) or "").strip()
-            if val:
-                lines.append(
-                    f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>"
-                )
-        lines.append(f"    <tag k='note:relation_member' v='{xml_escape(note)}'/>")
-        lines.append(
-            f"    <tag k='note:osm_route_relation' v='{relation_id}'/>"
+            lines.append("  </node>")
+            seen_elements.add(("node", str(oid)))
+            member_refs.append(("node", oid))
+            continue
+
+        log(f"  embedding {osm_id}")
+        ok = append_full_osm_object(
+            lines,
+            kind=kind,
+            oid=oid,
+            relation_id=relation_id,
+            seen_elements=seen_elements,
+            name_fallback=name,
+            pbf_cache=pbf_cache,
         )
-        lines.append("  </node>")
-        member_refs.append((ref_kind, ref_id))
+        if ok:
+            member_refs.append((kind, oid))
+        else:
+            log(f"  WARNING: failed to embed {osm_id}")
     return member_refs, next_id
 
 
@@ -297,6 +728,7 @@ def write_trail_osm(
     rows: list[dict[str, str]],
     path_points: list[tuple[float, float]],
     relation_candidates: list[dict[str, str]] | None = None,
+    pbf_paths: list[Path] | None = None,
 ) -> tuple[int, int, int]:
     skip_names = SKIP_POI_NAMES.get(trail_dir.name, set()) | SKIP_POI_NAMES.get(
         trail_name, set()
@@ -385,6 +817,7 @@ def write_trail_osm(
         candidates=candidates,
         relation_id=relation_id,
         next_id=next_id,
+        pbf_paths=pbf_paths,
     )
 
     rel_id = next_id
@@ -440,14 +873,20 @@ def load_shelters_for_trail(root: Path, folder: str, trail_name: str) -> list[di
             return rows
 
     national = root / "data" / "osm_comparison_results.csv"
-    if not national.exists():
-        return []
-    aliases = {trail_name, folder}
-    if folder == "Osterdalsleden":
-        aliases.add("Østerdalsleden")
-    if folder == "St-Olavsleden":
-        aliases.update({"St. Olavsleden", "St Olavsleden"})
-    return [r for r in load_csv_rows(national) if (r.get("trail") or "") in aliases]
+    if national.exists():
+        aliases = {trail_name, folder}
+        if folder == "Osterdalsleden":
+            aliases.add("Østerdalsleden")
+        if folder == "St-Olavsleden":
+            aliases.update({"St. Olavsleden", "St Olavsleden"})
+        rows = [r for r in load_csv_rows(national) if (r.get("trail") or "") in aliases]
+        if rows:
+            return rows
+
+    recovered = recover_cms_rows_from_trail_osm(trail_dir / TRAIL_OSM_NAME, trail_name)
+    if recovered:
+        log(f"  recovered {len(recovered)} CMS rows from existing {TRAIL_OSM_NAME}")
+    return recovered
 
 
 def write_trail_readme(
@@ -588,6 +1027,7 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
         log("  no shelter rows found — skip")
         return
     candidates = load_relation_candidates(root, folder)
+    candidates = merge_required_osm_objects(candidates, folder)
     if candidates:
         log(f"  relation candidates (route_add): {len(candidates)}")
     else:
@@ -596,6 +1036,18 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
             "first to embed OSM lodging for relation membership"
         )
     path_points = ensure_path_points(trail_dir, trail_name, relation_id)
+    geofabrik = root / "data" / "geofabrik"
+    pbf_paths = [
+        p
+        for p in (
+            geofabrik / "norway-latest.osm.pbf",
+            geofabrik / "sweden-latest.osm.pbf",
+        )
+        if p.exists()
+    ]
+    # Prefer the country PBF that covers most of the trail first.
+    if folder == "St-Olavsleden" and len(pbf_paths) == 2:
+        pbf_paths = [pbf_paths[1], pbf_paths[0]]
     existing_n, gaps_n, route_add_n = write_trail_osm(
         trail_dir,
         trail_name,
@@ -603,6 +1055,7 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
         shelters,
         path_points,
         relation_candidates=candidates,
+        pbf_paths=pbf_paths or None,
     )
     write_trail_readme(
         trail_dir,

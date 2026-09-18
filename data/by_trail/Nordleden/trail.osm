@@ -14374,14 +14374,117 @@
     <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
     <tag k='note:osm_route_relation' v='1585449'/>
   </node>
-  <node id='-7177' version='0' action='modify' visible='true' lat='63.7958067' lon='11.5627671'>
-    <tag k='note:osm_object' v='way/236640561'/>
-    <tag k='name' v='Scandic Stiklestad'/>
-    <tag k='tourism' v='hotel'/>
+  <node id='8700367665' version='1' visible='true' lat='63.7959020' lon='11.5622010'/>
+  <node id='7429713217' version='1' visible='true' lat='63.7958705' lon='11.5620145'/>
+  <node id='8700367664' version='1' visible='true' lat='63.7958450' lon='11.5618640'/>
+  <node id='8700367663' version='1' visible='true' lat='63.7956530' lon='11.5620300'/>
+  <node id='8700367662' version='1' visible='true' lat='63.7956550' lon='11.5620390'/>
+  <node id='8700367661' version='1' visible='true' lat='63.7956500' lon='11.5620430'/>
+  <node id='8700367660' version='1' visible='true' lat='63.7956450' lon='11.5620130'/>
+  <node id='8700367659' version='1' visible='true' lat='63.7955910' lon='11.5620590'/>
+  <node id='8700367658' version='1' visible='true' lat='63.7955750' lon='11.5620120'/>
+  <node id='8700367657' version='1' visible='true' lat='63.7954460' lon='11.5621230'/>
+  <node id='8700367656' version='1' visible='true' lat='63.7954040' lon='11.5622500'/>
+  <node id='8700367655' version='1' visible='true' lat='63.7953580' lon='11.5624160'/>
+  <node id='8700367654' version='1' visible='true' lat='63.7953160' lon='11.5626150'/>
+  <node id='8700367653' version='1' visible='true' lat='63.7952840' lon='11.5628350'/>
+  <node id='8700367652' version='1' visible='true' lat='63.7952680' lon='11.5630250'/>
+  <node id='8700367651' version='1' visible='true' lat='63.7952570' lon='11.5631800'/>
+  <node id='8700367650' version='1' visible='true' lat='63.7952630' lon='11.5632150'/>
+  <node id='8700367649' version='1' visible='true' lat='63.7953520' lon='11.5633790'/>
+  <node id='8700367648' version='1' visible='true' lat='63.7954310' lon='11.5634950'/>
+  <node id='8700367647' version='1' visible='true' lat='63.7955100' lon='11.5635850'/>
+  <node id='8700367646' version='1' visible='true' lat='63.7955660' lon='11.5636330'/>
+  <node id='8700367645' version='1' visible='true' lat='63.7956070' lon='11.5636640'/>
+  <node id='8700367644' version='1' visible='true' lat='63.7957020' lon='11.5637050'/>
+  <node id='8700367643' version='1' visible='true' lat='63.7957790' lon='11.5637230'/>
+  <node id='8700367642' version='1' visible='true' lat='63.7958550' lon='11.5637350'/>
+  <node id='8700367641' version='1' visible='true' lat='63.7959730' lon='11.5637350'/>
+  <node id='8700367640' version='1' visible='true' lat='63.7959970' lon='11.5636020'/>
+  <node id='8700367639' version='1' visible='true' lat='63.7959360' lon='11.5635900'/>
+  <node id='8700367638' version='1' visible='true' lat='63.7958690' lon='11.5631990'/>
+  <node id='8700367637' version='1' visible='true' lat='63.7958590' lon='11.5632080'/>
+  <node id='8700367636' version='1' visible='true' lat='63.7958570' lon='11.5631960'/>
+  <node id='8700367635' version='1' visible='true' lat='63.7960430' lon='11.5630350'/>
+  <node id='8700367634' version='1' visible='true' lat='63.7960240' lon='11.5629270'/>
+  <node id='8700367633' version='1' visible='true' lat='63.7960770' lon='11.5628810'/>
+  <node id='8700367632' version='1' visible='true' lat='63.7960850' lon='11.5629230'/>
+  <node id='8700367631' version='1' visible='true' lat='63.7961350' lon='11.5628800'/>
+  <node id='8700367630' version='1' visible='true' lat='63.7961730' lon='11.5631060'/>
+  <node id='8700367629' version='1' visible='true' lat='63.7962300' lon='11.5630570'/>
+  <node id='8700367628' version='1' visible='true' lat='63.7961840' lon='11.5627860'/>
+  <node id='8700367627' version='1' visible='true' lat='63.7961620' lon='11.5626520'/>
+  <node id='8700367626' version='1' visible='true' lat='63.7961710' lon='11.5626450'/>
+  <node id='8700367625' version='1' visible='true' lat='63.7961640' lon='11.5626030'/>
+  <node id='8700367624' version='1' visible='true' lat='63.7961670' lon='11.5626000'/>
+  <node id='8700367623' version='1' visible='true' lat='63.7961570' lon='11.5625420'/>
+  <node id='8700367622' version='1' visible='true' lat='63.7960970' lon='11.5625930'/>
+  <node id='12997573711' version='1' visible='true' lat='63.7960879' lon='11.5625394'/>
+  <node id='8700367621' version='1' visible='true' lat='63.7960070' lon='11.5620610'/>
+  <node id='8700367620' version='1' visible='true' lat='63.7960020' lon='11.5620660'/>
+  <node id='8700367619' version='1' visible='true' lat='63.7960010' lon='11.5620610'/>
+  <node id='8700367618' version='1' visible='true' lat='63.7958990' lon='11.5621490'/>
+  <node id='8700367617' version='1' visible='true' lat='63.7959070' lon='11.5621970'/>
+  <way id='236640561' version='5' visible='true'>
+    <nd ref='8700367665'/>
+    <nd ref='7429713217'/>
+    <nd ref='8700367664'/>
+    <nd ref='8700367663'/>
+    <nd ref='8700367662'/>
+    <nd ref='8700367661'/>
+    <nd ref='8700367660'/>
+    <nd ref='8700367659'/>
+    <nd ref='8700367658'/>
+    <nd ref='8700367657'/>
+    <nd ref='8700367656'/>
+    <nd ref='8700367655'/>
+    <nd ref='8700367654'/>
+    <nd ref='8700367653'/>
+    <nd ref='8700367652'/>
+    <nd ref='8700367651'/>
+    <nd ref='8700367650'/>
+    <nd ref='8700367649'/>
+    <nd ref='8700367648'/>
+    <nd ref='8700367647'/>
+    <nd ref='8700367646'/>
+    <nd ref='8700367645'/>
+    <nd ref='8700367644'/>
+    <nd ref='8700367643'/>
+    <nd ref='8700367642'/>
+    <nd ref='8700367641'/>
+    <nd ref='8700367640'/>
+    <nd ref='8700367639'/>
+    <nd ref='8700367638'/>
+    <nd ref='8700367637'/>
+    <nd ref='8700367636'/>
+    <nd ref='8700367635'/>
+    <nd ref='8700367634'/>
+    <nd ref='8700367633'/>
+    <nd ref='8700367632'/>
+    <nd ref='8700367631'/>
+    <nd ref='8700367630'/>
+    <nd ref='8700367629'/>
+    <nd ref='8700367628'/>
+    <nd ref='8700367627'/>
+    <nd ref='8700367626'/>
+    <nd ref='8700367625'/>
+    <nd ref='8700367624'/>
+    <nd ref='8700367623'/>
+    <nd ref='8700367622'/>
+    <nd ref='12997573711'/>
+    <nd ref='8700367621'/>
+    <nd ref='8700367620'/>
+    <nd ref='8700367619'/>
+    <nd ref='8700367618'/>
+    <nd ref='8700367617'/>
+    <nd ref='8700367665'/>
     <tag k='building' v='civic'/>
+    <tag k='name' v='Scandic Stiklestad'/>
+    <tag k='ref:bygningsnr' v='10909295'/>
+    <tag k='tourism' v='hotel'/>
     <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
     <tag k='note:osm_route_relation' v='1585449'/>
-  </node>
+  </way>
   <node id='9352334634' version='1' visible='true' lat='63.9038600' lon='11.5992976'>
     <tag k='tourism' v='picnic_site'/>
     <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
@@ -14398,12 +14501,12 @@
     <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
     <tag k='note:osm_route_relation' v='1585449'/>
   </node>
-  <relation id='-7178' version='0' action='modify' visible='true'>
+  <relation id='-7177' version='0' action='modify' visible='true'>
     <member type='way' ref='-7174' role='path'/>
     <member type='node' ref='-7175' role='existing'/>
     <member type='node' ref='-7176' role='existing'/>
     <member type='node' ref='14086452092' role='route_add'/>
-    <member type='node' ref='-7177' role='route_add'/>
+    <member type='way' ref='236640561' role='route_add'/>
     <member type='node' ref='9352334634' role='route_add'/>
     <member type='node' ref='13009019152' role='route_add'/>
     <member type='node' ref='10073630986' role='route_add'/>

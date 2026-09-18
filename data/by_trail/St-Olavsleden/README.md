@@ -40,7 +40,6 @@ members to the live route relation below (download/update those objects first).
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
 | Lodging near route not on relation (reference CSV) | 408 |
-| Horseback service points (reference) | 12 |
 
 ## New suggestions (names)
 

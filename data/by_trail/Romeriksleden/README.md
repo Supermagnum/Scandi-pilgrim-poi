@@ -32,14 +32,14 @@ members to the live route relation below (download/update those objects first).
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 61 |
+| Overnight POIs (CMS) | 42 |
 | Existing in trail.osm | 13 |
 | New suggestions in trail.osm | 29 |
-| OSM lodging to add to route relation (`route_add`) | 345 |
-| Pilgrim centers (reference) | 10 |
+| OSM lodging to add to route relation (`route_add`) | 350 |
+| Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
-| Lodging near route not on relation (reference CSV) | 345 |
+| Lodging near route not on relation (reference CSV) | 0 |
 
 ## New suggestions (names)
 
@@ -47,7 +47,6 @@ members to the live route relation below (download/update those objects first).
 - "Rastebu" ved Farseggen #2
 - Arteid Vestre
 - Atelier Lefstorvet
-- Brynn i Bergsengroa
 - Eidsvoll gamle prestegård - STENGT I 2026
 - Fjellheim gård
 - Frich`s Motell og Spiseri Rudshøgda
