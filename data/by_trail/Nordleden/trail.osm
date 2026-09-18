@@ -14368,13 +14368,49 @@
     <tag k='note:trail' v='Nordleden'/>
     <tag k='tourism' v='chalet'/>
   </node>
-  <relation id='-7177' version='0' action='modify' visible='true'>
+  <node id='14086452092' version='1' visible='true' lat='63.7959636' lon='11.5619465'>
+    <tag k='name' v='Stiklestad pilegrimssenter'/>
+    <tag k='tourism' v='information'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='-7177' version='0' action='modify' visible='true' lat='63.7958067' lon='11.5627671'>
+    <tag k='note:osm_object' v='way/236640561'/>
+    <tag k='name' v='Scandic Stiklestad'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='civic'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='9352334634' version='1' visible='true' lat='63.9038600' lon='11.5992976'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='13009019152' version='1' visible='true' lat='63.7824591' lon='11.5708329'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <node id='10073630986' version='1' visible='true' lat='63.8027966' lon='11.6870263'>
+    <tag k='name' v='Leirsjøhytta'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 1585449'/>
+    <tag k='note:osm_route_relation' v='1585449'/>
+  </node>
+  <relation id='-7178' version='0' action='modify' visible='true'>
     <member type='way' ref='-7174' role='path'/>
     <member type='node' ref='-7175' role='existing'/>
     <member type='node' ref='-7176' role='existing'/>
+    <member type='node' ref='14086452092' role='route_add'/>
+    <member type='node' ref='-7177' role='route_add'/>
+    <member type='node' ref='9352334634' role='route_add'/>
+    <member type='node' ref='13009019152' role='route_add'/>
+    <member type='node' ref='10073630986' role='route_add'/>
     <tag k='type' v='site'/>
     <tag k='name' v='Nordleden'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Nordleden'/>
+    <tag k='note' v='Local JOSM research file. role=route_add objects are existing OSM lodging to consider adding to relation/1585449.'/>
   </relation>
 </osm>

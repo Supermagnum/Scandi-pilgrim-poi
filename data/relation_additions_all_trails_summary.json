@@ -22,13 +22,13 @@
       5672944
     ],
     "existing_osm_relation_members": 931,
-    "osm_along_route": 256,
+    "osm_along_route": 262,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 256,
+    "osm_missing_for_relation": 262,
     "cms_shelters": 16,
     "cms_gaps": 8,
-    "shelters_with_proposal_note": 16,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "shelters_with_proposal_note": 8,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Gudbrandsdalsleden",
@@ -50,13 +50,13 @@
       1370273
     ],
     "existing_osm_relation_members": 1043,
-    "osm_along_route": 345,
+    "osm_along_route": 350,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 345,
+    "osm_missing_for_relation": 350,
     "cms_shelters": 169,
-    "cms_gaps": 88,
-    "shelters_with_proposal_note": 169,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "cms_gaps": 79,
+    "shelters_with_proposal_note": 79,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Kystpilegrimsleia",
@@ -76,13 +76,13 @@
       10508888
     ],
     "existing_osm_relation_members": 73,
-    "osm_along_route": 87,
+    "osm_along_route": 88,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 87,
+    "osm_missing_for_relation": 88,
     "cms_shelters": 49,
-    "cms_gaps": 29,
-    "shelters_with_proposal_note": 49,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "cms_gaps": 28,
+    "shelters_with_proposal_note": 28,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Nordleden",
@@ -107,8 +107,8 @@
     "osm_missing_for_relation": 5,
     "cms_shelters": 2,
     "cms_gaps": 0,
-    "shelters_with_proposal_note": 2,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "shelters_with_proposal_note": 0,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Osterdalsleden",
@@ -140,13 +140,13 @@
       7940904
     ],
     "existing_osm_relation_members": 783,
-    "osm_along_route": 191,
+    "osm_along_route": 194,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 191,
+    "osm_missing_for_relation": 194,
     "cms_shelters": 50,
     "cms_gaps": 36,
-    "shelters_with_proposal_note": 50,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "shelters_with_proposal_note": 36,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Romboleden",
@@ -168,13 +168,13 @@
       1151161
     ],
     "existing_osm_relation_members": 1124,
-    "osm_along_route": 441,
+    "osm_along_route": 455,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 441,
+    "osm_missing_for_relation": 455,
     "cms_shelters": 9,
     "cms_gaps": 5,
-    "shelters_with_proposal_note": 9,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "shelters_with_proposal_note": 5,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "St-Olavsleden",
@@ -234,13 +234,13 @@
       19237788
     ],
     "existing_osm_relation_members": 1460,
-    "osm_along_route": 1208,
+    "osm_along_route": 408,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 1208,
-    "cms_shelters": 176,
-    "cms_gaps": 118,
-    "shelters_with_proposal_note": 176,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "osm_missing_for_relation": 408,
+    "cms_shelters": 142,
+    "cms_gaps": 96,
+    "shelters_with_proposal_note": 96,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Tunsbergleden",
@@ -263,13 +263,13 @@
       5661086
     ],
     "existing_osm_relation_members": 687,
-    "osm_along_route": 178,
+    "osm_along_route": 184,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 178,
+    "osm_missing_for_relation": 184,
     "cms_shelters": 33,
     "cms_gaps": 18,
-    "shelters_with_proposal_note": 33,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "shelters_with_proposal_note": 18,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   },
   {
     "folder": "Valldalsleden",
@@ -289,12 +289,12 @@
       11218584
     ],
     "existing_osm_relation_members": 278,
-    "osm_along_route": 43,
+    "osm_along_route": 45,
     "osm_already_related": 0,
-    "osm_missing_for_relation": 43,
+    "osm_missing_for_relation": 45,
     "cms_shelters": 22,
     "cms_gaps": 9,
-    "shelters_with_proposal_note": 22,
-    "policy": "Never modify existing OSM relation members. Propose only missing nearby lodging objects + CMS gaps in missing_additions.osm (local research file)."
+    "shelters_with_proposal_note": 9,
+    "policy": "Never modify existing OSM relation members. CSV research lives under data/research_by_trail/; trail folders only get trail.osm + README from build_josm_review.py."
   }
 ]

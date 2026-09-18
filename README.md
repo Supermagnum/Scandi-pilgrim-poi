@@ -69,20 +69,22 @@ to review, not an instruction to upload.
 Latest pass (`propose_relation_additions.py`, Romeriksleden via
 `extract_romeriksleden.py`):
 
-| folder | OSM relation | already | missing (CSV) | CMS gaps in trail.osm |
+| folder | OSM relation | already | missing / route_add | CMS gaps in trail.osm |
 | --- | ---: | ---: | ---: | ---: |
-| Borgleden | 5672944 | 0 | 256 | 8 |
-| Gudbrandsdalsleden | 1370273 | 0 | 345 | 79 |
-| Kystpilegrimsleia | 10508888 | 0 | 87 | 28 |
+| Borgleden | 5672944 | 0 | 262 | 8 |
+| Gudbrandsdalsleden | 1370273 | 0 | 350 | 79 |
+| Kystpilegrimsleia | 10508888 | 0 | 88 | 28 |
 | Nordleden | 1585449 | 0 | 5 | 0 |
-| Osterdalsleden | 5129262 | 0 | 191 | 36 |
-| Romboleden | 1151161 | 0 | 441 | 5 |
+| Osterdalsleden | 5129262 | 0 | 194 | 36 |
+| Romboleden | 1151161 | 0 | 455 | 5 |
 | Romeriksleden | 1200009 | 0 | 345 | 29 |
-| St-Olavsleden | 10524322 | 0 | 1208 | 96 |
-| Tunsbergleden | 5661086 | 0 | 178 | 18 |
-| Valldalsleden | 11218584 | 0 | 43 | 9 |
+| St-Olavsleden | 10524322 | 0 | 408 | 96 |
+| Tunsbergleden | 5661086 | 0 | 184 | 18 |
+| Valldalsleden | 11218584 | 0 | 45 | 9 |
 
-See `data/by_trail/README.md` and `data/relation_additions_all_trails_summary.json`.
+Those “missing” lodging objects are embedded in each `trail.osm` as members with
+role `route_add` (search `note:relation_member=…`) so they can be added to the
+live OSM route relation in JOSM. CSVs also live under `data/research_by_trail/`.
 
 ## Directory layout
 
@@ -111,14 +113,22 @@ scripts (repo root):
 ```
 
 Each trail folder has **exactly one** `.osm` file: `trail.osm`, plus a short
-`README.md`. The OSM file must not carry research keys such as
-`pilegrimsleden:match_status`. Only suggested nodes use
+`README.md`. The OSM file must not carry research tags such as
+`pilegrimsleden:match_status`. Only suggested CMS nodes use
 `note:proposed=Proposed addition`.
 
-`trail.osm` is a local research `type=site` relation (negative IDs). It is not
-the live OSM route relation and does not carry that relation’s hundreds of path
-way members. Uploading it as written adds new objects only; it does not remove
-or rewrite membership of existing OSM route relations.
+`trail.osm` is a local research `type=site` relation. It includes:
+
+1. One densified path (not every live OSM route way member)
+2. CMS overnight matches / gaps
+3. **Existing OSM lodging near the route that is not yet on the live route
+   relation** — role `route_add`, tagged `note:relation_member=…` so they are
+   present in JOSM and can be added as members of the real OSM route relation
+
+Uploading new CMS suggestion nodes as written does not rewrite membership of
+existing OSM route relations. `route_add` objects are already in OSM; download
+or update them in JOSM, then add them to the live relation.
+
 
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
@@ -141,19 +151,24 @@ Search: `note:proposed=Proposed addition`. Relation roles: `path`, `existing`,
 
 ### `trail.osm` is not the live OSM route relation
 
-Each trail folder’s `trail.osm` ships a **new local** `type=site` relation with
-**negative IDs** (new path way + lodging nodes). It is a JOSM review aid, not a
-copy of the live OSM hiking route (e.g. Romeriksleden
+Each trail folder’s `trail.osm` ships a **local** `type=site` research relation
+for JOSM. It is not a dump of the live OSM hiking route (e.g. Romeriksleden
 [relation/1200009](https://www.openstreetmap.org/relation/1200009) with its ~988
 way members).
 
-That is why member counts differ: the OSM route holds hundreds of path ways;
-`trail.osm` holds one simplified path plus overnight POIs only.
+It does include, in the same layer:
 
-Uploading `trail.osm` **as written** creates *additional* new objects. It does
-**not** rewrite, replace, or remove members from any existing OSM relation
-(including other pilgrimage routes). Membership of live route relations is only
-changed if you deliberately edit those relations in JOSM/iD after review.
+- CMS overnight matches and new suggestions
+- **Existing OSM lodging** near the route that is **not** yet a member of the
+  live route relation (`role=route_add`). Those objects must be in `trail.osm`
+  so JOSM can select them and add them to the real relation. Search:
+  `note:relation_member=Add as member of OSM route relation`
+
+Uploading new CMS suggestion nodes **as written** creates additional objects; it
+does **not** rewrite or remove members of any existing OSM relation. Adding
+`route_add` lodging to the live route is a deliberate JOSM edit of that relation
+after review.
+
 
 ### Workflow
 
@@ -230,10 +245,10 @@ python3 extract_stolavsleden.py
 # Romeriksleden corridor from OSM relation 1200009
 python3 extract_romeriksleden.py
 
-# Membership proposals for all trails (optional --skip / --reuse-pbf / --only)
+# Membership proposals for all trails (writes data/research_by_trail/)
 python3 propose_relation_additions.py
 
-# Rebuild the single per-trail OSM file (path + existing + suggestions)
+# Rebuild the single per-trail OSM file (path + CMS POIs + route_add lodging)
 python3 build_josm_review.py
 ```
 

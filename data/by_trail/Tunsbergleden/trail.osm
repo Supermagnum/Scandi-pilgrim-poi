@@ -16135,7 +16135,1167 @@
     <tag k='hostel:type' v='pilgrim'/>
     <tag k='note:proposed' v='Proposed addition'/>
   </node>
-  <relation id='-7962' version='0' action='modify' visible='true'>
+  <node id='-7962' version='0' action='modify' visible='true' lat='59.8492926' lon='10.4471283'>
+    <tag k='note:osm_object' v='way/960805989'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7963' version='0' action='modify' visible='true' lat='59.8570749' lon='10.4663571'>
+    <tag k='note:osm_object' v='way/958868381'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7964' version='0' action='modify' visible='true' lat='59.7247574' lon='10.1873401'>
+    <tag k='note:osm_object' v='way/447241726'/>
+    <tag k='name' v='Blektjernstua'/>
+    <tag k='tourism' v='wilderness_hut'/>
+    <tag k='building' v='hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7965' version='0' action='modify' visible='true' lat='59.7431492' lon='10.2037027'>
+    <tag k='note:osm_object' v='way/930916193'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='service'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6637707918' version='1' visible='true' lat='59.7398793' lon='10.2024033'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7966' version='0' action='modify' visible='true' lat='59.8570484' lon='10.4671897'>
+    <tag k='note:osm_object' v='way/958868376'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7967' version='0' action='modify' visible='true' lat='59.7395954' lon='10.2002924'>
+    <tag k='note:osm_object' v='way/111633158'/>
+    <tag k='name' v='Globus Hotel'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4341903600' version='1' visible='true' lat='59.4182652' lon='10.4395451'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7968' version='0' action='modify' visible='true' lat='59.4417814' lon='10.4330727'>
+    <tag k='note:osm_object' v='way/945260772'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4710485003' version='1' visible='true' lat='59.8611570' lon='10.4675983'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4341903601' version='1' visible='true' lat='59.4186143' lon='10.4390635'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7969' version='0' action='modify' visible='true' lat='59.5471426' lon='10.2128919'>
+    <tag k='note:osm_object' v='way/896193087'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7970' version='0' action='modify' visible='true' lat='59.7303553' lon='10.2061257'>
+    <tag k='note:osm_object' v='way/1534404103'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9833914322' version='1' visible='true' lat='59.5086338' lon='10.2497005'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2113505050' version='1' visible='true' lat='59.9235616' lon='10.4928818'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4710484878' version='1' visible='true' lat='59.8607719' lon='10.4665881'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7971' version='0' action='modify' visible='true' lat='59.7250584' lon='10.1871388'>
+    <tag k='note:osm_object' v='way/1422859017'/>
+    <tag k='name' v='Blektjernhytta gapahuk'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7972' version='0' action='modify' visible='true' lat='59.3775268' lon='10.4661029'>
+    <tag k='note:osm_object' v='way/561884725'/>
+    <tag k='name' v='Borre Familiecamping'/>
+    <tag k='tourism' v='camp_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7973' version='0' action='modify' visible='true' lat='59.7250874' lon='10.1870706'>
+    <tag k='note:osm_object' v='way/1422859018'/>
+    <tag k='name' v='Blektjernhytta gapahuk'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7974' version='0' action='modify' visible='true' lat='59.9073378' lon='10.5330803'>
+    <tag k='note:osm_object' v='way/1032462645'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='transportation'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7975' version='0' action='modify' visible='true' lat='59.7250492' lon='10.1869262'>
+    <tag k='note:osm_object' v='way/917349161'/>
+    <tag k='name' v='Blektjernhytta gapahuk'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1013899243' version='1' visible='true' lat='59.9240696' lon='10.4927104'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7976' version='0' action='modify' visible='true' lat='59.7400823' lon='10.2005660'>
+    <tag k='note:osm_object' v='way/111633149'/>
+    <tag k='name' v='Scandic Ambassadeur Drammen'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4341903602' version='1' visible='true' lat='59.4290449' lon='10.4066920'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7977' version='0' action='modify' visible='true' lat='59.5001455' lon='10.2577879'>
+    <tag k='note:osm_object' v='way/887500719'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='448828213' version='1' visible='true' lat='59.2680646' lon='10.4044789'>
+    <tag k='name' v='Hotell Klubben'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='3692730353' version='1' visible='true' lat='59.2731488' lon='10.4039869'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7978' version='0' action='modify' visible='true' lat='59.9419581' lon='10.5027533'>
+    <tag k='note:osm_object' v='way/255050223'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='transportation'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6805574922' version='1' visible='true' lat='59.3499193' lon='10.4699184'>
+    <tag k='name' v='Grand Hotel Åsgårdstrand'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4710490299' version='1' visible='true' lat='59.8608899' lon='10.4656356'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11479008054' version='1' visible='true' lat='59.7405465' lon='10.2005898'>
+    <tag k='name' v='Drammen busstasjon'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7979' version='0' action='modify' visible='true' lat='59.9377982' lon='10.5270333'>
+    <tag k='note:osm_object' v='way/515633594'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7980' version='0' action='modify' visible='true' lat='59.8477878' lon='10.4466655'>
+    <tag k='note:osm_object' v='way/887618002'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='school'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2993955511' version='1' visible='true' lat='59.2687209' lon='10.4071970'>
+    <tag k='name' v='Grand Apartments'/>
+    <tag k='tourism' v='apartment'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='12114265861' version='1' visible='true' lat='59.7354911' lon='10.1994300'>
+    <tag k='name' v='Utebadet Drammensbadet'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7981' version='0' action='modify' visible='true' lat='59.7407560' lon='10.2042610'>
+    <tag k='note:osm_object' v='way/1535657348'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7982' version='0' action='modify' visible='true' lat='59.5880018' lon='10.2059241'>
+    <tag k='note:osm_object' v='way/1426733346'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='10223713119' version='1' visible='true' lat='59.7437932' lon='10.2017561'>
+    <tag k='name' v='Origo Lelighetshotell'/>
+    <tag k='tourism' v='apartment'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9883921494' version='1' visible='true' lat='59.6893793' lon='10.2209692'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7983' version='0' action='modify' visible='true' lat='59.8697025' lon='10.4822342'>
+    <tag k='note:osm_object' v='way/1252151368'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7984' version='0' action='modify' visible='true' lat='59.7403323' lon='10.2043820'>
+    <tag k='note:osm_object' v='way/1535657350'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7985' version='0' action='modify' visible='true' lat='59.7404749' lon='10.2045123'>
+    <tag k='note:osm_object' v='way/1535657349'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2147053504' version='1' visible='true' lat='59.2730117' lon='10.4053511'>
+    <tag k='name' v='Tønsberg Vandrehjem'/>
+    <tag k='tourism' v='hostel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2306035888' version='1' visible='true' lat='59.9310866' lon='10.5584482'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7986' version='0' action='modify' visible='true' lat='59.2674140' lon='10.4042898'>
+    <tag k='note:osm_object' v='way/199884069'/>
+    <tag k='name' v='Thon Hotel Tønsberg Brygge'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7987' version='0' action='modify' visible='true' lat='59.7406166' lon='10.2048820'>
+    <tag k='note:osm_object' v='way/491749404'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7988' version='0' action='modify' visible='true' lat='59.9012142' lon='10.5276036'>
+    <tag k='note:osm_object' v='way/1033730293'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='transportation'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7989' version='0' action='modify' visible='true' lat='59.2694710' lon='10.4091724'>
+    <tag k='note:osm_object' v='way/1016182497'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7990' version='0' action='modify' visible='true' lat='59.7403280' lon='10.2057356'>
+    <tag k='note:osm_object' v='way/491749406'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7991' version='0' action='modify' visible='true' lat='59.7388159' lon='10.1950287'>
+    <tag k='note:osm_object' v='way/991466386'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='service'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='5923816744' version='1' visible='true' lat='59.5239174' lon='10.2510612'>
+    <tag k='name' v='Solberghytten'/>
+    <tag k='tourism' v='alpine_hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7992' version='0' action='modify' visible='true' lat='59.8997353' lon='10.5266776'>
+    <tag k='note:osm_object' v='way/1033730704'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='boathouse'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7993' version='0' action='modify' visible='true' lat='59.5884727' lon='10.2120758'>
+    <tag k='note:osm_object' v='way/1421720826'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7994' version='0' action='modify' visible='true' lat='59.5883929' lon='10.2123597'>
+    <tag k='note:osm_object' v='way/1421720825'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7995' version='0' action='modify' visible='true' lat='59.2752230' lon='10.3985584'>
+    <tag k='note:osm_object' v='way/555006751'/>
+    <tag k='name' v='Korten Bobilparkering'/>
+    <tag k='tourism' v='caravan_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7996' version='0' action='modify' visible='true' lat='59.7390493' lon='10.2067865'>
+    <tag k='note:osm_object' v='way/980248930'/>
+    <tag k='name' v='Quality Hotel River Station'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2328360827' version='1' visible='true' lat='59.7877432' lon='10.3780918'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='10249076054' version='1' visible='true' lat='59.8329420' lon='10.4349112'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7997' version='0' action='modify' visible='true' lat='59.7620938' lon='10.2181780'>
+    <tag k='note:osm_object' v='way/815927851'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2813795515' version='1' visible='true' lat='59.9072419' lon='10.5400769'>
+    <tag k='name' v='Gjestehus'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7998' version='0' action='modify' visible='true' lat='59.7431314' lon='10.2167073'>
+    <tag k='note:osm_object' v='way/826001012'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='civic'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='5967645458' version='1' visible='true' lat='59.8151990' lon='10.3831660'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='5744987323' version='1' visible='true' lat='59.8151121' lon='10.3831742'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='8423159659' version='1' visible='true' lat='59.7456164' lon='10.1974977'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6507173185' version='1' visible='true' lat='59.4068730' lon='10.4633458'>
+    <tag k='tourism' v='apartment'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-7999' version='0' action='modify' visible='true' lat='59.8579181' lon='10.4776219'>
+    <tag k='note:osm_object' v='way/958706710'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11054588605' version='1' visible='true' lat='59.2660707' lon='10.4102186'>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1356458828' version='1' visible='true' lat='59.4553416' lon='10.3607982'>
+    <tag k='name' v='Sandsletta'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1288126530' version='1' visible='true' lat='59.4553828' lon='10.3607542'>
+    <tag k='name' v='Sandsletta Dagsturhytte'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8000' version='0' action='modify' visible='true' lat='59.8831296' lon='10.4890629'>
+    <tag k='note:osm_object' v='way/1015274459'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='transportation'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='343508885' version='1' visible='true' lat='59.7862478' lon='10.3763258'>
+    <tag k='name' v='Småvannsbu'/>
+    <tag k='tourism' v='wilderness_hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9883789481' version='1' visible='true' lat='59.7129487' lon='10.2101666'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='7960132262' version='1' visible='true' lat='59.4417767' lon='10.3760043'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='448828007' version='1' visible='true' lat='59.2646890' lon='10.4078032'>
+    <tag k='name' v='Quality Hotel Tønsberg'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6805574921' version='1' visible='true' lat='59.3996907' lon='10.4641181'>
+    <tag k='name' v='Hotel Horten'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8001' version='0' action='modify' visible='true' lat='59.7671633' lon='10.2461925'>
+    <tag k='note:osm_object' v='way/1486046337'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8002' version='0' action='modify' visible='true' lat='59.2730555' lon='10.4168621'>
+    <tag k='note:osm_object' v='way/358376708'/>
+    <tag k='name' v='Wilhelmsen House'/>
+    <tag k='tourism' v='apartment'/>
+    <tag k='building' v='apartments'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='308128332' version='1' visible='true' lat='59.8345999' lon='10.4412717'>
+    <tag k='name' v='Scandic Asker'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8003' version='0' action='modify' visible='true' lat='59.4568263' lon='10.3598841'>
+    <tag k='note:osm_object' v='way/1086355686'/>
+    <tag k='name' v='Sand Bade- og Campingplass'/>
+    <tag k='tourism' v='camp_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8004' version='0' action='modify' visible='true' lat='59.7438469' lon='10.2319750'>
+    <tag k='note:osm_object' v='way/913116557'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8005' version='0' action='modify' visible='true' lat='59.2729396' lon='10.4174426'>
+    <tag k='note:osm_object' v='way/1426401431'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8006' version='0' action='modify' visible='true' lat='59.2725192' lon='10.4167348'>
+    <tag k='note:osm_object' v='way/1426397951'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8007' version='0' action='modify' visible='true' lat='59.4945659' lon='10.2680933'>
+    <tag k='note:osm_object' v='way/887500715'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8008' version='0' action='modify' visible='true' lat='59.7639099' lon='10.2354908'>
+    <tag k='note:osm_object' v='way/815833546'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8009' version='0' action='modify' visible='true' lat='59.7638467' lon='10.2358174'>
+    <tag k='note:osm_object' v='way/815833547'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8010' version='0' action='modify' visible='true' lat='59.9152525' lon='10.4999580'>
+    <tag k='note:osm_object' v='way/1308420598'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2320775624' version='1' visible='true' lat='59.7520903' lon='10.2141209'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8011' version='0' action='modify' visible='true' lat='59.7431164' lon='10.2332783'>
+    <tag k='note:osm_object' v='way/1535060417'/>
+    <tag k='name' v='Thon'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8012' version='0' action='modify' visible='true' lat='59.9143979' lon='10.5004910'>
+    <tag k='note:osm_object' v='way/297238479'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8013' version='0' action='modify' visible='true' lat='59.7438699' lon='10.1921027'>
+    <tag k='note:osm_object' v='way/316930023'/>
+    <tag k='name' v='Comfort Hotel Union Brygge'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8014' version='0' action='modify' visible='true' lat='59.7430988' lon='10.2339486'>
+    <tag k='note:osm_object' v='way/1535060419'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='3663315610' version='1' visible='true' lat='59.4467110' lon='10.4393070'>
+    <tag k='name' v='Løvøya Camping &amp; Båthavn'/>
+    <tag k='tourism' v='camp_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='12178641969' version='1' visible='true' lat='59.7438924' lon='10.2358696'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='14079742201' version='1' visible='true' lat='59.9337500' lon='10.5752016'>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9833704334' version='1' visible='true' lat='59.3891406' lon='10.4767175'>
+    <tag k='name' v='Langgrunn'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='3276685512' version='1' visible='true' lat='59.7532802' lon='10.2049455'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='8423159660' version='1' visible='true' lat='59.7401918' lon='10.2157253'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2160118424' version='1' visible='true' lat='59.7359116' lon='10.1877881'>
+    <tag k='name' v='Høvik overnatting B&amp;B'/>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8015' version='0' action='modify' visible='true' lat='59.7568999' lon='10.2120554'>
+    <tag k='note:osm_object' v='way/815934041'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8016' version='0' action='modify' visible='true' lat='59.7870574' lon='10.2423604'>
+    <tag k='note:osm_object' v='way/815751493'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8017' version='0' action='modify' visible='true' lat='59.7871808' lon='10.2419489'>
+    <tag k='note:osm_object' v='way/815751491'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6812447364' version='1' visible='true' lat='59.8946646' lon='10.4917449'>
+    <tag k='name' v='Emma Gjestehus'/>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='8255244982' version='1' visible='true' lat='59.7471170' lon='10.1921560'>
+    <tag k='name' v='Origo Leilighetshotell'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8018' version='0' action='modify' visible='true' lat='59.7562270' lon='10.2112789'>
+    <tag k='note:osm_object' v='way/815960028'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8019' version='0' action='modify' visible='true' lat='59.7244573' lon='10.2192044'>
+    <tag k='note:osm_object' v='way/918729760'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8020' version='0' action='modify' visible='true' lat='59.8858469' lon='10.5191370'>
+    <tag k='note:osm_object' v='way/101744047'/>
+    <tag k='name' v='Thon Hotel Oslofjord'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='building' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8021' version='0' action='modify' visible='true' lat='59.4229138' lon='10.3650649'>
+    <tag k='note:osm_object' v='way/903105325'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1702633683' version='1' visible='true' lat='59.7604761' lon='10.2097462'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8022' version='0' action='modify' visible='true' lat='59.8548928' lon='10.4358236'>
+    <tag k='note:osm_object' v='way/892069515'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='3037457778' version='1' visible='true' lat='59.2650080' lon='10.3910200'>
+    <tag k='name' v='Active Hotel'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11098905435' version='1' visible='true' lat='59.2631219' lon='10.4158709'>
+    <tag k='name' v='Gunnarsbø bobilparkering'/>
+    <tag k='tourism' v='caravan_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='10291010692' version='1' visible='true' lat='59.7162742' lon='10.1692428'>
+    <tag k='name' v='Skogselskapet'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8023' version='0' action='modify' visible='true' lat='59.2662388' lon='10.3889920'>
+    <tag k='note:osm_object' v='way/1204298443'/>
+    <tag k='name' v='Bobil Parkering'/>
+    <tag k='tourism' v='caravan_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8024' version='0' action='modify' visible='true' lat='59.7632408' lon='10.2899214'>
+    <tag k='note:osm_object' v='way/133632339'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='13285793484' version='1' visible='true' lat='59.7632965' lon='10.2901188'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8025' version='0' action='modify' visible='true' lat='59.7634326' lon='10.2900293'>
+    <tag k='note:osm_object' v='way/133632336'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11771464579' version='1' visible='true' lat='59.8364006' lon='10.3995932'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6812447360' version='1' visible='true' lat='59.8558017' lon='10.4333103'>
+    <tag k='name' v='Sem Gjestegård'/>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8026' version='0' action='modify' visible='true' lat='59.7559156' lon='10.2025142'>
+    <tag k='note:osm_object' v='way/816244886'/>
+    <tag k='name' v='Barnehagens lavvo'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9343428677' version='1' visible='true' lat='59.8228756' lon='10.4274820'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9343428676' version='1' visible='true' lat='59.8228296' lon='10.4274292'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='5241023014' version='1' visible='true' lat='59.7644365' lon='10.3839262'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8027' version='0' action='modify' visible='true' lat='59.6797042' lon='10.2489526'>
+    <tag k='note:osm_object' v='way/956547688'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='4746828791' version='1' visible='true' lat='59.8566226' lon='10.4344379'>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8028' version='0' action='modify' visible='true' lat='59.9112087' lon='10.5074149'>
+    <tag k='note:osm_object' v='way/297283769'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6828463461' version='1' visible='true' lat='59.7544361' lon='10.1934886'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8029' version='0' action='modify' visible='true' lat='59.8261070' lon='10.4415668'>
+    <tag k='note:osm_object' v='way/1019985649'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8030' version='0' action='modify' visible='true' lat='59.8260654' lon='10.4416275'>
+    <tag k='note:osm_object' v='way/1019985648'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11216181841' version='1' visible='true' lat='59.7590555' lon='10.3363597'>
+    <tag k='name' v='Rognåsplass'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8031' version='0' action='modify' visible='true' lat='59.8260219' lon='10.4416882'>
+    <tag k='note:osm_object' v='way/1019985647'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='563386752' version='1' visible='true' lat='59.9430119' lon='10.5566286'>
+    <tag k='name' v='Løvehulen'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1896628546' version='1' visible='true' lat='59.9030266' lon='10.4477799'>
+    <tag k='name' v='Gapahuk, revet'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8032' version='0' action='modify' visible='true' lat='59.8258592' lon='10.4419185'>
+    <tag k='note:osm_object' v='way/1019985644'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8033' version='0' action='modify' visible='true' lat='59.8258148' lon='10.4419778'>
+    <tag k='note:osm_object' v='way/1019985645'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8034' version='0' action='modify' visible='true' lat='59.8257749' lon='10.4420396'>
+    <tag k='note:osm_object' v='way/1019985646'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9797299419' version='1' visible='true' lat='59.7542308' lon='10.1912758'>
+    <tag k='name' v='Hamborgstrømpaviljongen'/>
+    <tag k='tourism' v='wilderness_hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8035' version='0' action='modify' visible='true' lat='59.9111180' lon='10.5097387'>
+    <tag k='note:osm_object' v='way/1489567419'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8036' version='0' action='modify' visible='true' lat='59.9112109' lon='10.5098561'>
+    <tag k='note:osm_object' v='way/1489567420'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8037' version='0' action='modify' visible='true' lat='59.9359297' lon='10.5841564'>
+    <tag k='note:osm_object' v='way/1032657747'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='transportation'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8038' version='0' action='modify' visible='true' lat='59.8233997' lon='10.4358629'>
+    <tag k='note:osm_object' v='way/581541125'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1356458508' version='1' visible='true' lat='59.4454734' lon='10.4550705'>
+    <tag k='name' v='Løvøysund'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11331970296' version='1' visible='true' lat='59.7626698' lon='10.3747871'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6821050443' version='1' visible='true' lat='59.7600688' lon='10.2011342'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8039' version='0' action='modify' visible='true' lat='59.8208748' lon='10.4312967'>
+    <tag k='note:osm_object' v='way/1101061475'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8040' version='0' action='modify' visible='true' lat='59.8227166' lon='10.4358246'>
+    <tag k='note:osm_object' v='way/581541124'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8041' version='0' action='modify' visible='true' lat='59.8861321' lon='10.5320863'>
+    <tag k='note:osm_object' v='way/363187692'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='774075725' version='1' visible='true' lat='59.8632419' lon='10.4998714'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8042' version='0' action='modify' visible='true' lat='59.7927248' lon='10.2381326'>
+    <tag k='note:osm_object' v='way/941743103'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8043' version='0' action='modify' visible='true' lat='59.5565968' lon='10.2405487'>
+    <tag k='note:osm_object' v='way/51570650'/>
+    <tag k='name' v='Holmsåsen Camping'/>
+    <tag k='tourism' v='camp_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='11161909161' version='1' visible='true' lat='59.2601145' lon='10.4252759'>
+    <tag k='name' v='Bobilplass Stensarmen'/>
+    <tag k='tourism' v='caravan_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8044' version='0' action='modify' visible='true' lat='59.7935508' lon='10.2522103'>
+    <tag k='note:osm_object' v='way/815611703'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='1757336467' version='1' visible='true' lat='59.4671757' lon='10.3576478'>
+    <tag k='name' v='Ruseberget'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='772339185' version='1' visible='true' lat='59.4128370' lon='10.4854120'>
+    <tag k='name' v='Thon Hotel Horten'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2826655474' version='1' visible='true' lat='59.8513020' lon='10.4948060'>
+    <tag k='name' v='Holmen Fjordhotell'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='9833914404' version='1' visible='true' lat='59.3159141' lon='10.4609530'>
+    <tag k='name' v='Oseberghuken'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8045' version='0' action='modify' visible='true' lat='59.4796607' lon='10.3077767'>
+    <tag k='note:osm_object' v='way/886033310'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='5805223365' version='1' visible='true' lat='59.8079977' lon='10.4113166'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8046' version='0' action='modify' visible='true' lat='59.4137778' lon='10.4872935'>
+    <tag k='note:osm_object' v='way/583998524'/>
+    <tag k='name' v='Horten Gjesthavn'/>
+    <tag k='tourism' v='caravan_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='8043749558' version='1' visible='true' lat='59.8802892' lon='10.4378449'>
+    <tag k='name' v='Rasten gapahuk'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8047' version='0' action='modify' visible='true' lat='59.8858417' lon='10.5409165'>
+    <tag k='note:osm_object' v='way/687717626'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='530783833' version='1' visible='true' lat='59.9478038' lon='10.5621885'>
+    <tag k='name' v='Sæteren gård'/>
+    <tag k='tourism' v='wilderness_hut'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2476678005' version='1' visible='true' lat='59.8404160' lon='10.3840512'>
+    <tag k='name' v='picnic_table'/>
+    <tag k='tourism' v='picnic_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6465581052' version='1' visible='true' lat='59.9478989' lon='10.5624965'>
+    <tag k='name' v='Sætra'/>
+    <tag k='tourism' v='chalet'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2825321976' version='1' visible='true' lat='59.8316320' lon='10.4654510'>
+    <tag k='name' v='Quaity Hotel Leangkollen'/>
+    <tag k='tourism' v='hotel'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='13138380896' version='1' visible='true' lat='59.7696765' lon='10.3607861'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8048' version='0' action='modify' visible='true' lat='59.9382963' lon='10.4660281'>
+    <tag k='note:osm_object' v='way/1529335803'/>
+    <tag k='name' v='Kikut gapahuk'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8049' version='0' action='modify' visible='true' lat='59.2525019' lon='10.4015047'>
+    <tag k='note:osm_object' v='way/1334988950'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8050' version='0' action='modify' visible='true' lat='59.9383186' lon='10.4659030'>
+    <tag k='note:osm_object' v='way/1529335802'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8051' version='0' action='modify' visible='true' lat='59.8442998' lon='10.4872658'>
+    <tag k='note:osm_object' v='way/1049322381'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='8968114605' version='1' visible='true' lat='59.7769993' lon='10.1923754'>
+    <tag k='name' v='Gapahug ved Haugstua'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8052' version='0' action='modify' visible='true' lat='59.8182393' lon='10.4398495'>
+    <tag k='note:osm_object' v='way/581540236'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='785840853' version='1' visible='true' lat='59.8448336' lon='10.4903862'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='2306036667' version='1' visible='true' lat='59.9491567' lon='10.5613186'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8053' version='0' action='modify' visible='true' lat='59.5306954' lon='10.2788239'>
+    <tag k='note:osm_object' v='way/51787541'/>
+    <tag k='tourism' v='caravan_site'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6805574917' version='1' visible='true' lat='59.4219307' lon='10.4878208'>
+    <tag k='name' v='Horten Apartment'/>
+    <tag k='tourism' v='apartment'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8054' version='0' action='modify' visible='true' lat='59.9174291' lon='10.5885871'>
+    <tag k='note:osm_object' v='way/296086210'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8055' version='0' action='modify' visible='true' lat='59.9174619' lon='10.5886848'>
+    <tag k='note:osm_object' v='way/296086212'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8056' version='0' action='modify' visible='true' lat='59.9174928' lon='10.5887834'>
+    <tag k='note:osm_object' v='way/296086211'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8057' version='0' action='modify' visible='true' lat='59.9175244' lon='10.5888783'>
+    <tag k='note:osm_object' v='way/296086209'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8058' version='0' action='modify' visible='true' lat='59.9175362' lon='10.5890047'>
+    <tag k='note:osm_object' v='way/296086213'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='roof'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='6805574916' version='1' visible='true' lat='59.3603917' lon='10.4254782'>
+    <tag k='name' v='Dal Gjestegård'/>
+    <tag k='tourism' v='apartment'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='23623002' version='1' visible='true' lat='59.4256481' lon='10.4843852'>
+    <tag k='name' v='scoala'/>
+    <tag k='tourism' v='guest_house'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='5022226046' version='1' visible='true' lat='59.8189243' lon='10.4472519'>
+    <tag k='amenity' v='shelter'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <node id='-8059' version='0' action='modify' visible='true' lat='59.8293736' lon='10.4665671'>
+    <tag k='note:osm_object' v='way/946836050'/>
+    <tag k='amenity' v='shelter'/>
+    <tag k='building' v='yes'/>
+    <tag k='note:relation_member' v='Add as member of OSM route relation 5661086'/>
+    <tag k='note:osm_route_relation' v='5661086'/>
+  </node>
+  <relation id='-8060' version='0' action='modify' visible='true'>
     <member type='way' ref='-7928' role='path'/>
     <member type='node' ref='-7929' role='existing'/>
     <member type='node' ref='-7930' role='existing'/>
@@ -16170,9 +17330,194 @@
     <member type='node' ref='-7959' role='proposed'/>
     <member type='node' ref='-7960' role='proposed'/>
     <member type='node' ref='-7961' role='proposed'/>
+    <member type='node' ref='-7962' role='route_add'/>
+    <member type='node' ref='-7963' role='route_add'/>
+    <member type='node' ref='-7964' role='route_add'/>
+    <member type='node' ref='-7965' role='route_add'/>
+    <member type='node' ref='6637707918' role='route_add'/>
+    <member type='node' ref='-7966' role='route_add'/>
+    <member type='node' ref='-7967' role='route_add'/>
+    <member type='node' ref='4341903600' role='route_add'/>
+    <member type='node' ref='-7968' role='route_add'/>
+    <member type='node' ref='4710485003' role='route_add'/>
+    <member type='node' ref='4341903601' role='route_add'/>
+    <member type='node' ref='-7969' role='route_add'/>
+    <member type='node' ref='-7970' role='route_add'/>
+    <member type='node' ref='9833914322' role='route_add'/>
+    <member type='node' ref='2113505050' role='route_add'/>
+    <member type='node' ref='4710484878' role='route_add'/>
+    <member type='node' ref='-7971' role='route_add'/>
+    <member type='node' ref='-7972' role='route_add'/>
+    <member type='node' ref='-7973' role='route_add'/>
+    <member type='node' ref='-7974' role='route_add'/>
+    <member type='node' ref='-7975' role='route_add'/>
+    <member type='node' ref='1013899243' role='route_add'/>
+    <member type='node' ref='-7976' role='route_add'/>
+    <member type='node' ref='4341903602' role='route_add'/>
+    <member type='node' ref='-7977' role='route_add'/>
+    <member type='node' ref='448828213' role='route_add'/>
+    <member type='node' ref='3692730353' role='route_add'/>
+    <member type='node' ref='-7978' role='route_add'/>
+    <member type='node' ref='6805574922' role='route_add'/>
+    <member type='node' ref='4710490299' role='route_add'/>
+    <member type='node' ref='11479008054' role='route_add'/>
+    <member type='node' ref='-7979' role='route_add'/>
+    <member type='node' ref='-7980' role='route_add'/>
+    <member type='node' ref='2993955511' role='route_add'/>
+    <member type='node' ref='12114265861' role='route_add'/>
+    <member type='node' ref='-7981' role='route_add'/>
+    <member type='node' ref='-7982' role='route_add'/>
+    <member type='node' ref='10223713119' role='route_add'/>
+    <member type='node' ref='9883921494' role='route_add'/>
+    <member type='node' ref='-7983' role='route_add'/>
+    <member type='node' ref='-7984' role='route_add'/>
+    <member type='node' ref='-7985' role='route_add'/>
+    <member type='node' ref='2147053504' role='route_add'/>
+    <member type='node' ref='2306035888' role='route_add'/>
+    <member type='node' ref='-7986' role='route_add'/>
+    <member type='node' ref='-7987' role='route_add'/>
+    <member type='node' ref='-7988' role='route_add'/>
+    <member type='node' ref='-7989' role='route_add'/>
+    <member type='node' ref='-7990' role='route_add'/>
+    <member type='node' ref='-7991' role='route_add'/>
+    <member type='node' ref='5923816744' role='route_add'/>
+    <member type='node' ref='-7992' role='route_add'/>
+    <member type='node' ref='-7993' role='route_add'/>
+    <member type='node' ref='-7994' role='route_add'/>
+    <member type='node' ref='-7995' role='route_add'/>
+    <member type='node' ref='-7996' role='route_add'/>
+    <member type='node' ref='2328360827' role='route_add'/>
+    <member type='node' ref='10249076054' role='route_add'/>
+    <member type='node' ref='-7997' role='route_add'/>
+    <member type='node' ref='2813795515' role='route_add'/>
+    <member type='node' ref='-7998' role='route_add'/>
+    <member type='node' ref='5967645458' role='route_add'/>
+    <member type='node' ref='5744987323' role='route_add'/>
+    <member type='node' ref='8423159659' role='route_add'/>
+    <member type='node' ref='6507173185' role='route_add'/>
+    <member type='node' ref='-7999' role='route_add'/>
+    <member type='node' ref='11054588605' role='route_add'/>
+    <member type='node' ref='1356458828' role='route_add'/>
+    <member type='node' ref='1288126530' role='route_add'/>
+    <member type='node' ref='-8000' role='route_add'/>
+    <member type='node' ref='343508885' role='route_add'/>
+    <member type='node' ref='9883789481' role='route_add'/>
+    <member type='node' ref='7960132262' role='route_add'/>
+    <member type='node' ref='448828007' role='route_add'/>
+    <member type='node' ref='6805574921' role='route_add'/>
+    <member type='node' ref='-8001' role='route_add'/>
+    <member type='node' ref='-8002' role='route_add'/>
+    <member type='node' ref='308128332' role='route_add'/>
+    <member type='node' ref='-8003' role='route_add'/>
+    <member type='node' ref='-8004' role='route_add'/>
+    <member type='node' ref='-8005' role='route_add'/>
+    <member type='node' ref='-8006' role='route_add'/>
+    <member type='node' ref='-8007' role='route_add'/>
+    <member type='node' ref='-8008' role='route_add'/>
+    <member type='node' ref='-8009' role='route_add'/>
+    <member type='node' ref='-8010' role='route_add'/>
+    <member type='node' ref='2320775624' role='route_add'/>
+    <member type='node' ref='-8011' role='route_add'/>
+    <member type='node' ref='-8012' role='route_add'/>
+    <member type='node' ref='-8013' role='route_add'/>
+    <member type='node' ref='-8014' role='route_add'/>
+    <member type='node' ref='3663315610' role='route_add'/>
+    <member type='node' ref='12178641969' role='route_add'/>
+    <member type='node' ref='14079742201' role='route_add'/>
+    <member type='node' ref='9833704334' role='route_add'/>
+    <member type='node' ref='3276685512' role='route_add'/>
+    <member type='node' ref='8423159660' role='route_add'/>
+    <member type='node' ref='2160118424' role='route_add'/>
+    <member type='node' ref='-8015' role='route_add'/>
+    <member type='node' ref='-8016' role='route_add'/>
+    <member type='node' ref='-8017' role='route_add'/>
+    <member type='node' ref='6812447364' role='route_add'/>
+    <member type='node' ref='8255244982' role='route_add'/>
+    <member type='node' ref='-8018' role='route_add'/>
+    <member type='node' ref='-8019' role='route_add'/>
+    <member type='node' ref='-8020' role='route_add'/>
+    <member type='node' ref='-8021' role='route_add'/>
+    <member type='node' ref='1702633683' role='route_add'/>
+    <member type='node' ref='-8022' role='route_add'/>
+    <member type='node' ref='3037457778' role='route_add'/>
+    <member type='node' ref='11098905435' role='route_add'/>
+    <member type='node' ref='10291010692' role='route_add'/>
+    <member type='node' ref='-8023' role='route_add'/>
+    <member type='node' ref='-8024' role='route_add'/>
+    <member type='node' ref='13285793484' role='route_add'/>
+    <member type='node' ref='-8025' role='route_add'/>
+    <member type='node' ref='11771464579' role='route_add'/>
+    <member type='node' ref='6812447360' role='route_add'/>
+    <member type='node' ref='-8026' role='route_add'/>
+    <member type='node' ref='9343428677' role='route_add'/>
+    <member type='node' ref='9343428676' role='route_add'/>
+    <member type='node' ref='5241023014' role='route_add'/>
+    <member type='node' ref='-8027' role='route_add'/>
+    <member type='node' ref='4746828791' role='route_add'/>
+    <member type='node' ref='-8028' role='route_add'/>
+    <member type='node' ref='6828463461' role='route_add'/>
+    <member type='node' ref='-8029' role='route_add'/>
+    <member type='node' ref='-8030' role='route_add'/>
+    <member type='node' ref='11216181841' role='route_add'/>
+    <member type='node' ref='-8031' role='route_add'/>
+    <member type='node' ref='563386752' role='route_add'/>
+    <member type='node' ref='1896628546' role='route_add'/>
+    <member type='node' ref='-8032' role='route_add'/>
+    <member type='node' ref='-8033' role='route_add'/>
+    <member type='node' ref='-8034' role='route_add'/>
+    <member type='node' ref='9797299419' role='route_add'/>
+    <member type='node' ref='-8035' role='route_add'/>
+    <member type='node' ref='-8036' role='route_add'/>
+    <member type='node' ref='-8037' role='route_add'/>
+    <member type='node' ref='-8038' role='route_add'/>
+    <member type='node' ref='1356458508' role='route_add'/>
+    <member type='node' ref='11331970296' role='route_add'/>
+    <member type='node' ref='6821050443' role='route_add'/>
+    <member type='node' ref='-8039' role='route_add'/>
+    <member type='node' ref='-8040' role='route_add'/>
+    <member type='node' ref='-8041' role='route_add'/>
+    <member type='node' ref='774075725' role='route_add'/>
+    <member type='node' ref='-8042' role='route_add'/>
+    <member type='node' ref='-8043' role='route_add'/>
+    <member type='node' ref='11161909161' role='route_add'/>
+    <member type='node' ref='-8044' role='route_add'/>
+    <member type='node' ref='1757336467' role='route_add'/>
+    <member type='node' ref='772339185' role='route_add'/>
+    <member type='node' ref='2826655474' role='route_add'/>
+    <member type='node' ref='9833914404' role='route_add'/>
+    <member type='node' ref='-8045' role='route_add'/>
+    <member type='node' ref='5805223365' role='route_add'/>
+    <member type='node' ref='-8046' role='route_add'/>
+    <member type='node' ref='8043749558' role='route_add'/>
+    <member type='node' ref='-8047' role='route_add'/>
+    <member type='node' ref='530783833' role='route_add'/>
+    <member type='node' ref='2476678005' role='route_add'/>
+    <member type='node' ref='6465581052' role='route_add'/>
+    <member type='node' ref='2825321976' role='route_add'/>
+    <member type='node' ref='13138380896' role='route_add'/>
+    <member type='node' ref='-8048' role='route_add'/>
+    <member type='node' ref='-8049' role='route_add'/>
+    <member type='node' ref='-8050' role='route_add'/>
+    <member type='node' ref='-8051' role='route_add'/>
+    <member type='node' ref='8968114605' role='route_add'/>
+    <member type='node' ref='-8052' role='route_add'/>
+    <member type='node' ref='785840853' role='route_add'/>
+    <member type='node' ref='2306036667' role='route_add'/>
+    <member type='node' ref='-8053' role='route_add'/>
+    <member type='node' ref='6805574917' role='route_add'/>
+    <member type='node' ref='-8054' role='route_add'/>
+    <member type='node' ref='-8055' role='route_add'/>
+    <member type='node' ref='-8056' role='route_add'/>
+    <member type='node' ref='-8057' role='route_add'/>
+    <member type='node' ref='-8058' role='route_add'/>
+    <member type='node' ref='6805574916' role='route_add'/>
+    <member type='node' ref='23623002' role='route_add'/>
+    <member type='node' ref='5022226046' role='route_add'/>
+    <member type='node' ref='-8059' role='route_add'/>
     <tag k='type' v='site'/>
     <tag k='name' v='Tunsbergleden / Vestfoldveien'/>
     <tag k='network' v='Pilegrimsleden'/>
     <tag k='note:trail' v='Tunsbergleden / Vestfoldveien'/>
+    <tag k='note' v='Local JOSM research file. role=route_add objects are existing OSM lodging to consider adding to relation/5661086.'/>
   </relation>
 </osm>

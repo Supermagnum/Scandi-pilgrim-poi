@@ -1,8 +1,8 @@
 {
-  "extracted_at": "2026-09-18T01:21:00.653439+00:00",
+  "extracted_at": "2026-09-18T01:32:19.357233+00:00",
   "overnight_count": 187,
   "swedish_overnight_count": 147,
-  "swedish_added_after_dedupe": 142,
+  "swedish_added_after_dedupe": 0,
   "horse_services": [
     {
       "id": 21377,

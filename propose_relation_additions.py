@@ -750,10 +750,15 @@ def main() -> int:
     skip = set(args.skip)
     folders = [f for f in folders if f not in skip]
 
-    trail_dirs = [by_trail / f for f in folders if (by_trail / f / "shelters.csv").exists()]
-    missing_csv = [f for f in folders if not (by_trail / f / "shelters.csv").exists()]
-    if missing_csv:
-        log(f"Skipping folders without shelters.csv: {missing_csv}")
+    trail_dirs = [by_trail / f for f in folders]
+    for folder in folders:
+        n = len(load_shelters(by_trail / folder))
+        src = (
+            "by_trail/shelters.csv"
+            if (by_trail / folder / "shelters.csv").exists()
+            else "national/research"
+        )
+        log(f"  {folder}: {n} shelter rows ({src})")
 
     elements = collect_elements_for_trails(
         data, trail_dirs, reuse_cache=args.reuse_pbf
@@ -762,7 +767,8 @@ def main() -> int:
 
     summaries: list[dict[str, Any]] = []
     for folder in folders:
-        if not (by_trail / folder / "shelters.csv").exists():
+        if not load_shelters(by_trail / folder):
+            log(f"Skipping {folder}: no shelter rows available")
             continue
         trail_name, relation_id = TRAIL_RELATIONS[folder]
         summary = process_trail(
@@ -771,6 +777,7 @@ def main() -> int:
             relation_id=relation_id,
             trail_dir=by_trail / folder,
             elements=elements,
+            skip_geometry=folder == "St-Olavsleden",
         )
         summaries.append(summary)
 

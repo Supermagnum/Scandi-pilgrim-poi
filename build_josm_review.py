@@ -2,9 +2,12 @@
 """Build exactly one OSM file per trail: data/by_trail/<Trail>/trail.osm
 
 trail.osm contains:
-  - trail path
-  - existing CMS overnight POIs (already in OSM) — no note:proposed
-  - new suggestions (CMS gaps) — note:proposed=Proposed addition
+  - trail path (densified research way)
+  - existing CMS overnight POIs already in OSM
+  - new CMS suggestions (note:proposed=Proposed addition)
+  - existing OSM lodging near the route that is NOT yet a member of the live
+    OSM route relation (positive OSM ids / way-centroid proxies) so they can
+    be selected in JOSM and added to that relation
 
 Does not write research tags such as pilegrimsleden:match_status into the OSM file.
 Replaces per-trail CSV/JSON research dumps with a short README.md, then removes
@@ -36,6 +39,7 @@ from propose_relation_additions import (
 )
 
 PROPOSED_ADDITION = "Proposed addition"
+RELATION_MEMBER_NOTE = "Add as member of OSM route relation"
 TRAIL_OSM_NAME = "trail.osm"
 
 # CMS names that must not become local trail.osm nodes (already mapped in OSM).
@@ -212,13 +216,88 @@ def shelter_tags_for_row(row: dict[str, str], *, proposed: bool) -> list[tuple[s
     return [(k, v) for k, v in tags if v]
 
 
+def load_relation_candidates(
+    root: Path, folder: str
+) -> list[dict[str, str]]:
+    """OSM lodging near the route that is not yet on the live route relation."""
+    research_dir = root / "data" / "research_by_trail" / folder
+    trail_dir = root / "data" / "by_trail" / folder
+    for path in (
+        research_dir / "osm_missing_for_relation.csv",
+        trail_dir / "osm_missing_for_relation.csv",
+    ):
+        rows = load_csv_rows(path)
+        if rows:
+            return rows
+    return []
+
+
+def append_relation_candidate_nodes(
+    lines: list[str],
+    *,
+    candidates: list[dict[str, str]],
+    relation_id: int,
+    next_id: int,
+) -> tuple[list[tuple[str, int]], int]:
+    """Emit OSM lodging so JOSM can add them to the live route relation.
+
+    Nodes keep their real positive OSM ids. Ways are represented by a temporary
+    centroid proxy node (JOSM cannot edit a way with no nodes in-file); the
+    real osm id is in note:osm_object.
+    """
+    member_refs: list[tuple[str, int]] = []
+    note = f"{RELATION_MEMBER_NOTE} {relation_id}"
+    for row in candidates:
+        osm_id = (row.get("osm_id") or "").strip()
+        try:
+            kind, oid_s = osm_id.split("/", 1)
+            oid = int(oid_s)
+            lat = float(row["lat"])
+            lon = float(row["lon"])
+        except (ValueError, KeyError, TypeError):
+            continue
+        name = (row.get("name") or "").strip()
+        if kind == "node":
+            lines.append(
+                f"  <node id='{oid}' version='1' visible='true' "
+                f"lat='{lat:.7f}' lon='{lon:.7f}'>"
+            )
+            ref_kind, ref_id = "node", oid
+        else:
+            lines.append(
+                f"  <node id='{next_id}' version='0' action='modify' visible='true' "
+                f"lat='{lat:.7f}' lon='{lon:.7f}'>"
+            )
+            ref_kind, ref_id = "node", next_id
+            next_id -= 1
+            lines.append(
+                f"    <tag k='note:osm_object' v='{xml_escape(osm_id)}'/>"
+            )
+        if name:
+            lines.append(f"    <tag k='name' v='{xml_escape(name)}'/>")
+        for key in ("tourism", "amenity", "building"):
+            val = (row.get(key) or "").strip()
+            if val:
+                lines.append(
+                    f"    <tag k='{xml_escape(key)}' v='{xml_escape(val)}'/>"
+                )
+        lines.append(f"    <tag k='note:relation_member' v='{xml_escape(note)}'/>")
+        lines.append(
+            f"    <tag k='note:osm_route_relation' v='{relation_id}'/>"
+        )
+        lines.append("  </node>")
+        member_refs.append((ref_kind, ref_id))
+    return member_refs, next_id
+
+
 def write_trail_osm(
     trail_dir: Path,
     trail_name: str,
     relation_id: int,
     rows: list[dict[str, str]],
     path_points: list[tuple[float, float]],
-) -> tuple[int, int]:
+    relation_candidates: list[dict[str, str]] | None = None,
+) -> tuple[int, int, int]:
     skip_names = SKIP_POI_NAMES.get(trail_dir.name, set()) | SKIP_POI_NAMES.get(
         trail_name, set()
     )
@@ -239,6 +318,7 @@ def write_trail_osm(
     rows = filtered
     existing = [r for r in rows if r.get("match_status") in {"matched", "possible"}]
     gaps = [r for r in rows if (r.get("match_status") or "gap") == "gap"]
+    candidates = list(relation_candidates or [])
 
     lines = [
         "<?xml version='1.0' encoding='UTF-8'?>",
@@ -300,6 +380,13 @@ def write_trail_osm(
         gap_ids.append(next_id)
         next_id -= 1
 
+    route_add_refs, next_id = append_relation_candidate_nodes(
+        lines,
+        candidates=candidates,
+        relation_id=relation_id,
+        next_id=next_id,
+    )
+
     rel_id = next_id
     lines.append(f"  <relation id='{rel_id}' version='0' action='modify' visible='true'>")
     if way_id is not None:
@@ -308,11 +395,18 @@ def write_trail_osm(
         lines.append(f"    <member type='node' ref='{nid}' role='existing'/>")
     for nid in gap_ids:
         lines.append(f"    <member type='node' ref='{nid}' role='proposed'/>")
+    for mtype, mid in route_add_refs:
+        lines.append(f"    <member type='{mtype}' ref='{mid}' role='route_add'/>")
     for key, value in [
         ("type", "site"),
         ("name", trail_name),
         ("network", "Pilegrimsleden"),
         ("note:trail", trail_name),
+        (
+            "note",
+            "Local JOSM research file. role=route_add objects are existing OSM "
+            f"lodging to consider adding to relation/{relation_id}.",
+        ),
     ]:
         lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
     lines.append("  </relation>")
@@ -321,9 +415,10 @@ def write_trail_osm(
     (trail_dir / TRAIL_OSM_NAME).write_text("\n".join(lines) + "\n", encoding="utf-8")
     log(
         f"  wrote {TRAIL_OSM_NAME}: path={'yes' if way_id else 'no'}, "
-        f"existing={len(existing)}, suggestions={len(gaps)}"
+        f"existing={len(existing)}, suggestions={len(gaps)}, "
+        f"route_add={len(route_add_refs)}"
     )
-    return len(existing), len(gaps)
+    return len(existing), len(gaps), len(route_add_refs)
 
 
 def load_csv_rows(path: Path) -> list[dict[str, str]]:
@@ -364,6 +459,7 @@ def write_trail_readme(
     shelters: list[dict[str, str]],
     existing_n: int,
     gaps_n: int,
+    route_add_n: int,
 ) -> None:
     research_dir = trail_dir.parent.parent / "research_by_trail" / folder
     missing = load_csv_rows(research_dir / "osm_missing_for_relation.csv")
@@ -398,22 +494,26 @@ def write_trail_readme(
         "It contains:",
         "",
         "1. Trail **path** (one densified research way — not every OSM route way member)",
-        "2. **Existing** overnight POIs (already present in OSM) — no `note:proposed`",
+        "2. **Existing** overnight POIs (CMS matched) — no `note:proposed`",
         f"3. **New suggestions** — tagged `note:proposed={PROPOSED_ADDITION}`",
+        "4. **OSM lodging to add to the live route relation** — role `route_add`, "
+        f"search `note:relation_member={RELATION_MEMBER_NOTE}`",
         "",
-        "Search in JOSM: `note:proposed=Proposed addition`",
+        "Search in JOSM: `note:proposed=Proposed addition` or "
+        f"`note:relation_member={RELATION_MEMBER_NOTE}`",
         "",
         "Do not expect research tags such as `pilegrimsleden:match_status` in this file.",
         "",
-        "This file is a local `type=site` research relation with negative IDs. It is",
-        "not a dump of the live OSM route relation. Uploading it as written adds new",
-        "objects only and does not rewrite membership of existing OSM route relations.",
+        "This file is a local `type=site` research relation. Uploading new CMS nodes",
+        "as written does not rewrite membership of existing OSM route relations.",
+        "Objects with role `route_add` are already in OSM; use them in JOSM to add",
+        "members to the live route relation below (download/update those objects first).",
         "",
         "## OSM route relation",
         "",
         f"- Name: {trail_name}",
         f"- Relation: https://www.openstreetmap.org/relation/{relation_id}",
-        "- Do not modify existing members of that relation from this research file.",
+        "- Do not remove existing members of that relation from this research file.",
         "",
         "## Counts",
         "",
@@ -422,10 +522,11 @@ def write_trail_readme(
         f"| Overnight POIs (CMS) | {len(shelters)} |",
         f"| Existing in trail.osm | {existing_n} |",
         f"| New suggestions in trail.osm | {gaps_n} |",
+        f"| OSM lodging to add to route relation (`route_add`) | {route_add_n} |",
         f"| Pilgrim centers (reference) | {len(pilgrims)} |",
         f"| Pilgrim-center gaps (reference) | {pilgrim_gaps} |",
         f"| Lodging already on OSM relation | {len(already)} |",
-        f"| Lodging near route not on relation (reference) | {len(missing)} |",
+        f"| Lodging near route not on relation (reference CSV) | {len(missing)} |",
     ]
     if horse:
         lines.append(f"| Horseback service points (reference) | {len(horse)} |")
@@ -452,7 +553,8 @@ def write_trail_readme(
     lines.extend(
         [
             "",
-            "Per-trail CSV dumps are not kept in this folder.",
+            "Per-trail CSV dumps are not kept in this folder; relation candidates",
+            "are embedded in `trail.osm` as `route_add` members.",
             "",
         ]
     )
@@ -485,9 +587,22 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
     if not shelters:
         log("  no shelter rows found — skip")
         return
+    candidates = load_relation_candidates(root, folder)
+    if candidates:
+        log(f"  relation candidates (route_add): {len(candidates)}")
+    else:
+        log(
+            "  no osm_missing_for_relation.csv — run propose_relation_additions.py "
+            "first to embed OSM lodging for relation membership"
+        )
     path_points = ensure_path_points(trail_dir, trail_name, relation_id)
-    existing_n, gaps_n = write_trail_osm(
-        trail_dir, trail_name, relation_id, shelters, path_points
+    existing_n, gaps_n, route_add_n = write_trail_osm(
+        trail_dir,
+        trail_name,
+        relation_id,
+        shelters,
+        path_points,
+        relation_candidates=candidates,
     )
     write_trail_readme(
         trail_dir,
@@ -497,6 +612,7 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
         shelters=shelters,
         existing_n=existing_n,
         gaps_n=gaps_n,
+        route_add_n=route_add_n,
     )
     remove_other_osm_files(trail_dir)
     remove_research_csvs(trail_dir)
