@@ -882,7 +882,11 @@ def append_full_osm_object(
         seen_elements.add(primary_key)
         return True
 
-    url = f"https://www.openstreetmap.org/api/0.6/{kind}/{oid}/full"
+    # OSM API /full exists only for ways and relations; nodes use the plain endpoint.
+    if kind == "node":
+        url = f"https://www.openstreetmap.org/api/0.6/node/{oid}"
+    else:
+        url = f"https://www.openstreetmap.org/api/0.6/{kind}/{oid}/full"
     root = ET.fromstring(http_get(url, timeout=120))
     primary_found = False
     for child_kind in ("node", "way", "relation"):
