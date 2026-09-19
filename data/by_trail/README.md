@@ -38,3 +38,4 @@ entry.
 | Finland/Oulujoki-pilgrimage | Oulujoki pilgrimage | waypoints | — | — |
 | Finland/St-Olav-Waterway | St. Olav Waterway | waypoints | — | — |
 | Finland/Way-of-Jacob | The way of Jacob | Citynomadi path | — | — |
+| Finland/Saint-Henrys-way | Saint Henry's way | OSM rel 8833791 | — | — |

@@ -75,8 +75,8 @@ OpenStreetMap Foundation.
 - **[oulunseurakunnat.fi](https://oulunseurakunnat.fi/)** — Oulujoki pilgrimage
   (Oulu → Vaala).
 - **[henrikinvaellus.fi](https://henrikinvaellus.fi/pyhan-henrikin-tie--in-english-)** —
-  Saint Henry's way / Pyhän Henrikin tie. Already in OSM as
-  [relation/8833791](https://www.openstreetmap.org/relation/8833791); catalog only.
+  Saint Henry's way / Pyhän Henrikin tie (`Finland/Saint-Henrys-way`; path from
+  OSM [relation/8833791](https://www.openstreetmap.org/relation/8833791)).
 - **[stolavwaterway.com](https://stolavwaterway.com/)** — St. Olav Waterway
   (Turku → Grisslehamn via Åland).
 - **[citynomadi.com](https://citynomadi.com/route/cf992911d8c170ddf1db528b8cdafcf7)**

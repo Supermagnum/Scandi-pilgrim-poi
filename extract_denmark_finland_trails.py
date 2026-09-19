@@ -9,7 +9,7 @@ Writes:
 
 OSM check (Nominatim + API, 2026-09):
   - Hærvejen: partial OSM route (e.g. relation/13278515 Viborg–Skelhøje) — catalog only
-  - Pyhän Henrikin tie (Saint Henry's way): relation/8833791 — catalog only
+  - Pyhän Henrikin tie (Saint Henry's way): relation/8833791 → Finland/Saint-Henrys-way
   - Others: no full route relation found — research extracts below
 """
 
@@ -403,6 +403,96 @@ def extract_way_of_jacob() -> dict:
     }
 
 
+def extract_saint_henrys_way() -> dict:
+    """Path from OSM relation 8833791 (Pyhän Henrikin tie)."""
+    name = "Saint Henry's way"
+    slug = "Saint-Henrys-way"
+    source = "https://henrikinvaellus.fi/pyhan-henrikin-tie--in-english-"
+    osm_rel = 8833791
+    trail_dir = ensure_dir("Finland", slug)
+    log(f"=== {name} (OSM relation/{osm_rel})")
+    data = http_json(f"https://api.openstreetmap.org/api/0.6/relation/{osm_rel}/full.json")
+    assert isinstance(data, dict)
+    nodes: dict[int, tuple[float, float]] = {}
+    ways: dict[int, dict] = {}
+    rel = None
+    for el in data.get("elements") or []:
+        if el["type"] == "node":
+            nodes[el["id"]] = (float(el["lat"]), float(el["lon"]))
+        elif el["type"] == "way":
+            ways[el["id"]] = el
+        elif el["type"] == "relation" and el["id"] == osm_rel:
+            rel = el
+    if not rel:
+        raise RuntimeError(f"OSM relation/{osm_rel} not in full download")
+    points: list[tuple[float, float]] = []
+    for m in rel.get("members") or []:
+        if m.get("type") != "way":
+            continue
+        w = ways.get(m["ref"])
+        if not w:
+            continue
+        coords = [nodes[n] for n in (w.get("nodes") or []) if n in nodes]
+        if not coords:
+            continue
+        if (m.get("role") or "") == "backward":
+            coords = list(reversed(coords))
+        if points and coords:
+            la, lo = points[-1]
+            d0 = (coords[0][0] - la) ** 2 + (coords[0][1] - lo) ** 2
+            d1 = (coords[-1][0] - la) ** 2 + (coords[-1][1] - lo) ** 2
+            if d1 < d0:
+                coords = list(reversed(coords))
+            if coords[0] == points[-1]:
+                coords = coords[1:]
+        points.extend(coords)
+    points = thin_points(points, max_points=6000)
+    pois = geocode(
+        [
+            ("Turun tuomiokirkko", "Turun tuomiokirkko", "church"),
+            ("Nousiainen", "Nousiaisten kirkko", "church"),
+            ("Lieto", "Liedon kirkko", "church"),
+            ("Pänttilänniemi", "Pänttilänniemi", "place"),
+        ],
+        "fi",
+    )
+    write_gpx(trail_dir / "hiking_path.gpx", name, points)
+    write_trail_osm(
+        trail_dir / "trail.osm",
+        name,
+        "Finland",
+        source,
+        points,
+        pois,
+        f"Path densified from OSM hiking relation/{osm_rel} (Pyhän Henrikin tie).",
+    )
+    write_readme(
+        trail_dir / "README.md",
+        name,
+        f"Finland/{slug}",
+        source,
+        len(points),
+        pois,
+        [
+            "Also known as Pyhän Henrikin tie (Åbo/Turku → Pänttilänniemi), about 140 km.",
+            f"Path from OSM relation/{osm_rel} for local review.",
+            f"Official site: {source}",
+        ],
+    )
+    return {
+        "name": "Saint Henry's way (Pyhän Henrikin tie)",
+        "folder": f"Finland/{slug}",
+        "from": "Åbo / Turku",
+        "to": "Pänttilänniemi",
+        "km": 140,
+        "url": source,
+        "status": "extracted",
+        "osm_relation": osm_rel,
+        "path_points": len(points),
+        "pois": len(pois),
+    }
+
+
 def main() -> int:
     BY_TRAIL.mkdir(parents=True, exist_ok=True)
 
@@ -541,6 +631,7 @@ def main() -> int:
     }
 
     jacob = extract_way_of_jacob()
+    henry = extract_saint_henrys_way()
 
     finland_catalog = [
         {
@@ -564,14 +655,16 @@ def main() -> int:
             "pois": oulu["pois"],
         },
         {
-            "name": "Saint Henry's way (Pyhän Henrikin tie)",
-            "from": "Åbo / Turku",
-            "to": "Pänttilänniemi",
-            "km": 140,
-            "url": "https://henrikinvaellus.fi/pyhan-henrikin-tie--in-english-",
-            "status": "in_osm",
-            "osm_relation": 8833791,
-            "note": "OSM hiking relation/8833791 exists — not duplicated as trail.osm.",
+            "name": henry["name"],
+            "from": henry["from"],
+            "to": henry["to"],
+            "km": henry["km"],
+            "url": henry["url"],
+            "folder": henry["folder"],
+            "status": henry["status"],
+            "osm_relation": henry["osm_relation"],
+            "path_points": henry["path_points"],
+            "pois": henry["pois"],
         },
         {
             "name": "St. Olav Waterway",

@@ -28,9 +28,12 @@
       "to": "Pänttilänniemi",
       "km": 140,
       "url": "https://henrikinvaellus.fi/pyhan-henrikin-tie--in-english-",
-      "status": "in_osm",
+      "status": "extracted",
       "osm_relation": 8833791,
-      "note": "OSM hiking relation/8833791 exists — not duplicated as trail.osm."
+      "note": "Path from OSM relation; also listed at henrikinvaellus.fi",
+      "folder": "Finland/Saint-Henrys-way",
+      "path_points": 1066,
+      "pois": 3
     },
     {
       "name": "St. Olav Waterway",
