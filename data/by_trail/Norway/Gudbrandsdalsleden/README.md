@@ -1,6 +1,6 @@
 # Gudbrandsdalsleden
 
-Folder: `Gudbrandsdalsleden`
+Folder: `Norway/Gudbrandsdalsleden`
 
 ## Open in JOSM
 
@@ -35,7 +35,7 @@ members to the live route relation below (download/update those objects first).
 | Overnight POIs (CMS) | 169 |
 | Existing in trail.osm | 90 |
 | New suggestions in trail.osm | 79 |
-| OSM lodging to add to route relation (`route_add`) | 350 |
+| OSM lodging to add to route relation (`route_add`) | 26 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |

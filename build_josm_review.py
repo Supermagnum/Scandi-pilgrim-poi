@@ -28,7 +28,7 @@ from extract_pilegrimsleden_shelters import (
     osm_tags_for_category,
     primary_category,
 )
-from extract_stolavsleden import xml_escape
+from extract_stolavsleden import haversine_m, xml_escape
 from compare_osm_shelters import normalize_name
 from propose_relation_additions import (
     TRAIL_RELATIONS,
@@ -37,6 +37,7 @@ from propose_relation_additions import (
     http_get,
     stitch_points,
 )
+from extract_pilegrimsleden_shelters import TRAILPOINTS_URL, USER_AGENT as SHELTER_UA
 
 PROPOSED_ADDITION = "Proposed addition"
 RELATION_MEMBER_NOTE = "Add as member of OSM route relation"
@@ -79,9 +80,10 @@ MOVE_POI_COORDS: dict[str, dict[str, tuple[float, float]]] = {
 }
 
 # Buildings / areas that must appear with real geometry in trail.osm (not proxies).
+# NOTE: do not treat bare bygningsnr integers as OSM way ids (way/23439344 is in
+# St. Petersburg and was a false positive from "23439344 building ref number").
 REQUIRED_OSM_OBJECTS: dict[str, list[str]] = {
     "Romeriksleden": [
-        "way/23439344",  # Thon Hotel Gardermoen building
         "way/303953979",  # Vikingskipet Hotell og Spiseri
         "way/633872773",  # correct building for misplaced node/6800398116
         "way/98811698",  # Pilegrimssenter Hamar
@@ -89,6 +91,63 @@ REQUIRED_OSM_OBJECTS: dict[str, list[str]] = {
         "way/315143760",  # Gapahuk i Furuberget
         "relation/3836486",  # Thon Partner Hotel Victoria Hamar (multipolygon)
     ],
+}
+
+# Strong overnight lodging suitable for OSM route-relation membership proposals.
+ROUTE_ADD_LODGING_TOURISM = {
+    "hotel",
+    "hostel",
+    "guest_house",
+    "chalet",
+    "cabin",
+    "apartment",
+    "camp_site",
+    "caravan_site",
+    "wilderness_hut",
+    "alpine_hut",
+}
+ROUTE_ADD_CAMP_TOURISM = {
+    "camp_site",
+    "caravan_site",
+    "wilderness_hut",
+    "alpine_hut",
+}
+# Max distance from densified route geometry for route_add (metres).
+ROUTE_ADD_MAX_M_LODGING = 500.0
+ROUTE_ADD_MAX_M_CAMP = 1000.0
+ROUTE_ADD_MAX_M_SHELTER = 100.0
+ROUTE_ADD_MAX_M_PILGRIM = 2000.0
+# route_add must also sit near an official kart overnight POI for that trail.
+ROUTE_ADD_MAX_M_MAP_POI = 500.0
+
+# folder -> Craft CMS trail id used by /actions/pilegrimsleden/poi/trailpoints
+CMS_TRAIL_IDS: dict[str, int] = {
+    "Norway/Gudbrandsdalsleden": 212,
+    "Sweden/St-Olavsleden": 190,
+    "Norway/Borgleden": 175,
+    "Norway/Kystpilegrimsleia": 97,
+    "Norway/Tunsbergleden": 6418,
+    "Norway/Osterdalsleden": 182,
+    "Norway/Valldalsleden": 132,
+    "Norway/Romboleden": 202,
+    "Norway/Nordleden": 194,
+    # Norway/Romeriksleden is not a selectable trail on pilegrimsleden.no/kart
+}
+
+MAP_OVERNIGHT_CATEGORIES = {
+    "Overnatting",
+    "Hotell",
+    "Gapahuk",
+    "Rom og hytter",
+    "Vandrerhjem",
+    "Campingplass",
+    "Teltplass",
+    "Pilegrimsherberge",
+    "Dagsturhytte",
+    "Pilegrimsbu",
+    "Rorbu",
+    "Glamping",
+    "Rasteplass",
 }
 
 # Research dumps replaced by README.md (removed after README is written).
@@ -100,6 +159,199 @@ RESEARCH_GLOBS = (
 
 def log(message: str) -> None:
     print(message, flush=True)
+
+
+def _is_pilgrimish_name(name: str) -> bool:
+    n = (name or "").lower()
+    return any(
+        token in n
+        for token in (
+            "pilegrim",
+            "pilgrim",
+            "gapahuk",
+            "vandrerhjem",
+            "herberge",
+        )
+    )
+
+
+def nearest_route_distance_m(
+    lat: float, lon: float, path_points: list[tuple[float, float]]
+) -> float:
+    if not path_points:
+        return float("nan")
+    # Coarse sample then local refine around best coarse hit.
+    step = max(1, len(path_points) // 2500)
+    best_i = 0
+    best = float("inf")
+    for i in range(0, len(path_points), step):
+        plat, plon = path_points[i]
+        d = haversine_m(lat, lon, plat, plon)
+        if d < best:
+            best = d
+            best_i = i
+    lo = max(0, best_i - step)
+    hi = min(len(path_points), best_i + step + 1)
+    for plat, plon in path_points[lo:hi]:
+        d = haversine_m(lat, lon, plat, plon)
+        if d < best:
+            best = d
+    return best
+
+
+def is_route_add_candidate(
+    row: dict[str, str],
+    *,
+    path_points: list[tuple[float, float]] | None = None,
+) -> bool:
+    """Keep only lodging that belongs near the trail for route membership.
+
+    The old 2 km vacuum included downtown hotels, picnic sites, and random
+    amenity=shelter lean-tos that are not part of the pilgrim routes.
+    """
+    tourism = (row.get("tourism") or "").strip()
+    amenity = (row.get("amenity") or "").strip()
+    name = (row.get("name") or "").strip()
+    pilgrimage = (row.get("pilgrimage") or "").strip()
+    network = (row.get("network") or "").strip()
+    try:
+        dist = float(row.get("route_distance_m") or "nan")
+    except ValueError:
+        dist = float("nan")
+    if math.isnan(dist) and path_points:
+        try:
+            lat = float(row["lat"])
+            lon = float(row["lon"])
+        except (KeyError, TypeError, ValueError):
+            return False
+        dist = nearest_route_distance_m(lat, lon, path_points)
+        row["route_distance_m"] = f"{dist:.1f}"
+
+    pilgrimish = bool(
+        pilgrimage
+        or network == "Pilegrimsleden"
+        or _is_pilgrimish_name(name)
+    )
+
+    if tourism == "picnic_site":
+        return False
+    if tourism == "information":
+        if not pilgrimish:
+            return False
+        return not math.isnan(dist) and dist <= ROUTE_ADD_MAX_M_PILGRIM
+
+    if tourism in ROUTE_ADD_LODGING_TOURISM:
+        if pilgrimish:
+            limit = ROUTE_ADD_MAX_M_PILGRIM
+        elif tourism in ROUTE_ADD_CAMP_TOURISM:
+            limit = ROUTE_ADD_MAX_M_CAMP
+        else:
+            limit = ROUTE_ADD_MAX_M_LODGING
+        return not math.isnan(dist) and dist <= limit
+
+    if amenity == "shelter":
+        limit = (
+            ROUTE_ADD_MAX_M_PILGRIM if pilgrimish else ROUTE_ADD_MAX_M_SHELTER
+        )
+        return not math.isnan(dist) and dist <= limit
+
+    # Bare buildings / other tags: only via REQUIRED_OSM_OBJECTS.
+    return False
+
+
+def filter_route_add_candidates(
+    candidates: list[dict[str, str]],
+    folder: str,
+    *,
+    path_points: list[tuple[float, float]] | None = None,
+    map_overnight: list[dict[str, float | str]] | None = None,
+) -> list[dict[str, str]]:
+    required = set(REQUIRED_OSM_OBJECTS.get(folder, [])) | set(
+        REQUIRED_OSM_OBJECTS.get(folder_basename(folder), [])
+    )
+    kept: list[dict[str, str]] = []
+    dropped = 0
+    dropped_off_map = 0
+    for row in candidates:
+        osm_id = (row.get("osm_id") or "").strip()
+        if osm_id in required:
+            kept.append(row)
+            continue
+        if not is_route_add_candidate(row, path_points=path_points):
+            dropped += 1
+            continue
+        if map_overnight is not None:
+            try:
+                lat = float(row["lat"])
+                lon = float(row["lon"])
+            except (KeyError, TypeError, ValueError):
+                dropped += 1
+                dropped_off_map += 1
+                continue
+            near = False
+            for poi in map_overnight:
+                d = haversine_m(
+                    lat, lon, float(poi["lat"]), float(poi["lon"])
+                )
+                if d <= ROUTE_ADD_MAX_M_MAP_POI:
+                    near = True
+                    break
+            if not near:
+                dropped += 1
+                dropped_off_map += 1
+                continue
+        kept.append(row)
+    if dropped:
+        extra = (
+            f", of which {dropped_off_map} not near kart overnight POIs"
+            if dropped_off_map
+            else ""
+        )
+        log(
+            f"  filtered route_add: kept {len(kept)}, dropped {dropped} "
+            f"(off-trail / picnic / weak shelter{extra})"
+        )
+    return kept
+
+
+def fetch_map_overnight_pois(trail_id: int) -> list[dict[str, float | str]]:
+    """Overnight/shelter POIs shown for a trail on pilegrimsleden.no/kart."""
+    import json
+    import urllib.parse
+    import urllib.request
+
+    url = (
+        f"{TRAILPOINTS_URL}?{urllib.parse.urlencode({'trailId': trail_id})}"
+    )
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": SHELTER_UA,
+            "Accept": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=180) as resp:
+        rows = json.loads(resp.read().decode("utf-8"))
+    out: list[dict[str, float | str]] = []
+    for row in rows:
+        lat = row.get("lt")
+        lon = row.get("ln")
+        if lat is None or lon is None:
+            continue
+        cats = set(row.get("cs") or [])
+        if row.get("c"):
+            cats.add(row["c"])
+        if not (cats & MAP_OVERNIGHT_CATEGORIES):
+            continue
+        out.append(
+            {
+                "id": row.get("id") or "",
+                "title": row.get("t") or "",
+                "lat": float(lat),
+                "lon": float(lon),
+            }
+        )
+    return out
 
 
 def points_from_hiking_osm(path: Path) -> list[tuple[float, float]]:
@@ -260,8 +512,35 @@ def recover_candidates_from_trail_osm(path: Path) -> list[dict[str, str]]:
     if not path.exists():
         return []
     root = ET.fromstring(path.read_text(encoding="utf-8"))
+    nodes = {
+        n.attrib["id"]: n
+        for n in root.findall("node")
+        if "lat" in n.attrib and "lon" in n.attrib
+    }
     rows: list[dict[str, str]] = []
     seen: set[str] = set()
+
+    def _append(
+        osm_id: str,
+        lat: str,
+        lon: str,
+        tags: dict[str, str],
+    ) -> None:
+        if osm_id in seen:
+            return
+        seen.add(osm_id)
+        rows.append(
+            {
+                "osm_id": osm_id,
+                "lat": lat,
+                "lon": lon,
+                "name": tags.get("name") or "",
+                "tourism": tags.get("tourism") or "",
+                "amenity": tags.get("amenity") or "",
+                "building": tags.get("building") or "",
+            }
+        )
+
     for node in root.findall("node"):
         tags = {t.attrib["k"]: t.attrib["v"] for t in node.findall("tag")}
         if "note:relation_member" not in tags:
@@ -281,20 +560,58 @@ def recover_candidates_from_trail_osm(path: Path) -> list[dict[str, str]]:
             if nid <= 0:
                 continue
             osm_id = f"node/{nid}"
-        if osm_id in seen:
+        _append(osm_id, lat, lon, tags)
+
+    for way in root.findall("way"):
+        tags = {t.attrib["k"]: t.attrib["v"] for t in way.findall("tag")}
+        if "note:relation_member" not in tags:
             continue
-        seen.add(osm_id)
-        rows.append(
-            {
-                "osm_id": osm_id,
-                "lat": lat,
-                "lon": lon,
-                "name": tags.get("name") or "",
-                "tourism": tags.get("tourism") or "",
-                "amenity": tags.get("amenity") or "",
-                "building": tags.get("building") or "",
-            }
-        )
+        try:
+            wid = int(way.attrib["id"])
+        except (KeyError, ValueError):
+            continue
+        if wid <= 0:
+            continue
+        pts: list[tuple[float, float]] = []
+        for nd in way.findall("nd"):
+            node = nodes.get(nd.attrib.get("ref") or "")
+            if node is None:
+                continue
+            pts.append((float(node.attrib["lat"]), float(node.attrib["lon"])))
+        if not pts:
+            continue
+        lat = sum(p[0] for p in pts) / len(pts)
+        lon = sum(p[1] for p in pts) / len(pts)
+        _append(f"way/{wid}", f"{lat:.7f}", f"{lon:.7f}", tags)
+
+    for rel in root.findall("relation"):
+        tags = {t.attrib["k"]: t.attrib["v"] for t in rel.findall("tag")}
+        if "note:relation_member" not in tags:
+            continue
+        try:
+            rid = int(rel.attrib["id"])
+        except (KeyError, ValueError):
+            continue
+        if rid <= 0:
+            continue
+        pts = []
+        for member in rel.findall("member"):
+            if member.attrib.get("type") != "way":
+                continue
+            way = root.find(f"./way[@id='{member.attrib.get('ref')}']")
+            if way is None:
+                continue
+            for nd in way.findall("nd"):
+                node = nodes.get(nd.attrib.get("ref") or "")
+                if node is None:
+                    continue
+                pts.append((float(node.attrib["lat"]), float(node.attrib["lon"])))
+        if not pts:
+            continue
+        lat = sum(p[0] for p in pts) / len(pts)
+        lon = sum(p[1] for p in pts) / len(pts)
+        _append(f"relation/{rid}", f"{lat:.7f}", f"{lon:.7f}", tags)
+
     return rows
 
 
@@ -329,19 +646,28 @@ def recover_cms_rows_from_trail_osm(path: Path, trail_name: str) -> list[dict[st
     return rows
 
 
+def folder_basename(folder: str) -> str:
+    return Path(folder).name
+
+
 def merge_required_osm_objects(
     candidates: list[dict[str, str]], folder: str
 ) -> list[dict[str, str]]:
     """Ensure correction buildings/areas are present as route_add candidates."""
-    required = REQUIRED_OSM_OBJECTS.get(folder, [])
-    if not required:
+    required_ids = list(
+        dict.fromkeys(
+            REQUIRED_OSM_OBJECTS.get(folder, [])
+            + REQUIRED_OSM_OBJECTS.get(folder_basename(folder), [])
+        )
+    )
+    if not required_ids:
         return candidates
     by_id = {
         (row.get("osm_id") or "").strip(): row
         for row in candidates
         if (row.get("osm_id") or "").strip()
     }
-    for osm_id in required:
+    for osm_id in required_ids:
         if osm_id in by_id:
             continue
         try:
@@ -875,9 +1201,9 @@ def load_shelters_for_trail(root: Path, folder: str, trail_name: str) -> list[di
     national = root / "data" / "osm_comparison_results.csv"
     if national.exists():
         aliases = {trail_name, folder}
-        if folder == "Osterdalsleden":
+        if folder == "Osterdalsleden" or folder.endswith("/Osterdalsleden"):
             aliases.add("Østerdalsleden")
-        if folder == "St-Olavsleden":
+        if folder == "St-Olavsleden" or folder.endswith("/St-Olavsleden"):
             aliases.update({"St. Olavsleden", "St Olavsleden"})
         rows = [r for r in load_csv_rows(national) if (r.get("trail") or "") in aliases]
         if rows:
@@ -900,7 +1226,12 @@ def write_trail_readme(
     gaps_n: int,
     route_add_n: int,
 ) -> None:
-    research_dir = trail_dir.parent.parent / "research_by_trail" / folder
+    # folder may be nested (e.g. Sweden/St-Olavsleden)
+    data_dir = trail_dir
+    while data_dir.name != "by_trail" and data_dir.parent != data_dir:
+        data_dir = data_dir.parent
+    data_dir = data_dir.parent
+    research_dir = data_dir / "research_by_trail" / folder
     missing = load_csv_rows(research_dir / "osm_missing_for_relation.csv")
     if not missing:
         missing = load_csv_rows(trail_dir / "osm_missing_for_relation.csv")
@@ -1026,8 +1357,28 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
     if not shelters:
         log("  no shelter rows found — skip")
         return
+    path_points = ensure_path_points(trail_dir, trail_name, relation_id)
     candidates = load_relation_candidates(root, folder)
     candidates = merge_required_osm_objects(candidates, folder)
+    map_overnight: list[dict[str, float | str]] | None = None
+    cms_trail_id = CMS_TRAIL_IDS.get(folder)
+    if cms_trail_id is not None:
+        map_overnight = fetch_map_overnight_pois(cms_trail_id)
+        log(
+            f"  kart overnight POIs for trailId={cms_trail_id}: "
+            f"{len(map_overnight)}"
+        )
+    else:
+        log(
+            "  no CMS trail id on pilegrimsleden.no/kart — "
+            "route_add uses path distance only"
+        )
+    candidates = filter_route_add_candidates(
+        candidates,
+        folder,
+        path_points=path_points,
+        map_overnight=map_overnight,
+    )
     if candidates:
         log(f"  relation candidates (route_add): {len(candidates)}")
     else:
@@ -1035,7 +1386,6 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
             "  no osm_missing_for_relation.csv — run propose_relation_additions.py "
             "first to embed OSM lodging for relation membership"
         )
-    path_points = ensure_path_points(trail_dir, trail_name, relation_id)
     geofabrik = root / "data" / "geofabrik"
     pbf_paths = [
         p
@@ -1046,7 +1396,9 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
         if p.exists()
     ]
     # Prefer the country PBF that covers most of the trail first.
-    if folder == "St-Olavsleden" and len(pbf_paths) == 2:
+    if (folder == "St-Olavsleden" or folder.endswith("/St-Olavsleden")) and len(
+        pbf_paths
+    ) == 2:
         pbf_paths = [pbf_paths[1], pbf_paths[0]]
     existing_n, gaps_n, route_add_n = write_trail_osm(
         trail_dir,

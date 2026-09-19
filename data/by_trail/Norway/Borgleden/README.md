@@ -1,6 +1,6 @@
-# Østerdalsleden
+# Borgleden
 
-Folder: `Osterdalsleden`
+Folder: `Norway/Borgleden`
 
 ## Open in JOSM
 
@@ -24,61 +24,33 @@ members to the live route relation below (download/update those objects first).
 
 ## OSM route relation
 
-- Name: Østerdalsleden
-- Relation: https://www.openstreetmap.org/relation/5129262
+- Name: Borgleden
+- Relation: https://www.openstreetmap.org/relation/5672944
 - Do not remove existing members of that relation from this research file.
 
 ## Counts
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 50 |
-| Existing in trail.osm | 14 |
-| New suggestions in trail.osm | 36 |
-| OSM lodging to add to route relation (`route_add`) | 194 |
+| Overnight POIs (CMS) | 16 |
+| Existing in trail.osm | 8 |
+| New suggestions in trail.osm | 8 |
+| OSM lodging to add to route relation (`route_add`) | 21 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
-| Lodging near route not on relation (reference CSV) | 194 |
+| Lodging near route not on relation (reference CSV) | 262 |
 
 ## New suggestions (names)
 
-- Barmo -hus til leie
-- Bjerkelihytten på Aasgårvollen
-- Dagfinnstua på Oddheim
-- Elgstua | Gjerfloen Fluefiske
-- Eltdalen Grendehus
-- Fagertun
-- Fiskvik Søndre - Jaktslottet.
-- Fjellavvo ved Osdalssjøhøgda naturreservat
-- Flenåsstua, Ol-Jons garden
-- Fluesonen | Gjerfloen fluefiske
-- Heimvollen
-- Hytte på Osåsan
-- Hytte ved Nordstu Digre
-- Hytte | Storbekkøya museumssæter
-- Kari Maries Sommerresidens
-- Kneppstua - stengt
-- Koie ved Netsjøen
-- Koie ved Nysledammen
-- Mandfloen husmannsplass
-- Negarn
-- Perskoia
-- Pilegrimsbu Vardan
-- Pilegrimsbu ved Okstjønna
-- Pilegrimslavvo ved Søndre Kvanntjønna
-- Romenstad Gård
-- Samatun
-- Simensvollen - trivelig seterstue
-- Skårsåsbua
-- Småvangan skihytte
-- Stengt- Pilegrimshytta i Otnes
-- Svarttjønnbua
-- Tollefkoia
-- Tollefsa Gjestegård
-- Trollhaugen
-- Trollhytta
-- Øyvindtjønna sælehus
+- Bakkelund Backpackers
+- Berg pilegrimsherberge
+- Gapahuk med grillplass Tobru, Halden
+- Haldenhytta
+- Pilegrimsovernatting i Moss
+- Solåsen pilegrimsgård
+- Urtegården Nordre Mørk
+- Østre Aker pilegrimsherberge
 
 ## Files in this folder
 

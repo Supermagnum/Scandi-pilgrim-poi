@@ -1,6 +1,6 @@
-# Borgleden
+# Kystpilegrimsleia
 
-Folder: `Borgleden`
+Folder: `Norway/Kystpilegrimsleia`
 
 ## Open in JOSM
 
@@ -24,33 +24,53 @@ members to the live route relation below (download/update those objects first).
 
 ## OSM route relation
 
-- Name: Borgleden
-- Relation: https://www.openstreetmap.org/relation/5672944
+- Name: Kystpilegrimsleia
+- Relation: https://www.openstreetmap.org/relation/10508888
 - Do not remove existing members of that relation from this research file.
 
 ## Counts
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 16 |
-| Existing in trail.osm | 8 |
-| New suggestions in trail.osm | 8 |
-| OSM lodging to add to route relation (`route_add`) | 262 |
+| Overnight POIs (CMS) | 49 |
+| Existing in trail.osm | 21 |
+| New suggestions in trail.osm | 28 |
+| OSM lodging to add to route relation (`route_add`) | 32 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
-| Lodging near route not on relation (reference CSV) | 262 |
+| Lodging near route not on relation (reference CSV) | 88 |
 
 ## New suggestions (names)
 
-- Bakkelund Backpackers
-- Berg pilegrimsherberge
-- Gapahuk med grillplass Tobru, Halden
-- Haldenhytta
-- Pilegrimsovernatting i Moss
-- Solåsen pilegrimsgård
-- Urtegården Nordre Mørk
-- Østre Aker pilegrimsherberge
+- Badestranda Leiren
+- Borgstua på Kvernes Prestegård
+- Brekkegarden pilegrimsherberge
+- Dagsturhytta Gulakvila
+- Dagsturhytta Havglimt
+- Dagsturhytta Sørefjordhytta
+- Fjøsen Bed & make your own breakfast
+- Friluftsfyret Kvassheim
+- Fru Ingas Apartments
+- Gapahuk i Fagerdalen
+- Gapahuk på Kvernes
+- Gjertrudstua
+- Hatlems Hytter
+- Huset ved havet
+- Kjeldsund leirstad og gjestegard
+- Kråen Gard
+- Kvernes på Averøy | Nøkkelsted
+- Kvile- og lesebu i Moltudalen
+- Overnatting i stabbur med fire sengeplasser på Karmøy
+- Pilegrimsherberge i Selje prestegard
+- Reveparken hytteutleige - overnatting direkte ved Jærstrendene
+- Seljebuda
+- Sjøglytt
+- Sula havglamping
+- Sætren Rorbuer
+- Telegrafen - Moster Amfi
+- Tunheimsfjøra logde
+- Årnseth Gapahuk
 
 ## Files in this folder
 

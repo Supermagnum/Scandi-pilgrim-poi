@@ -1,6 +1,6 @@
 # Nordleden
 
-Folder: `Nordleden`
+Folder: `Norway/Nordleden`
 
 ## Open in JOSM
 
@@ -35,7 +35,7 @@ members to the live route relation below (download/update those objects first).
 | Overnight POIs (CMS) | 2 |
 | Existing in trail.osm | 2 |
 | New suggestions in trail.osm | 0 |
-| OSM lodging to add to route relation (`route_add`) | 5 |
+| OSM lodging to add to route relation (`route_add`) | 2 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |

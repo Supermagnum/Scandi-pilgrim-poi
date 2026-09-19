@@ -1,6 +1,6 @@
 # St. Olavsleden
 
-Folder: `St-Olavsleden`
+Folder: `Sweden/St-Olavsleden`
 
 ## Open in JOSM
 
@@ -35,7 +35,7 @@ members to the live route relation below (download/update those objects first).
 | Overnight POIs (CMS) | 142 |
 | Existing in trail.osm | 46 |
 | New suggestions in trail.osm | 96 |
-| OSM lodging to add to route relation (`route_add`) | 408 |
+| OSM lodging to add to route relation (`route_add`) | 102 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |

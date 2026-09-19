@@ -31,8 +31,8 @@ Foundation.
   | Valldalsleden | [11218584](https://www.openstreetmap.org/relation/11218584) |
 
   Romeriksleden is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer) and
-  is not a separate CMS trail entry. Folder `data/by_trail/Romeriksleden/` holds
-  corridor overnight POIs (`related_trails` Gudbrandsdalsleden + Romeriksleden)
+  is not a separate CMS trail entry. Folder `data/by_trail/Norway/Romeriksleden/`
+  holds corridor overnight POIs (`related_trails` Gudbrandsdalsleden + Romeriksleden)
   in the same single `trail.osm` as every other trail.
 - **stolavsleden.com** (WordPress site + Naturkartan embed, guide id 154):
   St. Olavsleden in Sweden, including hiking / biking / horseback path variants
@@ -71,16 +71,16 @@ Latest pass (`propose_relation_additions.py`, Romeriksleden via
 
 | folder | OSM relation | already | missing / route_add | CMS gaps in trail.osm |
 | --- | ---: | ---: | ---: | ---: |
-| Borgleden | 5672944 | 0 | 262 | 8 |
-| Gudbrandsdalsleden | 1370273 | 0 | 350 | 79 |
-| Kystpilegrimsleia | 10508888 | 0 | 88 | 28 |
-| Nordleden | 1585449 | 0 | 5 | 0 |
-| Osterdalsleden | 5129262 | 0 | 194 | 36 |
-| Romboleden | 1151161 | 0 | 455 | 5 |
-| Romeriksleden | 1200009 | 0 | 345 | 29 |
-| St-Olavsleden | 10524322 | 0 | 408 | 96 |
-| Tunsbergleden | 5661086 | 0 | 184 | 18 |
-| Valldalsleden | 11218584 | 0 | 45 | 9 |
+| Norway/Borgleden | 5672944 | 0 | 21 | 8 |
+| Norway/Gudbrandsdalsleden | 1370273 | 0 | 26 | 79 |
+| Norway/Kystpilegrimsleia | 10508888 | 0 | 32 | 28 |
+| Norway/Nordleden | 1585449 | 0 | 2 | 0 |
+| Norway/Osterdalsleden | 5129262 | 0 | 18 | 36 |
+| Norway/Romboleden | 1151161 | 0 | 6 | 5 |
+| Norway/Romeriksleden | 1200009 | 0 | 64 | 29 |
+| Sweden/St-Olavsleden | 10524322 | 0 | 102 | 96 |
+| Norway/Tunsbergleden | 5661086 | 0 | 24 | 18 |
+| Norway/Valldalsleden | 11218584 | 0 | 17 | 9 |
 
 Those “missing” lodging objects are embedded in each `trail.osm` as members with
 role `route_add` (search `note:relation_member=…`) so they can be added to the
@@ -90,10 +90,14 @@ live OSM route relation in JOSM. CSVs also live under `data/research_by_trail/`.
 
 ```
 data/
-  by_trail/<TrailName>/
+  by_trail/Norway/<TrailName>/
     trail.osm           # ONLY OSM file: path + existing POIs + new suggestions
     README.md           # short trail notes (replaces per-trail CSV dumps)
     hiking_path.gpx     # optional path cache
+  by_trail/Sweden/St-Olavsleden/
+    trail.osm
+    README.md
+    hiking_path.gpx
     horseback_path.gpx  # St. Olavsleden only
   osm_comparison_results.csv
   pilegrimsleden_shelters_by_trail.csv
@@ -132,13 +136,19 @@ or update them in JOSM, then add them to the live relation.
 
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
-`St-Olavsleden`. St. Olavsleden merges NO + SE POIs in `trail.osm`.
+`St-Olavsleden`. Norwegian routes live under `data/by_trail/Norway/`; Swedish
+St. Olavsleden under `data/by_trail/Sweden/St-Olavsleden/` (NO + SE POIs in
+`trail.osm`).
 
 ## How to use in JOSM
 
 Open:
 
-`data/by_trail/<TrailName>/trail.osm`
+`data/by_trail/Norway/<TrailName>/trail.osm`
+
+or for the Swedish trail:
+
+`data/by_trail/Sweden/St-Olavsleden/trail.osm`
 
 It contains:
 

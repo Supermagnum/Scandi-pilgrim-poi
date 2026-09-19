@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build data/by_trail/Romeriksleden from OSM relation 1200009.
+"""Build data/by_trail/Norway/Romeriksleden from OSM relation 1200009.
 
 Model (read-only w.r.t. OpenStreetMap):
 1. Load OSM route relation 1200009 as source of truth for the trail geometry
@@ -51,6 +51,8 @@ TRAILPOINTS_URL = (
 BUFFER_M = 2000.0
 SOURCE_TRAIL = "Gudbrandsdalsleden"
 TRAIL_NAME = "Romeriksleden"
+SOURCE_TRAIL_FOLDER = "Norway/Gudbrandsdalsleden"
+TRAIL_FOLDER = "Norway/Romeriksleden"
 TRAIL_MEMBERSHIP = [SOURCE_TRAIL, TRAIL_NAME]
 
 
@@ -307,7 +309,7 @@ def load_match_index(data: Path) -> dict[str, dict[str, str]]:
     by_id: dict[str, dict[str, str]] = {}
     by_coord: dict[tuple[float, float], dict[str, str]] = {}
     for path in (
-        data / "by_trail" / SOURCE_TRAIL / "shelters.csv",
+        data / "by_trail" / SOURCE_TRAIL_FOLDER / "shelters.csv",
         data / "osm_comparison_results.csv",
     ):
         if not path.exists():
@@ -340,7 +342,7 @@ def select_corridor_pois(
 ) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
     national_coords: set[tuple[float, float]] = set()
     for path in (
-        data / "by_trail" / SOURCE_TRAIL / "shelters.csv",
+        data / "by_trail" / SOURCE_TRAIL_FOLDER / "shelters.csv",
         data / "osm_comparison_results.csv",
         data / "pilegrimsleden_shelters_by_trail.csv",
     ):
@@ -664,7 +666,7 @@ def rematch_against_norway_pbf(
         shelter_categories,
     )
 
-    trail_dir = data / "by_trail" / TRAIL_NAME
+    trail_dir = data / "by_trail" / TRAIL_FOLDER
     cache_along = trail_dir / "osm_along_route.csv"
     cache_shelters = trail_dir / "shelters.csv"
     if reuse_cache and cache_along.exists() and cache_shelters.exists():
@@ -992,7 +994,7 @@ def patch_gudbrandsdalsleden_trail_notes(
     data: Path, corridor_names: set[str]
 ) -> int:
     """Add Romeriksleden to note:trail on Gudbrandsdalsleden shelters.osm for corridor POIs."""
-    path = data / "by_trail" / SOURCE_TRAIL / "shelters.osm"
+    path = data / "by_trail" / SOURCE_TRAIL_FOLDER / "shelters.osm"
     if not path.exists() or not corridor_names:
         return 0
     text = path.read_text(encoding="utf-8")
@@ -1047,7 +1049,7 @@ def patch_gudbrandsdalsleden_trail_notes(
 def main() -> int:
     root = Path(__file__).resolve().parent
     data = root / "data"
-    trail_dir = data / "by_trail" / TRAIL_NAME
+    trail_dir = data / "by_trail" / TRAIL_FOLDER
     trail_dir.mkdir(parents=True, exist_ok=True)
 
     rel, segments, existing_members = fetch_relation_geometry()
@@ -1132,7 +1134,7 @@ def main() -> int:
     for row in already:
         row["proposal_note"] = ""
 
-    pilgrim_path = data / "by_trail" / SOURCE_TRAIL / "pilgrim_centers.csv"
+    pilgrim_path = data / "by_trail" / SOURCE_TRAIL_FOLDER / "pilgrim_centers.csv"
     if not pilgrim_path.exists():
         pilgrim_path = data / "pilgrim_centers.csv"
     if pilgrim_path.exists():
@@ -1321,11 +1323,11 @@ def main() -> int:
             1,
         )
     row = (
-        f"| {TRAIL_NAME} | {TRAIL_NAME} | {len(pub_shelters)} | {len(pub_pilgrim)} | "
+        f"| Norway/{TRAIL_NAME} | {TRAIL_NAME} | {len(pub_shelters)} | {len(pub_pilgrim)} | "
         f"{summary['shelter_gaps']} | {summary['pilgrim_gaps']} | - |"
     )
     readme, n = re.subn(
-        r"\| Romeriksleden \| Romeriksleden \| \d+ \| \d+ \| \d+ \| \d+ \| - \|",
+        r"\| (?:Norway/)?Romeriksleden \| Romeriksleden \| \d+ \| \d+ \| \d+ \| \d+ \| - \|",
         row,
         readme,
         count=1,

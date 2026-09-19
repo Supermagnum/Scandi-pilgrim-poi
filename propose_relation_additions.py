@@ -41,21 +41,83 @@ USER_AGENT = (
     "(OSM mapping research; trail relation lodging proposals; "
     "+https://github.com/Supermagnum/Scandi-pilgrim-poi)"
 )
-BUFFER_M = 2000.0
+BUFFER_M = 1000.0
+
+ROUTE_ADD_TOURISM = {
+    "hotel",
+    "hostel",
+    "guest_house",
+    "chalet",
+    "cabin",
+    "apartment",
+    "camp_site",
+    "caravan_site",
+    "wilderness_hut",
+    "alpine_hut",
+}
+ROUTE_ADD_CAMP_TOURISM = {
+    "camp_site",
+    "caravan_site",
+    "wilderness_hut",
+    "alpine_hut",
+}
+ROUTE_ADD_MAX_M_LODGING = 500.0
+ROUTE_ADD_MAX_M_CAMP = 1000.0
+ROUTE_ADD_MAX_M_SHELTER = 100.0
+ROUTE_ADD_MAX_M_PILGRIM = 2000.0
+
+
+def _pilgrimish(name: str, tags: dict[str, str]) -> bool:
+    n = (name or "").lower()
+    if tags.get("pilgrimage") or tags.get("network") == "Pilegrimsleden":
+        return True
+    return any(
+        t in n
+        for t in ("pilegrim", "pilgrim", "gapahuk", "vandrerhjem", "herberge")
+    )
+
+
+def accept_route_add_element(tags: dict[str, str], dist_m: float) -> bool:
+    """True if this OSM object is trail-relevant lodging for route membership."""
+    tourism = tags.get("tourism") or ""
+    amenity = tags.get("amenity") or ""
+    name = tags.get("name") or ""
+    pilgrimish = _pilgrimish(name, tags)
+
+    if tourism == "picnic_site":
+        return False
+    if tourism == "information":
+        return pilgrimish and dist_m <= ROUTE_ADD_MAX_M_PILGRIM
+    if tourism in ROUTE_ADD_TOURISM:
+        if pilgrimish:
+            return dist_m <= ROUTE_ADD_MAX_M_PILGRIM
+        if tourism in ROUTE_ADD_CAMP_TOURISM:
+            return dist_m <= ROUTE_ADD_MAX_M_CAMP
+        return dist_m <= ROUTE_ADD_MAX_M_LODGING
+    if amenity == "shelter":
+        limit = ROUTE_ADD_MAX_M_PILGRIM if pilgrimish else ROUTE_ADD_MAX_M_SHELTER
+        return dist_m <= limit
+    if tags.get("network") == "Pilegrimsleden" or tags.get("pilgrimage"):
+        return dist_m <= ROUTE_ADD_MAX_M_PILGRIM
+    return False
 
 # folder_name -> (display trail name, primary OSM route relation id)
+# folder_name -> (display trail name, primary OSM route relation id)
+# Norwegian trails under by_trail/Norway/; Swedish under by_trail/Sweden/.
 TRAIL_RELATIONS: dict[str, tuple[str, int]] = {
-    "Borgleden": ("Borgleden", 5672944),
-    "Gudbrandsdalsleden": ("Gudbrandsdalsleden", 1370273),
-    "Kystpilegrimsleia": ("Kystpilegrimsleia", 10508888),
-    "Nordleden": ("Nordleden", 1585449),
-    "Osterdalsleden": ("Østerdalsleden", 5129262),
-    "Romboleden": ("Romboleden", 1151161),
-    "Romeriksleden": ("Romeriksleden", 1200009),
-    "St-Olavsleden": ("St. Olavsleden", 10524322),
-    "Tunsbergleden": ("Tunsbergleden / Vestfoldveien", 5661086),
-    "Valldalsleden": ("Valldalsleden", 11218584),
+    "Norway/Borgleden": ("Borgleden", 5672944),
+    "Norway/Gudbrandsdalsleden": ("Gudbrandsdalsleden", 1370273),
+    "Norway/Kystpilegrimsleia": ("Kystpilegrimsleia", 10508888),
+    "Norway/Nordleden": ("Nordleden", 1585449),
+    "Norway/Osterdalsleden": ("Østerdalsleden", 5129262),
+    "Norway/Romboleden": ("Romboleden", 1151161),
+    "Norway/Romeriksleden": ("Romeriksleden", 1200009),
+    "Norway/Tunsbergleden": ("Tunsbergleden / Vestfoldveien", 5661086),
+    "Norway/Valldalsleden": ("Valldalsleden", 11218584),
+    "Sweden/St-Olavsleden": ("St. Olavsleden", 10524322),
 }
+
+ST_OLAVSLEDEN_FOLDER = "Sweden/St-Olavsleden"
 
 
 def log(message: str) -> None:
@@ -494,9 +556,9 @@ def load_shelters(trail_dir: Path) -> list[dict[str, str]]:
     ]
     trail_name = TRAIL_RELATIONS.get(folder, (folder, 0))[0]
     aliases = {folder, trail_name}
-    if folder == "Osterdalsleden":
+    if folder == "Osterdalsleden" or folder.endswith("/Osterdalsleden"):
         aliases.add("Østerdalsleden")
-    if folder == "St-Olavsleden":
+    if folder == "St-Olavsleden" or folder.endswith("/St-Olavsleden"):
         aliases.update({"St. Olavsleden", "St Olavsleden"})
     for path in candidates:
         if not path.exists():
@@ -510,9 +572,14 @@ def load_shelters(trail_dir: Path) -> list[dict[str, str]]:
     return []
 
 
-def research_dir_for(trail_dir: Path) -> Path:
+def research_dir_for(trail_dir: Path, folder: str | None = None) -> Path:
     """CSV research dumps live outside the JOSM trail folder."""
-    out = trail_dir.parent.parent / "research_by_trail" / trail_dir.name
+    data_dir = trail_dir
+    while data_dir.name != "by_trail" and data_dir.parent != data_dir:
+        data_dir = data_dir.parent
+    data_dir = data_dir.parent  # .../data
+    rel = folder if folder is not None else trail_dir.name
+    out = data_dir / "research_by_trail" / rel
     out.mkdir(parents=True, exist_ok=True)
     return out
 
@@ -560,6 +627,8 @@ def process_trail(
         if dist > BUFFER_M:
             continue
         tags_el = el.get("tags") or {}
+        if not accept_route_add_element(tags_el, dist):
+            continue
         along.append(
             {
                 "osm_id": f"{el['type']}/{el['id']}",
@@ -628,7 +697,7 @@ def process_trail(
             (r.get("name") or "").lower(),
         )
     )
-    research_dir = research_dir_for(trail_dir)
+    research_dir = research_dir_for(trail_dir, folder)
     write_csv(research_dir / "osm_along_route.csv", along_tagged, along_fields)
     write_csv(research_dir / "osm_already_related.csv", already, along_fields)
     write_csv(research_dir / "osm_missing_for_relation.csv", missing, along_fields)
@@ -777,7 +846,7 @@ def main() -> int:
             relation_id=relation_id,
             trail_dir=by_trail / folder,
             elements=elements,
-            skip_geometry=folder == "St-Olavsleden",
+            skip_geometry=folder == ST_OLAVSLEDEN_FOLDER,
         )
         summaries.append(summary)
 

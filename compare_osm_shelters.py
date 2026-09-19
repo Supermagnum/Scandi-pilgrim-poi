@@ -511,7 +511,11 @@ def trail_dirname(title: str) -> str:
     translated = title.translate(
         str.maketrans({"æ": "ae", "ø": "o", "å": "a", "Æ": "Ae", "Ø": "O", "Å": "A"})
     )
-    return translated.replace(".", "").replace(" ", "-")
+    name = translated.replace(".", "").replace(" ", "-")
+    # Country split: Swedish St. Olavsleden vs Norwegian Pilegrimsleden routes.
+    if name == "St-Olavsleden":
+        return "Sweden/St-Olavsleden"
+    return f"Norway/{name}"
 
 
 def osm_tag_scheme(tags: dict[str, str]) -> str:
@@ -1754,7 +1758,8 @@ def write_by_trail_outputs(
         "",
         "One folder per Pilegrimsleden trail. Folder names map ae/o/a from",
         "Norwegian special letters and drop the dot in St. Olavsleden for",
-        "filesystem safety; the original trail name is in the `trail` CSV column",
+        "filesystem safety; Norwegian routes under `Norway/`, Swedish St. Olavsleden under `Sweden/`.",
+        "The original trail name is in the `trail` CSV column",
         "and in `note:trail` on OSM nodes.",
         "",
         "Combined national files under `data/` are unchanged. Multi-trail POIs",

@@ -1,6 +1,6 @@
-# Tunsbergleden / Vestfoldveien
+# Østerdalsleden
 
-Folder: `Tunsbergleden`
+Folder: `Norway/Osterdalsleden`
 
 ## Open in JOSM
 
@@ -24,43 +24,61 @@ members to the live route relation below (download/update those objects first).
 
 ## OSM route relation
 
-- Name: Tunsbergleden / Vestfoldveien
-- Relation: https://www.openstreetmap.org/relation/5661086
+- Name: Østerdalsleden
+- Relation: https://www.openstreetmap.org/relation/5129262
 - Do not remove existing members of that relation from this research file.
 
 ## Counts
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 33 |
-| Existing in trail.osm | 15 |
-| New suggestions in trail.osm | 18 |
-| OSM lodging to add to route relation (`route_add`) | 184 |
+| Overnight POIs (CMS) | 50 |
+| Existing in trail.osm | 14 |
+| New suggestions in trail.osm | 36 |
+| OSM lodging to add to route relation (`route_add`) | 18 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
-| Lodging near route not on relation (reference CSV) | 184 |
+| Lodging near route not on relation (reference CSV) | 194 |
 
 ## New suggestions (names)
 
-- Berger Gård
-- Brannåsen
-- Engøy gjestegård
-- Fuglesang herberge
-- Gapahuk ved Stordammen
-- Gardlaus Markastue og pilegrimsherberge
-- Kaupang gård
-- Kirkebakken Borre - midlertidig stengt
-- Kjølholmen på Veierland
-- Lavvoen Biggen
-- Orrfuglstua pilegrimsherberge
-- Poppel pilegrimsherberge
-- Preståsen pilegrimsherberge
-- Røyken Menighetshus
-- Sande overnatting
-- Tyristua
-- Veierland skole
-- Østre Aker pilegrimsherberge
+- Barmo -hus til leie
+- Bjerkelihytten på Aasgårvollen
+- Dagfinnstua på Oddheim
+- Elgstua | Gjerfloen Fluefiske
+- Eltdalen Grendehus
+- Fagertun
+- Fiskvik Søndre - Jaktslottet.
+- Fjellavvo ved Osdalssjøhøgda naturreservat
+- Flenåsstua, Ol-Jons garden
+- Fluesonen | Gjerfloen fluefiske
+- Heimvollen
+- Hytte på Osåsan
+- Hytte ved Nordstu Digre
+- Hytte | Storbekkøya museumssæter
+- Kari Maries Sommerresidens
+- Kneppstua - stengt
+- Koie ved Netsjøen
+- Koie ved Nysledammen
+- Mandfloen husmannsplass
+- Negarn
+- Perskoia
+- Pilegrimsbu Vardan
+- Pilegrimsbu ved Okstjønna
+- Pilegrimslavvo ved Søndre Kvanntjønna
+- Romenstad Gård
+- Samatun
+- Simensvollen - trivelig seterstue
+- Skårsåsbua
+- Småvangan skihytte
+- Stengt- Pilegrimshytta i Otnes
+- Svarttjønnbua
+- Tollefkoia
+- Tollefsa Gjestegård
+- Trollhaugen
+- Trollhytta
+- Øyvindtjønna sælehus
 
 ## Files in this folder
 

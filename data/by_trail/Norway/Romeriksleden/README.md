@@ -1,6 +1,6 @@
-# Kystpilegrimsleia
+# Romeriksleden
 
-Folder: `Kystpilegrimsleia`
+Folder: `Norway/Romeriksleden`
 
 ## Open in JOSM
 
@@ -24,53 +24,54 @@ members to the live route relation below (download/update those objects first).
 
 ## OSM route relation
 
-- Name: Kystpilegrimsleia
-- Relation: https://www.openstreetmap.org/relation/10508888
+- Name: Romeriksleden
+- Relation: https://www.openstreetmap.org/relation/1200009
 - Do not remove existing members of that relation from this research file.
 
 ## Counts
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 49 |
-| Existing in trail.osm | 21 |
-| New suggestions in trail.osm | 28 |
-| OSM lodging to add to route relation (`route_add`) | 88 |
+| Overnight POIs (CMS) | 42 |
+| Existing in trail.osm | 13 |
+| New suggestions in trail.osm | 29 |
+| OSM lodging to add to route relation (`route_add`) | 64 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
-| Lodging near route not on relation (reference CSV) | 88 |
+| Lodging near route not on relation (reference CSV) | 0 |
 
 ## New suggestions (names)
 
-- Badestranda Leiren
-- Borgstua på Kvernes Prestegård
-- Brekkegarden pilegrimsherberge
-- Dagsturhytta Gulakvila
-- Dagsturhytta Havglimt
-- Dagsturhytta Sørefjordhytta
-- Fjøsen Bed & make your own breakfast
-- Friluftsfyret Kvassheim
-- Fru Ingas Apartments
-- Gapahuk i Fagerdalen
-- Gapahuk på Kvernes
-- Gjertrudstua
-- Hatlems Hytter
-- Huset ved havet
-- Kjeldsund leirstad og gjestegard
-- Kråen Gard
-- Kvernes på Averøy | Nøkkelsted
-- Kvile- og lesebu i Moltudalen
-- Overnatting i stabbur med fire sengeplasser på Karmøy
-- Pilegrimsherberge i Selje prestegard
-- Reveparken hytteutleige - overnatting direkte ved Jærstrendene
-- Seljebuda
-- Sjøglytt
-- Sula havglamping
-- Sætren Rorbuer
-- Telegrafen - Moster Amfi
-- Tunheimsfjøra logde
-- Årnseth Gapahuk
+- "Rastebu" at Farseggen #1
+- "Rastebu" ved Farseggen #2
+- Arteid Vestre
+- Atelier Lefstorvet
+- Eidsvoll gamle prestegård - STENGT I 2026
+- Fjellheim gård
+- Frich`s Motell og Spiseri Rudshøgda
+- Gapahuk "Pilegrimshvile"
+- Gapahuk på Lindeberg etter Vilbergfjellet, før Arteid
+- Haug pilegrimsrast og herberge
+- Herkestad gård – overnatting og liten kafé
+- Hytte på Gørdammen
+- Ingeborg Refling Hagens kulturhus Fredheim
+- InnomHaug pilegrimsherberge
+- Kammerpikene
+- Koss gård
+- Kveldsro ved Fløyta
+- Myhrer gård
+- Overnatting hos Atlungstad golf
+- Pilegrimsbua ved Granerud
+- Pilegrimsherberget Millom
+- Ringen Rehabiliteringssenter
+- Seiersted Pensjonat
+- Solvang overnatting
+- Spitalen gamle skolehus - vertskap Sannfredstun
+- Sveinhaug gård
+- Tjelde herberge
+- Velkommen til Olasvehaugen i Brøttum
+- Østre Aker pilegrimsherberge
 
 ## Files in this folder
 

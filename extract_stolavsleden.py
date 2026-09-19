@@ -525,7 +525,7 @@ def write_csv(path: Path, rows: list[dict[str, Any]], fieldnames: list[str]) -> 
 
 
 def load_existing_st_olav(data_dir: Path) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
-    trail_dir = data_dir / "by_trail" / "St-Olavsleden"
+    trail_dir = data_dir / "by_trail" / "Sweden" / "St-Olavsleden"
     shelters: list[dict[str, str]] = []
     centers: list[dict[str, str]] = []
     shelters_path = trail_dir / "shelters.csv"
@@ -906,7 +906,7 @@ def main() -> int:
     data_dir: Path = args.data_dir
     stolav_dir = data_dir / "stolavsleden"
     stolav_dir.mkdir(parents=True, exist_ok=True)
-    trail_dir = data_dir / "by_trail" / "St-Olavsleden"
+    trail_dir = data_dir / "by_trail" / "Sweden" / "St-Olavsleden"
     trail_dir.mkdir(parents=True, exist_ok=True)
 
     discover_reference(data_dir)

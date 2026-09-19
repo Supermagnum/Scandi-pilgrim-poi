@@ -1,6 +1,6 @@
 # Romboleden
 
-Folder: `Romboleden`
+Folder: `Norway/Romboleden`
 
 ## Open in JOSM
 
@@ -35,7 +35,7 @@ members to the live route relation below (download/update those objects first).
 | Overnight POIs (CMS) | 9 |
 | Existing in trail.osm | 4 |
 | New suggestions in trail.osm | 5 |
-| OSM lodging to add to route relation (`route_add`) | 455 |
+| OSM lodging to add to route relation (`route_add`) | 6 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |

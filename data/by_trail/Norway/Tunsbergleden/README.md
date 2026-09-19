@@ -1,6 +1,6 @@
-# Romeriksleden
+# Tunsbergleden / Vestfoldveien
 
-Folder: `Romeriksleden`
+Folder: `Norway/Tunsbergleden`
 
 ## Open in JOSM
 
@@ -24,53 +24,42 @@ members to the live route relation below (download/update those objects first).
 
 ## OSM route relation
 
-- Name: Romeriksleden
-- Relation: https://www.openstreetmap.org/relation/1200009
+- Name: Tunsbergleden / Vestfoldveien
+- Relation: https://www.openstreetmap.org/relation/5661086
 - Do not remove existing members of that relation from this research file.
 
 ## Counts
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 42 |
-| Existing in trail.osm | 13 |
-| New suggestions in trail.osm | 29 |
-| OSM lodging to add to route relation (`route_add`) | 350 |
+| Overnight POIs (CMS) | 33 |
+| Existing in trail.osm | 15 |
+| New suggestions in trail.osm | 18 |
+| OSM lodging to add to route relation (`route_add`) | 24 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
-| Lodging near route not on relation (reference CSV) | 0 |
+| Lodging near route not on relation (reference CSV) | 184 |
 
 ## New suggestions (names)
 
-- "Rastebu" at Farseggen #1
-- "Rastebu" ved Farseggen #2
-- Arteid Vestre
-- Atelier Lefstorvet
-- Eidsvoll gamle prestegård - STENGT I 2026
-- Fjellheim gård
-- Frich`s Motell og Spiseri Rudshøgda
-- Gapahuk "Pilegrimshvile"
-- Gapahuk på Lindeberg etter Vilbergfjellet, før Arteid
-- Haug pilegrimsrast og herberge
-- Herkestad gård – overnatting og liten kafé
-- Hytte på Gørdammen
-- Ingeborg Refling Hagens kulturhus Fredheim
-- InnomHaug pilegrimsherberge
-- Kammerpikene
-- Koss gård
-- Kveldsro ved Fløyta
-- Myhrer gård
-- Overnatting hos Atlungstad golf
-- Pilegrimsbua ved Granerud
-- Pilegrimsherberget Millom
-- Ringen Rehabiliteringssenter
-- Seiersted Pensjonat
-- Solvang overnatting
-- Spitalen gamle skolehus - vertskap Sannfredstun
-- Sveinhaug gård
-- Tjelde herberge
-- Velkommen til Olasvehaugen i Brøttum
+- Berger Gård
+- Brannåsen
+- Engøy gjestegård
+- Fuglesang herberge
+- Gapahuk ved Stordammen
+- Gardlaus Markastue og pilegrimsherberge
+- Kaupang gård
+- Kirkebakken Borre - midlertidig stengt
+- Kjølholmen på Veierland
+- Lavvoen Biggen
+- Orrfuglstua pilegrimsherberge
+- Poppel pilegrimsherberge
+- Preståsen pilegrimsherberge
+- Røyken Menighetshus
+- Sande overnatting
+- Tyristua
+- Veierland skole
 - Østre Aker pilegrimsherberge
 
 ## Files in this folder

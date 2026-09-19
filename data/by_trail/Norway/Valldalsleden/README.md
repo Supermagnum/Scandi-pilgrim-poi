@@ -1,6 +1,6 @@
 # Valldalsleden
 
-Folder: `Valldalsleden`
+Folder: `Norway/Valldalsleden`
 
 ## Open in JOSM
 
@@ -35,7 +35,7 @@ members to the live route relation below (download/update those objects first).
 | Overnight POIs (CMS) | 22 |
 | Existing in trail.osm | 13 |
 | New suggestions in trail.osm | 9 |
-| OSM lodging to add to route relation (`route_add`) | 45 |
+| OSM lodging to add to route relation (`route_add`) | 17 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
