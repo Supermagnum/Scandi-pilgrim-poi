@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='14086531584' version='4' timestamp='2026-08-11T22:03:05Z' uid='237638' user='Visaman' changeset='187310302' visible='true' lat='59.3547810' lon='5.2921724' action='modify'>
+    <tag k='checkpoint:type' v='stamp'/>
+    <tag k='information' v='office'/>
+    <tag k='name' v='Pilegrimssenter Avaldsnes'/>
+    <tag k='opening_hours' v='May 06-Aug 31 11:00-15:30'/>
+    <tag k='pilgrimage' v='stamp_office'/>
+    <tag k='tourism' v='information'/>
+  </node>
+  <node id='14086526408' version='1' timestamp='2026-08-10T23:52:27Z' uid='237638' user='Visaman' changeset='187258139' visible='true' lat='59.2831743' lon='5.3084524' action='modify'>
+    <tag k='information' v='office'/>
+    <tag k='name' v='Regional Pilgrim Center Avaldsnes'/>
+    <tag k='opening_hours' v='Sep 01-Jun 04 11:00-15:30'/>
+    <tag k='pilgrimage' v='stamp_office'/>
+    <tag k='tourism' v='information'/>
+  </node>
+  <node id='14086526409' version='4' timestamp='2026-08-16T18:58:39Z' uid='9224679' user='addr2osm' changeset='187552109' visible='true' lat='60.3992193' lon='5.3225021' action='modify'>
+    <tag k='checkpoint:type' v='stamp'/>
+    <tag k='contact:phone' v='+47 414 46 689'/>
+    <tag k='information' v='office'/>
+    <tag k='name' v='Regionalt pilegrimssenter Bergen'/>
+    <tag k='pilgrimage' v='stamp_office'/>
+    <tag k='tourism' v='information'/>
+    <tag k='website' v='https://www.pilegrimsleden.no/en/interest-points/regionalt-pilegrimssenter-bergen'/>
+  </node>
+</osm>
