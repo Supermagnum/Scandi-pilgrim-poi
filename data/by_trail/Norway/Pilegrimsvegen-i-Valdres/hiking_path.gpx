@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>Pilegrimsvegen i Valdres</name><trkseg>
+    <trkpt lat="60.6224715" lon="9.6907498"></trkpt>
+    <trkpt lat="60.8314150" lon="9.4930460"></trkpt>
+    <trkpt lat="60.9247041" lon="9.4134125"></trkpt>
+    <trkpt lat="60.9860981" lon="9.2364130"></trkpt>
+    <trkpt lat="60.9951242" lon="9.1136865"></trkpt>
+    <trkpt lat="61.0903835" lon="8.9799938"></trkpt>
+    <trkpt lat="61.1348620" lon="8.9238834"></trkpt>
+    <trkpt lat="61.1531655" lon="8.8048794"></trkpt>
+    <trkpt lat="61.1679315" lon="8.4000417"></trkpt>
+    <trkpt lat="61.1566365" lon="8.1547269"></trkpt>
+  </trkseg></trk>
+</gpx>

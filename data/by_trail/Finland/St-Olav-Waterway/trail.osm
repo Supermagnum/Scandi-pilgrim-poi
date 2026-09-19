@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='60.4524476' lon='22.2784509'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='60.4688687' lon='22.0291149'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='60.1024230' lon='19.9412600'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='60.0981769' lon='18.8058527'/>
+  <way id='-5' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='St. Olav Waterway'/>
+    <tag k='note:trail' v='St. Olav Waterway'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavwaterway.com/'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-6' version='0' action='modify' visible='true' lat='60.4524476' lon='22.2784509'>
+    <tag k='name' v='Turku Cathedral'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='St. Olav Waterway'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavwaterway.com/'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-7' version='0' action='modify' visible='true' lat='60.4688687' lon='22.0291149'>
+    <tag k='name' v='Naantali'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St. Olav Waterway'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavwaterway.com/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-8' version='0' action='modify' visible='true' lat='60.1024230' lon='19.9412600'>
+    <tag k='name' v='Mariehamn'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St. Olav Waterway'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavwaterway.com/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-9' version='0' action='modify' visible='true' lat='60.0981769' lon='18.8058527'>
+    <tag k='name' v='Grisslehamn'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St. Olav Waterway'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavwaterway.com/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <relation id='-10' version='0' action='modify' visible='true'>
+    <member type='way' ref='-5' role='path'/>
+    <member type='node' ref='-6' role='poi'/>
+    <member type='node' ref='-7' role='poi'/>
+    <member type='node' ref='-8' role='poi'/>
+    <member type='node' ref='-9' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='St. Olav Waterway'/>
+    <tag k='note:trail' v='St. Olav Waterway'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='note' v='Local JOSM research file for St. Olav Waterway. Research waypoints (FI+Åland+SE). No full OSM route relation found. Source https://stolavwaterway.com/'/>
+    <tag k='source' v='https://stolavwaterway.com/'/>
+  </relation>
+</osm>

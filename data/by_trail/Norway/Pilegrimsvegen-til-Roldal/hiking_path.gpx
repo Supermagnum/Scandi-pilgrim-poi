@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>Pilegrimsvegen til Røldal</name><trkseg>
+    <trkpt lat="59.4897990" lon="8.6359143"></trkpt>
+    <trkpt lat="59.4773756" lon="8.4190876"></trkpt>
+    <trkpt lat="59.5733521" lon="8.1869147"></trkpt>
+    <trkpt lat="59.5696947" lon="7.9911370"></trkpt>
+    <trkpt lat="59.6336980" lon="7.8010730"></trkpt>
+    <trkpt lat="59.7359557" lon="7.5578159"></trkpt>
+    <trkpt lat="59.7718282" lon="7.3731129"></trkpt>
+    <trkpt lat="59.8459001" lon="7.1595758"></trkpt>
+    <trkpt lat="59.8307271" lon="6.8224607"></trkpt>
+  </trkseg></trk>
+</gpx>

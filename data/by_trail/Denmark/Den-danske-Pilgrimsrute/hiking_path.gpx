@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>Den danske Pilgrimsrute</name><trkseg>
+    <trkpt lat="57.5908031" lon="9.9649737"></trkpt>
+    <trkpt lat="57.0462626" lon="9.9215263"></trkpt>
+    <trkpt lat="56.4505215" lon="9.4125336"></trkpt>
+    <trkpt lat="56.4469128" lon="9.4059354"></trkpt>
+    <trkpt lat="55.7567107" lon="9.4197181"></trkpt>
+    <trkpt lat="54.8295003" lon="9.3606529"></trkpt>
+  </trkseg></trk>
+</gpx>

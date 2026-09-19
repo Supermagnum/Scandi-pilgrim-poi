@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>St Olav Ostrobothnia</name><trkseg>
+    <trkpt lat="63.0957722" lon="21.6159187"></trkpt>
+    <trkpt lat="63.5222473" lon="22.5284347"></trkpt>
+    <trkpt lat="63.6744703" lon="22.7055385"></trkpt>
+    <trkpt lat="63.8391421" lon="23.1336845"></trkpt>
+    <trkpt lat="64.2600170" lon="23.9505450"></trkpt>
+  </trkseg></trk>
+</gpx>

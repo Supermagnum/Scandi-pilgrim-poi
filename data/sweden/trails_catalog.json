@@ -1,0 +1,320 @@
+{
+  "country": "Sweden",
+  "label": "SVERIGE",
+  "updated": "2026-09-19",
+  "notes": [
+    "Inventory of Swedish pilgrim trails for Scandi-pilgrim-poi.",
+    "S:t Olavsleden and Romboleden may already exist as shared SE/NO extracts.",
+    "Pilgrimsleden Västra Värmland has Svenska kyrkan KMZ path+POI sources."
+  ],
+  "trails": [
+    {
+      "name": "Dag Hammarskjöldsleden",
+      "from": "Abisko",
+      "to": "Nikkaluokta",
+      "km": 105,
+      "url": "https://www.svenskakyrkan.se/luleastift/pilgrimsled"
+    },
+    {
+      "name": "Den heliga vägen",
+      "from": "Pjätteryd",
+      "to": null,
+      "km": 84,
+      "url": null
+    },
+    {
+      "name": "Franciskusleden",
+      "from": "Byarum",
+      "to": "Alvastra",
+      "km": 130,
+      "url": "https://franciskusleden.se"
+    },
+    {
+      "name": "Fryksdalsleden",
+      "from": "Kil",
+      "to": "Torsby",
+      "km": 99,
+      "url": "https://fryksdalsleden.se"
+    },
+    {
+      "name": "Hedemora Pilgrimsled",
+      "from": "Hedemora",
+      "to": "Hedemora",
+      "km": 130,
+      "url": "https://www.svenskakyrkan.se/hedemora/pilgrimsleden"
+    },
+    {
+      "name": "Helgonleden",
+      "from": "Älvkarleby",
+      "to": "Storsjö",
+      "km": 511,
+      "url": "https://pilgrimstid.nu/helgonleden"
+    },
+    {
+      "name": "Ingegerdsleden",
+      "from": "Storkyrkan",
+      "to": "Uppsala",
+      "km": 110,
+      "url": "https://www.svenskakyrkan.se/stockholmsstift/ingegerdsleden"
+    },
+    {
+      "name": "Jämt-Norgevägen",
+      "from": "Revsund",
+      "to": "Stugudal",
+      "km": 243,
+      "url": "https://www.svenskakyrkan.se/sydostra-jamtlands-pastorat/pilgrim"
+    },
+    {
+      "name": "Katarinaleden",
+      "from": "Närkes Kil",
+      "to": "Vadstena",
+      "km": 121,
+      "url": "https://www.svenskakyrkan.se/strangnasstift/pilgrim"
+    },
+    {
+      "name": "Kyrkstigen",
+      "from": "Burträsk",
+      "to": "Skellefteå",
+      "km": 40,
+      "url": "https://renbergsvattnet.se/kyrkstigen/"
+    },
+    {
+      "name": "Kårböleleden",
+      "from": "Kårböle",
+      "to": "Klövsjö",
+      "km": 174,
+      "url": "https://www.svenskakyrkan.se/sydostra-jamtlands-pastorat/pilgrim"
+    },
+    {
+      "name": "Laestadiusleden",
+      "from": "Lainio",
+      "to": "Lannavaara",
+      "km": 50,
+      "url": "https://laestadiusleden.se"
+    },
+    {
+      "name": "Marialeden",
+      "from": "Tegelsmora",
+      "to": "Gamla Uppsala",
+      "km": 80,
+      "url": "https://www.svenskakyrkan.se/uppsala/marialeden"
+    },
+    {
+      "name": "Munkaleden / Munkagårdsleden",
+      "from": "Nydala",
+      "to": "Byarum",
+      "km": "40-44",
+      "url": "https://munkaleden.se"
+    },
+    {
+      "name": "Munkastigen",
+      "from": "Riseberga",
+      "to": "Olshammar",
+      "km": 96,
+      "url": "https://bergslagsleden.se/etapper/#tab=2"
+    },
+    {
+      "name": "Nutida pilgrimer",
+      "from": "Ljungskile församling",
+      "to": null,
+      "km": 70,
+      "url": "https://nutidapilgrimer.se"
+    },
+    {
+      "name": "Nydalaleden",
+      "from": "Skånes Fagerhult",
+      "to": "Nydala",
+      "km": 160,
+      "url": "https://www.svenskakyrkan.se/vaxjostift/nydalaleden-markaryd-ljungby"
+    },
+    {
+      "name": "Pilgrim Halland",
+      "from": "Örkeljunga",
+      "to": "Kållered",
+      "km": 180,
+      "url": "https://paxwalk.se",
+      "note": "Pilgrim Halland"
+    },
+    {
+      "name": "Pilgrimsleden Dalsland",
+      "from": "Vänersborg",
+      "to": "Edsleskog",
+      "km": 100,
+      "url": null
+    },
+    {
+      "name": "Pilgrimsleder i Tyresö",
+      "from": "Tyresö",
+      "to": null,
+      "km": "1-13",
+      "url": "https://www.svenskakyrkan.se/tyreso/vara-vandringsleder"
+    },
+    {
+      "name": "Pilgrimsleden Falköping - Varnhem",
+      "group": "Pilgrimsleder Skaraborg",
+      "from": "Falköping",
+      "to": "Varnhem",
+      "km": 43.5,
+      "url": "https://westswedentrails.se/delled/pilgrimsleden-falkoping-varnhem"
+    },
+    {
+      "name": "Pilgrimsleden Skara - Husaby",
+      "group": "Pilgrimsleder Skaraborg",
+      "from": "Skara",
+      "to": "Husaby",
+      "km": 26,
+      "url": "https://westswedentrails.se/delled/pilgrimsleden-skara-husaby"
+    },
+    {
+      "name": "Pilgrimsled Hjo - Kungslena",
+      "group": "Pilgrimsleder Skaraborg",
+      "from": "Hjo",
+      "to": "Kungslena",
+      "km": "45-55",
+      "url": "https://pilgrimsledhjokungslena.se"
+    },
+    {
+      "name": "Pilgrimsleden Orust",
+      "from": "Orust",
+      "to": null,
+      "km": 90,
+      "url": "https://www.svenskakyrkan.se/orust/ledernas-strackning"
+    },
+    {
+      "name": "Pilgrimsleden Göta Älv",
+      "from": "Göteborg",
+      "to": "Vänersborg",
+      "km": 143,
+      "url": "https://westswedentrails.se/delled/pilgrimsleden-gota-alv"
+    },
+    {
+      "name": "Pilgrimsvägen Skåne Blekinge",
+      "from": null,
+      "to": null,
+      "km": null,
+      "url": "https://pilgrimsvagen.se/pilgrimsvagen"
+    },
+    {
+      "name": "Pilgrimsleden Västra Värmland",
+      "from": "Lurö",
+      "to": "Norska gränsen",
+      "km": 209,
+      "url": "https://www.svenskakyrkan.se/arvika/pilgrim",
+      "folder": "Sweden/Pilgrimsleden-Vastra-Varmland",
+      "sources": {
+        "path_kmz": "https://www.svenskakyrkan.se/default.aspx?id=1148827",
+        "poi_kmz": "https://www.svenskakyrkan.se/default.aspx?id=1148829"
+      },
+      "status": "extracted"
+    },
+    {
+      "name": "Romboleden",
+      "from": "Köping",
+      "to": "Trondheim",
+      "km": 900,
+      "url": "https://www.svenskakyrkan.se/romboleden",
+      "note": "Shared SE/NO; also under Norway/Romboleden extract",
+      "folder": "Norway/Romboleden"
+    },
+    {
+      "name": "Sankta Annaleden",
+      "from": "Sigtuna",
+      "to": null,
+      "km": 220,
+      "url": "https://www.svenskakyrkan.se/sigtuna/sankta-annaleden"
+    },
+    {
+      "name": "Sankta Thoras pilgrimsled",
+      "from": "Ausås",
+      "to": "Torekov",
+      "km": 102,
+      "url": "https://www.svenskakyrkan.se/munka-ljungby/sankta-thoras-pilgrimsled"
+    },
+    {
+      "name": "Sigfridsleden",
+      "group": "Sigfridsleder",
+      "from": "Linneryd",
+      "to": "Asa",
+      "km": 88,
+      "url": "https://naturkartan.se/sv/kronobergs-lan/sigfridsleden"
+    },
+    {
+      "name": "Norra S:t Sigfridsleden",
+      "group": "Sigfridsleder",
+      "from": "Jönköping",
+      "to": "Falköping",
+      "km": 92,
+      "url": "https://norrasigfridsleden.se"
+    },
+    {
+      "name": "Västra Sigfridsleden",
+      "group": "Sigfridsleder",
+      "from": "Ingelstad",
+      "to": "Nydala",
+      "km": 125,
+      "url": "https://www.svenskakyrkan.se/vaxjostift/va-sigfridsleden-fridafors-vaxjo"
+    },
+    {
+      "name": "Östra Sigfridsleden",
+      "group": "Sigfridsleder",
+      "from": "Sigfrids hamn",
+      "to": "S:t Sigfrids dopkälla",
+      "km": 30,
+      "url": "https://ostrasigfridsleden.se/"
+    },
+    {
+      "name": "S:t Birgitta Ways Söderköping - Vadstena",
+      "group": "S:t Birgitta Ways",
+      "from": "Söderköping",
+      "to": "Vadstena",
+      "km": 130,
+      "url": "https://stbirgittaways.se"
+    },
+    {
+      "name": "S:t Birgitta Ways Jönköping - Vadstena",
+      "group": "S:t Birgitta Ways",
+      "from": "Jönköping",
+      "to": "Vadstena",
+      "km": 134,
+      "url": "https://stbirgittaways.se"
+    },
+    {
+      "name": "S:t Birgitta Ways Vårdnäs - Vadstena",
+      "group": "S:t Birgitta Ways",
+      "from": "Vårdnäs",
+      "to": "Vadstena",
+      "km": 122,
+      "url": "https://stbirgittaways.se"
+    },
+    {
+      "name": "S:t Olavsleden",
+      "from": "Selånger",
+      "to": "Trondheim",
+      "km": 580,
+      "url": "https://stolavsleden.com",
+      "folder": "Sweden/St-Olavsleden",
+      "status": "extracted"
+    },
+    {
+      "name": "S:t Olofsleden, Gotland",
+      "from": "Sankt Olofholm",
+      "to": "Visby",
+      "km": 58,
+      "url": "https://www.svenskakyrkan.se/visbystift/st-olavsleden-gotland"
+    },
+    {
+      "name": "Stråsjöleden",
+      "from": "Korsholmen",
+      "to": "Kilkoja",
+      "km": 271,
+      "url": "https://pilgrimstid.nu/stråsjöleden"
+    },
+    {
+      "name": "Vikingaleden",
+      "from": "Grisslehamn",
+      "to": "Älvkarleby",
+      "km": 63,
+      "url": "https://www.svenskakyrkan.se/uppsalastift/vikingaleden"
+    }
+  ]
+}

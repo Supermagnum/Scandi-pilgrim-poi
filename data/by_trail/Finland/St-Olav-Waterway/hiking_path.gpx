@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>St. Olav Waterway</name><trkseg>
+    <trkpt lat="60.4524476" lon="22.2784509"></trkpt>
+    <trkpt lat="60.4688687" lon="22.0291149"></trkpt>
+    <trkpt lat="60.1024230" lon="19.9412600"></trkpt>
+    <trkpt lat="60.0981769" lon="18.8058527"></trkpt>
+  </trkseg></trk>
+</gpx>

@@ -6,16 +6,87 @@ service points — cross-referenced against existing OpenStreetMap data to show
 what is already mapped versus what appears to be missing.
 
 This is an unofficial, independently compiled research aid. It is not affiliated
-with pilegrimsleden.no, stolavsleden.com, Naturkartan, or the OpenStreetMap
-Foundation.
+with pilegrimsleden.no, stolavsleden.com, Naturkartan, Svenska kyrkan, or the
+OpenStreetMap Foundation.
+
+## Table of contents
+
+- [Data sources](#data-sources)
+  - [Norway (pilegrimsleden.no CMS)](#norway-pilegrimsledenno-cms)
+  - [Norway (extra trails, not on CMS)](#norway-extra-trails-not-on-cms)
+  - [Sweden](#sweden)
+  - [Denmark](#denmark)
+  - [Finland](#finland)
+  - [OpenStreetMap](#openstreetmap)
+- [Trail-relation membership (research proposals)](#trail-relation-membership-research-proposals)
+- [Directory layout](#directory-layout)
+- [Pilgrim-center tagging](#pilgrim-center-tagging)
+- [How to import into OpenStreetMap](#how-to-import-into-openstreetmap)
+- [Important: not an OSM import](#important-not-an-osm-import)
+- [License](#license)
+- [Matching notes](#matching-notes)
+- [Regenerating](#regenerating)
 
 ## Data sources
 
-- **pilegrimsleden.no** (Craft CMS GraphQL / map APIs): Norwegian trail network
-  Gudbrandsdalsleden, St. Olavsleden (NO), Borgleden, Kystpilegrimsleia,
-  Tunsbergleden, Østerdalsleden, Valldalsleden, Romboleden, Nordleden.
-- **OSM route relations** (source of truth for trail geometry and existing
-  members; never modified by this project). Known IDs:
+### Norway (pilegrimsleden.no CMS)
+
+- **pilegrimsleden.no** (Craft CMS GraphQL / map APIs): Gudbrandsdalsleden,
+  Borgleden, Kystpilegrimsleia, Tunsbergleden, Østerdalsleden, Valldalsleden,
+  Romboleden, Nordleden, and related overnight / pilgrim-center points.
+  Romeriksleden is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer),
+  not a separate CMS trail; folder `data/by_trail/Norway/Romeriksleden/`.
+
+### Norway (extra trails, not on CMS)
+
+- **kvitekyrkjer.no** — [GPX / turkart](https://www.kvitekyrkjer.no/norsk/nyttig-informasjon/gpx-turkart/):
+  Kvite kyrkjer rundt Tinnsjøen (`Norway/Kvite-kyrkjer-rundt-Tinnsjoen`).
+- Documented stage places (Nominatim geocode; no public full GPX yet):
+  Glåmdalsleden ([Eidskog kommune](https://www.eidskog.kommune.no/tjenester/kultur-og-fritid/friluftsliv-turer-i-eidskog/turstier/pilegrimsleden/)),
+  [Pilegrimsvegen i Valdres](https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres),
+  [Pilegrimsvegen til Røldal](https://visittelemark.no/produkter/pilegrimsvegen-til-roldal),
+  [Sunnivaleia](https://sunnivaleia.no/).
+- Inventory: `data/norway/trails_catalog.json`.
+
+### Sweden
+
+- **stolavsleden.com** (WordPress + Naturkartan embed, guide id 154): St. Olavsleden
+  hiking / biking / horseback paths and horseback service points. Horseback GPX
+  can diverge from the hiking line by up to ~4.3 km; riders should not rely on
+  hiking-line POIs alone.
+- **Svenska kyrkan** (Arvika) KMZ: Pilgrimsleden Västra Värmland — path
+  [id=1148827](https://www.svenskakyrkan.se/default.aspx?id=1148827), POIs
+  [id=1148829](https://www.svenskakyrkan.se/default.aspx?id=1148829), page
+  [arvika/pilgrim](https://www.svenskakyrkan.se/arvika/pilgrim).
+- Broader Swedish trail list (many not yet extracted): `data/sweden/trails_catalog.json`.
+
+### Denmark
+
+- **[santiagopilgrimme.dk](https://santiagopilgrimme.dk/)** — Den danske Pilgrimsrute
+  / route directory (`Denmark/Den-danske-Pilgrimsrute` waypoints).
+- **[haervej.dk](https://haervej.dk/vandring)** — Hærvejen (~645 km). Partial OSM
+  coverage (e.g. [relation/13278515](https://www.openstreetmap.org/relation/13278515));
+  catalog only, no full research extract.
+- Inventory: `data/denmark/trails_catalog.json`.
+
+### Finland
+
+- **[stolavostrobothnia.fi](https://stolavostrobothnia.fi/)** — St Olav Ostrobothnia.
+- **[oulunseurakunnat.fi](https://oulunseurakunnat.fi/)** — Oulujoki pilgrimage
+  (Oulu → Vaala).
+- **[henrikinvaellus.fi](https://henrikinvaellus.fi/pyhan-henrikin-tie--in-english-)** —
+  Saint Henry's way / Pyhän Henrikin tie. Already in OSM as
+  [relation/8833791](https://www.openstreetmap.org/relation/8833791); catalog only.
+- **[stolavwaterway.com](https://stolavwaterway.com/)** — St. Olav Waterway
+  (Turku → Grisslehamn via Åland).
+- **[citynomadi.com](https://citynomadi.com/route/cf992911d8c170ddf1db528b8cdafcf7)**
+  (API) — The way of Jacob / Jaakontie Renko–Rymättylä (`Finland/Way-of-Jacob`).
+- Inventory: `data/finland/trails_catalog.json`.
+
+### OpenStreetMap
+
+- **OSM route relations** — source of truth for trail geometry and existing
+  members; never modified by this project. Known CMS-aligned IDs:
 
   | trail | OSM relation |
   | --- | ---: |
@@ -29,25 +100,18 @@ Foundation.
   | St. Olavsleden | [10524322](https://www.openstreetmap.org/relation/10524322) (superroute) |
   | Tunsbergleden (Vestfoldveien) | [5661086](https://www.openstreetmap.org/relation/5661086) |
   | Valldalsleden | [11218584](https://www.openstreetmap.org/relation/11218584) |
+  | Pyhän Henrikin tie (FI) | [8833791](https://www.openstreetmap.org/relation/8833791) |
+  | Hærvejen stage Viborg–Skelhøje (DK) | [13278515](https://www.openstreetmap.org/relation/13278515) |
 
-  Romeriksleden is Gudbrandsdalsleden east (Oslo–Eidsvoll–Hamar–Lillehammer) and
-  is not a separate CMS trail entry. Folder `data/by_trail/Norway/Romeriksleden/`
-  holds corridor overnight POIs (`related_trails` Gudbrandsdalsleden + Romeriksleden)
-  in the same single `trail.osm` as every other trail.
-- **stolavsleden.com** (WordPress site + Naturkartan embed, guide id 154):
-  St. Olavsleden in Sweden, including hiking / biking / horseback path variants
-  and horseback-oriented service points (veterinarians in the current extract;
-  Naturkartan listed 0 farriers — that is a coverage gap in Naturkartan, not
-  proof that no farriers exist on the route).
-  The horseback GPX diverges from the hiking line by up to ~4.3 km in places
-  (126/201 sampled points ≥150 m apart); riders should not rely on hiking-line
-  POIs alone when planning.
-- **OSM reference tagging**: changeset
-  [187258738](https://www.openstreetmap.org/changeset/187258738) for pilgrim
-  stamp-office conventions.
-- **Existing OSM inventory**: Geofabrik `norway-latest.osm.pbf` and
-  `sweden-latest.osm.pbf` (not stored in this repository — download from
-  https://download.geofabrik.de/europe/ when re-running comparisons).
+- **Pilgrim-center tagging reference**: changeset
+  [187258738](https://www.openstreetmap.org/changeset/187258738)
+  (`tourism=information` + `information=office` + `pilgrimage=stamp_office`).
+  Discussion:
+  [Inconsistent tagging for pilgrim centers](https://community.openstreetmap.org/t/inconsistent-tagging-for-pilgrim-centers/146312).
+  See `data/changeset_187258738_reference.json`.
+- **Geofabrik extracts** (local, gitignored): `norway-latest.osm.pbf`,
+  `sweden-latest.osm.pbf` from https://download.geofabrik.de/europe/ when
+  re-running lodging comparisons.
 
 ## Trail-relation membership (research proposals)
 
@@ -94,11 +158,17 @@ data/
     trail.osm           # ONLY OSM file: path + existing POIs + new suggestions
     README.md           # short trail notes (replaces per-trail CSV dumps)
     hiking_path.gpx     # optional path cache
-  by_trail/Sweden/St-Olavsleden/
+  by_trail/Sweden/<TrailName>/
     trail.osm
     README.md
     hiking_path.gpx
     horseback_path.gpx  # St. Olavsleden only
+  by_trail/Denmark/<TrailName>/
+  by_trail/Finland/<TrailName>/
+  norway/trails_catalog.json
+  sweden/trails_catalog.json
+  denmark/trails_catalog.json
+  finland/trails_catalog.json
   osm_comparison_results.csv
   pilegrimsleden_shelters_by_trail.csv
   pilgrim_centers.csv
@@ -111,6 +181,9 @@ scripts (repo root):
   compare_osm_shelters.py
   extract_stolavsleden.py
   extract_romeriksleden.py
+  extract_vastra_varmland.py
+  extract_extra_norway_trails.py
+  extract_denmark_finland_trails.py
   propose_relation_additions.py
   build_josm_review.py
   discover_map_api.py
@@ -137,32 +210,60 @@ or update them in JOSM, then add them to the live relation.
 
 Trail folder names normalize Norwegian characters (ae/o/a) and drop the dot in
 `St-Olavsleden`. Norwegian routes live under `data/by_trail/Norway/`; Swedish
-St. Olavsleden under `data/by_trail/Sweden/St-Olavsleden/` (NO + SE POIs in
-`trail.osm`).
+trails under `data/by_trail/Sweden/`; Denmark and Finland under
+`data/by_trail/Denmark/` and `data/by_trail/Finland/`. Country inventories:
+`data/norway/trails_catalog.json`, `data/sweden/trails_catalog.json`,
+`data/denmark/trails_catalog.json`, `data/finland/trails_catalog.json`.
 
-## How to use in JOSM
+## Pilgrim-center tagging
 
-Open:
+Reference scheme from changeset
+[187258738](https://www.openstreetmap.org/changeset/187258738)
+(see [community thread](https://community.openstreetmap.org/t/inconsistent-tagging-for-pilgrim-centers/146312)):
 
-`data/by_trail/Norway/<TrailName>/trail.osm`
+| key | value |
+| --- | --- |
+| `tourism` | `information` |
+| `information` | `office` |
+| `pilgrimage` | `stamp_office` |
 
-or for the Swedish trail:
+Optional / related: `checkpoint:type=stamp`, `opening_hours=*`, contact tags.
 
-`data/by_trail/Sweden/St-Olavsleden/trail.osm`
+Live check against matched objects in `data/pilgrim_centers.csv` (2026-09):
+most named centers follow the scheme; some still only have
+`pilgrimage=stamp_office` (e.g. Avaldsnes, Bergen regional) or are primarily
+lodging with a stamp (`Nidaros Pilgrimsgård`). Prefer the full three-tag
+combination when mapping or fixing centers.
 
-It contains:
+## How to import into OpenStreetMap
 
-1. **Path** — one densified research way derived from the OSM route geometry
-2. **Existing POIs** (already in OSM) — no `note:proposed`
+These files are a **research aid**, not a bulk import. Open a trail folder’s
+`trail.osm` in JOSM (or another editor) only as a review layer.
+
+Paths to open:
+
+- `data/by_trail/Norway/<TrailName>/trail.osm`
+- `data/by_trail/Sweden/<TrailName>/trail.osm`
+- `data/by_trail/Denmark/<TrailName>/trail.osm`
+- `data/by_trail/Finland/<TrailName>/trail.osm`
+
+Each `trail.osm` may contain:
+
+1. **Path** — densified research geometry (OSM route, official GPX, or waypoints)
+2. **Existing POIs** already in OSM — no `note:proposed`
 3. **New suggestions** — only these have `note:proposed=Proposed addition`
+4. **`route_add` lodging** — existing OSM objects to consider adding to the live
+   route relation (search `note:relation_member=…`)
 
-Search: `note:proposed=Proposed addition`. Relation roles: `path`, `existing`,
-`proposed`. See the trail folder `README.md` for counts and suggestion names.
+**Before any upload:** treat every object as unverified. There may be errors in
+coordinates, names, categories, or duplicates. Confirm each feature against
+survey, current local sources, or aerial imagery. Do not bulk-upload. Do not
+upload the local `type=site` research relation as if it were a live trail.
 
 ### `trail.osm` is not the live OSM route relation
 
 Each trail folder’s `trail.osm` ships a **local** `type=site` research relation
-for JOSM. It is not a dump of the live OSM hiking route (e.g. Romeriksleden
+for review. It is not a dump of the live OSM hiking route (e.g. Romeriksleden
 [relation/1200009](https://www.openstreetmap.org/relation/1200009) with its ~988
 way members).
 
@@ -171,44 +272,39 @@ It does include, in the same layer:
 - CMS overnight matches and new suggestions
 - **Existing OSM lodging** near the route that is **not** yet a member of the
   live route relation (`role=route_add`). Those objects must be in `trail.osm`
-  so JOSM can select them and add them to the real relation. Search:
+  so an editor can select them and add them to the real relation. Search:
   `note:relation_member=Add as member of OSM route relation`
 
 Uploading new CMS suggestion nodes **as written** creates additional objects; it
 does **not** rewrite or remove members of any existing OSM relation. Adding
-`route_add` lodging to the live route is a deliberate JOSM edit of that relation
+`route_add` lodging to the live route is a deliberate edit of that relation
 after review.
-
 
 ### Workflow
 
-1. Open `trail.osm`.
+1. Open `trail.osm` as a review layer.
 2. Optionally download the real OSM route relation (IDs above) for comparison —
    do not replace it from this file.
 3. Map only nodes with `note:proposed=Proposed addition` after verifying each
    on the ground or with current local sources.
-4. Do not bulk-upload these nodes. Prefer uploading verified new POIs one by
-   one; leave the live route relation alone unless you intentionally add
-   specific lodging members after review.
+4. Do not bulk-upload. Prefer uploading verified new POIs one by one; leave the
+   live route relation alone unless you intentionally add specific lodging
+   members after review.
+5. Follow the [Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
+   and the [Automated Edits code of conduct](https://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct);
+   discuss bulk work with the local community first.
 
 Pilgrim-center matching uses any OSM node/way with `pilgrimage=*` (including way
 centroids), not only `tourism=information` + `information=office`.
 
-
 ## Important: not an OSM import
 
 This dataset is a **comparison / research aid**, not a ready-to-upload import.
-Anyone merging features into OpenStreetMap must:
-
-- individually verify category, existence, and location;
-- follow the [Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
-  and the [Automated Edits code of conduct](https://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct);
-- discuss bulk work with the local community before uploading.
-
-Do not bulk-upload these nodes. Do not modify existing members of OSM trail
-relations based solely on these files. Uploading the local `trail.osm` site
-relation does not by itself alter membership of live OSM route relations.
-
+Anyone merging features into OpenStreetMap must individually verify category,
+existence, and location. Do not bulk-upload these nodes. Do not modify existing
+members of OSM trail relations based solely on these files. Uploading the local
+`trail.osm` site relation does not by itself alter membership of live OSM route
+relations.
 
 ## License
 
@@ -219,11 +315,15 @@ with individual contents under the
 See [LICENSE](LICENSE).
 
 Upstream sources keep their own terms (OSM under ODbL; pilegrimsleden.no,
-stolavsleden.com, and Naturkartan under theirs). This project only publishes
-derived comparison fields needed for mapping research.
+stolavsleden.com, Naturkartan, Svenska kyrkan, kvitekyrkjer.no,
+santiagopilgrimme.dk, haervej.dk, citynomadi.com, and other trail operators under
+theirs). This project only publishes derived comparison fields needed for
+mapping research.
 
-Credit: pilegrimsleden.no, stolavsleden.com, Naturkartan, OpenStreetMap
-contributors, and Geofabrik extracts.
+Credit: pilegrimsleden.no, stolavsleden.com, Naturkartan, Svenska kyrkan,
+kvitekyrkjer.no, santiagopilgrimme.dk, haervej.dk, stolavostrobothnia.fi,
+oulunseurakunnat.fi, henrikinvaellus.fi, stolavwaterway.com, citynomadi.com,
+OpenStreetMap contributors, and Geofabrik extracts.
 
 ## Matching notes
 
@@ -255,10 +355,19 @@ python3 extract_stolavsleden.py
 # Romeriksleden corridor from OSM relation 1200009
 python3 extract_romeriksleden.py
 
-# Membership proposals for all trails (writes data/research_by_trail/)
+# Pilgrimsleden Västra Värmland (Svenska kyrkan KMZ)
+python3 extract_vastra_varmland.py
+
+# Extra Norway trails (Kvite kyrkjer GPX + waypoint trails)
+python3 extract_extra_norway_trails.py
+
+# Denmark + Finland catalogs / extracts
+python3 extract_denmark_finland_trails.py
+
+# Membership proposals for CMS trails with OSM relations (writes data/research_by_trail/)
 python3 propose_relation_additions.py
 
-# Rebuild the single per-trail OSM file (path + CMS POIs + route_add lodging)
+# Rebuild the single per-trail OSM file for CMS trails (path + CMS POIs + route_add lodging)
 python3 build_josm_review.py
 ```
 

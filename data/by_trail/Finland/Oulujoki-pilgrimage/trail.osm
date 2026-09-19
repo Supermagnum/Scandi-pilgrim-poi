@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='65.0146359' lon='25.4758198'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='64.9706989' lon='25.6240928'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='64.8157441' lon='25.9877447'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='64.7613984' lon='26.4169070'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='64.5565274' lon='26.8466518'/>
+  <way id='-6' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='Oulujoki pilgrimage'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-7' version='0' action='modify' visible='true' lat='65.0146359' lon='25.4758198'>
+    <tag k='name' v='Oulu tuomiokirkko'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-8' version='0' action='modify' visible='true' lat='64.9706989' lon='25.6240928'>
+    <tag k='name' v='Oulujoki'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-9' version='0' action='modify' visible='true' lat='64.8157441' lon='25.9877447'>
+    <tag k='name' v='Muhos'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-10' version='0' action='modify' visible='true' lat='64.7613984' lon='26.4169070'>
+    <tag k='name' v='Utajärvi'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-11' version='0' action='modify' visible='true' lat='64.5565274' lon='26.8466518'>
+    <tag k='name' v='Vaala'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <relation id='-12' version='0' action='modify' visible='true'>
+    <member type='way' ref='-6' role='path'/>
+    <member type='node' ref='-7' role='poi'/>
+    <member type='node' ref='-8' role='poi'/>
+    <member type='node' ref='-9' role='poi'/>
+    <member type='node' ref='-10' role='poi'/>
+    <member type='node' ref='-11' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Oulujoki pilgrimage'/>
+    <tag k='note:trail' v='Oulujoki pilgrimage'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='note' v='Local JOSM research file for Oulujoki pilgrimage. Research waypoints geocoded from documented places; no public continuous official GPX was available. Source https://oulunseurakunnat.fi/'/>
+    <tag k='source' v='https://oulunseurakunnat.fi/'/>
+  </relation>
+</osm>

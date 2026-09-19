@@ -1,0 +1,22 @@
+{
+  "country": "Denmark",
+  "updated": "2026-09-19",
+  "trails": [
+    {
+      "name": "Den danske Pilgrimsrute",
+      "url": "https://santiagopilgrimme.dk/",
+      "folder": "Denmark/Den-danske-Pilgrimsrute",
+      "status": "extracted_waypoints",
+      "path_points": 6,
+      "pois": 6
+    },
+    {
+      "name": "Hærvejen",
+      "km": 645,
+      "url": "https://haervej.dk/vandring",
+      "status": "in_osm_partial",
+      "osm_relation": 13278515,
+      "note": "At least one stage route exists in OSM (relation/13278515 Viborg–Skelhøje, 17.7 km). Full 645 km not duplicated as a research extract."
+    }
+  ]
+}

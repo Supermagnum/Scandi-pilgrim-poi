@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='60.6224715' lon='9.6907498'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='60.8314150' lon='9.4930460'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='60.9247041' lon='9.4134125'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='60.9860981' lon='9.2364130'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='60.9951242' lon='9.1136865'/>
+  <node id='-6' version='0' action='modify' visible='true' lat='61.0903835' lon='8.9799938'/>
+  <node id='-7' version='0' action='modify' visible='true' lat='61.1348620' lon='8.9238834'/>
+  <node id='-8' version='0' action='modify' visible='true' lat='61.1531655' lon='8.8048794'/>
+  <node id='-9' version='0' action='modify' visible='true' lat='61.1679315' lon='8.4000417'/>
+  <node id='-10' version='0' action='modify' visible='true' lat='61.1566365' lon='8.1547269'/>
+  <way id='-11' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <nd ref='-6'/>
+    <nd ref='-7'/>
+    <nd ref='-8'/>
+    <nd ref='-9'/>
+    <nd ref='-10'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='Pilegrimsvegen i Valdres'/>
+    <tag k='network' v='Pilgrimsleder Norge'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-12' version='0' action='modify' visible='true' lat='60.6224715' lon='9.6907498'>
+    <tag k='name' v='Hedalen stavkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-13' version='0' action='modify' visible='true' lat='60.8314150' lon='9.4930460'>
+    <tag k='name' v='Reinli stavkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-14' version='0' action='modify' visible='true' lat='60.9247041' lon='9.4134125'>
+    <tag k='name' v='Aurdal kirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-15' version='0' action='modify' visible='true' lat='60.9860981' lon='9.2364130'>
+    <tag k='name' v='Fagernes'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-16' version='0' action='modify' visible='true' lat='60.9951242' lon='9.1136865'>
+    <tag k='name' v='Ulnes kirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-17' version='0' action='modify' visible='true' lat='61.0903835' lon='8.9799938'>
+    <tag k='name' v='Slidredomen'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-18' version='0' action='modify' visible='true' lat='61.1348620' lon='8.9238834'>
+    <tag k='name' v='Lomen stavkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-19' version='0' action='modify' visible='true' lat='61.1531655' lon='8.8048794'>
+    <tag k='name' v='Høre stavkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-20' version='0' action='modify' visible='true' lat='61.1679315' lon='8.4000417'>
+    <tag k='name' v='Øye stavkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-21' version='0' action='modify' visible='true' lat='61.1566365' lon='8.1547269'>
+    <tag k='name' v='Filefjell (mot St. Thomaskirken)'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='place' v='village'/>
+  </node>
+  <relation id='-22' version='0' action='modify' visible='true'>
+    <member type='way' ref='-11' role='path'/>
+    <member type='node' ref='-12' role='poi'/>
+    <member type='node' ref='-13' role='poi'/>
+    <member type='node' ref='-14' role='poi'/>
+    <member type='node' ref='-15' role='poi'/>
+    <member type='node' ref='-16' role='poi'/>
+    <member type='node' ref='-17' role='poi'/>
+    <member type='node' ref='-18' role='poi'/>
+    <member type='node' ref='-19' role='poi'/>
+    <member type='node' ref='-20' role='poi'/>
+    <member type='node' ref='-21' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Pilegrimsvegen i Valdres'/>
+    <tag k='network' v='Pilgrimsleder Norge'/>
+    <tag k='note:trail' v='Pilegrimsvegen i Valdres'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='note' v='Local JOSM research file for Pilegrimsvegen i Valdres. Research waypoints geocoded from documented stage places; no public continuous official GPX was available. Source https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+    <tag k='source' v='https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres'/>
+  </relation>
+</osm>

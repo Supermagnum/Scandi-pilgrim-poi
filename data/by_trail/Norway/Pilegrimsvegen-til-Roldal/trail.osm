@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='59.4897990' lon='8.6359143'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='59.4773756' lon='8.4190876'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='59.5733521' lon='8.1869147'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='59.5696947' lon='7.9911370'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='59.6336980' lon='7.8010730'/>
+  <node id='-6' version='0' action='modify' visible='true' lat='59.7359557' lon='7.5578159'/>
+  <node id='-7' version='0' action='modify' visible='true' lat='59.7718282' lon='7.3731129'/>
+  <node id='-8' version='0' action='modify' visible='true' lat='59.8459001' lon='7.1595758'/>
+  <node id='-9' version='0' action='modify' visible='true' lat='59.8307271' lon='6.8224607'/>
+  <way id='-10' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <nd ref='-6'/>
+    <nd ref='-7'/>
+    <nd ref='-8'/>
+    <nd ref='-9'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='Pilegrimsvegen til Røldal'/>
+    <tag k='network' v='Pilgrimsleder Norge'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-11' version='0' action='modify' visible='true' lat='59.4897990' lon='8.6359143'>
+    <tag k='name' v='Seljord kirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-12' version='0' action='modify' visible='true' lat='59.4773756' lon='8.4190876'>
+    <tag k='name' v='Morgedal'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-13' version='0' action='modify' visible='true' lat='59.5733521' lon='8.1869147'>
+    <tag k='name' v='Øyfjell'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-14' version='0' action='modify' visible='true' lat='59.5696947' lon='7.9911370'>
+    <tag k='name' v='Åmot i Vinje'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-15' version='0' action='modify' visible='true' lat='59.6336980' lon='7.8010730'>
+    <tag k='name' v='Mjønøy'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-16' version='0' action='modify' visible='true' lat='59.7359557' lon='7.5578159'>
+    <tag k='name' v='Haukeligrend'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-17' version='0' action='modify' visible='true' lat='59.7718282' lon='7.3731129'>
+    <tag k='name' v='Vågslid'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-18' version='0' action='modify' visible='true' lat='59.8459001' lon='7.1595758'>
+    <tag k='name' v='Ulevå'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-19' version='0' action='modify' visible='true' lat='59.8307271' lon='6.8224607'>
+    <tag k='name' v='Røldal stavkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <relation id='-20' version='0' action='modify' visible='true'>
+    <member type='way' ref='-10' role='path'/>
+    <member type='node' ref='-11' role='poi'/>
+    <member type='node' ref='-12' role='poi'/>
+    <member type='node' ref='-13' role='poi'/>
+    <member type='node' ref='-14' role='poi'/>
+    <member type='node' ref='-15' role='poi'/>
+    <member type='node' ref='-16' role='poi'/>
+    <member type='node' ref='-17' role='poi'/>
+    <member type='node' ref='-18' role='poi'/>
+    <member type='node' ref='-19' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Pilegrimsvegen til Røldal'/>
+    <tag k='network' v='Pilgrimsleder Norge'/>
+    <tag k='note:trail' v='Pilegrimsvegen til Røldal'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='note' v='Local JOSM research file for Pilegrimsvegen til Røldal. Research waypoints geocoded from documented stage places; no public continuous official GPX was available. Source https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+    <tag k='source' v='https://visittelemark.no/produkter/pilegrimsvegen-til-roldal'/>
+  </relation>
+</osm>

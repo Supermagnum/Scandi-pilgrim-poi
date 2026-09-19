@@ -1,0 +1,137 @@
+{
+  "country": "Norway",
+  "label": "NORGE",
+  "updated": "2026-09-19",
+  "notes": [
+    "Inventory of Norwegian pilgrim trails for Scandi-pilgrim-poi.",
+    "CMS trails use pilegrimsleden.no + OSM route relations.",
+    "Extra trails below had no OSM route relation; extracted from GPX or waypoints."
+  ],
+  "trails": [
+    {
+      "name": "Borgleden",
+      "from": "Halden",
+      "to": "Oslo",
+      "km": 176,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/borgleden",
+      "folder": "Norway/Borgleden",
+      "status": "extracted"
+    },
+    {
+      "name": "Gudbrandsdalsleden",
+      "from": "Oslo",
+      "to": "Trondheim",
+      "km": 643,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/gudbrandsdalsleden",
+      "folder": "Norway/Gudbrandsdalsleden",
+      "status": "extracted"
+    },
+    {
+      "name": "Kystpilegrimsleia",
+      "from": "Egersund",
+      "to": "Trondheim",
+      "km": 1080,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/kystpilegrimsleia",
+      "folder": "Norway/Kystpilegrimsleia",
+      "status": "extracted"
+    },
+    {
+      "name": "Nordleden",
+      "from": "Grong",
+      "to": "Stiklestad",
+      "km": 135,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/nordleden",
+      "folder": "Norway/Nordleden",
+      "status": "extracted"
+    },
+    {
+      "name": "Tunsbergleden",
+      "from": "Larvik",
+      "to": "Bærum",
+      "km": 190,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/tunsbergleden",
+      "folder": "Norway/Tunsbergleden",
+      "status": "extracted"
+    },
+    {
+      "name": "Valldalsleden",
+      "from": "Valldal",
+      "to": "Dovrefjell",
+      "km": 150,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/valldalsleden",
+      "folder": "Norway/Valldalsleden",
+      "status": "extracted"
+    },
+    {
+      "name": "Østerdalsleden",
+      "from": "Trysil/Rena",
+      "to": "Trondheim",
+      "km": 320,
+      "url": "https://pilegrimsleden.no/pilegrimsledene/osterdalsleden",
+      "folder": "Norway/Osterdalsleden",
+      "status": "extracted"
+    },
+    {
+      "name": "Romboleden",
+      "folder": "Norway/Romboleden",
+      "status": "extracted",
+      "note": "Shared SE/NO"
+    },
+    {
+      "name": "Romeriksleden",
+      "folder": "Norway/Romeriksleden",
+      "status": "extracted",
+      "note": "Gudbrandsdalsleden east (OSM relation 1200009)"
+    },
+    {
+      "name": "Kvite kyrkjer rundt Tinnsjøen",
+      "folder": "Norway/Kvite-kyrkjer-rundt-Tinnsjoen",
+      "km": 89,
+      "url": "https://www.kvitekyrkjer.no/",
+      "status": "extracted",
+      "path_source": "official_gpx",
+      "path_points": 3204,
+      "pois": 5
+    },
+    {
+      "name": "Glåmdalsleden",
+      "folder": "Norway/Glamdalsleden",
+      "km": 150,
+      "url": "https://www.eidskog.kommune.no/tjenester/kultur-og-fritid/friluftsliv-turer-i-eidskog/turstier/pilegrimsleden/",
+      "status": "extracted_waypoints",
+      "path_source": "geocoded_waypoints",
+      "path_points": 9,
+      "pois": 9
+    },
+    {
+      "name": "Pilegrimsvegen i Valdres",
+      "folder": "Norway/Pilegrimsvegen-i-Valdres",
+      "km": 162,
+      "url": "https://ut.no/turforslag/1111726436/pilegrimsvegen-i-valdres",
+      "status": "extracted_waypoints",
+      "path_source": "geocoded_waypoints",
+      "path_points": 10,
+      "pois": 10
+    },
+    {
+      "name": "Pilegrimsvegen til Røldal",
+      "folder": "Norway/Pilegrimsvegen-til-Roldal",
+      "km": 165,
+      "url": "https://visittelemark.no/produkter/pilegrimsvegen-til-roldal",
+      "status": "extracted_waypoints",
+      "path_source": "geocoded_waypoints",
+      "path_points": 9,
+      "pois": 9
+    },
+    {
+      "name": "Sunnivaleia",
+      "folder": "Norway/Sunnivaleia",
+      "km": null,
+      "url": "https://sunnivaleia.no/",
+      "status": "extracted_waypoints",
+      "path_source": "geocoded_waypoints",
+      "path_points": 7,
+      "pois": 7
+    }
+  ]
+}

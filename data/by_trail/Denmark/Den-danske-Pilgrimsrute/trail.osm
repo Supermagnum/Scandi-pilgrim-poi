@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='57.5908031' lon='9.9649737'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='57.0462626' lon='9.9215263'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='56.4505215' lon='9.4125336'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='56.4469128' lon='9.4059354'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='55.7567107' lon='9.4197181'/>
+  <node id='-6' version='0' action='modify' visible='true' lat='54.8295003' lon='9.3606529'/>
+  <way id='-7' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <nd ref='-6'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='Den danske Pilgrimsrute'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-8' version='0' action='modify' visible='true' lat='57.5908031' lon='9.9649737'>
+    <tag k='name' v='Hirtshals'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-9' version='0' action='modify' visible='true' lat='57.0462626' lon='9.9215263'>
+    <tag k='name' v='Aalborg'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-10' version='0' action='modify' visible='true' lat='56.4505215' lon='9.4125336'>
+    <tag k='name' v='Viborg Domkirke'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-11' version='0' action='modify' visible='true' lat='56.4469128' lon='9.4059354'>
+    <tag k='name' v='Viborg Pilgrimscentrum'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-12' version='0' action='modify' visible='true' lat='55.7567107' lon='9.4197181'>
+    <tag k='name' v='Jelling'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-13' version='0' action='modify' visible='true' lat='54.8295003' lon='9.3606529'>
+    <tag k='name' v='Padborg'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <relation id='-14' version='0' action='modify' visible='true'>
+    <member type='way' ref='-7' role='path'/>
+    <member type='node' ref='-8' role='poi'/>
+    <member type='node' ref='-9' role='poi'/>
+    <member type='node' ref='-10' role='poi'/>
+    <member type='node' ref='-11' role='poi'/>
+    <member type='node' ref='-12' role='poi'/>
+    <member type='node' ref='-13' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Den danske Pilgrimsrute'/>
+    <tag k='note:trail' v='Den danske Pilgrimsrute'/>
+    <tag k='note:country' v='Denmark'/>
+    <tag k='note' v='Local JOSM research file for Den danske Pilgrimsrute. Research waypoints geocoded from documented places; no public continuous official GPX was available. Source https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+    <tag k='source' v='https://santiagopilgrimme.dk/find-ruter/ruter-i-danmark/'/>
+  </relation>
+</osm>

@@ -1,0 +1,57 @@
+{
+  "country": "Finland",
+  "updated": "2026-09-19",
+  "trails": [
+    {
+      "name": "St Olav Ostrobothnia",
+      "km": 500,
+      "url": "https://stolavostrobothnia.fi/",
+      "folder": "Finland/St-Olav-Ostrobothnia",
+      "status": "extracted_waypoints",
+      "path_points": 5,
+      "pois": 5
+    },
+    {
+      "name": "Oulujoki pilgrimage",
+      "from": "Oulu",
+      "to": "Vaala",
+      "km": 113,
+      "url": "https://oulunseurakunnat.fi/",
+      "folder": "Finland/Oulujoki-pilgrimage",
+      "status": "extracted_waypoints",
+      "path_points": 5,
+      "pois": 5
+    },
+    {
+      "name": "Saint Henry's way (Pyhän Henrikin tie)",
+      "from": "Åbo / Turku",
+      "to": "Pänttilänniemi",
+      "km": 140,
+      "url": "https://henrikinvaellus.fi/pyhan-henrikin-tie--in-english-",
+      "status": "in_osm",
+      "osm_relation": 8833791,
+      "note": "OSM hiking relation/8833791 exists — not duplicated as trail.osm."
+    },
+    {
+      "name": "St. Olav Waterway",
+      "from": "Åbo / Turku",
+      "to": "Grisslehamn",
+      "url": "https://stolavwaterway.com/",
+      "folder": "Finland/St-Olav-Waterway",
+      "status": "extracted_waypoints",
+      "path_points": 4,
+      "pois": 4
+    },
+    {
+      "name": "The way of Jacob",
+      "from": "Renko",
+      "to": "Rymättylä",
+      "km": 250,
+      "url": "https://citynomadi.com/route/cf992911d8c170ddf1db528b8cdafcf7",
+      "folder": "Finland/Way-of-Jacob",
+      "status": "extracted",
+      "path_points": 5782,
+      "pois": 17
+    }
+  ]
+}

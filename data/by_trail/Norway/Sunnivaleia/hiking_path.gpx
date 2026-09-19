@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>Sunnivaleia</name><trkseg>
+    <trkpt lat="61.5664145" lon="4.7576206"></trkpt>
+    <trkpt lat="61.6002583" lon="5.0349596"></trkpt>
+    <trkpt lat="61.9336888" lon="5.1129133"></trkpt>
+    <trkpt lat="61.9387873" lon="5.4320714"></trkpt>
+    <trkpt lat="61.8422955" lon="5.0249449"></trkpt>
+    <trkpt lat="62.0442720" lon="5.3474511"></trkpt>
+    <trkpt lat="62.0513442" lon="5.2974441"></trkpt>
+  </trkseg></trk>
+</gpx>

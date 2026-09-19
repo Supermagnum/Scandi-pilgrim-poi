@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="pilegrimsleden-osm-extractor 1.0" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>Oulujoki pilgrimage</name><trkseg>
+    <trkpt lat="65.0146359" lon="25.4758198"></trkpt>
+    <trkpt lat="64.9706989" lon="25.6240928"></trkpt>
+    <trkpt lat="64.8157441" lon="25.9877447"></trkpt>
+    <trkpt lat="64.7613984" lon="26.4169070"></trkpt>
+    <trkpt lat="64.5565274" lon="26.8466518"></trkpt>
+  </trkseg></trk>
+</gpx>

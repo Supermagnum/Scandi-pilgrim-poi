@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='61.5664145' lon='4.7576206'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='61.6002583' lon='5.0349596'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='61.9336888' lon='5.1129133'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='61.9387873' lon='5.4320714'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='61.8422955' lon='5.0249449'/>
+  <node id='-6' version='0' action='modify' visible='true' lat='62.0442720' lon='5.3474511'/>
+  <node id='-7' version='0' action='modify' visible='true' lat='62.0513442' lon='5.2974441'/>
+  <way id='-8' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <nd ref='-6'/>
+    <nd ref='-7'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='Sunnivaleia'/>
+    <tag k='network' v='Pilgrimsleder Norge'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-9' version='0' action='modify' visible='true' lat='61.5664145' lon='4.7576206'>
+    <tag k='name' v='Kinn kyrkje'/>
+    <tag k='note:poi_type' v='church'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='amenity' v='place_of_worship'/>
+    <tag k='religion' v='christian'/>
+  </node>
+  <node id='-10' version='0' action='modify' visible='true' lat='61.6002583' lon='5.0349596'>
+    <tag k='name' v='Florø'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-11' version='0' action='modify' visible='true' lat='61.9336888' lon='5.1129133'>
+    <tag k='name' v='Måløy'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-12' version='0' action='modify' visible='true' lat='61.9387873' lon='5.4320714'>
+    <tag k='name' v='Bryggja'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-13' version='0' action='modify' visible='true' lat='61.8422955' lon='5.0249449'>
+    <tag k='name' v='Bremangerlandet'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-14' version='0' action='modify' visible='true' lat='62.0442720' lon='5.3474511'>
+    <tag k='name' v='Selje'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='place' v='village'/>
+  </node>
+  <node id='-15' version='0' action='modify' visible='true' lat='62.0513442' lon='5.2974441'>
+    <tag k='name' v='Selja kloster'/>
+    <tag k='note:poi_type' v='attraction'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+    <tag k='tourism' v='attraction'/>
+  </node>
+  <relation id='-16' version='0' action='modify' visible='true'>
+    <member type='way' ref='-8' role='path'/>
+    <member type='node' ref='-9' role='poi'/>
+    <member type='node' ref='-10' role='poi'/>
+    <member type='node' ref='-11' role='poi'/>
+    <member type='node' ref='-12' role='poi'/>
+    <member type='node' ref='-13' role='poi'/>
+    <member type='node' ref='-14' role='poi'/>
+    <member type='node' ref='-15' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='Sunnivaleia'/>
+    <tag k='network' v='Pilgrimsleder Norge'/>
+    <tag k='note:trail' v='Sunnivaleia'/>
+    <tag k='note:country' v='Norway'/>
+    <tag k='note' v='Local JOSM research file for Sunnivaleia. Research waypoints geocoded from documented stage places; no public continuous official GPX was available. Source https://sunnivaleia.no/'/>
+    <tag k='source' v='https://sunnivaleia.no/'/>
+  </relation>
+</osm>

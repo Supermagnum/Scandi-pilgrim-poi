@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='pilegrimsleden-osm-extractor 1.0'>
+  <node id='-1' version='0' action='modify' visible='true' lat='63.0957722' lon='21.6159187'/>
+  <node id='-2' version='0' action='modify' visible='true' lat='63.5222473' lon='22.5284347'/>
+  <node id='-3' version='0' action='modify' visible='true' lat='63.6744703' lon='22.7055385'/>
+  <node id='-4' version='0' action='modify' visible='true' lat='63.8391421' lon='23.1336845'/>
+  <node id='-5' version='0' action='modify' visible='true' lat='64.2600170' lon='23.9505450'/>
+  <way id='-6' version='0' action='modify' visible='true'>
+    <nd ref='-1'/>
+    <nd ref='-2'/>
+    <nd ref='-3'/>
+    <nd ref='-4'/>
+    <nd ref='-5'/>
+    <tag k='highway' v='path'/>
+    <tag k='name' v='St Olav Ostrobothnia'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+    <tag k='note:path' v='Research path from documented waypoints; not an official continuous GPX'/>
+  </way>
+  <node id='-7' version='0' action='modify' visible='true' lat='63.0957722' lon='21.6159187'>
+    <tag k='name' v='Vaasa'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-8' version='0' action='modify' visible='true' lat='63.5222473' lon='22.5284347'>
+    <tag k='name' v='Nykarleby'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-9' version='0' action='modify' visible='true' lat='63.6744703' lon='22.7055385'>
+    <tag k='name' v='Jakobstad / Pietarsaari'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-10' version='0' action='modify' visible='true' lat='63.8391421' lon='23.1336845'>
+    <tag k='name' v='Kokkola'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <node id='-11' version='0' action='modify' visible='true' lat='64.2600170' lon='23.9505450'>
+    <tag k='name' v='Kalajoki'/>
+    <tag k='note:poi_type' v='place'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+    <tag k='place' v='town'/>
+  </node>
+  <relation id='-12' version='0' action='modify' visible='true'>
+    <member type='way' ref='-6' role='path'/>
+    <member type='node' ref='-7' role='poi'/>
+    <member type='node' ref='-8' role='poi'/>
+    <member type='node' ref='-9' role='poi'/>
+    <member type='node' ref='-10' role='poi'/>
+    <member type='node' ref='-11' role='poi'/>
+    <tag k='type' v='site'/>
+    <tag k='name' v='St Olav Ostrobothnia'/>
+    <tag k='note:trail' v='St Olav Ostrobothnia'/>
+    <tag k='note:country' v='Finland'/>
+    <tag k='note' v='Local JOSM research file for St Olav Ostrobothnia. Research waypoints geocoded from documented places; no public continuous official GPX was available. Source https://stolavostrobothnia.fi/'/>
+    <tag k='source' v='https://stolavostrobothnia.fi/'/>
+  </relation>
+</osm>
