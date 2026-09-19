@@ -58,7 +58,17 @@ OpenStreetMap Foundation.
   [id=1148827](https://www.svenskakyrkan.se/default.aspx?id=1148827), POIs
   [id=1148829](https://www.svenskakyrkan.se/default.aspx?id=1148829), page
   [arvika/pilgrim](https://www.svenskakyrkan.se/arvika/pilgrim).
-- Broader Swedish trail list (many not yet extracted): `data/sweden/trails_catalog.json`.
+- **Swedish pilgrim network** (~40 folders under `data/by_trail/Sweden/`): research
+  `trail.osm` / `hiking_path.gpx` for the inventory in
+  `data/sweden/trails_catalog.json`. Path preference order:
+  1. Official GPX/KMZ when available (cached under `data/sweden/official_tracks/`;
+     Outdooractive/Paxwalk, Naturkartan, Svenska kyrkan Google Earth, FKT).
+  2. OSM hiking / foot / superroute geometry from Geofabrik `sweden-latest.osm.pbf`
+     (member ways reordered with greedy nearest-endpoint stitching).
+  3. OSRM foot between catalog endpoints (or stage waypoints) when no usable OSM
+     relation exists — replace with official tracks when published.
+- Extractor: `extract_sweden_trails.py`. Romboleden stays under
+  `data/by_trail/Norway/Romboleden/` (shared SE/NO corridor).
 
 ### Denmark
 
@@ -357,6 +367,11 @@ python3 extract_romeriksleden.py
 
 # Pilgrimsleden Västra Värmland (Svenska kyrkan KMZ)
 python3 extract_vastra_varmland.py
+
+# Other Swedish pilgrim trails (OSM PBF + OSRM fallback)
+python3 extract_sweden_trails.py
+# After download, prefer overwriting weak paths from data/sweden/official_tracks/
+# (see that folder's README for Outdooractive / Naturkartan / KMZ sources).
 
 # Extra Norway trails (Kvite kyrkjer GPX + waypoint trails)
 python3 extract_extra_norway_trails.py
