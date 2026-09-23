@@ -29,6 +29,8 @@ OpenStreetMap Foundation.
 
 ## Data sources
 
+**Data extraction date:** 23 September 2026.
+
 ### Norway (pilegrimsleden.no CMS)
 
 - **pilegrimsleden.no** (Craft CMS GraphQL / map APIs): Gudbrandsdalsleden,
