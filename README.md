@@ -273,9 +273,11 @@ upload the local `type=site` research relation as if it were a live trail.
 ### `trail.osm` is not the live OSM route relation
 
 Each trail folder’s `trail.osm` ships a **local** `type=site` research relation
-for review. It is not a dump of the live OSM hiking route (e.g. Romeriksleden
-[relation/1200009](https://www.openstreetmap.org/relation/1200009) with its ~988
-way members).
+for review. For trails with a known OSM route / superroute id (see table above),
+`trail.osm` embeds **every live route way member** with full geometry so the path
+snaps to OpenStreetMap (including `alternative` / `excursion` roles; superroutes
+are expanded recursively). Densified `hiking_path.gpx` remains available as a
+lightweight path cache for distance checks.
 
 It does include, in the same layer:
 
@@ -382,7 +384,7 @@ python3 extract_denmark_finland_trails.py
 # Membership proposals for CMS trails with OSM relations (writes data/research_by_trail/)
 python3 propose_relation_additions.py
 
-# Rebuild the single per-trail OSM file for CMS trails (path + CMS POIs + route_add lodging)
+# Rebuild per-trail trail.osm (embeds live OSM route/superroute ways + CMS + route_add)
 python3 build_josm_review.py
 ```
 

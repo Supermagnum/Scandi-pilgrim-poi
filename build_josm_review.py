@@ -2,7 +2,9 @@
 """Build exactly one OSM file per trail: data/by_trail/<Trail>/trail.osm
 
 trail.osm contains:
-  - trail path (densified research way)
+  - trail path — for every trail in TRAIL_RELATIONS, every live OSM route /
+    superroute way member with full geometry so the path snaps to OpenStreetMap;
+    densified research way only when no relation id is available
   - existing CMS overnight POIs already in OSM
   - new CMS suggestions (note:proposed=Proposed addition)
   - existing OSM lodging near the route that is NOT yet a member of the live
@@ -91,6 +93,13 @@ REQUIRED_OSM_OBJECTS: dict[str, list[str]] = {
         "way/315143760",  # Gapahuk i Furuberget
         "relation/3836486",  # Thon Partner Hotel Victoria Hamar (multipolygon)
     ],
+}
+
+# Trails whose trail.osm path embeds every live OSM route-relation way member
+# (full geometry) instead of a densified proxy polyline. Default: every trail
+# registered in TRAIL_RELATIONS.
+EMBED_LIVE_ROUTE_WAYS: set[str] = set(TRAIL_RELATIONS.keys()) | {
+    Path(k).name for k in TRAIL_RELATIONS
 }
 
 # Strong overnight lodging suitable for OSM route-relation membership proposals.
@@ -408,20 +417,36 @@ def write_gpx(path: Path, points: list[tuple[float, float]], trail_name: str) ->
 
 
 def ensure_path_points(
-    trail_dir: Path, trail_name: str, relation_id: int
+    trail_dir: Path, trail_name: str, relation_id: int, *, folder: str = ""
 ) -> list[tuple[float, float]]:
-    for candidate in (
-        trail_dir / TRAIL_OSM_NAME,
-        trail_dir / "josm_review.osm",
+    # Prefer GPX / dedicated path caches when trail.osm embeds live OSM ways
+    # (those ways must not be re-stitched as the densified index).
+    prefer_gpx_first = folder_basename(folder) in EMBED_LIVE_ROUTE_WAYS or folder in EMBED_LIVE_ROUTE_WAYS
+    osm_candidates = (
         trail_dir / "hiking_path.osm",
         trail_dir / "romeriksleden.osm",
-    ):
+        trail_dir / "josm_review.osm",
+        trail_dir / TRAIL_OSM_NAME,
+    )
+    if prefer_gpx_first:
+        osm_candidates = (
+            trail_dir / "hiking_path.osm",
+            trail_dir / "romeriksleden.osm",
+        )
+
+    gpx_path = trail_dir / "hiking_path.gpx"
+    if prefer_gpx_first:
+        points = points_from_gpx(gpx_path)
+        if len(points) >= 2:
+            log(f"  path from {gpx_path.name}: {len(points)} points")
+            return densify_for_index(points, step_m=150.0)
+
+    for candidate in osm_candidates:
         points = points_from_hiking_osm(candidate)
         if len(points) >= 2:
             log(f"  path from {candidate.name}: {len(points)} points")
             return points
 
-    gpx_path = trail_dir / "hiking_path.gpx"
     points = points_from_gpx(gpx_path)
     if len(points) >= 2:
         log(f"  path from {gpx_path.name}: {len(points)} points")
@@ -452,6 +477,106 @@ def ensure_path_points(
     write_gpx(trail_dir / "hiking_path.gpx", index, trail_name)
     log(f"  cached hiking_path.gpx ({len(index)} points)")
     return index
+
+
+def site_role_for_route_member(osm_role: str) -> str:
+    """Map live OSM route member roles into the local site relation."""
+    role = (osm_role or "").strip().lower()
+    if role in {"", "main", "forward", "backward", "route"}:
+        return "path"
+    if role in {"alternative", "alternate", "excursion", "approach", "connection"}:
+        return role if role != "alternate" else "alternative"
+    return role or "path"
+
+
+def embed_live_route_way_members(
+    lines: list[str],
+    *,
+    relation_id: int,
+    seen_elements: set[tuple[str, str]],
+    max_depth: int = 4,
+) -> list[tuple[str, int, str]]:
+    """Embed every way member of the live OSM route (or superroute) with geometry.
+
+    Recurses into child relations (needed for type=superroute such as
+    St. Olavsleden). Returns site-relation membership tuples (type, id, role).
+    """
+    members: list[tuple[str, int, str]] = []
+    visited_rels: set[int] = set()
+
+    def walk(rid: int, depth: int) -> None:
+        if rid in visited_rels or depth > max_depth:
+            return
+        visited_rels.add(rid)
+        url = f"https://www.openstreetmap.org/api/0.6/relation/{rid}/full"
+        log(f"  embedding live route ways from {url} (depth={depth})")
+        root = ET.fromstring(http_get(url, timeout=300))
+        for node in root.findall("node"):
+            eid = node.attrib.get("id")
+            if not eid:
+                continue
+            key = ("node", eid)
+            if key in seen_elements:
+                continue
+            seen_elements.add(key)
+            lines.extend(serialize_osm_element(node))
+        for way in root.findall("way"):
+            eid = way.attrib.get("id")
+            if not eid:
+                continue
+            key = ("way", eid)
+            if key in seen_elements:
+                continue
+            seen_elements.add(key)
+            lines.extend(
+                serialize_osm_element(
+                    way,
+                    extra_tags=[
+                        ("note:osm_route_relation", str(relation_id)),
+                        ("note:trail_path", "live OSM route member"),
+                    ],
+                )
+            )
+        rel_el = next(
+            (r for r in root.findall("relation") if r.attrib.get("id") == str(rid)),
+            None,
+        )
+        if rel_el is None:
+            return
+        child_rels: list[int] = []
+        for member in rel_el.findall("member"):
+            mtype = member.attrib.get("type") or ""
+            try:
+                mid = int(member.attrib["ref"])
+            except (KeyError, ValueError):
+                continue
+            if mtype == "way":
+                members.append(
+                    (
+                        mtype,
+                        mid,
+                        site_role_for_route_member(member.attrib.get("role") or ""),
+                    )
+                )
+            elif mtype == "relation":
+                child_rels.append(mid)
+        for child in child_rels:
+            walk(child, depth + 1)
+
+    walk(relation_id, 0)
+    # De-dupe members while keeping first-seen role
+    seen_ways: set[int] = set()
+    unique: list[tuple[str, int, str]] = []
+    for mtype, mid, role in members:
+        if mid in seen_ways:
+            continue
+        seen_ways.add(mid)
+        unique.append((mtype, mid, role))
+    log(
+        f"  embedded {len(unique)} live route way members "
+        f"across {len(visited_rels)} relation(s)"
+    )
+    return unique
 
 
 def shelter_tags_for_row(row: dict[str, str], *, proposed: bool) -> list[tuple[str, str]]:
@@ -978,6 +1103,7 @@ def append_relation_candidate_nodes(
     relation_id: int,
     next_id: int,
     pbf_paths: list[Path] | None = None,
+    seen_elements: set[tuple[str, str]] | None = None,
 ) -> tuple[list[tuple[str, int]], int]:
     """Emit OSM lodging so JOSM can add them to the live route relation.
 
@@ -986,7 +1112,8 @@ def append_relation_candidate_nodes(
     """
     member_refs: list[tuple[str, int]] = []
     note = f"{RELATION_MEMBER_NOTE} {relation_id}"
-    seen_elements: set[tuple[str, str]] = set()
+    if seen_elements is None:
+        seen_elements = set()
 
     way_ids: set[int] = set()
     for row in candidates:
@@ -1013,6 +1140,10 @@ def append_relation_candidate_nodes(
             continue
         name = (row.get("name") or "").strip()
         if kind == "node":
+            nkey = ("node", str(oid))
+            if nkey in seen_elements:
+                member_refs.append(("node", oid))
+                continue
             lines.append(
                 f"  <node id='{oid}' version='1' visible='true' "
                 f"lat='{lat:.7f}' lon='{lon:.7f}'>"
@@ -1030,7 +1161,7 @@ def append_relation_candidate_nodes(
                 f"    <tag k='note:osm_route_relation' v='{relation_id}'/>"
             )
             lines.append("  </node>")
-            seen_elements.add(("node", str(oid)))
+            seen_elements.add(nkey)
             member_refs.append(("node", oid))
             continue
 
@@ -1059,6 +1190,8 @@ def write_trail_osm(
     path_points: list[tuple[float, float]],
     relation_candidates: list[dict[str, str]] | None = None,
     pbf_paths: list[Path] | None = None,
+    *,
+    folder: str = "",
 ) -> tuple[int, int, int]:
     skip_names = SKIP_POI_NAMES.get(trail_dir.name, set()) | SKIP_POI_NAMES.get(
         trail_name, set()
@@ -1088,8 +1221,19 @@ def write_trail_osm(
     ]
     next_id = -1
     way_id: int | None = None
+    live_path_members: list[tuple[str, int, str]] = []
+    seen_elements: set[tuple[str, str]] = set()
+    embed_live = (
+        folder in EMBED_LIVE_ROUTE_WAYS
+        or folder_basename(folder) in EMBED_LIVE_ROUTE_WAYS
+        or trail_dir.name in EMBED_LIVE_ROUTE_WAYS
+    )
 
-    if len(path_points) >= 2:
+    if embed_live and relation_id:
+        live_path_members = embed_live_route_way_members(
+            lines, relation_id=relation_id, seen_elements=seen_elements
+        )
+    elif len(path_points) >= 2:
         pts = path_points
         if len(pts) > 8000:
             step = math.ceil(len(pts) / 8000)
@@ -1148,11 +1292,15 @@ def write_trail_osm(
         relation_id=relation_id,
         next_id=next_id,
         pbf_paths=pbf_paths,
+        seen_elements=seen_elements,
     )
 
     rel_id = next_id
     lines.append(f"  <relation id='{rel_id}' version='0' action='modify' visible='true'>")
-    if way_id is not None:
+    if live_path_members:
+        for mtype, mid, role in live_path_members:
+            lines.append(f"    <member type='{mtype}' ref='{mid}' role='{role}'/>")
+    elif way_id is not None:
         lines.append(f"    <member type='way' ref='{way_id}' role='path'/>")
     for nid in existing_ids:
         lines.append(f"    <member type='node' ref='{nid}' role='existing'/>")
@@ -1160,6 +1308,12 @@ def write_trail_osm(
         lines.append(f"    <member type='node' ref='{nid}' role='proposed'/>")
     for mtype, mid in route_add_refs:
         lines.append(f"    <member type='{mtype}' ref='{mid}' role='route_add'/>")
+    path_note = (
+        f"Path uses every way member of live OSM relation/{relation_id} "
+        "(full geometry; snaps to OpenStreetMap). "
+        if live_path_members
+        else "Path is densified research geometry. "
+    )
     for key, value in [
         ("type", "site"),
         ("name", trail_name),
@@ -1167,8 +1321,10 @@ def write_trail_osm(
         ("note:trail", trail_name),
         (
             "note",
-            "Local JOSM research file. role=route_add objects are existing OSM "
-            f"lodging to consider adding to relation/{relation_id}.",
+            "Local JOSM research file. "
+            + path_note
+            + "role=route_add objects are existing OSM lodging to consider adding "
+            f"to relation/{relation_id}.",
         ),
     ]:
         lines.append(f"    <tag k='{xml_escape(key)}' v='{xml_escape(value)}'/>")
@@ -1176,8 +1332,13 @@ def write_trail_osm(
     lines.append("</osm>")
 
     (trail_dir / TRAIL_OSM_NAME).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    path_desc = (
+        f"live_ways={len(live_path_members)}"
+        if live_path_members
+        else f"path={'yes' if way_id else 'no'}"
+    )
     log(
-        f"  wrote {TRAIL_OSM_NAME}: path={'yes' if way_id else 'no'}, "
+        f"  wrote {TRAIL_OSM_NAME}: {path_desc}, "
         f"existing={len(existing)}, suggestions={len(gaps)}, "
         f"route_add={len(route_add_refs)}"
     )
@@ -1256,6 +1417,17 @@ def write_trail_readme(
     ]
     gap_names.sort(key=str.lower)
 
+    embed_live = (
+        folder in EMBED_LIVE_ROUTE_WAYS
+        or folder_basename(folder) in EMBED_LIVE_ROUTE_WAYS
+    )
+    path_bullet = (
+        "1. Trail **path** — every live OSM route-relation way member with full "
+        "geometry (snaps to OpenStreetMap; includes `alternative` / `excursion`)"
+        if embed_live
+        else "1. Trail **path** (one densified research way — not every OSM route way member)"
+    )
+
     lines = [
         f"# {trail_name}",
         "",
@@ -1267,7 +1439,7 @@ def write_trail_readme(
         "",
         "It contains:",
         "",
-        "1. Trail **path** (one densified research way — not every OSM route way member)",
+        path_bullet,
         "2. **Existing** overnight POIs (CMS matched) — no `note:proposed`",
         f"3. **New suggestions** — tagged `note:proposed={PROPOSED_ADDITION}`",
         "4. **OSM lodging to add to the live route relation** — role `route_add`, "
@@ -1361,7 +1533,7 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
     if not shelters:
         log("  no shelter rows found — skip")
         return
-    path_points = ensure_path_points(trail_dir, trail_name, relation_id)
+    path_points = ensure_path_points(trail_dir, trail_name, relation_id, folder=folder)
     candidates = load_relation_candidates(root, folder)
     candidates = merge_required_osm_objects(candidates, folder)
     map_overnight: list[dict[str, float | str]] | None = None
@@ -1412,6 +1584,7 @@ def process_trail(folder: str, trail_name: str, relation_id: int, root: Path) ->
         path_points,
         relation_candidates=candidates,
         pbf_paths=pbf_paths or None,
+        folder=folder,
     )
     write_trail_readme(
         trail_dir,

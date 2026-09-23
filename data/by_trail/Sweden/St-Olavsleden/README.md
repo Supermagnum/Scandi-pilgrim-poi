@@ -8,7 +8,7 @@ Open `trail.osm` in this folder (the only `.osm` file).
 
 It contains:
 
-1. Trail **path** (one densified research way — not every OSM route way member)
+1. Trail **path** — every live OSM route-relation way member with full geometry (snaps to OpenStreetMap; includes `alternative` / `excursion`)
 2. **Existing** overnight POIs (CMS matched) — no `note:proposed`
 3. **New suggestions** — tagged `note:proposed=Proposed addition`
 4. **OSM lodging to add to the live route relation** — role `route_add`, search `note:relation_member=Add as member of OSM route relation`

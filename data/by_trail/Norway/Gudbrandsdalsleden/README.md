@@ -8,11 +8,7 @@ Open `trail.osm` in this folder (the only `.osm` file).
 
 It contains:
 
-1. Trail **path** (two densified research ways from official pilegrimsleden.no
-   maptracks: west via Gjøvik to Lillehammer, east via Hamar Oslo–Trondheim —
-   not every OSM route way member). OSM relation
-   [1370273](https://www.openstreetmap.org/relation/1370273) currently only
-   covers about Oslo–Lillehammer.
+1. Trail **path** — every live OSM route-relation way member with full geometry (snaps to OpenStreetMap; includes `alternative` / `excursion`)
 2. **Existing** overnight POIs (CMS matched) — no `note:proposed`
 3. **New suggestions** — tagged `note:proposed=Proposed addition`
 4. **OSM lodging to add to the live route relation** — role `route_add`, search `note:relation_member=Add as member of OSM route relation`

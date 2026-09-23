@@ -8,7 +8,7 @@ Open `trail.osm` in this folder (the only `.osm` file).
 
 It contains:
 
-1. Trail **path** (one densified research way — not every OSM route way member)
+1. Trail **path** — every live OSM route-relation way member with full geometry (snaps to OpenStreetMap; includes `alternative` / `excursion`)
 2. **Existing** overnight POIs (CMS matched) — no `note:proposed`
 3. **New suggestions** — tagged `note:proposed=Proposed addition`
 4. **OSM lodging to add to the live route relation** — role `route_add`, search `note:relation_member=Add as member of OSM route relation`
@@ -32,10 +32,10 @@ members to the live route relation below (download/update those objects first).
 
 | item | count |
 | --- | ---: |
-| Overnight POIs (CMS) | 42 |
-| Existing in trail.osm | 13 |
+| Overnight POIs (CMS) | 40 |
+| Existing in trail.osm | 11 |
 | New suggestions in trail.osm | 29 |
-| OSM lodging to add to route relation (`route_add`) | 64 |
+| OSM lodging to add to route relation (`route_add`) | 63 |
 | Pilgrim centers (reference) | 0 |
 | Pilgrim-center gaps (reference) | 0 |
 | Lodging already on OSM relation | 0 |
